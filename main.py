@@ -175,4 +175,30 @@ async def on_message(message):
         await message.channel.send(str(message.author.name) + " มึง sad เหี้ยไร เศร้ามากก็ไปตายไอ้ควาย")
     await bot.process_commands(message)
 
+###list char###
+albedo = [['Albedo, also known as the "Kreideprinz" is a playable Geo character in Genshin Impact.',
+'The mysterious Albedo is the Chief Alchemist and Captain of the Investigation Team of the Knights of Favonius \
+through a recommendation from the adventurer Alice, with Sucrose as his assistant. He holds an infinite desire to learn about the world of Teyvat, \
+carefully studying every object around him'],['13,226','251','876','28.8%']]
+###list char###
+
+@bot.command()
+async def char(ctx, *, query):
+    query = query.upper()
+    if query == "ALBEDO":
+        send = discord.Embed(title="Overview", description="", colour=0xb24cd8)
+        send.set_thumbnail(url='https://pbs.twimg.com/media/Epu_dv9XIAE9TJt.png')
+        send.add_field(name="About {0}".format(query[:query.find("-")].capitalize()), value="{0} \n\n {1}".format(albedo[0][0],albedo[0][1]), inline=False)
+        send.add_field(name='Stats', value="**Special Stat(Geo DMG Bonus)(lv.90):**{0}".format(albedo[1][3]), inline=False)
+        send.add_field(name='\u200B', value='**Base Hp(lv.90):**{0}'.format(albedo[1][0]), inline=True)
+        send.add_field(name='\u200B', value="**Base ATK(lv.90):**{0}".format(albedo[1][1]), inline=True)
+        send.add_field(name='\u200B', value="**Base DEF(lv.90):**{0}".format(albedo[1][2]), inline=False)
+        send.add_field(name='Ascension Cost',value='**[✦-----]**:20,000 Mora, Prithiva Topaz Sliver x1, Cecilia x3, Divining Scroll x3\n\
+        **[✦✦----]**:40,000 Mora, Prithiva Topaz Fragment x3, Basalt Pilar x2, Cecilia x10, Divining Scroll x15\n\
+        **[✦✦✦---]**:60,000 Mora, Prithiva Topaz Fragment x6, Basalt Pilar x4, Cecilia x20, Sealed Scroll x12\n\
+        **[✦✦✦✦--]**:80,000 Mora, Prithiva Topaz Chunk x3, Basalt Pilar x8, Cecilia x30, Sealed Scroll x18\n\
+        **[✦✦✦✦✦-]**:100,000 Mora, Prithiva Topaz Chunk x6, Basalt Pilar x12, Cecilia x45, Forbidden Curse Scroll x12\n\
+        **[✦✦✦✦✦✦]**:120,000 Mora, Prithiva Topaz Gemstone x6, Basalt Pilar x20, Cecilia x60, Forbidden Curse Scroll x24')
+        await ctx.channel.send(embed=send)
+
 bot.run("ODk3MTMzODMzNDI0NjA1MjI0.YWRO_Q.8lH1q0zOWnm-nF4V4tnbQbydhN8")
