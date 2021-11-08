@@ -9,6 +9,7 @@ from datetime import datetime, timedelta
 import random
 
 bot = commands.Bot(command_prefix="!")
+bot.remove_command("help")
 
 @bot.event
 async def on_ready():
@@ -17,25 +18,32 @@ async def on_ready():
     
 @bot.command()
 async def menu(ctx):
+    await ctx.channel.purge(limit=1)
     text = discord.Embed(title="Paimon Bot Menu", description="What command do you want Paimon to do?", colour=0xCFF1E3)
     text.add_field(name="`!character`", value="All Character List", inline=False)
     text.add_field(name="`!weapon`", value="All Weapon List", inline=False)
     text.add_field(name="`!gacha [wish10|wish1]`", value="Gacha Simulator", inline=False)
     text.add_field(name="`!resin [number your resin]`", value="Resin Calculator", inline=False)
     text.add_field(name="`!dungeon [today|sunday-monday|`", value="Item dropped in dungeon today", inline=False)
+    text.add_field(name="`!clear [amount]`", value="Clear bot messages above for [amount] messages", inline=False)
     text.set_image(url="https://img-comment-fun.9cache.com/media/aVOWQnP/a0Na7Bq2_700w_0.jpg")
     await ctx.channel.send(embed=text)
-    
+
+@bot.command()
+async def clear(ctx, amount):
+    await ctx.channel.purge(limit=int(amount)+1)
+
 @bot.command()
 async def resin(ctx, resin_number):
+    await ctx.channel.purge(limit=1)
     resin_left = 160-int(resin_number)
     min_left_all = resin_left*8
     min_left = min_left_all%60
     hour_left = min_left_all//60
     datetofull = datetime.now() + timedelta(hours=hour_left, minutes=min_left)
     timetofull = str(datetofull)
-    text = discord.Embed(title="Resin Calculator", description="Your Resin is `{0}`" .format(resin_number))
-    text.add_field(name="Time left before your Resin full", value="{0} hours {1} minute" .format(hour_left, min_left), inline=False)
+    text = discord.Embed(title="Resin Calculator", description="**{0}** have `{1}` Resin" .format(ctx.author.name, resin_number))
+    text.add_field(name="Time remaining untill your Resin is full", value="{0} hours {1} minutes" .format(hour_left, min_left), inline=False)
     text.add_field(name="Resin will be full around", value="%.10s | %s" %(datetofull, timetofull[10:19]), inline=False)
     await ctx.channel.send(embed=text)
 
@@ -134,6 +142,7 @@ garantee4 = 0
 async def gacha(ctx, userinput):
     # CHARACTERS and WEAPONS from STANDARD BANNER
     if userinput == 'wish10': #!gacha wish10
+        await ctx.channel.purge(limit=1)
         wish = wish10pull()
         wish_embed = discord.Embed(title="Gacha Result", color=0x1155FF)
         wish_embed.add_field(name="----------------------------------------------------", value="{0}" .format("\n".join(wish)))
@@ -147,6 +156,7 @@ async def gacha(ctx, userinput):
         await ctx.channel.send(embed=wish_embed)
 
     elif userinput == 'wish1': #!gacha wish1
+        await ctx.channel.purge(limit=1)
         wish = wish1pull()
         wish_embed = discord.Embed(title="Gacha Result", color=0x1155FF)
         wish_embed.add_field(name="----------------------------------------------------", value="{0}" .format(*wish))
@@ -168,7 +178,7 @@ async def test(ctx, *, par):
 @bot.event
 async def on_message(message):
     if message.content == "Hi":
-        await message.channel.send("Hi พ่อมึงดิไอ้สัส")
+        await message.channel.purge(limit=1)
     elif message.content == "เสือก":
         await message.channel.send("แล้วมึงควยไรไอ้หน้าหี")
     elif message.content == "sad":
@@ -176,23 +186,27 @@ async def on_message(message):
     await bot.process_commands(message)
 
 ###list char###
-albedo = [['Albedo, also known as the "Kreideprinz" is a playable Geo character in Genshin Impact.',
-'The mysterious Albedo is the Chief Alchemist and Captain of the Investigation Team of the Knights of Favonius \
-through a recommendation from the adventurer Alice, with Sucrose as his assistant. He holds an infinite desire to learn about the world of Teyvat, \
-carefully studying every object around him'],['13,226','251','876','28.8%']]
+def character_info_list(name):
+    if name.lower() == "albedo":
+        albedo = [['Albedo, also known as the "Kreideprinz" is a playable Geo character in Genshin Impact.',
+        'The mysterious Albedo is the Chief Alchemist and Captain of the Investigation Team of the Knights of Favonius \
+        through a recommendation from the adventurer Alice, with Sucrose as his assistant. He holds an infinite desire to learn about the world of Teyvat, \
+        carefully studying every object around him'],['13,226','251','876','28.8%']]
+        return albedo
 ###list char###
 
 @bot.command()
-async def char(ctx, *, query):
-    query = query.upper()
-    if query == "ALBEDO":
+async def character(ctx, *, name):
+    name = name.upper()
+    if name == "ALBEDO":
+        character_info = character_info_list(name)
         send = discord.Embed(title="Overview", description="", colour=0xb24cd8)
         send.set_thumbnail(url='https://pbs.twimg.com/media/Epu_dv9XIAE9TJt.png')
-        send.add_field(name="About {0}".format(query[:query.find("-")].capitalize()), value="{0} \n\n {1}".format(albedo[0][0],albedo[0][1]), inline=False)
-        send.add_field(name='Stats', value="**Special Stat(Geo DMG Bonus)(lv.90):**{0}".format(albedo[1][3]), inline=False)
-        send.add_field(name='\u200B', value='**Base Hp(lv.90):**{0}'.format(albedo[1][0]), inline=True)
-        send.add_field(name='\u200B', value="**Base ATK(lv.90):**{0}".format(albedo[1][1]), inline=True)
-        send.add_field(name='\u200B', value="**Base DEF(lv.90):**{0}".format(albedo[1][2]), inline=False)
+        send.add_field(name="About {0}".format(name.capitalize()), value="{0} \n\n {1}".format(character_info[0][0],character_info[0][1]), inline=False)
+        send.add_field(name='Stats', value="**Special Stat (Geo DMG Bonus) (Lv.90): **{0}".format(character_info[1][3]), inline=False)
+        send.add_field(name='\u200B', value='**Base Hp (Lv.90): **{0}'.format(character_info[1][0]), inline=True)
+        send.add_field(name='\u200B', value="**Base ATK (Lv.90): **{0}".format(character_info[1][1]), inline=True)
+        send.add_field(name='\u200B', value="**Base DEF (Lv.90): **{0}".format(character_info[1][2]), inline=False)
         send.add_field(name='Ascension Cost',value='**[✦-----]**:20,000 Mora, Prithiva Topaz Sliver x1, Cecilia x3, Divining Scroll x3\n\
         **[✦✦----]**:40,000 Mora, Prithiva Topaz Fragment x3, Basalt Pilar x2, Cecilia x10, Divining Scroll x15\n\
         **[✦✦✦---]**:60,000 Mora, Prithiva Topaz Fragment x6, Basalt Pilar x4, Cecilia x20, Sealed Scroll x12\n\
