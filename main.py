@@ -215,7 +215,7 @@ def character_info_list(name):
         return aloy
     elif name.lower() == "amber":
         amber = [['Amber is a playable Pyro character in Genshin Impact.',
-        'As the only remaining Outrider of the Knights of Favonius, she is always ready to help the citizens of Mondstadt — whether it be something simple or perhaps a more challenging task.\nShe can be obtained for free in the Prologue Act I: The Outlander Who Caught the Wind during the quest Winds of the Past.'],\
+        'As the only remaining Outrider of the Knights of Favonius, she is always ready to help the citizens of Mondstadt — whether it be something simple or perhaps a more challenging task.\n\nShe can be obtained for free in the Prologue Act I: The Outlander Who Caught the Wind during the quest Winds of the Past.'],\
         ['9,461', '223', '601', '24.0%', '(ATK Bonus)'],\
         '**[✦-----]**:20,000 Mora, Agnidus Agate Sliver x1, Small Lamp Grass x3, Firm Arrowhead x3\n \
         **[✦✦----]**:40,000 Mora, Agnidus Agate Fragment x3, Everflame Seed x2, Small Lamp Grass x10, Firm Arrowhead x15\n \
