@@ -193,14 +193,26 @@ def character_info_list(name):
         through a recommendation from the adventurer Alice, with Sucrose as his assistant. He holds an infinite desire to learn about the world of Teyvat, \
         carefully studying every object around him'],\
         ['13,226', '251', '876', '28.8%', '(Geo DMG Bonus)'],\
-        '**[✦-----]**:20,000 Mora, Prithiva Topaz Sliver x1, Cecilia x3, Divining Scroll x3 \n \
-        **[✦✦----]**:40,000 Mora, Prithiva Topaz Fragment x3, Basalt Pilar x2, Cecilia x10, Divining Scroll x15 \n \
-        **[✦✦✦---]**:60,000 Mora, Prithiva Topaz Fragment x6, Basalt Pilar x4, Cecilia x20, Sealed Scroll x12 \n \
-        **[✦✦✦✦--]**:80,000 Mora, Prithiva Topaz Chunk x3, Basalt Pilar x8, Cecilia x30, Sealed Scroll x18 \n \
-        **[✦✦✦✦✦-]**:100,000 Mora, Prithiva Topaz Chunk x6, Basalt Pilar x12, Cecilia x45, Forbidden Curse Scroll x12 \n \
+        '**[✦-----]**:20,000 Mora, Prithiva Topaz Sliver x1, Cecilia x3, Divining Scroll x3\n \
+        **[✦✦----]**:40,000 Mora, Prithiva Topaz Fragment x3, Basalt Pilar x2, Cecilia x10, Divining Scroll x15\n \
+        **[✦✦✦---]**:60,000 Mora, Prithiva Topaz Fragment x6, Basalt Pilar x4, Cecilia x20, Sealed Scroll x12\n \
+        **[✦✦✦✦--]**:80,000 Mora, Prithiva Topaz Chunk x3, Basalt Pilar x8, Cecilia x30, Sealed Scroll x18\n \
+        **[✦✦✦✦✦-]**:100,000 Mora, Prithiva Topaz Chunk x6, Basalt Pilar x12, Cecilia x45, Forbidden Curse Scroll x12\n \
         **[✦✦✦✦✦✦]**:120,000 Mora, Prithiva Topaz Gemstone x6, Basalt Pilar x20, Cecilia x60, Forbidden Curse Scroll x24',\
         'https://pbs.twimg.com/media/Epu_dv9XIAE9TJt.png']
         return albedo
+    elif name.lower() == "aloy":
+        aloy = [['Aloy is a playable Cryo crossover character in Genshin Impact.',
+        'She is the heroine from Horizon Zero Dawn and is introduced as a collaboration and crossover character between Guerrilla Games and miHoYo.'],\
+        ['10,899', '234', '676', '28.8%', '(Cryo DMG Bonus)'],\
+        '**[✦-----]**:20,000 Mora, Shivada Jade Sliver x1, Crystal Marrow x3, Spectral Husk x3\n \
+        **[✦✦----]**:40,000 Mora, Shivada Jade Fragment x3, Crystalline Bloom x2, Crystal Marrow x10, Spectral Husk x15\n \
+        **[✦✦✦---]**:60,000 Mora, Shivada Jade Fragment x6, Crystalline Bloom x4, Crystal Marrow x20, Spectral Heart x12\n \
+        **[✦✦✦✦--]**:80,000 Mora, Shivada Jade Chunk x3, Crystalline Bloom x8, Crystal Marrow x30, Spectral Heart x18\n \
+        **[✦✦✦✦✦-]**:100,000 Mora, Shivada Jade Chunk x6, Crystalline Bloom x12, Crystal Marrow x45, Spectral Nucleus x12\n \
+        **[✦✦✦✦✦✦]**:120,000 Mora, Shivada Jade Gemstone x6, Crystalline Bloom x20, Crystal Marrow x60, Spectral Nucleus x24',\
+        'https://preview.redd.it/avoo8sta65t71.png?auto=webp&s=a4a0401e3e99203a08155a339b5c57f01eb941ee']
+        return aloy
 ###list char###
 
 @bot.command()
@@ -209,9 +221,9 @@ async def character(ctx, *, name):
     if name == "ALBEDO":
         character_info = character_info_list(name)
         send = discord.Embed(title="Overview", description="", colour=0xb24cd8)
-        send.set_thumbnail(url=character_info[3])
+        send.set_thumbnail(url= character_info[3])
         send.add_field(name="About {0}".format(name.capitalize()), value="{0} \n\n {1}".format(character_info[0][0],character_info[0][1]), inline=False)
-        send.add_field(name='Stats', value="**Special Stat {0} (Lv.90): **{1}\n**Base Hp (Lv.90): **{2}\n**Base ATK (Lv.90): **{3}\n**Base DEF (Lv.90): **{4}"\
+        send.add_field(name='Stats', value="**Special Stat {0} (Lv.90): **{1}\n**Base Hp (Lv.90): **{2}\n**Base ATK (Lv.90): **{3}\nBase DEF (Lv.90): **{4}"\
         .format(character_info[1][4], character_info[1][3], character_info[1][0], character_info[1][1], character_info[1][2]), inline=False)
         send.add_field(name='Ascension Cost',value='{0}'.format(character_info[2]))
         await ctx.channel.send(embed=send)
