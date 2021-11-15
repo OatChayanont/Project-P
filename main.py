@@ -33,6 +33,16 @@ async def menu(ctx):
 async def clear(ctx, amount):
     await ctx.channel.purge(limit=int(amount)+1)
 
+def dungeon_list(day):
+    if day == 0:
+        sadad = "asdasd"
+@bot.command()
+async def dungeon(ctx, day):
+    if day == "today":
+        today = datetime.today().weekday()
+        text = discord.Embed(title="Dungeon {0}" .format(dungeon_list(today)), description=today)
+        await ctx.channel.send(embed=text)
+
 @bot.command()
 async def resin(ctx, resin_number):
     await ctx.channel.purge(limit=1)
@@ -42,9 +52,10 @@ async def resin(ctx, resin_number):
     hour_left = min_left_all//60
     datetofull = datetime.now() + timedelta(hours=hour_left+7, minutes=min_left) # +7 ไปเพราะ Timezone ใน Web ที่เปิดมันไม่ใช่ของไทย ทำให้เวลา Output มันผิด
     timetofull = str(datetofull)
-    text = discord.Embed(title="Resin Calculator", description="**{0}** have `{1}` Resin" .format(ctx.author.name, resin_number))
+    text = discord.Embed(title="Resin Calculator", description="**{0}** have `{1}` Resin\n" .format(ctx.author.name, resin_number), color=0x2ADADA)
     text.add_field(name="Time remaining untill your Resin is full", value="{0} hours {1} minutes" .format(hour_left, min_left), inline=False)
     text.add_field(name="Resin will be full around", value="%.10s | %s" %(datetofull, timetofull[10:19]), inline=False)
+    text.set_thumbnail(url="https://i.ytimg.com/vi/jkd2YHd8NpQ/maxresdefault.jpg")
     await ctx.channel.send(embed=text)
 
 def wish10pull():
@@ -187,7 +198,18 @@ async def on_message(message):
 
 ###list char###
 def character_info_list(name):
-    if name.lower() == "albedo":
+    if name.lower() == "list":
+        charlist = ["**[5★]** Albedo", "**[5★]** Aloy", "**[4★]** Amber", "**[4★]** Barbara", "**[4★]** Beidou", 
+                    "**[4★]** Bennett", "**[4★]** Chongyun", "**[5★]** Diluc", "**[4★]** Diona", "**[5★]** Eula", 
+                    "**[4★]** Fischl", "**[5★]** Ganyu", "**[5★]** Hu Tao", "**[5★]** Jean", "**[5★]** Kaedehara Kazuha",
+                    "**[4★]** Kaeya", "**[5★]** Kamisato Ayaka", "**[5★]** Keqing", "**[5★]** Klee", "**[4★]** Kujou Sara",
+                    "**[4★]** Lisa", "**[5★]** Mona", "**[4★]** Ningguang", "**[4★]** Noelle", "**[5★]** Qiqi",
+                    "**[5★]** Raiden Shogun", "**[4★]** Razor", "**[4★]** Rosaria", "**[5★]** Sangonomiya Kokomi", "**[4★]** Sayu",
+                    "**[4★]** Sucrose", "**[5★]** Tartaglia", "**[4★]** Thoma", "**[5★]** Traveler",  "**[5★]** Venti"
+                    "**[4★]** Xiangling", "**[5★]** Xiao", "**[4★]** Xingqiu", "**[4★]** Xinyan", "**[4★]** Yanfei"
+                    "**[5★]** Yoimiya", "**[5★]** Zhongli"]
+        return charlist
+    elif name.lower() == "albedo":
         albedo = [['Albedo, also known as the "Kreideprinz" is a playable Geo character in Genshin Impact.',
         'The mysterious Albedo is the Chief Alchemist and Captain of the Investigation Team of the Knights of Favonius \
         through a recommendation from the adventurer Alice, with Sucrose as his assistant. He holds an infinite desire to learn about the world of Teyvat, \
@@ -228,14 +250,19 @@ def character_info_list(name):
 ###list char###
 
 @bot.command()
-async def char(ctx, *, name):  
-    character_info = character_info_list(name)
-    send = discord.Embed(title="Overview", description="", colour=0xb24cd8)
-    send.set_thumbnail(url= character_info[3])
-    send.add_field(name=":yum:About {0}".format(name.capitalize()), value="{0} \n\n {1}".format(character_info[0][0],character_info[0][1]), inline=False)
-    send.add_field(name='Stats', value="**Special Stat {0} (Lv.90): **{1}\n**Base Hp (Lv.90): **{2}\n**Base ATK (Lv.90): **{3}\n**Base DEF (Lv.90): **{4}"\
-    .format(character_info[1][4], character_info[1][3], character_info[1][0], character_info[1][1], character_info[1][2]), inline=False)
-    send.add_field(name='Ascension Cost',value='{0}'.format(character_info[2]))
-    await ctx.channel.send(embed=send)
+async def char(ctx, *, name):
+    if name != "list":
+        character_info = character_info_list(name)
+        send = discord.Embed(title="Overview", description="", colour=0xb24cd8)
+        send.set_thumbnail(url= character_info[3])
+        send.add_field(name="About {0}".format(name.capitalize()), value="{0} \n\n {1}".format(character_info[0][0],character_info[0][1]), inline=False)
+        send.add_field(name='Stats', value="**Special Stat {0} (Lv.90): **{1}\n**Base Hp (Lv.90): **{2}\n**Base ATK (Lv.90): **{3}\n**Base DEF (Lv.90): **{4}"\
+        .format(character_info[1][4], character_info[1][3], character_info[1][0], character_info[1][1], character_info[1][2]), inline=False)
+        send.add_field(name='Ascension Cost',value='{0}'.format(character_info[2]))
+        await ctx.channel.send(embed=send)
+    elif name == "list":
+        charlist = character_info_list(name)
+        send = discord.Embed(title="Character List", description="{0}" .format("\n".join(charlist)), colour=0xffd700)
+        await ctx.channel.send(embed=send)
 
 bot.run("ODk3MTMzODMzNDI0NjA1MjI0.YWRO_Q.8lH1q0zOWnm-nF4V4tnbQbydhN8")
