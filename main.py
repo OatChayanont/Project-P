@@ -214,8 +214,8 @@ def character_info_list(name):
         'https://preview.redd.it/avoo8sta65t71.png?auto=webp&s=a4a0401e3e99203a08155a339b5c57f01eb941ee']
         return aloy
     elif name.lower() == "amber":
-        amber = [['Aloy is a playable Cryo crossover character in Genshin Impact.',
-        'She is the heroine from Horizon Zero Dawn and is introduced as a collaboration and crossover character between Guerrilla Games and miHoYo.'],\
+        amber = [['Amber is a playable Pyro character in Genshin Impact.',
+        'As the only remaining Outrider of the Knights of Favonius, she is always ready to help the citizens of Mondstadt — whether it be something simple or perhaps a more challenging task.\nShe can be obtained for free in the Prologue Act I: The Outlander Who Caught the Wind during the quest Winds of the Past.'],\
         ['9,461', '223', '601', '24.0%', '(ATK Bonus)'],\
         '**[✦-----]**:20,000 Mora, Agnidus Agate Sliver x1, Small Lamp Grass x3, Firm Arrowhead x3\n \
         **[✦✦----]**:40,000 Mora, Agnidus Agate Fragment x3, Everflame Seed x2, Small Lamp Grass x10, Firm Arrowhead x15\n \
