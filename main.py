@@ -217,15 +217,13 @@ def character_info_list(name):
 
 @bot.command()
 async def character(ctx, *, name):
-    name = name.upper()
-    if name == "ALBEDO":
-        character_info = character_info_list(name)
-        send = discord.Embed(title="Overview", description="", colour=0xb24cd8)
-        send.set_thumbnail(url= character_info[3])
-        send.add_field(name="About {0}".format(name.capitalize()), value="{0} \n\n {1}".format(character_info[0][0],character_info[0][1]), inline=False)
-        send.add_field(name='Stats', value="**Special Stat {0} (Lv.90): **{1}\n**Base Hp (Lv.90): **{2}\n**Base ATK (Lv.90): **{3}\nBase DEF (Lv.90): **{4}"\
-        .format(character_info[1][4], character_info[1][3], character_info[1][0], character_info[1][1], character_info[1][2]), inline=False)
-        send.add_field(name='Ascension Cost',value='{0}'.format(character_info[2]))
-        await ctx.channel.send(embed=send)
+    character_info = character_info_list(name)
+    send = discord.Embed(title="Overview", description="", colour=0xb24cd8)
+    send.set_thumbnail(url= character_info[3])
+    send.add_field(name="About {0}".format(name.capitalize()), value="{0} \n\n {1}".format(character_info[0][0],character_info[0][1]), inline=False)
+    send.add_field(name='Stats', value="**Special Stat {0} (Lv.90): **{1}\n**Base Hp (Lv.90): **{2}\n**Base ATK (Lv.90): **{3}\nBase DEF (Lv.90): **{4}"\
+    .format(character_info[1][4], character_info[1][3], character_info[1][0], character_info[1][1], character_info[1][2]), inline=False)
+    send.add_field(name='Ascension Cost',value='{0}'.format(character_info[2]))
+    await ctx.channel.send(embed=send)
 
 bot.run("ODk3MTMzODMzNDI0NjA1MjI0.YWRO_Q.8lH1q0zOWnm-nF4V4tnbQbydhN8")
