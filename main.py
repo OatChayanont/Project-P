@@ -20,7 +20,7 @@ async def on_ready():
 async def menu(ctx):
     await ctx.channel.purge(limit=1)
     text = discord.Embed(title="Paimon Bot Menu", description="What command do you want Paimon to do? **{0}**" .format(ctx.author.name), colour=0xCFF1E3)
-    text.add_field(name="`!character`", value="All Character List", inline=False)
+    text.add_field(name="`!char`", value="All Character List", inline=False)
     text.add_field(name="`!weapon`", value="All Weapon List", inline=False)
     text.add_field(name="`!gacha [wish10|wish1]`", value="Gacha Simulator", inline=False)
     text.add_field(name="`!resin [number your resin]`", value="Resin Calculator", inline=False)
@@ -228,7 +228,7 @@ def character_info_list(name):
 ###list char###
 
 @bot.command()
-async def character(ctx, *, name):  
+async def char(ctx, *, name):  
     character_info = character_info_list(name)
     send = discord.Embed(title="Overview", description="", colour=0xb24cd8)
     send.set_thumbnail(url= character_info[3])
