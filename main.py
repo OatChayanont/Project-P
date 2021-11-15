@@ -193,13 +193,13 @@ def character_info_list(name):
         through a recommendation from the adventurer Alice, with Sucrose as his assistant. He holds an infinite desire to learn about the world of Teyvat, \
         carefully studying every object around him'],\
         ['13,226', '251', '876', '28.8%', '(Geo DMG Bonus)'],\
-        ['**[✦-----]**:20,000 Mora, Prithiva Topaz Sliver x1, Cecilia x3, Divining Scroll x3\n\
-        **[✦✦----]**:40,000 Mora, Prithiva Topaz Fragment x3, Basalt Pilar x2, Cecilia x10, Divining Scroll x15\n\
-        **[✦✦✦---]**:60,000 Mora, Prithiva Topaz Fragment x6, Basalt Pilar x4, Cecilia x20, Sealed Scroll x12\n\
-        **[✦✦✦✦--]**:80,000 Mora, Prithiva Topaz Chunk x3, Basalt Pilar x8, Cecilia x30, Sealed Scroll x18\n\
-        **[✦✦✦✦✦-]**:100,000 Mora, Prithiva Topaz Chunk x6, Basalt Pilar x12, Cecilia x45, Forbidden Curse Scroll x12\n\
-        **[✦✦✦✦✦✦]**:120,000 Mora, Prithiva Topaz Gemstone x6, Basalt Pilar x20, Cecilia x60, Forbidden Curse Scroll x24'],\
-        ['https://pbs.twimg.com/media/Epu_dv9XIAE9TJt.png']]
+        '**[✦-----]**:20,000 Mora, Prithiva Topaz Sliver x1, Cecilia x3, Divining Scroll x3 \n \
+        **[✦✦----]**:40,000 Mora, Prithiva Topaz Fragment x3, Basalt Pilar x2, Cecilia x10, Divining Scroll x15 \n \
+        **[✦✦✦---]**:60,000 Mora, Prithiva Topaz Fragment x6, Basalt Pilar x4, Cecilia x20, Sealed Scroll x12 \n \
+        **[✦✦✦✦--]**:80,000 Mora, Prithiva Topaz Chunk x3, Basalt Pilar x8, Cecilia x30, Sealed Scroll x18 \n \
+        **[✦✦✦✦✦-]**:100,000 Mora, Prithiva Topaz Chunk x6, Basalt Pilar x12, Cecilia x45, Forbidden Curse Scroll x12 \n \
+        **[✦✦✦✦✦✦]**:120,000 Mora, Prithiva Topaz Gemstone x6, Basalt Pilar x20, Cecilia x60, Forbidden Curse Scroll x24',\
+        'https://pbs.twimg.com/media/Epu_dv9XIAE9TJt.png']
         return albedo
 ###list char###
 
@@ -209,7 +209,7 @@ async def character(ctx, *, name):
     if name == "ALBEDO":
         character_info = character_info_list(name)
         send = discord.Embed(title="Overview", description="", colour=0xb24cd8)
-        send.set_thumbnail(url='{0}'.format(character_info[3]))
+        send.set_thumbnail(url=character_info[3])
         send.add_field(name="About {0}".format(name.capitalize()), value="{0} \n\n {1}".format(character_info[0][0],character_info[0][1]), inline=False)
         send.add_field(name='Stats', value="**Special Stat {0} (Lv.90): **{1}".format(character_info[1][4], character_info[1][3]), inline=False)
         send.add_field(name='\u200B', value='**Base Hp (Lv.90): **{0}'.format(character_info[1][0]), inline=True)
