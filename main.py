@@ -239,3 +239,4 @@ async def char(ctx, *, name):
     await ctx.channel.send(embed=send)
 
 bot.run("ODk3MTMzODMzNDI0NjA1MjI0.YWRO_Q.8lH1q0zOWnm-nF4V4tnbQbydhN8")
+#1234
