@@ -19,7 +19,7 @@ async def on_ready():
 @bot.command()
 async def menu(ctx):
     await ctx.channel.purge(limit=1)
-    text = discord.Embed(title="Paimon Bot Menu", description="What command do you want Paimon to do?", colour=0xCFF1E3)
+    text = discord.Embed(title="Paimon Bot Menu", description="What command do you want Paimon to do? **{0}**" .format(ctx.author.name), colour=0xCFF1E3)
     text.add_field(name="`!character`", value="All Character List", inline=False)
     text.add_field(name="`!weapon`", value="All Weapon List", inline=False)
     text.add_field(name="`!gacha [wish10|wish1]`", value="Gacha Simulator", inline=False)
@@ -40,7 +40,7 @@ async def resin(ctx, resin_number):
     min_left_all = resin_left*8
     min_left = min_left_all%60
     hour_left = min_left_all//60
-    datetofull = datetime.now() + timedelta(hours=hour_left, minutes=min_left)
+    datetofull = datetime.now() + timedelta(hours=hour_left+7, minutes=min_left) # +7 ไปเพราะ Timezone ใน Web ที่เปิดมันไม่ใช่ของไทย ทำให้เวลา Output มันผิด
     timetofull = str(datetofull)
     text = discord.Embed(title="Resin Calculator", description="**{0}** have `{1}` Resin" .format(ctx.author.name, resin_number))
     text.add_field(name="Time remaining untill your Resin is full", value="{0} hours {1} minutes" .format(hour_left, min_left), inline=False)
