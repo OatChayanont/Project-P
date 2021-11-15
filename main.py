@@ -20,12 +20,12 @@ async def on_ready():
 async def menu(ctx):
     await ctx.channel.purge(limit=1)
     text = discord.Embed(title="Paimon Bot Menu", description="What command do you want Paimon to do? **{0}**" .format(ctx.author.name), colour=0xCFF1E3)
-    text.add_field(name="`!char`", value="All Character List", inline=False)
-    text.add_field(name="`!weapon`", value="All Weapon List", inline=False)
-    text.add_field(name="`!gacha [wish10|wish1]`", value="Gacha Simulator", inline=False)
-    text.add_field(name="`!resin [number your resin]`", value="Resin Calculator", inline=False)
-    text.add_field(name="`!dungeon [today|sunday-monday|`", value="Item dropped in dungeon today", inline=False)
-    text.add_field(name="`!clear [amount]`", value="Clear bot messages above for [amount] messages", inline=False)
+    text.add_field(name="`!char <list, [character]>`", value="All Character List\nExample\n!char list\n!char hu tao", inline=False)
+    text.add_field(name="`!weapon <list, [weapon]>`", value="All Weapon List\nExample\n!weapon list\n!weapon polar star", inline=False)
+    text.add_field(name="`!gacha <wish10, wish1>`", value="Gacha Simulator", inline=False)
+    text.add_field(name="`!resin <your resin>`", value="Resin Calculator", inline=False)
+    text.add_field(name="`!dungeon <today|monday, ... , sunday>`", value="Meterials can be obtained in dungeon by day", inline=False)
+    text.add_field(name="`!clear <amount>`", value="Clear bot messages above for [amount] messages", inline=False)
     text.set_image(url="https://img-comment-fun.9cache.com/media/aVOWQnP/a0Na7Bq2_700w_0.jpg")
     await ctx.channel.send(embed=text)
 
@@ -34,15 +34,46 @@ async def clear(ctx, amount):
     await ctx.channel.purge(limit=int(amount)+1)
 
 def dungeon_list(day):
-    if day == 0:
-        sadad = "asdasd"
+    if day == 0 or day == 3:
+        dun = ["Monday", ["Forsaken Rift", "Freedom", ["Aloy", "Amber", "Barbara", "Diona", "Klee", "Sucrose", "Tartaglia", "Traveler[Anemo]", "Traveler[Geo]"]],
+                ["Taishan Mansion", "Prosperity", ["Keqing", "Ningguang", "Qiqi", "Traveler[Geo]", "Xiao"]],
+                ["Violet Court", "Transience", ["Kokomi", "Thoma", "Traveler[Electro]", "Yoimiya"]]]
+        if day == 3:
+            dun[0] = "Thursday"
+    elif day == 1 or day == 4:
+        dun = ["Tuesday", ["Forsaken Rift", "Resistance", ["Bennett", "Diluc", "Eula", "Jean", "Mona", "Noelle", "Razor", "Traveler[Anemo]", "Traveler[Geo]"]],
+                ["Taishan Mansion", "Diligence", ["Chongyun", "Ganyu", "Hu Tao", "Kazuha", "Traveler[Geo]", "Xiangling"]],
+                ["Violet Court", "Elegance", ["Ayaka", "Kujou Sara", "Traveler[Electro]"]]]
+        if day == 4:
+            dun[0] = "Friday"
+    elif day == 2 or day == 5:
+        dun = ["Wednesday", ["Forsaken Rift", "Ballad", ["Albedo", "Venti", "Fischl", "Kaeya", "Lisa", "Rosaria", "Traveler[Anemo]", "Traveler[Geo]"]],
+                ["Taishan Mansion", "Gold", ["Zhongli", "Beidou", "Xingqiu", "Xinyan", "Traveler[Geo]", "Yanfei"]],
+                ["Violet Court", "Elegance", ["Raiden Shogun", "Sayu", "Traveler[Electro]"]]]
+        if day == 5:
+            dun[0] = "Saturday"
+    elif day == 6:
+        dun = ["Sunday", ["All Dungeon is open", "All Meterial", ["All Character"]]]
+    return dun
+
 @bot.command()
 async def dungeon(ctx, day):
     if day == "today":
-        today = datetime.today().weekday()
-        text = discord.Embed(title="Dungeon {0}" .format(dungeon_list(today)), description=today)
-        await ctx.channel.send(embed=text)
-
+        today = datetime.today() - timedelta(hours=3) #เพราะว่า Dungeon รีตี 3 เวลาไทย เลยต้องลบเวลาไปก่อน 3 ชั่วโมงเพื่อให้เวลาเดินช้าลง
+        print(today)
+        today = today.weekday()
+        dun_info = dungeon_list(today)
+    else:
+        day_list = ["monday", "tuesday", "wednesday", "thursday", "friday", "saturday", "sunday"]
+        today = day_list.index(day)
+        dun_info = dungeon_list(today)
+    colour_list = {0:0xffd700, 1:0xff80ed, 2:0x5ac18e, 3:0xffa500, 4:0x66ccff, 5:0x8a2be2, 6:0xff0000} #สีตามวัน
+    text = discord.Embed(title="Dungeon {0}" .format(dun_info[0]), description="", colour=colour_list[today])
+    for position in range(1, len(dun_info)):
+        text.add_field(name="{0} -- `{1}`" .format(dun_info[position][0], dun_info[position][1]), value="{0}" .format("\n".join(dun_info[position][2])), inline=False)
+    await ctx.channel.send(embed=text)
+    
+    
 @bot.command()
 async def resin(ctx, resin_number):
     await ctx.channel.purge(limit=1)
@@ -205,8 +236,8 @@ def character_info_list(name):
                     "**[4★]** Kaeya", "**[5★]** Kamisato Ayaka", "**[5★]** Keqing", "**[5★]** Klee", "**[4★]** Kujou Sara",
                     "**[4★]** Lisa", "**[5★]** Mona", "**[4★]** Ningguang", "**[4★]** Noelle", "**[5★]** Qiqi",
                     "**[5★]** Raiden Shogun", "**[4★]** Razor", "**[4★]** Rosaria", "**[5★]** Sangonomiya Kokomi", "**[4★]** Sayu",
-                    "**[4★]** Sucrose", "**[5★]** Tartaglia", "**[4★]** Thoma", "**[5★]** Traveler",  "**[5★]** Venti"
-                    "**[4★]** Xiangling", "**[5★]** Xiao", "**[4★]** Xingqiu", "**[4★]** Xinyan", "**[4★]** Yanfei"
+                    "**[4★]** Sucrose", "**[5★]** Tartaglia", "**[4★]** Thoma", "**[5★]** Traveler",  "**[5★]** Venti",
+                    "**[4★]** Xiangling", "**[5★]** Xiao", "**[4★]** Xingqiu", "**[4★]** Xinyan", "**[4★]** Yanfei",
                     "**[5★]** Yoimiya", "**[5★]** Zhongli"]
         return charlist
     elif name.lower() == "albedo":
@@ -259,13 +290,13 @@ async def char(ctx, *, name):
         send.add_field(name='Stats', value="**Special Stat {0} (Lv.90): **{1}\n**Base Hp (Lv.90): **{2}\n**Base ATK (Lv.90): **{3}\n**Base DEF (Lv.90): **{4}"\
         .format(character_info[1][4], character_info[1][3], character_info[1][0], character_info[1][1], character_info[1][2]), inline=False)
         send.add_field(name='Ascension Cost',value='{0}'.format(character_info[2]))
+        await ctx.channel.purge(limit=1)
         await ctx.channel.send(embed=send)
     elif name == "list":
         charlist = character_info_list(name)
         send = discord.Embed(title="Character List", description="{0}" .format("\n".join(charlist)), colour=0xffd700)
+        send.set_thumbnail(url="https://scontent.fbkk2-7.fna.fbcdn.net/v/t1.6435-9/120373944_377298110314470_5457606321061026205_n.png?_nc_cat=108&ccb=1-5&_nc_sid=730e14&_nc_ohc=c7i92be5JSkAX-0rHI5&_nc_ht=scontent.fbkk2-7.fna&oh=9b044e4a8446b9310b3fc34798d26ae2&oe=61B8F4BD")
+        await ctx.channel.purge(limit=1)
         await ctx.channel.send(embed=send)
 
 bot.run("ODk3MTMzODMzNDI0NjA1MjI0.YWRO_Q.8lH1q0zOWnm-nF4V4tnbQbydhN8")
-#1234
-
-##efefeffefefefefefefef
