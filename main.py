@@ -19,13 +19,13 @@ async def on_ready():
 @bot.command()
 async def menu(ctx):
     await ctx.channel.purge(limit=1)
-    text = discord.Embed(title="Paimon Bot Menu", description="What command do you want Paimon to do? **{0}**" .format(ctx.author.name), colour=0xCFF1E3)
-    text.add_field(name="`!char <list, [character]>`", value="All Character List\nExample\n!char list\n!char hu tao", inline=False)
-    text.add_field(name="`!weapon <list, [weapon]>`", value="All Weapon List\nExample\n!weapon list\n!weapon polar star", inline=False)
+    text = discord.Embed(title="Paimon Bot Menu", description="Bot Paimon มีคำสั่งอะไรบ้าง? **{0}**" .format(ctx.author.name), colour=0xCFF1E3)
+    text.add_field(name="`!char <list, [character]>`", value="List Character ทั้งหมด\nตัวอย่างเช่น\n!char list\n!char hu tao", inline=False)
+    text.add_field(name="`!weapon <list, [weapon]>`", value="List Weapon ทั้งหมด\nตัวอย่างเช่น\n!weapon list\n!weapon polar star", inline=False)
     text.add_field(name="`!gacha <wish10, wish1>`", value="Gacha Simulator", inline=False)
-    text.add_field(name="`!resin <your resin>`", value="Resin Calculator", inline=False)
-    text.add_field(name="`!dungeon <today|monday, ... , sunday>`", value="Meterials can be obtained in dungeon by day", inline=False)
-    text.add_field(name="`!clear <amount>`", value="Clear bot messages above for [amount] messages", inline=False)
+    text.add_field(name="`!resin <your resin>`", value="คำนวณระยะที่ Resin ของคุณจะเต็มตอนกี่โมง", inline=False)
+    text.add_field(name="`!dungeon <today|monday, ... , sunday>`", value="Meterials อัพตัวละครที่ดรอปในดันแต่ละวัน", inline=False)
+    text.add_field(name="`!clear <amount>`", value="ลบข้อความ [จำนวน]", inline=False)
     text.set_image(url="https://img-comment-fun.9cache.com/media/aVOWQnP/a0Na7Bq2_700w_0.jpg")
     await ctx.channel.send(embed=text)
 
@@ -33,7 +33,7 @@ async def menu(ctx):
 async def clear(ctx, amount):
     await ctx.channel.purge(limit=int(amount)+1)
 
-def dungeon_list(day):
+def dungeon_list(day): #เลขด้านหน้าคือ Emoji รูปตัวละครแต่ละตัว โดยอัพ  Emoji ลงใน Server Discord ว่างๆแล้วก็พิมพ์ \:emoji: เพื่อเอา ID มาใส่
     if day == 0 or day == 3:
         dun = ["Monday", ["Forsaken Rift", "Freedom", ["<:aloy:910108780954517514> Aloy", "<:amber:910108707080245248> Amber", 
                 "<:barbara:910108780585418782> Barbara", "<:diona:910108780426051626> Diona", "<:klee:910108780941950976> Klee", 
@@ -74,12 +74,12 @@ def dungeon_list(day):
 
 @bot.command()
 async def dungeon(ctx, day):
-    if day == "today":
+    if day == "today": #ถ้าใช้ !dungeon today
         today = datetime.today() - timedelta(hours=3) #เพราะว่า Dungeon รีตี 3 เวลาไทย เลยต้องลบเวลาไปก่อน 3 ชั่วโมงเพื่อให้เวลาเดินช้าลง **ในเซิฟต้องใช้ +4
         print(today)
-        today = today.weekday()
-        dun_info = dungeon_list(today)
-    else:
+        today = today.weekday() #คืนค่าเป็นเลข 0-6 เริ่มที่ Monday = 0
+        dun_info = dungeon_list(today) #ดึง List ข้อมูลตามวันมาใส่
+    else: #ถ้าใช้ !dungeon monday, tuesday , ... บลาๆ
         day_list = ["monday", "tuesday", "wednesday", "thursday", "friday", "saturday", "sunday"]
         today = day_list.index(day)
         dun_info = dungeon_list(today)
@@ -91,7 +91,7 @@ async def dungeon(ctx, day):
     
     
 @bot.command()
-async def resin(ctx, resin_number):
+async def resin(ctx, resin_number): #หาเวลาที่ Resin จะเต็ม
     await ctx.channel.purge(limit=1)
     resin_left = 160-int(resin_number)
     min_left_all = resin_left*8
