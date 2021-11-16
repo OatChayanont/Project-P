@@ -14,7 +14,7 @@ bot.remove_command("help")
 @bot.event
 async def on_ready():
     print(f"Logged in as {bot.user}")
-    await bot.change_presence(activity=discord.Game(name="!menu to show all menu"))
+    await bot.change_presence(activity=discord.Game(name="!menu เพื่อดูคำสั่งทั้งหมด"))
     
 @bot.command()
 async def menu(ctx):
@@ -263,10 +263,10 @@ def character_info_list(name):
                     "<:yanfei:910108882188271626> **[4★]** Yanfei", "<:yoimiya:910108882213404672> **[5★]** Yoimiya", "<:zhongli:910108882196627526> **[5★]** Zhongli"]
         return charlist
     elif name.lower() == "albedo":
-        albedo = ['Albedo - นักเล่นแร่แปรธาตุที่ตอนนี้ตั้งรกรากอยู่ใน Mondstadt และทำงานให้กับกองอัศวินแห่ง Favonius\nไม่ว่าจะ "อัจฉริยะ", \
-                    "องค์ชายชอล์กขาว" หรือ "หัวหน้าฝ่ายสืบสวน" \
+        albedo = [['Albedo (ภาษาไทย: อัลเบโด้) เป็นตัวละครชายธาตุหินใช้อาวุธดาบที่สามารถเล่นได้ในเกม Genshin Impact', 
+                    'ไม่ว่าจะ "อัจฉริยะ", "องค์ชายชอล์กขาว" หรือ "หัวหน้าฝ่ายสืบสวน" \
                     เขาไม่สนใจในเรื่องของลาภยศและชื่อเสียงเท่าไหร่ แต่มุ่งเน้นไปที่หัวข้อการวิจัยเท่านั้น ความมั่งคั่งและเส้นสายไม่ใช่เป้าหมายของเขา \
-                    สิ่งที่เขาปรารถนาที่จะควบคุมนั้น ก็คือความรู้อันไม่มีที่สิ้นสุด ซึ่งซ่อนอยู่ในจิตใจของมนุษย์มาตั้งแต่สมัยโบราณจนถึงปัจจุบัน',
+                    สิ่งที่เขาปรารถนาที่จะควบคุมนั้น ก็คือความรู้อันไม่มีที่สิ้นสุด ซึ่งซ่อนอยู่ในจิตใจของมนุษย์มาตั้งแต่สมัยโบราณจนถึงปัจจุบัน'],
                     ['13,226', '251', '876', '28.8%', '(Geo DMG Bonus)'],
                     '**[✦-----]**:20,000 Mora, Prithiva Topaz Sliver x1, Cecilia x3, Divining Scroll x3\n \
                     **[✦✦----]**:40,000 Mora, Prithiva Topaz Fragment x3, Basalt Pilar x2, Cecilia x10, Divining Scroll x15\n \
@@ -356,7 +356,7 @@ async def char(ctx, *, name):
         character_info = character_info_list(name)
         send = discord.Embed(title="Overview", description="", colour=0xb24cd8)
         send.set_thumbnail(url=character_info[3])
-        send.add_field(name="{1} {0}".format(name.capitalize(), character_info[4]), value="{0}".format(character_info[0]), inline=False)
+        send.add_field(name="{1} {0}".format(name.capitalize(), character_info[4]), value="{0}\n\n{1}".format(character_info[0][0],character_info[0][1]), inline=False)
         send.add_field(name='---------- Stats [Lv.90] ----------', value="**Base HP: **{2}\n**Base ATK: **{3}\n**Base DEF: **{4}\n**Special Stats {0}: **{1}"\
         .format(character_info[1][4], character_info[1][3], character_info[1][0], character_info[1][1], character_info[1][2]), inline=False)
         send.add_field(name='---------- Ascension Cost ----------',value='{0}'.format(character_info[2]))
@@ -368,11 +368,5 @@ async def char(ctx, *, name):
         send.set_thumbnail(url="https://scontent.fbkk2-7.fna.fbcdn.net/v/t1.6435-9/120373944_377298110314470_5457606321061026205_n.png?_nc_cat=108&ccb=1-5&_nc_sid=730e14&_nc_ohc=c7i92be5JSkAX-0rHI5&_nc_ht=scontent.fbkk2-7.fna&oh=9b044e4a8446b9310b3fc34798d26ae2&oe=61B8F4BD")
         await ctx.channel.purge(limit=1)
         await ctx.channel.send(embed=send)
-        
-@bot.command()
-async def men(ctx):
-    text = discord.Embed(title="Test {0}" .format(ctx.author.mention), description="Test")
-    await ctx.channel.send(ctx.author.mention)
-    await ctx.channel.send(embed=text+ctx.author.mention)
 
 bot.run("ODk3MTMzODMzNDI0NjA1MjI0.YWRO_Q.8lH1q0zOWnm-nF4V4tnbQbydhN8")
