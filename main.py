@@ -19,12 +19,12 @@ async def on_ready():
 @bot.command()
 async def menu(ctx):
     await ctx.channel.purge(limit=1)
-    text = discord.Embed(title="Paimon Bot Menu", description="Bot Paimon มีคำสั่งอะไรบ้าง? **{0}**" .format(ctx.author.name), colour=0xCFF1E3)
-    text.add_field(name="`!char <list, [character]>`", value="List Character ทั้งหมด\nตัวอย่างเช่น\n!char list\n!char hu tao", inline=False)
-    text.add_field(name="`!weapon <list, [weapon]>`", value="List Weapon ทั้งหมด\nตัวอย่างเช่น\n!weapon list\n!weapon polar star", inline=False)
-    text.add_field(name="`!gacha <wish10, wish1>`", value="Gacha Simulator", inline=False)
-    text.add_field(name="`!resin <your resin>`", value="คำนวณระยะที่ Resin ของคุณจะเต็มตอนกี่โมง", inline=False)
-    text.add_field(name="`!dungeon <today|monday, ... , sunday>`", value="Meterials อัพตัวละครที่ดรอปในดันแต่ละวัน", inline=False)
+    text = discord.Embed(title="Paimon Bot Menu", description="อยากให้ Paimon ใช้คำสั่งอะไรบ้างล่ะ? **{0}**" .format(ctx.author.display_name), colour=0xCFF1E3)
+    text.add_field(name="`!char <list หรือ [character]>`", value="List Character ทั้งหมด\nตัวอย่างเช่น\n!char list\n!char hu tao", inline=False)
+    text.add_field(name="`!weapon <list หรือ [weapon]>`", value="List Weapon ทั้งหมด\nตัวอย่างเช่น\n!weapon list\n!weapon polar star", inline=False)
+    text.add_field(name="`!gacha <wish10 หรือ wish1>`", value="สุ่มกาชาจำลอง", inline=False)
+    text.add_field(name="`!resin <your resin>`", value="คำนวณระยะเวลาที่ Resin ของคุณจะเต็มและเต็มตอนกี่โมง", inline=False)
+    text.add_field(name="`!dungeon <today หรือ monday, ... , sunday>`", value="Meterials อัพตัวละครที่ดรอปในดันแต่ละวัน", inline=False)
     text.add_field(name="`!clear <amount>`", value="ลบข้อความ [จำนวน]", inline=False)
     text.set_image(url="https://img-comment-fun.9cache.com/media/aVOWQnP/a0Na7Bq2_700w_0.jpg")
     await ctx.channel.send(embed=text)
@@ -74,6 +74,7 @@ def dungeon_list(day): #เลขด้านหน้าคือ Emoji รู�
 
 @bot.command()
 async def dungeon(ctx, day):
+    await ctx.channel.purge(limit=1)
     if day == "today": #ถ้าใช้ !dungeon today
         today = datetime.today() - timedelta(hours=3) #เพราะว่า Dungeon รีตี 3 เวลาไทย เลยต้องลบเวลาไปก่อน 3 ชั่วโมงเพื่อให้เวลาเดินช้าลง **ในเซิฟต้องใช้ +4
         print(today)
@@ -99,7 +100,7 @@ async def resin(ctx, resin_number): #หาเวลาที่ Resin จะเ
     hour_left = min_left_all//60
     datetofull = datetime.now() + timedelta(hours=hour_left+7, minutes=min_left) # +7 ไปเพราะ Timezone ใน Web ที่เปิดมันไม่ใช่ของไทย ทำให้เวลา Output มันผิด
     timetofull = str(datetofull)
-    text = discord.Embed(title="Resin Calculator", description="**{0}** have `{1}` Resin\n" .format(ctx.author.name, resin_number), color=0x2ADADA)
+    text = discord.Embed(title="Resin Calculator", description="**{0}** have `{1}` Resin\n" .format(ctx.author.display_name, resin_number), color=0x2ADADA)
     text.add_field(name="Time remaining untill your Resin is full", value="{0} hours {1} minutes" .format(hour_left, min_left), inline=False)
     text.add_field(name="Resin will be full around", value="%.10s | %s" %(datetofull, timetofull[10:19]), inline=False)
     text.set_thumbnail(url="https://i.ytimg.com/vi/jkd2YHd8NpQ/maxresdefault.jpg")
@@ -240,41 +241,44 @@ async def on_message(message):
     elif message.content == "เสือก":
         await message.channel.send("แล้วมึงควยไรไอ้หน้าหี")
     elif message.content == "sad":
-        await message.channel.send(str(message.author.name) + " มึง sad เหี้ยไร เศร้ามากก็ไปตายไอ้ควาย")
+        await message.channel.send(str(message.author.display_name) + " มึง sad เหี้ยไร เศร้ามากก็ไปตายไอ้ควาย")
     await bot.process_commands(message)
 
 ###list char###
 def character_info_list(name):
     if name.lower() == "list":
-        charlist = ["**[5★]** Albedo", "**[5★]** Aloy", "**[4★]** Amber", "**[4★]** Barbara", "**[4★]** Beidou", 
-                    "**[4★]** Bennett", "**[4★]** Chongyun", "**[5★]** Diluc", "**[4★]** Diona", "**[5★]** Eula", 
-                    "**[4★]** Fischl", "**[5★]** Ganyu", "**[5★]** Hu Tao", "**[5★]** Jean", "**[5★]** Kaedehara Kazuha",
-                    "**[4★]** Kaeya", "**[5★]** Kamisato Ayaka", "**[5★]** Keqing", "**[5★]** Klee", "**[4★]** Kujou Sara",
-                    "**[4★]** Lisa", "**[5★]** Mona", "**[4★]** Ningguang", "**[4★]** Noelle", "**[5★]** Qiqi",
-                    "**[5★]** Raiden Shogun", "**[4★]** Razor", "**[4★]** Rosaria", "**[5★]** Sangonomiya Kokomi", "**[4★]** Sayu",
-                    "**[4★]** Sucrose", "**[5★]** Tartaglia", "**[4★]** Thoma", "**[5★]** Traveler",  "**[5★]** Venti",
-                    "**[4★]** Xiangling", "**[5★]** Xiao", "**[4★]** Xingqiu", "**[4★]** Xinyan", "**[4★]** Yanfei",
-                    "**[5★]** Yoimiya", "**[5★]** Zhongli"]
+        charlist = ["<:albedo:910108780442812457> **[5★]** Albedo", "<:aloy:910108780954517514> **[5★]** Aloy", "<:amber:910108707080245248> **[4★]** Amber", 
+                    "<:barbara:910108780585418782> **[4★]** Barbara", "<:beidou:910108780627390494> **[4★]** Beidou", "<:bennett:910108780618977290> **[4★]** Bennett",
+                    "<:chongyun:910108780593811496> **[4★]** Chongyun", "<:diluc:910108780610596894> **[5★]** Diluc", "<:diona:910108780426051626> **[4★]** Diona",
+                    "<:eula:910108780631588956> **[5★]** Eula", "<:fischl:910108780598030347> **[4★]** Fischl", "<:ganyu:910108781428506676> **[5★]** Ganyu",
+                    "<:hutao:910108780291850274> **[5★]** Hu Tao", "<:jean:910107170031431690> **[5★]** Jean", "<:kazuha:910108780388298793> **[5★]** Kaedehara Kazuha",
+                    "<:kaeya:910108780652539924> **[4★]** Kaeya", "<:ayaka:910108780660924466> **[5★]** Kamisato Ayaka", "<:keqing:910108780686090241> **[5★]** Keqing",
+                    "<:klee:910108780941950976> **[5★]** Klee", "<:sara:910108882351833138> **[4★]** Kujou Sara", "<:lisa:910108780619001856> **[4★]** Lisa", 
+                    "<:mona:910108882137931776> **[5★]** Mona", "<:ningguang:910108881940795423> **[4★]** Ningguang", "<:noelle:910108882246971432> **[4★]** Noelle",
+                    "<:qiqi:910108882129526815> **[5★]** Qiqi", "<:raiden:910108882175660063> **[5★]** Raiden Shogun", "<:razors:910108881919807520> **[4★]** Razor", 
+                    "<:rosaria:910108882100183051> **[4★]** Rosaria", "<:kokomi:910108780925161503> **[5★]** Sangonomiya Kokomi", "<:sayu:910108881882083339> **[4★]** Sayu",
+                    "<:sucrose:910108882188255322> **[4★]** Sucrose", "<:tartaglia:910108882553163836> **[5★]** Tartaglia", "<:thoma:910108881995321395> **[4★]** Thoma",
+                    "<:lumine:910114534289731634><:aether:910114478488690698>**[5★]** Traveler",  "<:venti:910108882196627496> **[5★]** Venti", "<:xiangling:910108881798189067> **[4★]** Xiangling",
+                    "<:xiao:910108882129547314> **[5★]** Xiao", "<:xingqiu:910108882142126130> **[4★]** Xingqiu", "<:xinyan:910108881907253260> **[4★]** Xinyan",
+                    "<:yanfei:910108882188271626> **[4★]** Yanfei", "<:yoimiya:910108882213404672> **[5★]** Yoimiya", "<:zhongli:910108882196627526> **[5★]** Zhongli"]
         return charlist
     elif name.lower() == "albedo":
-        albedo = [['Aloy (ภาษาไทย: เอลอย) เป็นตัวละครหญิงธาตุน้ำแข็งที่ครอสโอเวอร์ในเกม Genshin Impact',
-                    'Albedo - นักเล่นแร่แปรธาตุที่ตอนนี้ตั้งรกรากอยู่ใน Mondstadt และทำงานให้กับกองอัศวินแห่ง Favonius ไม่ว่าจะ "อัจฉริยะ", \
+        albedo = ['Albedo - นักเล่นแร่แปรธาตุที่ตอนนี้ตั้งรกรากอยู่ใน Mondstadt และทำงานให้กับกองอัศวินแห่ง Favonius\nไม่ว่าจะ "อัจฉริยะ", \
                     "องค์ชายชอล์กขาว" หรือ "หัวหน้าฝ่ายสืบสวน" \
                     เขาไม่สนใจในเรื่องของลาภยศและชื่อเสียงเท่าไหร่ แต่มุ่งเน้นไปที่หัวข้อการวิจัยเท่านั้น ความมั่งคั่งและเส้นสายไม่ใช่เป้าหมายของเขา \
-                    สิ่งที่เขาปรารถนาที่จะควบคุมนั้น ก็คือความรู้อันไม่มีที่สิ้นสุด ซึ่งซ่อนอยู่ในจิตใจของมนุษย์มาตั้งแต่สมัยโบราณจนถึงปัจจุบัน'],\
-                    ['13,226', '251', '876', '28.8%', '(Geo DMG Bonus)'],\
+                    สิ่งที่เขาปรารถนาที่จะควบคุมนั้น ก็คือความรู้อันไม่มีที่สิ้นสุด ซึ่งซ่อนอยู่ในจิตใจของมนุษย์มาตั้งแต่สมัยโบราณจนถึงปัจจุบัน',
+                    ['13,226', '251', '876', '28.8%', '(Geo DMG Bonus)'],
                     '**[✦-----]**:20,000 Mora, Prithiva Topaz Sliver x1, Cecilia x3, Divining Scroll x3\n \
                     **[✦✦----]**:40,000 Mora, Prithiva Topaz Fragment x3, Basalt Pilar x2, Cecilia x10, Divining Scroll x15\n \
                     **[✦✦✦---]**:60,000 Mora, Prithiva Topaz Fragment x6, Basalt Pilar x4, Cecilia x20, Sealed Scroll x12\n \
                     **[✦✦✦✦--]**:80,000 Mora, Prithiva Topaz Chunk x3, Basalt Pilar x8, Cecilia x30, Sealed Scroll x18\n \
                     **[✦✦✦✦✦-]**:100,000 Mora, Prithiva Topaz Chunk x6, Basalt Pilar x12, Cecilia x45, Forbidden Curse Scroll x12\n \
-                    **[✦✦✦✦✦✦]**:120,000 Mora, Prithiva Topaz Gemstone x6, Basalt Pilar x20, Cecilia x60, Forbidden Curse Scroll x24',\
+                    **[✦✦✦✦✦✦]**:120,000 Mora, Prithiva Topaz Gemstone x6, Basalt Pilar x20, Cecilia x60, Forbidden Curse Scroll x24',
                     'https://static.wikia.nocookie.net/genshin-impact/images/0/00/Character_Albedo_Thumb.png/revision/latest/scale-to-width-down/50?cb=20210515115757&path-prefix=th', '[★★★★★]']
         return albedo
     elif name.lower() == "aloy":
-        aloy = [['Aloy (ภาษาไทย: เอลอย) เป็นตัวละครหญิงธาตุน้ำแข็งที่ครอสโอเวอร์ในเกม Genshin Impact',
-                    'ผู้ถูกขับไล่ตั้งแต่กำเนิด Aloy เติบโตขึ้นมาในถิ่นทุรกันดารบนภูเขาอันโหดร้าย ใกล้กับเผ่าที่รังเกียจเธอ เธอได้รับการเลี้ยงดูจากนักล่าที่เชี่ยวชาญ เธอฝึกฝนการล่ามาอย่างสง่างามและแม่นยำราวกับแมว แต่เขาไม่สามารถสอนในสิ่งที่เธออยากเรียนรู้มากที่สุดได้ ที่สำคัญที่สุด เธอร้อนรนอยากจะรู้ว่าเธอเกิดมาอย่างไร พ่อแม่ของเธอเป็นใคร และทำไมเธอถึงถูกชนเผ่ารังเกียจ การแสวงหาคำตอบของเธอ ได้นำพาเธอไปสู่โลกที่กว้างใหญ่ และอันตรายยิ่งกว่าที่เธอเคยจินตนาการเอาไว้ เธอได้พบกับชนเผ่าใหม่ที่แปลกประหลาดและทรงพลัง ซากปรักหักพังโบราณเต็มไปด้วยความลึกลับ และศัตรูแสนอันตราย ที่มีทั้งมนุษย์และเครื่องจักร ในที่สุดเธอก็ได้เรียนรู้ว่า ต้นกำเนิดและโชคชะตาของเธอนั้น ถูกผูกมัดกับชะตากรรมของโลกอย่างลึกซึ้ง และได้เข้าต่อสู้ในศึกครั้งยิ่งใหญ่เพื่อปกป้องโลกจากพลังอันชั่วร้าย ที่กำเนิดมาจากปัญญาประดิษฐ์ในยุคโบราณ เธอคิดว่าการเดินทางครั้งนี้จะสิ้นสุดลงแล้ว แต่มันยังมีเรื่องเล่าจากการผจญภัยอยู่อีกมากมาย และตอนนี้เธอได้เข้ามาที่ดินแดน Teyvat เพื่อค้นหาความท้าทายใหม่ ในโลกแห่งใหม่นี้ Aloy พร้อมที่จะออกล่าแล้ว!'],\
-                    ['10,899', '234', '676', '28.8%', '(Cryo DMG Bonus)'],\
+        aloy = [['Aloy เป็นนางเอกจากเกม Horizon Zero Dawn ถูกสร้างขึ้นมาเป็นตัวละครข้ามเกมและโปรเจ็กต์ประสานงานระหว่างสตูดิโอ Guerrilla Games และ miHoYo'],
+                    ['10,899', '234', '676', '28.8%', '(Cryo DMG Bonus)'],
                     '**[✦-----]**:20,000 Mora, Shivada Jade Sliver x1, Crystal Marrow x3, Spectral Husk x3\n \
                     **[✦✦----]**:40,000 Mora, Shivada Jade Fragment x3, Crystalline Bloom x2, Crystal Marrow x10, Spectral Husk x15\n \
                     **[✦✦✦---]**:60,000 Mora, Shivada Jade Fragment x6, Crystalline Bloom x4, Crystal Marrow x20, Spectral Heart x12\n \
@@ -285,14 +289,15 @@ def character_info_list(name):
         return aloy
     elif name.lower() == "amber":
         amber = [['Amber (ภาษาไทย: แอมเบอร์) เป็นตัวละครหญิงธาตุไฟใช้อาวุธธนูที่สามารถเล่นได้ใน Genshin Impact',
-                    'สาวน้อยผู้สดใสและซื่อตรงและหนึ่งในพลคุ้มกันของกองอัศวินแห่ง Favonius เธอเป็นยอดนักร่อนเวหา และยังเป็น "แชมปันักร่อนเวหา" ของเมือง Monstadt ที่จัดขึ้นทุกปิติดต่อกันถึงสามสมัยในฐานะดาวรุ่งของกองอัศวินแห่ง Favonius วันนี้ Amber ก็ยังคงพร้อมรับภารกิจท้าทายอยู่เสมอ'],\
+                    'สาวน้อยผู้สดใสและซื่อตรงและหนึ่งในพลคุ้มกันของกองอัศวินแห่ง Favonius เธอเป็นยอดนักร่อนเวหา และยังเป็น "แชมปันักร่อนเวหา" \
+                    ของเมือง Monstadt ที่จัดขึ้นทุกปิติดต่อกันถึงสามสมัยในฐานะดาวรุ่งของกองอัศวินแห่ง Favonius วันนี้ Amber ก็ยังคงพร้อมรับภารกิจท้าทายอยู่เสมอ'],
                     ['9,461', '223', '601', '24.0%', '(ATK Bonus)'],\
                     '**[✦-----]**:20,000 Mora, Agnidus Agate Sliver x1, Small Lamp Grass x3, Firm Arrowhead x3\n \
                     **[✦✦----]**:40,000 Mora, Agnidus Agate Fragment x3, Everflame Seed x2, Small Lamp Grass x10, Firm Arrowhead x15\n \
                     **[✦✦✦---]**:60,000 Mora, Agnidus Agate Fragment x6, Everflame Seed x4, Small Lamp Grass x20, Sharp Arrowhead x12\n \
                     **[✦✦✦✦--]**:80,000 Mora, Agnidus Agate Chunk x3, Everflame Seed x8, Small Lamp Grass x30, Sharp Arrowhead x18\n \
                     **[✦✦✦✦✦-]**:100,000 Mora, Agnidus Agate Chunk x6, Everflame Seed x12, Small Lamp Grass x45, Weathered Arrowhead x12\n \
-                    **[✦✦✦✦✦✦]**:120,000 Mora, Agnidus Agate Gemstone x6, Everflame Seed x20, Small Lamp Grass x60, Weathered Arrowhead x24',\
+                    **[✦✦✦✦✦✦]**:120,000 Mora, Agnidus Agate Gemstone x6, Everflame Seed x20, Small Lamp Grass x60, Weathered Arrowhead x24',
                     'https://static.wikia.nocookie.net/genshin-impact/images/c/c6/Character_Amber_Thumb.png/revision/latest/scale-to-width-down/50?cb=20210515115827&path-prefix=th', '[★★★★]']
         return amber
 ###list char###
@@ -302,11 +307,11 @@ async def char(ctx, *, name):
     if name != "list":
         character_info = character_info_list(name)
         send = discord.Embed(title="Overview", description="", colour=0xb24cd8)
-        send.set_thumbnail(url= character_info[3])
-        send.add_field(name="{1} {0}".format(name.capitalize(), character_info[4]), value="{0} \n\n {1}".format(character_info[0][0],character_info[0][1]), inline=False)
-        send.add_field(name='Stats', value="**Special Stat {0} (Lv.90): **{1}\n**Base Hp (Lv.90): **{2}\n**Base ATK (Lv.90): **{3}\n**Base DEF (Lv.90): **{4}"\
+        send.set_thumbnail(url=character_info[3])
+        send.add_field(name="{1} {0}".format(name.capitalize(), character_info[4]), value="{0}".format(character_info[0]), inline=False)
+        send.add_field(name='---------- Stats [Lv.90] ----------', value="**Base HP: **{2}\n**Base ATK: **{3}\n**Base DEF: **{4}\n**Special Stats {0}: **{1}"\
         .format(character_info[1][4], character_info[1][3], character_info[1][0], character_info[1][1], character_info[1][2]), inline=False)
-        send.add_field(name='Ascension Cost',value='{0}'.format(character_info[2]))
+        send.add_field(name='---------- Ascension Cost ----------',value='{0}'.format(character_info[2]))
         await ctx.channel.purge(limit=1)
         await ctx.channel.send(embed=send)
     elif name == "list":
@@ -315,5 +320,11 @@ async def char(ctx, *, name):
         send.set_thumbnail(url="https://scontent.fbkk2-7.fna.fbcdn.net/v/t1.6435-9/120373944_377298110314470_5457606321061026205_n.png?_nc_cat=108&ccb=1-5&_nc_sid=730e14&_nc_ohc=c7i92be5JSkAX-0rHI5&_nc_ht=scontent.fbkk2-7.fna&oh=9b044e4a8446b9310b3fc34798d26ae2&oe=61B8F4BD")
         await ctx.channel.purge(limit=1)
         await ctx.channel.send(embed=send)
+        
+@bot.command()
+async def men(ctx):
+    text = discord.Embed(title="Test {0}" .format(ctx.author.mention), description="Test")
+    await ctx.channel.send(ctx.author.mention)
+    await ctx.channel.send(embed=text+ctx.author.mention)
 
 bot.run("ODk3MTMzODMzNDI0NjA1MjI0.YWRO_Q.8lH1q0zOWnm-nF4V4tnbQbydhN8")
