@@ -257,10 +257,8 @@ def character_info_list(name):
                     "**[5★]** Yoimiya", "**[5★]** Zhongli"]
         return charlist
     elif name.lower() == "albedo":
-        albedo = [['Albedo, also known as the "Kreideprinz" is a playable Geo character in Genshin Impact.',
-        'The mysterious Albedo is the Chief Alchemist and Captain of the Investigation Team of the Knights of Favonius \
-        through a recommendation from the adventurer Alice, with Sucrose as his assistant. He holds an infinite desire to learn about the world of Teyvat, \
-        carefully studying every object around him'],\
+        albedo = [['Aloy (ภาษาไทย: เอลอย) เป็นตัวละครหญิงธาตุน้ำแข็งที่ครอสโอเวอร์ในเกม Genshin Impact',
+        'Albedo - นักเล่นแร่แปรธาตุที่ตอนนี้ตั้งรกรากอยู่ใน Mondstadt และทำงานให้กับกองอัศวินแห่ง Favonius\nไม่ว่าจะ "อัจฉริยะ", "องค์ชายชอล์กขาว" หรือ "หัวหน้าฝ่ายสืบสวน" เขาไม่สนใจในเรื่องของลาภยศและชื่อเสียงเท่าไหร่ แต่มุ่งเน้นไปที่หัวข้อการวิจัยเท่านั้น ความมั่งคั่งและเส้นสายไม่ใช่เป้าหมายของเขา สิ่งที่เขาปรารถนาที่จะควบคุมนั้น ก็คือความรู้อันไม่มีที่สิ้นสุด ซึ่งซ่อนอยู่ในจิตใจของมนุษย์มาตั้งแต่สมัยโบราณจนถึงปัจจุบัน'],\
         ['13,226', '251', '876', '28.8%', '(Geo DMG Bonus)'],\
         '**[✦-----]**:20,000 Mora, Prithiva Topaz Sliver x1, Cecilia x3, Divining Scroll x3\n \
         **[✦✦----]**:40,000 Mora, Prithiva Topaz Fragment x3, Basalt Pilar x2, Cecilia x10, Divining Scroll x15\n \
@@ -268,11 +266,11 @@ def character_info_list(name):
         **[✦✦✦✦--]**:80,000 Mora, Prithiva Topaz Chunk x3, Basalt Pilar x8, Cecilia x30, Sealed Scroll x18\n \
         **[✦✦✦✦✦-]**:100,000 Mora, Prithiva Topaz Chunk x6, Basalt Pilar x12, Cecilia x45, Forbidden Curse Scroll x12\n \
         **[✦✦✦✦✦✦]**:120,000 Mora, Prithiva Topaz Gemstone x6, Basalt Pilar x20, Cecilia x60, Forbidden Curse Scroll x24',\
-        'https://pbs.twimg.com/media/Epu_dv9XIAE9TJt.png']
+        'https://pbs.twimg.com/media/Epu_dv9XIAE9TJt.png', '[★★★★★]']
         return albedo
     elif name.lower() == "aloy":
-        aloy = [['Aloy is a playable Cryo crossover character in Genshin Impact.',
-        'She is the heroine from Horizon Zero Dawn and is introduced as a collaboration and crossover character between Guerrilla Games and miHoYo.'],\
+        aloy = [['Aloy (ภาษาไทย: เอลอย) เป็นตัวละครหญิงธาตุน้ำแข็งที่ครอสโอเวอร์ในเกม Genshin Impact',
+        'ผู้ถูกขับไล่ตั้งแต่กำเนิด Aloy เติบโตขึ้นมาในถิ่นทุรกันดารบนภูเขาอันโหดร้าย ใกล้กับเผ่าที่รังเกียจเธอ เธอได้รับการเลี้ยงดูจากนักล่าที่เชี่ยวชาญ เธอฝึกฝนการล่ามาอย่างสง่างามและแม่นยำราวกับแมว แต่เขาไม่สามารถสอนในสิ่งที่เธออยากเรียนรู้มากที่สุดได้ ที่สำคัญที่สุด เธอร้อนรนอยากจะรู้ว่าเธอเกิดมาอย่างไร พ่อแม่ของเธอเป็นใคร และทำไมเธอถึงถูกชนเผ่ารังเกียจ การแสวงหาคำตอบของเธอ ได้นำพาเธอไปสู่โลกที่กว้างใหญ่ และอันตรายยิ่งกว่าที่เธอเคยจินตนาการเอาไว้ เธอได้พบกับชนเผ่าใหม่ที่แปลกประหลาดและทรงพลัง ซากปรักหักพังโบราณเต็มไปด้วยความลึกลับ และศัตรูแสนอันตราย ที่มีทั้งมนุษย์และเครื่องจักร ในที่สุดเธอก็ได้เรียนรู้ว่า ต้นกำเนิดและโชคชะตาของเธอนั้น ถูกผูกมัดกับชะตากรรมของโลกอย่างลึกซึ้ง และได้เข้าต่อสู้ในศึกครั้งยิ่งใหญ่เพื่อปกป้องโลกจากพลังอันชั่วร้าย ที่กำเนิดมาจากปัญญาประดิษฐ์ในยุคโบราณ เธอคิดว่าการเดินทางครั้งนี้จะสิ้นสุดลงแล้ว แต่มันยังมีเรื่องเล่าจากการผจญภัยอยู่อีกมากมาย และตอนนี้เธอได้เข้ามาที่ดินแดน Teyvat เพื่อค้นหาความท้าทายใหม่ ในโลกแห่งใหม่นี้ Aloy พร้อมที่จะออกล่าแล้ว!'],\
         ['10,899', '234', '676', '28.8%', '(Cryo DMG Bonus)'],\
         '**[✦-----]**:20,000 Mora, Shivada Jade Sliver x1, Crystal Marrow x3, Spectral Husk x3\n \
         **[✦✦----]**:40,000 Mora, Shivada Jade Fragment x3, Crystalline Bloom x2, Crystal Marrow x10, Spectral Husk x15\n \
@@ -280,11 +278,11 @@ def character_info_list(name):
         **[✦✦✦✦--]**:80,000 Mora, Shivada Jade Chunk x3, Crystalline Bloom x8, Crystal Marrow x30, Spectral Heart x18\n \
         **[✦✦✦✦✦-]**:100,000 Mora, Shivada Jade Chunk x6, Crystalline Bloom x12, Crystal Marrow x45, Spectral Nucleus x12\n \
         **[✦✦✦✦✦✦]**:120,000 Mora, Shivada Jade Gemstone x6, Crystalline Bloom x20, Crystal Marrow x60, Spectral Nucleus x24',\
-        'https://preview.redd.it/avoo8sta65t71.png?auto=webp&s=a4a0401e3e99203a08155a339b5c57f01eb941ee']
+        'https://preview.redd.it/avoo8sta65t71.png?auto=webp&s=a4a0401e3e99203a08155a339b5c57f01eb941ee', '[★★★★★]']
         return aloy
     elif name.lower() == "amber":
-        amber = [['Amber is a playable Pyro character in Genshin Impact.',
-        'As the only remaining Outrider of the Knights of Favonius, she is always ready to help the citizens of Mondstadt — whether it be something simple or perhaps a more challenging task.\n\nShe can be obtained for free in the Prologue Act I: The Outlander Who Caught the Wind during the quest Winds of the Past.'],\
+        amber = [['Amber (ภาษาไทย: แอมเบอร์) เป็นตัวละครหญิงธาตุไฟใช้อาวุธธนูที่สามารถเล่นได้ใน Genshin Impact',
+        'สาวน้อยผู้สดใสและซื่อตรงและหนึ่งในพลคุ้มกันของกองอัศวินแห่ง Favonius เธอเป็นยอดนักร่อนเวหา และยังเป็น "แชมปันักร่อนเวหา" ของเมือง Monstadt ที่จัดขึ้นทุกปิติดต่อกันถึงสามสมัยในฐานะดาวรุ่งของกองอัศวินแห่ง Favonius วันนี้ Amber ก็ยังคงพร้อมรับภารกิจท้าทายอยู่เสมอ'],\
         ['9,461', '223', '601', '24.0%', '(ATK Bonus)'],\
         '**[✦-----]**:20,000 Mora, Agnidus Agate Sliver x1, Small Lamp Grass x3, Firm Arrowhead x3\n \
         **[✦✦----]**:40,000 Mora, Agnidus Agate Fragment x3, Everflame Seed x2, Small Lamp Grass x10, Firm Arrowhead x15\n \
@@ -292,7 +290,7 @@ def character_info_list(name):
         **[✦✦✦✦--]**:80,000 Mora, Agnidus Agate Chunk x3, Everflame Seed x8, Small Lamp Grass x30, Sharp Arrowhead x18\n \
         **[✦✦✦✦✦-]**:100,000 Mora, Agnidus Agate Chunk x6, Everflame Seed x12, Small Lamp Grass x45, Weathered Arrowhead x12\n \
         **[✦✦✦✦✦✦]**:120,000 Mora, Agnidus Agate Gemstone x6, Everflame Seed x20, Small Lamp Grass x60, Weathered Arrowhead x24',\
-        'https://i.pinimg.com/originals/1f/d0/dc/1fd0dcd6665c8cad00dba0235a9bf54a.png']
+        'https://i.pinimg.com/originals/1f/d0/dc/1fd0dcd6665c8cad00dba0235a9bf54a.png', '[★★★★]']
         return amber
 ###list char###
 
