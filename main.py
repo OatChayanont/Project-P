@@ -95,9 +95,9 @@ async def dungeon(ctx, day):
 async def resin(ctx, resin_number): #หาเวลาที่ Resin จะเต็ม
     await ctx.channel.purge(limit=1)
     resin_left = 160-int(resin_number)
-    min_left_all = resin_left*8
-    min_left = min_left_all%60
-    hour_left = min_left_all//60
+    min_left_all = resin_left*8 #นาทีที่เหลือทั้งหมด
+    min_left = min_left_all%60 #ชั่วโมง
+    hour_left = min_left_all//60 #นาที
     datetofull = datetime.now() + timedelta(hours=hour_left+7, minutes=min_left) # +7 ไปเพราะ Timezone ใน Web ที่เปิดมันไม่ใช่ของไทย ทำให้เวลา Output มันผิด
     timetofull = str(datetofull)
     text = discord.Embed(title="Resin Calculator", description="**{0}** have `{1}` Resin\n" .format(ctx.author.display_name, resin_number), color=0x2ADADA)
