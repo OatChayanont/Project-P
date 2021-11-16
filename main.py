@@ -266,7 +266,7 @@ def character_info_list(name):
         **[✦✦✦✦--]**:80,000 Mora, Prithiva Topaz Chunk x3, Basalt Pilar x8, Cecilia x30, Sealed Scroll x18\n \
         **[✦✦✦✦✦-]**:100,000 Mora, Prithiva Topaz Chunk x6, Basalt Pilar x12, Cecilia x45, Forbidden Curse Scroll x12\n \
         **[✦✦✦✦✦✦]**:120,000 Mora, Prithiva Topaz Gemstone x6, Basalt Pilar x20, Cecilia x60, Forbidden Curse Scroll x24',\
-        'https://pbs.twimg.com/media/Epu_dv9XIAE9TJt.png', '[★★★★★]']
+        'https://static.wikia.nocookie.net/genshin-impact/images/0/00/Character_Albedo_Thumb.png/revision/latest/scale-to-width-down/50?cb=20210515115757&path-prefix=th', '[★★★★★]']
         return albedo
     elif name.lower() == "aloy":
         aloy = [['Aloy (ภาษาไทย: เอลอย) เป็นตัวละครหญิงธาตุน้ำแข็งที่ครอสโอเวอร์ในเกม Genshin Impact',
@@ -278,7 +278,7 @@ def character_info_list(name):
         **[✦✦✦✦--]**:80,000 Mora, Shivada Jade Chunk x3, Crystalline Bloom x8, Crystal Marrow x30, Spectral Heart x18\n \
         **[✦✦✦✦✦-]**:100,000 Mora, Shivada Jade Chunk x6, Crystalline Bloom x12, Crystal Marrow x45, Spectral Nucleus x12\n \
         **[✦✦✦✦✦✦]**:120,000 Mora, Shivada Jade Gemstone x6, Crystalline Bloom x20, Crystal Marrow x60, Spectral Nucleus x24',\
-        'https://preview.redd.it/avoo8sta65t71.png?auto=webp&s=a4a0401e3e99203a08155a339b5c57f01eb941ee', '[★★★★★]']
+        'https://static.wikia.nocookie.net/genshin-impact/images/6/6a/Character_Aloy_Thumb.png/revision/latest/scale-to-width-down/50?cb=20210902150457&path-prefix=th', '[★★★★★]']
         return aloy
     elif name.lower() == "amber":
         amber = [['Amber (ภาษาไทย: แอมเบอร์) เป็นตัวละครหญิงธาตุไฟใช้อาวุธธนูที่สามารถเล่นได้ใน Genshin Impact',
@@ -290,7 +290,7 @@ def character_info_list(name):
         **[✦✦✦✦--]**:80,000 Mora, Agnidus Agate Chunk x3, Everflame Seed x8, Small Lamp Grass x30, Sharp Arrowhead x18\n \
         **[✦✦✦✦✦-]**:100,000 Mora, Agnidus Agate Chunk x6, Everflame Seed x12, Small Lamp Grass x45, Weathered Arrowhead x12\n \
         **[✦✦✦✦✦✦]**:120,000 Mora, Agnidus Agate Gemstone x6, Everflame Seed x20, Small Lamp Grass x60, Weathered Arrowhead x24',\
-        'https://i.pinimg.com/originals/1f/d0/dc/1fd0dcd6665c8cad00dba0235a9bf54a.png', '[★★★★]']
+        'https://static.wikia.nocookie.net/genshin-impact/images/c/c6/Character_Amber_Thumb.png/revision/latest/scale-to-width-down/50?cb=20210515115827&path-prefix=th', '[★★★★]']
         return amber
 ###list char###
 
