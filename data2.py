@@ -1,7 +1,7 @@
 def weapon_info_list(name):
     if name.lower() == "polar star":
         lst = ["https://static.wikia.nocookie.net/gensin-impact/images/4/44/Weapon_Polar_Star.png/revision/latest/scale-to-width-down/256?cb=20211013042349", \
-        "A pristine bow that is as sharp as the glaciers of the far north.", "Bow", ["608", "33.1%", "CRIT Rate"], \
+        "ธนูไร้มลทินที่แหลมคม ราวกับแท่งน้ำแข็งในฤดูหนาวที่แสนยาวนาน", "Bow", ["608", "33.1%", "CRIT Rate"], \
         "**[✦-----]**:10,000 Mora, Mask of the Wicked Lieutenant x5, Concealed Claw x5, Spectral Husk x3\n \
         **[✦✦----]**:20,000 Mora, Mask of the Tiger's Bite x5, Concealed Claw x18, Spectral Husk x12\n \
         **[✦✦✦---]**:30,000 Mora, Mask of the Tiger's Bite x9, Concealed Unguis x9, Spectral Heart x9\n \
