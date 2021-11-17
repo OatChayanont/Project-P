@@ -59,7 +59,7 @@ async def dungeon(ctx, day):
 @bot.command()
 async def resin(ctx, resin_number): #หาเวลาที่ Resin จะเต็ม
     await ctx.channel.purge(limit=1)
-    resin_left = 160-int(resin_number)
+    resin_left = 160-int(resin_number) #Resin ที่ไม่มี
     min_left_all = resin_left*8 #นาทีที่เหลือทั้งหมด
     min_left = min_left_all%60 #ชั่วโมง
     hour_left = min_left_all//60 #นาที
