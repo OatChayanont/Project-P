@@ -8,7 +8,7 @@ from discord.ext import commands
 from datetime import datetime, timedelta
 #ดึงข้อมูลมาจากไฟล์ data
 from data import character_info_list, dungeon_list
-from gacha import wish10pull,  wish1pull
+from gacha import wish10pull,  wish1pull, garantee5
 
 bot = commands.Bot(command_prefix="!")
 bot.remove_command("help")
