@@ -6,8 +6,8 @@ import discord
 from discord import colour
 from discord.ext import commands
 from datetime import datetime, timedelta
-import random
-from data import character_info_list, dungeon_list #ดึงข้อมูลมาจากไฟล์ data
+#ดึงข้อมูลมาจากไฟล์ data
+from data import character_info_list, dungeon_list
 from gacha import wish10pull,  wish1pull
 
 bot = commands.Bot(command_prefix="!")
