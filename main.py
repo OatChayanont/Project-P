@@ -51,12 +51,11 @@ async def dungeon(ctx, day):
         today = day_list.index(day)
         dun_info = dungeon_list(today)
     colour_list = {0:0xffd700, 1:0xff80ed, 2:0x5ac18e, 3:0xffa500, 4:0x66ccff, 5:0x8a2be2, 6:0xff0000} #สีตามวัน
-    text = discord.Embed(title="Dungeon {0}" .format(dun_info[0]), description="", colour=colour_list[today])
+    text = discord.Embed(title="Dungeon {0}" .format(dun_info["day"]), description="", colour=colour_list[today])
     for position in range(1, len(dun_info)):
-        text.add_field(name="{0} -- `{1}`" .format(dun_info[position][0], dun_info[position][1]), value="{0}" .format("\n".join(dun_info[position][2])), inline=False)
+        text.add_field(name="{0} -- `{1}`" .format(dun_info[position]["name"], dun_info[position]["dunbook"]), value="{0}" .format("\n".join(dun_info[position]["charlist"])), inline=False)
     await ctx.channel.send(embed=text)
-    
-    
+
 @bot.command()
 async def resin(ctx, resin_number): #หาเวลาที่ Resin จะเต็ม
     await ctx.channel.purge(limit=1)
