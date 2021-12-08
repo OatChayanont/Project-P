@@ -7,9 +7,10 @@ from discord import colour
 from discord.ext import commands
 from datetime import datetime, timedelta
 #ดึงข้อมูลมาจากไฟล์ data
-from data import character_info_list, dungeon_list
+from data import character_info_list
 from data2 import weapon_info_list
 from gacha import wish10pull,  wish1pull, garantee5
+from dungeon import dungeon_list
 
 bot = commands.Bot(command_prefix="!")
 bot.remove_command("help")
@@ -137,7 +138,7 @@ async def char(ctx, *, name):
         send.set_thumbnail(url="https://scontent.fbkk2-7.fna.fbcdn.net/v/t1.6435-9/120373944_377298110314470_5457606321061026205_n.png?_nc_cat=108&ccb=1-5&_nc_sid=730e14&_nc_ohc=c7i92be5JSkAX-0rHI5&_nc_ht=scontent.fbkk2-7.fna&oh=9b044e4a8446b9310b3fc34798d26ae2&oe=61B8F4BD")
         await ctx.channel.purge(limit=1)
         await ctx.channel.send(embed=send)
-    
+
 @bot.command()
 async def weapon(ctx, *, name):
     weapon_info = weapon_info_list(name)
