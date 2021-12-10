@@ -125,7 +125,7 @@ async def char(ctx, *, name):
         character_info = character_info_list(name)
         send = discord.Embed(title="Overview", description="", colour=0xb24cd8)
         send.set_thumbnail(url=character_info['thum'])
-        send.add_field(name="{1} {0}".format(name.capitalize(), character_info['star']), value="{0}\n\n{1}".format(character_info['his1'],character_info['his2']), inline=False)
+        send.add_field(name="{1} {0}".format(name.capitalize(), character_info['star']), value="{0}".format(character_info['his1']), inline=False)
         send.add_field(name='---------- Stats [Lv.90] ----------', value="**Base HP: **{0}\n**Base ATK: **{1}\n**Base DEF: **{2}\n**Special Stats {3}: **{4}"\
         .format(character_info['stat'][0], character_info['stat'][1], character_info['stat'][2], character_info['stat'][4], character_info['stat'][3]), inline=False)
         send.add_field(name='---------- Ascension Cost ----------',value='{0}'.format(character_info['ascen']))
