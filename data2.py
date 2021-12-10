@@ -676,27 +676,27 @@ def weapon_info_list(name):
         **[✦✦✦✦✦-]**:35,000 Mora, Mist Veiled Gold Elixir x6, Mist Grass Wick x9, Lieutenant's Insignia x6\n \
         **[✦✦✦✦✦✦]**:45,000 Mora, Mist Veiled Primo Elixir x4, Mist Grass Wick x18, Lieutenant's Insignia x12", 'name':"Blackcliff Slasher"}
         return lst62
-    elif name.lower() == "":
-        lst63 = {'thum':"", \
-        'his':"", \
-        'type':"Claymore", 'stat':["510", "51.7%", "Physical DMG Bonus"], \
-        'ascen':"**[✦-----]**:5,000 Mora,  x3,  x3,  x2\n \
-        **[✦✦----]**:15,000 Mora,  x3,  x12,  x8\n \
-        **[✦✦✦---]**:20,000 Mora,  x6,  x6,  x6\n \
-        **[✦✦✦✦--]**:30,000 Mora,  x3,   x12,  x9\n \
-        **[✦✦✦✦✦-]**:35,000 Mora,  x6,  x9,  x6\n \
-        **[✦✦✦✦✦✦]**:45,000 Mora,  x4,  x18,  x12", 'name':""}
+    elif name.lower() == "rainslasher":
+        lst63 = {'thum':"https://static.wikia.nocookie.net/gensin-impact/images/d/d4/Weapon_Rainslasher.png/revision/latest/scale-to-width-down/256?cb=20201119235128", \
+        'his':"ดาบใหญ่ไร้คมซึ่งส่องประกายแสงสลัว ๆ ขดขยี้ศัตรูอย่างราบคาบด้วยความแรงและความแข็งแกร่ง", \
+        'type':"Claymore", 'stat':["510", "165", "Elemental Mastery"], \
+        'ascen':"**[✦-----]**:5,000 Mora, Mist Veiled Lead Elixir x3, Mist Grass Pollen x3, Divining Scroll x2\n \
+        **[✦✦----]**:15,000 Mora, Mist Veiled Mercury Elixir x3, Mist Grass Pollen x12, Divining Scroll x8\n \
+        **[✦✦✦---]**:20,000 Mora, Mist Veiled Mercury Elixir x6, Mist Grass x6, Sealed Scroll x6\n \
+        **[✦✦✦✦--]**:30,000 Mora, Mist Veiled Gold Elixir x3, Mist Grass x12, Sealed Scroll x9\n \
+        **[✦✦✦✦✦-]**:35,000 Mora, Mist Veiled Gold Elixir x6, Mist Grass Wick x9, Forbidden Curse Scroll x6\n \
+        **[✦✦✦✦✦✦]**:45,000 Mora, Mist Veiled Primo Elixir x4, Mist Grass Wick x18, Forbidden Curse Scroll x12", 'name':"Rainslasher"}
         return lst63
-    elif name.lower() == "":
-        lst64 = {'thum':"", \
-        'his':"", \
-        'type':"Claymore", 'stat':["510", "51.7%", "Physical DMG Bonus"], \
-        'ascen':"**[✦-----]**:5,000 Mora,  x3,  x3,  x2\n \
-        **[✦✦----]**:15,000 Mora,  x3,  x12,  x8\n \
-        **[✦✦✦---]**:20,000 Mora,  x6,  x6,  x6\n \
-        **[✦✦✦✦--]**:30,000 Mora,  x3,   x12,  x9\n \
-        **[✦✦✦✦✦-]**:35,000 Mora,  x6,  x9,  x6\n \
-        **[✦✦✦✦✦✦]**:45,000 Mora,  x4,  x18,  x12", 'name':""}
+    elif name.lower() == "prototype archaic":
+        lst64 = {'thum':"https://static.wikia.nocookie.net/gensin-impact/images/a/ab/Weapon_Prototype_Archaic.png/revision/latest/scale-to-width-down/256?cb=20201116034721", \
+        'his':"ดาบยักษ์โบราณที่ถูกซ่อนไว้ใน Blackcliff Forge ตอนที่ชูขึ้น ราวกับว่าสามารถลงดาบหั่นอากาศออกเป็นสองท่อน", \
+        'type':"Claymore", 'stat':["565", "27.6%", "ATK"], \
+        'ascen':"**[✦-----]**:5,000 Mora, Grain of Aerosiderite x3, Fragile Bone Shard x3, Damaged Mask x2\n \
+        **[✦✦----]**:15,000 Mora, Piece of Aerosiderite x3, Fragile Bone Shard x12, Damaged Mask x8\n \
+        **[✦✦✦---]**:20,000 Mora, Piece of Aerosiderite x6, Sturdy Bone Shard x6, Stained Mask x6\n \
+        **[✦✦✦✦--]**:30,000 Mora, Bit of Aerosiderite x3, Sturdy Bone Shard x12, Stained Mask x9\n \
+        **[✦✦✦✦✦-]**:35,000 Mora, Bit of Aerosiderite x6, Fossilized Bone Shard x9, Ominous Mask x6\n \
+        **[✦✦✦✦✦✦]**:45,000 Mora, Chunk of Aerosiderite x4, Fossilized Bone Shard x18, Ominous Mask x12", 'name':"Prototype Archaic"}
         return lst64
     elif name.lower() == "":
         lst65 = {'thum':"", \
