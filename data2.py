@@ -1093,38 +1093,38 @@ def weapon_info_list(name):
         **[✦✦✦✦✦-]**:25,000 Mora, Relic from Guyun x4, Inspector's Sacrificial Knife x6, Golden Raven Insignia x4\n \
         **[✦✦✦✦✦✦]**:30,000 Mora, Divine Body from Guyun x3, Inspector's Sacrificial Knife x12, Golden Raven Insignia x8", 'name':"Emerald Orb"}
         return lst100
-    elif name.lower() == "":
-        lst101 = {'thum':"", \
-        'his':"", \
-        'type':"Catalyst", 'stat':["510", "51.7%", "Physical DMG Bonus"], \
-        'ascen':"**[✦-----]**:5,000 Mora,  x2,  x2,  x1\n \
-        **[✦✦----]**:10,000 Mora,  x2,  x8,  x5\n \
-        **[✦✦✦---]**:15,000 Mora,  x4,  x4,  x4\n \
-        **[✦✦✦✦--]**:20,000 Mora,  x2,   x8,  x6\n \
-        **[✦✦✦✦✦-]**:25,000 Mora,  x4,  x6,  x4\n \
-        **[✦✦✦✦✦✦]**:30,000 Mora,  x3,  x12,  x8", 'name':""}
+    elif name.lower() == "thrilling tales of dragon slayers":
+        lst101 = {'thum':"https://static.wikia.nocookie.net/gensin-impact/images/1/19/Weapon_Thrilling_Tales_of_Dragon_Slayers.png/revision/latest/scale-to-width-down/256?cb=20201119201736", \
+        'his':"นวนิยายที่เกี่ยวกับเรื่องราวของ ฮีโร่ 5 คนที่กำลังจะเดินทางไป ล่ามังกร เขียนไว้อย่างหลวม ๆ และมีโครงเรื่องเพียงน้อยนิด แต่สิ่งสำคัญของมันคือ การสอนผู้คนให้เรียนรู้จากความผิดพลาด", \
+        'type':"Catalyst", 'stat':["401", "35.2%", "HP"], \
+        'ascen':"**[✦-----]**:5,000 Mora, Boreal Wolf's Milk Tooth x2, Dead Ley Line Branch x2, Divining Scroll x1\n \
+        **[✦✦----]**:10,000 Mora, Boreal Wolf's Cracked Tooth x2, Dead Ley Line Branch x8, Divining Scroll x5\n \
+        **[✦✦✦---]**:15,000 Mora, Boreal Wolf's Cracked Tooth x4, Dead Ley Line Leaves x4, Sealed Scroll x4\n \
+        **[✦✦✦✦--]**:20,000 Mora, Boreal Wolf's Broken Fang x2, Dead Ley Line Leaves x8, Sealed Scroll x6\n \
+        **[✦✦✦✦✦-]**:25,000 Mora, Boreal Wolf's Broken Fang x4, Ley Line Sprout x6, Forbidden Curse Scroll x4\n \
+        **[✦✦✦✦✦✦]**:30,000 Mora, Boreal Wolf's Nostalgia x3, Ley Line Sprout x12, Forbidden Curse Scroll x8", 'name':"Thrilling Tales of Dragon Slayers"}
         return lst101
-    elif name.lower() == "":
-        lst102 = {'thum':"", \
-        'his':"", \
-        'type':"Catalyst", 'stat':["510", "51.7%", "Physical DMG Bonus"], \
-        'ascen':"**[✦-----]**:5,000 Mora,  x2,  x2,  x1\n \
-        **[✦✦----]**:10,000 Mora,  x2,  x8,  x5\n \
-        **[✦✦✦---]**:15,000 Mora,  x4,  x4,  x4\n \
-        **[✦✦✦✦--]**:20,000 Mora,  x2,   x8,  x6\n \
-        **[✦✦✦✦✦-]**:25,000 Mora,  x4,  x6,  x4\n \
-        **[✦✦✦✦✦✦]**:30,000 Mora,  x3,  x12,  x8", 'name':""}
+    elif name.lower() == "twin nephrite":
+        lst102 = {'thum':"https://static.wikia.nocookie.net/gensin-impact/images/e/e3/Weapon_Twin_Nephrite.png/revision/latest/scale-to-width-down/256?cb=20201119201412", \
+        'his':"จี้หยกที่นำเอาหยกทั่วไปสองชิ้นมาประกอบเข้าด้วยกัน", \
+        'type':"Catalyst", 'stat':["448", "15.6%", "CRIT Rate"], \
+        'ascen':"**[✦-----]**:5,000 Mora, Mist Veiled Lead Elixir x2, Mist Grass Pollen x2, Recruit's Insignia x1\n \
+        **[✦✦----]**:10,000 Mora, Mist Veiled Mercury Elixir x2, Mist Grass Pollen x8, Recruit's Insignia x5\n \
+        **[✦✦✦---]**:15,000 Mora, Mist Veiled Mercury Elixir x4, Mist Grass x4, Sergeant's Insignia x4\n \
+        **[✦✦✦✦--]**:20,000 Mora, Mist Veiled Gold Elixir x2, Mist Grass x8, Sergeant's Insignia x6\n \
+        **[✦✦✦✦✦-]**:25,000 Mora, Mist Veiled Gold Elixir x4, Mist Grass Wick x6, Lieutenant's Insignia x4\n \
+        **[✦✦✦✦✦✦]**:30,000 Mora, Mist Veiled Primo Elixir x3, Mist Grass Wick x12, Lieutenant's Insignia x8", 'name':"Twin Nephrite"}
         return lst102
-    elif name.lower() == "":
-        lst103 = {'thum':"", \
-        'his':"", \
-        'type':"Catalyst", 'stat':["510", "51.7%", "Physical DMG Bonus"], \
-        'ascen':"**[✦-----]**:5,000 Mora,  x2,  x2,  x1\n \
-        **[✦✦----]**:10,000 Mora,  x2,  x8,  x5\n \
-        **[✦✦✦---]**:15,000 Mora,  x4,  x4,  x4\n \
-        **[✦✦✦✦--]**:20,000 Mora,  x2,   x8,  x6\n \
-        **[✦✦✦✦✦-]**:25,000 Mora,  x4,  x6,  x4\n \
-        **[✦✦✦✦✦✦]**:30,000 Mora,  x3,  x12,  x8", 'name':""}
+    elif name.lower() == "skyrider greatsword":
+        lst103 = {'thum':"https://static.wikia.nocookie.net/gensin-impact/images/6/6e/Weapon_Skyrider_Greatsword.png/revision/latest/scale-to-width-down/256?cb=20201116035158", \
+        'his':"ดาบเหล็กกล้าที่ดูพึ่งพาได้ ครั้งหนึ่ง Skyrider ผู้โด่งดังในตำนานพยายามมันเพื่อทะยานสู่ฟ้า", \
+        'type':"Claymore", 'stat':["401", "43.9%", "Physical DMG Bonus"], \
+        'ascen':"**[✦-----]**:5,000 Mora, Grain of Aerosiderite x2, Fragile Bone Shard x2, Treasure Hoarder Insignia x1\n \
+        **[✦✦----]**:10,000 Mora, Piece of Aerosiderite x2, Fragile Bone Shard x8, Treasure Hoarder Insignia x5\n \
+        **[✦✦✦---]**:15,000 Mora, Piece of Aerosiderite x4, Sturdy Bone Shard x4, Silver Raven Insignia x4\n \
+        **[✦✦✦✦--]**:20,000 Mora, Bit of Aerosiderite x2, Sturdy Bone Shard x8, Silver Raven Insignia x6\n \
+        **[✦✦✦✦✦-]**:25,000 Mora, Bit of Aerosiderite x4, Fossilized Bone Shard x6, Golden Raven Insignia x4\n \
+        **[✦✦✦✦✦✦]**:30,000 Mora, Chunk of Aerosiderite x3, Fossilized Bone Shard x12, Golden Raven Insignia x8", 'name':"Skyrider Greatsword"}
         return lst103
     elif name.lower() == "":
         lst104 = {'thum':"", \
