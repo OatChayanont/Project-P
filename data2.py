@@ -599,38 +599,38 @@ def weapon_info_list(name):
         **[✦✦✦✦✦-]**:35,000 Mora, Relic from Guyun x6, Inspector's Sacrificial Knife x9, Golden Raven Insignia x6\n \
         **[✦✦✦✦✦✦]**:45,000 Mora, Divine Body from Guyun x4, Inspector's Sacrificial Knife x18, Golden Raven Insignia x12", 'name':"Whiteblind"}
         return lst53
-    elif name.lower() == "":
-        lst53 = {'thum':"", \
-        'his':"", \
-        'type':"Claymore", 'stat':["510", "51.7%", "Physical DMG Bonus"], \
-        'ascen':"**[✦-----]**:5,000 Mora,  x3,  x3,  x2\n \
-        **[✦✦----]**:15,000 Mora,  x3,  x12,  x8\n \
-        **[✦✦✦---]**:20,000 Mora,  x6,  x6,  x6\n \
-        **[✦✦✦✦--]**:30,000 Mora,  x3,   x12,  x9\n \
-        **[✦✦✦✦✦-]**:35,000 Mora,  x6,  x9,  x6\n \
-        **[✦✦✦✦✦✦]**:45,000 Mora,  x4,  x18,  x12", 'name':""}
+    elif name.lower() == "the bell":
+        lst53 = {'thum':"https://static.wikia.nocookie.net/gensin-impact/images/6/6e/Weapon_The_Bell.png/revision/latest/scale-to-width-down/256?cb=20201116035344", \
+        'his':"ดาบขนาดใหญ่ที่หนักและมีนาฬิกาติดตั้งมาด้วย แต่กลไกภายในของมันนั้นพังไปนานแล้ว", \
+        'type':"Claymore", 'stat':["510", "41.3%", "HP"], \
+        'ascen':"**[✦-----]**:5,000 Mora, Tile of Decarabian's Tower x3, Heavy Horn x3, Whopperflower Nectar x2\n \
+        **[✦✦----]**:15,000 Mora, Debris of Decarabian's City x3, Heavy Horn x12, Whopperflower Nectar x8\n \
+        **[✦✦✦---]**:20,000 Mora, Debris of Decarabian's City x6, Black Bronze Horn x6, Shimmering Nectar x6\n \
+        **[✦✦✦✦--]**:30,000 Mora, Fragment of Decarabian's Epic x3, Black Bronze Horn x12, Shimmering Nectar x9\n \
+        **[✦✦✦✦✦-]**:35,000 Mora, Fragment of Decarabian's Epic x6, Black Crystal Horn x9, Energy Nectar x6\n \
+        **[✦✦✦✦✦✦]**:45,000 Mora, Scattered Piece of Decarabian's Dream x4, Black Crystal Horn x18, Energy Nectar x12", 'name':"The Bell"}
         return lst53
-    elif name.lower() == "":
-        lst53 = {'thum':"", \
-        'his':"", \
-        'type':"Claymore", 'stat':["510", "51.7%", "Physical DMG Bonus"], \
-        'ascen':"**[✦-----]**:5,000 Mora,  x3,  x3,  x2\n \
-        **[✦✦----]**:15,000 Mora,  x3,  x12,  x8\n \
-        **[✦✦✦---]**:20,000 Mora,  x6,  x6,  x6\n \
-        **[✦✦✦✦--]**:30,000 Mora,  x3,   x12,  x9\n \
-        **[✦✦✦✦✦-]**:35,000 Mora,  x6,  x9,  x6\n \
-        **[✦✦✦✦✦✦]**:45,000 Mora,  x4,  x18,  x12", 'name':""}
+    elif name.lower() == "snow-tombed starsilver":
+        lst53 = {'thum':"https://static.wikia.nocookie.net/gensin-impact/images/4/49/Weapon_Snow-Tombed_Starsilver.png/revision/latest/scale-to-width-down/256?cb=20201223042944", \
+        'his':"ดาบใหญ่โบราณที่ซ่อนอยู่ในภาพฝาผนังนี้ หลอมขึ้นมาจากดวงดาว ดูเหมือนจะมีพลังที่สามารถฟันน้ำแข็งและหิมะได้", \
+        'type':"Claymore", 'stat':["565", "34.1%", "Physical DMG Bonus"], \
+        'ascen':"**[✦-----]**:5,000 Mora, Tile of Decarabian's Tower x3, Heavy Horn x3, Slime Condensate x2\n \
+        **[✦✦----]**:15,000 Mora, Debris of Decarabian's City x3, Heavy Horn x12, Slime Condensate x8\n \
+        **[✦✦✦---]**:20,000 Mora, Debris of Decarabian's City x6, Black Bronze Horn x6, Slime Secretions x6\n \
+        **[✦✦✦✦--]**:30,000 Mora, Fragment of Decarabian's Epic x3, Black Bronze Horn x12, Slime Secretions x9\n \
+        **[✦✦✦✦✦-]**:35,000 Mora, Fragment of Decarabian's Epic x6, Black Crystal Horn x9, Slime Concentrate x6\n \
+        **[✦✦✦✦✦✦]**:45,000 Mora, Scattered Piece of Decarabian's Dream x4, Black Crystal Horn x18, Slime Concentrate x12", 'name':"Snow-Tombed Starsilver"}
         return lst53
-    elif name.lower() == "":
-        lst53 = {'thum':"", \
-        'his':"", \
-        'type':"Claymore", 'stat':["510", "51.7%", "Physical DMG Bonus"], \
-        'ascen':"**[✦-----]**:5,000 Mora,  x3,  x3,  x2\n \
-        **[✦✦----]**:15,000 Mora,  x3,  x12,  x8\n \
-        **[✦✦✦---]**:20,000 Mora,  x6,  x6,  x6\n \
-        **[✦✦✦✦--]**:30,000 Mora,  x3,   x12,  x9\n \
-        **[✦✦✦✦✦-]**:35,000 Mora,  x6,  x9,  x6\n \
-        **[✦✦✦✦✦✦]**:45,000 Mora,  x4,  x18,  x12", 'name':""}
+    elif name.lower() == "favonius greatsword":
+        lst53 = {'thum':"https://static.wikia.nocookie.net/gensin-impact/images/9/9c/Weapon_Favonius_Greatsword.png/revision/latest/scale-to-width-down/256?cb=20201119235934", \
+        'his':"ดาบใหญ่ที่ใช้สำหรับทำพิธีของอัศวินแห่ง Favonius มันสามารถรวบรวมพลังงานธาตุได้ง่าย และสร้างพลังทำลายได้สูง", \
+        'type':"Claymore", 'stat':["454", "61.3%", "Energy Recharge"], \
+        'ascen':"**[✦-----]**:5,000 Mora, Fetters of the Dandelion Gladiator x3, Chaos Device x3, Recruit's Insignia x2\n \
+        **[✦✦----]**:15,000 Mora, Chains of the Dandelion Gladiator x3, Chaos Device x12, Recruit's Insignia x8\n \
+        **[✦✦✦---]**:20,000 Mora, Chains of the Dandelion Gladiator x6, Chaos Circuit x6, Sergeant's Insignia x6\n \
+        **[✦✦✦✦--]**:30,000 Mora, Shackles of the Dandelion Gladiator x3, Chaos Circuit x12, Sergeant's Insignia x9\n \
+        **[✦✦✦✦✦-]**:35,000 Mora, Shackles of the Dandelion Gladiator x6, Chaos Core x9, Lieutenant's Insignia x6\n \
+        **[✦✦✦✦✦✦]**:45,000 Mora, Dream of the Dandelion Gladiator x4, Chaos Core x18, Lieutenant's Insignia x12", 'name':"Favonius Greatsword"}
         return lst53
     elif name.lower() == "":
         lst53 = {'thum':"", \
