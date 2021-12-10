@@ -306,7 +306,7 @@ def weapon_info_list(name):
         return lst28
     elif name.lower() == "rust":
         lst29 = {'thum':"https://static.wikia.nocookie.net/gensin-impact/images/1/1c/Weapon_Rust.png/revision/latest/scale-to-width-down/256?cb=20201120002437", \
-        'his':"", \
+        'his':"คันธนูเหล็กขนาดใหญ่ที่เต็มไปด้วยสนิมซึ่งคนธรรมดานั้นไม่สามารถยกขึ้นได้เลย คงไม่ต้องพูดถึงการใช้มันเพื่อยิงธนูหรอกนะ", \
         'type':"Bow", 'stat':["510", "41.3%", "ATK"], \
         'ascen':"**[✦-----]**:5,000 Mora, Luminous Sands from Guyun x3, Hunter's Sacrificial Knife x3, Damaged Mask x2\n \
         **[✦✦----]**:15,000 Mora, Lustrous Stone from Guyun x3, Hunter's Sacrificial Knife x12, Damaged Mask x8\n \
