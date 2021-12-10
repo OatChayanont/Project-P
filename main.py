@@ -125,7 +125,7 @@ async def char(ctx, *, name):
         character_info = character_info_list(name)
         send = discord.Embed(title="Overview", description="", colour=0xb24cd8)
         send.set_thumbnail(url=character_info['thum'])
-        send.add_field(name="{1} {0}".format(name.capitalize(), character_info['star']), value="{0}".format(character_info['his1']), inline=False)
+        send.add_field(name="{1} {0}".format(character_info['name'], character_info['star']), value="{0}".format(character_info['his1']), inline=False)
         send.add_field(name='---------- Stats [Lv.90] ----------', value="**Base HP: **{0}\n**Base ATK: **{1}\n**Base DEF: **{2}\n**Special Stats {3}: **{4}"\
         .format(character_info['stat'][0], character_info['stat'][1], character_info['stat'][2], character_info['stat'][4], character_info['stat'][3]), inline=False)
         send.add_field(name='---------- Ascension Cost ----------',value='{0}'.format(character_info['ascen']))
@@ -142,11 +142,11 @@ async def char(ctx, *, name):
 async def weapon(ctx, *, name):
     weapon_info = weapon_info_list(name)
     send = discord.Embed(title=weapon_info[5], description="", colour=0x52eb80)
-    send.set_thumbnail(url= weapon_info[0])
-    send.add_field(name="About {0}".format(weapon_info[5]), value="{0}".format(weapon_info[1]), inline=False)
-    send.add_field(name="Details", value="**Class:** {0}".format(weapon_info[2]), inline=False)
-    send.add_field(name="Stats", value="**Base ATK:** {0}\n**{1}:** {2}".format(weapon_info[3][0], weapon_info[3][2], weapon_info[3][1]), inline=False)
-    send.add_field(name='Ascension Cost',value='{0}'.format(weapon_info[4]))
+    send.set_thumbnail(url= weapon_info['thum'])
+    send.add_field(name="About {0}".format(weapon_info['name']), value="{0}".format(weapon_info['his']), inline=False)
+    send.add_field(name="Details", value="**Class:** {0}".format(weapon_info['type']), inline=False)
+    send.add_field(name="Stats", value="**Base ATK:** {0}\n**{1}:** {2}".format(weapon_info['stat'][0], weapon_info['stat'][2], weapon_info['stat'][1]), inline=False)
+    send.add_field(name='Ascension Cost',value='{0}'.format(weapon_info['ascen']))
     await ctx.channel.send(embed=send)
 
 bot.run("ODk3MTMzODMzNDI0NjA1MjI0.YWRO_Q.8lH1q0zOWnm-nF4V4tnbQbydhN8")

@@ -17,7 +17,7 @@ def character_info_list(name):
                     "<:yanfei:910108882188271626> **[4★]** Yanfei", "<:yoimiya:910108882213404672> **[5★]** Yoimiya", "<:zhongli:910108882196627526> **[5★]** Zhongli"]
         return charlist
     elif name.lower() == "albedo":
-        albedo = {'his1':'Albedo (ภาษาไทย: อัลเบโด้) เป็นตัวละครชายธาตุหินใช้อาวุธดาบที่สามารถเล่นได้ในเกม Genshin Impact\n\n\
+        albedo = {'name':'Albedo', 'his1':'Albedo (ภาษาไทย: อัลเบโด้) เป็นตัวละครชายธาตุหินใช้อาวุธดาบที่สามารถเล่นได้ในเกม Genshin Impact\n\n\
             ไม่ว่าจะ "อัจฉริยะ", "องค์ชายชอล์กขาว" หรือ "หัวหน้าฝ่ายสืบสวน" \
                         เขาไม่สนใจในเรื่องของลาภยศและชื่อเสียงเท่าไหร่ แต่มุ่งเน้นไปที่หัวข้อการวิจัยเท่านั้น ความมั่งคั่งและเส้นสายไม่ใช่เป้าหมายของเขา \
                         สิ่งที่เขาปรารถนาที่จะควบคุมนั้น ก็คือความรู้อันไม่มีที่สิ้นสุด ซึ่งซ่อนอยู่ในจิตใจของมนุษย์มาตั้งแต่สมัยโบราณจนถึงปัจจุบัน',
@@ -31,7 +31,7 @@ def character_info_list(name):
                         'thum':'https://static.wikia.nocookie.net/genshin-impact/images/0/00/Character_Albedo_Thumb.png/revision/latest/scale-to-width-down/50?cb=20210515115757&path-prefix=th', 'star':'[★★★★★]'}
         return albedo
     elif name.lower() == "aloy":
-        aloy = {'his1':'Aloy เป็นนางเอกจากเกม Horizon Zero Dawn ถูกสร้างขึ้นมาเป็นตัวละครข้ามเกมและโปรเจ็กต์ประสานงานระหว่างสตูดิโอ Guerrilla Games และ miHoYo',
+        aloy = {'name':'Aloy', 'his1':'Aloy เป็นนางเอกจากเกม Horizon Zero Dawn ถูกสร้างขึ้นมาเป็นตัวละครข้ามเกมและโปรเจ็กต์ประสานงานระหว่างสตูดิโอ Guerrilla Games และ miHoYo',
                         'stat':['10,899', '234', '676', '28.8%', '(Cryo DMG Bonus)'],
                         'ascen':'**[✦-----]**:20,000 Mora, Shivada Jade Sliver x1, Crystal Marrow x3, Spectral Husk x3\n \
                         **[✦✦----]**:40,000 Mora, Shivada Jade Fragment x3, Crystalline Bloom x2, Crystal Marrow x10, Spectral Husk x15\n \
@@ -42,7 +42,7 @@ def character_info_list(name):
                         'thum':'https://static.wikia.nocookie.net/genshin-impact/images/6/6a/Character_Aloy_Thumb.png/revision/latest/scale-to-width-down/50?cb=20210902150457&path-prefix=th', 'star':'[★★★★★]'}
         return aloy
     elif name.lower() == "amber":
-        amber = {'his1':'Amber (ภาษาไทย: แอมเบอร์) เป็นตัวละครหญิงธาตุไฟใช้อาวุธธนูที่สามารถเล่นได้ใน Genshin Impact\n\n\
+        amber = {'name':'Amber', 'his1':'Amber (ภาษาไทย: แอมเบอร์) เป็นตัวละครหญิงธาตุไฟใช้อาวุธธนูที่สามารถเล่นได้ใน Genshin Impact\n\n\
             สาวน้อยผู้สดใสและซื่อตรงและหนึ่งในพลคุ้มกันของกองอัศวินแห่ง Favonius เธอเป็นยอดนักร่อนเวหา และยังเป็น "แชมปันักร่อนเวหา" \
                         ของเมือง Monstadt ที่จัดขึ้นทุกปิติดต่อกันถึงสามสมัยในฐานะดาวรุ่งของกองอัศวินแห่ง Favonius วันนี้ Amber ก็ยังคงพร้อมรับภารกิจท้าทายอยู่เสมอ',
                         'stat':['9,461', '223', '601', '24.0%', '(ATK Bonus)'],\
@@ -55,7 +55,7 @@ def character_info_list(name):
                         'thum':'https://static.wikia.nocookie.net/genshin-impact/images/c/c6/Character_Amber_Thumb.png/revision/latest/scale-to-width-down/50?cb=20210515115827&path-prefix=th', 'star':'[★★★★]'}
         return amber
     elif name.lower() == "barbara":
-        barbara = {'his1':'Barbara (ภาษาไทย: บาร์บาร่า) เป็นตัวละครหญิงธาตุน้ำใช้สื่อเวทที่เล่นได้ในเกม Genshin Impact\n\n\
+        barbara = {'name':'Barbara', 'his1':'Barbara (ภาษาไทย: บาร์บาร่า) เป็นตัวละครหญิงธาตุน้ำใช้สื่อเวทที่เล่นได้ในเกม Genshin Impact\n\n\
             Barbara เป็นผู้แสวงบุญแห่งโบสถ์ Favonius และเป็นดาราจรัสแสงของ Monstadt ชาวเมืองจะคุ้นชินกับนักดนตรีพเนจรมากกว่าดารา แต่ไม่ว่าอย่างไรพวกเขาก็รัก Barbara อย่างไม่ต้องสงสัย "ฉันมีวันนี้ได้เพราะจิตวิญญาณของเมืองแห่งอิสระนี้" Barbara พูดถึงความเป็นที่นิยมของเธอ',\
                         'stat':['9,787', '159', '669', '24.0%', '(HP Bonus)'],\
                         'ascen':'**[✦-----]**:20,000 Mora, Varunada Lazurite Sliver x1, Philanemo Mushroom x3, Divining Scroll x3\n \
@@ -67,7 +67,7 @@ def character_info_list(name):
                         'thum':'https://static.wikia.nocookie.net/genshin-impact/images/7/72/Character_Barbara_Thumb.png/revision/latest/scale-to-width-down/50?cb=20210515121106&path-prefix=th','star':'[★★★★]'}
         return barbara
     elif name.lower() == "beidou":
-        beidou = {'his1':'Beidou (ภาษาจีน: 北斗 Běidǒu, "กระบวยใหญ่"; ภาษาไทย: เป๋ยโต่ว) เป็นตัวละครหญิงธาตุไฟฟ้าใช้อาวุธดาบใหญ่ที่สามารถเล่นได้ในเกม Genshin Impact\n\n\
+        beidou = {'name':'Beidou', 'his1':'Beidou (ภาษาจีน: 北斗 Běidǒu, "กระบวยใหญ่"; ภาษาไทย: เป๋ยโต่ว) เป็นตัวละครหญิงธาตุไฟฟ้าใช้อาวุธดาบใหญ่ที่สามารถเล่นได้ในเกม Genshin Impact\n\n\
             กัปตันเรือแห่งกองทัพเรือ Cruxอันเลื่องชื่อ นอกไปจากชื่อเสียงในการนำกองเรือและพละกำลังอันน่าเกรงขามแล้ว เป๋ยโต่วยังเป็นที่กล่าวขานในหมู่ชาวหลีเยว่ว่าไม่เกรงกลัวเศรษฐินีหนิงกวงผู้เป็นเทียนเฉวียนแห่งเจ็ดดารา นิสัยที่คู่กรณีไม่ติดใจ แต่ก็รำคาญเป็นบางที',
                         'stat':['13,050', '225', '648', '24.0%', '(Electro DMG Bonus)'],
                         'ascen':'**[✦-----]**:20,000 Mora, Vajrada Amethyst Sliver x1, Noctilucous Jade x3, Treasure Hoarder Insignia x3\n \
@@ -79,7 +79,7 @@ def character_info_list(name):
                         'thum':'https://static.wikia.nocookie.net/genshin-impact/images/6/61/Character_Beidou_Thumb.png/revision/latest/scale-to-width-down/50?cb=20210515121112&path-prefix=th', 'star':'[★★★★]'}
         return beidou
     elif name.lower() == "bennett":
-        bennett = {'his1':'Bennett (ภาษาไทย: เบนเน็ตต์) เป็นตัวละครชายธาตุไฟใช้อาวุธดาบที่สามารถเล่นได้ใน Genshin Impact\n\n\
+        bennett = {'name':'Bennett', 'his1':'Bennett (ภาษาไทย: เบนเน็ตต์) เป็นตัวละครชายธาตุไฟใช้อาวุธดาบที่สามารถเล่นได้ใน Genshin Impact\n\n\
             เด็กผู้กำพร้าตั้งแต่ทารกก่อนจะถูกพบโดยนักผจญภัยอาวุโส และเติบโตมาภายในกิลด์นักผจญภัยโดยมีนามว่าเบนเน็ตต์ และเป็นสมาชิกเพียงหนึ่งเดียวของ "กลุ่มนักผจญภัยของ Benny" ในขณะที่คนอื่น ๆ ลาออกจากทีมไปจนหมดหลังจากประสบความโชคร้ายที่ตามติดเขามาโดยตลอด',
                         'stat':['12,397', '191', '191', '26.7%', '(Energy Recharge)'],
                         'ascen':'**[✦-----]**:20,000 Mora, Agnidus Agate Sliver x1, Windwheel Aster x3, Treasure Hoarder Insignia x3\n \
@@ -91,7 +91,7 @@ def character_info_list(name):
                         'thum':'https://static.wikia.nocookie.net/genshin-impact/images/7/7b/Character_Bennett_Thumb.png/revision/latest/scale-to-width-down/50?cb=20210515121202&path-prefix=th', 'star':'[★★★★]'}
         return bennett
     elif name.lower() == "choungyun":
-        choungyun = {'his1':'Chongyun (ภาษาจีน: 重云 Chóngyún; ภาษาไทย: ฉงอวิ๋น) เป็นตัวละครชายธาตุน้ำแข็งใช้อาวุธดาบใหญ่ที่สามารถเล่นได้ใน Genshin Impact\n\n\
+        choungyun = {'name':'Choungyun', 'his1':'Chongyun (ภาษาจีน: 重云 Chóngyún; ภาษาไทย: ฉงอวิ๋น) เป็นตัวละครชายธาตุน้ำแข็งใช้อาวุธดาบใหญ่ที่สามารถเล่นได้ใน Genshin Impact\n\n\
             นักปราบปีศาจผู้ใช้ Liyue เป็นศูนย์กลางและทำการปราบปีศาจไปทั่วทุกแห่งหน ในฐานะที่เป็นทายาทของตระกูลนักปราบปีศาจ เขาจึงมีความสามารถพิเศษนี้มาตั้งแต่เด็ก— ทว่าความสามารถพิเศษนี้เขาไม่ได้ร่ำเรียนมาจากอาจารย์ท่านไหน แต่เป็นความสามารถที่มีมาตั้งแต่เกิด "ร่างกายแห่งหยางบริสุทธิ์',\
                         'stat':['12,397', '191', '191', '26.7%', '(Energy Recharge)'],
                         'ascen':'**[✦-----]**:20,000 Mora, Shivada Jade Sliver x1, Cor Lapis x3, Damaged Mask x3\n \
@@ -103,7 +103,7 @@ def character_info_list(name):
                         'thum':'https://static.wikia.nocookie.net/genshin-impact/images/6/68/Character_Chongyun_Thumb.png/revision/latest/scale-to-width-down/50?cb=20210515121158&path-prefix=th', 'star':'[★★★★]'}
         return choungyun
     elif name.lower() == "diluc":
-        diluc = {'his1':'Diluc (ภาษาไทย: ดิลุค) เป็นตัวละครชายธาตุไฟใช้อาวุธดาบใหญ่ที่สามารถเล่นได้ในเกม Genshin Impact\n\n\
+        diluc = {'name':'Diluc', 'his1':'Diluc (ภาษาไทย: ดิลุค) เป็นตัวละครชายธาตุไฟใช้อาวุธดาบใหญ่ที่สามารถเล่นได้ในเกม Genshin Impact\n\n\
             อดีตเคยเป็นหนึ่งในอัศวินแห่งฟาโวเนียส ดิลุคลาออกจากทัพอัศวินมาเนื่องจากความผิดหวังในระบบ ปัจจุบันรับมรดก Dawn Winery จากพ่อและผันตัวเป็นพ่อค้าไวน์ในเวลากลางวัน \
                 ในขณะที่ในยามวิกาลออกปราบอธรรมและคอยพิทักษ์พลเมือง Mondstadt จากภยันตรายทั้งมวล',
                 'stat':['12,981', '335', '784', '19.2%', '(CRIT Rate)'],
@@ -116,7 +116,7 @@ def character_info_list(name):
                         'thum':'https://static.wikia.nocookie.net/genshin-impact/images/0/02/Character_Diluc_Thumb.png/revision/latest/scale-to-width-down/50?cb=20210515140346&path-prefix=th', 'star':'[★★★★★]'}
         return diluc
     elif name.lower() == "diona":
-        diona = {'his1':'Diona (ภาษาไทย: ดีโอน่า) เป็นตัวละครหญิงธาตุน้ำแข็งใช้อาวุธธนูที่สามารถเล่นได้ใน Genshin Impact\n\n\
+        diona = {'name':'Diona', 'his1':'Diona (ภาษาไทย: ดีโอน่า) เป็นตัวละครหญิงธาตุน้ำแข็งใช้อาวุธธนูที่สามารถเล่นได้ใน Genshin Impact\n\n\
             บาร์เทนเดอร์ชื่อดังแห่งร้าน Cat\'s Tail ดาวดวงใหม่แห่งวงการเครื่องดื่มของ Mondstadt ผู้ท้าชิงอันแข็งแกร่งในวงการเครื่องดื่มแอลกอฮอล์สาวน้อยที่มีหูแมวและหางแมวที่เกิดใน Springvale ตราบใดที่เครื่องดื่มแก้วนั้นได้รับการปรุงแต่งโดย Diona มันก็จะกลายเป็นเครื่องดื่มรสเลิศที่ไม่อาจจินตนาการได้เสมอ',
                 'stat':['9,570', '212', '601', '24.0%', '(Cryo DMG Bonus)'],
                 'ascen':'**[✦-----]**:20,000 Mora, Shivada Jade Sliver x1, Calla Lily x3, Firm Arrowhead x3\n \
@@ -128,7 +128,7 @@ def character_info_list(name):
                         'thum':'https://static.wikia.nocookie.net/gensin-impact/images/b/b9/Character_Diona_Thumb.png/revision/latest/scale-to-width-down/50?cb=20210213163131', 'star':'[★★★★]'}
         return diona
     elif name.lower() == "eula":
-        eula = {'his1':'Eula (ภาษาไทย: ยูล่า) เป็นตัวละครหญิงธาตุน้ำแข็งใช้อาวุธดาบใหญ่ที่สามารถเล่นได้ใน Genshin Impact\n\n\
+        eula = {'name':'Eula', 'his1':'Eula (ภาษาไทย: ยูล่า) เป็นตัวละครหญิงธาตุน้ำแข็งใช้อาวุธดาบใหญ่ที่สามารถเล่นได้ใน Genshin Impact\n\n\
             ยูล่า ลอว์เรนซ์ เป็นทายาทของตระกูลขุนนางลอว์เรนซ์ที่เคยปกครองเมืองมอนด์ชดัตท์ดั่งทรราชย์ใจเหี้ยมเมื่อกาลก่อน \
                 ยูล่าเลือกที่จะสมัครเข้าเป็นหนึ่งในอัศวินฟาโวเนียส ศัตรูคู่แค้นที่โค่นล้มตระกูลตัวเอง และไต่เต้าขึ้นมาเป็นถึงหัวหน้ากองสอดแนม \
                     ทำให้ยูล่าถูกตัดขาดจากตระกูลลอว์เรนซ์เนื่องจากทางเดินชีวิตใหม่ และซ้ำร้ายยังถูกเดียดฉันท์จากชาวเมืองเนื่องจากต้นกำเนิดเดิมที่พยายามหนีออกมา',
@@ -142,7 +142,7 @@ def character_info_list(name):
                         'thum':'https://static.wikia.nocookie.net/genshin-impact/images/d/d3/Character_Eula_Thumb.png/revision/latest/scale-to-width-down/50?cb=20210523123929&path-prefix=th', 'star':'[★★★★★]'}
         return eula
     elif name.lower() == "fischl" or name.lower() == "amy":
-        amy = {'his1':'Fischl von Luftschloss Narfidort, ชื่อจริง Amy เป็นตัวละครหญิงธาตุไฟฟ้าใช้อาวุธธนูที่สามารถเล่นได้ในเกม Genshin Impact\n\n\
+        amy = {'name':'Fischl', 'his1':'Fischl von Luftschloss Narfidort, ชื่อจริง Amy เป็นตัวละครหญิงธาตุไฟฟ้าใช้อาวุธธนูที่สามารถเล่นได้ในเกม Genshin Impact\n\n\
             นักสืบสาวจินตนาการล้นโลกประจำกิลด์นักผจญภัยแห่งมอนด์ชตัดต์ ฟิชเชิลกล่าวว่าตนนั้นมีที่มาโลกอื่นอันมิใช่ Teyvat พร้อมกับอีการาตรีนามว่า ออซ ฟิชเชิลชอบตั้งทฤษฎีแปลกประหลาดที่สุดท้ายแล้วกลับกลายเป็นความจริงอย่างคาดไม่ถึงอยู่บ่อยครั้ง',
                 'stat':['9,189', '244', '594', '24.0%', '(ATK Bonus)'],
                 'ascen':'**[✦-----]**:20,000 Mora, Vajrada Amethyst Sliver x1, Small Lamp Grass x3, Firm Arrowhead x3\n \
@@ -154,7 +154,7 @@ def character_info_list(name):
                         'thum':'https://static.wikia.nocookie.net/genshin-impact/images/1/14/Character_Fischl_Thumb.png/revision/latest/scale-to-width-down/50?cb=20210515120053&path-prefix=th', 'star':'[★★★★]'}
         return amy
     elif name.lower() == "ganyu":
-        ganyu = {'his1':'Eula (ภาษาไทย: ยูล่า) เป็นตัวละครหญิงธาตุน้ำแข็งใช้อาวุธดาบใหญ่ที่สามารถเล่นได้ใน Genshin Impact\n\n\
+        ganyu = {'name':'Ganyu', 'his1':'Eula (ภาษาไทย: ยูล่า) เป็นตัวละครหญิงธาตุน้ำแข็งใช้อาวุธดาบใหญ่ที่สามารถเล่นได้ใน Genshin Impact\n\n\
             ยูล่า ลอว์เรนซ์ เป็นทายาทของตระกูลขุนนางลอว์เรนซ์ที่เคยปกครองเมืองมอนด์ชดัตท์ดั่งทรราชย์ใจเหี้ยมเมื่อกาลก่อน \
                 ยูล่าเลือกที่จะสมัครเข้าเป็นหนึ่งในอัศวินฟาโวเนียส ศัตรูคู่แค้นที่โค่นล้มตระกูลตัวเอง และไต่เต้าขึ้นมาเป็นถึงหัวหน้ากองสอดแนม \
                     ทำให้ยูล่าถูกตัดขาดจากตระกูลลอว์เรนซ์เนื่องจากทางเดินชีวิตใหม่ และซ้ำร้ายยังถูกเดียดฉันท์จากชาวเมืองเนื่องจากต้นกำเนิดเดิมที่พยายามหนีออกมา',
@@ -167,3 +167,63 @@ def character_info_list(name):
                         **[✦✦✦✦✦✦]**:120,000 Mora, Shivada Jade Gemstone x6, Hoarfrost Core x20, Qingxin x60, Elemental Nectar x24',
                         'thum':'https://static.wikia.nocookie.net/genshin-impact/images/0/0a/Character_Ganyu_Thumb.png/revision/latest/scale-to-width-down/50?cb=20210515120051&path-prefix=th', 'star':'[★★★★★]'}
         return ganyu
+    elif name.lower() == "hu tao":
+        hutao = {'name':'Hu Tao', 'his1':'Hu Tao (ภาษาจีน: 胡桃 Hú Táo, "วอลนัท"; ภาษาไทย: หู เถา) เป็นตัวละครหญิงธาตุไฟใช้อาวุธหอกที่สามารถเล่นได้ใน Genshin Impact\n\n\
+            Hu Tao - หัวหน้า "โถงแห่งการเกิดใหม่ Wangsheng" สมัยที่ 77 เป็นบุคคลสำคัญที่รับผิดชอบพิธีงานศพใน Liyue อุทิศตนเพื่อประกอบพิธีอำลาแด่ผู้คนที่จากไปให้สมบูรณ์ เพื่อรักษาสมดุลระหว่างหยินและหยางของโลก',
+                'stat':['15,552', '106', '876', '38.4%', '(CRIT DMG)'],
+                'ascen':'**[✦-----]**:20,000 Mora, Agnidus Agate Sliver x1, Silk Flower x3, Whopperflower Nectar x3\n \
+                        **[✦✦----]**:40,000 Mora, Agnidus Agate Fragment x3, Juvenile Jade x2, Silk Flower x10, Whopperflower Nectar x15\n \
+                        **[✦✦✦---]**:60,000 Mora, Agnidus Agate Fragment x6, Juvenile Jade x4, Silk Flower x20, Shimmering Nectar x12\n \
+                        **[✦✦✦✦--]**:80,000 Mora, Agnidus Agate Chunk x3, Juvenile Jade x8, Silk Flower x30, Shimmering Nectar x18\n \
+                        **[✦✦✦✦✦-]**:100,000 Mora, Agnidus Agate Chunk x6, Juvenile Jade x12, Silk Flower x45, Elemental Nectar x12\n \
+                        **[✦✦✦✦✦✦]**:120,000 Mora, Agnidus Agate Gemstone x6, Juvenile Jade x20, Silk Flower x60, Elemental Nectar x24',
+                        'thum':'https://static.wikia.nocookie.net/genshin-impact/images/a/a4/Character_Hu_Tao_Thumb.png/revision/latest/scale-to-width-down/50?cb=20210515120520&path-prefix=th', 'star':'[★★★★★]'}
+        return hutao
+    elif name.lower() == "jean":
+        jean = {'name':'Jean', 'his1':'Jean (ภาษาไทย: จีน) เป็นตัวละครหญิงธาตุลมใช้อาวุธดาบที่สามารถเล่นได้ในเกม Genshin Impact\n\n\
+            พี่สาวของบาบาร่าผู้กำลังดำรงตำแหน่งรักษาการณ์ผู้บัญชาการอัศวินแห่งฟาโวเนียส จีนเป็นคนขยันขันแข็ง มุ่งมั่นในการรักษาสันติสุขให้แก่ประชาชนแห่งเมืองมอนด์ชดัตท์',
+                'stat':['14,695', '239', '769', '22.2%', '(Healing Bonus)'],
+                'ascen':'**[✦-----]**:20,000 Mora, Vayuda Turquoise Sliver x1, Dandelion Seed x3, Damaged Mask x3\n \
+                        **[✦✦----]**:40,000 Mora, Vayuda Turquoise Fragment x3, Hurricane Seed x2, Dandelion Seed x10, Damaged Mask x15\n \
+                        **[✦✦✦---]**:60,000 Mora, Vayuda Turquoise Fragment x6, Hurricane Seed x4, Dandelion Seed x20, Stained Mask x12\n \
+                        **[✦✦✦✦--]**:80,000 Mora, Vayuda Turquoise Chunk x3, Hurricane Seed x8, Dandelion Seed x30, Stained Mask x18\n \
+                        **[✦✦✦✦✦-]**:100,000 Mora, Vayuda Turquoise Chunk x6, Hurricane Seed x12, Dandelion Seed x45, Ominous Mask x12\n \
+                        **[✦✦✦✦✦✦]**:120,000 Mora, Vayuda Turquoise Gemstone x6, Hurricane Seed x20, Dandelion Seed x60, Ominous Mask x24',
+                        'thum':'https://static.wikia.nocookie.net/genshin-impact/images/8/89/Character_Jean_Thumb.png/revision/latest/scale-to-width-down/50?cb=20210515120531&path-prefix=th', 'star':'[★★★★★]'}
+        return jean
+    elif name.lower() == "kaedehara kazuha" or name.lower() == "kazuha" or name.lower() == "kaedehara":
+        kazuha = {'name':'Kaedehara Kazuha', 'his1':'Kaedehara Kazuha (ภาษาไทย: คาเอเดะฮาระ คาซึฮะ; ภาษาญี่ปุ่น: 楓かえで原はら万かず葉は)[Note 1] เป็นตัวละครชายธาตุลมใช้อาวุธดาบที่สามารถเล่นได้ใน Genshin Impact\n\n\
+            เขาเป็นซามูไรพเนจรของตระกูล Kaedehara ที่เคยโด่งดัง, และเป็นลูกเรือชั่วคราวของกองทัพเรือ Crux',
+                'stat':['13,348', '297', '807', '115.2', '(Elemental Mastery)'],
+                'ascen':'**[✦-----]**:20,000 Mora, Vayuda Turquoise Sliver x1, Sea Ganoderma x3, Treasure Hoarder Insignia x3\n \
+                        **[✦✦----]**:40,000 Mora, Vayuda Turquoise Fragment x3, Marionette Core x2, Sea Ganoderma x10, Treasure Hoarder Insignia x15\n \
+                        **[✦✦✦---]**:60,000 Mora, Vayuda Turquoise Fragment x6, Marionette Core x4, Sea Ganoderma x20, Silver Raven Insignia x12\n \
+                        **[✦✦✦✦--]**:80,000 Mora, Vayuda Turquoise Chunk x3, Marionette Core x8, Sea Ganoderma x30, Silver Raven Insignia x18\n \
+                        **[✦✦✦✦✦-]**:100,000 Mora, Vayuda Turquoise Chunk x6, Marionette Core x12, Sea Ganoderma x45, Golden Raven Insignia x12\n \
+                        **[✦✦✦✦✦✦]**:120,000 Mora, Vayuda Turquoise Gemstone x6, Marionette Core x20, Sea Ganoderma x60, Golden Raven Insignia x24',
+                        'thum':'https://static.wikia.nocookie.net/genshin-impact/images/f/f0/Character_Kaedehara_Kazuha_Thumb.png/revision/latest/scale-to-width-down/50?cb=20210722145202&path-prefix=th', 'star':'[★★★★★]'}
+        return kazuha
+    elif name.lower() == "kaeya":
+        kaeya = {'name':'kaeya', 'his1':'Kaeya (ภาษาไทย: ไคยะ) เป็นตัวละครชายธาตุน้ำแข็งใช้อาวุธดาบที่สามารถเล่นได้ใน Genshin Impact\n\n\
+            ในหน่วยอัศวินแห่ง Favonius จะมี Kaeya เป็นหัวหน้าอัศวินที่มีความรับผิดชอบมากที่สุด ไม่ว่าหน้าที่ใดเขาก็ทำให้ลุล่วงได้ทั้งสิ้น เขาเป็นที่นิยมในหมู่ประชาชนของเมือง Monstadt อย่างมาก แต่อัศวินผู้นี้ก็มีความลับที่ซ่อนอยู่เช่นกัน',
+                'stat':['11,636', '223', '792', '26.7%', '(Energy Recharge)'],
+                'ascen':'**[✦-----]**:20,000 Mora, Shivada Jade Sliver x1, Calla Lily x3, Treasure Hoarder Insignia x3\n \
+                        **[✦✦----]**:40,000 Mora, Shivada Jade Fragment x3, Hoarfrost Core x2, Calla Lily x10, Treasure Hoarder Insignia x15\n \
+                        **[✦✦✦---]**:60,000 Mora, Shivada Jade Fragment x6, Hoarfrost Core x4, Calla Lily x20, Silver Raven Insignia x12\n \
+                        **[✦✦✦✦--]**:80,000 Mora, Shivada Jade Chunk x3, Hoarfrost Core x8, Calla Lily x30, Silver Raven Insignia x18\n \
+                        **[✦✦✦✦✦-]**:100,000 Mora, Shivada Jade Chunk x6, Hoarfrost Core x12, Calla Lily x45, Golden Raven Insignia x12\n \
+                        **[✦✦✦✦✦✦]**:120,000 Mora, Shivada Jade Gemstone x6, Hoarfrost Core x20, Calla Lily x60, Golden Raven Insignia x24',
+                        'thum':'https://static.wikia.nocookie.net/genshin-impact/images/3/33/Character_Kaeya_Thumb.png/revision/latest/scale-to-width-down/50?cb=20210515140405&path-prefix=th', 'star':'[★★★★]'}
+        return kaeya
+    elif name.lower() == "kamisato ayaka" or name.lower() == "kamisato" or name.lower() == "ayaka":
+        ayaka = {'name':'Kamisato Ayaka', 'his1':'Kaedehara Kazuha (ภาษาไทย: คาเอเดะฮาระ คาซึฮะ; ภาษาญี่ปุ่น: 楓かえで原はら万かず葉は)[Note 1] เป็นตัวละครชายธาตุลมใช้อาวุธดาบที่สามารถเล่นได้ใน Genshin Impact\n\n\
+            เขาเป็นซามูไรพเนจรของตระกูล Kaedehara ที่เคยโด่งดัง, และเป็นลูกเรือชั่วคราวของกองทัพเรือ Crux',
+                'stat':['13,348', '297', '807', '115.2', '(Elemental Mastery)'],
+                'ascen':'**[✦-----]**:20,000 Mora, Vayuda Turquoise Sliver x1, Sea Ganoderma x3, Treasure Hoarder Insignia x3\n \
+                        **[✦✦----]**:40,000 Mora, Vayuda Turquoise Fragment x3, Marionette Core x2, Sea Ganoderma x10, Treasure Hoarder Insignia x15\n \
+                        **[✦✦✦---]**:60,000 Mora, Vayuda Turquoise Fragment x6, Marionette Core x4, Sea Ganoderma x20, Silver Raven Insignia x12\n \
+                        **[✦✦✦✦--]**:80,000 Mora, Vayuda Turquoise Chunk x3, Marionette Core x8, Sea Ganoderma x30, Silver Raven Insignia x18\n \
+                        **[✦✦✦✦✦-]**:100,000 Mora, Vayuda Turquoise Chunk x6, Marionette Core x12, Sea Ganoderma x45, Golden Raven Insignia x12\n \
+                        **[✦✦✦✦✦✦]**:120,000 Mora, Vayuda Turquoise Gemstone x6, Marionette Core x20, Sea Ganoderma x60, Golden Raven Insignia x24',
+                        'thum':'https://static.wikia.nocookie.net/genshin-impact/images/f/f0/Character_Kaedehara_Kazuha_Thumb.png/revision/latest/scale-to-width-down/50?cb=20210722145202&path-prefix=th', 'star':'[★★★★★]'}
+        return ayaka
