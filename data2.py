@@ -315,59 +315,268 @@ def weapon_info_list(name):
         **[✦✦✦✦✦-]**:35,000 Mora, Relic from Guyun x6, Inspector's Sacrificial Knife x9, Ominous Mask x6\n \
         **[✦✦✦✦✦✦]**:45,000 Mora, Divine Body from Guyun x4, Inspector's Sacrificial Knife x18, Ominous Mask x12", 'name':"Rust"}
         return lst29
-    elif name.lower() == "":
-        lst30 = {'thum':"", \
-        'his':"", \
-        'type':"Sword", 'stat':["674", "22.1%", "CRIT Rate"], \
-        'ascen':"**[✦-----]**:5,000 Mora,  x3,  x3,  x2\n \
-        **[✦✦----]**:15,000 Mora,  x3,  x12,  x8\n \
-        **[✦✦✦---]**:20,000 Mora,  x6,  x6,  x6\n \
-        **[✦✦✦✦--]**:30,000 Mora,  x3,  x12,  x9\n \
-        **[✦✦✦✦✦-]**:35,000 Mora,  x6,  x9,  x6\n \
-        **[✦✦✦✦✦✦]**:45,000 Mora,  x4,  x18,  x12", 'name':""}
+    elif name.lower() == "royal row":
+        lst30 = {'thum':"https://static.wikia.nocookie.net/gensin-impact/images/9/99/Weapon_Royal_Bow.png/revision/latest/scale-to-width-down/256?cb=20201120002134", \
+        'his':"คันธนูยาวสภาพเก่าแก่ของชนชั้นสูงผู้ที่ครั้งหนึ่งเคยปกครอง Mondstadt มาก่อน แม้ว่าเวลาผ่านไปหลายยุคหลายสมัยแต่สายเอ็นของธนูก็ยังคงแข็งตึงและสามารถยิงลูกธนูออกไปได้อย่างรุนแรง", \
+        'type':"Bow", 'stat':["510", "41.3%", "ATK"], \
+        'ascen':"**[✦-----]**:5,000 Mora, Fetters of the Dandelion Gladiator x3, Chaos Device x3, Slime Condensate x2\n \
+        **[✦✦----]**:15,000 Mora, Chains of the Dandelion Gladiator x3, Chaos Device x12, Slime Condensate x8\n \
+        **[✦✦✦---]**:20,000 Mora, Chains of the Dandelion Gladiator x6, Chaos Circuit x6, Slime Secretions x6\n \
+        **[✦✦✦✦--]**:30,000 Mora, Shackles of the Dandelion Gladiator x3, Chaos Circuit x12, Slime Secretions x9\n \
+        **[✦✦✦✦✦-]**:35,000 Mora, Shackles of the Dandelion Gladiator x6, Chaos Core x9, Slime Concentrate x6\n \
+        **[✦✦✦✦✦✦]**:45,000 Mora, Dream of the Dandelion Gladiator x4, Chaos Core x18, Slime Concentrate x12", 'name':"Royal Bow"}
         return lst30
+    elif name.lower() == "predator":
+        lst31 = {'thum':"https://static.wikia.nocookie.net/gensin-impact/images/f/fe/Weapon_The_Predator.png/revision/latest/scale-to-width-down/256?cb=20210901042402", \
+        'his':"ธนูที่มีสไตล์การออกแบบที่ค่อนข้างเป็นเอกลักษณ์ ดูแล้วไม่น่าจะเป็นสิ่งของของโลกใบนี้", \
+        'type':"Bow", 'stat':["510", "41.3%", "ATK"], \
+        'ascen':"**[✦-----]**:5,000 Mora, Narukami's Wisdom x3, Dismal Prism x3, Firm Arrowhead x2\n \
+        **[✦✦----]**:15,000 Mora, Narukami's Joy x3, Dismal Prism x12, Firm Arrowhead x8\n \
+        **[✦✦✦---]**:20,000 Mora, Narukami's Joy x6, Crystal Prism x6, Sharp Arrowhead x6\n \
+        **[✦✦✦✦--]**:30,000 Mora, Narukami's Affection x3, Crystal Prism x12, Sharp Arrowhead x9\n \
+        **[✦✦✦✦✦-]**:35,000 Mora, Narukami's Affection x6, Polarizing Prism x9, Weathered Arrowhead x6\n \
+        **[✦✦✦✦✦✦]**:45,000 Mora, Narukami's Valor x4, Polarizing Prism x18, Weathered Arrowhead x12", 'name':"Predator"}
+        return lst31
+    elif name.lower() == "prototype crescent":
+        lst32 = {'thum':"https://static.wikia.nocookie.net/gensin-impact/images/4/43/Weapon_Prototype_Crescent.png/revision/latest/scale-to-width-down/256?cb=20201116034737", \
+        'his':"คันธนูยาวต้นแบบที่ค้นพบใน Blackcliff Forge ลูกธนูยิงออกมาจากธนูนี้เปล่งประกายราวกับแสงจันทร์", \
+        'type':"Bow", 'stat':["510", "41.3%", "ATK"], \
+        'ascen':"**[✦-----]**:5,000 Mora, Mist Veiled Lead Elixir x3, Mist Grass Pollen x3, Treasure Hoarder Insignia x2\n \
+        **[✦✦----]**:15,000 Mora, Mist Veiled Mercury Elixir x3, Mist Grass Pollen x12, Treasure Hoarder Insignia x8\n \
+        **[✦✦✦---]**:20,000 Mora, Mist Veiled Mercury Elixir x6, Mist Grass x6, Silver Raven Insignia x6\n \
+        **[✦✦✦✦--]**:30,000 Mora, Mist Veiled Gold Elixir x3, Mist Grass x12, Silver Raven Insignia x9\n \
+        **[✦✦✦✦✦-]**:35,000 Mora, Mist Veiled Gold Elixir x6, Mist Grass Wick x9, Golden Raven Insignia x6\n \
+        **[✦✦✦✦✦✦]**:45,000 Mora, Mist Veiled Primo Elixir x4, Mist Grass Wick x18, Golden Raven Insignia x12", 'name':"Prototype Crescent"}
+        return lst32
+    elif name.lower() == "mouun's moon":
+        lst33 = {'thum':"https://static.wikia.nocookie.net/gensin-impact/images/4/42/Weapon_Mouun%27s_Moon.png/revision/latest/scale-to-width-down/256?cb=20211106232751", \
+        'his':"ธนูสงครามอันงดงามที่ทำขึ้นจากเปลือกหอยและปะการัง ประกายอันเศร้าสร้อยอาบไว้ไปบนคันธนูสีแสงจันทร์", \
+        'type':"Bow", 'stat':["565", "27.6%", "ATK"], \
+        'ascen':"**[✦-----]**:5,000 Mora, Narukami's Wisdom x3, Dismal Prism x3, Spectral Husk x2\n \
+        **[✦✦----]**:15,000 Mora, Narukami's Joy x3, Dismal Prism x12, Spectral Husk x8\n \
+        **[✦✦✦---]**:20,000 Mora, Narukami's Joy x6, Crystal Prism x6, Spectral Heart x6\n \
+        **[✦✦✦✦--]**:30,000 Mora, Narukami's Affection x3, Crystal Prism x12, Spectral Heart x9\n \
+        **[✦✦✦✦✦-]**:35,000 Mora, Narukami's Affection x6, Polarizing Prism x9, Spectral Nucleus x6\n \
+        **[✦✦✦✦✦✦]**:45,000 Mora, Narukami's Valor x4, Polarizing Prism x18, Spectral Nucleus x12", 'name':"Mouun's Moon"}
+        return lst33
+    elif name.lower() == "mitternachts waltz":
+        lst34 = {'thum':"https://static.wikia.nocookie.net/gensin-impact/images/7/77/Weapon_Mitternachts_Waltz.png/revision/latest/scale-to-width-down/256?cb=20210611013556", \
+        'his':"คันธนูที่มีสีดั่งค่ำคืนแห่งบาปและความเพ้อฝัน", \
+        'type':"Bow", 'stat':["510", "51.7%", "Physical DMG Bonus"], \
+        'ascen':"**[✦-----]**:5,000 Mora, Tile of Decarabian's Tower x3, Heavy Horn x3, Treasure Hoarder Insignia x2\n \
+        **[✦✦----]**:15,000 Mora, Debris of Decarabian's City x3, Heavy Horn x12, Treasure Hoarder Insignia x8\n \
+        **[✦✦✦---]**:20,000 Mora, Debris of Decarabian's City x6, Black Bronze Horn x6, Silver Raven Insignia x6\n \
+        **[✦✦✦✦--]**:30,000 Mora, Fragment of Decarabian's Epic x3, Black Bronze Horn x12, Silver Raven Insignia x9\n \
+        **[✦✦✦✦✦-]**:35,000 Mora, Fragment of Decarabian's Epic x6, Black Crystal Horn x9, Golden Raven Insignia x6\n \
+        **[✦✦✦✦✦✦]**:45,000 Mora, Scattered Piece of Decarabian's Dream x4, Black Crystal Horn x18, Golden Raven Insignia x12", 'name':"Mitternachts Waltz"}
+        return lst34
+    elif name.lower() == "hamayumi":
+        lst35 = {'thum':"https://static.wikia.nocookie.net/gensin-impact/images/d/d9/Weapon_Hamayumi.png/revision/latest/scale-to-width-down/256?cb=20210726032818", \
+        'his':"หญิงสาวในศาลเจ้าบางคนเคยเป็นเจ้าของวอร์โบว์นี้ มันถูกสร้างขึ้นด้วยทักษะที่เหนือกว่าและมีทั้งที่ซับซ้อนและทนทาน", \
+        'type':"Bow", 'stat':["454", "55.1%", "ATK"], \
+        'ascen':"**[✦-----]**:5,000 Mora, Narukami's Wisdom x3, Dismal Prism x3, Firm Arrowhead x2\n \
+        **[✦✦----]**:15,000 Mora, Narukami's Joy x3, Dismal Prism x12, Firm Arrowhead x8\n \
+        **[✦✦✦---]**:20,000 Mora, Narukami's Joy x6, Crystal Prism x6, Sharp Arrowhead x6\n \
+        **[✦✦✦✦--]**:30,000 Mora, Narukami's Affection x3, Crystal Prism x12, Sharp Arrowhead x9\n \
+        **[✦✦✦✦✦-]**:35,000 Mora, Narukami's Affection x6, Polarizing Prism x9, Weathered Arrowhead x6\n \
+        **[✦✦✦✦✦✦]**:45,000 Mora, Narukami's Valor x4, Polarizing Prism x18, Weathered Arrowhead x12", 'name':"Hamayumi"}
+        return lst35
+    elif name.lower() == "favonius warbow":
+        lst36 = {'thum':"https://static.wikia.nocookie.net/gensin-impact/images/8/85/Weapon_Favonius_Warbow.png/revision/latest/scale-to-width-down/256?cb=20201120003145", \
+        'his':"ธนูปลายโค้งกลับแบบทั่วไปที่ใช้งานโดยกองอัศวินแห่ง Favonius มีเพียงยอดนักธนูเท่านั้นที่จะดึงพลังสูงสุดของมันออกมาได้", \
+        'type':"Bow", 'stat':["454", "61.3%", "Energy Recharge"], \
+        'ascen':"**[✦-----]**:5,000 Mora, Fetters of the Dandelion Gladiator x3, Chaos Device x3, Whopperflower Nectar x2\n \
+        **[✦✦----]**:15,000 Mora, Chains of the Dandelion Gladiator x3, Chaos Device x12, Whopperflower Nectar x8\n \
+        **[✦✦✦---]**:20,000 Mora, Chains of the Dandelion Gladiator x6, Chaos Circuit x6, Shimmering Nectar x6\n \
+        **[✦✦✦✦--]**:30,000 Mora, Shackles of the Dandelion Gladiator x3, Chaos Circuit x12, Shimmering Nectar x9\n \
+        **[✦✦✦✦✦-]**:35,000 Mora, Shackles of the Dandelion Gladiator x6, Chaos Core x9, Energy Nectar x6\n \
+        **[✦✦✦✦✦✦]**:45,000 Mora, Dream of the Dandelion Gladiator x4, Chaos Core x18, Energy Nectar x12", 'name':"Favonius Warbow"}
+        return lst36
+    elif name.lower() == "compound bow":
+        lst37 = {'thum':"", \
+        'his':"ธนูทดกำลังหายากที่ทำจากโลหะประกอบกัน ดูแลรักษายาก แต่ขึ้นศรได้ง่ายและมีพลังทำลายที่สูงมาก", \
+        'type':"Bow", 'stat':["454", "69.0%", "Physical DMG Bonus"], \
+        'ascen':"**[✦-----]**:5,000 Mora, Grain of Aerosiderite x3, Fragile Bone Shard x3, Recruit's Insignia x2\n \
+        **[✦✦----]**:15,000 Mora, Piece of Aerosiderite x3, Fragile Bone Shard x12, Recruit's Insignia x8\n \
+        **[✦✦✦---]**:20,000 Mora, Piece of Aerosiderite x6, Sturdy Bone Shard x6, Sergeant's Insignia x6\n \
+        **[✦✦✦✦--]**:30,000 Mora, Bit of Aerosiderite x3, Sturdy Bone Shard x12, Sergeant's Insignia x9\n \
+        **[✦✦✦✦✦-]**:35,000 Mora, Bit of Aerosiderite x6, Fossilized Bone Shard x9, Lieutenant's Insignia x6\n \
+        **[✦✦✦✦✦✦]**:45,000 Mora, Chunk of Aerosiderite x4, Fossilized Bone Shard x18, Lieutenant's Insignia x12", 'name':"Compound Bow"}
+        return lst37
+    elif name.lower() == "blackcliff warbow":
+        lst38 = {'thum':"https://static.wikia.nocookie.net/gensin-impact/images/b/b8/Weapon_Blackcliff_Warbow.png/revision/latest/scale-to-width-down/256?cb=20201103093753", \
+        'his':"คันธนูที่ทำจากหิน blackstone ที่มีคันศรอันแข็งแกร่ง ผู้ยิงต้องเป็นมือธนูที่กำย่ำแข็งแกร่งเท่านั้น", \
+        'type':"Bow", 'stat':["565", "36.8%", "CRIT DMG"], \
+        'ascen':"**[✦-----]**:5,000 Mora, Luminous Sands from Guyun x3, Hunter's Sacrificial Knife x3, Whopperflower Nectar x2\n \
+        **[✦✦----]**:15,000 Mora, Lustrous Stone from Guyun x3, Hunter's Sacrificial Knife x12, Whopperflower Nectar x8\n \
+        **[✦✦✦---]**:20,000 Mora, Lustrous Stone from Guyun x6, Agent's Sacrificial Knife x6, Shimmering Nectar x6\n \
+        **[✦✦✦✦--]**:30,000 Mora, Relic from Guyun x3, Agent's Sacrificial Knife x12, Shimmering Nectar x9\n \
+        **[✦✦✦✦✦-]**:35,000 Mora, Relic from Guyun x6, Inspector's Sacrificial Knife x9, Energy Nectar x6\n \
+        **[✦✦✦✦✦✦]**:45,000 Mora, Divine Body from Guyun x4, Inspector's Sacrificial Knife x18, Energy Nectar x12", 'name':"Blackcliff Warbow"}
+        return lst38
+    elif name.lower() == "windblume ode":
+        lst39 = {'thum':"https://static.wikia.nocookie.net/gensin-impact/images/3/38/Weapon_Windblume_Ode.png/revision/latest/scale-to-width-down/256?cb=20210317075422", \
+        'his':"ธนูที่ประดับตกแต่งด้วยดอกไม้นิรนาม ที่ได้แบกรับความหวังอันแรงกล้าของบุคคลนิรนามเอาไว้", \
+        'type':"Bow", 'stat':["510", "165", "Elemental Mastery"], \
+        'ascen':"**[✦-----]**:5,000 Mora, Fetters of the Dandelion Gladiator x3, Dead Ley Line Branch x3, Whopperflower Nectar x2\n \
+        **[✦✦----]**:15,000 Mora, Chains of the Dandelion Gladiator x3, Dead Ley Line Branch x12, Whopperflower Nectar x8\n \
+        **[✦✦✦---]**:20,000 Mora, Chains of the Dandelion Gladiator x6, Dead Ley Line Leaves x6, Shimmering Nectar x6\n \
+        **[✦✦✦✦--]**:30,000 Mora, Shackles of the Dandelion Gladiator x3, Dead Ley Line Leaves x12, Shimmering Nectar x9\n \
+        **[✦✦✦✦✦-]**:35,000 Mora, Shackles of the Dandelion Gladiator x6, Ley Line Sprout x9, Energy Nectar x6\n \
+        **[✦✦✦✦✦✦]**:45,000 Mora, Dream of the Dandelion Gladiator x4, Ley Line Sprout x18, Energy Nectar x12", 'name':"Windblume Ode"}
+        return lst39
+    elif name.lower() == "wine and song":
+        lst40 = {'thum':"https://static.wikia.nocookie.net/gensin-impact/images/c/c6/Weapon_Wine_and_Song.png/revision/latest/scale-to-width-down/256?cb=20210317183126", \
+        'his':"บทเพลงที่ได้รับความนิยมในยุคสมัยของชนชั้นสูง ข้อมูลของผู้แต่งนั้นไม่เป็นที่แน่ชัด สิ่งที่อยู่ในนั้นคือบันทึกเรื่องราวของจอมโจรผู้ยิ่งใหญ่", \
+        'type':"Catalyst", 'stat':["565", "30.6%", "Energy Recharge"], \
+        'ascen':"**[✦-----]**:5,000 Mora, Boreal Wolf's Milk Tooth x3, Dead Ley Line Branch x3, Divining Scroll x2\n \
+        **[✦✦----]**:15,000 Mora, Boreal Wolf's Cracked Tooth x3, Dead Ley Line Branch x12, Divining Scroll x8\n \
+        **[✦✦✦---]**:20,000 Mora, Boreal Wolf's Cracked Tooth x6, Dead Ley Line Leaves x6, Sealed Scroll x6\n \
+        **[✦✦✦✦--]**:30,000 Mora, Boreal Wolf's Broken Fang x3, Dead Ley Line Leaves x12, Sealed Scroll x9\n \
+        **[✦✦✦✦✦-]**:35,000 Mora, Boreal Wolf's Broken Fang x6, Ley Line Sprout x9, Forbidden Curse Scroll x6\n \
+        **[✦✦✦✦✦✦]**:45,000 Mora, Boreal Wolf's Nostalgia x4, Ley Line Sprout x18, Forbidden Curse Scroll x12", 'name':"Wine and Song"}
+        return lst40
+    elif name.lower() == "the widsith":
+        lst41 = {'thum':"https://static.wikia.nocookie.net/gensin-impact/images/f/f0/Weapon_The_Widsith.png/revision/latest/scale-to-width-down/256?cb=20201119201814", \
+        'his':"หนังสือบันทึกเนื้อเพลงเล่มหนา ๆ ซึ่งถึงแม้จะถูกแมลงและสายลมทำให้ผุกร่อนไปบ้าง แต่ลายมือที่เหลืออยู่ก็ยังคงเผยพลังงานให้เห็นอยู่ดี", \
+        'type':"Catalyst", 'stat':["510", "55.1%", "CRIT DMG"], \
+        'ascen':"**[✦-----]**:5,000 Mora, Boreal Wolf's Milk Tooth x3, Dead Ley Line Branch x3, Damaged Mask x2\n \
+        **[✦✦----]**:15,000 Mora, Boreal Wolf's Cracked Tooth x3, Dead Ley Line Branch x12, Damaged Mask x8\n \
+        **[✦✦✦---]**:20,000 Mora, Boreal Wolf's Cracked Tooth x6, Dead Ley Line Leaves x6, Stained Mask x6\n \
+        **[✦✦✦✦--]**:30,000 Mora, Boreal Wolf's Broken Fang x3, Dead Ley Line Leaves x12, Stained Mask x9\n \
+        **[✦✦✦✦✦-]**:35,000 Mora, Boreal Wolf's Broken Fang x6, Ley Line Sprout x9, Ominous Mask x6\n \
+        **[✦✦✦✦✦✦]**:45,000 Mora, Boreal Wolf's Nostalgia x4, Ley Line Sprout x18, Ominous Mask x12", 'name':"The Widsith"}
+        return lst41
+    elif name.lower() == "solar pearl":
+        lst42 = {'thum':"https://static.wikia.nocookie.net/gensin-impact/images/f/fc/Weapon_Solar_Pearl.png/revision/latest/scale-to-width-down/256?cb=20201116035322", \
+        'his':"มันเก็บกักพลังของแสงแห่งตะวันและจันทราไว้ เป็นไข่มุกสีทองที่คอยปล่อยคลื่นพลังอันอบอุ่นออกมา", \
+        'type':"Catalyst", 'stat':["510", "27.6%", "CRIT Rate"], \
+        'ascen':"**[✦-----]**:5,000 Mora, Luminous Sands from Guyun x3, Hunter's Sacrificial Knife x3, Whopperflower Nectar x2\n \
+        **[✦✦----]**:15,000 Mora, Lustrous Stone from Guyun x3, Hunter's Sacrificial Knife x12, Whopperflower Nectar x8\n \
+        **[✦✦✦---]**:20,000 Mora, Lustrous Stone from Guyun x6, Agent's Sacrificial Knife x6, Shimmering Nectar x6\n \
+        **[✦✦✦✦--]**:30,000 Mora, Relic from Guyun x3, Agent's Sacrificial Knife x12, Shimmering Nectar x9\n \
+        **[✦✦✦✦✦-]**:35,000 Mora, Relic from Guyun x6, Inspector's Sacrificial Knife x9, Energy Nectar x6\n \
+        **[✦✦✦✦✦✦]**:45,000 Mora, Divine Body from Guyun x4, Inspector's Sacrificial Knife x18, Energy Nectar x12", 'name':"Solar Pearl"}
+        return lst42
+    elif name.lower() == "sacrificial fragments":
+        lst43 = {'thum':"https://static.wikia.nocookie.net/gensin-impact/images/6/6c/Weapon_Sacrificial_Fragments.png/revision/latest/scale-to-width-down/256?cb=20201116035037", \
+        'his':"หนังสือสคริปต์ที่มีอายุเก่าแก่ ซึ่งไม่สามารถระบุข้อความต่าง ๆ และบทสคริปต์ข้างในได้อีกต่อไป ถูกสาปโดยการกัดเซาะของสายลมแห่งกาลเวลา", \
+        'type':"Catalyst", 'stat':["454", "221", "Elemental Mastery"], \
+        'ascen':"**[✦-----]**:5,000 Mora, Fetters of the Dandelion Gladiator x3, Chaos Device x3, Treasure Hoarder Insignia x2\n \
+        **[✦✦----]**:15,000 Mora, Chains of the Dandelion Gladiator x3, Chaos Device x12, Treasure Hoarder Insignia x8\n \
+        **[✦✦✦---]**:20,000 Mora, Chains of the Dandelion Gladiator x6, Chaos Circuit x6, Silver Raven Insignia x6\n \
+        **[✦✦✦✦--]**:30,000 Mora, Shackles of the Dandelion Gladiator x3, Chaos Circuit x12, Silver Raven Insignia x9\n \
+        **[✦✦✦✦✦-]**:35,000 Mora, Shackles of the Dandelion Gladiator x6, Chaos Core x9, Golden Raven Insignia x6\n \
+        **[✦✦✦✦✦✦]**:45,000 Mora, Dream of the Dandelion Gladiator x4, Chaos Core x18, Golden Raven Insignia x12", 'name':"Sacrificial Fragments"}
+        return lst43
     elif name.lower() == "":
-        lst25 = {'thum':"", \
+        lst44 = {'thum':"", \
         'his':"", \
-        'type':"Sword", 'stat':["674", "22.1%", "CRIT Rate"], \
+        'type':"Catalyst", 'stat':["510", "51.7%", "Physical DMG Bonus"], \
         'ascen':"**[✦-----]**:5,000 Mora,  x3,  x3,  x2\n \
         **[✦✦----]**:15,000 Mora,  x3,  x12,  x8\n \
         **[✦✦✦---]**:20,000 Mora,  x6,  x6,  x6\n \
-        **[✦✦✦✦--]**:30,000 Mora,  x3,  x12,  x9\n \
+        **[✦✦✦✦--]**:30,000 Mora,  x3,   x12,  x9\n \
         **[✦✦✦✦✦-]**:35,000 Mora,  x6,  x9,  x6\n \
         **[✦✦✦✦✦✦]**:45,000 Mora,  x4,  x18,  x12", 'name':""}
-        return lst25
+        return lst44
     elif name.lower() == "":
-        lst25 = {'thum':"", \
+        lst45 = {'thum':"", \
         'his':"", \
-        'type':"Sword", 'stat':["674", "22.1%", "CRIT Rate"], \
+        'type':"Catalyst", 'stat':["510", "51.7%", "Physical DMG Bonus"], \
         'ascen':"**[✦-----]**:5,000 Mora,  x3,  x3,  x2\n \
         **[✦✦----]**:15,000 Mora,  x3,  x12,  x8\n \
         **[✦✦✦---]**:20,000 Mora,  x6,  x6,  x6\n \
-        **[✦✦✦✦--]**:30,000 Mora,  x3,  x12,  x9\n \
+        **[✦✦✦✦--]**:30,000 Mora,  x3,   x12,  x9\n \
         **[✦✦✦✦✦-]**:35,000 Mora,  x6,  x9,  x6\n \
         **[✦✦✦✦✦✦]**:45,000 Mora,  x4,  x18,  x12", 'name':""}
-        return lst25
+        return lst45
     elif name.lower() == "":
-        lst25 = {'thum':"", \
+        lst46 = {'thum':"", \
         'his':"", \
-        'type':"Sword", 'stat':["674", "22.1%", "CRIT Rate"], \
+        'type':"Catalyst", 'stat':["510", "51.7%", "Physical DMG Bonus"], \
         'ascen':"**[✦-----]**:5,000 Mora,  x3,  x3,  x2\n \
         **[✦✦----]**:15,000 Mora,  x3,  x12,  x8\n \
         **[✦✦✦---]**:20,000 Mora,  x6,  x6,  x6\n \
-        **[✦✦✦✦--]**:30,000 Mora,  x3,  x12,  x9\n \
+        **[✦✦✦✦--]**:30,000 Mora,  x3,   x12,  x9\n \
         **[✦✦✦✦✦-]**:35,000 Mora,  x6,  x9,  x6\n \
         **[✦✦✦✦✦✦]**:45,000 Mora,  x4,  x18,  x12", 'name':""}
-        return lst25
+        return lst46
     elif name.lower() == "":
-        lst25 = {'thum':"", \
+        lst47 = {'thum':"", \
         'his':"", \
-        'type':"Sword", 'stat':["674", "22.1%", "CRIT Rate"], \
+        'type':"Catalyst", 'stat':["510", "51.7%", "Physical DMG Bonus"], \
         'ascen':"**[✦-----]**:5,000 Mora,  x3,  x3,  x2\n \
         **[✦✦----]**:15,000 Mora,  x3,  x12,  x8\n \
         **[✦✦✦---]**:20,000 Mora,  x6,  x6,  x6\n \
-        **[✦✦✦✦--]**:30,000 Mora,  x3,  x12,  x9\n \
+        **[✦✦✦✦--]**:30,000 Mora,  x3,   x12,  x9\n \
         **[✦✦✦✦✦-]**:35,000 Mora,  x6,  x9,  x6\n \
         **[✦✦✦✦✦✦]**:45,000 Mora,  x4,  x18,  x12", 'name':""}
-        return lst25                                
-                   
+        return lst47
+    elif name.lower() == "":
+        lst48 = {'thum':"", \
+        'his':"", \
+        'type':"Catalyst", 'stat':["510", "51.7%", "Physical DMG Bonus"], \
+        'ascen':"**[✦-----]**:5,000 Mora,  x3,  x3,  x2\n \
+        **[✦✦----]**:15,000 Mora,  x3,  x12,  x8\n \
+        **[✦✦✦---]**:20,000 Mora,  x6,  x6,  x6\n \
+        **[✦✦✦✦--]**:30,000 Mora,  x3,   x12,  x9\n \
+        **[✦✦✦✦✦-]**:35,000 Mora,  x6,  x9,  x6\n \
+        **[✦✦✦✦✦✦]**:45,000 Mora,  x4,  x18,  x12", 'name':""}
+        return lst48
+    elif name.lower() == "":
+        lst49 = {'thum':"", \
+        'his':"", \
+        'type':"Catalyst", 'stat':["510", "51.7%", "Physical DMG Bonus"], \
+        'ascen':"**[✦-----]**:5,000 Mora,  x3,  x3,  x2\n \
+        **[✦✦----]**:15,000 Mora,  x3,  x12,  x8\n \
+        **[✦✦✦---]**:20,000 Mora,  x6,  x6,  x6\n \
+        **[✦✦✦✦--]**:30,000 Mora,  x3,   x12,  x9\n \
+        **[✦✦✦✦✦-]**:35,000 Mora,  x6,  x9,  x6\n \
+        **[✦✦✦✦✦✦]**:45,000 Mora,  x4,  x18,  x12", 'name':""}
+        return lst49
+    elif name.lower() == "":
+        lst50 = {'thum':"", \
+        'his':"", \
+        'type':"Catalyst", 'stat':["510", "51.7%", "Physical DMG Bonus"], \
+        'ascen':"**[✦-----]**:5,000 Mora,  x3,  x3,  x2\n \
+        **[✦✦----]**:15,000 Mora,  x3,  x12,  x8\n \
+        **[✦✦✦---]**:20,000 Mora,  x6,  x6,  x6\n \
+        **[✦✦✦✦--]**:30,000 Mora,  x3,   x12,  x9\n \
+        **[✦✦✦✦✦-]**:35,000 Mora,  x6,  x9,  x6\n \
+        **[✦✦✦✦✦✦]**:45,000 Mora,  x4,  x18,  x12", 'name':""}
+        return lst50
+    elif name.lower() == "":
+        lst51 = {'thum':"", \
+        'his':"", \
+        'type':"Catalyst", 'stat':["510", "51.7%", "Physical DMG Bonus"], \
+        'ascen':"**[✦-----]**:5,000 Mora,  x3,  x3,  x2\n \
+        **[✦✦----]**:15,000 Mora,  x3,  x12,  x8\n \
+        **[✦✦✦---]**:20,000 Mora,  x6,  x6,  x6\n \
+        **[✦✦✦✦--]**:30,000 Mora,  x3,   x12,  x9\n \
+        **[✦✦✦✦✦-]**:35,000 Mora,  x6,  x9,  x6\n \
+        **[✦✦✦✦✦✦]**:45,000 Mora,  x4,  x18,  x12", 'name':""}
+        return lst51
+    elif name.lower() == "":
+        lst52 = {'thum':"", \
+        'his':"", \
+        'type':"Catalyst", 'stat':["510", "51.7%", "Physical DMG Bonus"], \
+        'ascen':"**[✦-----]**:5,000 Mora,  x3,  x3,  x2\n \
+        **[✦✦----]**:15,000 Mora,  x3,  x12,  x8\n \
+        **[✦✦✦---]**:20,000 Mora,  x6,  x6,  x6\n \
+        **[✦✦✦✦--]**:30,000 Mora,  x3,   x12,  x9\n \
+        **[✦✦✦✦✦-]**:35,000 Mora,  x6,  x9,  x6\n \
+        **[✦✦✦✦✦✦]**:45,000 Mora,  x4,  x18,  x12", 'name':""}
+        return lst52
+    elif name.lower() == "":
+        lst53 = {'thum':"", \
+        'his':"", \
+        'type':"Catalyst", 'stat':["510", "51.7%", "Physical DMG Bonus"], \
+        'ascen':"**[✦-----]**:5,000 Mora,  x3,  x3,  x2\n \
+        **[✦✦----]**:15,000 Mora,  x3,  x12,  x8\n \
+        **[✦✦✦---]**:20,000 Mora,  x6,  x6,  x6\n \
+        **[✦✦✦✦--]**:30,000 Mora,  x3,   x12,  x9\n \
+        **[✦✦✦✦✦-]**:35,000 Mora,  x6,  x9,  x6\n \
+        **[✦✦✦✦✦✦]**:45,000 Mora,  x4,  x18,  x12", 'name':""}
+        return lst53
+                  
