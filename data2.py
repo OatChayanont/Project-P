@@ -425,17 +425,158 @@ def weapon_info_list(name):
         **[✦✦✦✦✦-]**:35,000 Mora, Shackles of the Dandelion Gladiator x6, Ley Line Sprout x9, Energy Nectar x6\n \
         **[✦✦✦✦✦✦]**:45,000 Mora, Dream of the Dandelion Gladiator x4, Ley Line Sprout x18, Energy Nectar x12", 'name':"Windblume Ode"}
         return lst39
+    elif name.lower() == "wine and song":
+        lst40 = {'thum':"https://static.wikia.nocookie.net/gensin-impact/images/c/c6/Weapon_Wine_and_Song.png/revision/latest/scale-to-width-down/256?cb=20210317183126", \
+        'his':"บทเพลงที่ได้รับความนิยมในยุคสมัยของชนชั้นสูง ข้อมูลของผู้แต่งนั้นไม่เป็นที่แน่ชัด สิ่งที่อยู่ในนั้นคือบันทึกเรื่องราวของจอมโจรผู้ยิ่งใหญ่", \
+        'type':"Catalyst", 'stat':["565", "30.6%", "Energy Recharge"], \
+        'ascen':"**[✦-----]**:5,000 Mora, Boreal Wolf's Milk Tooth x3, Dead Ley Line Branch x3, Divining Scroll x2\n \
+        **[✦✦----]**:15,000 Mora, Boreal Wolf's Cracked Tooth x3, Dead Ley Line Branch x12, Divining Scroll x8\n \
+        **[✦✦✦---]**:20,000 Mora, Boreal Wolf's Cracked Tooth x6, Dead Ley Line Leaves x6, Sealed Scroll x6\n \
+        **[✦✦✦✦--]**:30,000 Mora, Boreal Wolf's Broken Fang x3, Dead Ley Line Leaves x12, Sealed Scroll x9\n \
+        **[✦✦✦✦✦-]**:35,000 Mora, Boreal Wolf's Broken Fang x6, Ley Line Sprout x9, Forbidden Curse Scroll x6\n \
+        **[✦✦✦✦✦✦]**:45,000 Mora, Boreal Wolf's Nostalgia x4, Ley Line Sprout x18, Forbidden Curse Scroll x12", 'name':"Wine and Song"}
+        return lst40
+    elif name.lower() == "the widsith":
+        lst41 = {'thum':"https://static.wikia.nocookie.net/gensin-impact/images/f/f0/Weapon_The_Widsith.png/revision/latest/scale-to-width-down/256?cb=20201119201814", \
+        'his':"หนังสือบันทึกเนื้อเพลงเล่มหนา ๆ ซึ่งถึงแม้จะถูกแมลงและสายลมทำให้ผุกร่อนไปบ้าง แต่ลายมือที่เหลืออยู่ก็ยังคงเผยพลังงานให้เห็นอยู่ดี", \
+        'type':"Catalyst", 'stat':["510", "55.1%", "CRIT DMG"], \
+        'ascen':"**[✦-----]**:5,000 Mora, Boreal Wolf's Milk Tooth x3, Dead Ley Line Branch x3, Damaged Mask x2\n \
+        **[✦✦----]**:15,000 Mora, Boreal Wolf's Cracked Tooth x3, Dead Ley Line Branch x12, Damaged Mask x8\n \
+        **[✦✦✦---]**:20,000 Mora, Boreal Wolf's Cracked Tooth x6, Dead Ley Line Leaves x6, Stained Mask x6\n \
+        **[✦✦✦✦--]**:30,000 Mora, Boreal Wolf's Broken Fang x3, Dead Ley Line Leaves x12, Stained Mask x9\n \
+        **[✦✦✦✦✦-]**:35,000 Mora, Boreal Wolf's Broken Fang x6, Ley Line Sprout x9, Ominous Mask x6\n \
+        **[✦✦✦✦✦✦]**:45,000 Mora, Boreal Wolf's Nostalgia x4, Ley Line Sprout x18, Ominous Mask x12", 'name':"The Widsith"}
+        return lst41
     elif name.lower() == "":
-        lst40 = {'thum':"", \
+        lst42 = {'thum':"", \
         'his':"", \
-        'type':"Bow", 'stat':["510", "51.7%", "Physical DMG Bonus"], \
+        'type':"Catalyst", 'stat':["510", "51.7%", "Physical DMG Bonus"], \
         'ascen':"**[✦-----]**:5,000 Mora,  x3,  x3,  x2\n \
         **[✦✦----]**:15,000 Mora,  x3,  x12,  x8\n \
         **[✦✦✦---]**:20,000 Mora,  x6,  x6,  x6\n \
         **[✦✦✦✦--]**:30,000 Mora,  x3,   x12,  x9\n \
         **[✦✦✦✦✦-]**:35,000 Mora,  x6,  x9,  x6\n \
         **[✦✦✦✦✦✦]**:45,000 Mora,  x4,  x18,  x12", 'name':""}
-        return lst40
-
-                               
-                   
+        return lst42
+    elif name.lower() == "":
+        lst43 = {'thum':"", \
+        'his':"", \
+        'type':"Catalyst", 'stat':["510", "51.7%", "Physical DMG Bonus"], \
+        'ascen':"**[✦-----]**:5,000 Mora,  x3,  x3,  x2\n \
+        **[✦✦----]**:15,000 Mora,  x3,  x12,  x8\n \
+        **[✦✦✦---]**:20,000 Mora,  x6,  x6,  x6\n \
+        **[✦✦✦✦--]**:30,000 Mora,  x3,   x12,  x9\n \
+        **[✦✦✦✦✦-]**:35,000 Mora,  x6,  x9,  x6\n \
+        **[✦✦✦✦✦✦]**:45,000 Mora,  x4,  x18,  x12", 'name':""}
+        return lst43
+    elif name.lower() == "":
+        lst44 = {'thum':"", \
+        'his':"", \
+        'type':"Catalyst", 'stat':["510", "51.7%", "Physical DMG Bonus"], \
+        'ascen':"**[✦-----]**:5,000 Mora,  x3,  x3,  x2\n \
+        **[✦✦----]**:15,000 Mora,  x3,  x12,  x8\n \
+        **[✦✦✦---]**:20,000 Mora,  x6,  x6,  x6\n \
+        **[✦✦✦✦--]**:30,000 Mora,  x3,   x12,  x9\n \
+        **[✦✦✦✦✦-]**:35,000 Mora,  x6,  x9,  x6\n \
+        **[✦✦✦✦✦✦]**:45,000 Mora,  x4,  x18,  x12", 'name':""}
+        return lst44
+    elif name.lower() == "":
+        lst45 = {'thum':"", \
+        'his':"", \
+        'type':"Catalyst", 'stat':["510", "51.7%", "Physical DMG Bonus"], \
+        'ascen':"**[✦-----]**:5,000 Mora,  x3,  x3,  x2\n \
+        **[✦✦----]**:15,000 Mora,  x3,  x12,  x8\n \
+        **[✦✦✦---]**:20,000 Mora,  x6,  x6,  x6\n \
+        **[✦✦✦✦--]**:30,000 Mora,  x3,   x12,  x9\n \
+        **[✦✦✦✦✦-]**:35,000 Mora,  x6,  x9,  x6\n \
+        **[✦✦✦✦✦✦]**:45,000 Mora,  x4,  x18,  x12", 'name':""}
+        return lst45
+    elif name.lower() == "":
+        lst46 = {'thum':"", \
+        'his':"", \
+        'type':"Catalyst", 'stat':["510", "51.7%", "Physical DMG Bonus"], \
+        'ascen':"**[✦-----]**:5,000 Mora,  x3,  x3,  x2\n \
+        **[✦✦----]**:15,000 Mora,  x3,  x12,  x8\n \
+        **[✦✦✦---]**:20,000 Mora,  x6,  x6,  x6\n \
+        **[✦✦✦✦--]**:30,000 Mora,  x3,   x12,  x9\n \
+        **[✦✦✦✦✦-]**:35,000 Mora,  x6,  x9,  x6\n \
+        **[✦✦✦✦✦✦]**:45,000 Mora,  x4,  x18,  x12", 'name':""}
+        return lst46
+    elif name.lower() == "":
+        lst47 = {'thum':"", \
+        'his':"", \
+        'type':"Catalyst", 'stat':["510", "51.7%", "Physical DMG Bonus"], \
+        'ascen':"**[✦-----]**:5,000 Mora,  x3,  x3,  x2\n \
+        **[✦✦----]**:15,000 Mora,  x3,  x12,  x8\n \
+        **[✦✦✦---]**:20,000 Mora,  x6,  x6,  x6\n \
+        **[✦✦✦✦--]**:30,000 Mora,  x3,   x12,  x9\n \
+        **[✦✦✦✦✦-]**:35,000 Mora,  x6,  x9,  x6\n \
+        **[✦✦✦✦✦✦]**:45,000 Mora,  x4,  x18,  x12", 'name':""}
+        return lst47
+    elif name.lower() == "":
+        lst48 = {'thum':"", \
+        'his':"", \
+        'type':"Catalyst", 'stat':["510", "51.7%", "Physical DMG Bonus"], \
+        'ascen':"**[✦-----]**:5,000 Mora,  x3,  x3,  x2\n \
+        **[✦✦----]**:15,000 Mora,  x3,  x12,  x8\n \
+        **[✦✦✦---]**:20,000 Mora,  x6,  x6,  x6\n \
+        **[✦✦✦✦--]**:30,000 Mora,  x3,   x12,  x9\n \
+        **[✦✦✦✦✦-]**:35,000 Mora,  x6,  x9,  x6\n \
+        **[✦✦✦✦✦✦]**:45,000 Mora,  x4,  x18,  x12", 'name':""}
+        return lst48
+    elif name.lower() == "":
+        lst49 = {'thum':"", \
+        'his':"", \
+        'type':"Catalyst", 'stat':["510", "51.7%", "Physical DMG Bonus"], \
+        'ascen':"**[✦-----]**:5,000 Mora,  x3,  x3,  x2\n \
+        **[✦✦----]**:15,000 Mora,  x3,  x12,  x8\n \
+        **[✦✦✦---]**:20,000 Mora,  x6,  x6,  x6\n \
+        **[✦✦✦✦--]**:30,000 Mora,  x3,   x12,  x9\n \
+        **[✦✦✦✦✦-]**:35,000 Mora,  x6,  x9,  x6\n \
+        **[✦✦✦✦✦✦]**:45,000 Mora,  x4,  x18,  x12", 'name':""}
+        return lst49
+    elif name.lower() == "":
+        lst50 = {'thum':"", \
+        'his':"", \
+        'type':"Catalyst", 'stat':["510", "51.7%", "Physical DMG Bonus"], \
+        'ascen':"**[✦-----]**:5,000 Mora,  x3,  x3,  x2\n \
+        **[✦✦----]**:15,000 Mora,  x3,  x12,  x8\n \
+        **[✦✦✦---]**:20,000 Mora,  x6,  x6,  x6\n \
+        **[✦✦✦✦--]**:30,000 Mora,  x3,   x12,  x9\n \
+        **[✦✦✦✦✦-]**:35,000 Mora,  x6,  x9,  x6\n \
+        **[✦✦✦✦✦✦]**:45,000 Mora,  x4,  x18,  x12", 'name':""}
+        return lst50
+    elif name.lower() == "":
+        lst51 = {'thum':"", \
+        'his':"", \
+        'type':"Catalyst", 'stat':["510", "51.7%", "Physical DMG Bonus"], \
+        'ascen':"**[✦-----]**:5,000 Mora,  x3,  x3,  x2\n \
+        **[✦✦----]**:15,000 Mora,  x3,  x12,  x8\n \
+        **[✦✦✦---]**:20,000 Mora,  x6,  x6,  x6\n \
+        **[✦✦✦✦--]**:30,000 Mora,  x3,   x12,  x9\n \
+        **[✦✦✦✦✦-]**:35,000 Mora,  x6,  x9,  x6\n \
+        **[✦✦✦✦✦✦]**:45,000 Mora,  x4,  x18,  x12", 'name':""}
+        return lst51
+    elif name.lower() == "":
+        lst52 = {'thum':"", \
+        'his':"", \
+        'type':"Catalyst", 'stat':["510", "51.7%", "Physical DMG Bonus"], \
+        'ascen':"**[✦-----]**:5,000 Mora,  x3,  x3,  x2\n \
+        **[✦✦----]**:15,000 Mora,  x3,  x12,  x8\n \
+        **[✦✦✦---]**:20,000 Mora,  x6,  x6,  x6\n \
+        **[✦✦✦✦--]**:30,000 Mora,  x3,   x12,  x9\n \
+        **[✦✦✦✦✦-]**:35,000 Mora,  x6,  x9,  x6\n \
+        **[✦✦✦✦✦✦]**:45,000 Mora,  x4,  x18,  x12", 'name':""}
+        return lst52
+    elif name.lower() == "":
+        lst53 = {'thum':"", \
+        'his':"", \
+        'type':"Catalyst", 'stat':["510", "51.7%", "Physical DMG Bonus"], \
+        'ascen':"**[✦-----]**:5,000 Mora,  x3,  x3,  x2\n \
+        **[✦✦----]**:15,000 Mora,  x3,  x12,  x8\n \
+        **[✦✦✦---]**:20,000 Mora,  x6,  x6,  x6\n \
+        **[✦✦✦✦--]**:30,000 Mora,  x3,   x12,  x9\n \
+        **[✦✦✦✦✦-]**:35,000 Mora,  x6,  x9,  x6\n \
+        **[✦✦✦✦✦✦]**:45,000 Mora,  x4,  x18,  x12", 'name':""}
+        return lst53
+                  
