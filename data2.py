@@ -361,7 +361,7 @@ def weapon_info_list(name):
         return lst33
     elif name.lower() == "mitternachts waltz":
         lst34 = {'thum':"https://static.wikia.nocookie.net/gensin-impact/images/7/77/Weapon_Mitternachts_Waltz.png/revision/latest/scale-to-width-down/256?cb=20210611013556", \
-        'his':"", \
+        'his':"คันธนูที่มีสีดั่งค่ำคืนแห่งบาปและความเพ้อฝัน", \
         'type':"Bow", 'stat':["510", "51.7%", "Physical DMG Bonus"], \
         'ascen':"**[✦-----]**:5,000 Mora, Tile of Decarabian's Tower x3, Heavy Horn x3, Treasure Hoarder Insignia x2\n \
         **[✦✦----]**:15,000 Mora, Debris of Decarabian's City x3, Heavy Horn x12, Treasure Hoarder Insignia x8\n \
