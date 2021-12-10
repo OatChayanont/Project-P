@@ -140,37 +140,37 @@ def weapon_info_list(name):
         **[✦✦✦✦✦✦]**:65,000 Mora, Scattered Piece of Decarabian's Dream x6, Black Crystal Horn x27, Ominous Mask x18", 'name':"Song of Broken Pines"}
         return lst13
     elif name.lower() == "engulfing lightning":
-        lst14 = ["https://static.wikia.nocookie.net/gensin-impact/images/2/21/Weapon_Engulfing_Lightning.png/revision/latest/scale-to-width-down/256?cb=20210901044846", \
-        'A naginata used to "cut grass." Any army that stands before this weapon will probably be likewise cut down...', \
-        "Polearm", ["608", "55.1%", "Energy Recharge"], \
-        "**[✦-----]**:10,000 Mora, Mask of the Wicked Lieutenant x5, Chaos Gear x5, Old Handguard x3\n \
+        lst14 = {'thum':"https://static.wikia.nocookie.net/gensin-impact/images/2/21/Weapon_Engulfing_Lightning.png/revision/latest/scale-to-width-down/256?cb=20210901044846", \
+        'his':'A naginata used to "cut grass." Any army that stands before this weapon will probably be likewise cut down...', \
+        'type':"Polearm", 'stat':["608", "55.1%", "Energy Recharge"], \
+        'ascen':"**[✦-----]**:10,000 Mora, Mask of the Wicked Lieutenant x5, Chaos Gear x5, Old Handguard x3\n \
         **[✦✦----]**:20,000 Mora, Mask of the Tiger's Bite x5, Chaos Gear x18, Old Handguard x12\n \
         **[✦✦✦---]**:30,000 Mora, Mask of the Tiger's Bite x9, Chaos Axis x9, Kageuchi Handguard x9\n \
         **[✦✦✦✦--]**:45,000 Mora, Mask of the One-Horned x5, Chaos Axis x18, Kageuchi Handguard x14\n \
         **[✦✦✦✦✦-]**:55,000 Mora, Mask of the One-Horned x9, Chaos Oculus x14, Famed Handguard x9\n \
-        **[✦✦✦✦✦✦]**:65,000 Mora, Mask of the Kijin x6, Chaos Oculus x27, Famed Handguard x18", "Engulfing Lightning"]
+        **[✦✦✦✦✦✦]**:65,000 Mora, Mask of the Kijin x6, Chaos Oculus x27, Famed Handguard x18", 'name':"Engulfing Lightning"}
         return lst14
     elif name.lower() == "skyward spine":
-        lst15 = ["https://static.wikia.nocookie.net/gensin-impact/images/6/69/Weapon_Skyward_Spine.png/revision/latest/scale-to-width-down/256?cb=20201116035301", \
-        "A polearm that symbolizes Dvalin's fire resolve. The upright shaft of this weapon points towards the heavens, clad in the might of sky and wind.", \
-        "Polearm", ["674", "36.8%", "Energy Recharge"], \
-        "**[✦-----]**:10,000 Mora, Fetters of the Dandelion Gladiator x5, Chaos Device x5, Divining Scroll x3\n \
+        lst15 = {'thum':"https://static.wikia.nocookie.net/gensin-impact/images/6/69/Weapon_Skyward_Spine.png/revision/latest/scale-to-width-down/256?cb=20201116035301", \
+        'his':"A polearm that symbolizes Dvalin's fire resolve. The upright shaft of this weapon points towards the heavens, clad in the might of sky and wind.", \
+        'type':"Polearm", 'stat':["674", "36.8%", "Energy Recharge"], \
+        'ascen':"**[✦-----]**:10,000 Mora, Fetters of the Dandelion Gladiator x5, Chaos Device x5, Divining Scroll x3\n \
         **[✦✦----]**:20,000 Mora, Chains of the Dandelion Gladiator x5, Chaos Device x18, Divining Scroll x12\n \
         **[✦✦✦---]**:30,000 Mora, Chains of the Dandelion Gladiator x9, Chaos Circuit x9, Sealed Scroll x9\n \
         **[✦✦✦✦--]**:45,000 Mora, Shackles of the Dandelion Gladiator x5, Chaos Circuit x18, Sealed Scroll x14\n \
         **[✦✦✦✦✦-]**:55,000 Mora, Shackles of the Dandelion Gladiator x9, Chaos Core x14, Forbidden Curse Scroll x9\n \
-        **[✦✦✦✦✦✦]**:65,000 Mora, Dream of the Dandelion Gladiator x6, Chaos Core x27, Forbidden Curse Scroll x18", "Skyward Spine"]
+        **[✦✦✦✦✦✦]**:65,000 Mora, Dream of the Dandelion Gladiator x6, Chaos Core x27, Forbidden Curse Scroll x18", 'name':"Skyward Spine"}
         return lst15
     elif name.lower() == "primordial jade winged-spear":
-        lst16 = ["https://static.wikia.nocookie.net/gensin-impact/images/8/80/Weapon_Primordial_Jade_Winged-Spear.png/revision/latest/scale-to-width-down/256?cb=20201116152024", \
-        "A jade polearm made by the archons, capable of slaying ancient beasts.", \
-        "Polearm", ["674", "22.1%", "CRIT Rate"], \
-        "**[✦-----]**:10,000 Mora, Luminous Sands from Guyun x5, Hunter's Sacrificial Knife x5, Recruit's Insignia x3\n \
+        lst16 = {'thum':"https://static.wikia.nocookie.net/gensin-impact/images/8/80/Weapon_Primordial_Jade_Winged-Spear.png/revision/latest/scale-to-width-down/256?cb=20201116152024", \
+        'his':"A jade polearm made by the archons, capable of slaying ancient beasts.", \
+        'type':"Polearm", 'stat':["674", "22.1%", "CRIT Rate"], \
+        'ascen':"**[✦-----]**:10,000 Mora, Luminous Sands from Guyun x5, Hunter's Sacrificial Knife x5, Recruit's Insignia x3\n \
         **[✦✦----]**:20,000 Mora, Lustrous Stone from Guyun x5, Hunter's Sacrificial Knife x18, Recruit's Insignia x12\n \
         **[✦✦✦---]**:30,000 Mora, Lustrous Stone from Guyun x9, Agent's Sacrificial Knife x9, Sergeant's Insignia x9\n \
         **[✦✦✦✦--]**:45,000 Mora, Relic from Guyun x5, Agent's Sacrificial Knife x18, Sergeant's Insignia x14\n \
         **[✦✦✦✦✦-]**:55,000 Mora, Relic from Guyun x9, Inspector's Sacrificial Knife x14, Lieutenant's Insignia x9\n \
-        **[✦✦✦✦✦✦]**:65,000 Mora, Divine Body from Guyun x6, Inspector's Sacrificial Knife x27, Lieutenant's Insignia x18", "Primordial Jade Winged-Spear"]
+        **[✦✦✦✦✦✦]**:65,000 Mora, Divine Body from Guyun x6, Inspector's Sacrificial Knife x27, Lieutenant's Insignia x18", 'name':"Primordial Jade Winged-Spear"}
         return lst16
     elif name.lower() == "staff of homa":
         lst17 = ["https://static.wikia.nocookie.net/gensin-impact/images/1/17/Weapon_Staff_of_Homa.png/revision/latest/scale-to-width-down/256?cb=20210225200935", \
