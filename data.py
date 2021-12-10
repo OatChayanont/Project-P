@@ -127,3 +127,43 @@ def character_info_list(name):
                         **[✦✦✦✦✦✦]**:120,000 Mora, Shivada Jade Gemstone x6, Everflame Seed x20, Calla Lily x60, Weathered Arrowhead x24',
                         'thum':'https://static.wikia.nocookie.net/gensin-impact/images/b/b9/Character_Diona_Thumb.png/revision/latest/scale-to-width-down/50?cb=20210213163131', 'star':'[★★★★]'}
         return diona
+    elif name.lower() == "eula":
+        eula = {'his1':'Eula (ภาษาไทย: ยูล่า) เป็นตัวละครหญิงธาตุน้ำแข็งใช้อาวุธดาบใหญ่ที่สามารถเล่นได้ใน Genshin Impact\n\n\
+            ยูล่า ลอว์เรนซ์ เป็นทายาทของตระกูลขุนนางลอว์เรนซ์ที่เคยปกครองเมืองมอนด์ชดัตท์ดั่งทรราชย์ใจเหี้ยมเมื่อกาลก่อน \
+                ยูล่าเลือกที่จะสมัครเข้าเป็นหนึ่งในอัศวินฟาโวเนียส ศัตรูคู่แค้นที่โค่นล้มตระกูลตัวเอง และไต่เต้าขึ้นมาเป็นถึงหัวหน้ากองสอดแนม \
+                    ทำให้ยูล่าถูกตัดขาดจากตระกูลลอว์เรนซ์เนื่องจากทางเดินชีวิตใหม่ และซ้ำร้ายยังถูกเดียดฉันท์จากชาวเมืองเนื่องจากต้นกำเนิดเดิมที่พยายามหนีออกมา',
+                'stat':['13,226', '342', '751', '38.4%', '(CRIT Rate)'],
+                'ascen':'**[✦-----]**:20,000 Mora, Shivada Jade Sliver x1, Dandelion Seed x3, Damaged Mask x3\n \
+                        **[✦✦----]**:40,000 Mora, Shivada Jade Fragment x3, Crystalline Bloom x2, Dandelion Seed x10, Damaged Mask x15\n \
+                        **[✦✦✦---]**:60,000 Mora, Shivada Jade Fragment x6, Crystalline Bloom x4, Dandelion Seed x20, Stained Mask x12\n \
+                        **[✦✦✦✦--]**:80,000 Mora, Shivada Jade Chunk x3, Crystalline Bloom x8, Dandelion Seed x30, Stained Mask x18\n \
+                        **[✦✦✦✦✦-]**:100,000 Mora, Shivada Jade Chunk x6, Crystalline Bloom x12, Dandelion Seed x45, Ominous Mask x12\n \
+                        **[✦✦✦✦✦✦]**:120,000 Mora, Shivada Jade Gemstone x6, Crystalline Bloom x20, Dandelion Seed x60, Ominous Mask x24',
+                        'thum':'https://static.wikia.nocookie.net/genshin-impact/images/d/d3/Character_Eula_Thumb.png/revision/latest/scale-to-width-down/50?cb=20210523123929&path-prefix=th', 'star':'[★★★★★]'}
+        return eula
+    elif name.lower() == "fischl" or name.lower() == "amy":
+        amy = {'his1':'Fischl von Luftschloss Narfidort, ชื่อจริง Amy เป็นตัวละครหญิงธาตุไฟฟ้าใช้อาวุธธนูที่สามารถเล่นได้ในเกม Genshin Impact\n\n\
+            นักสืบสาวจินตนาการล้นโลกประจำกิลด์นักผจญภัยแห่งมอนด์ชตัดต์ ฟิชเชิลกล่าวว่าตนนั้นมีที่มาโลกอื่นอันมิใช่ Teyvat พร้อมกับอีการาตรีนามว่า ออซ ฟิชเชิลชอบตั้งทฤษฎีแปลกประหลาดที่สุดท้ายแล้วกลับกลายเป็นความจริงอย่างคาดไม่ถึงอยู่บ่อยครั้ง',
+                'stat':['9,189', '244', '594', '24.0%', '(ATK Bonus)'],
+                'ascen':'**[✦-----]**:20,000 Mora, Vajrada Amethyst Sliver x1, Small Lamp Grass x3, Firm Arrowhead x3\n \
+                        **[✦✦----]**:40,000 Mora, Vajrada Amethyst Fragment x3, Lightning Prism x2, Dandelion Seed x10, Firm Arrowhead x15\n \
+                        **[✦✦✦---]**:60,000 Mora, Vajrada Amethyst Fragment x6, Lightning Prism x4, Dandelion Seed x20, Sharp Arrowhead x12\n \
+                        **[✦✦✦✦--]**:80,000 Mora, Vajrada Amethyst Chunk x3, Lightning Prism x8, Dandelion Seed x30, Sharp Arrowhead x18\n \
+                        **[✦✦✦✦✦-]**:100,000 Mora, Vajrada Amethyst Chunk x6, Lightning Prism x12, Dandelion Seed x45, Weathered Arrowhead x12\n \
+                        **[✦✦✦✦✦✦]**:120,000 Mora, Vajrada Amethyst Gemstone x6, Lightning Prism x20, Dandelion Seed x60, Weathered Arrowhead x24',
+                        'thum':'https://static.wikia.nocookie.net/genshin-impact/images/1/14/Character_Fischl_Thumb.png/revision/latest/scale-to-width-down/50?cb=20210515120053&path-prefix=th', 'star':'[★★★★]'}
+        return amy
+    elif name.lower() == "ganyu":
+        ganyu = {'his1':'Eula (ภาษาไทย: ยูล่า) เป็นตัวละครหญิงธาตุน้ำแข็งใช้อาวุธดาบใหญ่ที่สามารถเล่นได้ใน Genshin Impact\n\n\
+            ยูล่า ลอว์เรนซ์ เป็นทายาทของตระกูลขุนนางลอว์เรนซ์ที่เคยปกครองเมืองมอนด์ชดัตท์ดั่งทรราชย์ใจเหี้ยมเมื่อกาลก่อน \
+                ยูล่าเลือกที่จะสมัครเข้าเป็นหนึ่งในอัศวินฟาโวเนียส ศัตรูคู่แค้นที่โค่นล้มตระกูลตัวเอง และไต่เต้าขึ้นมาเป็นถึงหัวหน้ากองสอดแนม \
+                    ทำให้ยูล่าถูกตัดขาดจากตระกูลลอว์เรนซ์เนื่องจากทางเดินชีวิตใหม่ และซ้ำร้ายยังถูกเดียดฉันท์จากชาวเมืองเนื่องจากต้นกำเนิดเดิมที่พยายามหนีออกมา',
+                'stat':['9,797', '335', '630', '38.4%', '(CRIT DMG)'],
+                'ascen':'**[✦-----]**:20,000 Mora, Shivada Jade Sliver x1, Qingxin x3, Whopperflower Nectar x3\n \
+                        **[✦✦----]**:40,000 Mora, Shivada Jade Fragment x3, Hoarfrost Core x2, Qingxin x10, Whopperflower Nectar x15\n \
+                        **[✦✦✦---]**:60,000 Mora, Shivada Jade Fragment x6, Hoarfrost Core x4, Qingxin x20, Shimmering Nectar x12\n \
+                        **[✦✦✦✦--]**:80,000 Mora, Shivada Jade Chunk x3, Hoarfrost Core x8, Qingxin x30, Shimmering Nectar x18\n \
+                        **[✦✦✦✦✦-]**:100,000 Mora, Shivada Jade Chunk x6, Hoarfrost Core x12, Qingxin x45, Elemental Nectar x12\n \
+                        **[✦✦✦✦✦✦]**:120,000 Mora, Shivada Jade Gemstone x6, Hoarfrost Core x20, Qingxin x60, Elemental Nectar x24',
+                        'thum':'https://static.wikia.nocookie.net/genshin-impact/images/0/0a/Character_Ganyu_Thumb.png/revision/latest/scale-to-width-down/50?cb=20210515120051&path-prefix=th', 'star':'[★★★★★]'}
+        return ganyu
