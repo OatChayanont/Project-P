@@ -1,13 +1,13 @@
 def weapon_info_list(name):
     if name.lower() == "polar star":
-        lst = ["https://static.wikia.nocookie.net/gensin-impact/images/4/44/Weapon_Polar_Star.png/revision/latest/scale-to-width-down/256?cb=20211013042349", \
-        "ธนูไร้มลทินที่แหลมคม ราวกับแท่งน้ำแข็งในฤดูหนาวที่แสนยาวนาน", "Bow", ["608", "33.1%", "CRIT Rate"], \
-        "**[✦-----]**:10,000 Mora, Mask of the Wicked Lieutenant x5, Concealed Claw x5, Spectral Husk x3\n \
+        lst = {'thum':"https://static.wikia.nocookie.net/gensin-impact/images/4/44/Weapon_Polar_Star.png/revision/latest/scale-to-width-down/256?cb=20211013042349", \
+        'his':"ธนูไร้มลทินที่แหลมคม ราวกับแท่งน้ำแข็งในฤดูหนาวที่แสนยาวนาน", 'type':"Bow", 'stat':["608", "33.1%", "CRIT Rate"], \
+        'ascen':"**[✦-----]**:10,000 Mora, Mask of the Wicked Lieutenant x5, Concealed Claw x5, Spectral Husk x3\n \
         **[✦✦----]**:20,000 Mora, Mask of the Tiger's Bite x5, Concealed Claw x18, Spectral Husk x12\n \
         **[✦✦✦---]**:30,000 Mora, Mask of the Tiger's Bite x9, Concealed Unguis x9, Spectral Heart x9\n \
         **[✦✦✦✦--]**:45,000 Mora, Mask of the One-Horned x5, Concealed Unguis x18, Spectral Heart x14\n \
         **[✦✦✦✦✦-]**:55,000 Mora, Mask of the One-Horned x9, Concealed Talon x14, Spectral Nucleus x9\n \
-        **[✦✦✦✦✦✦]**:65,000 Mora, Mask of the Kijin x6, Concealed Talon x27, Spectral Nucleus x18", "Polar Star"]
+        **[✦✦✦✦✦✦]**:65,000 Mora, Mask of the Kijin x6, Concealed Talon x27, Spectral Nucleus x18", 'name':"Polar Star"}
         return lst
     elif name.lower() == "thundering pulse":
         lst2 = ["https://static.wikia.nocookie.net/gensin-impact/images/7/77/Weapon_Thundering_Pulse.png/revision/latest/scale-to-width-down/256?cb=20210811094805", \
