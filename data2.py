@@ -414,16 +414,16 @@ def weapon_info_list(name):
         **[✦✦✦✦✦-]**:35,000 Mora, Relic from Guyun x6, Inspector's Sacrificial Knife x9, Energy Nectar x6\n \
         **[✦✦✦✦✦✦]**:45,000 Mora, Divine Body from Guyun x4, Inspector's Sacrificial Knife x18, Energy Nectar x12", 'name':"Blackcliff Warbow"}
         return lst38
-    elif name.lower() == "":
-        lst39 = {'thum':"", \
-        'his':"", \
-        'type':"Bow", 'stat':["510", "51.7%", "Physical DMG Bonus"], \
-        'ascen':"**[✦-----]**:5,000 Mora,  x3,  x3,  x2\n \
-        **[✦✦----]**:15,000 Mora,  x3,  x12,  x8\n \
-        **[✦✦✦---]**:20,000 Mora,  x6,  x6,  x6\n \
-        **[✦✦✦✦--]**:30,000 Mora,  x3,   x12,  x9\n \
-        **[✦✦✦✦✦-]**:35,000 Mora,  x6,  x9,  x6\n \
-        **[✦✦✦✦✦✦]**:45,000 Mora,  x4,  x18,  x12", 'name':""}
+    elif name.lower() == "windblume ode":
+        lst39 = {'thum':"https://static.wikia.nocookie.net/gensin-impact/images/3/38/Weapon_Windblume_Ode.png/revision/latest/scale-to-width-down/256?cb=20210317075422", \
+        'his':"ธนูที่ประดับตกแต่งด้วยดอกไม้นิรนาม ที่ได้แบกรับความหวังอันแรงกล้าของบุคคลนิรนามเอาไว้", \
+        'type':"Bow", 'stat':["510", "165", "Elemental Mastery"], \
+        'ascen':"**[✦-----]**:5,000 Mora, Fetters of the Dandelion Gladiator x3, Dead Ley Line Branch x3, Whopperflower Nectar x2\n \
+        **[✦✦----]**:15,000 Mora, Chains of the Dandelion Gladiator x3, Dead Ley Line Branch x12, Whopperflower Nectar x8\n \
+        **[✦✦✦---]**:20,000 Mora, Chains of the Dandelion Gladiator x6, Dead Ley Line Leaves x6, Shimmering Nectar x6\n \
+        **[✦✦✦✦--]**:30,000 Mora, Shackles of the Dandelion Gladiator x3, Dead Ley Line Leaves x12, Shimmering Nectar x9\n \
+        **[✦✦✦✦✦-]**:35,000 Mora, Shackles of the Dandelion Gladiator x6, Ley Line Sprout x9, Energy Nectar x6\n \
+        **[✦✦✦✦✦✦]**:45,000 Mora, Dream of the Dandelion Gladiator x4, Ley Line Sprout x18, Energy Nectar x12", 'name':"Windblume Ode"}
         return lst39
     elif name.lower() == "":
         lst40 = {'thum':"", \
