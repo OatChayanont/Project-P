@@ -262,7 +262,7 @@ def weapon_info_list(name):
         return lst24
     elif name.lower() == "alley hunter":
         lst25 = {'thum':"https://static.wikia.nocookie.net/gensin-impact/images/0/0a/Weapon_Alley_Hunter.png/revision/latest/scale-to-width-down/256?cb=20210413212830", \
-        'his':"An intricate, opulent longbow. It once belonged to a gentleman thief who was never caught.", \
+        'his':"ธนูยาวที่ดูสวยงามประณีต ครั้งหนึ่งเคยเป็นของจอมโจรผู้รักความยุติธรรมและยังไม่เคยถูกจับได้", \
         'type':"Bow", 'stat':["565", "27.6%", "ATK"], \
         'ascen':"**[✦-----]**:5,000 Mora, Fetters of the Dandelion Gladiator x3, Chaos Device x3, Slime Condensate x2\n \
         **[✦✦----]**:15,000 Mora, Chains of the Dandelion Gladiator x3, Chaos Device x12, Slime Condensate x8\n \
@@ -273,7 +273,7 @@ def weapon_info_list(name):
         return lst25
     elif name.lower() == "the viridescent hunt":
         lst26 = {'thum':"https://static.wikia.nocookie.net/gensin-impact/images/f/ff/Weapon_The_Viridescent_Hunt.png/revision/latest/scale-to-width-down/256?cb=20201120010331", \
-        'his':"A pure green hunting bow. This once belonged to a certain hunter whose home was the forest.", \
+        'his':"ธนูล่าสัตว์สีขาวบริสุทธิ์ ครั้งหนึ่งเคยเป็นของใครบางคนที่ออกล่าอยู่ในป่า", \
         'type':"Bow", 'stat':["510", "27.6%", "CRIT Rate"], \
         'ascen':"**[✦-----]**:5,000 Mora, Tile of Decarabian's Tower x3, Heavy Horn x3, Firm Arrowhead x2\n \
         **[✦✦----]**:15,000 Mora, Debris of Decarabian's City x3, Heavy Horn x12, Firm Arrowhead x8\n \
@@ -282,6 +282,39 @@ def weapon_info_list(name):
         **[✦✦✦✦✦-]**:35,000 Mora, Fragment of Decarabian's Epic x6, Black Crystal Horn x9, Weathered Arrowhead x6\n \
         **[✦✦✦✦✦✦]**:45,000 Mora, Scattered Piece of Decarabian's Dream x4, Black Crystal Horn x18, Weathered Arrowhead x12", 'name':"The Viridescent Hunt"}
         return lst26
+    elif name.lower() == "the stringless":
+        lst27 = {'thum':"https://static.wikia.nocookie.net/gensin-impact/images/7/71/Weapon_The_Stringless.png/revision/latest/scale-to-width-down/256?cb=20201116035406", \
+        'his':"คันธนูที่ครั้งหนึ่งเคยเป็นเครื่องตนตรีที่แสนวิเศษ แต่ในตอนนี้มันไม่สามารถทำให้ผู้คนลุกขึ้นเพื่อเต้นร่าได้อีกต่อไปแล้ว", \
+        'type':"Bow", 'stat':["510", "165", "Elemental Mastery"], \
+        'ascen':"**[✦-----]**:5,000 Mora, Tile of Decarabian's Tower x3, Heavy Horn x3, Firm Arrowhead x2\n \
+        **[✦✦----]**:15,000 Mora, Debris of Decarabian's City x3, Heavy Horn x12, Firm Arrowhead x8\n \
+        **[✦✦✦---]**:20,000 Mora, Debris of Decarabian's City x6, Black Bronze Horn x6, Sharp Arrowhead x6\n \
+        **[✦✦✦✦--]**:30,000 Mora, Fragment of Decarabian's Epic x3, Black Bronze Horn x12, Sharp Arrowhead x9\n \
+        **[✦✦✦✦✦-]**:35,000 Mora, Fragment of Decarabian's Epic x6, Black Crystal Horn x9, Weathered Arrowhead x6\n \
+        **[✦✦✦✦✦✦]**:45,000 Mora, Scattered Piece of Decarabian's Dream x4, Black Crystal Horn x18, Weathered Arrowhead x12", 'name':"The Stringless"}
+        return lst27
+    elif name.lower() == "sacrificial bow":
+        lst25 = {'thum':"https://static.wikia.nocookie.net/gensin-impact/images/e/ec/Weapon_Sacrificial_Bow.png/revision/latest/scale-to-width-down/256?cb=20201120002607", \
+        'his':"คันธนูนักล่าที่ตกแต่งสวยงาม และกลายเป็นหินด้วยกาลเวลา ของที่ตกแต่งคันธนูยังคงเห็นได้อยู่ และมันให้พลังกับผู้ใช้เพื่อรับมือกับสายลมแห่งเวลา", \
+        'type':"Bow", 'stat':["565", "30.6%", "Energy Recharge"], \
+        'ascen':"**[✦-----]**:5,000 Mora, Boreal Wolf's Milk Tooth x3, Dead Ley Line Branch x3, Slime Condensate x2\n \
+        **[✦✦----]**:15,000 Mora, Boreal Wolf's Cracked Tooth x3, Dead Ley Line Branch x12, Slime Condensate x8\n \
+        **[✦✦✦---]**:20,000 Mora, Boreal Wolf's Cracked Tooth x6, Dead Ley Line Leaves x6, Slime Secretions x6\n \
+        **[✦✦✦✦--]**:30,000 Mora, Boreal Wolf's Broken Fang x3, Dead Ley Line Leaves x12, Slime Secretions x9\n \
+        **[✦✦✦✦✦-]**:35,000 Mora, Boreal Wolf's Broken Fang x6, Ley Line Sprout x9, Slime Concentrate x6\n \
+        **[✦✦✦✦✦✦]**:45,000 Mora, Boreal Wolf's Nostalgia x4, Ley Line Sprout x18, Slime Concentrate x12", 'name':"Sacrificial Bow"}
+        return lst25
+    elif name.lower() == "":
+        lst25 = {'thum':"", \
+        'his':"", \
+        'type':"Sword", 'stat':["674", "22.1%", "CRIT Rate"], \
+        'ascen':"**[✦-----]**:5,000 Mora,  x3,  x3,  x2\n \
+        **[✦✦----]**:15,000 Mora,  x3,  x12,  x8\n \
+        **[✦✦✦---]**:20,000 Mora,  x6,  x6,  x6\n \
+        **[✦✦✦✦--]**:30,000 Mora,  x3,  x12,  x9\n \
+        **[✦✦✦✦✦-]**:35,000 Mora,  x6,  x9,  x6\n \
+        **[✦✦✦✦✦✦]**:45,000 Mora,  x4,  x18,  x12", 'name':""}
+        return lst25
     elif name.lower() == "":
         lst25 = {'thum':"", \
         'his':"", \
@@ -314,5 +347,27 @@ def weapon_info_list(name):
         **[✦✦✦✦--]**:30,000 Mora,  x3,  x12,  x9\n \
         **[✦✦✦✦✦-]**:35,000 Mora,  x6,  x9,  x6\n \
         **[✦✦✦✦✦✦]**:45,000 Mora,  x4,  x18,  x12", 'name':""}
-        return lst25            
+        return lst25
+    elif name.lower() == "":
+        lst25 = {'thum':"", \
+        'his':"", \
+        'type':"Sword", 'stat':["674", "22.1%", "CRIT Rate"], \
+        'ascen':"**[✦-----]**:5,000 Mora,  x3,  x3,  x2\n \
+        **[✦✦----]**:15,000 Mora,  x3,  x12,  x8\n \
+        **[✦✦✦---]**:20,000 Mora,  x6,  x6,  x6\n \
+        **[✦✦✦✦--]**:30,000 Mora,  x3,  x12,  x9\n \
+        **[✦✦✦✦✦-]**:35,000 Mora,  x6,  x9,  x6\n \
+        **[✦✦✦✦✦✦]**:45,000 Mora,  x4,  x18,  x12", 'name':""}
+        return lst25
+    elif name.lower() == "":
+        lst25 = {'thum':"", \
+        'his':"", \
+        'type':"Sword", 'stat':["674", "22.1%", "CRIT Rate"], \
+        'ascen':"**[✦-----]**:5,000 Mora,  x3,  x3,  x2\n \
+        **[✦✦----]**:15,000 Mora,  x3,  x12,  x8\n \
+        **[✦✦✦---]**:20,000 Mora,  x6,  x6,  x6\n \
+        **[✦✦✦✦--]**:30,000 Mora,  x3,  x12,  x9\n \
+        **[✦✦✦✦✦-]**:35,000 Mora,  x6,  x9,  x6\n \
+        **[✦✦✦✦✦✦]**:45,000 Mora,  x4,  x18,  x12", 'name':""}
+        return lst25                                
                    
