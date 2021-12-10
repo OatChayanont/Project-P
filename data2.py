@@ -851,15 +851,180 @@ def weapon_info_list(name):
         **[✦✦✦✦✦-]**:35,000 Mora, Mist Veiled Gold Elixir x6, Mist Grass Wick x9, Lieutenant's Insignia x6\n \
         **[✦✦✦✦✦✦]**:45,000 Mora, Mist Veiled Primo Elixir x4, Mist Grass Wick x18, Lieutenant's Insignia x12", 'name':"Royal Spear"}
         return lst78
+    elif name.lower() == "the flute":
+        lst79 = {'thum':"https://static.wikia.nocookie.net/gensin-impact/images/6/63/Weapon_The_Flute.png/revision/latest/scale-to-width-down/256?cb=20201119203316", \
+        'his':"ภายใต้สนิมนั้นมีดาบบาง ๆ ที่ตกแต่งอย่างหรูหราอยู่ คุณสามารถกวัดแกว่งมันได้อย่างรวดเร็วดั่งสายลม", \
+        'type':"Sword", 'stat':["510", "41.3%", "ATK"], \
+        'ascen':"**[✦-----]**:5,000 Mora, Boreal Wolf's Milk Tooth x3, Dead Ley Line Branch x3, Slime Condensate x2\n \
+        **[✦✦----]**:15,000 Mora, Boreal Wolf's Cracked Tooth x3, Dead Ley Line Branch x12, Slime Condensate x8\n \
+        **[✦✦✦---]**:20,000 Mora, Boreal Wolf's Cracked Tooth x6, Dead Ley Line Leaves x6, Slime Secretions x6\n \
+        **[✦✦✦✦--]**:30,000 Mora, Boreal Wolf's Broken Fang x3, Dead Ley Line Leaves x12, Slime Secretions x9\n \
+        **[✦✦✦✦✦-]**:35,000 Mora, Boreal Wolf's Broken Fang x6, Ley Line Sprout x9, Slime Concentrate x6\n \
+        **[✦✦✦✦✦✦]**:45,000 Mora, Boreal Wolf's Nostalgia x4, Ley Line Sprout x18, Slime Concentrate x12", 'name':"The Flute"}
+        return lst79
+    elif name.lower() == "the black sword":
+        lst80 = {'thum':"https://static.wikia.nocookie.net/gensin-impact/images/c/cf/Weapon_The_Black_Sword.png/revision/latest/scale-to-width-down/256?cb=20201116035352", \
+        'his':"ดาบสีดำยาวที่กระหายเพียงความขัดแย้งและฆ่าฟัน กล่าวกันว่ามันทำให้ผู้คนมัวเมาไปกับการต่อสู้ที่นองเลือด", \
+        'type':"Sword", 'stat':["510", "27.6%", "CRIT Rate"], \
+        'ascen':"**[✦-----]**:5,000 Mora, Boreal Wolf's Milk Tooth x3, Dead Ley Line Branch x3, Slime Condensate x2\n \
+        **[✦✦----]**:15,000 Mora, Boreal Wolf's Cracked Tooth x3, Dead Ley Line Branch x12, Slime Condensate x8\n \
+        **[✦✦✦---]**:20,000 Mora, Boreal Wolf's Cracked Tooth x6, Dead Ley Line Leaves x6, Slime Secretions x6\n \
+        **[✦✦✦✦--]**:30,000 Mora, Boreal Wolf's Broken Fang x3, Dead Ley Line Leaves x12, Slime Secretions x9\n \
+        **[✦✦✦✦✦-]**:35,000 Mora, Boreal Wolf's Broken Fang x6, Ley Line Sprout x9, Slime Concentrate x6\n \
+        **[✦✦✦✦✦✦]**:45,000 Mora, Boreal Wolf's Nostalgia x4, Ley Line Sprout x18, Slime Concentrate x12", 'name':"The Black Sword"}
+        return lst80
+    elif name.lower() == "the alley flash":
+        lst81 = {'thum':"https://static.wikia.nocookie.net/gensin-impact/images/8/83/Weapon_The_Alley_Flash.png/revision/latest/scale-to-width-down/256?cb=20210317151138", \
+        'his':"ดาบตรงสีดำยาว ราวกับราตรีอันมืดมิด ครั้งหนึ่งเคยเป็นของโจร ที่ร่อนเร่ไปมาในตรอกมืด", \
+        'type':"Sword", 'stat':["620", "55", "Elemental Mastery"], \
+        'ascen':"**[✦-----]**:5,000 Mora, Tile of Decarabian's Tower x3, Heavy Horn x3, Divining Scroll x2\n \
+        **[✦✦----]**:15,000 Mora, Debris of Decarabian's City x3, Heavy Horn x12, Divining Scroll x8\n \
+        **[✦✦✦---]**:20,000 Mora, Debris of Decarabian's City x6, Black Bronze Horn x6, Sealed Scroll x6\n \
+        **[✦✦✦✦--]**:30,000 Mora, Fragment of Decarabian's Epic x3, Black Bronze Horn x12, Sealed Scroll x9\n \
+        **[✦✦✦✦✦-]**:35,000 Mora, Fragment of Decarabian's Epic x6, Black Crystal Horn x9, Forbidden Curse Scroll x6\n \
+        **[✦✦✦✦✦✦]**:45,000 Mora, Scattered Piece of Decarabian's Dream x4, Black Crystal Horn x18, Forbidden Curse Scroll x12", 'name':"The Alley Flash"}
+        return lst81
     elif name.lower() == "":
-        lst79 = {'thum':"", \
+        lst82 = {'thum':"", \
         'his':"", \
-        'type':"Polearm", 'stat':["510", "51.7%", "Physical DMG Bonus"], \
+        'type':"Sword", 'stat':["510", "51.7%", "Physical DMG Bonus"], \
         'ascen':"**[✦-----]**:5,000 Mora,  x3,  x3,  x2\n \
         **[✦✦----]**:15,000 Mora,  x3,  x12,  x8\n \
         **[✦✦✦---]**:20,000 Mora,  x6,  x6,  x6\n \
         **[✦✦✦✦--]**:30,000 Mora,  x3,   x12,  x9\n \
         **[✦✦✦✦✦-]**:35,000 Mora,  x6,  x9,  x6\n \
         **[✦✦✦✦✦✦]**:45,000 Mora,  x4,  x18,  x12", 'name':""}
-        return lst79
+        return lst82
+    elif name.lower() == "":
+        lst83 = {'thum':"", \
+        'his':"", \
+        'type':"Sword", 'stat':["510", "51.7%", "Physical DMG Bonus"], \
+        'ascen':"**[✦-----]**:5,000 Mora,  x3,  x3,  x2\n \
+        **[✦✦----]**:15,000 Mora,  x3,  x12,  x8\n \
+        **[✦✦✦---]**:20,000 Mora,  x6,  x6,  x6\n \
+        **[✦✦✦✦--]**:30,000 Mora,  x3,   x12,  x9\n \
+        **[✦✦✦✦✦-]**:35,000 Mora,  x6,  x9,  x6\n \
+        **[✦✦✦✦✦✦]**:45,000 Mora,  x4,  x18,  x12", 'name':""}
+        return lst83
+    elif name.lower() == "":
+        lst84 = {'thum':"", \
+        'his':"", \
+        'type':"Sword", 'stat':["510", "51.7%", "Physical DMG Bonus"], \
+        'ascen':"**[✦-----]**:5,000 Mora,  x3,  x3,  x2\n \
+        **[✦✦----]**:15,000 Mora,  x3,  x12,  x8\n \
+        **[✦✦✦---]**:20,000 Mora,  x6,  x6,  x6\n \
+        **[✦✦✦✦--]**:30,000 Mora,  x3,   x12,  x9\n \
+        **[✦✦✦✦✦-]**:35,000 Mora,  x6,  x9,  x6\n \
+        **[✦✦✦✦✦✦]**:45,000 Mora,  x4,  x18,  x12", 'name':""}
+        return lst84
+    elif name.lower() == "":
+        lst85 = {'thum':"", \
+        'his':"", \
+        'type':"Sword", 'stat':["510", "51.7%", "Physical DMG Bonus"], \
+        'ascen':"**[✦-----]**:5,000 Mora,  x3,  x3,  x2\n \
+        **[✦✦----]**:15,000 Mora,  x3,  x12,  x8\n \
+        **[✦✦✦---]**:20,000 Mora,  x6,  x6,  x6\n \
+        **[✦✦✦✦--]**:30,000 Mora,  x3,   x12,  x9\n \
+        **[✦✦✦✦✦-]**:35,000 Mora,  x6,  x9,  x6\n \
+        **[✦✦✦✦✦✦]**:45,000 Mora,  x4,  x18,  x12", 'name':""}
+        return lst85
+    elif name.lower() == "":
+        lst86 = {'thum':"", \
+        'his':"", \
+        'type':"Sword", 'stat':["510", "51.7%", "Physical DMG Bonus"], \
+        'ascen':"**[✦-----]**:5,000 Mora,  x3,  x3,  x2\n \
+        **[✦✦----]**:15,000 Mora,  x3,  x12,  x8\n \
+        **[✦✦✦---]**:20,000 Mora,  x6,  x6,  x6\n \
+        **[✦✦✦✦--]**:30,000 Mora,  x3,   x12,  x9\n \
+        **[✦✦✦✦✦-]**:35,000 Mora,  x6,  x9,  x6\n \
+        **[✦✦✦✦✦✦]**:45,000 Mora,  x4,  x18,  x12", 'name':""}
+        return lst86
+    elif name.lower() == "":
+        lst87 = {'thum':"", \
+        'his':"", \
+        'type':"Sword", 'stat':["510", "51.7%", "Physical DMG Bonus"], \
+        'ascen':"**[✦-----]**:5,000 Mora,  x3,  x3,  x2\n \
+        **[✦✦----]**:15,000 Mora,  x3,  x12,  x8\n \
+        **[✦✦✦---]**:20,000 Mora,  x6,  x6,  x6\n \
+        **[✦✦✦✦--]**:30,000 Mora,  x3,   x12,  x9\n \
+        **[✦✦✦✦✦-]**:35,000 Mora,  x6,  x9,  x6\n \
+        **[✦✦✦✦✦✦]**:45,000 Mora,  x4,  x18,  x12", 'name':""}
+        return lst87
+    elif name.lower() == "":
+        lst88 = {'thum':"", \
+        'his':"", \
+        'type':"Sword", 'stat':["510", "51.7%", "Physical DMG Bonus"], \
+        'ascen':"**[✦-----]**:5,000 Mora,  x3,  x3,  x2\n \
+        **[✦✦----]**:15,000 Mora,  x3,  x12,  x8\n \
+        **[✦✦✦---]**:20,000 Mora,  x6,  x6,  x6\n \
+        **[✦✦✦✦--]**:30,000 Mora,  x3,   x12,  x9\n \
+        **[✦✦✦✦✦-]**:35,000 Mora,  x6,  x9,  x6\n \
+        **[✦✦✦✦✦✦]**:45,000 Mora,  x4,  x18,  x12", 'name':""}
+        return lst88
+    elif name.lower() == "":
+        lst89 = {'thum':"", \
+        'his':"", \
+        'type':"Sword", 'stat':["510", "51.7%", "Physical DMG Bonus"], \
+        'ascen':"**[✦-----]**:5,000 Mora,  x3,  x3,  x2\n \
+        **[✦✦----]**:15,000 Mora,  x3,  x12,  x8\n \
+        **[✦✦✦---]**:20,000 Mora,  x6,  x6,  x6\n \
+        **[✦✦✦✦--]**:30,000 Mora,  x3,   x12,  x9\n \
+        **[✦✦✦✦✦-]**:35,000 Mora,  x6,  x9,  x6\n \
+        **[✦✦✦✦✦✦]**:45,000 Mora,  x4,  x18,  x12", 'name':""}
+        return lst89
+    elif name.lower() == "":
+        lst90 = {'thum':"", \
+        'his':"", \
+        'type':"Sword", 'stat':["510", "51.7%", "Physical DMG Bonus"], \
+        'ascen':"**[✦-----]**:5,000 Mora,  x3,  x3,  x2\n \
+        **[✦✦----]**:15,000 Mora,  x3,  x12,  x8\n \
+        **[✦✦✦---]**:20,000 Mora,  x6,  x6,  x6\n \
+        **[✦✦✦✦--]**:30,000 Mora,  x3,   x12,  x9\n \
+        **[✦✦✦✦✦-]**:35,000 Mora,  x6,  x9,  x6\n \
+        **[✦✦✦✦✦✦]**:45,000 Mora,  x4,  x18,  x12", 'name':""}
+        return lst90
+    elif name.lower() == "":
+        lst91 = {'thum':"", \
+        'his':"", \
+        'type':"Sword", 'stat':["510", "51.7%", "Physical DMG Bonus"], \
+        'ascen':"**[✦-----]**:5,000 Mora,  x3,  x3,  x2\n \
+        **[✦✦----]**:15,000 Mora,  x3,  x12,  x8\n \
+        **[✦✦✦---]**:20,000 Mora,  x6,  x6,  x6\n \
+        **[✦✦✦✦--]**:30,000 Mora,  x3,   x12,  x9\n \
+        **[✦✦✦✦✦-]**:35,000 Mora,  x6,  x9,  x6\n \
+        **[✦✦✦✦✦✦]**:45,000 Mora,  x4,  x18,  x12", 'name':""}
+        return lst91
+    elif name.lower() == "":
+        lst92 = {'thum':"", \
+        'his':"", \
+        'type':"Sword", 'stat':["510", "51.7%", "Physical DMG Bonus"], \
+        'ascen':"**[✦-----]**:5,000 Mora,  x3,  x3,  x2\n \
+        **[✦✦----]**:15,000 Mora,  x3,  x12,  x8\n \
+        **[✦✦✦---]**:20,000 Mora,  x6,  x6,  x6\n \
+        **[✦✦✦✦--]**:30,000 Mora,  x3,   x12,  x9\n \
+        **[✦✦✦✦✦-]**:35,000 Mora,  x6,  x9,  x6\n \
+        **[✦✦✦✦✦✦]**:45,000 Mora,  x4,  x18,  x12", 'name':""}
+        return lst92
+    elif name.lower() == "":
+        lst93 = {'thum':"", \
+        'his':"", \
+        'type':"Sword", 'stat':["510", "51.7%", "Physical DMG Bonus"], \
+        'ascen':"**[✦-----]**:5,000 Mora,  x3,  x3,  x2\n \
+        **[✦✦----]**:15,000 Mora,  x3,  x12,  x8\n \
+        **[✦✦✦---]**:20,000 Mora,  x6,  x6,  x6\n \
+        **[✦✦✦✦--]**:30,000 Mora,  x3,   x12,  x9\n \
+        **[✦✦✦✦✦-]**:35,000 Mora,  x6,  x9,  x6\n \
+        **[✦✦✦✦✦✦]**:45,000 Mora,  x4,  x18,  x12", 'name':""}
+        return lst93
+    elif name.lower() == "":
+        lst94 = {'thum':"", \
+        'his':"", \
+        'type':"Sword", 'stat':["510", "51.7%", "Physical DMG Bonus"], \
+        'ascen':"**[✦-----]**:5,000 Mora,  x3,  x3,  x2\n \
+        **[✦✦----]**:15,000 Mora,  x3,  x12,  x8\n \
+        **[✦✦✦---]**:20,000 Mora,  x6,  x6,  x6\n \
+        **[✦✦✦✦--]**:30,000 Mora,  x3,   x12,  x9\n \
+        **[✦✦✦✦✦-]**:35,000 Mora,  x6,  x9,  x6\n \
+        **[✦✦✦✦✦✦]**:45,000 Mora,  x4,  x18,  x12", 'name':""}
+        return lst94
                   
