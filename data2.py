@@ -720,15 +720,147 @@ def weapon_info_list(name):
         **[✦✦✦✦✦-]**:35,000 Mora, Relic from Guyun x6, Inspector's Sacrificial Knife x9, Weathered Arrowhead x6\n \
         **[✦✦✦✦✦✦]**:45,000 Mora, Divine Body from Guyun x4, Inspector's Sacrificial Knife x18, Weathered Arrowhead x12", 'name':"Lithic Blade"}
         return lst66
+    elif name.lower() == "prototype starglitter":
+        lst67 = {'thum':"https://static.wikia.nocookie.net/gensin-impact/images/7/7e/Weapon_Prototype_Starglitter.png/revision/latest/scale-to-width-down/256?cb=20201116034758", \
+        'his':"หอกตะขอที่ถูกซ่อนไว้ใน Blackcliff Forge ที่ปลายนั้นมีแสงประกายราวกับแสงดาวบนฟากฟ้ายามราตรี", \
+        'type':"Polearm", 'stat':["510", "45.9%", "Energy Recharge"], \
+        'ascen':"**[✦-----]**:5,000 Mora, Grain of Aerosiderite x3, Fragile Bone Shard x3, Damaged Mask x2\n \
+        **[✦✦----]**:15,000 Mora, Piece of Aerosiderite x3, Fragile Bone Shard x12, Damaged Mask x8\n \
+        **[✦✦✦---]**:20,000 Mora, Piece of Aerosiderite x6, Sturdy Bone Shard x6, Stained Mask x6\n \
+        **[✦✦✦✦--]**:30,000 Mora, Bit of Aerosiderite x3, Sturdy Bone Shard x12, Stained Mask x9\n \
+        **[✦✦✦✦✦-]**:35,000 Mora, Bit of Aerosiderite x6, Fossilized Bone Shard x9, Ominous Mask x6\n \
+        **[✦✦✦✦✦✦]**:45,000 Mora, Chunk of Aerosiderite x4, Fossilized Bone Shard x18, Ominous Mask x12", 'name':"Prototype Starglitter"}
+        return lst67
+    elif name.lower() == "lithic spear":
+        lst68 = {'thum':"https://static.wikia.nocookie.net/gensin-impact/images/2/2a/Weapon_Lithic_Spear.png/revision/latest/scale-to-width-down/256?cb=20210225200953", \
+        'his':"หอกยาวที่ทำขึ้นอย่างประณีตโดยใช้แผ่นหินของป้าหิน Guyun Stone Forest ตัวหอกนั้นคมและแข็งแกร่งไร้ผู้ต้านทาน", \
+        'type':"Polearm", 'stat':["565", "27.6%", "ATK"], \
+        'ascen':"**[✦-----]**:5,000 Mora, Grain of Aerosiderite x3, Fragile Bone Shard x3, Firm Arrowhead x2\n \
+        **[✦✦----]**:15,000 Mora, Piece of Aerosiderite x3, Fragile Bone Shard x12, Firm Arrowhead x8\n \
+        **[✦✦✦---]**:20,000 Mora, Piece of Aerosiderite x6, Sturdy Bone Shard x6, Sharp Arrowhead x6\n \
+        **[✦✦✦✦--]**:30,000 Mora, Bit of Aerosiderite x3, Sturdy Bone Shard x12, Sharp Arrowhead x9\n \
+        **[✦✦✦✦✦-]**:35,000 Mora, Bit of Aerosiderite x6, Fossilized Bone Shard x9, Weathered Arrowhead x6\n \
+        **[✦✦✦✦✦✦]**:45,000 Mora, Chunk of Aerosiderite x4, Fossilized Bone Shard x18, Weathered Arrowhead", 'name':"Lithic Spear"}
+        return lst68
+    elif name.lower() == "kitain cross spear":
+        lst69 = {'thum':"https://static.wikia.nocookie.net/gensin-impact/images/1/13/Weapon_Kitain_Cross_Spear.png/revision/latest/scale-to-width-down/256?cb=20210723074313", \
+        'his':'หอกที่ครั้งหนึ่งนักรบผู้มีชื่อเสียงเคยใช้คุ้มครอง "Tatarigami" บนเกาะ Yashiori', \
+        'type':"Polearm", 'stat':["565", "110", "Elemental Mastery"], \
+        'ascen':"**[✦-----]**:5,000 Mora, Mask of the Wicked Lieutenant x3, Chaos Gear x3, Treasure Hoarder Insignia x2\n \
+        **[✦✦----]**:15,000 Mora, Mask of the Tiger's Bite x3, Chaos Gear x12, Treasure Hoarder Insignia x8\n \
+        **[✦✦✦---]**:20,000 Mora, Mask of the Tiger's Bite x6, Chaos Axis x6, Silver Raven Insignia x6\n \
+        **[✦✦✦✦--]**:30,000 Mora, Mask of the One-Horned x3, Chaos Axis x12, Silver Raven Insignia x9\n \
+        **[✦✦✦✦✦-]**:35,000 Mora, Mask of the One-Horned x6, Chaos Oculus x9, Golden Raven Insignia x6\n \
+        **[✦✦✦✦✦✦]**:45,000 Mora, Mask of the Kijin x4, Chaos Oculus x18, Golden Raven Insignia x12", 'name':"Kitain Cross Spear"}
+        return lst69
     elif name.lower() == "":
-        lst67 = {'thum':"", \
+        lst70 = {'thum':"", \
         'his':"", \
-        'type':"Claymore", 'stat':["510", "51.7%", "Physical DMG Bonus"], \
+        'type':"Polearm", 'stat':["510", "51.7%", "Physical DMG Bonus"], \
         'ascen':"**[✦-----]**:5,000 Mora,  x3,  x3,  x2\n \
         **[✦✦----]**:15,000 Mora,  x3,  x12,  x8\n \
         **[✦✦✦---]**:20,000 Mora,  x6,  x6,  x6\n \
         **[✦✦✦✦--]**:30,000 Mora,  x3,   x12,  x9\n \
         **[✦✦✦✦✦-]**:35,000 Mora,  x6,  x9,  x6\n \
         **[✦✦✦✦✦✦]**:45,000 Mora,  x4,  x18,  x12", 'name':""}
-        return lst67
+        return lst70
+    elif name.lower() == "":
+        lst71 = {'thum':"", \
+        'his':"", \
+        'type':"Polearm", 'stat':["510", "51.7%", "Physical DMG Bonus"], \
+        'ascen':"**[✦-----]**:5,000 Mora,  x3,  x3,  x2\n \
+        **[✦✦----]**:15,000 Mora,  x3,  x12,  x8\n \
+        **[✦✦✦---]**:20,000 Mora,  x6,  x6,  x6\n \
+        **[✦✦✦✦--]**:30,000 Mora,  x3,   x12,  x9\n \
+        **[✦✦✦✦✦-]**:35,000 Mora,  x6,  x9,  x6\n \
+        **[✦✦✦✦✦✦]**:45,000 Mora,  x4,  x18,  x12", 'name':""}
+        return lst71
+    elif name.lower() == "":
+        lst72 = {'thum':"", \
+        'his':"", \
+        'type':"Polearm", 'stat':["510", "51.7%", "Physical DMG Bonus"], \
+        'ascen':"**[✦-----]**:5,000 Mora,  x3,  x3,  x2\n \
+        **[✦✦----]**:15,000 Mora,  x3,  x12,  x8\n \
+        **[✦✦✦---]**:20,000 Mora,  x6,  x6,  x6\n \
+        **[✦✦✦✦--]**:30,000 Mora,  x3,   x12,  x9\n \
+        **[✦✦✦✦✦-]**:35,000 Mora,  x6,  x9,  x6\n \
+        **[✦✦✦✦✦✦]**:45,000 Mora,  x4,  x18,  x12", 'name':""}
+        return lst72
+    elif name.lower() == "":
+        lst73 = {'thum':"", \
+        'his':"", \
+        'type':"Polearm", 'stat':["510", "51.7%", "Physical DMG Bonus"], \
+        'ascen':"**[✦-----]**:5,000 Mora,  x3,  x3,  x2\n \
+        **[✦✦----]**:15,000 Mora,  x3,  x12,  x8\n \
+        **[✦✦✦---]**:20,000 Mora,  x6,  x6,  x6\n \
+        **[✦✦✦✦--]**:30,000 Mora,  x3,   x12,  x9\n \
+        **[✦✦✦✦✦-]**:35,000 Mora,  x6,  x9,  x6\n \
+        **[✦✦✦✦✦✦]**:45,000 Mora,  x4,  x18,  x12", 'name':""}
+        return lst73
+    elif name.lower() == "":
+        lst74 = {'thum':"", \
+        'his':"", \
+        'type':"Polearm", 'stat':["510", "51.7%", "Physical DMG Bonus"], \
+        'ascen':"**[✦-----]**:5,000 Mora,  x3,  x3,  x2\n \
+        **[✦✦----]**:15,000 Mora,  x3,  x12,  x8\n \
+        **[✦✦✦---]**:20,000 Mora,  x6,  x6,  x6\n \
+        **[✦✦✦✦--]**:30,000 Mora,  x3,   x12,  x9\n \
+        **[✦✦✦✦✦-]**:35,000 Mora,  x6,  x9,  x6\n \
+        **[✦✦✦✦✦✦]**:45,000 Mora,  x4,  x18,  x12", 'name':""}
+        return lst74
+    elif name.lower() == "":
+        lst75 = {'thum':"", \
+        'his':"", \
+        'type':"Polearm", 'stat':["510", "51.7%", "Physical DMG Bonus"], \
+        'ascen':"**[✦-----]**:5,000 Mora,  x3,  x3,  x2\n \
+        **[✦✦----]**:15,000 Mora,  x3,  x12,  x8\n \
+        **[✦✦✦---]**:20,000 Mora,  x6,  x6,  x6\n \
+        **[✦✦✦✦--]**:30,000 Mora,  x3,   x12,  x9\n \
+        **[✦✦✦✦✦-]**:35,000 Mora,  x6,  x9,  x6\n \
+        **[✦✦✦✦✦✦]**:45,000 Mora,  x4,  x18,  x12", 'name':""}
+        return lst75
+    elif name.lower() == "":
+        lst76 = {'thum':"", \
+        'his':"", \
+        'type':"Polearm", 'stat':["510", "51.7%", "Physical DMG Bonus"], \
+        'ascen':"**[✦-----]**:5,000 Mora,  x3,  x3,  x2\n \
+        **[✦✦----]**:15,000 Mora,  x3,  x12,  x8\n \
+        **[✦✦✦---]**:20,000 Mora,  x6,  x6,  x6\n \
+        **[✦✦✦✦--]**:30,000 Mora,  x3,   x12,  x9\n \
+        **[✦✦✦✦✦-]**:35,000 Mora,  x6,  x9,  x6\n \
+        **[✦✦✦✦✦✦]**:45,000 Mora,  x4,  x18,  x12", 'name':""}
+        return lst76
+    elif name.lower() == "":
+        lst77 = {'thum':"", \
+        'his':"", \
+        'type':"Polearm", 'stat':["510", "51.7%", "Physical DMG Bonus"], \
+        'ascen':"**[✦-----]**:5,000 Mora,  x3,  x3,  x2\n \
+        **[✦✦----]**:15,000 Mora,  x3,  x12,  x8\n \
+        **[✦✦✦---]**:20,000 Mora,  x6,  x6,  x6\n \
+        **[✦✦✦✦--]**:30,000 Mora,  x3,   x12,  x9\n \
+        **[✦✦✦✦✦-]**:35,000 Mora,  x6,  x9,  x6\n \
+        **[✦✦✦✦✦✦]**:45,000 Mora,  x4,  x18,  x12", 'name':""}
+        return lst77
+    elif name.lower() == "":
+        lst78 = {'thum':"", \
+        'his':"", \
+        'type':"Polearm", 'stat':["510", "51.7%", "Physical DMG Bonus"], \
+        'ascen':"**[✦-----]**:5,000 Mora,  x3,  x3,  x2\n \
+        **[✦✦----]**:15,000 Mora,  x3,  x12,  x8\n \
+        **[✦✦✦---]**:20,000 Mora,  x6,  x6,  x6\n \
+        **[✦✦✦✦--]**:30,000 Mora,  x3,   x12,  x9\n \
+        **[✦✦✦✦✦-]**:35,000 Mora,  x6,  x9,  x6\n \
+        **[✦✦✦✦✦✦]**:45,000 Mora,  x4,  x18,  x12", 'name':""}
+        return lst78
+    elif name.lower() == "":
+        lst79 = {'thum':"", \
+        'his':"", \
+        'type':"Polearm", 'stat':["510", "51.7%", "Physical DMG Bonus"], \
+        'ascen':"**[✦-----]**:5,000 Mora,  x3,  x3,  x2\n \
+        **[✦✦----]**:15,000 Mora,  x3,  x12,  x8\n \
+        **[✦✦✦---]**:20,000 Mora,  x6,  x6,  x6\n \
+        **[✦✦✦✦--]**:30,000 Mora,  x3,   x12,  x9\n \
+        **[✦✦✦✦✦-]**:35,000 Mora,  x6,  x9,  x6\n \
+        **[✦✦✦✦✦✦]**:45,000 Mora,  x4,  x18,  x12", 'name':""}
+        return lst79
                   
