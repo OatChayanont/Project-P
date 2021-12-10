@@ -491,38 +491,36 @@ def weapon_info_list(name):
         **[✦✦✦✦✦-]**:35,000 Mora, Mist Veiled Gold Elixir x6, Mist Grass Wick x9, Weathered Arrowhead x6\n \
         **[✦✦✦✦✦✦]**:45,000 Mora, Mist Veiled Primo Elixir x4, Mist Grass Wick x18, Weathered Arrowhead x12", 'name':"Prototype Amber"}
         return lst45
-    elif name.lower() == "":
-        lst46 = {'thum':"", \
-        'his':"", \
-        'type':"Catalyst", 'stat':["510", "51.7%", "Physical DMG Bonus"], \
-        'ascen':"**[✦-----]**:5,000 Mora,  x3,  x3,  x2\n \
-        **[✦✦----]**:15,000 Mora,  x3,  x12,  x8\n \
-        **[✦✦✦---]**:20,000 Mora,  x6,  x6,  x6\n \
-        **[✦✦✦✦--]**:30,000 Mora,  x3,   x12,  x9\n \
-        **[✦✦✦✦✦-]**:35,000 Mora,  x6,  x9,  x6\n \
-        **[✦✦✦✦✦✦]**:45,000 Mora,  x4,  x18,  x12", 'name':""}
+    elif name.lower() == "mappa mare":
+        lst46 = {'thum':"https://static.wikia.nocookie.net/gensin-impact/images/4/4d/Weapon_Mappa_Mare.png/revision/latest/scale-to-width-down/256?cb=20201116034208", \
+        'his':"แผนที่เดินเรือที่มีบันทึกกระแสน้ำและสภาพอากาศบริเวณใกล้เคียง ช่วยให้ผู้ค้าจากต่างแดนเข้าถึงเมืองท่า Liyue ได้", \
+        'type':"**[✦-----]**:5,000 Mora, Grain of Aerosiderite x3, Fragile Bone Shard x3, Slime Condensate x2\n \
+        **[✦✦----]**:15,000 Mora, Piece of Aerosiderite x3, Fragile Bone Shard x12, Slime Condensate x8\n \
+        **[✦✦✦---]**:20,000 Mora, Piece of Aerosiderite x6, Sturdy Bone Shard x6, Slime Secretions x6\n \
+        **[✦✦✦✦--]**:30,000 Mora, Bit of Aerosiderite x3, Sturdy Bone Shard x12, Slime Secretions x9\n \
+        **[✦✦✦✦✦-]**:35,000 Mora, Bit of Aerosiderite x6, Fossilized Bone Shard x9, Slime Concentrate x6\n \
+        **[✦✦✦✦✦✦]**:45,000 Mora, Chunk of Aerosiderite x4, Fossilized Bone Shard x18, Slime Concentrate x12", 'name':"Mappa Mare"}
         return lst46
-    elif name.lower() == "":
-        lst47 = {'thum':"", \
-        'his':"", \
-        'type':"Catalyst", 'stat':["510", "51.7%", "Physical DMG Bonus"], \
-        'ascen':"**[✦-----]**:5,000 Mora,  x3,  x3,  x2\n \
-        **[✦✦----]**:15,000 Mora,  x3,  x12,  x8\n \
-        **[✦✦✦---]**:20,000 Mora,  x6,  x6,  x6\n \
-        **[✦✦✦✦--]**:30,000 Mora,  x3,   x12,  x9\n \
-        **[✦✦✦✦✦-]**:35,000 Mora,  x6,  x9,  x6\n \
-        **[✦✦✦✦✦✦]**:45,000 Mora,  x4,  x18,  x12", 'name':""}
+    elif name.lower() == "hakushin ring":
+        lst47 = {'thum':"https://static.wikia.nocookie.net/gensin-impact/images/e/ee/Weapon_Hakushin_Ring.png/revision/latest/scale-to-width-down/256?cb=20210723074418", \
+        'his':'สื่อเวทที่แบกรับความคิดและความทรงจำของ "Kitsune Saiguu" เมื่อในอดีต แต่ความคิดและความทรงจำของเธอนั้นยิ่งใหญ่มาก ซึ่งเป็นไปไม่ได้เลยที่จะใส่ลงในภาชนะขนาดเล็กเช่นนี้ได้ทั้งหมด', \
+        'type':"Catalyst", 'stat':["565", "30.6%", "Energy Recharge"], \
+        'ascen':"**[✦-----]**:5,000 Mora, Coral Branch of a Distant Sea x3, Dismal Prism x3, Divining Scroll x2\n \
+        **[✦✦----]**:15,000 Mora, Jeweled Branch of a Distant Sea x3, Dismal Prism x12, Divining Scroll x8\n \
+        **[✦✦✦---]**:20,000 Mora, Jeweled Branch of a Distant Sea x6, Crystal Prism x6, Sealed Scroll x6\n \
+        **[✦✦✦✦--]**:30,000 Mora, Jade Branch of a Distant Sea x3, Crystal Prism x12, Sealed Scroll x9\n \
+        **[✦✦✦✦✦-]**:35,000 Mora, Jade Branch of a Distant Sea x6, Polarizing Prism x9, Forbidden Curse Scroll x6\n \
+        **[✦✦✦✦✦✦]**:45,000 Mora, Golden Branch of a Distant Sea x4, Polarizing Prism x18, Forbidden Curse Scroll x12", 'name':"Hakushin Ring"}
         return lst47
-    elif name.lower() == "":
-        lst48 = {'thum':"", \
-        'his':"", \
-        'type':"Catalyst", 'stat':["510", "51.7%", "Physical DMG Bonus"], \
-        'ascen':"**[✦-----]**:5,000 Mora,  x3,  x3,  x2\n \
-        **[✦✦----]**:15,000 Mora,  x3,  x12,  x8\n \
-        **[✦✦✦---]**:20,000 Mora,  x6,  x6,  x6\n \
-        **[✦✦✦✦--]**:30,000 Mora,  x3,   x12,  x9\n \
-        **[✦✦✦✦✦-]**:35,000 Mora,  x6,  x9,  x6\n \
-        **[✦✦✦✦✦✦]**:45,000 Mora,  x4,  x18,  x12", 'name':""}
+    elif name.lower() == "frostbearer":
+        lst48 = {'thum':"https://static.wikia.nocookie.net/gensin-impact/images/1/1c/Weapon_Frostbearer.png/revision/latest/scale-to-width-down/256?cb=20210209065948", \
+        'his':"ผลไม้ประหลาดที่มีกลิ่นอายของความเย็นและความรู้สึกที่เจ็บปวด", \
+        'type':"**[✦-----]**:5,000 Mora, Fetters of the Dandelion Gladiator x3, Chaos Device x3, Whopperflower Nectar x2\n \
+        **[✦✦----]**:15,000 Mora, Chains of the Dandelion Gladiator x3, Chaos Device x12, Whopperflower Nectar x8\n \
+        **[✦✦✦---]**:20,000 Mora, Chains of the Dandelion Gladiator x6, Chaos Circuit x6, Shimmering Nectar x6\n \
+        **[✦✦✦✦--]**:30,000 Mora, Shackles of the Dandelion Gladiator x3, Chaos Circuit x12, Shimmering Nectar x9\n \
+        **[✦✦✦✦✦-]**:35,000 Mora, Shackles of the Dandelion Gladiator x6, Chaos Core x9, Energy Nectar x6\n \
+        **[✦✦✦✦✦✦]**:45,000 Mora, Dream of the Dandelion Gladiator x4, Chaos Core x18, Energy Nectar x12", 'name':"Frostbearer"}
         return lst48
     elif name.lower() == "":
         lst49 = {'thum':"", \
