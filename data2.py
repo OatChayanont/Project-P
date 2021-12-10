@@ -348,26 +348,83 @@ def weapon_info_list(name):
         **[✦✦✦✦✦-]**:35,000 Mora, Mist Veiled Gold Elixir x6, Mist Grass Wick x9, Golden Raven Insignia x6\n \
         **[✦✦✦✦✦✦]**:45,000 Mora, Mist Veiled Primo Elixir x4, Mist Grass Wick x18, Golden Raven Insignia x12", 'name':"Prototype Crescent"}
         return lst32
-    elif name.lower() == "":
-        lst25 = {'thum':"", \
+    elif name.lower() == "mouun's moon":
+        lst33 = {'thum':"https://static.wikia.nocookie.net/gensin-impact/images/4/42/Weapon_Mouun%27s_Moon.png/revision/latest/scale-to-width-down/256?cb=20211106232751", \
+        'his':"ธนูสงครามอันงดงามที่ทำขึ้นจากเปลือกหอยและปะการัง ประกายอันเศร้าสร้อยอาบไว้ไปบนคันธนูสีแสงจันทร์", \
+        'type':"Bow", 'stat':["565", "27.6%", "ATK"], \
+        'ascen':"**[✦-----]**:5,000 Mora, Narukami's Wisdom x3, Dismal Prism x3, Spectral Husk x2\n \
+        **[✦✦----]**:15,000 Mora, Narukami's Joy x3, Dismal Prism x12, Spectral Husk x8\n \
+        **[✦✦✦---]**:20,000 Mora, Narukami's Joy x6, Crystal Prism x6, Spectral Heart x6\n \
+        **[✦✦✦✦--]**:30,000 Mora, Narukami's Affection x3, Crystal Prism x12, Spectral Heart x9\n \
+        **[✦✦✦✦✦-]**:35,000 Mora, Narukami's Affection x6, Polarizing Prism x9, Spectral Nucleus x6\n \
+        **[✦✦✦✦✦✦]**:45,000 Mora, Narukami's Valor x4, Polarizing Prism x18, Spectral Nucleus x12", 'name':"Mouun's Moon"}
+        return lst33
+    elif name.lower() == "mitternachts waltz":
+        lst34 = {'thum':"https://static.wikia.nocookie.net/gensin-impact/images/7/77/Weapon_Mitternachts_Waltz.png/revision/latest/scale-to-width-down/256?cb=20210611013556", \
         'his':"", \
-        'type':"Sword", 'stat':["674", "22.1%", "CRIT Rate"], \
+        'type':"Bow", 'stat':["510", "51.7%", "Physical DMG Bonus"], \
+        'ascen':"**[✦-----]**:5,000 Mora, Tile of Decarabian's Tower x3, Heavy Horn x3, Treasure Hoarder Insignia x2\n \
+        **[✦✦----]**:15,000 Mora, Debris of Decarabian's City x3, Heavy Horn x12, Treasure Hoarder Insignia x8\n \
+        **[✦✦✦---]**:20,000 Mora, Debris of Decarabian's City x6, Black Bronze Horn x6, Silver Raven Insignia x6\n \
+        **[✦✦✦✦--]**:30,000 Mora, Fragment of Decarabian's Epic x3, Black Bronze Horn x12, Silver Raven Insignia x9\n \
+        **[✦✦✦✦✦-]**:35,000 Mora, Fragment of Decarabian's Epic x6, Black Crystal Horn x9, Golden Raven Insignia x6\n \
+        **[✦✦✦✦✦✦]**:45,000 Mora, Scattered Piece of Decarabian's Dream x4, Black Crystal Horn x18, Golden Raven Insignia x12", 'name':"Mitternachts Waltz"}
+        return lst34
+    elif name.lower() == "":
+        lst35 = {'thum':"", \
+        'his':"", \
+        'type':"Bow", 'stat':["510", "51.7%", "Physical DMG Bonus"], \
         'ascen':"**[✦-----]**:5,000 Mora,  x3,  x3,  x2\n \
         **[✦✦----]**:15,000 Mora,  x3,  x12,  x8\n \
         **[✦✦✦---]**:20,000 Mora,  x6,  x6,  x6\n \
-        **[✦✦✦✦--]**:30,000 Mora,  x3,  x12,  x9\n \
+        **[✦✦✦✦--]**:30,000 Mora,  x3, Black  x12,  x9\n \
+        **[✦✦✦✦✦-]**:35,000 Mora,  x6,  x9,  x6\n \
+        **[✦✦✦✦✦✦]**:45,000 Mora,  x4,  x18,  x12", 'name':""}
+        return lst35
+    elif name.lower() == "":
+        lst25 = {'thum':"", \
+        'his':"", \
+        'type':"Bow", 'stat':["510", "51.7%", "Physical DMG Bonus"], \
+        'ascen':"**[✦-----]**:5,000 Mora,  x3,  x3,  x2\n \
+        **[✦✦----]**:15,000 Mora,  x3,  x12,  x8\n \
+        **[✦✦✦---]**:20,000 Mora,  x6,  x6,  x6\n \
+        **[✦✦✦✦--]**:30,000 Mora,  x3, Black  x12,  x9\n \
         **[✦✦✦✦✦-]**:35,000 Mora,  x6,  x9,  x6\n \
         **[✦✦✦✦✦✦]**:45,000 Mora,  x4,  x18,  x12", 'name':""}
         return lst25
     elif name.lower() == "":
         lst25 = {'thum':"", \
         'his':"", \
-        'type':"Sword", 'stat':["674", "22.1%", "CRIT Rate"], \
+        'type':"Bow", 'stat':["510", "51.7%", "Physical DMG Bonus"], \
         'ascen':"**[✦-----]**:5,000 Mora,  x3,  x3,  x2\n \
         **[✦✦----]**:15,000 Mora,  x3,  x12,  x8\n \
         **[✦✦✦---]**:20,000 Mora,  x6,  x6,  x6\n \
-        **[✦✦✦✦--]**:30,000 Mora,  x3,  x12,  x9\n \
+        **[✦✦✦✦--]**:30,000 Mora,  x3, Black  x12,  x9\n \
         **[✦✦✦✦✦-]**:35,000 Mora,  x6,  x9,  x6\n \
         **[✦✦✦✦✦✦]**:45,000 Mora,  x4,  x18,  x12", 'name':""}
-        return lst25                                
+        return lst25
+    elif name.lower() == "":
+        lst25 = {'thum':"", \
+        'his':"", \
+        'type':"Bow", 'stat':["510", "51.7%", "Physical DMG Bonus"], \
+        'ascen':"**[✦-----]**:5,000 Mora,  x3,  x3,  x2\n \
+        **[✦✦----]**:15,000 Mora,  x3,  x12,  x8\n \
+        **[✦✦✦---]**:20,000 Mora,  x6,  x6,  x6\n \
+        **[✦✦✦✦--]**:30,000 Mora,  x3, Black  x12,  x9\n \
+        **[✦✦✦✦✦-]**:35,000 Mora,  x6,  x9,  x6\n \
+        **[✦✦✦✦✦✦]**:45,000 Mora,  x4,  x18,  x12", 'name':""}
+        return lst25
+    elif name.lower() == "":
+        lst25 = {'thum':"", \
+        'his':"", \
+        'type':"Bow", 'stat':["510", "51.7%", "Physical DMG Bonus"], \
+        'ascen':"**[✦-----]**:5,000 Mora,  x3,  x3,  x2\n \
+        **[✦✦----]**:15,000 Mora,  x3,  x12,  x8\n \
+        **[✦✦✦---]**:20,000 Mora,  x6,  x6,  x6\n \
+        **[✦✦✦✦--]**:30,000 Mora,  x3, Black  x12,  x9\n \
+        **[✦✦✦✦✦-]**:35,000 Mora,  x6,  x9,  x6\n \
+        **[✦✦✦✦✦✦]**:45,000 Mora,  x4,  x18,  x12", 'name':""}
+        return lst25
+
+                               
                    
