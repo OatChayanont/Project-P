@@ -239,35 +239,233 @@ def weapon_info_list(name):
         **[✦✦✦✦✦✦]**:65,000 Mora, Boreal Wolf's Nostalgia x6, Ley Line Sprout x27, Slime Concentrate x18", 'name':"Skyward Blade"}
         return lst22
     elif name.lower() == "freedom-sworn":
-        lst23 = ["https://static.wikia.nocookie.net/gensin-impact/images/3/39/Weapon_Freedom-Sworn.png/revision/latest/scale-to-width-down/256?cb=20210629202549", \
-        "A straight sword, azure as antediluvian song, and as keen as the oaths of freedom taken in the Land of Wind.", \
-        "Sword", ["608", "198", "Elemental Mastery"], \
-        "**[✦-----]**:10,000 Mora, Fetters of the Dandelion Gladiator x5, Chaos Device x5, Divining Scroll x3\n \
+        lst23 = {'thum':"https://static.wikia.nocookie.net/gensin-impact/images/3/39/Weapon_Freedom-Sworn.png/revision/latest/scale-to-width-down/256?cb=20210629202549", \
+        'his':"A straight sword, azure as antediluvian song, and as keen as the oaths of freedom taken in the Land of Wind.", \
+        'type':"Sword", 'stat':["608", "198", "Elemental Mastery"], \
+        'ascen':"**[✦-----]**:10,000 Mora, Fetters of the Dandelion Gladiator x5, Chaos Device x5, Divining Scroll x3\n \
         **[✦✦----]**:20,000 Mora, Chains of the Dandelion Gladiator x5, Chaos Device x18, Divining Scroll x12\n \
         **[✦✦✦---]**:30,000 Mora, Chains of the Dandelion Gladiator x9, Chaos Circuit x9, Sealed Scroll x9\n \
         **[✦✦✦✦--]**:45,000 Mora, Shackles of the Dandelion Gladiator x5, Chaos Circuit x18, Sealed Scroll x14\n \
         **[✦✦✦✦✦-]**:55,000 Mora, Shackles of the Dandelion Gladiator x9, Chaos Core x14, Forbidden Curse Scroll x9\n \
-        **[✦✦✦✦✦✦]**:65,000 Mora, Dream of the Dandelion Gladiator x6, Chaos Core x27, Forbidden Curse Scroll x18", "Freedom-Sworn"]
+        **[✦✦✦✦✦✦]**:65,000 Mora, Dream of the Dandelion Gladiator x6, Chaos Core x27, Forbidden Curse Scroll x18", 'name':"Freedom-Sworn"}
         return lst23
     elif name.lower() == "primordial jade cutter":
-        lst24 = ["https://static.wikia.nocookie.net/gensin-impact/images/2/2a/Weapon_Primordial_Jade_Cutter.png/revision/latest/scale-to-width-down/256?cb=20210319202419", \
-        "A ceremonial sword masterfully carved from pure jade. There almost seems to be an audible sigh in the wind as it is swung.", \
-        "Sword", ["542", "44.1%", "CRIT Rate"], \
-        "**[✦-----]**:10,000 Mora, Mist Veiled Lead Elixir x5, Mist Grass Pollen x5, Treasure Hoarder Insignia x3\n \
+        lst24 = {'thum':"https://static.wikia.nocookie.net/gensin-impact/images/2/2a/Weapon_Primordial_Jade_Cutter.png/revision/latest/scale-to-width-down/256?cb=20210319202419", \
+        'his':"A ceremonial sword masterfully carved from pure jade. There almost seems to be an audible sigh in the wind as it is swung.", \
+        'type':"Sword", 'stat':["542", "44.1%", "CRIT Rate"], \
+        'ascen':"**[✦-----]**:10,000 Mora, Mist Veiled Lead Elixir x5, Mist Grass Pollen x5, Treasure Hoarder Insignia x3\n \
         **[✦✦----]**:20,000 Mora, Mist Veiled Mercury Elixir x5, Mist Grass Pollen x18, Treasure Hoarder Insignia x12\n \
         **[✦✦✦---]**:30,000 Mora, Mist Veiled Mercury Elixir x9, Mist Grass x9, Silver Raven Insignia x9\n \
         **[✦✦✦✦--]**:45,000 Mora, Mist Veiled Gold Elixir x5, Mist Grass x18, Silver Raven Insignia x14\n \
         **[✦✦✦✦✦-]**:55,000 Mora, Mist Veiled Gold Elixir x9, Mist Grass Wick x14, Golden Raven Insignia x9\n \
-        **[✦✦✦✦✦✦]**:65,000 Mora, Mist Veiled Primo Elixir x6, Mist Grass Wick x27, Golden Raven Insignia x18", "Primordial Jade Cutter"]
+        **[✦✦✦✦✦✦]**:65,000 Mora, Mist Veiled Primo Elixir x6, Mist Grass Wick x27, Golden Raven Insignia x18", 'name':"Primordial Jade Cutter"}
         return lst24
     elif name.lower() == "":
-        lst = ["", \
-        "", \
-        "Sword", ["674", "22.1%", "CRIT Rate"], \
-        "**[✦-----]**:10,000 Mora,  x5,  x5,  x3\n \
+        lst25 = {'thum':"", \
+        'his':"", \
+        'type':"Sword", 'stat':["674", "22.1%", "CRIT Rate"], \
+        'ascen':"**[✦-----]**:10,000 Mora,  x5,  x5,  x3\n \
         **[✦✦----]**:20,000 Mora,  x5,  x18,  x12\n \
         **[✦✦✦---]**:30,000 Mora,  x9,  x9,  x9\n \
         **[✦✦✦✦--]**:45,000 Mora,  x5,  x18,  x14\n \
         **[✦✦✦✦✦-]**:55,000 Mora,  x9,  x14,  x9\n \
-        **[✦✦✦✦✦✦]**:65,000 Mora,  x6,  x27,  x18"]
-        return lst
+        **[✦✦✦✦✦✦]**:65,000 Mora,  x6,  x27,  x18", 'name':""}
+        return lst25
+    elif name.lower() == "":
+        lst25 = {'thum':"", \
+        'his':"", \
+        'type':"Sword", 'stat':["674", "22.1%", "CRIT Rate"], \
+        'ascen':"**[✦-----]**:10,000 Mora,  x5,  x5,  x3\n \
+        **[✦✦----]**:20,000 Mora,  x5,  x18,  x12\n \
+        **[✦✦✦---]**:30,000 Mora,  x9,  x9,  x9\n \
+        **[✦✦✦✦--]**:45,000 Mora,  x5,  x18,  x14\n \
+        **[✦✦✦✦✦-]**:55,000 Mora,  x9,  x14,  x9\n \
+        **[✦✦✦✦✦✦]**:65,000 Mora,  x6,  x27,  x18", 'name':""}
+        return lst25
+    elif name.lower() == "":
+        lst25 = {'thum':"", \
+        'his':"", \
+        'type':"Sword", 'stat':["674", "22.1%", "CRIT Rate"], \
+        'ascen':"**[✦-----]**:10,000 Mora,  x5,  x5,  x3\n \
+        **[✦✦----]**:20,000 Mora,  x5,  x18,  x12\n \
+        **[✦✦✦---]**:30,000 Mora,  x9,  x9,  x9\n \
+        **[✦✦✦✦--]**:45,000 Mora,  x5,  x18,  x14\n \
+        **[✦✦✦✦✦-]**:55,000 Mora,  x9,  x14,  x9\n \
+        **[✦✦✦✦✦✦]**:65,000 Mora,  x6,  x27,  x18", 'name':""}
+        return lst25
+    elif name.lower() == "":
+        lst25 = {'thum':"", \
+        'his':"", \
+        'type':"Sword", 'stat':["674", "22.1%", "CRIT Rate"], \
+        'ascen':"**[✦-----]**:10,000 Mora,  x5,  x5,  x3\n \
+        **[✦✦----]**:20,000 Mora,  x5,  x18,  x12\n \
+        **[✦✦✦---]**:30,000 Mora,  x9,  x9,  x9\n \
+        **[✦✦✦✦--]**:45,000 Mora,  x5,  x18,  x14\n \
+        **[✦✦✦✦✦-]**:55,000 Mora,  x9,  x14,  x9\n \
+        **[✦✦✦✦✦✦]**:65,000 Mora,  x6,  x27,  x18", 'name':""}
+        return lst25
+    elif name.lower() == "":
+        lst25 = {'thum':"", \
+        'his':"", \
+        'type':"Sword", 'stat':["674", "22.1%", "CRIT Rate"], \
+        'ascen':"**[✦-----]**:10,000 Mora,  x5,  x5,  x3\n \
+        **[✦✦----]**:20,000 Mora,  x5,  x18,  x12\n \
+        **[✦✦✦---]**:30,000 Mora,  x9,  x9,  x9\n \
+        **[✦✦✦✦--]**:45,000 Mora,  x5,  x18,  x14\n \
+        **[✦✦✦✦✦-]**:55,000 Mora,  x9,  x14,  x9\n \
+        **[✦✦✦✦✦✦]**:65,000 Mora,  x6,  x27,  x18", 'name':""}
+        return lst25
+    elif name.lower() == "":
+        lst25 = {'thum':"", \
+        'his':"", \
+        'type':"Sword", 'stat':["674", "22.1%", "CRIT Rate"], \
+        'ascen':"**[✦-----]**:10,000 Mora,  x5,  x5,  x3\n \
+        **[✦✦----]**:20,000 Mora,  x5,  x18,  x12\n \
+        **[✦✦✦---]**:30,000 Mora,  x9,  x9,  x9\n \
+        **[✦✦✦✦--]**:45,000 Mora,  x5,  x18,  x14\n \
+        **[✦✦✦✦✦-]**:55,000 Mora,  x9,  x14,  x9\n \
+        **[✦✦✦✦✦✦]**:65,000 Mora,  x6,  x27,  x18", 'name':""}
+        return lst25
+    elif name.lower() == "":
+        lst25 = {'thum':"", \
+        'his':"", \
+        'type':"Sword", 'stat':["674", "22.1%", "CRIT Rate"], \
+        'ascen':"**[✦-----]**:10,000 Mora,  x5,  x5,  x3\n \
+        **[✦✦----]**:20,000 Mora,  x5,  x18,  x12\n \
+        **[✦✦✦---]**:30,000 Mora,  x9,  x9,  x9\n \
+        **[✦✦✦✦--]**:45,000 Mora,  x5,  x18,  x14\n \
+        **[✦✦✦✦✦-]**:55,000 Mora,  x9,  x14,  x9\n \
+        **[✦✦✦✦✦✦]**:65,000 Mora,  x6,  x27,  x18", 'name':""}
+        return lst25
+    elif name.lower() == "":
+        lst25 = {'thum':"", \
+        'his':"", \
+        'type':"Sword", 'stat':["674", "22.1%", "CRIT Rate"], \
+        'ascen':"**[✦-----]**:10,000 Mora,  x5,  x5,  x3\n \
+        **[✦✦----]**:20,000 Mora,  x5,  x18,  x12\n \
+        **[✦✦✦---]**:30,000 Mora,  x9,  x9,  x9\n \
+        **[✦✦✦✦--]**:45,000 Mora,  x5,  x18,  x14\n \
+        **[✦✦✦✦✦-]**:55,000 Mora,  x9,  x14,  x9\n \
+        **[✦✦✦✦✦✦]**:65,000 Mora,  x6,  x27,  x18", 'name':""}
+        return lst25
+    elif name.lower() == "":
+        lst25 = {'thum':"", \
+        'his':"", \
+        'type':"Sword", 'stat':["674", "22.1%", "CRIT Rate"], \
+        'ascen':"**[✦-----]**:10,000 Mora,  x5,  x5,  x3\n \
+        **[✦✦----]**:20,000 Mora,  x5,  x18,  x12\n \
+        **[✦✦✦---]**:30,000 Mora,  x9,  x9,  x9\n \
+        **[✦✦✦✦--]**:45,000 Mora,  x5,  x18,  x14\n \
+        **[✦✦✦✦✦-]**:55,000 Mora,  x9,  x14,  x9\n \
+        **[✦✦✦✦✦✦]**:65,000 Mora,  x6,  x27,  x18", 'name':""}
+        return lst25
+    elif name.lower() == "":
+        lst25 = {'thum':"", \
+        'his':"", \
+        'type':"Sword", 'stat':["674", "22.1%", "CRIT Rate"], \
+        'ascen':"**[✦-----]**:10,000 Mora,  x5,  x5,  x3\n \
+        **[✦✦----]**:20,000 Mora,  x5,  x18,  x12\n \
+        **[✦✦✦---]**:30,000 Mora,  x9,  x9,  x9\n \
+        **[✦✦✦✦--]**:45,000 Mora,  x5,  x18,  x14\n \
+        **[✦✦✦✦✦-]**:55,000 Mora,  x9,  x14,  x9\n \
+        **[✦✦✦✦✦✦]**:65,000 Mora,  x6,  x27,  x18", 'name':""}
+        return lst25
+    elif name.lower() == "":
+        lst25 = {'thum':"", \
+        'his':"", \
+        'type':"Sword", 'stat':["674", "22.1%", "CRIT Rate"], \
+        'ascen':"**[✦-----]**:10,000 Mora,  x5,  x5,  x3\n \
+        **[✦✦----]**:20,000 Mora,  x5,  x18,  x12\n \
+        **[✦✦✦---]**:30,000 Mora,  x9,  x9,  x9\n \
+        **[✦✦✦✦--]**:45,000 Mora,  x5,  x18,  x14\n \
+        **[✦✦✦✦✦-]**:55,000 Mora,  x9,  x14,  x9\n \
+        **[✦✦✦✦✦✦]**:65,000 Mora,  x6,  x27,  x18", 'name':""}
+        return lst25
+    elif name.lower() == "":
+        lst25 = {'thum':"", \
+        'his':"", \
+        'type':"Sword", 'stat':["674", "22.1%", "CRIT Rate"], \
+        'ascen':"**[✦-----]**:10,000 Mora,  x5,  x5,  x3\n \
+        **[✦✦----]**:20,000 Mora,  x5,  x18,  x12\n \
+        **[✦✦✦---]**:30,000 Mora,  x9,  x9,  x9\n \
+        **[✦✦✦✦--]**:45,000 Mora,  x5,  x18,  x14\n \
+        **[✦✦✦✦✦-]**:55,000 Mora,  x9,  x14,  x9\n \
+        **[✦✦✦✦✦✦]**:65,000 Mora,  x6,  x27,  x18", 'name':""}
+        return lst25
+    elif name.lower() == "":
+        lst25 = {'thum':"", \
+        'his':"", \
+        'type':"Sword", 'stat':["674", "22.1%", "CRIT Rate"], \
+        'ascen':"**[✦-----]**:10,000 Mora,  x5,  x5,  x3\n \
+        **[✦✦----]**:20,000 Mora,  x5,  x18,  x12\n \
+        **[✦✦✦---]**:30,000 Mora,  x9,  x9,  x9\n \
+        **[✦✦✦✦--]**:45,000 Mora,  x5,  x18,  x14\n \
+        **[✦✦✦✦✦-]**:55,000 Mora,  x9,  x14,  x9\n \
+        **[✦✦✦✦✦✦]**:65,000 Mora,  x6,  x27,  x18", 'name':""}
+        return lst25                                                
+    elif name.lower() == "":
+        lst25 = {'thum':"", \
+        'his':"", \
+        'type':"Sword", 'stat':["674", "22.1%", "CRIT Rate"], \
+        'ascen':"**[✦-----]**:10,000 Mora,  x5,  x5,  x3\n \
+        **[✦✦----]**:20,000 Mora,  x5,  x18,  x12\n \
+        **[✦✦✦---]**:30,000 Mora,  x9,  x9,  x9\n \
+        **[✦✦✦✦--]**:45,000 Mora,  x5,  x18,  x14\n \
+        **[✦✦✦✦✦-]**:55,000 Mora,  x9,  x14,  x9\n \
+        **[✦✦✦✦✦✦]**:65,000 Mora,  x6,  x27,  x18", 'name':""}
+        return lst25
+    elif name.lower() == "":
+        lst25 = {'thum':"", \
+        'his':"", \
+        'type':"Sword", 'stat':["674", "22.1%", "CRIT Rate"], \
+        'ascen':"**[✦-----]**:10,000 Mora,  x5,  x5,  x3\n \
+        **[✦✦----]**:20,000 Mora,  x5,  x18,  x12\n \
+        **[✦✦✦---]**:30,000 Mora,  x9,  x9,  x9\n \
+        **[✦✦✦✦--]**:45,000 Mora,  x5,  x18,  x14\n \
+        **[✦✦✦✦✦-]**:55,000 Mora,  x9,  x14,  x9\n \
+        **[✦✦✦✦✦✦]**:65,000 Mora,  x6,  x27,  x18", 'name':""}
+        return lst25
+    elif name.lower() == "":
+        lst25 = {'thum':"", \
+        'his':"", \
+        'type':"Sword", 'stat':["674", "22.1%", "CRIT Rate"], \
+        'ascen':"**[✦-----]**:10,000 Mora,  x5,  x5,  x3\n \
+        **[✦✦----]**:20,000 Mora,  x5,  x18,  x12\n \
+        **[✦✦✦---]**:30,000 Mora,  x9,  x9,  x9\n \
+        **[✦✦✦✦--]**:45,000 Mora,  x5,  x18,  x14\n \
+        **[✦✦✦✦✦-]**:55,000 Mora,  x9,  x14,  x9\n \
+        **[✦✦✦✦✦✦]**:65,000 Mora,  x6,  x27,  x18", 'name':""}
+        return lst25
+    elif name.lower() == "":
+        lst25 = {'thum':"", \
+        'his':"", \
+        'type':"Sword", 'stat':["674", "22.1%", "CRIT Rate"], \
+        'ascen':"**[✦-----]**:10,000 Mora,  x5,  x5,  x3\n \
+        **[✦✦----]**:20,000 Mora,  x5,  x18,  x12\n \
+        **[✦✦✦---]**:30,000 Mora,  x9,  x9,  x9\n \
+        **[✦✦✦✦--]**:45,000 Mora,  x5,  x18,  x14\n \
+        **[✦✦✦✦✦-]**:55,000 Mora,  x9,  x14,  x9\n \
+        **[✦✦✦✦✦✦]**:65,000 Mora,  x6,  x27,  x18", 'name':""}
+        return lst25
+    elif name.lower() == "":
+        lst25 = {'thum':"", \
+        'his':"", \
+        'type':"Sword", 'stat':["674", "22.1%", "CRIT Rate"], \
+        'ascen':"**[✦-----]**:10,000 Mora,  x5,  x5,  x3\n \
+        **[✦✦----]**:20,000 Mora,  x5,  x18,  x12\n \
+        **[✦✦✦---]**:30,000 Mora,  x9,  x9,  x9\n \
+        **[✦✦✦✦--]**:45,000 Mora,  x5,  x18,  x14\n \
+        **[✦✦✦✦✦-]**:55,000 Mora,  x9,  x14,  x9\n \
+        **[✦✦✦✦✦✦]**:65,000 Mora,  x6,  x27,  x18", 'name':""}
+        return lst25
+    elif name.lower() == "":
+        lst25 = {'thum':"", \
+        'his':"", \
+        'type':"Sword", 'stat':["674", "22.1%", "CRIT Rate"], \
+        'ascen':"**[✦-----]**:10,000 Mora,  x5,  x5,  x3\n \
+        **[✦✦----]**:20,000 Mora,  x5,  x18,  x12\n \
+        **[✦✦✦---]**:30,000 Mora,  x9,  x9,  x9\n \
+        **[✦✦✦✦--]**:45,000 Mora,  x5,  x18,  x14\n \
+        **[✦✦✦✦✦-]**:55,000 Mora,  x9,  x14,  x9\n \
+        **[✦✦✦✦✦✦]**:65,000 Mora,  x6,  x27,  x18", 'name':""}
+        return lst25                    
