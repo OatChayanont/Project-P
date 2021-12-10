@@ -218,12 +218,12 @@ def character_info_list(name):
     elif name.lower() == "kamisato ayaka" or name.lower() == "kamisato" or name.lower() == "ayaka":
         ayaka = {'name':'Kamisato Ayaka', 'his1':'Kaedehara Kazuha (ภาษาไทย: คาเอเดะฮาระ คาซึฮะ; ภาษาญี่ปุ่น: 楓かえで原はら万かず葉は)[Note 1] เป็นตัวละครชายธาตุลมใช้อาวุธดาบที่สามารถเล่นได้ใน Genshin Impact\n\n\
             เขาเป็นซามูไรพเนจรของตระกูล Kaedehara ที่เคยโด่งดัง, และเป็นลูกเรือชั่วคราวของกองทัพเรือ Crux',
-                'stat':['13,348', '297', '807', '115.2', '(Elemental Mastery)'],
-                'ascen':'**[✦-----]**:20,000 Mora, Vayuda Turquoise Sliver x1, Sea Ganoderma x3, Treasure Hoarder Insignia x3\n \
-                        **[✦✦----]**:40,000 Mora, Vayuda Turquoise Fragment x3, Marionette Core x2, Sea Ganoderma x10, Treasure Hoarder Insignia x15\n \
-                        **[✦✦✦---]**:60,000 Mora, Vayuda Turquoise Fragment x6, Marionette Core x4, Sea Ganoderma x20, Silver Raven Insignia x12\n \
-                        **[✦✦✦✦--]**:80,000 Mora, Vayuda Turquoise Chunk x3, Marionette Core x8, Sea Ganoderma x30, Silver Raven Insignia x18\n \
-                        **[✦✦✦✦✦-]**:100,000 Mora, Vayuda Turquoise Chunk x6, Marionette Core x12, Sea Ganoderma x45, Golden Raven Insignia x12\n \
-                        **[✦✦✦✦✦✦]**:120,000 Mora, Vayuda Turquoise Gemstone x6, Marionette Core x20, Sea Ganoderma x60, Golden Raven Insignia x24',
-                        'thum':'https://static.wikia.nocookie.net/genshin-impact/images/f/f0/Character_Kaedehara_Kazuha_Thumb.png/revision/latest/scale-to-width-down/50?cb=20210722145202&path-prefix=th', 'star':'[★★★★★]'}
+                'stat':['12,858', '342', '784', '38.4%', '(CRIT Rate)'],
+                'ascen':'**[✦-----]**:20,000 Mora, Shivada Jade Sliver x1, Sakura Bloom x3, Old Handguard x3\n \
+                        **[✦✦----]**:40,000 Mora, Shivada Jade Fragment x3, Perpetual Heart x2, Sakura Bloom x10, Old Handguard x15\n \
+                        **[✦✦✦---]**:60,000 Mora, Shivada Jade Fragment x6, Perpetual Heart x4, Sakura Bloom x20, Kageuchi Handguard x12\n \
+                        **[✦✦✦✦--]**:80,000 Mora, Shivada Jade Chunk x3, Perpetual Heart x8, Sakura Bloom x30, Kageuchi Handguard x18\n \
+                        **[✦✦✦✦✦-]**:100,000 Mora, Shivada Jade Chunk x6, Perpetual Heart x12, Sakura Bloom x45, Famed Handguard x12\n \
+                        **[✦✦✦✦✦✦]**:120,000 Mora, Shivada Jade Gemstone x6, Perpetual Heart x20, Sakura Bloom x60, Famed Handguard x24',
+                        'thum':'https://static.wikia.nocookie.net/genshin-impact/images/f/fd/Character_Kamisato_Ayaka_Thumb.png/revision/latest/scale-to-width-down/50?cb=20210726062342&path-prefix=th', 'star':'[★★★★★]'}
         return ayaka
