@@ -950,60 +950,60 @@ def weapon_info_list(name):
         **[✦✦✦✦✦-]**:35,000 Mora, Relic from Guyun x6, Inspector's Sacrificial Knife x9, Golden Raven Insignia x6\n \
         **[✦✦✦✦✦✦]**:45,000 Mora, Divine Body from Guyun x4, Inspector's Sacrificial Knife x18, Golden Raven Insignia x12", 'name':"Lion's Roar"}
         return lst87
-    elif name.lower() == "":
-        lst88 = {'thum':"", \
-        'his':"", \
-        'type':"Sword", 'stat':["510", "51.7%", "Physical DMG Bonus"], \
-        'ascen':"**[✦-----]**:5,000 Mora,  x3,  x3,  x2\n \
-        **[✦✦----]**:15,000 Mora,  x3,  x12,  x8\n \
-        **[✦✦✦---]**:20,000 Mora,  x6,  x6,  x6\n \
-        **[✦✦✦✦--]**:30,000 Mora,  x3,   x12,  x9\n \
-        **[✦✦✦✦✦-]**:35,000 Mora,  x6,  x9,  x6\n \
-        **[✦✦✦✦✦✦]**:45,000 Mora,  x4,  x18,  x12", 'name':""}
+    elif name.lower() == "iron sting":
+        lst88 = {'thum':"https://static.wikia.nocookie.net/gensin-impact/images/3/35/Weapon_Iron_Sting.png/revision/latest/scale-to-width-down/256?cb=20201116034058", \
+        'his':"ดาบสำหรับแทงรูปร่างเรียวบางที่หาได้ยาก ซึ่งจะพบได้จากเหล่าผู้ค้าจากต่างแดนที่เดินทางมาถึง Liyue มันทั้งเบา คล่องแคล่ว และคม", \
+        'type':"Sword", 'stat':["510", "165", "Elemental Mastery"], \
+        'ascen':"**[✦-----]**:5,000 Mora, Grain of Aerosiderite x3, Fragile Bone Shard x3, Whopperflower Nectar x2\n \
+        **[✦✦----]**:15,000 Mora, Piece of Aerosiderite x3, Fragile Bone Shard x12, Whopperflower Nectar x8\n \
+        **[✦✦✦---]**:20,000 Mora, Piece of Aerosiderite x6, Sturdy Bone Shard x6, Shimmering Nectar x6\n \
+        **[✦✦✦✦--]**:30,000 Mora, Bit of Aerosiderite x3, Sturdy Bone Shard x12, Shimmering Nectar x9\n \
+        **[✦✦✦✦✦-]**:35,000 Mora, Bit of Aerosiderite x6, Fossilized Bone Shard x9, Energy Nectar x6\n \
+        **[✦✦✦✦✦✦]**:45,000 Mora, Chunk of Aerosiderite x4, Fossilized Bone Shard x18, Energy Nectar x12", 'name':"Iron Sting"}
         return lst88
-    elif name.lower() == "":
-        lst89 = {'thum':"", \
-        'his':"", \
-        'type':"Sword", 'stat':["510", "51.7%", "Physical DMG Bonus"], \
-        'ascen':"**[✦-----]**:5,000 Mora,  x3,  x3,  x2\n \
-        **[✦✦----]**:15,000 Mora,  x3,  x12,  x8\n \
-        **[✦✦✦---]**:20,000 Mora,  x6,  x6,  x6\n \
-        **[✦✦✦✦--]**:30,000 Mora,  x3,   x12,  x9\n \
-        **[✦✦✦✦✦-]**:35,000 Mora,  x6,  x9,  x6\n \
-        **[✦✦✦✦✦✦]**:45,000 Mora,  x4,  x18,  x12", 'name':""}
+    elif name.lower() == "festering desire":
+        lst89 = {'thum':"https://static.wikia.nocookie.net/gensin-impact/images/7/70/Weapon_Festering_Desire.png/revision/latest/scale-to-width-down/256?cb=20201223042935", \
+        'his':"ดามที่ชั่วร้ายนี้ดูเหมือนจะกระหายอยากเอาชีวิต มันมีพิษที่สามารถกัดกร่อนได้แม้กระทั่งมังกร", \
+        'type':"Sword", 'stat':["510", "45.9%", "Energy Recharge"], \
+        'ascen':"**[✦-----]**:5,000 Mora, Fetters of the Dandelion Gladiator x3, Heavy Horn x3, Recruit's Insignia x2\n \
+        **[✦✦----]**:15,000 Mora, Chains of the Dandelion Gladiator x3, Heavy Horn x12, Recruit's Insignia x8\n \
+        **[✦✦✦---]**:20,000 Mora, Chains of the Dandelion Gladiator x6, Black Bronze Horn x6, Sergeant's Insignia x6\n \
+        **[✦✦✦✦--]**:30,000 Mora, Shackles of the Dandelion Gladiator x3, Black Bronze Horn x12, Sergeant's Insignia x9\n \
+        **[✦✦✦✦✦-]**:35,000 Mora, Shackles of the Dandelion Gladiator x6, Black Crystal Horn x9, Lieutenant's Insignia x6\n \
+        **[✦✦✦✦✦✦]**:45,000 Mora, Dream of the Dandelion Gladiator x4, Black Crystal Horn x18, Lieutenant's Insignia x12", 'name':"Festering Desire"}
         return lst89
-    elif name.lower() == "":
-        lst90 = {'thum':"", \
-        'his':"", \
-        'type':"Sword", 'stat':["510", "51.7%", "Physical DMG Bonus"], \
-        'ascen':"**[✦-----]**:5,000 Mora,  x3,  x3,  x2\n \
-        **[✦✦----]**:15,000 Mora,  x3,  x12,  x8\n \
-        **[✦✦✦---]**:20,000 Mora,  x6,  x6,  x6\n \
-        **[✦✦✦✦--]**:30,000 Mora,  x3,   x12,  x9\n \
-        **[✦✦✦✦✦-]**:35,000 Mora,  x6,  x9,  x6\n \
-        **[✦✦✦✦✦✦]**:45,000 Mora,  x4,  x18,  x12", 'name':""}
+    elif name.lower() == "favonius sword":
+        lst90 = {'thum':"https://static.wikia.nocookie.net/gensin-impact/images/9/90/Weapon_Favonius_Sword.png/revision/latest/scale-to-width-down/256?cb=20201116033811", \
+        'his':"ดาบยาวมาตรฐานที่ใช้งานโดยเหล่าอัศวินแห่ง Favonius การรวบรวมพลังงานธาตุจะไม่ใช่เรื่องยากอีกต่อไปเมื่อใช้ดาบที่ทั้งคมและเบาเช่นดาบนี้!", \
+        'type':"Sword", 'stat':["454", "61.3%", "Energy Recharge"], \
+        'ascen':"**[✦-----]**:5,000 Mora, Tile of Decarabian's Tower x3, Heavy Horn x3, Firm Arrowhead x2\n \
+        **[✦✦----]**:15,000 Mora, Debris of Decarabian's City x3, Heavy Horn x12, Firm Arrowhead x8\n \
+        **[✦✦✦---]**:20,000 Mora, Debris of Decarabian's City x6, Black Bronze Horn x6, Sharp Arrowhead x6\n \
+        **[✦✦✦✦--]**:30,000 Mora, Fragment of Decarabian's Epic x3, Black Bronze Horn x12, Sharp Arrowhead x9\n \
+        **[✦✦✦✦✦-]**:35,000 Mora, Fragment of Decarabian's Epic x6, Black Crystal Horn x9, Weathered Arrowhead x6\n \
+        **[✦✦✦✦✦✦]**:45,000 Mora, Scattered Piece of Decarabian's Dream x4, Black Crystal Horn x18, Weathered Arrowhead x12", 'name':"Favonius Sword"}
         return lst90
-    elif name.lower() == "":
-        lst91 = {'thum':"", \
-        'his':"", \
-        'type':"Sword", 'stat':["510", "51.7%", "Physical DMG Bonus"], \
-        'ascen':"**[✦-----]**:5,000 Mora,  x3,  x3,  x2\n \
-        **[✦✦----]**:15,000 Mora,  x3,  x12,  x8\n \
-        **[✦✦✦---]**:20,000 Mora,  x6,  x6,  x6\n \
-        **[✦✦✦✦--]**:30,000 Mora,  x3,   x12,  x9\n \
-        **[✦✦✦✦✦-]**:35,000 Mora,  x6,  x9,  x6\n \
-        **[✦✦✦✦✦✦]**:45,000 Mora,  x4,  x18,  x12", 'name':""}
+    elif name.lower() == "cinnabar spindle":
+        lst91 = {'thum':"https://static.wikia.nocookie.net/gensin-impact/images/d/dc/Weapon_Cinnabar_Spindle.png/revision/latest/scale-to-width-down/256?cb=20211125225624", \
+        'his':"ดาบที่คล้ายจะไม่ได้ทำจากวัสดุบนโลกนี้ พลังของมันนั้นคงจะสามารถต้านทานได้กระทั่งพิษกัดกร่อนของมังกรเลยล่ะนะ", \
+        'type':"Sword", 'stat':["454", "69.0%", "DEF"], \
+        'ascen':"**[✦-----]**:5,000 Mora, Tile of Decarabian's Tower x3, Chaos Device x3, Damaged Mask x2\n \
+        **[✦✦----]**:15,000 Mora, Debris of Decarabian's City x3, Chaos Device x12, Damaged Mask x8\n \
+        **[✦✦✦---]**:20,000 Mora, Debris of Decarabian's City x6, Chaos Circuit x6, Stained Mask x6\n \
+        **[✦✦✦✦--]**:30,000 Mora, Fragment of Decarabian's Epic x3, Chaos Circuit Horn x12, Stained Mask x9\n \
+        **[✦✦✦✦✦-]**:35,000 Mora, Fragment of Decarabian's Epic x6, Chaos Core x9, Ominous Mask x6\n \
+        **[✦✦✦✦✦✦]**:45,000 Mora, Scattered Piece of Decarabian's Dream x4, Chaos Core x18, Ominous Mask x12", 'name':"Cinnabar Spindle"}
         return lst91
-    elif name.lower() == "":
-        lst92 = {'thum':"", \
-        'his':"", \
-        'type':"Sword", 'stat':["510", "51.7%", "Physical DMG Bonus"], \
-        'ascen':"**[✦-----]**:5,000 Mora,  x3,  x3,  x2\n \
-        **[✦✦----]**:15,000 Mora,  x3,  x12,  x8\n \
-        **[✦✦✦---]**:20,000 Mora,  x6,  x6,  x6\n \
-        **[✦✦✦✦--]**:30,000 Mora,  x3,   x12,  x9\n \
-        **[✦✦✦✦✦-]**:35,000 Mora,  x6,  x9,  x6\n \
-        **[✦✦✦✦✦✦]**:45,000 Mora,  x4,  x18,  x12", 'name':""}
+    elif name.lower() == "blackcliff longsword":
+        lst92 = {'thum':"https://static.wikia.nocookie.net/gensin-impact/images/6/6f/Weapon_Blackcliff_Longsword.png/revision/latest/scale-to-width-down/256?cb=20201116033216", \
+        'his':"Blackcliff ตีเหล็กจนเป็นตาบยาว สีดำของตัวดาบเผยให้เห็นประกายของเลือด", \
+        'type':"Sword", 'stat':["565", "36.8%", "CRIT DMG"], \
+        'ascen':"**[✦-----]**:5,000 Mora, Luminous Sands from Guyun x3, Hunter's Sacrificial Knife x3, Firm Arrowhead x2\n \
+        **[✦✦----]**:15,000 Mora, Lustrous Stone from Guyun x3, Hunter's Sacrificial Knife x12, Firm Arrowhead x8\n \
+        **[✦✦✦---]**:20,000 Mora, Lustrous Stone from Guyun x6, Agent's Sacrificial Knife x6, Sharp Arrowhead x6\n \
+        **[✦✦✦✦--]**:30,000 Mora, Relic from Guyun x3, Agent's Sacrificial Knife x12, Sharp Arrowhead x9\n \
+        **[✦✦✦✦✦-]**:35,000 Mora, Relic from Guyun x6, Inspector's Sacrificial Knife x9, Weathered Arrowhead x6\n \
+        **[✦✦✦✦✦✦]**:45,000 Mora, Divine Body from Guyun x4, Inspector's Sacrificial Knife x18, Weathered Arrowhead x12", 'name':"Blackcliff Longsword"}
         return lst92
     elif name.lower() == "":
         lst93 = {'thum':"", \
