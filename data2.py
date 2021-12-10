@@ -1126,16 +1126,60 @@ def weapon_info_list(name):
         **[✦✦✦✦✦-]**:25,000 Mora, Bit of Aerosiderite x4, Fossilized Bone Shard x6, Golden Raven Insignia x4\n \
         **[✦✦✦✦✦✦]**:30,000 Mora, Chunk of Aerosiderite x3, Fossilized Bone Shard x12, Golden Raven Insignia x8", 'name':"Skyrider Greatsword"}
         return lst103
+    elif name.lower() == "debate club":
+        lst104 = {'thum':"https://static.wikia.nocookie.net/gensin-impact/images/7/74/Weapon_Debate_Club.png/revision/latest/scale-to-width-down/256?cb=20201116033616", \
+        'his':'กระบองที่ทำจากเหล็กกล้าชั้นดีนี่คือรากฐานของ "เหตุผลที่น่าเชื่อถือ"', \
+        'type':"Claymore", 'stat':["401", "35.2%", "ATK"], \
+        'ascen':"**[✦-----]**:5,000 Mora, Mist Veiled Lead Elixir x2, Mist Grass Pollen x2, Damaged Mask x1\n \
+        **[✦✦----]**:10,000 Mora, Mist Veiled Mercury Elixir x2, Mist Grass Pollen x8, Damaged Mask x5\n \
+        **[✦✦✦---]**:15,000 Mora, Mist Veiled Mercury Elixir x4, Mist Grass x4, Stained Mask x4\n \
+        **[✦✦✦✦--]**:20,000 Mora, Mist Veiled Gold Elixir x2, Mist Grass x8, Stained Mask x6\n \
+        **[✦✦✦✦✦-]**:25,000 Mora, Mist Veiled Gold Elixir x4, Mist Grass Wick x6, Ominous Mask x4\n \
+        **[✦✦✦✦✦✦]**:30,000 Mora, Mist Veiled Primo Elixir x3, Mist Grass Wick x12, Ominous Mask x8", 'name':"Debate Club"}
+        return lst104
     elif name.lower() == "":
-        lst104 = {'thum':"", \
+        lst105 = {'thum':"", \
         'his':"", \
-        'type':"Catalyst", 'stat':["510", "51.7%", "Physical DMG Bonus"], \
+        'type':"Claymore", 'stat':["510", "51.7%", "Physical DMG Bonus"], \
         'ascen':"**[✦-----]**:5,000 Mora,  x2,  x2,  x1\n \
         **[✦✦----]**:10,000 Mora,  x2,  x8,  x5\n \
         **[✦✦✦---]**:15,000 Mora,  x4,  x4,  x4\n \
         **[✦✦✦✦--]**:20,000 Mora,  x2,   x8,  x6\n \
         **[✦✦✦✦✦-]**:25,000 Mora,  x4,  x6,  x4\n \
         **[✦✦✦✦✦✦]**:30,000 Mora,  x3,  x12,  x8", 'name':""}
-        return lst104
+        return lst105
+    elif name.lower() == "":
+        lst106 = {'thum':"", \
+        'his':"", \
+        'type':"Claymore", 'stat':["510", "51.7%", "Physical DMG Bonus"], \
+        'ascen':"**[✦-----]**:5,000 Mora,  x2,  x2,  x1\n \
+        **[✦✦----]**:10,000 Mora,  x2,  x8,  x5\n \
+        **[✦✦✦---]**:15,000 Mora,  x4,  x4,  x4\n \
+        **[✦✦✦✦--]**:20,000 Mora,  x2,   x8,  x6\n \
+        **[✦✦✦✦✦-]**:25,000 Mora,  x4,  x6,  x4\n \
+        **[✦✦✦✦✦✦]**:30,000 Mora,  x3,  x12,  x8", 'name':""}
+        return lst106
+    elif name.lower() == "":
+        lst107 = {'thum':"", \
+        'his':"", \
+        'type':"Claymore", 'stat':["510", "51.7%", "Physical DMG Bonus"], \
+        'ascen':"**[✦-----]**:5,000 Mora,  x2,  x2,  x1\n \
+        **[✦✦----]**:10,000 Mora,  x2,  x8,  x5\n \
+        **[✦✦✦---]**:15,000 Mora,  x4,  x4,  x4\n \
+        **[✦✦✦✦--]**:20,000 Mora,  x2,   x8,  x6\n \
+        **[✦✦✦✦✦-]**:25,000 Mora,  x4,  x6,  x4\n \
+        **[✦✦✦✦✦✦]**:30,000 Mora,  x3,  x12,  x8", 'name':""}
+        return lst107
+    elif name.lower() == "":
+        lst108 = {'thum':"", \
+        'his':"", \
+        'type':"Claymore", 'stat':["510", "51.7%", "Physical DMG Bonus"], \
+        'ascen':"**[✦-----]**:5,000 Mora,  x2,  x2,  x1\n \
+        **[✦✦----]**:10,000 Mora,  x2,  x8,  x5\n \
+        **[✦✦✦---]**:15,000 Mora,  x4,  x4,  x4\n \
+        **[✦✦✦✦--]**:20,000 Mora,  x2,   x8,  x6\n \
+        **[✦✦✦✦✦-]**:25,000 Mora,  x4,  x6,  x4\n \
+        **[✦✦✦✦✦✦]**:30,000 Mora,  x3,  x12,  x8", 'name':""}
+        return lst108
     
                   
