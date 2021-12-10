@@ -447,27 +447,27 @@ def weapon_info_list(name):
         **[✦✦✦✦✦-]**:35,000 Mora, Boreal Wolf's Broken Fang x6, Ley Line Sprout x9, Ominous Mask x6\n \
         **[✦✦✦✦✦✦]**:45,000 Mora, Boreal Wolf's Nostalgia x4, Ley Line Sprout x18, Ominous Mask x12", 'name':"The Widsith"}
         return lst41
-    elif name.lower() == "":
-        lst42 = {'thum':"", \
-        'his':"", \
-        'type':"Catalyst", 'stat':["510", "51.7%", "Physical DMG Bonus"], \
-        'ascen':"**[✦-----]**:5,000 Mora,  x3,  x3,  x2\n \
-        **[✦✦----]**:15,000 Mora,  x3,  x12,  x8\n \
-        **[✦✦✦---]**:20,000 Mora,  x6,  x6,  x6\n \
-        **[✦✦✦✦--]**:30,000 Mora,  x3,   x12,  x9\n \
-        **[✦✦✦✦✦-]**:35,000 Mora,  x6,  x9,  x6\n \
-        **[✦✦✦✦✦✦]**:45,000 Mora,  x4,  x18,  x12", 'name':""}
+    elif name.lower() == "solar pearl":
+        lst42 = {'thum':"https://static.wikia.nocookie.net/gensin-impact/images/f/fc/Weapon_Solar_Pearl.png/revision/latest/scale-to-width-down/256?cb=20201116035322", \
+        'his':"มันเก็บกักพลังของแสงแห่งตะวันและจันทราไว้ เป็นไข่มุกสีทองที่คอยปล่อยคลื่นพลังอันอบอุ่นออกมา", \
+        'type':"Catalyst", 'stat':["510", "27.6%", "CRIT Rate"], \
+        'ascen':"**[✦-----]**:5,000 Mora, Luminous Sands from Guyun x3, Hunter's Sacrificial Knife x3, Whopperflower Nectar x2\n \
+        **[✦✦----]**:15,000 Mora, Lustrous Stone from Guyun x3, Hunter's Sacrificial Knife x12, Whopperflower Nectar x8\n \
+        **[✦✦✦---]**:20,000 Mora, Lustrous Stone from Guyun x6, Agent's Sacrificial Knife x6, Shimmering Nectar x6\n \
+        **[✦✦✦✦--]**:30,000 Mora, Relic from Guyun x3, Agent's Sacrificial Knife x12, Shimmering Nectar x9\n \
+        **[✦✦✦✦✦-]**:35,000 Mora, Relic from Guyun x6, Inspector's Sacrificial Knife x9, Energy Nectar x6\n \
+        **[✦✦✦✦✦✦]**:45,000 Mora, Divine Body from Guyun x4, Inspector's Sacrificial Knife x18, Energy Nectar x12", 'name':"Solar Pearl"}
         return lst42
-    elif name.lower() == "":
-        lst43 = {'thum':"", \
-        'his':"", \
-        'type':"Catalyst", 'stat':["510", "51.7%", "Physical DMG Bonus"], \
-        'ascen':"**[✦-----]**:5,000 Mora,  x3,  x3,  x2\n \
-        **[✦✦----]**:15,000 Mora,  x3,  x12,  x8\n \
-        **[✦✦✦---]**:20,000 Mora,  x6,  x6,  x6\n \
-        **[✦✦✦✦--]**:30,000 Mora,  x3,   x12,  x9\n \
-        **[✦✦✦✦✦-]**:35,000 Mora,  x6,  x9,  x6\n \
-        **[✦✦✦✦✦✦]**:45,000 Mora,  x4,  x18,  x12", 'name':""}
+    elif name.lower() == "sacrificial fragments":
+        lst43 = {'thum':"https://static.wikia.nocookie.net/gensin-impact/images/6/6c/Weapon_Sacrificial_Fragments.png/revision/latest/scale-to-width-down/256?cb=20201116035037", \
+        'his':"หนังสือสคริปต์ที่มีอายุเก่าแก่ ซึ่งไม่สามารถระบุข้อความต่าง ๆ และบทสคริปต์ข้างในได้อีกต่อไป ถูกสาปโดยการกัดเซาะของสายลมแห่งกาลเวลา", \
+        'type':"Catalyst", 'stat':["454", "221", "Elemental Mastery"], \
+        'ascen':"**[✦-----]**:5,000 Mora, Fetters of the Dandelion Gladiator x3, Chaos Device x3, Treasure Hoarder Insignia x2\n \
+        **[✦✦----]**:15,000 Mora, Chains of the Dandelion Gladiator x3, Chaos Device x12, Treasure Hoarder Insignia x8\n \
+        **[✦✦✦---]**:20,000 Mora, Chains of the Dandelion Gladiator x6, Chaos Circuit x6, Silver Raven Insignia x6\n \
+        **[✦✦✦✦--]**:30,000 Mora, Shackles of the Dandelion Gladiator x3, Chaos Circuit x12, Silver Raven Insignia x9\n \
+        **[✦✦✦✦✦-]**:35,000 Mora, Shackles of the Dandelion Gladiator x6, Chaos Core x9, Golden Raven Insignia x6\n \
+        **[✦✦✦✦✦✦]**:45,000 Mora, Dream of the Dandelion Gladiator x4, Chaos Core x18, Golden Raven Insignia x12", 'name':"Sacrificial Fragments"}
         return lst43
     elif name.lower() == "":
         lst44 = {'thum':"", \
