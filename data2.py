@@ -370,16 +370,16 @@ def weapon_info_list(name):
         **[✦✦✦✦✦-]**:35,000 Mora, Fragment of Decarabian's Epic x6, Black Crystal Horn x9, Golden Raven Insignia x6\n \
         **[✦✦✦✦✦✦]**:45,000 Mora, Scattered Piece of Decarabian's Dream x4, Black Crystal Horn x18, Golden Raven Insignia x12", 'name':"Mitternachts Waltz"}
         return lst34
-    elif name.lower() == "":
-        lst35 = {'thum':"", \
-        'his':"", \
-        'type':"Bow", 'stat':["510", "51.7%", "Physical DMG Bonus"], \
-        'ascen':"**[✦-----]**:5,000 Mora,  x3,  x3,  x2\n \
-        **[✦✦----]**:15,000 Mora,  x3,  x12,  x8\n \
-        **[✦✦✦---]**:20,000 Mora,  x6,  x6,  x6\n \
-        **[✦✦✦✦--]**:30,000 Mora,  x3, Black  x12,  x9\n \
-        **[✦✦✦✦✦-]**:35,000 Mora,  x6,  x9,  x6\n \
-        **[✦✦✦✦✦✦]**:45,000 Mora,  x4,  x18,  x12", 'name':""}
+    elif name.lower() == "hamayumi":
+        lst35 = {'thum':"https://static.wikia.nocookie.net/gensin-impact/images/d/d9/Weapon_Hamayumi.png/revision/latest/scale-to-width-down/256?cb=20210726032818", \
+        'his':"หญิงสาวในศาลเจ้าบางคนเคยเป็นเจ้าของวอร์โบว์นี้ มันถูกสร้างขึ้นด้วยทักษะที่เหนือกว่าและมีทั้งที่ซับซ้อนและทนทาน", \
+        'type':"Bow", 'stat':["454", "55.1%", "ATK"], \
+        'ascen':"**[✦-----]**:5,000 Mora, Narukami's Wisdom x3, Dismal Prism x3, Firm Arrowhead x2\n \
+        **[✦✦----]**:15,000 Mora, Narukami's Joy x3, Dismal Prism x12, Firm Arrowhead x8\n \
+        **[✦✦✦---]**:20,000 Mora, Narukami's Joy x6, Crystal Prism x6, Sharp Arrowhead x6\n \
+        **[✦✦✦✦--]**:30,000 Mora, Narukami's Affection x3, Crystal Prism  x12, Sharp Arrowhead x9\n \
+        **[✦✦✦✦✦-]**:35,000 Mora, Narukami's Affection x6, Polarizing Prism x9, Weathered Arrowhead x6\n \
+        **[✦✦✦✦✦✦]**:45,000 Mora, Narukami's Valor x4, Polarizing Prism x18, Weathered Arrowhead x12", 'name':"Hamayumi"}
         return lst35
     elif name.lower() == "":
         lst25 = {'thum':"", \
@@ -388,7 +388,7 @@ def weapon_info_list(name):
         'ascen':"**[✦-----]**:5,000 Mora,  x3,  x3,  x2\n \
         **[✦✦----]**:15,000 Mora,  x3,  x12,  x8\n \
         **[✦✦✦---]**:20,000 Mora,  x6,  x6,  x6\n \
-        **[✦✦✦✦--]**:30,000 Mora,  x3, Black  x12,  x9\n \
+        **[✦✦✦✦--]**:30,000 Mora,  x3,   x12,  x9\n \
         **[✦✦✦✦✦-]**:35,000 Mora,  x6,  x9,  x6\n \
         **[✦✦✦✦✦✦]**:45,000 Mora,  x4,  x18,  x12", 'name':""}
         return lst25
@@ -399,7 +399,7 @@ def weapon_info_list(name):
         'ascen':"**[✦-----]**:5,000 Mora,  x3,  x3,  x2\n \
         **[✦✦----]**:15,000 Mora,  x3,  x12,  x8\n \
         **[✦✦✦---]**:20,000 Mora,  x6,  x6,  x6\n \
-        **[✦✦✦✦--]**:30,000 Mora,  x3, Black  x12,  x9\n \
+        **[✦✦✦✦--]**:30,000 Mora,  x3,   x12,  x9\n \
         **[✦✦✦✦✦-]**:35,000 Mora,  x6,  x9,  x6\n \
         **[✦✦✦✦✦✦]**:45,000 Mora,  x4,  x18,  x12", 'name':""}
         return lst25
@@ -410,7 +410,7 @@ def weapon_info_list(name):
         'ascen':"**[✦-----]**:5,000 Mora,  x3,  x3,  x2\n \
         **[✦✦----]**:15,000 Mora,  x3,  x12,  x8\n \
         **[✦✦✦---]**:20,000 Mora,  x6,  x6,  x6\n \
-        **[✦✦✦✦--]**:30,000 Mora,  x3, Black  x12,  x9\n \
+        **[✦✦✦✦--]**:30,000 Mora,  x3,   x12,  x9\n \
         **[✦✦✦✦✦-]**:35,000 Mora,  x6,  x9,  x6\n \
         **[✦✦✦✦✦✦]**:45,000 Mora,  x4,  x18,  x12", 'name':""}
         return lst25
@@ -421,7 +421,7 @@ def weapon_info_list(name):
         'ascen':"**[✦-----]**:5,000 Mora,  x3,  x3,  x2\n \
         **[✦✦----]**:15,000 Mora,  x3,  x12,  x8\n \
         **[✦✦✦---]**:20,000 Mora,  x6,  x6,  x6\n \
-        **[✦✦✦✦--]**:30,000 Mora,  x3, Black  x12,  x9\n \
+        **[✦✦✦✦--]**:30,000 Mora,  x3,   x12,  x9\n \
         **[✦✦✦✦✦-]**:35,000 Mora,  x6,  x9,  x6\n \
         **[✦✦✦✦✦✦]**:45,000 Mora,  x4,  x18,  x12", 'name':""}
         return lst25
