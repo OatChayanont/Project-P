@@ -227,3 +227,53 @@ def character_info_list(name):
                         **[✦✦✦✦✦✦]**:120,000 Mora, Shivada Jade Gemstone x6, Perpetual Heart x20, Sakura Bloom x60, Famed Handguard x24',
                         'thum':'https://static.wikia.nocookie.net/genshin-impact/images/f/fd/Character_Kamisato_Ayaka_Thumb.png/revision/latest/scale-to-width-down/50?cb=20210726062342&path-prefix=th', 'star':'[★★★★★]'}
         return ayaka
+    elif name.lower() == "keqing":
+        keq = {'name':'Keqing', 'his1':'Keqing (ภาษาจีน: 刻晴 Kèqíng; ภาษาไทย: เค่อฉิง) เป็นตัวละครหญิงธาตุไฟฟ้าใช้อาวุธดาบที่สามารถเล่นได้ในเกม Genshin Impact\n\n\
+            Yuheng ประจำเจ็ดดาราแห่งหลีเยว่ผู้ทำงานตัวเป็นเกลียว เค่อฉิงเป็นหญิงสาวใจอิสระผู้เลือกเส้นทางเดินด้วยพลังและความสามารถที่ตนเองมี ไม่คิดจะปล่อยให้เหล่าทวยเทพกำหนดชะตากรร',
+                'stat':['13,103', '323', '799', '38.4%', '(CRIT DMG)'],
+                'ascen':'**[✦-----]**:20,000 Mora, Vajrada Amethyst Sliver x1, Cor Lapis x3, Whopperflower Nectar x3\n \
+                        **[✦✦----]**:40,000 Mora, Vajrada Amethyst Fragment x3, Perpetual Heart x2, Cor Lapis x10, Whopperflower Nectar x15\n \
+                        **[✦✦✦---]**:60,000 Mora, Vajrada Amethyst Fragment x6, Perpetual Heart x4, Cor Lapis x20, Shimmering Nectar x12\n \
+                        **[✦✦✦✦--]**:80,000 Mora, Vajrada Amethyst Chunk x3, Perpetual Heart x8, Cor Lapis x30, Shimmering Nectar x18\n \
+                        **[✦✦✦✦✦-]**:100,000 Mora, Vajrada Amethyst Chunk x6, Perpetual Heart x12, Cor Lapis x45, Elemental Nectar x12\n \
+                        **[✦✦✦✦✦✦]**:120,000 Mora, Vajrada Amethyst Gemstone x6, Perpetual Heart x20, Cor Lapis x60, Elemental Nectar x24',
+                        'thum':'https://static.wikia.nocookie.net/genshin-impact/images/0/06/Character_Keqing_Thumb.png/revision/latest/scale-to-width-down/50?cb=20210515120525&path-prefix=th', 'star':'[★★★★★]'}
+        return keq
+    elif name.lower() == "klee":
+        klee = {'name':'Klee', 'his1':'Klee (ภาษาไทย: เคล) เป็นตัวละครหญิงธาตุไฟใช้อาวุธสื่อเวทที่สามารถเล่นได้ใน Genshin Impact\n\n\
+            เคล หรืออัศวินผกาเพลิง เป็นบุตรสาวของนักผจญภัยใจกล้านามว่า อลิซ และติดนิสัยพลังงานสูงและความเป็นมือระเบิดไม่ต่างกับผู้เป็นแม่ เคลชื่นชอบการสร้างวัตถุระเบิด \
+                ตามมาด้วยการเขวี้ยงวัตถุระเบิดซึ่งมักจะเป็นที่ปวดหัวยิ่งนักให้กับเจ้าสำนักรักษาการณ์จีน ผู้ซึ่งทำหน้าที่เป็นผู้ดูแลจำเป็น',
+                'stat':['10,287', '311', '615', '28.8%', '(Pyro DMG Bonus)'],
+                'ascen':'**[✦-----]**:20,000 Mora, Agnidus Agate Sliver x1, Philanemo Mushroom x3, Divining Scroll x3\n \
+                        **[✦✦----]**:40,000 Mora, Agnidus Agate Fragment x3, Everflame Seed x2, Philanemo Mushroom x10, Divining Scroll x15\n \
+                        **[✦✦✦---]**:60,000 Mora, Agnidus Agate Fragment x6, Everflame Seed x4, Philanemo Mushroom x20, Sealed Scroll x12\n \
+                        **[✦✦✦✦--]**:80,000 Mora, Agnidus Agate Chunk x3, Everflame Seed x8, Philanemo Mushroom x30, Sealed Scroll x18\n \
+                        **[✦✦✦✦✦-]**:100,000 Mora, Agnidus Agate Chunk x6, Everflame Seed x12, Philanemo Mushroom x45, Forbidden Curse Scroll x12\n \
+                        **[✦✦✦✦✦✦]**:120,000 Mora, Agnidus Agate Gemstone x6, Everflame Seed x20, Philanemo Mushroom x60, Forbidden Curse Scroll x24',
+                        'thum':'https://static.wikia.nocookie.net/genshin-impact/images/c/c3/Character_Klee_Thumb.png/revision/latest/scale-to-width-down/50?cb=20210515120422&path-prefix=th', 'star':'[★★★★★]'}
+        return klee
+    elif name.lower() == "kujou sara" or name.lower() == "kujou" or name.lower() == "sara":
+        kujo = {'name':'Kujou Sara', 'his1':'Kujou Sara (ภาษาไทย: คุโจ ซาระ; ภาษาญี่ปุ่น: 九く条じょう裟さ羅ら Kujou Sara) คือตัวละครหญิงธาตุไฟฟ้าใช้อาวุธธนูที่สามารถเล่นได้ในเกม Genshin Impact\n\n\
+            เท็งงุพันธุ์แท้ผู้เป็นบุตรบุญธรรมจากตระกูลคุโจ และแม่ทัพผู้เด็ดเดี่ยวในพระนางโชกุนอสนีบาตผู้ยึดมั่นในหน้าที่และคำสัตย์เหนือทุกสิ่ง \
+                แม่ทัพซาระนำยุทธการด้วยตนเองและพร้อมจะเสี่ยงชีวิตกับไพร่พลกลางสมรภูมิ ทุกที่ ทุกเมื่อ และทุกเวลาที่พระประสงค์ของพระนางโชกุนนำพาไป โดยไร้ซึ่งความเคลือบแคลงแม้เพียงเสี้ยว',\
+                        'stat':['9,570', '195', '628', '24.0%', '(ATK Bonus)'],
+                        'ascen':'**[✦-----]**:20,000 Mora, Vajrada Amethyst Sliver x1, Dendrobium x3, Damaged Mask x3\n \
+                        **[✦✦----]**:40,000 Mora, Vajrada Amethyst Fragment x3, Storm Beads x2, Dendrobium x10, Damaged Mask x15\n \
+                        **[✦✦✦---]**:60,000 Mora, Vajrada Amethyst Fragment x6, Storm Beads x4, Dendrobium x20, Stained Mask x12\n \
+                        **[✦✦✦✦--]**:80,000 Mora, Vajrada Amethyst Chunk x3, Storm Beads x8, Dendrobium x30, Stained Mask x18\n \
+                        **[✦✦✦✦✦-]**:100,000 Mora, Vajrada Amethyst Chunk x6, Storm Beads x12, Dendrobium x45, Ominous Mask x12\n \
+                        **[✦✦✦✦✦✦]**:120,000 Mora, Vajrada Amethyst Gemstone x6, Storm Beads x20, Dendrobium x60, Ominous Mask x24',
+                        'thum':'https://static.wikia.nocookie.net/genshin-impact/images/9/96/Character_Kujou_Sara_Thumb.png/revision/latest/scale-to-width-down/50?cb=20210902012107&path-prefix=th', 'star':'[★★★★]'}
+        return kujo
+    elif name.lower() == "lisa":
+        lisa = {'name':'Lisa', 'his1':'Lisa (ภาษาไทย: ลิซ่า) เป็นตัวละครหญิงธาตุไฟฟ้าใช้อาวุธสื่อเวทที่สามารถเล่นได้ในเกม Genshin Impact\n\n\
+            นักเวทย์อดอัจฉริยะผู้เป็นสุดยอดนักปราชญ์ที่เคยจบจากวิทยาลัยสุเมรุมาในระยะเวลา 200 ปี ลิซ่าได้เดินทางกลับมาเมืองมอนด์ชตัดท์เพื่อทำอาชีพเป็นบรรณารักษ์ตัวเล็ก ๆ ให้กับกองอัศวินแห่ง Favonius',\
+                        'stat':['9,570', '232', '573', '96', '(Elemental Mastery)'],
+                        'ascen':'**[✦-----]**:20,000 Mora, Vajrada Amethyst Sliver x1, Valberry x3, Slime Condensate x3\n \
+                        **[✦✦----]**:40,000 Mora, Vajrada Amethyst Fragment x3, Lightning Prism x2, Valberry x10, Slime Condensate x15\n \
+                        **[✦✦✦---]**:60,000 Mora, Vajrada Amethyst Fragment x6, Lightning Prism x4, Valberry x20, Slime Secretions x12\n \
+                        **[✦✦✦✦--]**:80,000 Mora, Vajrada Amethyst Chunk x3, Lightning Prism x8, Valberry x30, Slime Secretions x18\n \
+                        **[✦✦✦✦✦-]**:100,000 Mora, Vajrada Amethyst Chunk x6, Lightning Prism x12, Valberry x45, Slime Concentrate x12\n \
+                        **[✦✦✦✦✦✦]**:120,000 Mora, Vajrada Amethyst Gemstone x6, Lightning Prism x20, Valberry x60, Slime Concentrate x24',
+                        'thum':'https://static.wikia.nocookie.net/genshin-impact/images/5/51/Character_Lisa_Thumb.png/revision/latest/scale-to-width-down/50?cb=20210515120431&path-prefix=th', 'star':'[★★★★]'}
+        return lisa
