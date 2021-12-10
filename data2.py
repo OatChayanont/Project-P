@@ -917,38 +917,38 @@ def weapon_info_list(name):
         **[✦✦✦✦✦-]**:35,000 Mora, Fragment of Decarabian's Epic x6, Black Crystal Horn x9, Weathered Arrowhead x6\n \
         **[✦✦✦✦✦✦]**:45,000 Mora, Scattered Piece of Decarabian's Dream x4, Black Crystal Horn x18, Weathered Arrowhead x12", 'name':"Royal Longsword"}
         return lst84
-    elif name.lower() == "":
-        lst85 = {'thum':"", \
-        'his':"", \
-        'type':"Sword", 'stat':["510", "51.7%", "Physical DMG Bonus"], \
-        'ascen':"**[✦-----]**:5,000 Mora,  x3,  x3,  x2\n \
-        **[✦✦----]**:15,000 Mora,  x3,  x12,  x8\n \
-        **[✦✦✦---]**:20,000 Mora,  x6,  x6,  x6\n \
-        **[✦✦✦✦--]**:30,000 Mora,  x3,   x12,  x9\n \
-        **[✦✦✦✦✦-]**:35,000 Mora,  x6,  x9,  x6\n \
-        **[✦✦✦✦✦✦]**:45,000 Mora,  x4,  x18,  x12", 'name':""}
+    elif name.lower() == "prototype rancour":
+        lst85 = {'thum':"https://static.wikia.nocookie.net/gensin-impact/images/e/ef/Weapon_Prototype_Rancour.png/revision/latest/scale-to-width-down/256?cb=20201116034823", \
+        'his':"ดาบยาวโบราณที่ถูกซ่อนไว้ใน Blackcliff Forge มันสามารถตัดผ่านหินได้และดาบไม่บิ่น", \
+        'type':"Sword", 'stat':["565", "34.5%", "Physical DMG Bonus"], \
+        'ascen':"**[✦-----]**:5,000 Mora, Mist Veiled Lead Elixir x3, Mist Grass Pollen x3, Recruit's Insignia x2\n \
+        **[✦✦----]**:15,000 Mora, Mist Veiled Mercury Elixir x3, Mist Grass Pollen x12, Recruit's Insignia x8\n \
+        **[✦✦✦---]**:20,000 Mora, Mist Veiled Mercury Elixir x6, Mist Grass x6, Sergeant's Insignia x6\n \
+        **[✦✦✦✦--]**:30,000 Mora, Mist Veiled Gold Elixir x3, Mist Grass x12, Sergeant's Insignia x9\n \
+        **[✦✦✦✦✦-]**:35,000 Mora, Mist Veiled Gold Elixir x6, Mist Grass Wick x9, Lieutenant's Insignia x6\n \
+        **[✦✦✦✦✦✦]**:45,000 Mora, Mist Veiled Primo Elixir x4, Mist Grass Wick x18, Lieutenant's Insignia x12", 'name':"Prototype Rancour"}
         return lst85
-    elif name.lower() == "":
-        lst86 = {'thum':"", \
-        'his':"", \
-        'type':"Sword", 'stat':["510", "51.7%", "Physical DMG Bonus"], \
-        'ascen':"**[✦-----]**:5,000 Mora,  x3,  x3,  x2\n \
-        **[✦✦----]**:15,000 Mora,  x3,  x12,  x8\n \
-        **[✦✦✦---]**:20,000 Mora,  x6,  x6,  x6\n \
-        **[✦✦✦✦--]**:30,000 Mora,  x3,   x12,  x9\n \
-        **[✦✦✦✦✦-]**:35,000 Mora,  x6,  x9,  x6\n \
-        **[✦✦✦✦✦✦]**:45,000 Mora,  x4,  x18,  x12", 'name':""}
+    elif name.lower() == "amenoma kageuchi":
+        lst86 = {'thum':"https://static.wikia.nocookie.net/gensin-impact/images/e/ea/Weapon_Amenoma_Kageuchi.png/revision/latest/scale-to-width-down/256?cb=20210723074436", \
+        'his':"ตามตำนานกล่าวกันว่า นี่คือดาบที่ถูกสั่งทำขึ้นเป็นพิเศษโดยซามูไรที่มีชื่อเสียง ซึ่งแม้แต่เท็งงุที่รวดเร็วดั่งสายฟ้า ก็ยังสามารถฟันให้ร่วงลงมาได้", \
+        'type':"Sword", 'stat':["454", "55.1%", "ATK"], \
+        'ascen':"**[✦-----]**:5,000 Mora, Coral Branch of a Distant Sea x3, Chaos Gear x3, Old Handguard x2\n \
+        **[✦✦----]**:15,000 Mora, Jeweled Branch of a Distant Sea x3, Chaos Gear x12, Old Handguard x8\n \
+        **[✦✦✦---]**:20,000 Mora, Jeweled Branch of a Distant Sea x6, Chaos Axis x6, Kageuchi Handguard x6\n \
+        **[✦✦✦✦--]**:30,000 Mora, Jade Branch of a Distant Sea x3, Chaos Axis x12, Kageuchi Handguard x9\n \
+        **[✦✦✦✦✦-]**:35,000 Mora, Jade Branch of a Distant Sea x6, Chaos Oculus x9, Famed Handguard x6\n \
+        **[✦✦✦✦✦✦]**:45,000 Mora, Golden Branch of a Distant Sea x4, Chaos Oculus x18, Famed Handguard x12", 'name':"Amenoma Kageuchi"}
         return lst86
-    elif name.lower() == "":
-        lst87 = {'thum':"", \
-        'his':"", \
-        'type':"Sword", 'stat':["510", "51.7%", "Physical DMG Bonus"], \
-        'ascen':"**[✦-----]**:5,000 Mora,  x3,  x3,  x2\n \
-        **[✦✦----]**:15,000 Mora,  x3,  x12,  x8\n \
-        **[✦✦✦---]**:20,000 Mora,  x6,  x6,  x6\n \
-        **[✦✦✦✦--]**:30,000 Mora,  x3,   x12,  x9\n \
-        **[✦✦✦✦✦-]**:35,000 Mora,  x6,  x9,  x6\n \
-        **[✦✦✦✦✦✦]**:45,000 Mora,  x4,  x18,  x12", 'name':""}
+    elif name.lower() == "lion's roar":
+        lst87 = {'thum':"https://static.wikia.nocookie.net/gensin-impact/images/e/e6/Weapon_Lion%27s_Roar.png/revision/latest/scale-to-width-down/256?cb=20201119232745", \
+        'his':"คมดาบและการสลักตกแต่งที่ไม่เข้ากันกับความคมและความทนทานของมัน เสียงในเวลาที่ตัดผ่าอากาศนั้นราวกับเสียงค่ารามของสิงโต", \
+        'type':"Sword", 'stat':["510", "41.3%", "ATK"], \
+        'ascen':"**[✦-----]**:5,000 Mora, Luminous Sands from Guyun x3, Hunter's Sacrificial Knife x3, Treasure Hoarder Insignia x2\n \
+        **[✦✦----]**:15,000 Mora, Lustrous Stone from Guyun x3, Hunter's Sacrificial Knife x12, Treasure Hoarder Insignia x8\n \
+        **[✦✦✦---]**:20,000 Mora, Lustrous Stone from Guyun x6, Agent's Sacrificial Knife x6, Silver Raven Insignia x6\n \
+        **[✦✦✦✦--]**:30,000 Mora, Relic from Guyun x3, Agent's Sacrificial Knife x12, Silver Raven Insignia x9\n \
+        **[✦✦✦✦✦-]**:35,000 Mora, Relic from Guyun x6, Inspector's Sacrificial Knife x9, Golden Raven Insignia x6\n \
+        **[✦✦✦✦✦✦]**:45,000 Mora, Divine Body from Guyun x4, Inspector's Sacrificial Knife x18, Golden Raven Insignia x12", 'name':"Lion's Roar"}
         return lst87
     elif name.lower() == "":
         lst88 = {'thum':"", \
