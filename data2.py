@@ -1005,26 +1005,71 @@ def weapon_info_list(name):
         **[✦✦✦✦✦-]**:35,000 Mora, Relic from Guyun x6, Inspector's Sacrificial Knife x9, Weathered Arrowhead x6\n \
         **[✦✦✦✦✦✦]**:45,000 Mora, Divine Body from Guyun x4, Inspector's Sacrificial Knife x18, Weathered Arrowhead x12", 'name':"Blackcliff Longsword"}
         return lst92
-    elif name.lower() == "":
-        lst93 = {'thum':"", \
-        'his':"", \
-        'type':"Sword", 'stat':["510", "51.7%", "Physical DMG Bonus"], \
-        'ascen':"**[✦-----]**:5,000 Mora,  x3,  x3,  x2\n \
-        **[✦✦----]**:15,000 Mora,  x3,  x12,  x8\n \
-        **[✦✦✦---]**:20,000 Mora,  x6,  x6,  x6\n \
-        **[✦✦✦✦--]**:30,000 Mora,  x3,   x12,  x9\n \
-        **[✦✦✦✦✦-]**:35,000 Mora,  x6,  x9,  x6\n \
-        **[✦✦✦✦✦✦]**:45,000 Mora,  x4,  x18,  x12", 'name':""}
+    elif name.lower() == "raven bow":
+        lst93 = {'thum':"https://static.wikia.nocookie.net/gensin-impact/images/d/d0/Weapon_Raven_Bow.png/revision/latest/scale-to-width-down/256?cb=20201116034840", \
+        'his':"กาเป็นที่รู้จักกันว่า เป็นคนเรือข้ามฟากของคนตาย ก้านธนูถูกตกแต่งด้วยขนนกกาซึ่งเป็นต้นเหตุของการเสียชีวิตของเป้าหมาย", \
+        'type':"Bow", 'stat':["448", "94", "Elemental Mastery"], \
+        'ascen':"**[✦-----]**:5,000 Mora, Tile of Decarabian's Tower x2, Heavy Horn x2, Firm Arrowhead x1\n \
+        **[✦✦----]**:10,000 Mora, Debris of Decarabian's City x2, Heavy Horn 8, Firm Arrowhead x5\n \
+        **[✦✦✦---]**:15,000 Mora, Debris of Decarabian's City x4, Black Bronze Horn x4, Sharp Arrowhead x4\n \
+        **[✦✦✦✦--]**:20,000 Mora, Fragment of Decarabian's Epic x2, Black Bronze Horn x8, Sharp Arrowhead x6\n \
+        **[✦✦✦✦✦-]**:25,000 Mora, Fragment of Decarabian's Epic x4, Black Crystal Horn x6, Weathered Arrowhead x4\n \
+        **[✦✦✦✦✦✦]**:30,000 Mora, Scattered Piece of Decarabian's Dream x3, Black Crystal Horn x12, Weathered Arrowhead x8", 'name':"Raven Bow"}
         return lst93
-    elif name.lower() == "":
-        lst94 = {'thum':"", \
-        'his':"", \
-        'type':"Sword", 'stat':["510", "51.7%", "Physical DMG Bonus"], \
-        'ascen':"**[✦-----]**:5,000 Mora,  x3,  x3,  x2\n \
-        **[✦✦----]**:15,000 Mora,  x3,  x12,  x8\n \
-        **[✦✦✦---]**:20,000 Mora,  x6,  x6,  x6\n \
-        **[✦✦✦✦--]**:30,000 Mora,  x3,   x12,  x9\n \
-        **[✦✦✦✦✦-]**:35,000 Mora,  x6,  x9,  x6\n \
-        **[✦✦✦✦✦✦]**:45,000 Mora,  x4,  x18,  x12", 'name':""}
+    elif name.lower() == "recurve bow":
+        lst94 = {'thum':"https://static.wikia.nocookie.net/gensin-impact/images/b/b5/Weapon_Recurve_Bow.png/revision/latest/scale-to-width-down/256?cb=20201120005927", \
+        'his':"ว่ากันว่าธนูคันนี้สามารถ ยิงอินทรีย์ที่กำลังบินร่อนอยู่ได้ แต่ที่จริงแล้วมันขึ้นอยู่กับฝีมือของผู้ใช้งานมากกว่า", \
+        'type':"Bow", 'stat':["354", "46.9%", "HP"], \
+        'ascen':"**[✦-----]**:5,000 Mora, Fetters of the Dandelion Gladiator x2, Heavy Horn x2, Recruit's Insignia x1\n \
+        **[✦✦----]**:10,000 Mora, Chains of the Dandelion Gladiator x2, Heavy Horn x8, Recruit's Insignia x5\n \
+        **[✦✦✦---]**:15,000 Mora, Chains of the Dandelion Gladiator x4, Black Bronze Horn x4, Sergeant's Insignia x4\n \
+        **[✦✦✦✦--]**:20,000 Mora, Shackles of the Dandelion Gladiator x2, Black Bronze Horn x8, Sergeant's Insignia x6\n \
+        **[✦✦✦✦✦-]**:25,000 Mora, Shackles of the Dandelion Gladiator x4, Black Crystal Horn x6, Lieutenant's Insignia x4\n \
+        **[✦✦✦✦✦✦]**:30,000 Mora, Dream of the Dandelion Gladiator x3, Black Crystal Horn x12, Lieutenant's Insignia x8", 'name':"Recurve Bow"}
         return lst94
+    elif name.lower() == "messenger":
+        lst95 = {'thum':"https://static.wikia.nocookie.net/gensin-impact/images/3/38/Weapon_Messenger.png/revision/latest/scale-to-width-down/256?cb=20201116034227", \
+        'his':"คันธนูแบนที่ทำขึ้นอย่างง่าย ๆ ที่ครั้งหนึ่งเคยใช้สำหรับการสื่อสารส่งข้อความ", \
+        'type':"Bow", 'stat':["448", "31.2%", "CRIT DMG"], \
+        'ascen':"**[✦-----]**:5,000 Mora, Mist Veiled Lead Elixir x2, Mist Grass Pollen x2, Treasure Hoarder Insignia x1\n \
+        **[✦✦----]**:10,000 Mora, Mist Veiled Mercury Elixir x2, Mist Grass Pollen x8, Treasure Hoarder Insignia x5\n \
+        **[✦✦✦---]**:15,000 Mora, Mist Veiled Mercury Elixir x4, Mist Grass x4, Silver Raven Insignia x4\n \
+        **[✦✦✦✦--]**:20,000 Mora, Mist Veiled Gold Elixir x2, Mist Grass x8, Silver Raven Insignia x6\n \
+        **[✦✦✦✦✦-]**:25,000 Mora, Mist Veiled Gold Elixir x4, Mist Grass Wick x6, Golden Raven Insignia x4\n \
+        **[✦✦✦✦✦✦]**:30,000 Mora, Mist Veiled Primo Elixir x3, Mist Grass Wick x12, Golden Raven Insignia x8", 'name':"Messenger"}
+        return lst95
+    elif name.lower() == "sharpshooter's Oath":
+        lst96 = {'thum':"https://static.wikia.nocookie.net/gensin-impact/images/5/52/Weapon_Sharpshooter%27s_Oath.png/revision/latest/scale-to-width-down/256?cb=20201116035135", \
+        'his':"คันธนูอันยอดเยี่ยมที่ครั้งหนึ่ง เคยเป็นของยอดนักธนู แต่มันมีกลิ่นที่แรงมาก ทำให้ไม่เหมาะกับการล่า", \
+        'type':"Bow", 'stat':["401", "46.9%", "CRIT DMG"], \
+        'ascen':"**[✦-----]**:5,000 Mora, Boreal Wolf's Milk Tooth x2, Dead Ley Line Branch x2, Slime Condensate x1\n \
+        **[✦✦----]**:10,000 Mora, Boreal Wolf's Cracked Tooth x2, Dead Ley Line Branch x8, Slime Condensate x5\n \
+        **[✦✦✦---]**:15,000 Mora, Boreal Wolf's Cracked Tooth x4, Dead Ley Line Leaves x4, Slime Secretions x4\n \
+        **[✦✦✦✦--]**:20,000 Mora, Boreal Wolf's Broken Fang x2, Dead Ley Line Leaves x8, Slime Secretions x6\n \
+        **[✦✦✦✦✦-]**:25,000 Mora, Boreal Wolf's Broken Fang x4, Ley Line Sprout x6, Slime Concentrate x4\n \
+        **[✦✦✦✦✦✦]**:30,000 Mora, Boreal Wolf's Nostalgia x3, Ley Line Sprout x12, Slime Concentrate x8", 'name':"Sharpshooter's Oath"}
+        return lst96
+    elif name.lower() == "slingshot":
+        lst97 = {'thum':"https://static.wikia.nocookie.net/gensin-impact/images/c/ca/Weapon_Slingshot.png/revision/latest/scale-to-width-down/256?cb=20201116035308", \
+        'his':"แม้มีชื่อแบบนี้ แต่แท้จริงแล้วเป็นคันธนู หลังจากพัฒนาและทดลองมานับครั้งไม่ถ้วนโดยผู้สร้างสุดยอดหนังสติ๊ก ก็พบว่าตัวเองได้สร้างธนูขึ้นมาซะแล้ว", \
+        'type':"Bow", 'stat':["354", "31.2%", "CRIT Rate"], \
+        'ascen':"**[✦-----]**:5,000 Mora, Luminous Sands from Guyun x2, Hunter's Sacrificial Knife x2, Damaged Mask x1\n \
+        **[✦✦----]**:10,000 Mora, Lustrous Stone from Guyun x2, Hunter's Sacrificial Knife x8, Damaged Mask x5\n \
+        **[✦✦✦---]**:15,000 Mora, Lustrous Stone from Guyun x4, Agent's Sacrificial Knife x4, Stained Mask x4\n \
+        **[✦✦✦✦--]**:20,000 Mora, Relic from Guyun x2, Agent's Sacrificial Knife x8, Stained Mask x6\n \
+        **[✦✦✦✦✦-]**:25,000 Mora, Relic from Guyun x4, Inspector's Sacrificial Knife x6, Ominous Mask x4\n \
+        **[✦✦✦✦✦✦]**:30,000 Mora, Divine Body from Guyun x3, Inspector's Sacrificial Knife x12, Ominous Mask x8", 'name':"Slingshot"}
+        return lst97
+    elif name.lower() == "":
+        lst98 = {'thum':"", \
+        'his':"", \
+        'type':"Bow", 'stat':["510", "51.7%", "Physical DMG Bonus"], \
+        'ascen':"**[✦-----]**:5,000 Mora,  x2,  x2,  x1\n \
+        **[✦✦----]**:10,000 Mora,  x2,  x8,  x5\n \
+        **[✦✦✦---]**:15,000 Mora,  x4,  x4,  x4\n \
+        **[✦✦✦✦--]**:20,000 Mora,  x2,   x8,  x6\n \
+        **[✦✦✦✦✦-]**:25,000 Mora,  x4,  x6,  x4\n \
+        **[✦✦✦✦✦✦]**:30,000 Mora,  x3,  x12,  x8", 'name':""}
+        return lst98
+    
                   
