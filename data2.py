@@ -578,7 +578,7 @@ def weapon_info_list(name):
         **[✦✦✦✦✦✦]**:45,000 Mora, Golden Branch of a Distant Sea x4, Concealed Talon x18, Famed Handguard x12", 'name':"Akuoumaru"}
         return lst53
     elif name.lower() == "royal greatsword":
-        lst53 = {'thum':"https://static.wikia.nocookie.net/gensin-impact/images/b/bf/Weapon_Royal_Greatsword.png/revision/latest/scale-to-width-down/256?cb=20201116034928", \
+        lst54 = {'thum':"https://static.wikia.nocookie.net/gensin-impact/images/b/bf/Weapon_Royal_Greatsword.png/revision/latest/scale-to-width-down/256?cb=20201116034928", \
         'his':"ดาบใหญ่สภาพเก่าแก่ของชนชั้นสูงผู้ที่ครั้งหนึ่งเคยปกครอง Mondstadt มาก่อน มันทำจากวัสดุระดับสูงที่ทนทานต่อความโหดร้ายของกาลเวลา เป็นอาวุธสำหรับต่อสู้ของชนชั้นสูง", \
         'type':"Claymore", 'stat':["565", "27.6%", "ATK"], \
         'ascen':"**[✦-----]**:5,000 Mora, Fetters of the Dandelion Gladiator x3, Chaos Device x3, Slime Condensate x2\n \
@@ -587,9 +587,9 @@ def weapon_info_list(name):
         **[✦✦✦✦--]**:30,000 Mora, Shackles of the Dandelion Gladiator x3, Chaos Circuit x12, Slime Secretions x9\n \
         **[✦✦✦✦✦-]**:35,000 Mora, Shackles of the Dandelion Gladiator x6, Chaos Core x9, Slime Concentrate x6\n \
         **[✦✦✦✦✦✦]**:45,000 Mora, Dream of the Dandelion Gladiator x4, Chaos Core x18, Slime Concentrate x12", 'name':"Royal Greatsword"}
-        return lst53
+        return lst54
     elif name.lower() == "whiteblind":
-        lst53 = {'thum':"https://static.wikia.nocookie.net/gensin-impact/images/0/04/Weapon_Whiteblind.png/revision/latest/scale-to-width-down/256?cb=20201116035607", \
+        lst55 = {'thum':"https://static.wikia.nocookie.net/gensin-impact/images/0/04/Weapon_Whiteblind.png/revision/latest/scale-to-width-down/256?cb=20201116035607", \
         'his':"ดาบใหญ่ที่ด้านหนึ่งของตัวดามยังไม่ถูกลับเพื่อเปิดคมมีดซึ่งมาพร้อมกับผู้ทำการค้าจากต่างถิ่นที่เดินทางมาถึง Liyue มีพลังที่เหลือเชื่อเมื่ออยู่ในมือของคนที่รู้วิธีใช้มัน", \
         'type':"Claymore", 'stat':["510", "51.7%", "DEF"], \
         'ascen':"**[✦-----]**:5,000 Mora, Luminous Sands from Guyun x3, Hunter's Sacrificial Knife x3, Treasure Hoarder Insignia x2\n \
@@ -598,9 +598,9 @@ def weapon_info_list(name):
         **[✦✦✦✦--]**:30,000 Mora, Relic from Guyun x3, Agent's Sacrificial Knife x12, Silver Raven Insignia x9\n \
         **[✦✦✦✦✦-]**:35,000 Mora, Relic from Guyun x6, Inspector's Sacrificial Knife x9, Golden Raven Insignia x6\n \
         **[✦✦✦✦✦✦]**:45,000 Mora, Divine Body from Guyun x4, Inspector's Sacrificial Knife x18, Golden Raven Insignia x12", 'name':"Whiteblind"}
-        return lst53
+        return lst55
     elif name.lower() == "the bell":
-        lst53 = {'thum':"https://static.wikia.nocookie.net/gensin-impact/images/6/6e/Weapon_The_Bell.png/revision/latest/scale-to-width-down/256?cb=20201116035344", \
+        lst56 = {'thum':"https://static.wikia.nocookie.net/gensin-impact/images/6/6e/Weapon_The_Bell.png/revision/latest/scale-to-width-down/256?cb=20201116035344", \
         'his':"ดาบขนาดใหญ่ที่หนักและมีนาฬิกาติดตั้งมาด้วย แต่กลไกภายในของมันนั้นพังไปนานแล้ว", \
         'type':"Claymore", 'stat':["510", "41.3%", "HP"], \
         'ascen':"**[✦-----]**:5,000 Mora, Tile of Decarabian's Tower x3, Heavy Horn x3, Whopperflower Nectar x2\n \
@@ -609,9 +609,9 @@ def weapon_info_list(name):
         **[✦✦✦✦--]**:30,000 Mora, Fragment of Decarabian's Epic x3, Black Bronze Horn x12, Shimmering Nectar x9\n \
         **[✦✦✦✦✦-]**:35,000 Mora, Fragment of Decarabian's Epic x6, Black Crystal Horn x9, Energy Nectar x6\n \
         **[✦✦✦✦✦✦]**:45,000 Mora, Scattered Piece of Decarabian's Dream x4, Black Crystal Horn x18, Energy Nectar x12", 'name':"The Bell"}
-        return lst53
+        return lst56
     elif name.lower() == "snow-tombed starsilver":
-        lst53 = {'thum':"https://static.wikia.nocookie.net/gensin-impact/images/4/49/Weapon_Snow-Tombed_Starsilver.png/revision/latest/scale-to-width-down/256?cb=20201223042944", \
+        lst57 = {'thum':"https://static.wikia.nocookie.net/gensin-impact/images/4/49/Weapon_Snow-Tombed_Starsilver.png/revision/latest/scale-to-width-down/256?cb=20201223042944", \
         'his':"ดาบใหญ่โบราณที่ซ่อนอยู่ในภาพฝาผนังนี้ หลอมขึ้นมาจากดวงดาว ดูเหมือนจะมีพลังที่สามารถฟันน้ำแข็งและหิมะได้", \
         'type':"Claymore", 'stat':["565", "34.1%", "Physical DMG Bonus"], \
         'ascen':"**[✦-----]**:5,000 Mora, Tile of Decarabian's Tower x3, Heavy Horn x3, Slime Condensate x2\n \
@@ -620,9 +620,9 @@ def weapon_info_list(name):
         **[✦✦✦✦--]**:30,000 Mora, Fragment of Decarabian's Epic x3, Black Bronze Horn x12, Slime Secretions x9\n \
         **[✦✦✦✦✦-]**:35,000 Mora, Fragment of Decarabian's Epic x6, Black Crystal Horn x9, Slime Concentrate x6\n \
         **[✦✦✦✦✦✦]**:45,000 Mora, Scattered Piece of Decarabian's Dream x4, Black Crystal Horn x18, Slime Concentrate x12", 'name':"Snow-Tombed Starsilver"}
-        return lst53
+        return lst57
     elif name.lower() == "favonius greatsword":
-        lst53 = {'thum':"https://static.wikia.nocookie.net/gensin-impact/images/9/9c/Weapon_Favonius_Greatsword.png/revision/latest/scale-to-width-down/256?cb=20201119235934", \
+        lst58 = {'thum':"https://static.wikia.nocookie.net/gensin-impact/images/9/9c/Weapon_Favonius_Greatsword.png/revision/latest/scale-to-width-down/256?cb=20201119235934", \
         'his':"ดาบใหญ่ที่ใช้สำหรับทำพิธีของอัศวินแห่ง Favonius มันสามารถรวบรวมพลังงานธาตุได้ง่าย และสร้างพลังทำลายได้สูง", \
         'type':"Claymore", 'stat':["454", "61.3%", "Energy Recharge"], \
         'ascen':"**[✦-----]**:5,000 Mora, Fetters of the Dandelion Gladiator x3, Chaos Device x3, Recruit's Insignia x2\n \
@@ -631,9 +631,20 @@ def weapon_info_list(name):
         **[✦✦✦✦--]**:30,000 Mora, Shackles of the Dandelion Gladiator x3, Chaos Circuit x12, Sergeant's Insignia x9\n \
         **[✦✦✦✦✦-]**:35,000 Mora, Shackles of the Dandelion Gladiator x6, Chaos Core x9, Lieutenant's Insignia x6\n \
         **[✦✦✦✦✦✦]**:45,000 Mora, Dream of the Dandelion Gladiator x4, Chaos Core x18, Lieutenant's Insignia x12", 'name':"Favonius Greatsword"}
-        return lst53
+        return lst58
+    elif name.lower() == "katsuragikiri nagamasa":
+        lst59 = {'thum':"https://static.wikia.nocookie.net/gensin-impact/images/2/2e/Weapon_Katsuragikiri_Nagamasa.png/revision/latest/scale-to-width-down/256?cb=20211103232839", \
+        'his':"ดาบที่ถูกทำขึ้นใน Tatarasuna เมื่อครั้งอดีต ทั้งหนักและแข็งแรงทนทาน", \
+        'type':"Claymore", 'stat':["510", "45.9%", "Energy Recharge"], \
+        'ascen':"**[✦-----]**:5,000 Mora, Narukami's Wisdom x3, Chaos Gear x3, Old Handguard x2\n \
+        **[✦✦----]**:15,000 Mora, Narukami's Joy x3, Chaos Gear x12, Old Handguard x8\n \
+        **[✦✦✦---]**:20,000 Mora, Narukami's Joy x6, Chaos Axis x6, Kageuchi Handguard x6\n \
+        **[✦✦✦✦--]**:30,000 Mora, Narukami's Affection x3, Chaos Axis x12, Kageuchi Handguard x9\n \
+        **[✦✦✦✦✦-]**:35,000 Mora, Narukami's Affection x6, Chaos Oculus x9, Famed Handguard x6\n \
+        **[✦✦✦✦✦✦]**:45,000 Mora, Narukami's Valor x4, Chaos Oculus x18, Famed Handguard x12", 'name':"Katsuragikiri Nagamasa"}
+        return lst59
     elif name.lower() == "":
-        lst53 = {'thum':"", \
+        lst60 = {'thum':"", \
         'his':"", \
         'type':"Claymore", 'stat':["510", "51.7%", "Physical DMG Bonus"], \
         'ascen':"**[✦-----]**:5,000 Mora,  x3,  x3,  x2\n \
@@ -642,9 +653,9 @@ def weapon_info_list(name):
         **[✦✦✦✦--]**:30,000 Mora,  x3,   x12,  x9\n \
         **[✦✦✦✦✦-]**:35,000 Mora,  x6,  x9,  x6\n \
         **[✦✦✦✦✦✦]**:45,000 Mora,  x4,  x18,  x12", 'name':""}
-        return lst53
+        return lst60
     elif name.lower() == "":
-        lst53 = {'thum':"", \
+        lst61 = {'thum':"", \
         'his':"", \
         'type':"Claymore", 'stat':["510", "51.7%", "Physical DMG Bonus"], \
         'ascen':"**[✦-----]**:5,000 Mora,  x3,  x3,  x2\n \
@@ -653,9 +664,9 @@ def weapon_info_list(name):
         **[✦✦✦✦--]**:30,000 Mora,  x3,   x12,  x9\n \
         **[✦✦✦✦✦-]**:35,000 Mora,  x6,  x9,  x6\n \
         **[✦✦✦✦✦✦]**:45,000 Mora,  x4,  x18,  x12", 'name':""}
-        return lst53
+        return lst61
     elif name.lower() == "":
-        lst53 = {'thum':"", \
+        lst62 = {'thum':"", \
         'his':"", \
         'type':"Claymore", 'stat':["510", "51.7%", "Physical DMG Bonus"], \
         'ascen':"**[✦-----]**:5,000 Mora,  x3,  x3,  x2\n \
@@ -664,9 +675,9 @@ def weapon_info_list(name):
         **[✦✦✦✦--]**:30,000 Mora,  x3,   x12,  x9\n \
         **[✦✦✦✦✦-]**:35,000 Mora,  x6,  x9,  x6\n \
         **[✦✦✦✦✦✦]**:45,000 Mora,  x4,  x18,  x12", 'name':""}
-        return lst53
+        return lst62
     elif name.lower() == "":
-        lst53 = {'thum':"", \
+        lst63 = {'thum':"", \
         'his':"", \
         'type':"Claymore", 'stat':["510", "51.7%", "Physical DMG Bonus"], \
         'ascen':"**[✦-----]**:5,000 Mora,  x3,  x3,  x2\n \
@@ -675,9 +686,9 @@ def weapon_info_list(name):
         **[✦✦✦✦--]**:30,000 Mora,  x3,   x12,  x9\n \
         **[✦✦✦✦✦-]**:35,000 Mora,  x6,  x9,  x6\n \
         **[✦✦✦✦✦✦]**:45,000 Mora,  x4,  x18,  x12", 'name':""}
-        return lst53
+        return lst63
     elif name.lower() == "":
-        lst53 = {'thum':"", \
+        lst64 = {'thum':"", \
         'his':"", \
         'type':"Claymore", 'stat':["510", "51.7%", "Physical DMG Bonus"], \
         'ascen':"**[✦-----]**:5,000 Mora,  x3,  x3,  x2\n \
@@ -686,9 +697,9 @@ def weapon_info_list(name):
         **[✦✦✦✦--]**:30,000 Mora,  x3,   x12,  x9\n \
         **[✦✦✦✦✦-]**:35,000 Mora,  x6,  x9,  x6\n \
         **[✦✦✦✦✦✦]**:45,000 Mora,  x4,  x18,  x12", 'name':""}
-        return lst53
+        return lst64
     elif name.lower() == "":
-        lst53 = {'thum':"", \
+        lst65 = {'thum':"", \
         'his':"", \
         'type':"Claymore", 'stat':["510", "51.7%", "Physical DMG Bonus"], \
         'ascen':"**[✦-----]**:5,000 Mora,  x3,  x3,  x2\n \
@@ -697,9 +708,9 @@ def weapon_info_list(name):
         **[✦✦✦✦--]**:30,000 Mora,  x3,   x12,  x9\n \
         **[✦✦✦✦✦-]**:35,000 Mora,  x6,  x9,  x6\n \
         **[✦✦✦✦✦✦]**:45,000 Mora,  x4,  x18,  x12", 'name':""}
-        return lst53
+        return lst65
     elif name.lower() == "":
-        lst53 = {'thum':"", \
+        lst66 = {'thum':"", \
         'his':"", \
         'type':"Claymore", 'stat':["510", "51.7%", "Physical DMG Bonus"], \
         'ascen':"**[✦-----]**:5,000 Mora,  x3,  x3,  x2\n \
@@ -708,9 +719,9 @@ def weapon_info_list(name):
         **[✦✦✦✦--]**:30,000 Mora,  x3,   x12,  x9\n \
         **[✦✦✦✦✦-]**:35,000 Mora,  x6,  x9,  x6\n \
         **[✦✦✦✦✦✦]**:45,000 Mora,  x4,  x18,  x12", 'name':""}
-        return lst53
+        return lst66
     elif name.lower() == "":
-        lst53 = {'thum':"", \
+        lst67 = {'thum':"", \
         'his':"", \
         'type':"Claymore", 'stat':["510", "51.7%", "Physical DMG Bonus"], \
         'ascen':"**[✦-----]**:5,000 Mora,  x3,  x3,  x2\n \
@@ -719,16 +730,5 @@ def weapon_info_list(name):
         **[✦✦✦✦--]**:30,000 Mora,  x3,   x12,  x9\n \
         **[✦✦✦✦✦-]**:35,000 Mora,  x6,  x9,  x6\n \
         **[✦✦✦✦✦✦]**:45,000 Mora,  x4,  x18,  x12", 'name':""}
-        return lst53
-    elif name.lower() == "":
-        lst53 = {'thum':"", \
-        'his':"", \
-        'type':"Claymore", 'stat':["510", "51.7%", "Physical DMG Bonus"], \
-        'ascen':"**[✦-----]**:5,000 Mora,  x3,  x3,  x2\n \
-        **[✦✦----]**:15,000 Mora,  x3,  x12,  x8\n \
-        **[✦✦✦---]**:20,000 Mora,  x6,  x6,  x6\n \
-        **[✦✦✦✦--]**:30,000 Mora,  x3,   x12,  x9\n \
-        **[✦✦✦✦✦-]**:35,000 Mora,  x6,  x9,  x6\n \
-        **[✦✦✦✦✦✦]**:45,000 Mora,  x4,  x18,  x12", 'name':""}
-        return lst53
+        return lst67
                   
