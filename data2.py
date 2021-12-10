@@ -753,71 +753,70 @@ def weapon_info_list(name):
         **[✦✦✦✦✦-]**:35,000 Mora, Mask of the One-Horned x6, Chaos Oculus x9, Golden Raven Insignia x6\n \
         **[✦✦✦✦✦✦]**:45,000 Mora, Mask of the Kijin x4, Chaos Oculus x18, Golden Raven Insignia x12", 'name':"Kitain Cross Spear"}
         return lst69
-    elif name.lower() == "":
-        lst70 = {'thum':"", \
-        'his':"", \
-        'type':"Polearm", 'stat':["510", "51.7%", "Physical DMG Bonus"], \
-        'ascen':"**[✦-----]**:5,000 Mora,  x3,  x3,  x2\n \
-        **[✦✦----]**:15,000 Mora,  x3,  x12,  x8\n \
-        **[✦✦✦---]**:20,000 Mora,  x6,  x6,  x6\n \
-        **[✦✦✦✦--]**:30,000 Mora,  x3,   x12,  x9\n \
-        **[✦✦✦✦✦-]**:35,000 Mora,  x6,  x9,  x6\n \
-        **[✦✦✦✦✦✦]**:45,000 Mora,  x4,  x18,  x12", 'name':""}
+    elif name.lower() == "the catch":
+        lst70 = {'thum':"https://static.wikia.nocookie.net/gensin-impact/images/f/f5/Weapon_The_Catch.png/revision/latest/scale-to-width-down/256?cb=20210901044833", \
+        'his':"หอกที่ครั้งหนึ่งจอมโจรแห่ง Inazuma ที่มีชื่อเสียงในอดีตชอบใช้", \
+        'type':"**[✦-----]**:5,000 Mora, Mask of the Wicked Lieutenant x3, Chaos Gear x3, Spectral Husk x2\n \
+        **[✦✦----]**:15,000 Mora, Mask of the Tiger's Bite x3, Chaos Gear x12, Spectral Husk x8\n \
+        **[✦✦✦---]**:20,000 Mora, Mask of the Tiger's Bite x6, Chaos Axis x6, Spectral Heart x6\n \
+        **[✦✦✦✦--]**:30,000 Mora, Mask of the One-Horned x3, Chaos Axis x12, Spectral Heart x9\n \
+        **[✦✦✦✦✦-]**:35,000 Mora, Mask of the One-Horned x6, Chaos Oculus x9, Spectral Nucleus x6\n \
+        **[✦✦✦✦✦✦]**:45,000 Mora, Mask of the Kijin x4, Chaos Oculus x18, Spectral Nucleus x12", 'name':"The Catch"}
         return lst70
-    elif name.lower() == "":
-        lst71 = {'thum':"", \
-        'his':"", \
-        'type':"Polearm", 'stat':["510", "51.7%", "Physical DMG Bonus"], \
-        'ascen':"**[✦-----]**:5,000 Mora,  x3,  x3,  x2\n \
-        **[✦✦----]**:15,000 Mora,  x3,  x12,  x8\n \
-        **[✦✦✦---]**:20,000 Mora,  x6,  x6,  x6\n \
-        **[✦✦✦✦--]**:30,000 Mora,  x3,   x12,  x9\n \
-        **[✦✦✦✦✦-]**:35,000 Mora,  x6,  x9,  x6\n \
-        **[✦✦✦✦✦✦]**:45,000 Mora,  x4,  x18,  x12", 'name':""}
+    elif name.lower() == "favonius lance":
+        lst71 = {'thum':"https://static.wikia.nocookie.net/gensin-impact/images/5/57/Weapon_Favonius_Lance.png/revision/latest/scale-to-width-down/256?cb=20201116154512", \
+        'his':"หอกมาตรฐานที่ใช้งานโดย เหล่าอัศวินแห่ง Favonius ด้ามหอกตรงดิ่ง ปลายหอกแหลมคม และพลิ้วไหวดั่งสายลม", \
+        'type':"Polearm", 'stat':["565", "30.6%", "Energy Recharge"], \
+        'ascen':"**[✦-----]**:5,000 Mora, Fetters of the Dandelion Gladiator x3, Chaos Device x3, Slime Condensate x2\n \
+        **[✦✦----]**:15,000 Mora, Chains of the Dandelion Gladiator x3, Chaos Device x12, Slime Condensate x8\n \
+        **[✦✦✦---]**:20,000 Mora, Chains of the Dandelion Gladiator x6, Chaos Circuit x6, Slime Secretions x6\n \
+        **[✦✦✦✦--]**:30,000 Mora, Shackles of the Dandelion Gladiator x3, Chaos Circuit x12, Slime Secretions x9\n \
+        **[✦✦✦✦✦-]**:35,000 Mora, Shackles of the Dandelion Gladiator x6, Chaos Core x9, Slime Concentrate x6\n \
+        **[✦✦✦✦✦✦]**:45,000 Mora, Dream of the Dandelion Gladiator x4, Chaos Core x18, Slime Concentrate x12", 'name':"Favonius Lance"}
         return lst71
-    elif name.lower() == "":
-        lst72 = {'thum':"", \
-        'his':"", \
-        'type':"Polearm", 'stat':["510", "51.7%", "Physical DMG Bonus"], \
-        'ascen':"**[✦-----]**:5,000 Mora,  x3,  x3,  x2\n \
-        **[✦✦----]**:15,000 Mora,  x3,  x12,  x8\n \
-        **[✦✦✦---]**:20,000 Mora,  x6,  x6,  x6\n \
-        **[✦✦✦✦--]**:30,000 Mora,  x3,   x12,  x9\n \
-        **[✦✦✦✦✦-]**:35,000 Mora,  x6,  x9,  x6\n \
-        **[✦✦✦✦✦✦]**:45,000 Mora,  x4,  x18,  x12", 'name':""}
+    elif name.lower() == "dragonspine spear":
+        lst72 = {'thum':"https://static.wikia.nocookie.net/gensin-impact/images/1/1a/Weapon_Dragonspine_Spear.png/revision/latest/scale-to-width-down/256?cb=20201223042936", \
+        'his':"หอกที่สร้างจากเขี้ยวของมังกร เมื่อสัมผัสแล้วให้ความรู้สึกที่อบอุ่นอย่างน่าประหลาด", \
+        'type':"Polearm", 'stat':["454", "69.0%", "Physical DMG Bonus"], \
+        'ascen':"**[✦-----]**:5,000 Mora, Boreal Wolf's Milk Tooth x3, Mist Grass Pollen x3, Recruit's Insignia x2\n \
+        **[✦✦----]**:15,000 Mora, Boreal Wolf's Cracked Tooth x3, Mist Grass Pollen x12, Recruit's Insignia x8\n \
+        **[✦✦✦---]**:20,000 Mora, Boreal Wolf's Cracked Tooth x6, Mist Grass x6, Sergeant's Insignia x6\n \
+        **[✦✦✦✦--]**:30,000 Mora, Boreal Wolf's Broken Fang x3, Mist Grass x12, Sergeant's Insignia x9\n \
+        **[✦✦✦✦✦-]**:35,000 Mora, Boreal Wolf's Broken Fang x6, Mist Grass Wick x9, Lieutenant's Insignia x6\n \
+        **[✦✦✦✦✦✦]**:45,000 Mora, Boreal Wolf's Nostalgia x4, Mist Grass Wick x18, Lieutenant's Insignia x12", 'name':"Dragonspine Spear"}
         return lst72
-    elif name.lower() == "":
-        lst73 = {'thum':"", \
-        'his':"", \
-        'type':"Polearm", 'stat':["510", "51.7%", "Physical DMG Bonus"], \
-        'ascen':"**[✦-----]**:5,000 Mora,  x3,  x3,  x2\n \
-        **[✦✦----]**:15,000 Mora,  x3,  x12,  x8\n \
-        **[✦✦✦---]**:20,000 Mora,  x6,  x6,  x6\n \
-        **[✦✦✦✦--]**:30,000 Mora,  x3,   x12,  x9\n \
-        **[✦✦✦✦✦-]**:35,000 Mora,  x6,  x9,  x6\n \
-        **[✦✦✦✦✦✦]**:45,000 Mora,  x4,  x18,  x12", 'name':""}
+    elif name.lower() == "dragon's bane":
+        lst73 = {'thum':"https://static.wikia.nocookie.net/gensin-impact/images/2/24/Weapon_Dragon%27s_Bane.png/revision/latest/scale-to-width-down/256?cb=20201116033629", \
+        'his':"หอกที่ตกแต่งด้วยมังกรทองพันอยู่ที่ด้าม มันทั้งเบาและคม อาวุธนี้ใช้สังหารมังกรได้อย่างดี", \
+        'type':"Polearm", 'stat':["454", "221", "Elemental Mastery"], \
+        'ascen':"**[✦-----]**:5,000 Mora, Mist Veiled Lead Elixir x3, Mist Grass Pollen x3, Divining Scroll x2\n \
+        **[✦✦----]**:15,000 Mora, Mist Veiled Mercury Elixir x3, Mist Grass Pollen x12, Divining Scroll x8\n \
+        **[✦✦✦---]**:20,000 Mora, Mist Veiled Mercury Elixir x6, Mist Grass x6, Sealed Scroll x6\n \
+        **[✦✦✦✦--]**:30,000 Mora, Mist Veiled Gold Elixir x3, Mist Grass x12, Sealed Scroll x9\n \
+        **[✦✦✦✦✦-]**:35,000 Mora, Mist Veiled Gold Elixir x6, Mist Grass Wick x9, Forbidden Curse Scroll x6\n \
+        **[✦✦✦✦✦✦]**:45,000 Mora, Mist Veiled Primo Elixir x4, Mist Grass Wick x18, Forbidden Curse Scroll x12", 'name':"Dragon's Bane"}
         return lst73
-    elif name.lower() == "":
-        lst74 = {'thum':"", \
-        'his':"", \
-        'type':"Polearm", 'stat':["510", "51.7%", "Physical DMG Bonus"], \
-        'ascen':"**[✦-----]**:5,000 Mora,  x3,  x3,  x2\n \
-        **[✦✦----]**:15,000 Mora,  x3,  x12,  x8\n \
-        **[✦✦✦---]**:20,000 Mora,  x6,  x6,  x6\n \
-        **[✦✦✦✦--]**:30,000 Mora,  x3,   x12,  x9\n \
-        **[✦✦✦✦✦-]**:35,000 Mora,  x6,  x9,  x6\n \
-        **[✦✦✦✦✦✦]**:45,000 Mora,  x4,  x18,  x12", 'name':""}
+    elif name.lower() == "deathmatch":
+        lst74 = {'thum':"https://static.wikia.nocookie.net/gensin-impact/images/6/69/Weapon_Deathmatch.png/revision/latest/scale-to-width-down/256?cb=20201116154647", \
+        'his':"หอกคมยาวสีแดงเลือดซึ่งเคยเป็นสมบัติของนักสู่ในสมัยก่อน ปลายหอกถูกย้อมไปด้วยเลือดของสัตว์ร้ายและผู้คนนับไม่ถ้วน", \
+        'type':"Polearm", 'stat':["454", "36.8%", "CRIT Rate"], \
+        'ascen':"**[✦-----]**:5,000 Mora, Boreal Wolf's Milk Tooth x3, Dead Ley Line Branch x3, Whopperflower Nectar x2\n \
+        **[✦✦----]**:15,000 Mora, Boreal Wolf's Cracked Tooth x3, Dead Ley Line Branch x12, Whopperflower Nectar x8\n \
+        **[✦✦✦---]**:20,000 Mora, Boreal Wolf's Cracked Tooth x6, Dead Ley Line Leaves x6, Shimmering Nectar x6\n \
+        **[✦✦✦✦--]**:30,000 Mora, Boreal Wolf's Broken Fang x3, Dead Ley Line Leaves x12, Shimmering Nectar x9\n \
+        **[✦✦✦✦✦-]**:35,000 Mora, Boreal Wolf's Broken Fang x6, Ley Line Sprout x9, Energy Nectar x6\n \
+        **[✦✦✦✦✦✦]**:45,000 Mora, Boreal Wolf's Nostalgia x4, Ley Line Sprout x18, Energy Nectar x12", 'name':"Deathmatch"}
         return lst74
-    elif name.lower() == "":
-        lst75 = {'thum':"", \
+    elif name.lower() == "crescent pike":
+        lst75 = {'thum':"https://static.wikia.nocookie.net/gensin-impact/images/4/4c/Weapon_Crescent_Pike.png/revision/latest/scale-to-width-down/256?cb=20201116033544", \
         'his':"", \
-        'type':"Polearm", 'stat':["510", "51.7%", "Physical DMG Bonus"], \
-        'ascen':"**[✦-----]**:5,000 Mora,  x3,  x3,  x2\n \
-        **[✦✦----]**:15,000 Mora,  x3,  x12,  x8\n \
-        **[✦✦✦---]**:20,000 Mora,  x6,  x6,  x6\n \
-        **[✦✦✦✦--]**:30,000 Mora,  x3,   x12,  x9\n \
-        **[✦✦✦✦✦-]**:35,000 Mora,  x6,  x9,  x6\n \
-        **[✦✦✦✦✦✦]**:45,000 Mora,  x4,  x18,  x12", 'name':""}
+        'type':"Polearm", 'stat':["565", "34.5%", "Physical DMG Bonus"], \
+        'ascen':"**[✦-----]**:5,000 Mora, Luminous Sands from Guyun x3, Hunter's Sacrificial Knife x3, Treasure Hoarder Insignia x2\n \
+        **[✦✦----]**:15,000 Mora, Lustrous Stone from Guyun x3, Hunter's Sacrificial Knife x12, Treasure Hoarder Insignia x8\n \
+        **[✦✦✦---]**:20,000 Mora, Lustrous Stone from Guyun x6, Agent's Sacrificial Knife x6, Silver Raven Insignia x6\n \
+        **[✦✦✦✦--]**:30,000 Mora, Relic from Guyun x3, Agent's Sacrificial Knife x12, Silver Raven Insignia x9\n \
+        **[✦✦✦✦✦-]**:35,000 Mora, Relic from Guyun x6, Inspector's Sacrificial Knife x9, Golden Raven Insignia x6\n \
+        **[✦✦✦✦✦✦]**:45,000 Mora, Divine Body from Guyun x4, Inspector's Sacrificial Knife x18, Golden Raven Insignia x12", 'name':"Crescent Pike"}
         return lst75
     elif name.lower() == "":
         lst76 = {'thum':"", \
