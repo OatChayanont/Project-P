@@ -315,16 +315,16 @@ def weapon_info_list(name):
         **[✦✦✦✦✦-]**:35,000 Mora, Relic from Guyun x6, Inspector's Sacrificial Knife x9, Ominous Mask x6\n \
         **[✦✦✦✦✦✦]**:45,000 Mora, Divine Body from Guyun x4, Inspector's Sacrificial Knife x18, Ominous Mask x12", 'name':"Rust"}
         return lst29
-    elif name.lower() == "":
-        lst30 = {'thum':"", \
-        'his':"", \
-        'type':"Sword", 'stat':["674", "22.1%", "CRIT Rate"], \
-        'ascen':"**[✦-----]**:5,000 Mora,  x3,  x3,  x2\n \
-        **[✦✦----]**:15,000 Mora,  x3,  x12,  x8\n \
-        **[✦✦✦---]**:20,000 Mora,  x6,  x6,  x6\n \
-        **[✦✦✦✦--]**:30,000 Mora,  x3,  x12,  x9\n \
-        **[✦✦✦✦✦-]**:35,000 Mora,  x6,  x9,  x6\n \
-        **[✦✦✦✦✦✦]**:45,000 Mora,  x4,  x18,  x12", 'name':""}
+    elif name.lower() == "royal row":
+        lst30 = {'thum':"https://static.wikia.nocookie.net/gensin-impact/images/9/99/Weapon_Royal_Bow.png/revision/latest/scale-to-width-down/256?cb=20201120002134", \
+        'his':"คันธนูยาวสภาพเก่าแก่ของชนชั้นสูงผู้ที่ครั้งหนึ่งเคยปกครอง Mondstadt มาก่อน แม้ว่าเวลาผ่านไปหลายยุคหลายสมัยแต่สายเอ็นของธนูก็ยังคงแข็งตึงและสามารถยิงลูกธนูออกไปได้อย่างรุนแรง", \
+        'type':"Bow", 'stat':["510", "41.3%", "ATK"], \
+        'ascen':"**[✦-----]**:5,000 Mora, Fetters of the Dandelion Gladiator x3, Chaos Device x3, Slime Condensate x2\n \
+        **[✦✦----]**:15,000 Mora, Chains of the Dandelion Gladiator x3, Chaos Device x12, Slime Condensate x8\n \
+        **[✦✦✦---]**:20,000 Mora, Chains of the Dandelion Gladiator x6, Chaos Circuit x6, Slime Secretions x6\n \
+        **[✦✦✦✦--]**:30,000 Mora, Shackles of the Dandelion Gladiator x3, Chaos Circuit x12, Slime Secretions x9\n \
+        **[✦✦✦✦✦-]**:35,000 Mora, Shackles of the Dandelion Gladiator x6, Chaos Core x9, Slime Concentrate x6\n \
+        **[✦✦✦✦✦✦]**:45,000 Mora, Dream of the Dandelion Gladiator x4, Chaos Core x18, Slime Concentrate x12", 'name':"Royal Bow"}
         return lst30
     elif name.lower() == "":
         lst25 = {'thum':"", \
