@@ -1060,16 +1060,82 @@ def weapon_info_list(name):
         **[✦✦✦✦✦-]**:25,000 Mora, Relic from Guyun x4, Inspector's Sacrificial Knife x6, Ominous Mask x4\n \
         **[✦✦✦✦✦✦]**:30,000 Mora, Divine Body from Guyun x3, Inspector's Sacrificial Knife x12, Ominous Mask x8", 'name':"Slingshot"}
         return lst97
+    elif name.lower() == "magic guide":
+        lst98 = {'thum':"https://static.wikia.nocookie.net/gensin-impact/images/3/39/Weapon_Magic_Guide.png/revision/latest/scale-to-width-down/256?cb=20201119232047", \
+        'his':"ตีพิมพ์ครั้งที่ 12 หนังสือที่ตีพิมพ์และปรับปรงจาก 11 ครั้งที่ผ่านมา พร้อมกับเพิ่มเนื้อหาที่ได้รับ การพัฒนาแล้วด้วย", \
+        'type':"Catalyst", 'stat':["354", "187", "Elemental Mastery"], \
+        'ascen':"**[✦-----]**:5,000 Mora, Tile of Decarabian's Tower x2, Heavy Horn x2, Slime Condensate x1\n \
+        **[✦✦----]**:10,000 Mora, Debris of Decarabian's City x2, Heavy Horn 8, Slime Condensate x5\n \
+        **[✦✦✦---]**:15,000 Mora, Debris of Decarabian's City x4, Black Bronze Horn x4, Slime Secretions x4\n \
+        **[✦✦✦✦--]**:20,000 Mora, Fragment of Decarabian's Epic x2, Black Bronze Horn x8, Slime Secretions x6\n \
+        **[✦✦✦✦✦-]**:25,000 Mora, Fragment of Decarabian's Epic x4, Black Crystal Horn x6, Slime Concentrate x4\n \
+        **[✦✦✦✦✦✦]**:30,000 Mora, Scattered Piece of Decarabian's Dream x3, Black Crystal Horn x12, Slime Concentrate x8", 'name':"Magic Guide"}
+        return lst98
+    elif name.lower() == "otherworldly story":
+        lst99 = {'thum':"https://static.wikia.nocookie.net/gensin-impact/images/1/11/Weapon_Otherworldly_Story.png/revision/latest/scale-to-width-down/256?cb=20201116034636", \
+        'his':"นวนิยายแฟนตาซีง่าย ๆ ที่ไม่ได้มีคุณค่าอะไร พลังของมันที่ใช้เป็นสื่อเวท ก็คือความแฟนตาซีเพ้อฝัน ของมันนั่นเอง", \
+        'type':"Catalyst", 'stat':["401", "39.0%", "Energy Recharge"], \
+        'ascen':"**[✦-----]**:5,000 Mora, Fetters of the Dandelion Gladiator x2, Chaos Device x2, Damaged Mask x1\n \
+        **[✦✦----]**:10,000 Mora, Chains of the Dandelion Gladiator x2, Chaos Device x8, Damaged Mask x5\n \
+        **[✦✦✦---]**:15,000 Mora, Chains of the Dandelion Gladiator x4, Chaos Circuit x4, Stained Mask x4\n \
+        **[✦✦✦✦--]**:20,000 Mora, Shackles of the Dandelion Gladiator x2, Chaos Circuit x8, Stained Mask x6\n \
+        **[✦✦✦✦✦-]**:25,000 Mora, Shackles of the Dandelion Gladiator x4, Chaos Core x6, Ominous Mask x4\n \
+        **[✦✦✦✦✦✦]**:30,000 Mora, Dream of the Dandelion Gladiator x3, Chaos Core x12, Ominous Mask x8", 'name':"Otherworldly Story"}
+        return lst99
+    elif name.lower() == "emerald orb":
+        lst100 = {'thum':"https://static.wikia.nocookie.net/gensin-impact/images/7/7c/Weapon_Emerald_Orb.png/revision/latest/scale-to-width-down/256?cb=20201120003056", \
+        'his':"สื่อเวทย์สร้างจากหยกแข็งที่ สกัดจากเทือกเขาทางเหนื่อ ของ Liyue มันมีน้ำหนักที่เบาขนาดเล็ก และทนทาน", \
+        'type':"Catalyst", 'stat':["448", "94%", "Elemental Mastery"], \
+        'ascen':"**[✦-----]**:5,000 Mora, Luminous Sands from Guyun x2, Hunter's Sacrificial Knife x2, Treasure Hoarder Insignia x1\n \
+        **[✦✦----]**:10,000 Mora, Lustrous Stone from Guyun x2, Hunter's Sacrificial Knife x8, Treasure Hoarder Insignia x5\n \
+        **[✦✦✦---]**:15,000 Mora, Lustrous Stone from Guyun x4, Agent's Sacrificial Knife x4, Silver Raven Insignia x4\n \
+        **[✦✦✦✦--]**:20,000 Mora, Relic from Guyun x2, Agent's Sacrificial Knife x8, Silver Raven Insignia x6\n \
+        **[✦✦✦✦✦-]**:25,000 Mora, Relic from Guyun x4, Inspector's Sacrificial Knife x6, Golden Raven Insignia x4\n \
+        **[✦✦✦✦✦✦]**:30,000 Mora, Divine Body from Guyun x3, Inspector's Sacrificial Knife x12, Golden Raven Insignia x8", 'name':"Emerald Orb"}
+        return lst100
     elif name.lower() == "":
-        lst98 = {'thum':"", \
+        lst101 = {'thum':"", \
         'his':"", \
-        'type':"Bow", 'stat':["510", "51.7%", "Physical DMG Bonus"], \
+        'type':"Catalyst", 'stat':["510", "51.7%", "Physical DMG Bonus"], \
         'ascen':"**[✦-----]**:5,000 Mora,  x2,  x2,  x1\n \
         **[✦✦----]**:10,000 Mora,  x2,  x8,  x5\n \
         **[✦✦✦---]**:15,000 Mora,  x4,  x4,  x4\n \
         **[✦✦✦✦--]**:20,000 Mora,  x2,   x8,  x6\n \
         **[✦✦✦✦✦-]**:25,000 Mora,  x4,  x6,  x4\n \
         **[✦✦✦✦✦✦]**:30,000 Mora,  x3,  x12,  x8", 'name':""}
-        return lst98
+        return lst101
+    elif name.lower() == "":
+        lst102 = {'thum':"", \
+        'his':"", \
+        'type':"Catalyst", 'stat':["510", "51.7%", "Physical DMG Bonus"], \
+        'ascen':"**[✦-----]**:5,000 Mora,  x2,  x2,  x1\n \
+        **[✦✦----]**:10,000 Mora,  x2,  x8,  x5\n \
+        **[✦✦✦---]**:15,000 Mora,  x4,  x4,  x4\n \
+        **[✦✦✦✦--]**:20,000 Mora,  x2,   x8,  x6\n \
+        **[✦✦✦✦✦-]**:25,000 Mora,  x4,  x6,  x4\n \
+        **[✦✦✦✦✦✦]**:30,000 Mora,  x3,  x12,  x8", 'name':""}
+        return lst102
+    elif name.lower() == "":
+        lst103 = {'thum':"", \
+        'his':"", \
+        'type':"Catalyst", 'stat':["510", "51.7%", "Physical DMG Bonus"], \
+        'ascen':"**[✦-----]**:5,000 Mora,  x2,  x2,  x1\n \
+        **[✦✦----]**:10,000 Mora,  x2,  x8,  x5\n \
+        **[✦✦✦---]**:15,000 Mora,  x4,  x4,  x4\n \
+        **[✦✦✦✦--]**:20,000 Mora,  x2,   x8,  x6\n \
+        **[✦✦✦✦✦-]**:25,000 Mora,  x4,  x6,  x4\n \
+        **[✦✦✦✦✦✦]**:30,000 Mora,  x3,  x12,  x8", 'name':""}
+        return lst103
+    elif name.lower() == "":
+        lst104 = {'thum':"", \
+        'his':"", \
+        'type':"Catalyst", 'stat':["510", "51.7%", "Physical DMG Bonus"], \
+        'ascen':"**[✦-----]**:5,000 Mora,  x2,  x2,  x1\n \
+        **[✦✦----]**:10,000 Mora,  x2,  x8,  x5\n \
+        **[✦✦✦---]**:15,000 Mora,  x4,  x4,  x4\n \
+        **[✦✦✦✦--]**:20,000 Mora,  x2,   x8,  x6\n \
+        **[✦✦✦✦✦-]**:25,000 Mora,  x4,  x6,  x4\n \
+        **[✦✦✦✦✦✦]**:30,000 Mora,  x3,  x12,  x8", 'name':""}
+        return lst104
     
                   
