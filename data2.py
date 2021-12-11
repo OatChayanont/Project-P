@@ -1203,16 +1203,82 @@ def weapon_info_list(name):
         **[✦✦✦✦✦-]**:25,000 Mora, Mist Veiled Gold Elixir x4, Mist Grass Wick x6, Energy Nectar x4\n \
         **[✦✦✦✦✦✦]**:30,000 Mora, Mist Veiled Primo Elixir x3, Mist Grass Wick x12, Energy Nectar x8", 'name':"Halberd"}
         return lst110
+    elif name.lower() == "harbinger of dawn":
+        lst111 = {'thum':"https://static.wikia.nocookie.net/gensin-impact/images/2/23/Weapon_Harbinger_of_Dawn.png/revision/latest/scale-to-width-down/256?cb=20201119233056", \
+        'his':'ดาบที่ครั้งหนึ่งเคยส่องประกายดั่งแสงตะวัน ผู้กวัดแกว่งดาบเล่มนี้จะได้รับพรและบัฟ "ความรู้สึกดี" วัสดุที่สะท้อนแสงอยู่บนใบดาบนั้น ได้หมดแสงของมันไปนานแล้ว', \
+        'type':"Sword", 'stat':["401", "46.9%", "CRIT DMG"], \
+        'ascen':"**[✦-----]**:5,000 Mora, Boreal Wolf's Milk Tooth x2, Dead Ley Line Branch x2, Slime Condensate x1\n \
+        **[✦✦----]**:10,000 Mora, Boreal Wolf's Cracked Tooth x2, Dead Ley Line Branch x8, Slime Condensate x5\n \
+        **[✦✦✦---]**:15,000 Mora, Boreal Wolf's Cracked Tooth x4, Dead Ley Line Leaves x4, Slime Secretions x4\n \
+        **[✦✦✦✦--]**:20,000 Mora, Boreal Wolf's Broken Fang x2, Dead Ley Line Leaves x8, Slime Secretions x6\n \
+        **[✦✦✦✦✦-]**:25,000 Mora, Boreal Wolf's Broken Fang x4, Ley Line Sprout x6, Slime Concentrate x4\n \
+        **[✦✦✦✦✦✦]**:30,000 Mora, Boreal Wolf's Nostalgia x3, Ley Line Sprout x12, Slime Concentrate x8", 'name':"Harbinger of Dawn"}
+        return lst111
+    elif name.lower() == "fillet blade":
+        lst112 = {'thum':"https://static.wikia.nocookie.net/gensin-impact/images/f/f7/Weapon_Fillet_Blade.png/revision/latest/scale-to-width-down/256?cb=20201116033941", \
+        'his':"มีดแล่เนื้อที่คมกริบ ใบมีดยาว บาง และคมมาก", \
+        'type':"Sword", 'stat':["401", "35.2%", "ATK"], \
+        'ascen':"**[✦-----]**:5,000 Mora, Mist Veiled Lead Elixir x2, Mist Grass Pollen x2, Treasure Hoarder Insignia x1\n \
+        **[✦✦----]**:10,000 Mora, Mist Veiled Mercury Elixir x2, Mist Grass Pollen x8, Treasure Hoarder Insignia x5\n \
+        **[✦✦✦---]**:15,000 Mora, Mist Veiled Mercury Elixir x4, Mist Grass x4, Silver Raven Insignia x4\n \
+        **[✦✦✦✦--]**:20,000 Mora, Mist Veiled Gold Elixir x2, Mist Grass x8, Silver Raven Insignia x6\n \
+        **[✦✦✦✦✦-]**:25,000 Mora, Mist Veiled Gold Elixir x4, Mist Grass Wick x6, Golden Raven Insignia x4\n \
+        **[✦✦✦✦✦✦]**:30,000 Mora, Mist Veiled Primo Elixir x3, Mist Grass Wick x12, Golden Raven Insignia x8", 'name':"Fillet Blade"}
+        return lst112
+    elif name.lower() == "skyrider sword":
+        lst113 = {'thum':"https://static.wikia.nocookie.net/gensin-impact/images/3/34/Weapon_Skyrider_Sword.png/revision/latest/scale-to-width-down/256?cb=20201116035206", \
+        'his':"ดาบเหล็กกล้าที่พึ่งพาได้ เคยมีบางคนพยายามขี่มันเพราะชื่อของมันด้วย", \
+        'type':"Sword", 'stat':["354", "51.7%", "Energy Recharge"], \
+        'ascen':"**[✦-----]**:5,000 Mora, Grain of Aerosiderite x2, Fragile Bone Shard x2, Recruit's Insignia x1\n \
+        **[✦✦----]**:10,000 Mora, Piece of Aerosiderite x2, Fragile Bone Shard x8, Recruit's Insignia x5\n \
+        **[✦✦✦---]**:15,000 Mora, Piece of Aerosiderite x4, Sturdy Bone Shard x4, Sergeant's Insignia x4\n \
+        **[✦✦✦✦--]**:20,000 Mora, Bit of Aerosiderite x2, Sturdy Bone Shard x8, Sergeant's Insignia x6\n \
+        **[✦✦✦✦✦-]**:25,000 Mora, Bit of Aerosiderite x4, Fossilized Bone Shard x6, Lieutenant's Insignia x4\n \
+        **[✦✦✦✦✦✦]**:30,000 Mora, Chunk of Aerosiderite x3, Fossilized Bone Shard x12, Lieutenant's Insignia x8", 'name':"Skyrider Sword"}
+        return lst113
     elif name.lower() == "":
-        lst111 = {'thum':"", \
+        lst114 = {'thum':"", \
         'his':"", \
-        'type':"Polearm", 'stat':["510", "51.7%", "Physical DMG Bonus"], \
+        'type':"Sword", 'stat':["510", "51.7%", "Physical DMG Bonus"], \
         'ascen':"**[✦-----]**:5,000 Mora,  x2,  x2,  x1\n \
         **[✦✦----]**:10,000 Mora,  x2,  x8,  x5\n \
         **[✦✦✦---]**:15,000 Mora,  x4,  x4,  x4\n \
         **[✦✦✦✦--]**:20,000 Mora,  x2,   x8,  x6\n \
         **[✦✦✦✦✦-]**:25,000 Mora,  x4,  x6,  x4\n \
         **[✦✦✦✦✦✦]**:30,000 Mora,  x3,  x12,  x8", 'name':""}
-        return lst111
+        return lst114
+    elif name.lower() == "":
+        lst115 = {'thum':"", \
+        'his':"", \
+        'type':"Sword", 'stat':["510", "51.7%", "Physical DMG Bonus"], \
+        'ascen':"**[✦-----]**:5,000 Mora,  x2,  x2,  x1\n \
+        **[✦✦----]**:10,000 Mora,  x2,  x8,  x5\n \
+        **[✦✦✦---]**:15,000 Mora,  x4,  x4,  x4\n \
+        **[✦✦✦✦--]**:20,000 Mora,  x2,   x8,  x6\n \
+        **[✦✦✦✦✦-]**:25,000 Mora,  x4,  x6,  x4\n \
+        **[✦✦✦✦✦✦]**:30,000 Mora,  x3,  x12,  x8", 'name':""}
+        return lst115
+    elif name.lower() == "":
+        lst116 = {'thum':"", \
+        'his':"", \
+        'type':"Sword", 'stat':["510", "51.7%", "Physical DMG Bonus"], \
+        'ascen':"**[✦-----]**:5,000 Mora,  x2,  x2,  x1\n \
+        **[✦✦----]**:10,000 Mora,  x2,  x8,  x5\n \
+        **[✦✦✦---]**:15,000 Mora,  x4,  x4,  x4\n \
+        **[✦✦✦✦--]**:20,000 Mora,  x2,   x8,  x6\n \
+        **[✦✦✦✦✦-]**:25,000 Mora,  x4,  x6,  x4\n \
+        **[✦✦✦✦✦✦]**:30,000 Mora,  x3,  x12,  x8", 'name':""}
+        return lst116
+    elif name.lower() == "":
+        lst117 = {'thum':"", \
+        'his':"", \
+        'type':"Sword", 'stat':["510", "51.7%", "Physical DMG Bonus"], \
+        'ascen':"**[✦-----]**:5,000 Mora,  x2,  x2,  x1\n \
+        **[✦✦----]**:10,000 Mora,  x2,  x8,  x5\n \
+        **[✦✦✦---]**:15,000 Mora,  x4,  x4,  x4\n \
+        **[✦✦✦✦--]**:20,000 Mora,  x2,   x8,  x6\n \
+        **[✦✦✦✦✦-]**:25,000 Mora,  x4,  x6,  x4\n \
+        **[✦✦✦✦✦✦]**:30,000 Mora,  x3,  x12,  x8", 'name':""}
+        return lst117
     
                   
