@@ -439,3 +439,27 @@ def character_info_list(name):
                         **[✦✦✦✦✦✦]**:120,000 Mora, Vayuda Turquoise Gemstone x6, Hurricane Seed x20, Cecilia x60, Slime Concentrate x24',
                         'thum':'https://static.wikia.nocookie.net/genshin-impact/images/8/8d/Character_Venti_Thumb.png/revision/latest/scale-to-width-down/50?cb=20210515120608&path-prefix=th', 'star':'[★★★★★]'}
         return ven
+    elif name.lower() == "xiangling" or name.lower() == "mao" or name.lower() == "mao xiangling":
+        xiang = {'name':'Mao Xiangling', 'his1':'Mao Xiangling (ภาษาจีน: 卯香菱 Mǎo Xiānglíng; ภาษาไทย: เซียงหลิง) เป็นตัวละครหญิงธาตุไฟใช้อาวุธหอกที่สามารถเล่นได้ในเกม Genshin Impact\n\n\
+            หัวหน้าแม่ครัวแห่งภัตตาคาร Wanmin ในฐานะแม่ครัว เซียงหลิงไม่เคยกลัวที่จะลองสูตรอาหารต่างๆ หรือส่วนผสมที่ "แปลกใหม่"... และการทำอาหารที่บางครั้งก็ไม่เหมือนใคร',\
+                        'stat':['10,875', '225', '669', '96', '(Elemental Mastery)'],
+                        'ascen':'**[✦-----]**:20,000 Mora, Agnidus Agate Sliver x1, Jueyun Chili x3, Slime Condensate x3\n \
+                        **[✦✦----]**:40,000 Mora, Agnidus Agate Fragment x3, Everflame Seed x2, Jueyun Chili x10, Slime Condensate x15\n \
+                        **[✦✦✦---]**:60,000 Mora, Agnidus Agate Fragment x6, Everflame Seed x4, Jueyun Chili x20, Slime Secretions x12\n \
+                        **[✦✦✦✦--]**:80,000 Mora, Agnidus Agate Chunk x3, Everflame Seed x8, Jueyun Chili x30, Slime Secretions x18\n \
+                        **[✦✦✦✦✦-]**:100,000 Mora, Agnidus Agate Chunk x6, Everflame Seed x12, Jueyun Chili x45, Slime Concentrate x12\n \
+                        **[✦✦✦✦✦✦]**:120,000 Mora, Agnidus Agate Gemstone x6, Everflame Seed x20, Jueyun Chili x60, Slime Concentrate x24',
+                        'thum':'https://static.wikia.nocookie.net/genshin-impact/images/a/a0/Character_Xiangling_Thumb.png/revision/latest/scale-to-width-down/50?cb=20210515120729&path-prefix=th', 'star':'[★★★★]'}
+        return xiang
+    elif name.lower() == "xiao" or name.lower() == "alatus":
+        xiao = {'name':'Xiao', 'his1':'Xiao (ภาษาไทย: เซียว; ภาษาจีน: 魈 Xiāo, "ปีศาจภูเขา") เป็นตัวละครชายธาตุลมใช้อาวุธหอกที่สามารถเล่นได้ในเกม Genshin Impact\n\n\
+            เขาเป็นเซียน, ภายใต้นามว่า Alatus, และเป็นสมาชิกคนเดียวที่เหลืออยู่ในห้ายักษา ที่ Morax ส่งมาเพื่อปราบวิญญาณปีศาจที่ก่อกวน Liyue ปัจจุบันเขาอาศัยอยู่ที่ Wangshu Inn และส่วนใหญ่แยกตัวจากฝูงชนและการปฏิสัมพันธ์ของมนุษย์',\
+                        'stat':['12,736', '349', '799', '19.2%', '(CRIT Rate)'],
+                        'ascen':'**[✦-----]**:20,000 Mora, Vayuda Turquoise Sliver x1, Qingxin x3, Slime Condensate x3\n \
+                        **[✦✦----]**:40,000 Mora, Vayuda Turquoise Fragment x3, Juvenile Jade x2, Qingxin x10, Slime Condensate x15\n \
+                        **[✦✦✦---]**:60,000 Mora, Vayuda Turquoise Fragment x6, Juvenile Jade x4, Qingxin x20, Slime Secretions x12\n \
+                        **[✦✦✦✦--]**:80,000 Mora, Vayuda Turquoise Chunk x3, Juvenile Jade x8, Qingxin x30, Slime Secretions x18\n \
+                        **[✦✦✦✦✦-]**:100,000 Mora, Vayuda Turquoise Chunk x6, Juvenile Jade x12, Qingxin x45, Slime Concentrate x12\n \
+                        **[✦✦✦✦✦✦]**:120,000 Mora, Vayuda Turquoise Gemstone x6, Juvenile Jade x20, Qingxin x60, Slime Concentrate x24',
+                        'thum':'https://static.wikia.nocookie.net/genshin-impact/images/b/b9/Character_Xiao_Thumb.png/revision/latest/scale-to-width-down/50?cb=20210515120804&path-prefix=th', 'star':'[★★★★★]'}
+        return xiao
