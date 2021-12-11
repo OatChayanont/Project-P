@@ -1236,38 +1236,38 @@ def weapon_info_list(name):
         **[✦✦✦✦✦-]**:25,000 Mora, Bit of Aerosiderite x4, Fossilized Bone Shard x6, Lieutenant's Insignia x4\n \
         **[✦✦✦✦✦✦]**:30,000 Mora, Chunk of Aerosiderite x3, Fossilized Bone Shard x12, Lieutenant's Insignia x8", 'name':"Skyrider Sword"}
         return lst113
-    elif name.lower() == "":
-        lst114 = {'thum':"", \
-        'his':"", \
-        'type':"Sword", 'stat':["510", "51.7%", "Physical DMG Bonus"], \
-        'ascen':"**[✦-----]**:5,000 Mora,  x2,  x2,  x1\n \
-        **[✦✦----]**:10,000 Mora,  x2,  x8,  x5\n \
-        **[✦✦✦---]**:15,000 Mora,  x4,  x4,  x4\n \
-        **[✦✦✦✦--]**:20,000 Mora,  x2,   x8,  x6\n \
-        **[✦✦✦✦✦-]**:25,000 Mora,  x4,  x6,  x4\n \
-        **[✦✦✦✦✦✦]**:30,000 Mora,  x3,  x12,  x8", 'name':""}
+    elif name.lower() == "dark iron sword":
+        lst114 = {'thum':"https://static.wikia.nocookie.net/gensin-impact/images/3/3a/Weapon_Dark_Iron_Sword.png/revision/latest/scale-to-width-down/256?cb=20201119235556", \
+        'his':"ที่จริงแล้วมันก็เป็นแค่ดาบเหล็กที่สีเข้มเท่านั้นเอง", \
+        'type':"Sword", 'stat':["401", "141", "Elemental Mastery"], \
+        'ascen':"**[✦-----]**:5,000 Mora, Luminous Sands from Guyun x2, Hunter's Sacrificial Knife x2, Damaged Mask x1\n \
+        **[✦✦----]**:10,000 Mora, Lustrous Stone from Guyun x2, Hunter's Sacrificial Knife x8, Damaged Mask x5\n \
+        **[✦✦✦---]**:15,000 Mora, Lustrous Stone from Guyun x4, Agent's Sacrificial Knife x4, Stained Mask x4\n \
+        **[✦✦✦✦--]**:20,000 Mora, Relic from Guyun x2, Agent's Sacrificial Knife x8, Stained Mask x6\n \
+        **[✦✦✦✦✦-]**:25,000 Mora, Relic from Guyun x4, Inspector's Sacrificial Knife x6, Ominous Mask x4\n \
+        **[✦✦✦✦✦✦]**:30,000 Mora, Divine Body from Guyun x3, Inspector's Sacrificial Knife x12, Ominous Mask x8", 'name':"Dark Iron Sword"}
         return lst114
-    elif name.lower() == "":
-        lst115 = {'thum':"", \
-        'his':"", \
-        'type':"Sword", 'stat':["510", "51.7%", "Physical DMG Bonus"], \
-        'ascen':"**[✦-----]**:5,000 Mora,  x2,  x2,  x1\n \
-        **[✦✦----]**:10,000 Mora,  x2,  x8,  x5\n \
-        **[✦✦✦---]**:15,000 Mora,  x4,  x4,  x4\n \
-        **[✦✦✦✦--]**:20,000 Mora,  x2,   x8,  x6\n \
-        **[✦✦✦✦✦-]**:25,000 Mora,  x4,  x6,  x4\n \
-        **[✦✦✦✦✦✦]**:30,000 Mora,  x3,  x12,  x8", 'name':""}
+    elif name.lower() == "cool steel":
+        lst115 = {'thum':"https://static.wikia.nocookie.net/gensin-impact/images/9/9c/Weapon_Cool_Steel.png/revision/latest/scale-to-width-down/256?cb=20201119233444", \
+        'his':"อาวุธที่สร้างขึ้นจากเหล็กกล้าดูพึ่งพาได้ เป็นเครื่องพิสูจน์ถึงการผจญภัยอันยิ่งใหญ่ของเจ้าของเก่าของมัน", \
+        'type':"Sword", 'stat':["401", "35.2%", "ATK"], \
+        'ascen':"**[✦-----]**:5,000 Mora, Tile of Decarabian's Tower x2, Heavy Horn x2, Firm Arrowhead x1\n \
+        **[✦✦----]**:10,000 Mora, Debris of Decarabian's City x2, Heavy Horn 8, Firm Arrowhead x5\n \
+        **[✦✦✦---]**:15,000 Mora, Debris of Decarabian's City x4, Black Bronze Horn x4, Sharp Arrowhead x4\n \
+        **[✦✦✦✦--]**:20,000 Mora, Fragment of Decarabian's Epic x2, Black Bronze Horn x8, Sharp Arrowhead x6\n \
+        **[✦✦✦✦✦-]**:25,000 Mora, Fragment of Decarabian's Epic x4, Black Crystal Horn x6, Weathered Arrowhead x4\n \
+        **[✦✦✦✦✦✦]**:30,000 Mora, Scattered Piece of Decarabian's Dream x3, Black Crystal Horn x12, Weathered Arrowhead x8", 'name':"Cool Steel"}
         return lst115
-    elif name.lower() == "":
-        lst116 = {'thum':"", \
-        'his':"", \
-        'type':"Sword", 'stat':["510", "51.7%", "Physical DMG Bonus"], \
-        'ascen':"**[✦-----]**:5,000 Mora,  x2,  x2,  x1\n \
-        **[✦✦----]**:10,000 Mora,  x2,  x8,  x5\n \
-        **[✦✦✦---]**:15,000 Mora,  x4,  x4,  x4\n \
-        **[✦✦✦✦--]**:20,000 Mora,  x2,   x8,  x6\n \
-        **[✦✦✦✦✦-]**:25,000 Mora,  x4,  x6,  x4\n \
-        **[✦✦✦✦✦✦]**:30,000 Mora,  x3,  x12,  x8", 'name':""}
+    elif name.lower() == "traveler's handy sword":
+        lst116 = {'thum':"https://static.wikia.nocookie.net/gensin-impact/images/c/c9/Weapon_Traveler%27s_Handy_Sword.png/revision/latest/scale-to-width-down/256?cb=20201116035456", \
+        'his':"ดาบเหล็กกล้าที่มีกรรไกร, แว่นขยาย, ที่จุดไฟ และอื่น ๆ เก็บไว้ในฝักดาบ", \
+        'type':"Sword", 'stat':["448", "27.5%", "DEF"], \
+        'ascen':"**[✦-----]**:5,000 Mora, Fetters of the Dandelion Gladiator x2, Chaos Device x2, Divining Scroll x1\n \
+        **[✦✦----]**:10,000 Mora, Chains of the Dandelion Gladiator x2, Chaos Device x8, Divining Scroll x5\n \
+        **[✦✦✦---]**:15,000 Mora, Chains of the Dandelion Gladiator x4, Chaos Circuit x4, Sealed Scroll x4\n \
+        **[✦✦✦✦--]**:20,000 Mora, Shackles of the Dandelion Gladiator x2, Chaos Circuit x8, Sealed Scroll x6\n \
+        **[✦✦✦✦✦-]**:25,000 Mora, Shackles of the Dandelion Gladiator x4, Chaos Core x6, Forbidden Curse Scroll x4\n \
+        **[✦✦✦✦✦✦]**:30,000 Mora, Dream of the Dandelion Gladiator x3, Chaos Core x12, Forbidden Curse Scroll x8", 'name':"Traveler's Handy Sword"}
         return lst116
     elif name.lower() == "":
         lst117 = {'thum':"", \
