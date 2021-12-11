@@ -463,3 +463,81 @@ def character_info_list(name):
                         **[✦✦✦✦✦✦]**:120,000 Mora, Vayuda Turquoise Gemstone x6, Juvenile Jade x20, Qingxin x60, Slime Concentrate x24',
                         'thum':'https://static.wikia.nocookie.net/genshin-impact/images/b/b9/Character_Xiao_Thumb.png/revision/latest/scale-to-width-down/50?cb=20210515120804&path-prefix=th', 'star':'[★★★★★]'}
         return xiao
+    elif name.lower() == "xingqiu":
+        xin = {'name':'Xingqiu', 'his1':'Xingqiu (ภาษาจีน: 行秋 Xíngqiū; ภาษาไทย: สิงชิว) เป็นตัวละครชายธาตุน้ำใช้อาวุธดาบที่สามารถเล่นได้ใน Genshin Impact\n\n\
+            Xingqiu (ภาษาจีน: 行秋 Xíngqiū; ภาษาไทย: สิงชิว) เป็นตัวละครชายธาตุน้ำใช้อาวุธดาบที่สามารถเล่นได้ใน Genshin Impact',\
+                'stat':['10,223', '202', '758', '24.0%', '(ATK Bonus)'],
+                'ascen':'**[✦-----]**:20,000 Mora, Varunada Lazurite Sliver x1, Silk Flower x3, Damaged Mask x3\n \
+                        **[✦✦----]**:40,000 Mora, Varunada Lazurite Fragment x3, Cleansing Heart x2, Silk Flower x10, Damaged Mask x15\n \
+                        **[✦✦✦---]**:60,000 Mora, Varunada Lazurite Fragment x6, Cleansing Heart x4, Silk Flower x20, Stained Mask x12\n \
+                        **[✦✦✦✦--]**:80,000 Mora, Varunada Lazurite Chunk x3, Cleansing Heart x8, Silk Flower x30, Stained Mask x18\n \
+                        **[✦✦✦✦✦-]**:100,000 Mora, Varunada Lazurite Chunk x6, Cleansing Heart x12, Silk Flower x45, Ominous Mask x12\n \
+                        **[✦✦✦✦✦✦]**:120,000 Mora, Varunada Lazurite Gemstone x6, Cleansing Heart x20, Silk Flower x60, Ominous Mask x24',
+                        'thum':'https://static.wikia.nocookie.net/genshin-impact/images/4/4a/Character_Xingqiu_Thumb.png/revision/latest/scale-to-width-down/50?cb=20210515120809&path-prefix=th', 'star':'[★★★★]'}
+        return xin
+    elif name.lower() == "xinyan":
+        xiny = {'name':'Xinyan', 'his1':'Xinyan (ภาษาจีน: 辛焱 Xīnyàn; ภาษาไทย: ซินเยี่ยน) เป็นตัวละครหญิงธาตุไฟใช้อาวุธดาบใหญ่ที่สามารถเล่นได้ใน Genshin Impact\n\n\
+            ร็อกแอนด์โรลถือเป็นศิลปะรูปแบบใหม่ใน Liyue และ Xinyan เป็นผู้บุกเบิกศิลปะแนวนี้ \
+                เธอใช้บทเพลงและความหลงใหลในการร้องเพลงต่อต้าน "ความอคติ" เพื่อปลุกจิตวิญญาณที่เหนื่อยล้าของผู้คนบนโลกใบนี้',
+                'stat':['11,201', '249', '799', '24.0%', '(ATK Bonus)'],
+                'ascen':'**[✦-----]**:20,000 Mora, Agnidus Agate Sliver x1, Violetgrass x3, Treasure Hoarder Insignia x3\n \
+                        **[✦✦----]**:40,000 Mora, Agnidus Agate Fragment x3, Everflame Seed x2, Violetgrass x10, Treasure Hoarder Insignia x15\n \
+                        **[✦✦✦---]**:60,000 Mora, Agnidus Agate Fragment x6, Everflame Seed x4, Violetgrass x20, Silver Raven Insignia x12\n \
+                        **[✦✦✦✦--]**:80,000 Mora, Agnidus Agate Chunk x3, Everflame Seed x8, Violetgrass x30, Silver Raven Insignia x18\n \
+                        **[✦✦✦✦✦-]**:100,000 Mora, Agnidus Agate Chunk x6, Everflame Seed x12, Violetgrass x45, Golden Raven Insignia x12\n \
+                        **[✦✦✦✦✦✦]**:120,000 Mora, Agnidus Agate Gemstone x6, Everflame Seed x20, Violetgrass x60, Golden Raven Insignia x24',
+                        'thum':'https://static.wikia.nocookie.net/genshin-impact/images/9/9d/Character_Xinyan_Thumb.png/revision/latest/scale-to-width-down/50?cb=20210515120814&path-prefix=th', 'star':'[★★★★]'}
+        return xiny
+    elif name.lower() == "yanfei":
+        yanfei = {'name':'Yanfei', 'his1':'Yanfei (ภาษาจีน: 烟绯 Yānfēi; ภาษาไทย: เยียนเฟย) เป็นตัวละครหญิงธาตุไฟใช้อาวุธสื่อเวทที่สามารถเล่นได้ในเกม Genshin Impact\n\n\
+            Yanfei - ผู้เป็นลูกครึ่งเซียน และเป็นที่ปรึกษากฎหมายชั้นนำ เธอพบความสมดุลที่สมบูรณ์แบบระหว่างการปฏิบัติตามกฎ สนองต่อเหตุการณ์อย่างยึดหยุ่น \
+                อาศัยเอกลักษณ์เฉพาะในฐานะที่ปรึกษากฎหมายทั้งในเรื่องประสบการณ์และวิธีการ เพื่อการรักษาสมดุลของพันธสัญญาของ Liyue อย่างระมัดระวัง',
+                'stat':['9,352', '240', '587', '24.0%', '(Pyro DMG Bonus)'],
+                'ascen':'**[✦-----]**:20,000 Mora, Agnidus Agate Sliver x1, Noctilucous Jade x3, Treasure Hoarder Insignia x3\n \
+                        **[✦✦----]**:40,000 Mora, Agnidus Agate Fragment x3, Noctilucous Jade x2, Noctilucous Jade x10, Treasure Hoarder Insignia x15\n \
+                        **[✦✦✦---]**:60,000 Mora, Agnidus Agate Fragment x6, Noctilucous Jade x4, Noctilucous Jade x20, Silver Raven Insignia x12\n \
+                        **[✦✦✦✦--]**:80,000 Mora, Agnidus Agate Chunk x3, Noctilucous Jade x8, Noctilucous Jade x30, Silver Raven Insignia x18\n \
+                        **[✦✦✦✦✦-]**:100,000 Mora, Agnidus Agate Chunk x6, Noctilucous Jade x12, Noctilucous Jade x45, Golden Raven Insignia x12\n \
+                        **[✦✦✦✦✦✦]**:120,000 Mora, Agnidus Agate Gemstone x6, Noctilucous Jade x20, Noctilucous Jade x60, Golden Raven Insignia x24',
+                        'thum':'https://static.wikia.nocookie.net/genshin-impact/images/1/1f/Character_Yanfei_Thumb.png/revision/latest/scale-to-width-down/50?cb=20210515120821&path-prefix=th', 'star':'[★★★★]'}
+        return yanfei
+    elif name.lower() == "naganohara yoimiya" or name.lower() == "naganohara" or name.lower() == "yoimiya":
+        yoi = {'name':'Naganohara Yoimiya', 'his1':'Naganohara Yoimiya (ภาษาไทย: นากาโนะฮาระ โยอิมิยะ; ภาษาญี่ปุ่น: 長なが野の原はら宵よい宮みや) เป็นตัวละครหญิงธาตุไฟใช้อาวุธธนูที่สามารถเล่นได้ในเกม Genshin Impact\n\n\
+            เด็กสาวร่าเริงพลังงานสูงผู้ชื่นชอบแสงสีวิจิตรตระการตาของดอกไม้ไฟยิ่งกว่าสิ่งใด โยอิมิยะทำกิจการร้านดอกไม้ไฟนากาโนะฮาระร่วมกับผู้เป็นพ่อ \
+                นายนาโกโนะฮาระ เรียวโนะสึเกะ และเป็นที่รักของชาวอินาสึมะทั่วบ้านทั่วเมืองในฐานะ "องค์หญิงแห่งเทศกาลฤดูร้อน"',
+                'stat':['10,164', '323', '615', '19.2%', '(CRIT Rate)'],
+                'ascen':'**[✦-----]**:20,000 Mora, Agnidus Agate Sliver x1, Naku Weed x3, Divining Scroll x3\n \
+                        **[✦✦----]**:40,000 Mora, Agnidus Agate Fragment x3, Smoldering Pearl x2, Naku Weed x10, Divining Scroll x15\n \
+                        **[✦✦✦---]**:60,000 Mora, Agnidus Agate Fragment x6, Smoldering Pearl x4, Naku Weed x20, Sealed Scroll x12\n \
+                        **[✦✦✦✦--]**:80,000 Mora, Agnidus Agate Chunk x3, Smoldering Pearl x8, Naku Weed x30, Sealed Scroll x18\n \
+                        **[✦✦✦✦✦-]**:100,000 Mora, Agnidus Agate Chunk x6, Smoldering Pearl x12, Naku Weed x45, Forbidden Curse Scroll x12\n \
+                        **[✦✦✦✦✦✦]**:120,000 Mora, Agnidus Agate Gemstone x6, Smoldering Pearl x20, Naku Weed x60, Forbidden Curse Scroll x24',
+                        'thum':'https://static.wikia.nocookie.net/genshin-impact/images/0/05/Character_Yoimiya_Thumb.png/revision/latest/scale-to-width-down/50?cb=20210807091631&path-prefix=th', 'star':'[★★★★★]'}
+        return yoi
+    elif name.lower() == "zhongli" or name.lower() == "morax":
+        zhon = {'name':'Zhongli(Morax)', 'his1':'Zhongli (ภาษาจีน: 钟离 Zhōnglí; ภาษาไทย: จงหลี) เป็นตัวละครชายธาตุหินใช้อาวุธหอกที่สามารถเล่นได้ในเกม Genshin Impact\n\n\
+            เขาปรากฎตัวครั้งแรกในเควสต์เทพเจ้า บทที่ 1:ฉากที่ 2 - ลาก่อน เทพโบราณ ซึ่งภายหลังเปิดเผยว่าเป็นร่างปัจจุบันของเทพแห่งหินผา Morax ผู้ซึ่งได้ตัดสินใจสัมผัสโลกจากมุมมองของมนุษย์ \
+                หลังจากสละโนซิสไป เขาได้เกษียณตนเอง และกลับสู่ตัวตนเดิมในฐานะเซียน แม้จะยังอยู่ภายใต้การปลอมตัวเป็นมนุษย์ก็ตาม ปัจจุบันเขาทำงานเป็นที่ปรึกษาของโถงแห่งการเกิดใหม่ Wangsheng',\
+                        'stat':['14,695', '251', '738', '28.8%', '(Geo DMG Bonus)'],
+                        'ascen':'**[✦-----]**:20,000 Mora, Prithiva Topaz Sliver x1, Cor Lapis x3, Slime Condensate x3\n \
+                        **[✦✦----]**:40,000 Mora, Prithiva Topaz Fragment x3, Basalt Pillar x2, Cor Lapis x10, Slime Condensate x15\n \
+                        **[✦✦✦---]**:60,000 Mora, Prithiva Topaz Fragment x6, Basalt Pillar x4, Cor Lapis x20, Slime Secretions x12\n \
+                        **[✦✦✦✦--]**:80,000 Mora, Prithiva Topaz Chunk x3, Basalt Pillar x8, Cor Lapis x30, Slime Secretions x18\n \
+                        **[✦✦✦✦✦-]**:100,000 Mora, Prithiva Topaz Chunk x6, Basalt Pillar x12, Cor Lapis x45, Slime Concentrate x12\n \
+                        **[✦✦✦✦✦✦]**:120,000 Mora, Prithiva Topaz Gemstone x6, Basalt Pillar x20, Cor Lapis x60, Slime Concentrate x24',
+                        'thum':'https://static.wikia.nocookie.net/genshin-impact/images/c/c2/Character_Zhongli_Thumb.png/revision/latest/scale-to-width-down/50?cb=20210515120825&path-prefix=th', 'star':'[★★★★★]'}
+        return zhon
+    elif name.lower() == "traveler" or name.lower() == "aether" or name.lower() == "Lumine":
+        tra = {'name':'Aether/Lumine', 'his1':'นักเดินทาง เป็นตัวละครเอกที่สามารถเลือกเล่นในเกม Genshin Impact ในช่วงเลือกตัวละครเริ่มต้น อีเธอร์เป็นพี่น้องฝาแฝดจากอีกโลกหนึ่งที่ออกเดินทางทั่วโลก \
+            จนกระทั่งวันหนึ่งทั้งสองเข้าปะทะ Unknown God และพ่ายแพ้อย่างหมดรูป แฝดคนนึงถูกผนึกเอาไว้ ส่วนอีกคนถูกส่งลงมาที่โลก Teyvat จนใช้ชีวิตไปสักพักหนึ่ง จนกระทั่งได้พบเจอเพื่อนร่วมเดินทางที่บังเอิญเจอกัน \
+                "ไพม่อน" จากนั้นทั้งสองจับพลัดจับผลูร่วมการผจญภัยนับตั้งแต่นั้นมา\n\n\
+            แม้ว่าผู้เล่นจะสามารถเลือกชื่อที่ต้องการให้ถูกกล่าวถึงได้ แต่ฝาแฝดของนักเดินทาง (คู่แฝดคนใดที่ไม่ได้เลือกตั้งแต่เริ่มต้นเกม) จะหมายถึง นักเดินทาง โดยจะเป็น Aether หรือ Lumine (ขึ้นอยู่กับเพศที่ผู้เล่นเลือกจากคู่แฝด) โดยจะไม่คำนึงถึงชื่อที่ตั้งขึ้นมาเอง',\
+                'stat':['10,875', '212', '683', '24.0%', '(ATK Bonus)'],
+                'ascen':'**[✦-----]**:20,000 Mora, Brilliant Diamond Sliver x1, Windwheel Aster x3, Damaged Mask x3\n \
+                        **[✦✦----]**:40,000 Mora, Brilliant Diamond Fragment x3, Windwheel Aster x10, Damaged Mask x15\n \
+                        **[✦✦✦---]**:60,000 Mora, Brilliant Diamond Fragment x6, Windwheel Aster x20, Stained Mask x12\n \
+                        **[✦✦✦✦--]**:80,000 Mora, Brilliant Diamond Chunk x3, Windwheel Aster x30, Stained Mask x18\n \
+                        **[✦✦✦✦✦-]**:100,000 Mora, Brilliant Diamond Chunk x6, Windwheel Aster x45, Ominous Mask x12\n \
+                        **[✦✦✦✦✦✦]**:120,000 Mora, Brilliant Diamond Gemstone x6, Windwheel Aster x60, Ominous Mask x24',
+                        'thum':'https://static.wikia.nocookie.net/genshin-impact/images/7/71/Character_Traveler_Thumb.png/revision/latest/scale-to-width-down/50?cb=20210515140422&path-prefix=th', 'star':'[★★★★★]'}
+        return tra
