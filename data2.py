@@ -1269,16 +1269,32 @@ def weapon_info_list(name):
         **[✦✦✦✦✦-]**:25,000 Mora, Shackles of the Dandelion Gladiator x4, Chaos Core x6, Forbidden Curse Scroll x4\n \
         **[✦✦✦✦✦✦]**:30,000 Mora, Dream of the Dandelion Gladiator x3, Chaos Core x12, Forbidden Curse Scroll x8", 'name':"Traveler's Handy Sword"}
         return lst116
+    elif name.lower() == "seasoned hunter's bow":
+        lst117 = {'thum':"https://static.wikia.nocookie.net/gensin-impact/images/8/82/Weapon_Seasoned_Hunter%27s_Bow.png/revision/latest/scale-to-width-down/256?cb=20201116035113", \
+        'his':"คันธนูที่สร้างขึ้นอย่างประณีตด้วยเวลา และดูแลรักษาด้วยมือ ให้ความรู้สึกดั่งเป็นส่วนหนึ่งของแขนของนักธนูเอง", \
+        'type':"Bow", 'stat':["243", "-", "None"], \
+        'ascen':"**[✦-----]**:5,000 Mora, Boreal Wolf's Milk Tooth x1, Dead Ley Line Branch x1, Treasure Hoarder Insignia x1\n \
+        **[✦✦----]**:5,000 Mora, Boreal Wolf's Cracked Tooth x1, Dead Ley Line Branch x5, Treasure Hoarder Insignia x4\n \
+        **[✦✦✦---]**:10,000 Mora, Boreal Wolf's Cracked Tooth x3, Dead Ley Line Leaves x3, Silver Raven Insignia x3\n \
+        **[✦✦✦✦--]**:15,000 Mora, Boreal Wolf's Broken Fang x1, Dead Ley Line Leaves x5, Silver Raven Insignia x4", 'name':"Seasoned Hunter's Bow"}
+        return lst117
+    elif name.lower() == "hunter's bow":
+        lst118 = {'thum':"https://static.wikia.nocookie.net/gensin-impact/images/4/44/Weapon_Hunter%27s_Bow.png/revision/latest/scale-to-width-down/256?cb=20201116034023", \
+        'his':"เสียงดนตรีของนักล่ามีอยู่เพียง สองเสียง เสียงดีดของคันธนู และเสียงแหวกอากาศ ของลูกธนู", \
+        'type':"Bow", 'stat':["185", "-", "None"], \
+        'ascen':"**[✦-----]**:5,000 Mora, Boreal Wolf's Milk Tooth x1, Dead Ley Line Branch x1, Treasure Hoarder Insignia x1\n \
+        **[✦✦----]**:5,000 Mora, Boreal Wolf's Cracked Tooth x1, Dead Ley Line Branch x4, Treasure Hoarder Insignia x2\n \
+        **[✦✦✦---]**:10,000 Mora, Boreal Wolf's Cracked Tooth x2, Dead Ley Line Leaves x2, Silver Raven Insignia x2\n \
+        **[✦✦✦✦--]**:15,000 Mora, Boreal Wolf's Broken Fang x1, Dead Ley Line Leaves x4, Silver Raven Insignia x3", 'name':"Hunter's Bow"}
+        return lst118
     elif name.lower() == "":
-        lst117 = {'thum':"", \
+        lst119 = {'thum':"", \
         'his':"", \
-        'type':"Sword", 'stat':["510", "51.7%", "Physical DMG Bonus"], \
+        'type':"Bow", 'stat':["510", "-", "None"], \
         'ascen':"**[✦-----]**:5,000 Mora,  x2,  x2,  x1\n \
         **[✦✦----]**:10,000 Mora,  x2,  x8,  x5\n \
         **[✦✦✦---]**:15,000 Mora,  x4,  x4,  x4\n \
-        **[✦✦✦✦--]**:20,000 Mora,  x2,   x8,  x6\n \
-        **[✦✦✦✦✦-]**:25,000 Mora,  x4,  x6,  x4\n \
-        **[✦✦✦✦✦✦]**:30,000 Mora,  x3,  x12,  x8", 'name':""}
-        return lst117
+        **[✦✦✦✦--]**:20,000 Mora,  x2,   x8,  x6", 'name':""}
+        return lst119
     
                   
