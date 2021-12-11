@@ -1282,19 +1282,82 @@ def weapon_info_list(name):
         lst118 = {'thum':"https://static.wikia.nocookie.net/gensin-impact/images/4/44/Weapon_Hunter%27s_Bow.png/revision/latest/scale-to-width-down/256?cb=20201116034023", \
         'his':"เสียงดนตรีของนักล่ามีอยู่เพียง สองเสียง เสียงดีดของคันธนู และเสียงแหวกอากาศ ของลูกธนู", \
         'type':"Bow", 'stat':["185", "-", "None"], \
-        'ascen':"**[✦-----]**:5,000 Mora, Boreal Wolf's Milk Tooth x1, Dead Ley Line Branch x1, Treasure Hoarder Insignia x1\n \
+        'ascen':"**[✦-----]**:0 Mora, Boreal Wolf's Milk Tooth x1, Dead Ley Line Branch x1, Treasure Hoarder Insignia x1\n \
         **[✦✦----]**:5,000 Mora, Boreal Wolf's Cracked Tooth x1, Dead Ley Line Branch x4, Treasure Hoarder Insignia x2\n \
-        **[✦✦✦---]**:10,000 Mora, Boreal Wolf's Cracked Tooth x2, Dead Ley Line Leaves x2, Silver Raven Insignia x2\n \
-        **[✦✦✦✦--]**:15,000 Mora, Boreal Wolf's Broken Fang x1, Dead Ley Line Leaves x4, Silver Raven Insignia x3", 'name':"Hunter's Bow"}
+        **[✦✦✦---]**:5,000 Mora, Boreal Wolf's Cracked Tooth x2, Dead Ley Line Leaves x2, Silver Raven Insignia x2\n \
+        **[✦✦✦✦--]**:10,000 Mora, Boreal Wolf's Broken Fang x1, Dead Ley Line Leaves x4, Silver Raven Insignia x3", 'name':"Hunter's Bow"}
         return lst118
+    elif name.lower() == "pocket grimoire":
+        lst119 = {'thum':"https://static.wikia.nocookie.net/gensin-impact/images/1/16/Weapon_Pocket_Grimoire.png/revision/latest/scale-to-width-down/256?cb=20201119204545", \
+        'his':"หนังสือที่รวบรวมข้อมูลที่เฉพาะเจาะจงซึ่งเหลือเพียงคู่มือเวทมนตร์สำหรับอ้างอิงที่มุ่งเน้นไปที่เนื้อหาหลักของการสอบเท่านั้น", \
+        'type':"Catalyst", 'stat':["243", "-", "None"], \
+        'ascen':"**[✦-----]**:5,000 Mora, Tile of Decarabian's Tower x1, Heavy Horn x1, Damaged Mask x1\n \
+        **[✦✦----]**:5,000 Mora, Debris of Decarabian's City x1, Heavy Horn x5, Damaged Mask x4\n \
+        **[✦✦✦---]**:10,000 Mora, Debris of Decarabian's City x3, Black Bronze Horn x3, Stained Mask x3\n \
+        **[✦✦✦✦--]**:15,000 Mora, Fragment of Decarabian's Epic x1, Black Bronze Horn  x5, Stained Mask x4", 'name':"Pocket Grimoire"}
+        return lst119
+    elif name.lower() == "apprentice's notes":
+        lst120 = {'thum':"https://static.wikia.nocookie.net/gensin-impact/images/c/cf/Weapon_Apprentice%27s_Notes.png/revision/latest/scale-to-width-down/256?cb=20201119233859", \
+        'his':"ข้อความที่ทิ้งไว้โดย ยอดนักเรียนคนหนึ่ง ซึ่งเป็นรายชื่อเวทมนตร์ ที่มีประโยชน์เขียนด้วยลายมือ ที่สวยงาม", \
+        'type':"Catalyst", 'stat':["185", "-", "None"], \
+        'ascen':"**[✦-----]**:0 Mora, Tile of Decarabian's Tower x1, Heavy Horn x1, Damaged Mask x1\n \
+        **[✦✦----]**:5,000 Mora, Debris of Decarabian's City x1, Heavy Horn x4, Damaged Mask x2\n \
+        **[✦✦✦---]**:5,000 Mora, Debris of Decarabian's City x2, Black Bronze Horn x2, Stained Mask x2\n \
+        **[✦✦✦✦--]**:10,000 Mora, Fragment of Decarabian's Epic x1, Black Bronze Horn  x4, Stained Mask x3", 'name':"Apprentice's Notes"}
+        return lst120
+    elif name.lower() == "old merc's pal":
+        lst121 = {'thum':"https://static.wikia.nocookie.net/gensin-impact/images/0/0b/Weapon_Old_Merc%27s_Pal.png/revision/latest/scale-to-width-down/256?cb=20201116034249", \
+        'his':"ดาบใหญ่ที่ผ่านการใช้งานมาอย่างยาวนาน ทั้งวันที่ดีและร้ายปะปนเป็นแรมปี", \
+        'type':"Claymore", 'stat':["243", "-", "None"], \
+        'ascen':"**[✦-----]**:5,000 Mora, Boreal Wolf's Milk Tooth x1, Dead Ley Line Branch x1, Treasure Hoarder Insignia x1\n \
+        **[✦✦----]**:5,000 Mora, Boreal Wolf's Cracked Tooth x1, Dead Ley Line Branch x5, Treasure Hoarder Insignia x4\n \
+        **[✦✦✦---]**:10,000 Mora, Boreal Wolf's Cracked Tooth x3, Dead Ley Line Leaves x3, Silver Raven Insignia x3\n \
+        **[✦✦✦✦--]**:15,000 Mora, Boreal Wolf's Broken Fang x1, Dead Ley Line Leaves x5, Silver Raven Insignia x4", 'name':"Old Merc's Pal"}
+        return lst121
+    elif name.lower() == "waster greatsword":
+        lst122 = {'thum':"https://static.wikia.nocookie.net/gensin-impact/images/4/4c/Weapon_Waster_Greatsword.png/revision/latest/scale-to-width-down/256?cb=20201120001015", \
+        'his':"แผ่นเหล็กที่ทนทานซึ่งอาจ ทำลายได้แม้กระทั่งภูเขา หากมีแรงมุ่งมั่นที่มากพอ", \
+        'type':"Claymore", 'stat':["185", "-", "None"], \
+        'ascen':"**[✦-----]**:0 Mora, Boreal Wolf's Milk Tooth x1, Dead Ley Line Branch x1, Treasure Hoarder Insignia x1\n \
+        **[✦✦----]**:5,000 Mora, Boreal Wolf's Cracked Tooth x1, Dead Ley Line Branch x4, Treasure Hoarder Insignia x2\n \
+        **[✦✦✦---]**:5,000 Mora, Boreal Wolf's Cracked Tooth x2, Dead Ley Line Leaves x2, Silver Raven Insignia x2\n \
+        **[✦✦✦✦--]**:10,000 Mora, Boreal Wolf's Broken Fang x1, Dead Ley Line Leaves x4, Silver Raven Insignia x3", 'name':"Waster Greatsword"}
+        return lst122
+    elif name.lower() == "iron point":
+        lst123 = {'thum':"https://static.wikia.nocookie.net/gensin-impact/images/2/25/Weapon_Iron_Point.png/revision/latest/scale-to-width-down/256?cb=20201116034039", \
+        'his':"อาวุธปลายแหลมด้านเดียว เป็นอาวุธที่สมดุลและเป็นที่นิยมในหมู่นักเดินทาง", \
+        'type':"Polearm", 'stat':["243", "-", "None"], \
+        'ascen':"**[✦-----]**:5,000 Mora, Fetters of the Dandelion Gladiator x1, Chaos Device x1, Divining Scroll x1\n \
+        **[✦✦----]**:10,000 Mora, Chains of the Dandelion Gladiator x1, Chaos Device x5, Divining Scroll x4\n \
+        **[✦✦✦---]**:15,000 Mora, Chains of the Dandelion Gladiator x3, Chaos Circuit x3, Sealed Scroll x3\n \
+        **[✦✦✦✦--]**:20,000 Mora, Shackles of the Dandelion Gladiator x1, Chaos Circuit x5, Sealed Scroll x4", 'name':"Iron Point"}
+        return lst123
+    elif name.lower() == "beginner's protector":
+        lst124 = {'thum':"https://static.wikia.nocookie.net/genshin-impact/images/f/fc/Weapon_Beginner%27s_Protector.png/revision/latest/scale-to-width-down/256?cb=20210713085834&path-prefix=th", \
+        'his':"หอกที่เหมือนเสาธง ใช้งานได้กับหลายสถานการณ์ รู้สึกประทับใจทุกครั้งเมื่อได้เหวี่ยงมัน", \
+        'type':"Polearm", 'stat':["185", "-", "None"], \
+        'ascen':"**[✦-----]**:0 Mora, Fetters of the Dandelion Gladiator x1, Chaos Device x1, Divining Scroll x1\n \
+        **[✦✦----]**:5,000 Mora, Chains of the Dandelion Gladiator x1, Chaos Device x4, Divining Scroll x2\n \
+        **[✦✦✦---]**:5,000 Mora, Chains of the Dandelion Gladiator x2, Chaos Circuit x2, Sealed Scroll x2\n \
+        **[✦✦✦✦--]**:10,000 Mora, Shackles of the Dandelion Gladiator x1, Chaos Circuit x4, Sealed Scroll x3", 'name':"Beginner's Protector"}
+        return lst124
     elif name.lower() == "":
-        lst119 = {'thum':"", \
+        lst125 = {'thum':"", \
         'his':"", \
-        'type':"Bow", 'stat':["510", "-", "None"], \
+        'type':"Bow", 'stat':["243", "-", "None"], \
         'ascen':"**[✦-----]**:5,000 Mora,  x2,  x2,  x1\n \
         **[✦✦----]**:10,000 Mora,  x2,  x8,  x5\n \
         **[✦✦✦---]**:15,000 Mora,  x4,  x4,  x4\n \
-        **[✦✦✦✦--]**:20,000 Mora,  x2,   x8,  x6", 'name':""}
-        return lst119
+        **[✦✦✦✦--]**:20,000 Mora,  x2,  x8,  x6", 'name':""}
+        return lst125
+    elif name.lower() == "":
+        lst126 = {'thum':"", \
+        'his':"", \
+        'type':"Bow", 'stat':["185", "-", "None"], \
+        'ascen':"**[✦-----]**:5,000 Mora,  x2,  x2,  x1\n \
+        **[✦✦----]**:10,000 Mora,  x2,  x8,  x5\n \
+        **[✦✦✦---]**:15,000 Mora,  x4,  x4,  x4\n \
+        **[✦✦✦✦--]**:20,000 Mora,  x2,  x8,  x6", 'name':""}
+        return lst126
     
                   
