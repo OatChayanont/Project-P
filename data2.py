@@ -1170,16 +1170,49 @@ def weapon_info_list(name):
         **[✦✦✦✦✦-]**:25,000 Mora, Fragment of Decarabian's Epic x4, Black Crystal Horn x6, Energy Nectar x4\n \
         **[✦✦✦✦✦✦]**:30,000 Mora, Scattered Piece of Decarabian's Dream x3, Black Crystal Horn x12, Energy Nectar x8", 'name':"Ferrous Shadow"}
         return lst107
+    elif name.lower() == "white tassel":
+        lst108 = {'thum':"https://static.wikia.nocookie.net/gensin-impact/images/1/1f/Weapon_White_Tassel.png/revision/latest/scale-to-width-down/256?cb=20201116035549", \
+        'his':"มาตรฐานการสวมใส่ของ Millelith Soldier ตัวหอกแข็งแรง ปลายหอกทนทาน ช่างเป็นอาวุธที่มิอาจเทียบได้", \
+        'type':"Polearm", 'stat':["401", "23.4%", "CRIT Rate"], \
+        'ascen':"**[✦-----]**:5,000 Mora, Luminous Sands from Guyun x2, Hunter's Sacrificial Knife x2, Recruit's Insignia x1\n \
+        **[✦✦----]**:10,000 Mora, Lustrous Stone from Guyun x2, Hunter's Sacrificial Knife x8, Recruit's Insignia x5\n \
+        **[✦✦✦---]**:15,000 Mora, Lustrous Stone from Guyun x4, Agent's Sacrificial Knife x4, Sergeant's Insignia x4\n \
+        **[✦✦✦✦--]**:20,000 Mora, Relic from Guyun x2, Agent's Sacrificial Knife x8, Sergeant's Insignia x6\n \
+        **[✦✦✦✦✦-]**:25,000 Mora, Relic from Guyun x4, Inspector's Sacrificial Knife x6, Lieutenant's Insignia x4\n \
+        **[✦✦✦✦✦✦]**:30,000 Mora, Divine Body from Guyun x3, Inspector's Sacrificial Knife x12, Lieutenant's Insignia x8", 'name':"White Tassel"}
+        return lst108
+    elif name.lower() == "black tassel":
+        lst109 = {'thum':"https://static.wikia.nocookie.net/gensin-impact/images/4/43/Weapon_Black_Tassel.png/revision/latest/scale-to-width-down/256?cb=20201116033134", \
+        'his':"พู่สีดำที่ช่วยแก้ปัญหาของทวนที่มีพู่สีขาวซึ่งเลอะง่ายได้อย่างดี", \
+        'type':"Polearm", 'stat':["354", "46.9%", "HP"], \
+        'ascen':"**[✦-----]**:5,000 Mora, Grain of Aerosiderite x2, Fragile Bone Shard x2, Firm Arrowhead x1\n \
+        **[✦✦----]**:10,000 Mora, Piece of Aerosiderite x2, Fragile Bone Shard x8, Firm Arrowhead x5\n \
+        **[✦✦✦---]**:15,000 Mora, Piece of Aerosiderite x4, Sturdy Bone Shard x4, Sharp Arrowhead x4\n \
+        **[✦✦✦✦--]**:20,000 Mora, Bit of Aerosiderite x2, Sturdy Bone Shard x8, Sharp Arrowhead x6\n \
+        **[✦✦✦✦✦-]**:25,000 Mora, Bit of Aerosiderite x4, Fossilized Bone Shard x6, Weathered Arrowhead x4\n \
+        **[✦✦✦✦✦✦]**:30,000 Mora, Chunk of Aerosiderite x3, Fossilized Bone Shard x12, Weathered Arrowhead x8", 'name':"Black Tassel"}
+        return lst109
+    elif name.lower() == "halberd":
+        lst110 = {'thum':"https://static.wikia.nocookie.net/gensin-impact/images/4/41/Weapon_Halberd.png/revision/latest/scale-to-width-down/256?cb=20201116033956", \
+        'his':"หอกที่มีใบมีดคล้ายขวานติดตั้งอยู่ที่ปลายหอก สามารถสร้างความเสียหายได้ประมาณหนึ่ง เป็นอาวุธที่ทหาร Millelith ชื่นชอบ", \
+        'type':"Polearm", 'stat':["448", "23.8%", "ATK"], \
+        'ascen':"**[✦-----]**:5,000 Mora, Mist Veiled Lead Elixir x2, Mist Grass Pollen x2, Whopperflower Nectar x1\n \
+        **[✦✦----]**:10,000 Mora, Mist Veiled Mercury Elixir x2, Mist Grass Pollen x8, Whopperflower Nectar x5\n \
+        **[✦✦✦---]**:15,000 Mora, Mist Veiled Mercury Elixir x4, Mist Grass x4, Shimmering Nectar x4\n \
+        **[✦✦✦✦--]**:20,000 Mora, Mist Veiled Gold Elixir x2, Mist Grass x8, Shimmering Nectar x6\n \
+        **[✦✦✦✦✦-]**:25,000 Mora, Mist Veiled Gold Elixir x4, Mist Grass Wick x6, Energy Nectar x4\n \
+        **[✦✦✦✦✦✦]**:30,000 Mora, Mist Veiled Primo Elixir x3, Mist Grass Wick x12, Energy Nectar x8", 'name':"Halberd"}
+        return lst110
     elif name.lower() == "":
-        lst108 = {'thum':"", \
+        lst111 = {'thum':"", \
         'his':"", \
-        'type':"Claymore", 'stat':["510", "51.7%", "Physical DMG Bonus"], \
+        'type':"Polearm", 'stat':["510", "51.7%", "Physical DMG Bonus"], \
         'ascen':"**[✦-----]**:5,000 Mora,  x2,  x2,  x1\n \
         **[✦✦----]**:10,000 Mora,  x2,  x8,  x5\n \
         **[✦✦✦---]**:15,000 Mora,  x4,  x4,  x4\n \
         **[✦✦✦✦--]**:20,000 Mora,  x2,   x8,  x6\n \
         **[✦✦✦✦✦-]**:25,000 Mora,  x4,  x6,  x4\n \
         **[✦✦✦✦✦✦]**:30,000 Mora,  x3,  x12,  x8", 'name':""}
-        return lst108
+        return lst111
     
                   
