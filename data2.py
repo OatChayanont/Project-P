@@ -1137,38 +1137,38 @@ def weapon_info_list(name):
         **[✦✦✦✦✦-]**:25,000 Mora, Mist Veiled Gold Elixir x4, Mist Grass Wick x6, Ominous Mask x4\n \
         **[✦✦✦✦✦✦]**:30,000 Mora, Mist Veiled Primo Elixir x3, Mist Grass Wick x12, Ominous Mask x8", 'name':"Debate Club"}
         return lst104
-    elif name.lower() == "":
-        lst105 = {'thum':"", \
-        'his':"", \
-        'type':"Claymore", 'stat':["510", "51.7%", "Physical DMG Bonus"], \
-        'ascen':"**[✦-----]**:5,000 Mora,  x2,  x2,  x1\n \
-        **[✦✦----]**:10,000 Mora,  x2,  x8,  x5\n \
-        **[✦✦✦---]**:15,000 Mora,  x4,  x4,  x4\n \
-        **[✦✦✦✦--]**:20,000 Mora,  x2,   x8,  x6\n \
-        **[✦✦✦✦✦-]**:25,000 Mora,  x4,  x6,  x4\n \
-        **[✦✦✦✦✦✦]**:30,000 Mora,  x3,  x12,  x8", 'name':""}
+    elif name.lower() == "bloodtainted greatsword":
+        lst105 = {'thum':"https://static.wikia.nocookie.net/gensin-impact/images/4/4a/Weapon_Bloodtainted_Greatsword.png/revision/latest/scale-to-width-down/256?cb=20201119233531", \
+        'his':"ดาบเหล็กกล้าที่ว่ากันว่า ได้ผ่านการชุบเลือดมังกรมา ทำให้มันทนทานต่อความเสียหายแต่ก็ไม่ได้หมายความว่า ผู้ใช้ของมันจะทนทานเหมือน ตัวดาบเสมอไป", \
+        'type':"Claymore", 'stat':["354", "187", "Elemental Mastery"], \
+        'ascen':"**[✦-----]**:5,000 Mora, Boreal Wolf's Milk Tooth x2, Dead Ley Line Branch x2, Firm Arrowhead x1\n \
+        **[✦✦----]**:10,000 Mora, Boreal Wolf's Cracked Tooth x2, Dead Ley Line Branch x8, Firm Arrowhead x5\n \
+        **[✦✦✦---]**:15,000 Mora, Boreal Wolf's Cracked Tooth x4, Dead Ley Line Leaves x4, Sharp Arrowhead x4\n \
+        **[✦✦✦✦--]**:20,000 Mora, Boreal Wolf's Broken Fang x2, Dead Ley Line Leaves x8, Sharp Arrowhead x6\n \
+        **[✦✦✦✦✦-]**:25,000 Mora, Boreal Wolf's Broken Fang x4, Ley Line Sprout x6, Weathered Arrowhead x4\n \
+        **[✦✦✦✦✦✦]**:30,000 Mora, Boreal Wolf's Nostalgia x3, Ley Line Sprout x12, Weathered Arrowhead x8", 'name':"Bloodtainted Greatsword"}
         return lst105
-    elif name.lower() == "":
-        lst106 = {'thum':"", \
-        'his':"", \
-        'type':"Claymore", 'stat':["510", "51.7%", "Physical DMG Bonus"], \
-        'ascen':"**[✦-----]**:5,000 Mora,  x2,  x2,  x1\n \
-        **[✦✦----]**:10,000 Mora,  x2,  x8,  x5\n \
-        **[✦✦✦---]**:15,000 Mora,  x4,  x4,  x4\n \
-        **[✦✦✦✦--]**:20,000 Mora,  x2,   x8,  x6\n \
-        **[✦✦✦✦✦-]**:25,000 Mora,  x4,  x6,  x4\n \
-        **[✦✦✦✦✦✦]**:30,000 Mora,  x3,  x12,  x8", 'name':""}
+    elif name.lower() == "white iron greatsword":
+        lst106 = {'thum':"https://static.wikia.nocookie.net/gensin-impact/images/5/56/Weapon_White_Iron_Greatsword.png/revision/latest/scale-to-width-down/256?cb=20201119201015", \
+        'his':"ดาบใหญ่ที่สร้างขึ้นด้วยเหล็กขาว เพิ่มความแข็งแกร่งเมื่อใช้มันตัดด้วยน้ำหนัก แม้ผู้ที่มีความแข็งแรงระดับทั่วไปก็สามารถใช้ได้ แต่พลังของมันก็ขึ้นอยู่กับระดับความแข็งแกร่งของผู้ใช้งาน", \
+        'type':"Claymore", 'stat':["401", "43.9%", "DEF"], \
+        'ascen':"**[✦-----]**:5,000 Mora, Fetters of the Dandelion Gladiator x2, Chaos Device x2, Slime Condensate x1\n \
+        **[✦✦----]**:10,000 Mora, Chains of the Dandelion Gladiator x2, Chaos Device x8, Slime Condensate x5\n \
+        **[✦✦✦---]**:15,000 Mora, Chains of the Dandelion Gladiator x4, Chaos Circuit x4, Slime Secretions x4\n \
+        **[✦✦✦✦--]**:20,000 Mora, Shackles of the Dandelion Gladiator x2, Chaos Circuit x8, Slime Secretions x6\n \
+        **[✦✦✦✦✦-]**:25,000 Mora, Shackles of the Dandelion Gladiator x4, Chaos Core x6, Slime Concentrate x4\n \
+        **[✦✦✦✦✦✦]**:30,000 Mora, Dream of the Dandelion Gladiator x3, Chaos Core x12, Slime Concentrate x8", 'name':"White Iron Greatsword"}
         return lst106
-    elif name.lower() == "":
-        lst107 = {'thum':"", \
-        'his':"", \
-        'type':"Claymore", 'stat':["510", "51.7%", "Physical DMG Bonus"], \
-        'ascen':"**[✦-----]**:5,000 Mora,  x2,  x2,  x1\n \
-        **[✦✦----]**:10,000 Mora,  x2,  x8,  x5\n \
-        **[✦✦✦---]**:15,000 Mora,  x4,  x4,  x4\n \
-        **[✦✦✦✦--]**:20,000 Mora,  x2,   x8,  x6\n \
-        **[✦✦✦✦✦-]**:25,000 Mora,  x4,  x6,  x4\n \
-        **[✦✦✦✦✦✦]**:30,000 Mora,  x3,  x12,  x8", 'name':""}
+    elif name.lower() == "ferrous shadow":
+        lst107 = {'thum':"https://static.wikia.nocookie.net/gensin-impact/images/e/e9/Weapon_Ferrous_Shadow.png/revision/latest/scale-to-width-down/256?cb=20201120003242", \
+        'his':"ดาบที่จำลองจากดาบชื่อดังของ Arundolyn ราชสีห์แห่งแสง จงถือให้มั่นและซึมซับพลังแห่ง ฮีโร่ในตำนาน! ข้อควรจำ: การเพ้อฝันมากไปอาจเป็นอันตรายต่อชีวิต", \
+        'type':"Claymore", 'stat':["401", "35.2%", "HP"], \
+        'ascen':"**[✦-----]**:5,000 Mora, Tile of Decarabian's Tower x2, Heavy Horn x2, Whopperflower Nectar x1\n \
+        **[✦✦----]**:10,000 Mora, Debris of Decarabian's City x2, Heavy Horn 8, Whopperflower Nectar x5\n \
+        **[✦✦✦---]**:15,000 Mora, Debris of Decarabian's City x4, Black Bronze Horn x4, Shimmering Nectar x4\n \
+        **[✦✦✦✦--]**:20,000 Mora, Fragment of Decarabian's Epic x2, Black Bronze Horn x8, Shimmering Nectar x6\n \
+        **[✦✦✦✦✦-]**:25,000 Mora, Fragment of Decarabian's Epic x4, Black Crystal Horn x6, Energy Nectar x4\n \
+        **[✦✦✦✦✦✦]**:30,000 Mora, Scattered Piece of Decarabian's Dream x3, Black Crystal Horn x12, Energy Nectar x8", 'name':"Ferrous Shadow"}
         return lst107
     elif name.lower() == "":
         lst108 = {'thum':"", \
