@@ -192,7 +192,7 @@ def character_info_list(name):
                         'thum':'https://static.wikia.nocookie.net/genshin-impact/images/8/89/Character_Jean_Thumb.png/revision/latest/scale-to-width-down/50?cb=20210515120531&path-prefix=th', 'star':'[★★★★★]'}
         return jean
     elif name.lower() == "kaedehara kazuha" or name.lower() == "kazuha" or name.lower() == "kaedehara":
-        kazuha = {'name':'Kaedehara Kazuha', 'his1':'Kaedehara Kazuha (ภาษาไทย: คาเอเดะฮาระ คาซึฮะ; ภาษาญี่ปุ่น: 楓かえで原はら万かず葉は)[Note 1] เป็นตัวละครชายธาตุลมใช้อาวุธดาบที่สามารถเล่นได้ใน Genshin Impact\n\n\
+        kazuha = {'name':'Kaedehara Kazuha', 'his1':'Kaedehara Kazuha (ภาษาไทย: คาเอเดะฮาระ คาซึฮะ; ภาษาญี่ปุ่น: 楓かえで原はら万かず葉は) เป็นตัวละครชายธาตุลมใช้อาวุธดาบที่สามารถเล่นได้ใน Genshin Impact\n\n\
             เขาเป็นซามูไรพเนจรของตระกูล Kaedehara ที่เคยโด่งดัง, และเป็นลูกเรือชั่วคราวของกองทัพเรือ Crux',
                 'stat':['13,348', '297', '807', '115.2', '(Elemental Mastery)'],
                 'ascen':'**[✦-----]**:20,000 Mora, Vayuda Turquoise Sliver x1, Sea Ganoderma x3, Treasure Hoarder Insignia x3\n \
@@ -277,3 +277,90 @@ def character_info_list(name):
                         **[✦✦✦✦✦✦]**:120,000 Mora, Vajrada Amethyst Gemstone x6, Lightning Prism x20, Valberry x60, Slime Concentrate x24',
                         'thum':'https://static.wikia.nocookie.net/genshin-impact/images/5/51/Character_Lisa_Thumb.png/revision/latest/scale-to-width-down/50?cb=20210515120431&path-prefix=th', 'star':'[★★★★]'}
         return lisa
+    elif name.lower() == "mona":
+        mona = {'name':'Astrologist Mona Megistus', 'his1':'Astrologist Mona Megistus (ภาษาไทย: โมนา เมจิสตัส) เป็นตัวละครหญิงธาตุน้ำใช้อาวุธสื่อเวทที่สามารถเล่นได้ในเกม Genshin Impact\n\n\
+            โหรสาวมากความสามารถและมากความหยิ่งผู้จนตลอดกาล โมนาระหกระเหินมาหาที่อยู่ในเมืองมอนด์ชตัดท์เพื่อหนีโทสะท่านอาจารย์ที่ตัวเองเผลอไปอ่านบันทึกประจำวันเข้า',
+                'stat':['10,409', '287', '653', '32.0%', '(Energy Recharge)'],
+                'ascen':'**[✦-----]**:20,000 Mora, Varunada Lazurite Sliver x1, Philanemo Mushroom x3, Whopperflower Nectar x3\n \
+                        **[✦✦----]**:40,000 Mora, Varunada Lazurite Fragment x3, Cleansing Heart x2, Philanemo Mushroom x10, Whopperflower Nectar x15\n \
+                        **[✦✦✦---]**:60,000 Mora, Varunada Lazurite Fragment x6, Cleansing Heart x4, Philanemo Mushroom x20, Shimmering Nectar x12\n \
+                        **[✦✦✦✦--]**:80,000 Mora, Varunada Lazurite Chunk x3, Cleansing Heart x8, Philanemo Mushroom x30, Shimmering Nectar x18\n \
+                        **[✦✦✦✦✦-]**:100,000 Mora, Varunada Lazurite Chunk x6, Cleansing Heart x12, Philanemo Mushroom x45, Elemental Nectar x12\n \
+                        **[✦✦✦✦✦✦]**:120,000 Mora, Varunada Lazurite Gemstone x6, Cleansing Heart x20, Philanemo Mushroom x60, Elemental Nectar x24',
+                        'thum':'https://static.wikia.nocookie.net/genshin-impact/images/a/a0/Character_Mona_Thumb.png/revision/latest/scale-to-width-down/50?cb=20210515120940&path-prefix=th', 'star':'[★★★★★]'}
+        return mona
+    elif name.lower() == "ningguang":
+        ning = {'name':'Ningguang', 'his1':'Ningguang (ภาษาจีน: 凝光 Níngguāng; ภาษาไทย: หนิงกวง) เป็นตัวละครหญิงธาตุหินใช้อาวุธสื่อเวทที่สามารถเล่นได้ในเกม Genshin Impact\n\n\
+            เศรษฐินีผู้ทรงอิทธิพลและเทียนเฉวียนในบรรดาเจ็ดดารา มีฐานะทางการเงินอันมั่งคั่งเหนือกว่าผู้ใดใน Teyvat \
+                หนิงกวงมีความสำเร็จอันมากมายถึงขั้นที่สามารถก่อสร้างผลงานชิ้นเอกอันมีชื่อว่าอารามหยก อาคารสำนักงานและป้อมปราการลอยฟ้าอันคอยปกปักษ์ท้องนภาเหนือเมืองหลีเยว่',
+                'stat':['9,787', '212', '573', '24.0%', '(Geo DMG Bonus)'],
+                'ascen':'**[✦-----]**:20,000 Mora, Prithiva Topaz Sliver x1, Glaze Lily x3, Recruit\'s Insignia x3\n \
+                        **[✦✦----]**:40,000 Mora, Prithiva Topaz Fragment x3, Basalt Pillar x2, Glaze Lily x10, Recruit\'s Insignia x15\n \
+                        **[✦✦✦---]**:60,000 Mora, Prithiva Topaz Fragment x6, Basalt Pillar x4, Glaze Lily x20, Sergeant\'s Insignia x12\n \
+                        **[✦✦✦✦--]**:80,000 Mora, Prithiva Topaz Chunk x3, Basalt Pillar x8, Glaze Lily x30, Sergeant\'s Insignia x18\n \
+                        **[✦✦✦✦✦-]**:100,000 Mora, Prithiva Topaz Chunk x6, Basalt Pillar x12, Glaze Lily x45, Lieutenant\'s Insignia x12\n \
+                        **[✦✦✦✦✦✦]**:120,000 Mora, Prithiva Topaz Gemstone x6, Basalt Pillar x20, Glaze Lily x60, Lieutenant\'s Insignia x24',
+                        'thum':'https://static.wikia.nocookie.net/genshin-impact/images/2/2b/Character_Ningguang_Thumb.png/revision/latest/scale-to-width-down/50?cb=20210515120449&path-prefix=th', 'star':'[★★★★★]'}
+        return ning
+    elif name.lower() == "noelle":
+        noel = {'name':'Noelle', 'his1':'Noelle (ภาษาไทย: โนเอลล์) เป็นตัวละครหญิงธาตุหินใช้อาวุธดาบใหญ่ที่สามารถเล่นได้ในเกม Genshin Impact\n\n\
+            อัศวินฝึกหัดจอมทรหดและแม่บ้านผู้ไร้เทียมทานประจำกองอัศวินแห่งฟาโวเนียส โนเอลล์มีความฝันว่าสักวันหนึ่งตนจะได้ขึ้นมาเป็นอัศวินเต็มตัวและช่วยเหลือพลเมืองมอนด์ชตัดต์ให้ดียิ่ง ๆ ขึ้นไป',\
+                'stat':['12,071', '191', '799', '30.0%', '(DEF Bonus)'],
+                'ascen':'**[✦-----]**:20,000 Mora, Prithiva Topaz Sliver x1, Valberry x3, Damaged Mask x3\n \
+                        **[✦✦----]**:40,000 Mora, Prithiva Topaz Fragment x3, Basalt Pillar x2, Valberry x10, Damaged Mask x15\n \
+                        **[✦✦✦---]**:60,000 Mora, Prithiva Topaz Fragment x6, Basalt Pillar x4, Valberry x20, Stained Mask x12\n \
+                        **[✦✦✦✦--]**:80,000 Mora, Prithiva Topaz Chunk x3, Basalt Pillar x8, Valberry x30, Stained Mask x18\n \
+                        **[✦✦✦✦✦-]**:100,000 Mora, Prithiva Topaz Chunk x6, Basalt Pillar x12, Valberry x45, Ominous Mask x12\n \
+                        **[✦✦✦✦✦✦]**:120,000 Mora, Prithiva Topaz Gemstone x6, Basalt Pillar x20, Valberry x60, Ominous Mask x24',
+                        'thum':'https://static.wikia.nocookie.net/genshin-impact/images/a/ab/Character_Noelle_Thumb.png/revision/latest/scale-to-width-down/50?cb=20210515120454&path-prefix=th', 'star':'[★★★★]'}
+        return noel
+    elif name.lower() == "qiqi":
+        qiqi = {'name':'Qiqi', 'his1':'Qiqi (ภาษาไทย: ชีชี; ภาษาจีน: 七七 Qīqī, "เจ็ด เจ็ด") เป็นตัวละครหญิงธาตุน้ำแข็งใช้อาวุธดาบที่สามารถเล่นได้ในเกม Genshin Impact\n\n\
+            เด็กสาวที่มีเหล่าเซียนชุบชีวิตขึ้นมาเป็นผีดิบ เธอได้ Baizhu เป็นผู้ปกครองและทำงานอยู่กับ Bubu Pharmacy ในท่าเรือ Liyue',
+                'stat':['12,368', '287', '922', '22.2%', '(Healing Bonus)'],
+                'ascen':'**[✦-----]**:20,000 Mora, Shivada Jade Sliver x1, Violetgrass x3, Divining Scroll x3\n \
+                        **[✦✦----]**:40,000 Mora, Shivada Jade Fragment x3, Hoarfrost Core x2, Violetgrass x10, Divining Scroll x15\n \
+                        **[✦✦✦---]**:60,000 Mora, Shivada Jade Fragment x6, Hoarfrost Core x4, Violetgrass x20, Sealed Scroll x12\n \
+                        **[✦✦✦✦--]**:80,000 Mora, Shivada Jade Chunk x3, Hoarfrost Core x8, Violetgrass x30, Sealed Scroll x18\n \
+                        **[✦✦✦✦✦-]**:100,000 Mora, Shivada Jade Chunk x6, Hoarfrost Core x12, Violetgrass x45, Forbidden Curse Scroll x12\n \
+                        **[✦✦✦✦✦✦]**:120,000 Mora, Shivada Jade Gemstone x6, Hoarfrost Core x20, Violetgrass x60, Forbidden Curse Scroll x24',
+                        'thum':'https://static.wikia.nocookie.net/genshin-impact/images/d/d5/Character_Qiqi_Thumb.png/revision/latest/scale-to-width-down/50?cb=20210515120459&path-prefix=th', 'star':'[★★★★★]'}
+        return qiqi
+    elif name.lower() == "raiden shogun" or name.lower() == "raiden" or name.lower() == "shogun" or name.lower() == "ei" or name.lower() == "raiden ei":
+        raiden = {'name':'Raiden Shogun(Raiden Ei)', 'his1':'Raiden Shogun (ภาษาญี่ปุ่น: 雷電将軍 โชกุน ไรเดน) คือตัวละครหญิงธาตุไฟฟ้าใช้อาวุธหอกที่สามารถเล่นได้ในเกม Genshin Impact\n\n\
+            พระนางไรเด็น เอย์ ผู้เป็นเทพีเบเอลเซบูลทรงปกครองแผ่นดินอินาสึมะผ่านภาชนะกายหยาบที่เรียกกันว่าพระนางโชกุน \
+                ให้หุ่นเชิดอันสร้างจากเทคโนโลยีโบราณบริหารราชการแทนพระนางเอย์ผู้ทรงหลบหนีความอนิจจังไปประทับอยู่ในดินแดนแห่งใจที่บริสุทธิ์ แยกตัวพระนางออกห่างความทุกข์แห่งโลกเข้าสู่วิถีนิรันดร์',
+                'stat':['12,907', '337', '789', '32.0%', '(Energy Recharge)'],    
+                'ascen':'**[✦-----]**:20,000 Mora, Vajrada Amethyst Sliver x1, Amakumo Fruit x3, Old Handguard x3\n \
+                        **[✦✦----]**:40,000 Mora, Vajrada Amethyst Fragment x3, Storm Beads x2, Amakumo Fruit x10, Old Handguard x15\n \
+                        **[✦✦✦---]**:60,000 Mora, Vajrada Amethyst Fragment x6, Storm Beads x4, Amakumo Fruit x20, Kageuchi Handguard x12\n \
+                        **[✦✦✦✦--]**:80,000 Mora, Vajrada Amethyst Chunk x3, Storm Beads x8, Amakumo Fruit x30, Kageuchi Handguard x18\n \
+                        **[✦✦✦✦✦-]**:100,000 Mora, Vajrada Amethyst Chunk x6, Storm Beads x12, Amakumo Fruit x45, Famed Handguard x12\n \
+                        **[✦✦✦✦✦✦]**:120,000 Mora, Vajrada Amethyst Gemstone x6, Storm Beads x20, Amakumo Fruit x60, Famed Handguard x24',
+                        'thum':'https://static.wikia.nocookie.net/genshin-impact/images/5/52/Character_Raiden_Shogun_Thumb.png/revision/latest/scale-to-width-down/50?cb=20210902012044&path-prefix=th', 'star':'[★★★★★]'}
+        return raiden
+    elif name.lower() == "razor":
+        razor = {'name':'Razor', 'his1':'Razor (ภาษาไทย: เรเซอร์) เป็นตัวละครชายธาตุไฟฟ้าใช้อาวุธดาบใหญ่ที่สามารถเล่นได้ใน Genshin Impact\n\n\
+            Razor ถูกทอดทิ้งตั้งแต่ยังเป็นทารก เขาถูกเลี้ยงดูโดยหมาป่าแห่งทิศเหนือ, แอนเดรียส และฝูงหมาป่าของเขาใน Wolvendom หลังจากมีโอกาสพบกับ Varka \
+                ผู้บัญชาการคนปัจจุบันของ กองอัศวินแห่ง Favonius และ อัศวินแห่ง Boreas เขาได้หลอมรวมเข้ากับมนุษย์อย่างช้า ๆ',\
+                'stat':['11,962', '234', '751', '30.0%', '(Physical DMG Bonus)'],
+                'ascen':'**[✦-----]**:20,000 Mora, Vajrada Amethyst Sliver x1, Wolfhook x3, Damaged Mask x3\n \
+                        **[✦✦----]**:40,000 Mora, Vajrada Amethyst Fragment x3, Lightning Prism x2, Wolfhook x10, Damaged Mask x15\n \
+                        **[✦✦✦---]**:60,000 Mora, Vajrada Amethyst Fragment x6, Lightning Prism x4, Wolfhook x20, Stained Mask x12\n \
+                        **[✦✦✦✦--]**:80,000 Mora, Vajrada Amethyst Chunk x3, Lightning Prism x8, Wolfhook x30, Stained Mask x18\n \
+                        **[✦✦✦✦✦-]**:100,000 Mora, Vajrada Amethyst Chunk x6, Lightning Prism x12, Wolfhook x45, Ominous Mask x12\n \
+                        **[✦✦✦✦✦✦]**:120,000 Mora, Vajrada Amethyst Gemstone x6, Lightning Prism x20, Wolfhook x60, Ominous Mask x24',
+                        'thum':'https://static.wikia.nocookie.net/genshin-impact/images/1/1d/Character_Razor_Thumb.png/revision/latest/scale-to-width-down/50?cb=20210515120504&path-prefix=th', 'star':'[★★★★]'}
+        return razor
+    elif name.lower() == "rosaria":
+        rosa = {'name':'Rosaria', 'his1':'Rosaria (ภาษาไทย: โรซาเรีย) เป็นตัวละครหญิงธาตุน้ำแข็งใช้อาวุธหอกที่สามารถเล่นได้ใน Genshin Impact\n\n\
+            Rosaria หนึ่งในซิสเตอร์ของ Favonius Church แห่ง Mondstadtซิสเตอร์ที่นอกจากการแต่งกายแล้ว ไม่มีสิ่งที่ดูเหมือนสมาชิกทางศาสนาเลย ซิสเตอร์ผู้แสนแปลกแยก เย็นชา และเชือดเฉือน หญิงสาวที่คมราวกับใบมีด',
+                'stat':['12,289', '240', '710', '24.0%', '(ATK Bonus)'],
+                'ascen':'**[✦-----]**:20,000 Mora, Prithiva Topaz Sliver x1, Glaze Lily x3, Recruit\'s Insignia x3\n \
+                        **[✦✦----]**:40,000 Mora, Prithiva Topaz Fragment x3, Basalt Pillar x2, Glaze Lily x10, Recruit\'s Insignia x15\n \
+                        **[✦✦✦---]**:60,000 Mora, Prithiva Topaz Fragment x6, Basalt Pillar x4, Glaze Lily x20, Sergeant\'s Insignia x12\n \
+                        **[✦✦✦✦--]**:80,000 Mora, Prithiva Topaz Chunk x3, Basalt Pillar x8, Glaze Lily x30, Sergeant\'s Insignia x18\n \
+                        **[✦✦✦✦✦-]**:100,000 Mora, Prithiva Topaz Chunk x6, Basalt Pillar x12, Glaze Lily x45, Lieutenant\'s Insignia x12\n \
+                        **[✦✦✦✦✦✦]**:120,000 Mora, Prithiva Topaz Gemstone x6, Basalt Pillar x20, Glaze Lily x60, Lieutenant\'s Insignia x24',
+                        'thum':'https://static.wikia.nocookie.net/genshin-impact/images/f/f6/Character_Rosaria_Thumb.png/revision/latest/scale-to-width-down/50?cb=20210515120554&path-prefix=th', 'star':'[★★★★]'}
+        return rosa
