@@ -364,3 +364,78 @@ def character_info_list(name):
                         **[✦✦✦✦✦✦]**:120,000 Mora, Prithiva Topaz Gemstone x6, Basalt Pillar x20, Glaze Lily x60, Lieutenant\'s Insignia x24',
                         'thum':'https://static.wikia.nocookie.net/genshin-impact/images/f/f6/Character_Rosaria_Thumb.png/revision/latest/scale-to-width-down/50?cb=20210515120554&path-prefix=th', 'star':'[★★★★]'}
         return rosa
+    elif name.lower() == "Sangonomiya Kokomi" or name.lower() == "sangonomiya" or name.lower() == "kokomi":
+        kokomi = {'name':'Sangonomiya Kokomi', 'his1':'Sangonomiya Kokomi (ภาษาญี่ปุ่น: 珊さん瑚ご宮のみや心ここ海み) เป็นตัวละครหญิงธาตุน้ำใช้อาวุธสื่อเวทที่สามารถเล่นได้ในเกม Genshin Impact\n\n\
+            กุนซือสมองเพชรและนักพรตหญิงศักดิ์สิทธิ์ศูนย์รวมจิตใจชาวบ้านเกาะวาทัตสึมิผู้เป็นทายาทของตระกูลซังโกโนมิยะอันเก่าแก่ \
+                โคโคมิคือสุดยอดความหวังสุดท้ายของกลุ่มกบฎในสงครามต่อต้านรัฐบาลโชกุน เด็กสาวตัวเล็ก ๆ ที่ต้องแบกรับภาระความรับผิดชอบอันหนักอึ้งเพื่อค้ำชูความหวังและความสุขของราษฎรชาวเกาะไม่ว่าตนเองจะเหน็ดเหนื่อยเกินอายุเพียงใด',
+                'stat':['13,471', '234', '657', '28.8%', '(Hydro DMG Bonus)'],    
+                'ascen':'**[✦-----]**:20,000 Mora, Varunada Lazurite Sliver x1, Sango Pearl x3, Spectral Husk x3\n \
+                        **[✦✦----]**:40,000 Mora, Varunada Lazurite Fragment x3, Dew of Repudiation x2, Sango Pearl x10, Spectral Husk x15\n \
+                        **[✦✦✦---]**:60,000 Mora, Varunada Lazurite Fragment x6, Dew of Repudiation x4, Sango Pearl x20, Spectral Heart x12\n \
+                        **[✦✦✦✦--]**:80,000 Mora, Varunada Lazurite Chunk x3, Dew of Repudiation x8, Sango Pearl x30, Spectral Heart x18\n \
+                        **[✦✦✦✦✦-]**:100,000 Mora, Varunada Lazurite Chunk x6, Dew of Repudiation x12, Sango Pearl x45, Spectral Nucleus x12\n \
+                        **[✦✦✦✦✦✦]**:120,000 Mora, Varunada Lazurite Gemstone x6, Dew of Repudiation x20, Sango Pearl x60, Spectral Nucleus x24',
+                        'thum':'https://static.wikia.nocookie.net/genshin-impact/images/c/cc/Character_Sangonomiya_Kokomi_Thumb.png/revision/latest/scale-to-width-down/50?cb=20210921133136&path-prefix=th', 'star':'[★★★★★]'}
+        return kokomi
+    elif name.lower() == "sayu":
+        sayu = {'name':'Sayu', 'his1':'Sayu (ภาษาไทย: ซายุ; ภาษาญี่ปุ่น: 早さ柚ゆ) เป็นตัวละครหญิงธาตุลมใช้อาวุธดาบใหญ่ที่สามารถเล่นได้ในเกม Genshin Impact\n\n\
+            นินจาสาวน้อยจากสำนักชูมัตสึบันผู้นอนกินวันกินคืน ซายุเชื่อว่ายิ่งนอนมากจะยิ่งช่วยให้ตัวยืดขึ้น และมักจะใช้ฝีมือวิชานินจาเพื่อหลบสายตาไปหาที่นอนอยู่เป็นประจำ',
+                'stat':['11,854', '244', '745', '96', '(Elemental Mastery)'],
+                'ascen':'**[✦-----]**:20,000 Mora, Vayuda Turquoise Sliver x1, Crystal Marrow x3, Whopperflower Nectar x3\n \
+                        **[✦✦----]**:40,000 Mora, Vayuda Turquoise Fragment x3, Marionette Core x2, Crystal Marrow x10, Whopperflower Nectar x15\n \
+                        **[✦✦✦---]**:60,000 Mora, Vayuda Turquoise Fragment x6, Marionette Core x4, Crystal Marrow x20, Shimmering Nectar x12\n \
+                        **[✦✦✦✦--]**:80,000 Mora, Vayuda Turquoise Chunk x3, Marionette Core x8, Crystal Marrow x30, Shimmering Nectar x18\n \
+                        **[✦✦✦✦✦-]**:100,000 Mora, Vayuda Turquoise Chunk x6, Marionette Core x12, Crystal Marrow x45, Elemental Nectar x12\n \
+                        **[✦✦✦✦✦✦]**:120,000 Mora, Vayuda Turquoise Gemstone x6, Marionette Core x20, Crystal Marrow x60, Elemental Nectar x24',
+                        'thum':'https://static.wikia.nocookie.net/genshin-impact/images/e/ec/Character_Sayu_Thumb.png/revision/latest/scale-to-width-down/50?cb=20210810173357&path-prefix=th', 'star':'[★★★★]'}
+        return sayu
+    elif name.lower() == "sucrose":
+        sucrose = {'name':'Sucrose', 'his1':'Sucrose (ภาษาไทย: ซูโครส) เป็นตัวละครหญิงธาตุลมใช้อาวุธสื่อเวทที่สามารถเล่นได้ในเกม Genshin Impact\n\n\
+            นักเล่นแร่แปรธาตุผู้เชี่ยวชาญในการเล่นแร่แปรธาตุชีวภาพ และทำหน้าที่เป็นผู้ช่วยของ Albedo หัวหน้านักเล่นแร่แปรธาตุแห่งกองอัศวินแห่ง Favonius',
+                'stat':['9,243', '170', '703', '24.0%', '(Anemo DMG Bonus)'],
+                'ascen':'**[✦-----]**:20,000 Mora, Vayuda Turquoise Sliver x1, Windwheel Aster x3, Whopperflower Nectar x3\n \
+                        **[✦✦----]**:40,000 Mora, Vayuda Turquoise Fragment x3, Hurricane Seed x2, Windwheel Aster x10, Whopperflower Nectar x15\n \
+                        **[✦✦✦---]**:60,000 Mora, Vayuda Turquoise Fragment x6, Hurricane Seed x4, Windwheel Aster x20, Shimmering Nectar x12\n \
+                        **[✦✦✦✦--]**:80,000 Mora, Vayuda Turquoise Chunk x3, Hurricane Seed x8, Windwheel Aster x30, Shimmering Nectar x18\n \
+                        **[✦✦✦✦✦-]**:100,000 Mora, Vayuda Turquoise Chunk x6, Hurricane Seed x12, Windwheel Aster x45, Elemental Nectar x12\n \
+                        **[✦✦✦✦✦✦]**:120,000 Mora, Vayuda Turquoise Gemstone x6, Hurricane Seed x20, Windwheel Aster x60, Elemental Nectar x24',
+                        'thum':'https://static.wikia.nocookie.net/genshin-impact/images/6/61/Character_Sucrose_Thumb.png/revision/latest/scale-to-width-down/50?cb=20210515120600&path-prefix=th', 'star':'[★★★★]'}
+        return sucrose
+    elif name.lower() == "tartaglia" or name.lower() == "childe":
+        chi = {'name':'Tartaglia or Childe(Ajax)', 'his1':'Tartaglia (ภาษาไทย: ตาร์ตาลยา)เป็นตัวละครชายธาตุน้ำใช้อาวุธธนูที่สามารถเล่นได้ใน Genshin Impact\n\n\
+            Tartaglia ผู้มีนามแฝงว่า Childe (ไชลด์) เป็นอ้ายหนุ่มน้องใหม่และเลือดเดือดที่สุดในหมู่สิบเอ็ดผู้บริหารแห่งฟาทุอิ ไล่หาเรื่องภัยพาลไปทุกที่ที่ปรากฎ \
+                กระเหี้ยนกระหือรือที่จะประชันดาบและไล่ตามความท้าทายใหม่ๆอยู่ตลอดเวลา กลายมาเป็นยอดตัวอันตรายในหมู่เจ้าหน้าที่บริหารขัดกับความหน้าละอ่อนของมัน',
+                'stat':['13,103', '301', '815', '28.8%', '(Hydro DMG Bonus)'],
+                'ascen':'**[✦-----]**:20,000 Mora, Varunada Lazurite Sliver x1, Starconch x3, Recruit\'s Insignia x3\n \
+                        **[✦✦----]**:40,000 Mora, Varunada Lazurite Fragment x3, Cleansing Heart x2, Starconch x10, Recruit\'s Insignia x15\n \
+                        **[✦✦✦---]**:60,000 Mora, Varunada Lazurite Fragment x6, Cleansing Heart x4, Starconch x20, Sergeant\'s Insignia x12\n \
+                        **[✦✦✦✦--]**:80,000 Mora, Varunada Lazurite Chunk x3, Cleansing Heart x8, Starconch x30, Sergeant\'s Insignia x18\n \
+                        **[✦✦✦✦✦-]**:100,000 Mora, Varunada Lazurite Chunk x6, Cleansing Heart x12, Starconch x45, Lieutenant\'s Insignia x12\n \
+                        **[✦✦✦✦✦✦]**:120,000 Mora, Varunada Lazurite Gemstone x6, Cleansing Heart x20, Starconch x60, Lieutenant\'s Insignia x24',
+                        'thum':'https://static.wikia.nocookie.net/genshin-impact/images/5/53/Character_Tartaglia_Thumb.png/revision/latest/scale-to-width-down/50?cb=20210515121211&path-prefix=th', 'star':'[★★★★★]'}
+        return chi
+    elif name.lower() == "thoma":
+        tho = {'name':'Thoma', 'his1':'Thoma (ภาษาไทย: โทมะ; ภาษาญี่ปุ่น: トーマ Tooma) เป็นตัวละครชายธาตุไฟใช้อาวุธหอกที่สามารถเล่นได้ในเกม Genshin Impact\n\n\
+            คนต่างแดนจากประเทศมอนด์ชตัดท์ โทมะทำงานเป็นพ่อบ้านประจำตระกูลคามิซาโตะในแดนอินาสึมะ ขึ้นชื่อในเรื่องความเอาการเอางานไหวและมีไหวพริบฉับไวเป็นเยี่ยม',
+                'stat':['10,331', '202', '751', '24.0%', '(ATK Bonus)'],
+                'ascen':'**[✦-----]**:20,000 Mora, Agnidus Agate Sliver x1, Fluorescent Fungus x3, Treasure Hoarder Insignia x3\n \
+                        **[✦✦----]**:40,000 Mora, Agnidus Agate Fragment x3, Smoldering Pearl x2, Fluorescent Fungus x10, Treasure Hoarder Insignia x15\n \
+                        **[✦✦✦---]**:60,000 Mora, Agnidus Agate Fragment x6, Smoldering Pearl x4, Fluorescent Fungus x20, Silver Raven Insignia x12\n \
+                        **[✦✦✦✦--]**:80,000 Mora, Agnidus Agate Chunk x3, Smoldering Pearl x8, Fluorescent Fungus x30, Silver Raven Insignia x18\n \
+                        **[✦✦✦✦✦-]**:100,000 Mora, Agnidus Agate Chunk x6, Smoldering Pearl x12, Fluorescent Fungus x45, Golden Raven Insignia x12\n \
+                        **[✦✦✦✦✦✦]**:120,000 Mora, Agnidus Agate Gemstone x6, Smoldering Pearl x20, Fluorescent Fungus x60, Golden Raven Insignia x24',
+                        'thum':'https://static.wikia.nocookie.net/genshin-impact/images/8/8a/Character_Thoma_Thumb.png/revision/latest/scale-to-width-down/50?cb=20211017122820&path-prefix=th', 'star':'[★★★★]'}
+        return tho
+    elif name.lower() == "venti" or name.lower() == "barbatos":
+        ven = {'name':'Venti(Barbatos)', 'his1':'Venti (ภาษาไทย: เวนติ) เป็นตัวละครชายธาตุลมใช้อาวุธธนูที่สามารถเล่นได้ใน Genshin Impact\n\n\
+            นักกวีพเนจรลึกลับ บางเวลาก็ร้องเพลงที่เก่าแก่ บางเวลากลับบรรเลงบทเพลงแปลกใหม่ที่ไม่มีใครเคยได้ฟัง ชอบแอปเปิ้ลและบรรยาการที่คึกคัก \
+                เกลียดชีสและของทุกชนิดที่เหนียวหนึบ เมื่อรวบรวมพลังที่เป็นองค์ประกอบของ "ลม" รูปร่างของธาตุนั้นมักจะแสดงออกมาในรูปแบบของขนนก เพราะเขาชอบสิ่งที่ดูเบา ๆ มาก',\
+                        'stat':['10,531', '263', '669', '32.0%', '(Energy Recharge)'],
+                        'ascen':'**[✦-----]**:20,000 Mora, Vayuda Turquoise Sliver x1, Cecilia x3, Slime Condensate x3\n \
+                        **[✦✦----]**:40,000 Mora, Vayuda Turquoise Fragment x3, Hurricane Seed x2, Cecilia x10, Slime Condensate x15\n \
+                        **[✦✦✦---]**:60,000 Mora, Vayuda Turquoise Fragment x6, Hurricane Seed x4, Cecilia x20, Slime Secretions x12\n \
+                        **[✦✦✦✦--]**:80,000 Mora, Vayuda Turquoise Chunk x3, Hurricane Seed x8, Cecilia x30, Slime Secretions x18\n \
+                        **[✦✦✦✦✦-]**:100,000 Mora, Vayuda Turquoise Chunk x6, Hurricane Seed x12, Cecilia x45, Slime Concentrate x12\n \
+                        **[✦✦✦✦✦✦]**:120,000 Mora, Vayuda Turquoise Gemstone x6, Hurricane Seed x20, Cecilia x60, Slime Concentrate x24',
+                        'thum':'https://static.wikia.nocookie.net/genshin-impact/images/8/8d/Character_Venti_Thumb.png/revision/latest/scale-to-width-down/50?cb=20210515120608&path-prefix=th', 'star':'[★★★★★]'}
+        return ven
