@@ -1328,9 +1328,9 @@ def weapon_info_list(name):
         'his':"อาวุธปลายแหลมด้านเดียว เป็นอาวุธที่สมดุลและเป็นที่นิยมในหมู่นักเดินทาง", \
         'type':"Polearm", 'stat':["243", "-", "None"], \
         'ascen':"**[✦-----]**:5,000 Mora, Fetters of the Dandelion Gladiator x1, Chaos Device x1, Divining Scroll x1\n \
-        **[✦✦----]**:10,000 Mora, Chains of the Dandelion Gladiator x1, Chaos Device x5, Divining Scroll x4\n \
-        **[✦✦✦---]**:15,000 Mora, Chains of the Dandelion Gladiator x3, Chaos Circuit x3, Sealed Scroll x3\n \
-        **[✦✦✦✦--]**:20,000 Mora, Shackles of the Dandelion Gladiator x1, Chaos Circuit x5, Sealed Scroll x4", 'name':"Iron Point"}
+        **[✦✦----]**:5,000 Mora, Chains of the Dandelion Gladiator x1, Chaos Device x5, Divining Scroll x4\n \
+        **[✦✦✦---]**:10,000 Mora, Chains of the Dandelion Gladiator x3, Chaos Circuit x3, Sealed Scroll x3\n \
+        **[✦✦✦✦--]**:15,000 Mora, Shackles of the Dandelion Gladiator x1, Chaos Circuit x5, Sealed Scroll x4", 'name':"Iron Point"}
         return lst123
     elif name.lower() == "beginner's protector":
         lst124 = {'thum':"https://static.wikia.nocookie.net/genshin-impact/images/f/fc/Weapon_Beginner%27s_Protector.png/revision/latest/scale-to-width-down/256?cb=20210713085834&path-prefix=th", \
@@ -1341,23 +1341,23 @@ def weapon_info_list(name):
         **[✦✦✦---]**:5,000 Mora, Chains of the Dandelion Gladiator x2, Chaos Circuit x2, Sealed Scroll x2\n \
         **[✦✦✦✦--]**:10,000 Mora, Shackles of the Dandelion Gladiator x1, Chaos Circuit x4, Sealed Scroll x3", 'name':"Beginner's Protector"}
         return lst124
-    elif name.lower() == "":
-        lst125 = {'thum':"", \
-        'his':"", \
-        'type':"Bow", 'stat':["243", "-", "None"], \
-        'ascen':"**[✦-----]**:5,000 Mora,  x2,  x2,  x1\n \
-        **[✦✦----]**:10,000 Mora,  x2,  x8,  x5\n \
-        **[✦✦✦---]**:15,000 Mora,  x4,  x4,  x4\n \
-        **[✦✦✦✦--]**:20,000 Mora,  x2,  x8,  x6", 'name':""}
+    elif name.lower() == "silver sword":
+        lst125 = {'thum':"https://static.wikia.nocookie.net/gensin-impact/images/3/32/Weapon_Silver_Sword.png/revision/latest/scale-to-width-down/256?cb=20201116035150", \
+        'his':"ดาบที่ใช้ไล่ปีศาจร้าย ทุกคนต่างรู้ดีว่ามันท่มาจากอัลลอย ไม่ใช่เงินแท้ ๆ สักหน่อย", \
+        'type':"Sword", 'stat':["243", "-", "None"], \
+        'ascen':"**[✦-----]**:5,000 Mora, Tile of Decarabian's Tower x1, Heavy Horn x1, Firm Arrowhead x1\n \
+        **[✦✦----]**:5,000 Mora, Debris of Decarabian's City x1, Heavy Horn x5, Firm Arrowhead x4\n \
+        **[✦✦✦---]**:10,000 Mora, Debris of Decarabian's City x3, Black Bronze Horn x3, Sharp Arrowhead x3\n \
+        **[✦✦✦✦--]**:25,000 Mora, Fragment of Decarabian's Epic x1, Black Bronze Horn x5, Sharp Arrowhead x4", 'name':"Silver Sword"}
         return lst125
-    elif name.lower() == "":
-        lst126 = {'thum':"", \
-        'his':"", \
-        'type':"Bow", 'stat':["185", "-", "None"], \
-        'ascen':"**[✦-----]**:5,000 Mora,  x2,  x2,  x1\n \
-        **[✦✦----]**:10,000 Mora,  x2,  x8,  x5\n \
-        **[✦✦✦---]**:15,000 Mora,  x4,  x4,  x4\n \
-        **[✦✦✦✦--]**:20,000 Mora,  x2,  x8,  x6", 'name':""}
+    elif name.lower() == "dull blade":
+        lst126 = {'thum':"https://static.wikia.nocookie.net/gensin-impact/images/2/2f/Weapon_Dull_Blade.png/revision/latest/scale-to-width-down/256?cb=20201119235841", \
+        'his':"ฝันในวัยเยาว์กับการผจญภัยอันน่าตื่นเต้น หากมันยังไม่พอ ก็เพิ่มความกล้าเข้าไปด้วยสิ", \
+        'type':"Sword", 'stat':["185", "-", "None"], \
+        'ascen':"**[✦-----]**:0 Mora, Tile of Decarabian's Tower x1, Heavy Horn x1, Firm Arrowhead x1\n \
+        **[✦✦----]**:5,000 Mora, Debris of Decarabian's City x1, Heavy Horn x4, Firm Arrowhead x2\n \
+        **[✦✦✦---]**:5,000 Mora, Debris of Decarabian's City x2, Black Bronze Horn x2, Sharp Arrowhead x2\n \
+        **[✦✦✦✦--]**:10,000 Mora, Fragment of Decarabian's Epic x1, Black Bronze Horn x4, Sharp Arrowhead x3", 'name':"Dull Blade"}
         return lst126
     
                   
