@@ -56,7 +56,8 @@ def character_info_list(name):
                         **[✦✦✦✦--]**:80,000 Mora, Prithiva Topaz Chunk x3, Basalt Pilar x8, Cecilia x30, Sealed Scroll x18\n \
                         **[✦✦✦✦✦-]**:100,000 Mora, Prithiva Topaz Chunk x6, Basalt Pilar x12, Cecilia x45, Forbidden Curse Scroll x12\n \
                         **[✦✦✦✦✦✦]**:120,000 Mora, Prithiva Topaz Gemstone x6, Basalt Pilar x20, Cecilia x60, Forbidden Curse Scroll x24',
-                        'thum':'https://static.wikia.nocookie.net/genshin-impact/images/0/00/Character_Albedo_Thumb.png/revision/latest/scale-to-width-down/50?cb=20210515115757&path-prefix=th', 'star':'[★★★★★]'}
+                        'thum':'https://static.wikia.nocookie.net/genshin-impact/images/0/00/Character_Albedo_Thumb.png/revision/latest/scale-to-width-down/50?cb=20210515115757&path-prefix=th', 'star':'[★★★★★]'
+                            ,'detail':['<:swords:909805198048886825> ดาบ', 'Mondstadt', '13 กันยายน', '<:geo:909771888413257769> หิน']}
         return albedo
     elif name.lower() == "aloy" or name.lower() == "2":
         aloy = {'name':'Aloy', 'his1':'Aloy เป็นนางเอกจากเกม Horizon Zero Dawn ถูกสร้างขึ้นมาเป็นตัวละครข้ามเกมและโปรเจ็กต์ประสานงานระหว่างสตูดิโอ Guerrilla Games และ miHoYo',
@@ -67,7 +68,8 @@ def character_info_list(name):
                         **[✦✦✦✦--]**:80,000 Mora, Shivada Jade Chunk x3, Crystalline Bloom x8, Crystal Marrow x30, Spectral Heart x18\n \
                         **[✦✦✦✦✦-]**:100,000 Mora, Shivada Jade Chunk x6, Crystalline Bloom x12, Crystal Marrow x45, Spectral Nucleus x12\n \
                         **[✦✦✦✦✦✦]**:120,000 Mora, Shivada Jade Gemstone x6, Crystalline Bloom x20, Crystal Marrow x60, Spectral Nucleus x24',
-                        'thum':'https://static.wikia.nocookie.net/genshin-impact/images/6/6a/Character_Aloy_Thumb.png/revision/latest/scale-to-width-down/50?cb=20210902150457&path-prefix=th', 'star':'[★★★★★]'}
+                        'thum':'https://static.wikia.nocookie.net/genshin-impact/images/6/6a/Character_Aloy_Thumb.png/revision/latest/scale-to-width-down/50?cb=20210902150457&path-prefix=th', 'star':'[★★★★★]'
+                        ,'detail':['<:bows:909806179427942400> ธนู', 'ไม่มี(มาจากเกมอื่น)', '4 เมษายน', '<:cryo:909772269474160650> น้ำแข็ง']}
         return aloy
     elif name.lower() == "amber" or name.lower() == "3":
         amber = {'name':'Amber', 'his1':'Amber (ภาษาไทย: แอมเบอร์) เป็นตัวละครหญิงธาตุไฟใช้อาวุธธนูที่สามารถเล่นได้ใน Genshin Impact\n\n\
@@ -80,7 +82,8 @@ def character_info_list(name):
                         **[✦✦✦✦--]**:80,000 Mora, Agnidus Agate Chunk x3, Everflame Seed x8, Small Lamp Grass x30, Sharp Arrowhead x18\n \
                         **[✦✦✦✦✦-]**:100,000 Mora, Agnidus Agate Chunk x6, Everflame Seed x12, Small Lamp Grass x45, Weathered Arrowhead x12\n \
                         **[✦✦✦✦✦✦]**:120,000 Mora, Agnidus Agate Gemstone x6, Everflame Seed x20, Small Lamp Grass x60, Weathered Arrowhead x24',
-                        'thum':'https://static.wikia.nocookie.net/genshin-impact/images/c/c6/Character_Amber_Thumb.png/revision/latest/scale-to-width-down/50?cb=20210515115827&path-prefix=th', 'star':'[★★★★]'}
+                        'thum':'https://static.wikia.nocookie.net/genshin-impact/images/c/c6/Character_Amber_Thumb.png/revision/latest/scale-to-width-down/50?cb=20210515115827&path-prefix=th', 'star':'[★★★★]'
+                        ,'detail':['<:bows:909806179427942400> ธนู', 'Mondstadt', '10 สิงหาคม', '<:pyro:909772346922008606> ไฟ']}
         return amber
     elif name.lower() == "barbara" or name.lower() == "4":
         barbara = {'name':'Barbara', 'his1':'Barbara (ภาษาไทย: บาร์บาร่า) เป็นตัวละครหญิงธาตุน้ำใช้สื่อเวทที่เล่นได้ในเกม Genshin Impact\n\n\
@@ -92,7 +95,8 @@ def character_info_list(name):
                         **[✦✦✦✦--]**:80,000 Mora, Varunada Lazurite Chunk x3, Cleansing Heart x8, Philanemo Mushroom x30, Sealed Scroll x18\n \
                         **[✦✦✦✦✦-]**:100,000 Mora, Varunada Lazurite Chunk x6, Cleansing Heart x12, Philanemo Mushroom x45, Forbidden Curse Scroll x12\n \
                         **[✦✦✦✦✦✦]**:120,000 Mora, Varunada Lazurite Gemstone x6, Cleansing Heart x20, Philanemo Mushroom x60, Forbidden Curse Scroll x24',\
-                        'thum':'https://static.wikia.nocookie.net/genshin-impact/images/7/72/Character_Barbara_Thumb.png/revision/latest/scale-to-width-down/50?cb=20210515121106&path-prefix=th','star':'[★★★★]'}
+                        'thum':'https://static.wikia.nocookie.net/genshin-impact/images/7/72/Character_Barbara_Thumb.png/revision/latest/scale-to-width-down/50?cb=20210515121106&path-prefix=th','star':'[★★★★]'
+                        ,'detail':['<:catalysts:909806179616702485> สื่อเวทย์', 'Mondstadt', '10 สิงหาคม', '<:hydro:909772393852071936> น้้ำ']}
         return barbara
     elif name.lower() == "beidou" or name.lower() == "5":
         beidou = {'name':'Beidou', 'his1':'Beidou (ภาษาจีน: 北斗 Běidǒu, "กระบวยใหญ่"; ภาษาไทย: เป๋ยโต่ว) เป็นตัวละครหญิงธาตุไฟฟ้าใช้อาวุธดาบใหญ่ที่สามารถเล่นได้ในเกม Genshin Impact\n\n\
@@ -104,7 +108,8 @@ def character_info_list(name):
                         **[✦✦✦✦--]**:80,000 Mora, Vajrada Amethyst Chunk x3, Lightning Prism x8, Noctilucous Jade x30, Silver Raven Insignia x18\n \
                         **[✦✦✦✦✦-]**:100,000 Mora, Vajrada Amethyst Chunk x6, Lightning Prism x12, Noctilucous Jade x45, Golden Raven Insignia x12\n \
                         **[✦✦✦✦✦✦]**:120,000 Mora, Vajrada Amethyst Gemstone x6, Lightning Prism x20, Noctilucous Jade x60, Golden Raven Insignia x24',
-                        'thum':'https://static.wikia.nocookie.net/genshin-impact/images/6/61/Character_Beidou_Thumb.png/revision/latest/scale-to-width-down/50?cb=20210515121112&path-prefix=th', 'star':'[★★★★]'}
+                        'thum':'https://static.wikia.nocookie.net/genshin-impact/images/6/61/Character_Beidou_Thumb.png/revision/latest/scale-to-width-down/50?cb=20210515121112&path-prefix=th', 'star':'[★★★★]'
+                        ,'detail':['<:claymores:909806179205664810> ดาบใหญ่', 'Liyue', '14 กุมภาพันธ์', '<:electro:909772113970364466> ไฟฟ้า']}
         return beidou
     elif name.lower() == "bennett" or name.lower() == "6":
         bennett = {'name':'Bennett', 'his1':'Bennett (ภาษาไทย: เบนเน็ตต์) เป็นตัวละครชายธาตุไฟใช้อาวุธดาบที่สามารถเล่นได้ใน Genshin Impact\n\n\
@@ -116,7 +121,8 @@ def character_info_list(name):
                         **[✦✦✦✦--]**:80,000 Mora, Agnidus Agate Chunk x3, Everflame Seed x8, Windwheel Aster x30, Silver Raven Insignia x18\n \
                         **[✦✦✦✦✦-]**:100,000 Mora, Agnidus Agate Chunk x6, Everflame Seed x12, Windwheel Aster x45, Golden Raven Insignia x12\n \
                         **[✦✦✦✦✦✦]**:120,000 Mora, Agnidus Agate Gemstone x6, Everflame Seed x20, Windwheel Aster x60, Golden Raven Insignia x24',
-                        'thum':'https://static.wikia.nocookie.net/genshin-impact/images/7/7b/Character_Bennett_Thumb.png/revision/latest/scale-to-width-down/50?cb=20210515121202&path-prefix=th', 'star':'[★★★★]'}
+                        'thum':'https://static.wikia.nocookie.net/genshin-impact/images/7/7b/Character_Bennett_Thumb.png/revision/latest/scale-to-width-down/50?cb=20210515121202&path-prefix=th', 'star':'[★★★★]'
+                        ,'detail':['<:bows:909806179427942400> ดาบ', 'Mondstadt', '29 กุมภาพันธ์', '<:pyro:909772346922008606> ไฟ']}
         return bennett
     elif name.lower() == "choungyun" or name.lower() == "7":
         choungyun = {'name':'Choungyun', 'his1':'Chongyun (ภาษาจีน: 重云 Chóngyún; ภาษาไทย: ฉงอวิ๋น) เป็นตัวละครชายธาตุน้ำแข็งใช้อาวุธดาบใหญ่ที่สามารถเล่นได้ใน Genshin Impact\n\n\
@@ -128,7 +134,8 @@ def character_info_list(name):
                         **[✦✦✦✦--]**:80,000 Mora, Shivada Jade Chunk x3, Hoarfrost Core x8, Cor Lapis x30, Stained Mask x18\n \
                         **[✦✦✦✦✦-]**:100,000 Mora, Shivada Jade Chunk x6, Hoarfrost Core x12, Cor Lapis x45, Ominous Mask x12\n \
                         **[✦✦✦✦✦✦]**:120,000 Mora, Shivada Jade Gemstone x6, Hoarfrost Core x20, Cor Lapis x60, Ominous Mask x24',
-                        'thum':'https://static.wikia.nocookie.net/genshin-impact/images/6/68/Character_Chongyun_Thumb.png/revision/latest/scale-to-width-down/50?cb=20210515121158&path-prefix=th', 'star':'[★★★★]'}
+                        'thum':'https://static.wikia.nocookie.net/genshin-impact/images/6/68/Character_Chongyun_Thumb.png/revision/latest/scale-to-width-down/50?cb=20210515121158&path-prefix=th', 'star':'[★★★★]'
+                        ,'detail':['<:claymores:909806179205664810> ดาบใหญ่', 'Liyue', '7 กันยายน', '<:cryo:909772269474160650> น้ำแข็ง']}
         return choungyun
     elif name.lower() == "diluc" or name.lower() == "8":
         diluc = {'name':'Diluc', 'his1':'Diluc (ภาษาไทย: ดิลุค) เป็นตัวละครชายธาตุไฟใช้อาวุธดาบใหญ่ที่สามารถเล่นได้ในเกม Genshin Impact\n\n\
@@ -141,7 +148,8 @@ def character_info_list(name):
                         **[✦✦✦✦--]**:80,000 Mora, Agnidus Agate Chunk x3, Everflame Seed x8, Small Lamp Grass x30, Sergeant\'s Insignia x18\n \
                         **[✦✦✦✦✦-]**:100,000 Mora, Agnidus Agate Chunk x6, Everflame Seed x12, Small Lamp Grass x45, Lieutenant\'s Insignia x12\n \
                         **[✦✦✦✦✦✦]**:120,000 Mora, Agnidus Agate Gemstone x6, Everflame Seed x20, Small Lamp Grass x60, Lieutenant\'s Insignia x24',
-                        'thum':'https://static.wikia.nocookie.net/genshin-impact/images/0/02/Character_Diluc_Thumb.png/revision/latest/scale-to-width-down/50?cb=20210515140346&path-prefix=th', 'star':'[★★★★★]'}
+                        'thum':'https://static.wikia.nocookie.net/genshin-impact/images/0/02/Character_Diluc_Thumb.png/revision/latest/scale-to-width-down/50?cb=20210515140346&path-prefix=th', 'star':'[★★★★★]'
+                        ,'detail':['<:claymores:909806179205664810> ดาบใหญ่', 'Mondstadt', '30 เมษายน', '<:pyro:909772346922008606> ไฟ']}
         return diluc
     elif name.lower() == "diona" or name.lower() == "9":
         diona = {'name':'Diona', 'his1':'Diona (ภาษาไทย: ดีโอน่า) เป็นตัวละครหญิงธาตุน้ำแข็งใช้อาวุธธนูที่สามารถเล่นได้ใน Genshin Impact\n\n\
@@ -153,7 +161,8 @@ def character_info_list(name):
                         **[✦✦✦✦--]**:80,000 Mora, Shivada Jade Chunk x3, Everflame Seed x8, Calla Lily x30, Sharp Arrowhead x18\n \
                         **[✦✦✦✦✦-]**:100,000 Mora, Shivada Jade Chunk x6, Everflame Seed x12, Calla Lily x45, Weathered Arrowhead x12\n \
                         **[✦✦✦✦✦✦]**:120,000 Mora, Shivada Jade Gemstone x6, Everflame Seed x20, Calla Lily x60, Weathered Arrowhead x24',
-                        'thum':'https://static.wikia.nocookie.net/gensin-impact/images/b/b9/Character_Diona_Thumb.png/revision/latest/scale-to-width-down/50?cb=20210213163131', 'star':'[★★★★]'}
+                        'thum':'https://static.wikia.nocookie.net/gensin-impact/images/b/b9/Character_Diona_Thumb.png/revision/latest/scale-to-width-down/50?cb=20210213163131', 'star':'[★★★★]'
+                        ,'detail':['<:bows:909806179427942400> ธนู', 'Mondstadt', '18 มกราคม', '<:cryo:909772269474160650> น้ำแข็ง']}
         return diona
     elif name.lower() == "eula" or name.lower() == "10":
         eula = {'name':'Eula', 'his1':'Eula (ภาษาไทย: ยูล่า) เป็นตัวละครหญิงธาตุน้ำแข็งใช้อาวุธดาบใหญ่ที่สามารถเล่นได้ใน Genshin Impact\n\n\
@@ -167,7 +176,8 @@ def character_info_list(name):
                         **[✦✦✦✦--]**:80,000 Mora, Shivada Jade Chunk x3, Crystalline Bloom x8, Dandelion Seed x30, Stained Mask x18\n \
                         **[✦✦✦✦✦-]**:100,000 Mora, Shivada Jade Chunk x6, Crystalline Bloom x12, Dandelion Seed x45, Ominous Mask x12\n \
                         **[✦✦✦✦✦✦]**:120,000 Mora, Shivada Jade Gemstone x6, Crystalline Bloom x20, Dandelion Seed x60, Ominous Mask x24',
-                        'thum':'https://static.wikia.nocookie.net/genshin-impact/images/d/d3/Character_Eula_Thumb.png/revision/latest/scale-to-width-down/50?cb=20210523123929&path-prefix=th', 'star':'[★★★★★]'}
+                        'thum':'https://static.wikia.nocookie.net/genshin-impact/images/d/d3/Character_Eula_Thumb.png/revision/latest/scale-to-width-down/50?cb=20210523123929&path-prefix=th', 'star':'[★★★★★]'
+                        ,'detail':['<:claymores:909806179205664810> ดาบใหญ่', 'Mondstadt', '25 ตุลาคม', '<:cryo:909772269474160650> น้ำแข็ง']}
         return eula
     elif name.lower() == "fischl" or name.lower() == "amy" or name.lower() == "11":
         amy = {'name':'Fischl', 'his1':'Fischl von Luftschloss Narfidort, ชื่อจริง Amy เป็นตัวละครหญิงธาตุไฟฟ้าใช้อาวุธธนูที่สามารถเล่นได้ในเกม Genshin Impact\n\n\
@@ -179,7 +189,8 @@ def character_info_list(name):
                         **[✦✦✦✦--]**:80,000 Mora, Vajrada Amethyst Chunk x3, Lightning Prism x8, Dandelion Seed x30, Sharp Arrowhead x18\n \
                         **[✦✦✦✦✦-]**:100,000 Mora, Vajrada Amethyst Chunk x6, Lightning Prism x12, Dandelion Seed x45, Weathered Arrowhead x12\n \
                         **[✦✦✦✦✦✦]**:120,000 Mora, Vajrada Amethyst Gemstone x6, Lightning Prism x20, Dandelion Seed x60, Weathered Arrowhead x24',
-                        'thum':'https://static.wikia.nocookie.net/genshin-impact/images/1/14/Character_Fischl_Thumb.png/revision/latest/scale-to-width-down/50?cb=20210515120053&path-prefix=th', 'star':'[★★★★]'}
+                        'thum':'https://static.wikia.nocookie.net/genshin-impact/images/1/14/Character_Fischl_Thumb.png/revision/latest/scale-to-width-down/50?cb=20210515120053&path-prefix=th', 'star':'[★★★★]'
+                        ,'detail':['<:bows:909806179427942400> ธนู', 'Mondstadt', '27 พฤศภาคม', '<:electro:909772113970364466> ไฟฟ้า']}
         return amy
     elif name.lower() == "ganyu" or name.lower() == "12":
         ganyu = {'name':'Ganyu', 'his1':'Eula (ภาษาไทย: ยูล่า) เป็นตัวละครหญิงธาตุน้ำแข็งใช้อาวุธดาบใหญ่ที่สามารถเล่นได้ใน Genshin Impact\n\n\
@@ -193,7 +204,8 @@ def character_info_list(name):
                         **[✦✦✦✦--]**:80,000 Mora, Shivada Jade Chunk x3, Hoarfrost Core x8, Qingxin x30, Shimmering Nectar x18\n \
                         **[✦✦✦✦✦-]**:100,000 Mora, Shivada Jade Chunk x6, Hoarfrost Core x12, Qingxin x45, Elemental Nectar x12\n \
                         **[✦✦✦✦✦✦]**:120,000 Mora, Shivada Jade Gemstone x6, Hoarfrost Core x20, Qingxin x60, Elemental Nectar x24',
-                        'thum':'https://static.wikia.nocookie.net/genshin-impact/images/0/0a/Character_Ganyu_Thumb.png/revision/latest/scale-to-width-down/50?cb=20210515120051&path-prefix=th', 'star':'[★★★★★]'}
+                        'thum':'https://static.wikia.nocookie.net/genshin-impact/images/0/0a/Character_Ganyu_Thumb.png/revision/latest/scale-to-width-down/50?cb=20210515120051&path-prefix=th', 'star':'[★★★★★]'
+                        ,'detail':['<:bows:909806179427942400> ธนู', 'Liyue', '2 ธันวาคม', '<:cryo:909772269474160650> น้ำแข็ง']}
         return ganyu
     elif name.lower() == "hu tao" or name.lower() == "hutao" or name.lower() == "13":
         hutao = {'name':'Hu Tao', 'his1':'Hu Tao (ภาษาจีน: 胡桃 Hú Táo, "วอลนัท"; ภาษาไทย: หู เถา) เป็นตัวละครหญิงธาตุไฟใช้อาวุธหอกที่สามารถเล่นได้ใน Genshin Impact\n\n\
@@ -205,7 +217,8 @@ def character_info_list(name):
                         **[✦✦✦✦--]**:80,000 Mora, Agnidus Agate Chunk x3, Juvenile Jade x8, Silk Flower x30, Shimmering Nectar x18\n \
                         **[✦✦✦✦✦-]**:100,000 Mora, Agnidus Agate Chunk x6, Juvenile Jade x12, Silk Flower x45, Elemental Nectar x12\n \
                         **[✦✦✦✦✦✦]**:120,000 Mora, Agnidus Agate Gemstone x6, Juvenile Jade x20, Silk Flower x60, Elemental Nectar x24',
-                        'thum':'https://static.wikia.nocookie.net/genshin-impact/images/a/a4/Character_Hu_Tao_Thumb.png/revision/latest/scale-to-width-down/50?cb=20210515120520&path-prefix=th', 'star':'[★★★★★]'}
+                        'thum':'https://static.wikia.nocookie.net/genshin-impact/images/a/a4/Character_Hu_Tao_Thumb.png/revision/latest/scale-to-width-down/50?cb=20210515120520&path-prefix=th', 'star':'[★★★★★]'
+                        ,'detail':['<:polearms:909806179348267069> หอก', 'Liyue', '15 กรกฎาคม', '<:pyro:909772346922008606> ไฟ']}
         return hutao
     elif name.lower() == "jean" or name.lower() == "14":
         jean = {'name':'Jean', 'his1':'Jean (ภาษาไทย: จีน) เป็นตัวละครหญิงธาตุลมใช้อาวุธดาบที่สามารถเล่นได้ในเกม Genshin Impact\n\n\
@@ -217,7 +230,8 @@ def character_info_list(name):
                         **[✦✦✦✦--]**:80,000 Mora, Vayuda Turquoise Chunk x3, Hurricane Seed x8, Dandelion Seed x30, Stained Mask x18\n \
                         **[✦✦✦✦✦-]**:100,000 Mora, Vayuda Turquoise Chunk x6, Hurricane Seed x12, Dandelion Seed x45, Ominous Mask x12\n \
                         **[✦✦✦✦✦✦]**:120,000 Mora, Vayuda Turquoise Gemstone x6, Hurricane Seed x20, Dandelion Seed x60, Ominous Mask x24',
-                        'thum':'https://static.wikia.nocookie.net/genshin-impact/images/8/89/Character_Jean_Thumb.png/revision/latest/scale-to-width-down/50?cb=20210515120531&path-prefix=th', 'star':'[★★★★★]'}
+                        'thum':'https://static.wikia.nocookie.net/genshin-impact/images/8/89/Character_Jean_Thumb.png/revision/latest/scale-to-width-down/50?cb=20210515120531&path-prefix=th', 'star':'[★★★★★]'
+                        ,'detail':['<:bows:909806179427942400> ดาบ', 'Mondstadt', '14 มีนาคม', '<:anemo:909772060753018921> ลม']}
         return jean
     elif name.lower() == "kaedehara kazuha" or name.lower() == "kazuha" or name.lower() == "kaedehara" or name.lower() == "15":
         kazuha = {'name':'Kaedehara Kazuha', 'his1':'Kaedehara Kazuha (ภาษาไทย: คาเอเดะฮาระ คาซึฮะ; ภาษาญี่ปุ่น: 楓かえで原はら万かず葉は) เป็นตัวละครชายธาตุลมใช้อาวุธดาบที่สามารถเล่นได้ใน Genshin Impact\n\n\
