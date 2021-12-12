@@ -25,7 +25,7 @@ async def menu(ctx):
     await ctx.channel.purge(limit=1)
     text = discord.Embed(title="Paimon Bot Menu", description="อยากให้ Paimon ใช้คำสั่งอะไรบ้างล่ะ? **{0}**" .format(ctx.author.display_name), colour=0xCFF1E3)
     text.add_field(name="`!char <list หรือ [character|number]>`", value="List Character ทั้งหมด\nตัวอย่างเช่น\n- !char list\n- !char hu tao\n- !char 13", inline=False)
-    text.add_field(name="`!weapon <list หรือ [weapon|number]>`", value="List Weapon ทั้งหมด\nตัวอย่างเช่น\n- !weapon list\n- !weapon polar star\n- !weapon 1", inline=False)
+    text.add_field(name="`!weapon <list หรือ [weapon|type]>`", value="List Weapon ทั้งหมด\nตัวอย่างเช่น\n- !weapon list\n- !weapon bows\n- !weapon polar star", inline=False)
     text.add_field(name="`!gacha <wish10 หรือ wish1>`", value="สุ่มกาชาจำลอง", inline=False)
     text.add_field(name="`!resin <your resin>`", value="คำนวณระยะเวลาที่ Resin ของคุณจะเต็มและเต็มตอนกี่โมง", inline=False)
     text.add_field(name="`!dungeon <today หรือ monday, ... , sunday>`", value="Meterials อัพตัวละครที่ดรอปในดันแต่ละวัน", inline=False)
