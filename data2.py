@@ -1,5 +1,42 @@
 def weapon_info_list(name):
-    if name.lower() == "polar star":
+    if name.lower() == "list":
+        weaponlist = ["**1.** <:swords:909805198048886825> Swords",
+                        "**2.** <:claymores:909806179205664810> Claymores",
+                        "**3.** <:polearms:909806179348267069> Polearms",
+                        "**4.** <:catalysts:909806179616702485> Catalysts",
+                        "**5.** <:bows:909806179427942400> Bows"]
+        return weaponlist
+    if name.lower() == "bows":
+        bows = ["**<:bows:909806179427942400> Bow**",
+                  "**1.** **[5★]** Polar Star",
+                  "**2.** **[5★]** Thundering Pulse",
+                  "**2.** **[5★]** Elegy for the End",
+                  "**2.** **[5★]** Skyward Harp",
+                  "**2.** **[5★]** Amos' Bow",
+                  "**2.** **[4★]** Alley Hunter",
+                  "**2.** **[4★]** The Viridescent Hunt",
+                  "**2.** **[4★]** The Stringless",
+                  "**2.** **[4★]** Sacrificial Bow",
+                  "**2.** **[4★]** Rust",
+                  "**2.** **[4★]** Royal Bow",
+                  "**2.** **[4★]** Predator",
+                  "**2.** **[4★]** Prototype Crescent",
+                  "**2.** **[4★]** Mouun's Moon",
+                  "**2.** **[4★]** Mitternachts Waltz",
+                  "**2.** **[4★]** Hamayumi",
+                  "**2.** **[4★]** Favonius Warbow",
+                  "**2.** **[4★]** Compound Bow",
+                  "**2.** **[4★]** Blackcliff Warbow",
+                  "**2.** **[4★]** Windblume Ode",
+                  "**2.** **[3★]** Raven Bow",
+                  "**2.** **[3★]** Messenger",
+                  "**2.** **[3★]** Sharpshooter's Oath",
+                  "**2.** **[3★]** Slingshot",
+                  "**2.** **[3★]** Ebony Bow",
+                  "**2.** **[2★]** Seasoned Hunter's Bow",
+                  "**2.** **[1★]** 	Hunter's Bow"]
+        return bows
+    elif name.lower() == "polar star":
         lst = {'thum':"https://static.wikia.nocookie.net/gensin-impact/images/4/44/Weapon_Polar_Star.png/revision/latest/scale-to-width-down/256?cb=20211013042349", \
         'his':"ธนูไร้มลทินที่แหลมคม ราวกับแท่งน้ำแข็งในฤดูหนาวที่แสนยาวนาน", 'type':"Bow", 'stat':["608", "33.1%", "CRIT Rate"], \
         'ascen':"**[✦-----]**:10,000 Mora, Mask of the Wicked Lieutenant x5, Concealed Claw x5, Spectral Husk x3\n \
@@ -40,7 +77,7 @@ def weapon_info_list(name):
         **[✦✦✦✦✦-]**:55,000 Mora, Boreal Wolf's Broken Fang x9, Ley Line Sprout x14, Weathered Arrowhead x9\n \
         **[✦✦✦✦✦✦]**:65,000 Mora, Boreal Wolf's Nostalgia x6, Ley Line Sprout x27, Weathered Arrowhead x18", 'name':"Skyward Harp"}
         return lst4
-    elif name.lower() == "amos' bow":
+    elif name.lower() == "amos' bow" or name.lower() == "amos bow" or name.lower() == "amos":
         lst5 = {'thum':"https://static.wikia.nocookie.net/gensin-impact/images/d/de/Weapon_Amos%27_Bow.png/revision/latest/scale-to-width-down/256?cb=20201120010513", \
         'his':"An extremely ancient bow that has retained its power despite its original master being long gone. It draws power from everyone and everything in the world, and the further away you are from that which your heart desires, the more powerful it is.", \
         'type':"Bow", 'stat':["608", "49.6%", "ATK"], \

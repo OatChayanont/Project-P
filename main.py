@@ -24,8 +24,8 @@ async def on_ready():
 async def menu(ctx):
     await ctx.channel.purge(limit=1)
     text = discord.Embed(title="Paimon Bot Menu", description="อยากให้ Paimon ใช้คำสั่งอะไรบ้างล่ะ? **{0}**" .format(ctx.author.display_name), colour=0xCFF1E3)
-    text.add_field(name="`!char <list หรือ [character]>`", value="List Character ทั้งหมด\nตัวอย่างเช่น\n!char list\n!char hu tao", inline=False)
-    text.add_field(name="`!weapon <list หรือ [weapon]>`", value="List Weapon ทั้งหมด\nตัวอย่างเช่น\n!weapon list\n!weapon polar star", inline=False)
+    text.add_field(name="`!char <list หรือ [character|number]>`", value="List Character ทั้งหมด\nตัวอย่างเช่น\n- !char list\n- !char hu tao\n- !char 13", inline=False)
+    text.add_field(name="`!weapon <list หรือ [weapon|number]>`", value="List Weapon ทั้งหมด\nตัวอย่างเช่น\n- !weapon list\n- !weapon polar star\n- !weapon 1", inline=False)
     text.add_field(name="`!gacha <wish10 หรือ wish1>`", value="สุ่มกาชาจำลอง", inline=False)
     text.add_field(name="`!resin <your resin>`", value="คำนวณระยะเวลาที่ Resin ของคุณจะเต็มและเต็มตอนกี่โมง", inline=False)
     text.add_field(name="`!dungeon <today หรือ monday, ... , sunday>`", value="Meterials อัพตัวละครที่ดรอปในดันแต่ละวัน", inline=False)
@@ -140,13 +140,26 @@ async def char(ctx, *, name):
 
 @bot.command()
 async def weapon(ctx, *, name):
-    weapon_info = weapon_info_list(name)
-    send = discord.Embed(title=weapon_info[5], description="", colour=0x52eb80)
-    send.set_thumbnail(url= weapon_info['thum'])
-    send.add_field(name="About {0}".format(weapon_info['name']), value="{0}".format(weapon_info['his']), inline=False)
-    send.add_field(name="Details", value="**Class:** {0}".format(weapon_info['type']), inline=False)
-    send.add_field(name="Stats", value="**Base ATK:** {0}\n**{1}:** {2}".format(weapon_info['stat'][0], weapon_info['stat'][2], weapon_info['stat'][1]), inline=False)
-    send.add_field(name='Ascension Cost',value='{0}'.format(weapon_info['ascen']))
-    await ctx.channel.send(embed=send)
+    weapon_type = ["bows", "claymores", "polearms", "catalysts", "swords"]
+    if name == "list" or name in weapon_type:
+        weaponlist = weapon_info_list(name)
+        send = discord.Embed(title="Weapon List", description="{0}" .format("\n".join(weaponlist)), colour=0xed4b6f)
+        send.set_thumbnail(url="https://ih1.redbubble.net/image.1942540739.9959/st,small,507x507-pad,600x600,f8f8f8.jpg")
+        if name == "list":
+            send.set_footer(text="เลือกชนิดของอาวุธที่ต้องการแล้วพิมพ์ !weapon [type]")
+        else:
+            send.set_footer(text="เลือกอาวุธที่ต้องการแล้วพิมพ์ !weapon [name]")
+        await ctx.channel.purge(limit=1)
+        await ctx.channel.send(embed=send)
+    elif name != "list" and name not in weapon_type:
+        weapon_info = weapon_info_list(name)
+        send = discord.Embed(title=weapon_info[5], description="", colour=0x52eb80)
+        send.set_thumbnail(url= weapon_info['thum'])
+        send.add_field(name="About {0}".format(weapon_info['name']), value="{0}".format(weapon_info['his']), inline=False)
+        send.add_field(name="Details", value="**Class:** {0}".format(weapon_info['type']), inline=False)
+        send.add_field(name="Stats", value="**Base ATK:** {0}\n**{1}:** {2}".format(weapon_info['stat'][0], weapon_info['stat'][2], weapon_info['stat'][1]), inline=False)
+        send.add_field(name='Ascension Cost',value='{0}'.format(weapon_info['ascen']))
+        await ctx.channel.purge(limit=1)
+        await ctx.channel.send(embed=send)
 
 bot.run("ODk3MTMzODMzNDI0NjA1MjI0.YWRO_Q.8lH1q0zOWnm-nF4V4tnbQbydhN8")
