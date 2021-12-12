@@ -401,7 +401,7 @@ def character_info_list(name):
                         **[✦✦✦✦✦✦]**:120,000 Mora, Vayuda Turquoise Gemstone x6, Hurricane Seed x20, Windwheel Aster x60, Elemental Nectar x24',
                         'thum':'https://static.wikia.nocookie.net/genshin-impact/images/6/61/Character_Sucrose_Thumb.png/revision/latest/scale-to-width-down/50?cb=20210515120600&path-prefix=th', 'star':'[★★★★]'}
         return sucrose
-    elif name.lower() == "tartaglia" or name.lower() == "childe":
+    elif name.lower() == "tartaglia" or name.lower() == "childe" or name.lower() == "ajax":
         chi = {'name':'Tartaglia or Childe(Ajax)', 'his1':'Tartaglia (ภาษาไทย: ตาร์ตาลยา)เป็นตัวละครชายธาตุน้ำใช้อาวุธธนูที่สามารถเล่นได้ใน Genshin Impact\n\n\
             Tartaglia ผู้มีนามแฝงว่า Childe (ไชลด์) เป็นอ้ายหนุ่มน้องใหม่และเลือดเดือดที่สุดในหมู่สิบเอ็ดผู้บริหารแห่งฟาทุอิ ไล่หาเรื่องภัยพาลไปทุกที่ที่ปรากฎ \
                 กระเหี้ยนกระหือรือที่จะประชันดาบและไล่ตามความท้าทายใหม่ๆอยู่ตลอดเวลา กลายมาเป็นยอดตัวอันตรายในหมู่เจ้าหน้าที่บริหารขัดกับความหน้าละอ่อนของมัน',
