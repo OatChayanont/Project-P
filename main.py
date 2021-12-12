@@ -141,7 +141,7 @@ async def char(ctx, *, name):
 @bot.command()
 async def weapon(ctx, *, name):
     weapon_info = weapon_info_list(name)
-    send = discord.Embed(title=weapon_info[5], description="", colour=0x52eb80)
+    send = discord.Embed(title=weapon_info[name], description="", colour=0x52eb80)
     send.set_thumbnail(url= weapon_info['thum'])
     send.add_field(name="About {0}".format(weapon_info['name']), value="{0}".format(weapon_info['his']), inline=False)
     send.add_field(name="Details", value="**Class:** {0}".format(weapon_info['type']), inline=False)
