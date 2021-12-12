@@ -243,7 +243,8 @@ def character_info_list(name):
                         **[✦✦✦✦--]**:80,000 Mora, Vayuda Turquoise Chunk x3, Marionette Core x8, Sea Ganoderma x30, Silver Raven Insignia x18\n \
                         **[✦✦✦✦✦-]**:100,000 Mora, Vayuda Turquoise Chunk x6, Marionette Core x12, Sea Ganoderma x45, Golden Raven Insignia x12\n \
                         **[✦✦✦✦✦✦]**:120,000 Mora, Vayuda Turquoise Gemstone x6, Marionette Core x20, Sea Ganoderma x60, Golden Raven Insignia x24',
-                        'thum':'https://static.wikia.nocookie.net/genshin-impact/images/f/f0/Character_Kaedehara_Kazuha_Thumb.png/revision/latest/scale-to-width-down/50?cb=20210722145202&path-prefix=th', 'star':'[★★★★★]'}
+                        'thum':'https://static.wikia.nocookie.net/genshin-impact/images/f/f0/Character_Kaedehara_Kazuha_Thumb.png/revision/latest/scale-to-width-down/50?cb=20210722145202&path-prefix=th', 'star':'[★★★★★]'
+                        ,'detail':['<:bows:909806179427942400> ดาบ', 'Inazuma', '29 ตุลาคม', '<:anemo:909772060753018921> ลม']}
         return kazuha
     elif name.lower() == "kaeya" or name.lower() == "16":
         kaeya = {'name':'kaeya', 'his1':'Kaeya (ภาษาไทย: ไคยะ) เป็นตัวละครชายธาตุน้ำแข็งใช้อาวุธดาบที่สามารถเล่นได้ใน Genshin Impact\n\n\
@@ -255,7 +256,8 @@ def character_info_list(name):
                         **[✦✦✦✦--]**:80,000 Mora, Shivada Jade Chunk x3, Hoarfrost Core x8, Calla Lily x30, Silver Raven Insignia x18\n \
                         **[✦✦✦✦✦-]**:100,000 Mora, Shivada Jade Chunk x6, Hoarfrost Core x12, Calla Lily x45, Golden Raven Insignia x12\n \
                         **[✦✦✦✦✦✦]**:120,000 Mora, Shivada Jade Gemstone x6, Hoarfrost Core x20, Calla Lily x60, Golden Raven Insignia x24',
-                        'thum':'https://static.wikia.nocookie.net/genshin-impact/images/3/33/Character_Kaeya_Thumb.png/revision/latest/scale-to-width-down/50?cb=20210515140405&path-prefix=th', 'star':'[★★★★]'}
+                        'thum':'https://static.wikia.nocookie.net/genshin-impact/images/3/33/Character_Kaeya_Thumb.png/revision/latest/scale-to-width-down/50?cb=20210515140405&path-prefix=th', 'star':'[★★★★]'
+                        ,'detail':['<:bows:909806179427942400> ดาบ', 'Mondstadt, Khaenri\'ah', '30 พฤศจิกายน', '<:cryo:909772269474160650> น้ำแข็ง']}
         return kaeya
     elif name.lower() == "kamisato ayaka" or name.lower() == "kamisato" or name.lower() == "ayaka" or name.lower() == "17":
         ayaka = {'name':'Kamisato Ayaka', 'his1':'Kaedehara Kazuha (ภาษาไทย: คาเอเดะฮาระ คาซึฮะ; ภาษาญี่ปุ่น: 楓かえで原はら万かず葉は)[Note 1] เป็นตัวละครชายธาตุลมใช้อาวุธดาบที่สามารถเล่นได้ใน Genshin Impact\n\n\
@@ -267,7 +269,8 @@ def character_info_list(name):
                         **[✦✦✦✦--]**:80,000 Mora, Shivada Jade Chunk x3, Perpetual Heart x8, Sakura Bloom x30, Kageuchi Handguard x18\n \
                         **[✦✦✦✦✦-]**:100,000 Mora, Shivada Jade Chunk x6, Perpetual Heart x12, Sakura Bloom x45, Famed Handguard x12\n \
                         **[✦✦✦✦✦✦]**:120,000 Mora, Shivada Jade Gemstone x6, Perpetual Heart x20, Sakura Bloom x60, Famed Handguard x24',
-                        'thum':'https://static.wikia.nocookie.net/genshin-impact/images/f/fd/Character_Kamisato_Ayaka_Thumb.png/revision/latest/scale-to-width-down/50?cb=20210726062342&path-prefix=th', 'star':'[★★★★★]'}
+                        'thum':'https://static.wikia.nocookie.net/genshin-impact/images/f/fd/Character_Kamisato_Ayaka_Thumb.png/revision/latest/scale-to-width-down/50?cb=20210726062342&path-prefix=th', 'star':'[★★★★★]'
+                        ,'detail':['<:bows:909806179427942400> ดาบ', 'Inazuma', '28 พฤศจิกายน', '<:cryo:909772269474160650> น้ำแข็ง']}
         return ayaka
     elif name.lower() == "keqing" or name.lower() == "18":
         keq = {'name':'Keqing', 'his1':'Keqing (ภาษาจีน: 刻晴 Kèqíng; ภาษาไทย: เค่อฉิง) เป็นตัวละครหญิงธาตุไฟฟ้าใช้อาวุธดาบที่สามารถเล่นได้ในเกม Genshin Impact\n\n\
@@ -279,7 +282,8 @@ def character_info_list(name):
                         **[✦✦✦✦--]**:80,000 Mora, Vajrada Amethyst Chunk x3, Perpetual Heart x8, Cor Lapis x30, Shimmering Nectar x18\n \
                         **[✦✦✦✦✦-]**:100,000 Mora, Vajrada Amethyst Chunk x6, Perpetual Heart x12, Cor Lapis x45, Elemental Nectar x12\n \
                         **[✦✦✦✦✦✦]**:120,000 Mora, Vajrada Amethyst Gemstone x6, Perpetual Heart x20, Cor Lapis x60, Elemental Nectar x24',
-                        'thum':'https://static.wikia.nocookie.net/genshin-impact/images/0/06/Character_Keqing_Thumb.png/revision/latest/scale-to-width-down/50?cb=20210515120525&path-prefix=th', 'star':'[★★★★★]'}
+                        'thum':'https://static.wikia.nocookie.net/genshin-impact/images/0/06/Character_Keqing_Thumb.png/revision/latest/scale-to-width-down/50?cb=20210515120525&path-prefix=th', 'star':'[★★★★★]'
+                        ,'detail':['<:bows:909806179427942400> ดาบ', 'Liyue', '20 พฤศจิกายน', '<:electro:909772113970364466> ไฟฟ้า']}
         return keq
     elif name.lower() == "klee" or name.lower() == "19":
         klee = {'name':'Klee', 'his1':'Klee (ภาษาไทย: เคล) เป็นตัวละครหญิงธาตุไฟใช้อาวุธสื่อเวทที่สามารถเล่นได้ใน Genshin Impact\n\n\
@@ -292,7 +296,8 @@ def character_info_list(name):
                         **[✦✦✦✦--]**:80,000 Mora, Agnidus Agate Chunk x3, Everflame Seed x8, Philanemo Mushroom x30, Sealed Scroll x18\n \
                         **[✦✦✦✦✦-]**:100,000 Mora, Agnidus Agate Chunk x6, Everflame Seed x12, Philanemo Mushroom x45, Forbidden Curse Scroll x12\n \
                         **[✦✦✦✦✦✦]**:120,000 Mora, Agnidus Agate Gemstone x6, Everflame Seed x20, Philanemo Mushroom x60, Forbidden Curse Scroll x24',
-                        'thum':'https://static.wikia.nocookie.net/genshin-impact/images/c/c3/Character_Klee_Thumb.png/revision/latest/scale-to-width-down/50?cb=20210515120422&path-prefix=th', 'star':'[★★★★★]'}
+                        'thum':'https://static.wikia.nocookie.net/genshin-impact/images/c/c3/Character_Klee_Thumb.png/revision/latest/scale-to-width-down/50?cb=20210515120422&path-prefix=th', 'star':'[★★★★★]'
+                        ,'detail':['<:catalysts:909806179616702485> สื่อเวทย์', 'Mondstadt', '27 กรกฎาคม', '<:pyro:909772346922008606> ไฟ']}
         return klee
     elif name.lower() == "kujou sara" or name.lower() == "kujou" or name.lower() == "sara" or name.lower() == "20":
         kujo = {'name':'Kujou Sara', 'his1':'Kujou Sara (ภาษาไทย: คุโจ ซาระ; ภาษาญี่ปุ่น: 九く条じょう裟さ羅ら Kujou Sara) คือตัวละครหญิงธาตุไฟฟ้าใช้อาวุธธนูที่สามารถเล่นได้ในเกม Genshin Impact\n\n\
@@ -305,7 +310,8 @@ def character_info_list(name):
                         **[✦✦✦✦--]**:80,000 Mora, Vajrada Amethyst Chunk x3, Storm Beads x8, Dendrobium x30, Stained Mask x18\n \
                         **[✦✦✦✦✦-]**:100,000 Mora, Vajrada Amethyst Chunk x6, Storm Beads x12, Dendrobium x45, Ominous Mask x12\n \
                         **[✦✦✦✦✦✦]**:120,000 Mora, Vajrada Amethyst Gemstone x6, Storm Beads x20, Dendrobium x60, Ominous Mask x24',
-                        'thum':'https://static.wikia.nocookie.net/genshin-impact/images/9/96/Character_Kujou_Sara_Thumb.png/revision/latest/scale-to-width-down/50?cb=20210902012107&path-prefix=th', 'star':'[★★★★]'}
+                        'thum':'https://static.wikia.nocookie.net/genshin-impact/images/9/96/Character_Kujou_Sara_Thumb.png/revision/latest/scale-to-width-down/50?cb=20210902012107&path-prefix=th', 'star':'[★★★★]'
+                        ,'detail':['<:bows:909806179427942400> ธนู', 'Inazuma', '14 กรกฎาคม', '<:electro:909772113970364466> ไฟฟ้า']}
         return kujo
     elif name.lower() == "lisa" or name.lower() == "21":
         lisa = {'name':'Lisa', 'his1':'Lisa (ภาษาไทย: ลิซ่า) เป็นตัวละครหญิงธาตุไฟฟ้าใช้อาวุธสื่อเวทที่สามารถเล่นได้ในเกม Genshin Impact\n\n\
@@ -317,7 +323,8 @@ def character_info_list(name):
                         **[✦✦✦✦--]**:80,000 Mora, Vajrada Amethyst Chunk x3, Lightning Prism x8, Valberry x30, Slime Secretions x18\n \
                         **[✦✦✦✦✦-]**:100,000 Mora, Vajrada Amethyst Chunk x6, Lightning Prism x12, Valberry x45, Slime Concentrate x12\n \
                         **[✦✦✦✦✦✦]**:120,000 Mora, Vajrada Amethyst Gemstone x6, Lightning Prism x20, Valberry x60, Slime Concentrate x24',
-                        'thum':'https://static.wikia.nocookie.net/genshin-impact/images/5/51/Character_Lisa_Thumb.png/revision/latest/scale-to-width-down/50?cb=20210515120431&path-prefix=th', 'star':'[★★★★]'}
+                        'thum':'https://static.wikia.nocookie.net/genshin-impact/images/5/51/Character_Lisa_Thumb.png/revision/latest/scale-to-width-down/50?cb=20210515120431&path-prefix=th', 'star':'[★★★★]'
+                        ,'detail':['<:catalysts:909806179616702485> สื่อเวทย์', 'Mondstadt', '9 มิถุนายน', '<:electro:909772113970364466> ไฟฟ้า']}
         return lisa
     elif name.lower() == "mona" or name.lower() == "22":
         mona = {'name':'Astrologist Mona Megistus', 'his1':'Astrologist Mona Megistus (ภาษาไทย: โมนา เมจิสตัส) เป็นตัวละครหญิงธาตุน้ำใช้อาวุธสื่อเวทที่สามารถเล่นได้ในเกม Genshin Impact\n\n\
@@ -329,7 +336,8 @@ def character_info_list(name):
                         **[✦✦✦✦--]**:80,000 Mora, Varunada Lazurite Chunk x3, Cleansing Heart x8, Philanemo Mushroom x30, Shimmering Nectar x18\n \
                         **[✦✦✦✦✦-]**:100,000 Mora, Varunada Lazurite Chunk x6, Cleansing Heart x12, Philanemo Mushroom x45, Elemental Nectar x12\n \
                         **[✦✦✦✦✦✦]**:120,000 Mora, Varunada Lazurite Gemstone x6, Cleansing Heart x20, Philanemo Mushroom x60, Elemental Nectar x24',
-                        'thum':'https://static.wikia.nocookie.net/genshin-impact/images/a/a0/Character_Mona_Thumb.png/revision/latest/scale-to-width-down/50?cb=20210515120940&path-prefix=th', 'star':'[★★★★★]'}
+                        'thum':'https://static.wikia.nocookie.net/genshin-impact/images/a/a0/Character_Mona_Thumb.png/revision/latest/scale-to-width-down/50?cb=20210515120940&path-prefix=th', 'star':'[★★★★★]'
+                        ,'detail':['<:catalysts:909806179616702485> สื่อเวทย์', 'Mondstadt', '31 สิงหาคม', '<:hydro:909772393852071936> น้้ำ']}
         return mona
     elif name.lower() == "ningguang" or name.lower() == "23":
         ning = {'name':'Ningguang', 'his1':'Ningguang (ภาษาจีน: 凝光 Níngguāng; ภาษาไทย: หนิงกวง) เป็นตัวละครหญิงธาตุหินใช้อาวุธสื่อเวทที่สามารถเล่นได้ในเกม Genshin Impact\n\n\
@@ -342,7 +350,8 @@ def character_info_list(name):
                         **[✦✦✦✦--]**:80,000 Mora, Prithiva Topaz Chunk x3, Basalt Pillar x8, Glaze Lily x30, Sergeant\'s Insignia x18\n \
                         **[✦✦✦✦✦-]**:100,000 Mora, Prithiva Topaz Chunk x6, Basalt Pillar x12, Glaze Lily x45, Lieutenant\'s Insignia x12\n \
                         **[✦✦✦✦✦✦]**:120,000 Mora, Prithiva Topaz Gemstone x6, Basalt Pillar x20, Glaze Lily x60, Lieutenant\'s Insignia x24',
-                        'thum':'https://static.wikia.nocookie.net/genshin-impact/images/2/2b/Character_Ningguang_Thumb.png/revision/latest/scale-to-width-down/50?cb=20210515120449&path-prefix=th', 'star':'[★★★★★]'}
+                        'thum':'https://static.wikia.nocookie.net/genshin-impact/images/2/2b/Character_Ningguang_Thumb.png/revision/latest/scale-to-width-down/50?cb=20210515120449&path-prefix=th', 'star':'[★★★★★]'
+                        ,'detail':['<:catalysts:909806179616702485> สื่อเวทย์', 'Liyue', '26 สิงหาคม', '<:geo:909771888413257769> หิน']}
         return ning
     elif name.lower() == "noelle" or name.lower() == "24":
         noel = {'name':'Noelle', 'his1':'Noelle (ภาษาไทย: โนเอลล์) เป็นตัวละครหญิงธาตุหินใช้อาวุธดาบใหญ่ที่สามารถเล่นได้ในเกม Genshin Impact\n\n\
@@ -354,7 +363,8 @@ def character_info_list(name):
                         **[✦✦✦✦--]**:80,000 Mora, Prithiva Topaz Chunk x3, Basalt Pillar x8, Valberry x30, Stained Mask x18\n \
                         **[✦✦✦✦✦-]**:100,000 Mora, Prithiva Topaz Chunk x6, Basalt Pillar x12, Valberry x45, Ominous Mask x12\n \
                         **[✦✦✦✦✦✦]**:120,000 Mora, Prithiva Topaz Gemstone x6, Basalt Pillar x20, Valberry x60, Ominous Mask x24',
-                        'thum':'https://static.wikia.nocookie.net/genshin-impact/images/a/ab/Character_Noelle_Thumb.png/revision/latest/scale-to-width-down/50?cb=20210515120454&path-prefix=th', 'star':'[★★★★]'}
+                        'thum':'https://static.wikia.nocookie.net/genshin-impact/images/a/ab/Character_Noelle_Thumb.png/revision/latest/scale-to-width-down/50?cb=20210515120454&path-prefix=th', 'star':'[★★★★]'
+                        ,'detail':['<:claymores:909806179205664810> ดาบใหญ่', 'Mondstadt', '21 มีนาคม', '<:geo:909771888413257769> หิน']}
         return noel
     elif name.lower() == "qiqi" or name.lower() == "25":
         qiqi = {'name':'Qiqi', 'his1':'Qiqi (ภาษาไทย: ชีชี; ภาษาจีน: 七七 Qīqī, "เจ็ด เจ็ด") เป็นตัวละครหญิงธาตุน้ำแข็งใช้อาวุธดาบที่สามารถเล่นได้ในเกม Genshin Impact\n\n\
@@ -366,7 +376,8 @@ def character_info_list(name):
                         **[✦✦✦✦--]**:80,000 Mora, Shivada Jade Chunk x3, Hoarfrost Core x8, Violetgrass x30, Sealed Scroll x18\n \
                         **[✦✦✦✦✦-]**:100,000 Mora, Shivada Jade Chunk x6, Hoarfrost Core x12, Violetgrass x45, Forbidden Curse Scroll x12\n \
                         **[✦✦✦✦✦✦]**:120,000 Mora, Shivada Jade Gemstone x6, Hoarfrost Core x20, Violetgrass x60, Forbidden Curse Scroll x24',
-                        'thum':'https://static.wikia.nocookie.net/genshin-impact/images/d/d5/Character_Qiqi_Thumb.png/revision/latest/scale-to-width-down/50?cb=20210515120459&path-prefix=th', 'star':'[★★★★★]'}
+                        'thum':'https://static.wikia.nocookie.net/genshin-impact/images/d/d5/Character_Qiqi_Thumb.png/revision/latest/scale-to-width-down/50?cb=20210515120459&path-prefix=th', 'star':'[★★★★★]'
+                        ,'detail':['<:swords:909805198048886825> ดาบ', 'Liyue', '3 มีนาคม', '<:cryo:909772269474160650> น้ำแข็ง']}
         return qiqi
     elif name.lower() == "raiden shogun" or name.lower() == "raiden" or name.lower() == "shogun" or name.lower() == "ei" or name.lower() == "26":
         raiden = {'name':'Raiden Shogun(Raiden Ei)', 'his1':'Raiden Shogun (ภาษาญี่ปุ่น: 雷電将軍 โชกุน ไรเดน) คือตัวละครหญิงธาตุไฟฟ้าใช้อาวุธหอกที่สามารถเล่นได้ในเกม Genshin Impact\n\n\
@@ -379,7 +390,8 @@ def character_info_list(name):
                         **[✦✦✦✦--]**:80,000 Mora, Vajrada Amethyst Chunk x3, Storm Beads x8, Amakumo Fruit x30, Kageuchi Handguard x18\n \
                         **[✦✦✦✦✦-]**:100,000 Mora, Vajrada Amethyst Chunk x6, Storm Beads x12, Amakumo Fruit x45, Famed Handguard x12\n \
                         **[✦✦✦✦✦✦]**:120,000 Mora, Vajrada Amethyst Gemstone x6, Storm Beads x20, Amakumo Fruit x60, Famed Handguard x24',
-                        'thum':'https://static.wikia.nocookie.net/genshin-impact/images/5/52/Character_Raiden_Shogun_Thumb.png/revision/latest/scale-to-width-down/50?cb=20210902012044&path-prefix=th', 'star':'[★★★★★]'}
+                        'thum':'https://static.wikia.nocookie.net/genshin-impact/images/5/52/Character_Raiden_Shogun_Thumb.png/revision/latest/scale-to-width-down/50?cb=20210902012044&path-prefix=th', 'star':'[★★★★★]'
+                        ,'detail':['<:polearms:909806179348267069> หอก', 'Inazuma', '26 มิถุนายน', '<:electro:909772113970364466> ไฟฟ้า']}
         return raiden
     elif name.lower() == "razor" or name.lower() == "27":
         razor = {'name':'Razor', 'his1':'Razor (ภาษาไทย: เรเซอร์) เป็นตัวละครชายธาตุไฟฟ้าใช้อาวุธดาบใหญ่ที่สามารถเล่นได้ใน Genshin Impact\n\n\
@@ -392,7 +404,8 @@ def character_info_list(name):
                         **[✦✦✦✦--]**:80,000 Mora, Vajrada Amethyst Chunk x3, Lightning Prism x8, Wolfhook x30, Stained Mask x18\n \
                         **[✦✦✦✦✦-]**:100,000 Mora, Vajrada Amethyst Chunk x6, Lightning Prism x12, Wolfhook x45, Ominous Mask x12\n \
                         **[✦✦✦✦✦✦]**:120,000 Mora, Vajrada Amethyst Gemstone x6, Lightning Prism x20, Wolfhook x60, Ominous Mask x24',
-                        'thum':'https://static.wikia.nocookie.net/genshin-impact/images/1/1d/Character_Razor_Thumb.png/revision/latest/scale-to-width-down/50?cb=20210515120504&path-prefix=th', 'star':'[★★★★]'}
+                        'thum':'https://static.wikia.nocookie.net/genshin-impact/images/1/1d/Character_Razor_Thumb.png/revision/latest/scale-to-width-down/50?cb=20210515120504&path-prefix=th', 'star':'[★★★★]'
+                        ,'detail':['<:claymores:909806179205664810> ดาบใหญ่', 'Mondstadt', '9 กันยายน', '<:electro:909772113970364466> ไฟฟ้า']}
         return razor
     elif name.lower() == "rosaria" or name.lower() == "28":
         rosa = {'name':'Rosaria', 'his1':'Rosaria (ภาษาไทย: โรซาเรีย) เป็นตัวละครหญิงธาตุน้ำแข็งใช้อาวุธหอกที่สามารถเล่นได้ใน Genshin Impact\n\n\
@@ -404,7 +417,8 @@ def character_info_list(name):
                         **[✦✦✦✦--]**:80,000 Mora, Prithiva Topaz Chunk x3, Basalt Pillar x8, Glaze Lily x30, Sergeant\'s Insignia x18\n \
                         **[✦✦✦✦✦-]**:100,000 Mora, Prithiva Topaz Chunk x6, Basalt Pillar x12, Glaze Lily x45, Lieutenant\'s Insignia x12\n \
                         **[✦✦✦✦✦✦]**:120,000 Mora, Prithiva Topaz Gemstone x6, Basalt Pillar x20, Glaze Lily x60, Lieutenant\'s Insignia x24',
-                        'thum':'https://static.wikia.nocookie.net/genshin-impact/images/f/f6/Character_Rosaria_Thumb.png/revision/latest/scale-to-width-down/50?cb=20210515120554&path-prefix=th', 'star':'[★★★★]'}
+                        'thum':'https://static.wikia.nocookie.net/genshin-impact/images/f/f6/Character_Rosaria_Thumb.png/revision/latest/scale-to-width-down/50?cb=20210515120554&path-prefix=th', 'star':'[★★★★]'
+                        ,'detail':['<:polearms:909806179348267069> หอก', 'Mondstadt', '24 มกราคม', '<:cryo:909772269474160650> น้ำแข็ง']}
         return rosa
     elif name.lower() == "Sangonomiya Kokomi" or name.lower() == "sangonomiya" or name.lower() == "kokomi" or name.lower() == "29":
         kokomi = {'name':'Sangonomiya Kokomi', 'his1':'Sangonomiya Kokomi (ภาษาญี่ปุ่น: 珊さん瑚ご宮のみや心ここ海み) เป็นตัวละครหญิงธาตุน้ำใช้อาวุธสื่อเวทที่สามารถเล่นได้ในเกม Genshin Impact\n\n\
@@ -417,7 +431,8 @@ def character_info_list(name):
                         **[✦✦✦✦--]**:80,000 Mora, Varunada Lazurite Chunk x3, Dew of Repudiation x8, Sango Pearl x30, Spectral Heart x18\n \
                         **[✦✦✦✦✦-]**:100,000 Mora, Varunada Lazurite Chunk x6, Dew of Repudiation x12, Sango Pearl x45, Spectral Nucleus x12\n \
                         **[✦✦✦✦✦✦]**:120,000 Mora, Varunada Lazurite Gemstone x6, Dew of Repudiation x20, Sango Pearl x60, Spectral Nucleus x24',
-                        'thum':'https://static.wikia.nocookie.net/genshin-impact/images/c/cc/Character_Sangonomiya_Kokomi_Thumb.png/revision/latest/scale-to-width-down/50?cb=20210921133136&path-prefix=th', 'star':'[★★★★★]'}
+                        'thum':'https://static.wikia.nocookie.net/genshin-impact/images/c/cc/Character_Sangonomiya_Kokomi_Thumb.png/revision/latest/scale-to-width-down/50?cb=20210921133136&path-prefix=th', 'star':'[★★★★★]'
+                        ,'detail':['<:catalysts:909806179616702485> สื่อเวทย์', 'Inazuma', '22 กุมภาพันธ์', '<:hydro:909772393852071936> น้้ำ']}
         return kokomi
     elif name.lower() == "sayu" or name.lower() == "30":
         sayu = {'name':'Sayu', 'his1':'Sayu (ภาษาไทย: ซายุ; ภาษาญี่ปุ่น: 早さ柚ゆ) เป็นตัวละครหญิงธาตุลมใช้อาวุธดาบใหญ่ที่สามารถเล่นได้ในเกม Genshin Impact\n\n\
@@ -429,7 +444,8 @@ def character_info_list(name):
                         **[✦✦✦✦--]**:80,000 Mora, Vayuda Turquoise Chunk x3, Marionette Core x8, Crystal Marrow x30, Shimmering Nectar x18\n \
                         **[✦✦✦✦✦-]**:100,000 Mora, Vayuda Turquoise Chunk x6, Marionette Core x12, Crystal Marrow x45, Elemental Nectar x12\n \
                         **[✦✦✦✦✦✦]**:120,000 Mora, Vayuda Turquoise Gemstone x6, Marionette Core x20, Crystal Marrow x60, Elemental Nectar x24',
-                        'thum':'https://static.wikia.nocookie.net/genshin-impact/images/e/ec/Character_Sayu_Thumb.png/revision/latest/scale-to-width-down/50?cb=20210810173357&path-prefix=th', 'star':'[★★★★]'}
+                        'thum':'https://static.wikia.nocookie.net/genshin-impact/images/e/ec/Character_Sayu_Thumb.png/revision/latest/scale-to-width-down/50?cb=20210810173357&path-prefix=th', 'star':'[★★★★]'
+                        ,'detail':['<:claymores:909806179205664810> ดาบใหญ่', 'Inazuma', '19 ตุลาคม', '<:anemo:909772060753018921> ลม']}
         return sayu
     elif name.lower() == "sucrose" or name.lower() == "31":
         sucrose = {'name':'Sucrose', 'his1':'Sucrose (ภาษาไทย: ซูโครส) เป็นตัวละครหญิงธาตุลมใช้อาวุธสื่อเวทที่สามารถเล่นได้ในเกม Genshin Impact\n\n\
@@ -441,7 +457,8 @@ def character_info_list(name):
                         **[✦✦✦✦--]**:80,000 Mora, Vayuda Turquoise Chunk x3, Hurricane Seed x8, Windwheel Aster x30, Shimmering Nectar x18\n \
                         **[✦✦✦✦✦-]**:100,000 Mora, Vayuda Turquoise Chunk x6, Hurricane Seed x12, Windwheel Aster x45, Elemental Nectar x12\n \
                         **[✦✦✦✦✦✦]**:120,000 Mora, Vayuda Turquoise Gemstone x6, Hurricane Seed x20, Windwheel Aster x60, Elemental Nectar x24',
-                        'thum':'https://static.wikia.nocookie.net/genshin-impact/images/6/61/Character_Sucrose_Thumb.png/revision/latest/scale-to-width-down/50?cb=20210515120600&path-prefix=th', 'star':'[★★★★]'}
+                        'thum':'https://static.wikia.nocookie.net/genshin-impact/images/6/61/Character_Sucrose_Thumb.png/revision/latest/scale-to-width-down/50?cb=20210515120600&path-prefix=th', 'star':'[★★★★]'
+                        ,'detail':['<:catalysts:909806179616702485> สื่อเวทย์', 'Mondstadt', '26 พฤศจิกายน', '<:anemo:909772060753018921> ลม']}
         return sucrose
     elif name.lower() == "tartaglia" or name.lower() == "childe" or name.lower() == "32":
         chi = {'name':'Tartaglia or Childe(Ajax)', 'his1':'Tartaglia (ภาษาไทย: ตาร์ตาลยา)เป็นตัวละครชายธาตุน้ำใช้อาวุธธนูที่สามารถเล่นได้ใน Genshin Impact\n\n\
@@ -454,7 +471,8 @@ def character_info_list(name):
                         **[✦✦✦✦--]**:80,000 Mora, Varunada Lazurite Chunk x3, Cleansing Heart x8, Starconch x30, Sergeant\'s Insignia x18\n \
                         **[✦✦✦✦✦-]**:100,000 Mora, Varunada Lazurite Chunk x6, Cleansing Heart x12, Starconch x45, Lieutenant\'s Insignia x12\n \
                         **[✦✦✦✦✦✦]**:120,000 Mora, Varunada Lazurite Gemstone x6, Cleansing Heart x20, Starconch x60, Lieutenant\'s Insignia x24',
-                        'thum':'https://static.wikia.nocookie.net/genshin-impact/images/5/53/Character_Tartaglia_Thumb.png/revision/latest/scale-to-width-down/50?cb=20210515121211&path-prefix=th', 'star':'[★★★★★]'}
+                        'thum':'https://static.wikia.nocookie.net/genshin-impact/images/5/53/Character_Tartaglia_Thumb.png/revision/latest/scale-to-width-down/50?cb=20210515121211&path-prefix=th', 'star':'[★★★★★]'
+                        ,'detail':['<:bows:909806179427942400> ธนู', 'Snezhnaya', '20 กรกฎาคม', '<:hydro:909772393852071936> น้ำ']}
         return chi
     elif name.lower() == "thoma" or name.lower() == "33":
         tho = {'name':'Thoma', 'his1':'Thoma (ภาษาไทย: โทมะ; ภาษาญี่ปุ่น: トーマ Tooma) เป็นตัวละครชายธาตุไฟใช้อาวุธหอกที่สามารถเล่นได้ในเกม Genshin Impact\n\n\
@@ -466,7 +484,8 @@ def character_info_list(name):
                         **[✦✦✦✦--]**:80,000 Mora, Agnidus Agate Chunk x3, Smoldering Pearl x8, Fluorescent Fungus x30, Silver Raven Insignia x18\n \
                         **[✦✦✦✦✦-]**:100,000 Mora, Agnidus Agate Chunk x6, Smoldering Pearl x12, Fluorescent Fungus x45, Golden Raven Insignia x12\n \
                         **[✦✦✦✦✦✦]**:120,000 Mora, Agnidus Agate Gemstone x6, Smoldering Pearl x20, Fluorescent Fungus x60, Golden Raven Insignia x24',
-                        'thum':'https://static.wikia.nocookie.net/genshin-impact/images/8/8a/Character_Thoma_Thumb.png/revision/latest/scale-to-width-down/50?cb=20211017122820&path-prefix=th', 'star':'[★★★★]'}
+                        'thum':'https://static.wikia.nocookie.net/genshin-impact/images/8/8a/Character_Thoma_Thumb.png/revision/latest/scale-to-width-down/50?cb=20211017122820&path-prefix=th', 'star':'[★★★★]'
+                        ,'detail':['<:polearms:909806179348267069> หอก', 'Inazuma', '9 มกราคม', '<:pyro:909772346922008606> ไฟ']}
         return tho
     elif name.lower() == "venti" or name.lower() == "barbatos" or name.lower() == "35":
         ven = {'name':'Venti(Barbatos)', 'his1':'Venti (ภาษาไทย: เวนติ) เป็นตัวละครชายธาตุลมใช้อาวุธธนูที่สามารถเล่นได้ใน Genshin Impact\n\n\
@@ -479,7 +498,8 @@ def character_info_list(name):
                         **[✦✦✦✦--]**:80,000 Mora, Vayuda Turquoise Chunk x3, Hurricane Seed x8, Cecilia x30, Slime Secretions x18\n \
                         **[✦✦✦✦✦-]**:100,000 Mora, Vayuda Turquoise Chunk x6, Hurricane Seed x12, Cecilia x45, Slime Concentrate x12\n \
                         **[✦✦✦✦✦✦]**:120,000 Mora, Vayuda Turquoise Gemstone x6, Hurricane Seed x20, Cecilia x60, Slime Concentrate x24',
-                        'thum':'https://static.wikia.nocookie.net/genshin-impact/images/8/8d/Character_Venti_Thumb.png/revision/latest/scale-to-width-down/50?cb=20210515120608&path-prefix=th', 'star':'[★★★★★]'}
+                        'thum':'https://static.wikia.nocookie.net/genshin-impact/images/8/8d/Character_Venti_Thumb.png/revision/latest/scale-to-width-down/50?cb=20210515120608&path-prefix=th', 'star':'[★★★★★]'
+                        ,'detail':['<:bows:909806179427942400> ธนู', 'Mondstadt', '16 กรกฎาคม', '<:anemo:909772060753018921> ลม']}
         return ven
     elif name.lower() == "xiangling" or name.lower() == "mao" or name.lower() == "chef" or name.lower() == "36":
         xiang = {'name':'Mao Xiangling', 'his1':'Mao Xiangling (ภาษาจีน: 卯香菱 Mǎo Xiānglíng; ภาษาไทย: เซียงหลิง) เป็นตัวละครหญิงธาตุไฟใช้อาวุธหอกที่สามารถเล่นได้ในเกม Genshin Impact\n\n\
@@ -491,7 +511,8 @@ def character_info_list(name):
                         **[✦✦✦✦--]**:80,000 Mora, Agnidus Agate Chunk x3, Everflame Seed x8, Jueyun Chili x30, Slime Secretions x18\n \
                         **[✦✦✦✦✦-]**:100,000 Mora, Agnidus Agate Chunk x6, Everflame Seed x12, Jueyun Chili x45, Slime Concentrate x12\n \
                         **[✦✦✦✦✦✦]**:120,000 Mora, Agnidus Agate Gemstone x6, Everflame Seed x20, Jueyun Chili x60, Slime Concentrate x24',
-                        'thum':'https://static.wikia.nocookie.net/genshin-impact/images/a/a0/Character_Xiangling_Thumb.png/revision/latest/scale-to-width-down/50?cb=20210515120729&path-prefix=th', 'star':'[★★★★]'}
+                        'thum':'https://static.wikia.nocookie.net/genshin-impact/images/a/a0/Character_Xiangling_Thumb.png/revision/latest/scale-to-width-down/50?cb=20210515120729&path-prefix=th', 'star':'[★★★★]'
+                        ,'detail':['<:polearms:909806179348267069> หอก', 'Liyue', '2 พฤศจิกายน', '<:pyro:909772346922008606> ไฟ']}
         return xiang
     elif name.lower() == "xiao" or name.lower() == "alatus" or name.lower() == "37":
         xiao = {'name':'Xiao', 'his1':'Xiao (ภาษาไทย: เซียว; ภาษาจีน: 魈 Xiāo, "ปีศาจภูเขา") เป็นตัวละครชายธาตุลมใช้อาวุธหอกที่สามารถเล่นได้ในเกม Genshin Impact\n\n\
@@ -503,7 +524,8 @@ def character_info_list(name):
                         **[✦✦✦✦--]**:80,000 Mora, Vayuda Turquoise Chunk x3, Juvenile Jade x8, Qingxin x30, Slime Secretions x18\n \
                         **[✦✦✦✦✦-]**:100,000 Mora, Vayuda Turquoise Chunk x6, Juvenile Jade x12, Qingxin x45, Slime Concentrate x12\n \
                         **[✦✦✦✦✦✦]**:120,000 Mora, Vayuda Turquoise Gemstone x6, Juvenile Jade x20, Qingxin x60, Slime Concentrate x24',
-                        'thum':'https://static.wikia.nocookie.net/genshin-impact/images/b/b9/Character_Xiao_Thumb.png/revision/latest/scale-to-width-down/50?cb=20210515120804&path-prefix=th', 'star':'[★★★★★]'}
+                        'thum':'https://static.wikia.nocookie.net/genshin-impact/images/b/b9/Character_Xiao_Thumb.png/revision/latest/scale-to-width-down/50?cb=20210515120804&path-prefix=th', 'star':'[★★★★★]'
+                        ,'detail':['<:polearms:909806179348267069> หอก', 'Liyue', '17 เมษายน', '<:anemo:909772060753018921> ลม']}
         return xiao
     elif name.lower() == "xingqiu" or name.lower() == "38":
         xin = {'name':'Xingqiu', 'his1':'Xingqiu (ภาษาจีน: 行秋 Xíngqiū; ภาษาไทย: สิงชิว) เป็นตัวละครชายธาตุน้ำใช้อาวุธดาบที่สามารถเล่นได้ใน Genshin Impact\n\n\
@@ -515,7 +537,8 @@ def character_info_list(name):
                         **[✦✦✦✦--]**:80,000 Mora, Varunada Lazurite Chunk x3, Cleansing Heart x8, Silk Flower x30, Stained Mask x18\n \
                         **[✦✦✦✦✦-]**:100,000 Mora, Varunada Lazurite Chunk x6, Cleansing Heart x12, Silk Flower x45, Ominous Mask x12\n \
                         **[✦✦✦✦✦✦]**:120,000 Mora, Varunada Lazurite Gemstone x6, Cleansing Heart x20, Silk Flower x60, Ominous Mask x24',
-                        'thum':'https://static.wikia.nocookie.net/genshin-impact/images/4/4a/Character_Xingqiu_Thumb.png/revision/latest/scale-to-width-down/50?cb=20210515120809&path-prefix=th', 'star':'[★★★★]'}
+                        'thum':'https://static.wikia.nocookie.net/genshin-impact/images/4/4a/Character_Xingqiu_Thumb.png/revision/latest/scale-to-width-down/50?cb=20210515120809&path-prefix=th', 'star':'[★★★★]'
+                        ,'detail':['<:swords:909805198048886825> ดาบ', 'Liyue', '9 ตุลาคม', '<:hydro:909772393852071936> น้ำ']}
         return xin
     elif name.lower() == "xinyan" or name.lower() == "39":
         xiny = {'name':'Xinyan', 'his1':'Xinyan (ภาษาจีน: 辛焱 Xīnyàn; ภาษาไทย: ซินเยี่ยน) เป็นตัวละครหญิงธาตุไฟใช้อาวุธดาบใหญ่ที่สามารถเล่นได้ใน Genshin Impact\n\n\
@@ -528,7 +551,8 @@ def character_info_list(name):
                         **[✦✦✦✦--]**:80,000 Mora, Agnidus Agate Chunk x3, Everflame Seed x8, Violetgrass x30, Silver Raven Insignia x18\n \
                         **[✦✦✦✦✦-]**:100,000 Mora, Agnidus Agate Chunk x6, Everflame Seed x12, Violetgrass x45, Golden Raven Insignia x12\n \
                         **[✦✦✦✦✦✦]**:120,000 Mora, Agnidus Agate Gemstone x6, Everflame Seed x20, Violetgrass x60, Golden Raven Insignia x24',
-                        'thum':'https://static.wikia.nocookie.net/genshin-impact/images/9/9d/Character_Xinyan_Thumb.png/revision/latest/scale-to-width-down/50?cb=20210515120814&path-prefix=th', 'star':'[★★★★]'}
+                        'thum':'https://static.wikia.nocookie.net/genshin-impact/images/9/9d/Character_Xinyan_Thumb.png/revision/latest/scale-to-width-down/50?cb=20210515120814&path-prefix=th', 'star':'[★★★★]'
+                        ,'detail':['<:claymores:909806179205664810> ดาบใหญ่', 'Liyue', '16 ตุลาคม', '<:pyro:909772346922008606> ไฟ']}
         return xiny
     elif name.lower() == "yanfei" or name.lower() == "40":
         yanfei = {'name':'Yanfei', 'his1':'Yanfei (ภาษาจีน: 烟绯 Yānfēi; ภาษาไทย: เยียนเฟย) เป็นตัวละครหญิงธาตุไฟใช้อาวุธสื่อเวทที่สามารถเล่นได้ในเกม Genshin Impact\n\n\
@@ -541,7 +565,8 @@ def character_info_list(name):
                         **[✦✦✦✦--]**:80,000 Mora, Agnidus Agate Chunk x3, Noctilucous Jade x8, Noctilucous Jade x30, Silver Raven Insignia x18\n \
                         **[✦✦✦✦✦-]**:100,000 Mora, Agnidus Agate Chunk x6, Noctilucous Jade x12, Noctilucous Jade x45, Golden Raven Insignia x12\n \
                         **[✦✦✦✦✦✦]**:120,000 Mora, Agnidus Agate Gemstone x6, Noctilucous Jade x20, Noctilucous Jade x60, Golden Raven Insignia x24',
-                        'thum':'https://static.wikia.nocookie.net/genshin-impact/images/1/1f/Character_Yanfei_Thumb.png/revision/latest/scale-to-width-down/50?cb=20210515120821&path-prefix=th', 'star':'[★★★★]'}
+                        'thum':'https://static.wikia.nocookie.net/genshin-impact/images/1/1f/Character_Yanfei_Thumb.png/revision/latest/scale-to-width-down/50?cb=20210515120821&path-prefix=th', 'star':'[★★★★]'
+                        ,'detail':['<:catalysts:909806179616702485> สื่อเวทย์', 'Liyue', '28 กรกฎาคม', '<:pyro:909772346922008606> ไฟ']}
         return yanfei
     elif name.lower() == "naganohara yoimiya" or name.lower() == "naganohara" or name.lower() == "yoimiya" or name.lower() == "41":
         yoi = {'name':'Naganohara Yoimiya', 'his1':'Naganohara Yoimiya (ภาษาไทย: นากาโนะฮาระ โยอิมิยะ; ภาษาญี่ปุ่น: 長なが野の原はら宵よい宮みや) เป็นตัวละครหญิงธาตุไฟใช้อาวุธธนูที่สามารถเล่นได้ในเกม Genshin Impact\n\n\
@@ -554,7 +579,8 @@ def character_info_list(name):
                         **[✦✦✦✦--]**:80,000 Mora, Agnidus Agate Chunk x3, Smoldering Pearl x8, Naku Weed x30, Sealed Scroll x18\n \
                         **[✦✦✦✦✦-]**:100,000 Mora, Agnidus Agate Chunk x6, Smoldering Pearl x12, Naku Weed x45, Forbidden Curse Scroll x12\n \
                         **[✦✦✦✦✦✦]**:120,000 Mora, Agnidus Agate Gemstone x6, Smoldering Pearl x20, Naku Weed x60, Forbidden Curse Scroll x24',
-                        'thum':'https://static.wikia.nocookie.net/genshin-impact/images/0/05/Character_Yoimiya_Thumb.png/revision/latest/scale-to-width-down/50?cb=20210807091631&path-prefix=th', 'star':'[★★★★★]'}
+                        'thum':'https://static.wikia.nocookie.net/genshin-impact/images/0/05/Character_Yoimiya_Thumb.png/revision/latest/scale-to-width-down/50?cb=20210807091631&path-prefix=th', 'star':'[★★★★★]'
+                        ,'detail':['<:bows:909806179427942400> ธนู', 'Inazuma', '21 มิถุนายน', '<:pyro:909772346922008606> ไฟ']}
         return yoi
     elif name.lower() == "zhongli" or name.lower() == "morax" or name.lower() == "42":
         zhon = {'name':'Zhongli(Morax)', 'his1':'Zhongli (ภาษาจีน: 钟离 Zhōnglí; ภาษาไทย: จงหลี) เป็นตัวละครชายธาตุหินใช้อาวุธหอกที่สามารถเล่นได้ในเกม Genshin Impact\n\n\
@@ -567,7 +593,8 @@ def character_info_list(name):
                         **[✦✦✦✦--]**:80,000 Mora, Prithiva Topaz Chunk x3, Basalt Pillar x8, Cor Lapis x30, Slime Secretions x18\n \
                         **[✦✦✦✦✦-]**:100,000 Mora, Prithiva Topaz Chunk x6, Basalt Pillar x12, Cor Lapis x45, Slime Concentrate x12\n \
                         **[✦✦✦✦✦✦]**:120,000 Mora, Prithiva Topaz Gemstone x6, Basalt Pillar x20, Cor Lapis x60, Slime Concentrate x24',
-                        'thum':'https://static.wikia.nocookie.net/genshin-impact/images/c/c2/Character_Zhongli_Thumb.png/revision/latest/scale-to-width-down/50?cb=20210515120825&path-prefix=th', 'star':'[★★★★★]'}
+                        'thum':'https://static.wikia.nocookie.net/genshin-impact/images/c/c2/Character_Zhongli_Thumb.png/revision/latest/scale-to-width-down/50?cb=20210515120825&path-prefix=th', 'star':'[★★★★★]'
+                        ,'detail':['<:polearms:909806179348267069> หอก', 'Liyue', '31 ธันวาคม', '<:geo:909771888413257769> หิน']}
         return zhon
     elif name.lower() == "traveler" or name.lower() == "aether" or name.lower() == "lumine" or name.lower() == "34":
         tra = {'name':'Aether/Lumine', 'his1':'นักเดินทาง เป็นตัวละครเอกที่สามารถเลือกเล่นในเกม Genshin Impact ในช่วงเลือกตัวละครเริ่มต้น อีเธอร์เป็นพี่น้องฝาแฝดจากอีกโลกหนึ่งที่ออกเดินทางทั่วโลก \
@@ -581,5 +608,6 @@ def character_info_list(name):
                         **[✦✦✦✦--]**:80,000 Mora, Brilliant Diamond Chunk x3, Windwheel Aster x30, Stained Mask x18\n \
                         **[✦✦✦✦✦-]**:100,000 Mora, Brilliant Diamond Chunk x6, Windwheel Aster x45, Ominous Mask x12\n \
                         **[✦✦✦✦✦✦]**:120,000 Mora, Brilliant Diamond Gemstone x6, Windwheel Aster x60, Ominous Mask x24',
-                        'thum':'https://static.wikia.nocookie.net/genshin-impact/images/7/71/Character_Traveler_Thumb.png/revision/latest/scale-to-width-down/50?cb=20210515140422&path-prefix=th', 'star':'[★★★★★]'}
+                        'thum':'https://static.wikia.nocookie.net/genshin-impact/images/7/71/Character_Traveler_Thumb.png/revision/latest/scale-to-width-down/50?cb=20210515140422&path-prefix=th', 'star':'[★★★★★]'
+                        ,'detail':['<:swords:909805198048886825> ดาบ', 'ออกเดินทางไปทุกที่ไม่มีที่เป็นหลักแหล่ง', 'ผู้เล่นเป็นคนเลือก', '<:anemo:909772060753018921><:geo:909771888413257769><:electro:909772113970364466> ลม,หิน,ไฟฟ้า']}
         return tra
