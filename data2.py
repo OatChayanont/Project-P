@@ -1,42 +1,5 @@
 def weapon_info_list(name):
-    if name.lower() == "list":
-        weaponlist = ["**1.** <:swords:909805198048886825> Swords",
-                        "**2.** <:claymores:909806179205664810> Claymores",
-                        "**3.** <:polearms:909806179348267069> Polearms",
-                        "**4.** <:catalysts:909806179616702485> Catalysts",
-                        "**5.** <:bows:909806179427942400> Bows"]
-        return weaponlist
-    if name.lower() == "bows":
-        bows = ["**<:bows:909806179427942400> Bow**",
-                  "**1.** **[5★]** Polar Star",
-                  "**2.** **[5★]** Thundering Pulse",
-                  "**2.** **[5★]** Elegy for the End",
-                  "**2.** **[5★]** Skyward Harp",
-                  "**2.** **[5★]** Amos' Bow",
-                  "**2.** **[4★]** Alley Hunter",
-                  "**2.** **[4★]** The Viridescent Hunt",
-                  "**2.** **[4★]** The Stringless",
-                  "**2.** **[4★]** Sacrificial Bow",
-                  "**2.** **[4★]** Rust",
-                  "**2.** **[4★]** Royal Bow",
-                  "**2.** **[4★]** Predator",
-                  "**2.** **[4★]** Prototype Crescent",
-                  "**2.** **[4★]** Mouun's Moon",
-                  "**2.** **[4★]** Mitternachts Waltz",
-                  "**2.** **[4★]** Hamayumi",
-                  "**2.** **[4★]** Favonius Warbow",
-                  "**2.** **[4★]** Compound Bow",
-                  "**2.** **[4★]** Blackcliff Warbow",
-                  "**2.** **[4★]** Windblume Ode",
-                  "**2.** **[3★]** Raven Bow",
-                  "**2.** **[3★]** Messenger",
-                  "**2.** **[3★]** Sharpshooter's Oath",
-                  "**2.** **[3★]** Slingshot",
-                  "**2.** **[3★]** Ebony Bow",
-                  "**2.** **[2★]** Seasoned Hunter's Bow",
-                  "**2.** **[1★]** 	Hunter's Bow"]
-        return bows
-    elif name.lower() == "polar star":
+    if name.lower() == "polar star":
         lst = {'thum':"https://static.wikia.nocookie.net/gensin-impact/images/4/44/Weapon_Polar_Star.png/revision/latest/scale-to-width-down/256?cb=20211013042349", \
         'his':"ธนูไร้มลทินที่แหลมคม ราวกับแท่งน้ำแข็งในฤดูหนาวที่แสนยาวนาน", 'type':"Bow", 'stat':["608", "33.1%", "CRIT Rate"], \
         'ascen':"**[✦-----]**:10,000 Mora, Mask of the Wicked Lieutenant x5, Concealed Claw x5, Spectral Husk x3\n \
@@ -48,7 +11,7 @@ def weapon_info_list(name):
         return lst
     elif name.lower() == "thundering pulse":
         lst2 = {'thum':"https://static.wikia.nocookie.net/gensin-impact/images/7/77/Weapon_Thundering_Pulse.png/revision/latest/scale-to-width-down/256?cb=20210811094805", \
-        'his':"A longbow that was a gift from the Shogun. Eternal lightning crackles all around it.", 'type':"Bow", 'stat':["608", "66.2%", "CRIT DMG"], \
+        'his':"ธนูยาวที่เคยถูกมอบให้เป็นของขวัญโดยโชกุน ส่องประกายแสงของสายฟ้าชั่วนิรันดร์", 'type':"Bow", 'stat':["608", "66.2%", "CRIT DMG"], \
         'ascen':"**[✦-----]**:10,000 Mora, Narukami's Wisdom x5, Dismal Prism x5, Firm Arrowhead x3\n \
         **[✦✦----]**:20,000 Mora, Narukami's Joy x5, Dismal Prism x18, Firm Arrowhead x12\n \
         **[✦✦✦---]**:30,000 Mora, Narukami's Joy x9, Crystal Prism x9, Sharp Arrowhead x9\n \
@@ -58,7 +21,7 @@ def weapon_info_list(name):
         return lst2
     elif name.lower() == "elegy for the end":
         lst3 = {'thum':"https://static.wikia.nocookie.net/gensin-impact/images/a/a5/Weapon_Elegy_for_the_End.png/revision/latest/scale-to-width-down/256?cb=20210317075424", \
-        'his':"A bow as lovely as any bard's lyre, its arrows pierce the heart like a lamenting sigh.", 'type':"Bow", 'stat':["608", "55.1%", "Energy Recharge"], \
+        'his':"ธนูที่ดูสวยงามราวกับเป็น เครื่องดนตรีของนักกวี ศรที่ถูกปล่อยออกไปนั้น เสียบทะลุหัวใจคนราวกับเสียงของการถอนลมหายใจ", 'type':"Bow", 'stat':["608", "55.1%", "Energy Recharge"], \
         'ascen':"**[✦-----]**:10,000 Mora, Boreal Wolf's Milk Tooth x5, Heavy Horn x5, Recruit's Insignia x3\n \
         **[✦✦----]**:20,000 Mora, Boreal Wolf's Cracked Tooth x5, Heavy Horn x18, Recruit's Insignia x12\n \
         **[✦✦✦---]**:30,000 Mora, Boreal Wolf's Cracked Tooth x9, Black Bronze Horn x9, Sergeant's Insignia x9\n \
@@ -68,7 +31,7 @@ def weapon_info_list(name):
         return lst3
     elif name.lower() == "skyward harp":
         lst4 = {'thum':"https://static.wikia.nocookie.net/gensin-impact/images/1/19/Weapon_Skyward_Harp.png/revision/latest/scale-to-width-down/256?cb=20201116035246", \
-        'his':"A greatbow that symbolizes Dvalin's affiliation with the Anemo Archon. The sound of the bow firing is music to the Anemo Archon's ears. It contains the power of the sky and wind within.", 
+        'his':"ธนูใหญ่ที่เป็นเหมือนตัวแทนของ Dvalin และเทพแห่งลมผู้เป็นเจ้าของเดิม เสียงที่เกิดขึ้นเมื่อยิงศรเป็นดั่งเสียงเพลงเมื่อเทพแห่งลมได้ฟัง มันมีพลังของท้องฟ้าและสายลมอยู่ด้วย.", 
         'type':"Bow", 'stat':["674", "22.1%", "CRIT Rate"], \
         'ascen':"**[✦-----]**:10,000 Mora, Boreal Wolf's Milk Tooth x5, Dead Ley Line Branch x5, Firm Arrowhead x3\n \
         **[✦✦----]**:20,000 Mora, Boreal Wolf's Cracked Tooth x5, Dead Ley Line Branch x18, Firm Arrowhead x12\n \
@@ -77,9 +40,9 @@ def weapon_info_list(name):
         **[✦✦✦✦✦-]**:55,000 Mora, Boreal Wolf's Broken Fang x9, Ley Line Sprout x14, Weathered Arrowhead x9\n \
         **[✦✦✦✦✦✦]**:65,000 Mora, Boreal Wolf's Nostalgia x6, Ley Line Sprout x27, Weathered Arrowhead x18", 'name':"Skyward Harp"}
         return lst4
-    elif name.lower() == "amos' bow" or name.lower() == "amos bow" or name.lower() == "amos":
+    elif name.lower() == "amos' bow":
         lst5 = {'thum':"https://static.wikia.nocookie.net/gensin-impact/images/d/de/Weapon_Amos%27_Bow.png/revision/latest/scale-to-width-down/256?cb=20201120010513", \
-        'his':"An extremely ancient bow that has retained its power despite its original master being long gone. It draws power from everyone and everything in the world, and the further away you are from that which your heart desires, the more powerful it is.", \
+        'his':"คันธนูที่มีความเก่าแก่มากซึ่งแม้ว่าเจ้าของดั้งเดิมของมันจะไม่อยู่แล้วแต่ก็ยังคงแฝงไปด้วยพลังเช่นเดิม... พลังที่ไม่มีใครควบคุมนั่นกลับอยู่ท่ามกลางสรรพสิ่ง ซึ่งยิ่งมันอยู่ห่างจากสิ่งที่ไร้หัวใจเท่าไหร่ พลังนั่นก็จะยิ่งรุนแรงขึ้นเท่านั้น", \
         'type':"Bow", 'stat':["608", "49.6%", "ATK"], \
         'ascen':"**[✦-----]**:10,000 Mora, Fetters of the Dandelion Gladiator x5, Chaos Device x5, Slime Condensate x3\n \
         **[✦✦----]**:20,000 Mora, Chains of the Dandelion Gladiator x5, Chaos Device x18, Slime Condensate x12\n \
@@ -1389,12 +1352,10 @@ def weapon_info_list(name):
         return lst125
     elif name.lower() == "dull blade":
         lst126 = {'thum':"https://static.wikia.nocookie.net/gensin-impact/images/2/2f/Weapon_Dull_Blade.png/revision/latest/scale-to-width-down/256?cb=20201119235841", \
-        'his':"ฝันในวัยเยาว์กับการผจญภัยอันน่าตื่นเต้น หากมันยังไม่พอ ก็เพิ่มความกล้าเข้าไปด้วยสิ", \
+        'his':"ฝันในวัยเยาว์กับการผจญภัยอันน่าตื่นเต้น หากมันยังไม่พอ ก็เพิ่มความกล้าเข้าไปด้วยสิ  ", \
         'type':"Sword", 'stat':["185", "-", "None"], \
         'ascen':"**[✦-----]**:0 Mora, Tile of Decarabian's Tower x1, Heavy Horn x1, Firm Arrowhead x1\n \
         **[✦✦----]**:5,000 Mora, Debris of Decarabian's City x1, Heavy Horn x4, Firm Arrowhead x2\n \
         **[✦✦✦---]**:5,000 Mora, Debris of Decarabian's City x2, Black Bronze Horn x2, Sharp Arrowhead x2\n \
         **[✦✦✦✦--]**:10,000 Mora, Fragment of Decarabian's Epic x1, Black Bronze Horn x4, Sharp Arrowhead x3", 'name':"Dull Blade"}
         return lst126
-    
-                  
