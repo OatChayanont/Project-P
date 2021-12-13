@@ -221,7 +221,7 @@ def weapon_info_list(name):
         'skill':["Echoing Ballad", '✰ เพิ่มความแรงคริขึ้น **20%**; เมื่อการโจมตีโดนเป้าหมายจะมีโอกาส **60%** \
             ที่จะสร้างความเสียหายกายภาพเป็น 125% ของพลังโจมตีให้แก่ศัตรูที่อยู่ในอาณาเขตเล็ก ๆ ซึ่งเอฟเฟกต์นี้จะเกิดขึ้นหนึ่งครั้งในทุก 4 วินาที']}
         return lst4
-    elif name.lower() == "amos' bow" or name.lower() == "amos bow" or name.lower() == "amos":
+    elif name.lower() == "amos' bow":
         lst5 = {'thum':"https://static.wikia.nocookie.net/gensin-impact/images/d/de/Weapon_Amos%27_Bow.png/revision/latest/scale-to-width-down/256?cb=20201120010513", \
         'his':"คันธนูที่มีความเก่าแก่มากซึ่งแม้ว่าเจ้าของดั้งเดิมของมันจะไม่อยู่แล้วแต่ก็ยังคงแฝงไปด้วยพลังเช่นเดิม... พลังที่ไม่มีใครควบคุมนั่นกลับอยู่ท่ามกลางสรรพสิ่ง ซึ่งยิ่งมันอยู่ห่างจากสิ่งที่ไร้หัวใจเท่าไหร่ พลังนั่นก็จะยิ่งรุนแรงขึ้นเท่านั้น", \
         'type':"Bow", 'stat':["608", "49.6%", "ATK"], \
@@ -330,7 +330,7 @@ def weapon_info_list(name):
         return lst12
     elif name.lower() == "song of broken pines":
         lst13 = {'thum':"https://static.wikia.nocookie.net/gensin-impact/images/d/dd/Weapon_Song_of_Broken_Pines.png/revision/latest/scale-to-width-down/256?cb=20210518151739", \
-        'his':"A greatsword as light as the sigh of grass in the breeze, yet as merciless to the corrupt as a typhoon.", \
+        'his':"ดาบใหญ่เรียวบางที่ดูเหมือนกับว่าจะสามารถพลิกได้ด้วยลมปากเป้า อาวุธที่ตัดและทำลายทุกสิ่งได้ดั่งพายุเฮอริเคนที่โค่นต้นไม่ใหญ่ลงได้ราวกับเศษไม้ที่ผุพัง", \
         'type':"Claymore", 'stat':["741", "20.7%", "Physical DMG Bonus"], \
         'ascen':"**[✦-----]**:10,000 Mora, Tile of Decarabian's Tower x5, Heavy Horn x5, Damaged Mask x3\n \
         **[✦✦----]**:20,000 Mora, Debris of Decarabian's City x5, Heavy Horn x18, Damaged Mask x12\n \
@@ -497,7 +497,7 @@ def weapon_info_list(name):
         return lst23
     elif name.lower() == "primordial jade cutter":
         lst24 = {'thum':"https://static.wikia.nocookie.net/gensin-impact/images/2/2a/Weapon_Primordial_Jade_Cutter.png/revision/latest/scale-to-width-down/256?cb=20210319202419", \
-        'his':"A ceremonial sword masterfully carved from pure jade. There almost seems to be an audible sigh in the wind as it is swung.", \
+        'his':"ดาบสำหรับพิธีการที่แกะสลักมาจากหยกบริสุทธิ์อย่างประณีต เมื่อแกว่งดาบไปมาในสายลม จะมีเสียงที่คล้ายกับเสียงลมหายใจ", \
         'type':"Sword", 'stat':["542", "44.1%", "CRIT Rate"], \
         'ascen':"**[✦-----]**:10,000 Mora, Mist Veiled Lead Elixir x5, Mist Grass Pollen x5, Treasure Hoarder Insignia x3\n \
         **[✦✦----]**:20,000 Mora, Mist Veiled Mercury Elixir x5, Mist Grass Pollen x18, Treasure Hoarder Insignia x12\n \
@@ -1598,10 +1598,10 @@ def weapon_info_list(name):
         return lst125
     elif name.lower() == "dull blade":
         lst126 = {'thum':"https://static.wikia.nocookie.net/gensin-impact/images/2/2f/Weapon_Dull_Blade.png/revision/latest/scale-to-width-down/256?cb=20201119235841", \
-        'his':"ฝันในวัยเยาว์กับการผจญภัยอันน่าตื่นเต้น หากมันยังไม่พอ ก็เพิ่มความกล้าเข้าไปด้วยสิ", \
+        'his':"ฝันในวัยเยาว์กับการผจญภัยอันน่าตื่นเต้น หากมันยังไม่พอ ก็เพิ่มความกล้าเข้าไปด้วยสิ  ", \
         'type':"Sword", 'stat':["185", "-", "None"], \
         'ascen':"**[✦-----]**:0 Mora, Tile of Decarabian's Tower x1, Heavy Horn x1, Firm Arrowhead x1\n \
         **[✦✦----]**:5,000 Mora, Debris of Decarabian's City x1, Heavy Horn x4, Firm Arrowhead x2\n \
         **[✦✦✦---]**:5,000 Mora, Debris of Decarabian's City x2, Black Bronze Horn x2, Sharp Arrowhead x2\n \
         **[✦✦✦✦--]**:10,000 Mora, Fragment of Decarabian's Epic x1, Black Bronze Horn x4, Sharp Arrowhead x3", 'name':"Dull Blade"}
-        return lst126            
+        return lst126     
