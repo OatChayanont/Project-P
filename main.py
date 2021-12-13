@@ -24,8 +24,8 @@ async def on_ready():
 async def menu(ctx):
     await ctx.channel.purge(limit=1)
     text = discord.Embed(title="Paimon Bot Menu", description="อยากให้ Paimon ใช้คำสั่งอะไรบ้างล่ะ? **{0}**" .format(ctx.author.display_name), colour=0xCFF1E3)
-    text.add_field(name="`!char <list หรือ [character|number]>`", value="List Character ทั้งหมด\nตัวอย่างเช่น\n- !char list\n- !char hu tao\n- !char 13", inline=False)
-    text.add_field(name="`!weapon <list หรือ [weapon|type]>`", value="List Weapon ทั้งหมด\nตัวอย่างเช่น\n- !weapon list\n- !weapon bows\n- !weapon polar star", inline=False)
+    text.add_field(name="`!char <list หรือ [character|number]>`", value="List Character ทั้งหมด\nตัวอย่างเช่น\n- !char list - !char hu tao - !char 13", inline=False)
+    text.add_field(name="`!weapon <list หรือ [weapon|type]>`", value="List Weapon ทั้งหมด\nตัวอย่างเช่น\n- !weapon list - !weapon bows - !weapon polar star", inline=False)
     text.add_field(name="`!gacha <wish10 หรือ wish1>`", value="สุ่มกาชาจำลอง", inline=False)
     text.add_field(name="`!resin <your resin>`", value="คำนวณระยะเวลาที่ Resin ของคุณจะเต็มและเต็มตอนกี่โมง", inline=False)
     text.add_field(name="`!dungeon <today หรือ monday, ... , sunday>`", value="Meterials อัพตัวละครที่ดรอปในดันแต่ละวัน", inline=False)
@@ -59,7 +59,14 @@ async def dungeon(ctx, day):
 @bot.command()
 async def resin(ctx, resin_number): #หาเวลาที่ Resin จะเต็ม
     await ctx.channel.purge(limit=1)
-    resin_left = 160-int(resin_number) #Resin ที่ไม่มี
+    resin_number = int(resin_number)
+    if resin_number < 0:
+        resin_number = 0
+        resin_left = 160
+    elif resin_number > 160:
+        resin_left = 0
+    else:
+        resin_left = 160-(resin_number) #Resin ที่ไม่มี
     min_left_all = resin_left*8 #นาทีที่เหลือทั้งหมด
     min_left = min_left_all%60 #ชั่วโมง
     hour_left = min_left_all//60 #นาที
