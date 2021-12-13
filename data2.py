@@ -141,7 +141,7 @@ def weapon_info_list(name):
         return lst13
     elif name.lower() == "engulfing lightning":
         lst14 = {'thum':"https://static.wikia.nocookie.net/gensin-impact/images/2/21/Weapon_Engulfing_Lightning.png/revision/latest/scale-to-width-down/256?cb=20210901044846", \
-        'his':'A naginata used to "cut grass." Any army that stands before this weapon will probably be likewise cut down...', \
+        'his':'ง้าวนางินาตะที่ใช้ในการ "ตัดหญ้า" กองทัพที่เผชิญหน้ากับสิ่งนี้ ก็คงจะล้มลงราวกับต้นหญ้าเหล่านั้นล่ะนะ...', \
         'type':"Polearm", 'stat':["608", "55.1%", "Energy Recharge"], \
         'ascen':"**[✦-----]**:10,000 Mora, Mask of the Wicked Lieutenant x5, Chaos Gear x5, Old Handguard x3\n \
         **[✦✦----]**:20,000 Mora, Mask of the Tiger's Bite x5, Chaos Gear x18, Old Handguard x12\n \
@@ -152,7 +152,7 @@ def weapon_info_list(name):
         return lst14
     elif name.lower() == "skyward spine":
         lst15 = {'thum':"https://static.wikia.nocookie.net/gensin-impact/images/6/69/Weapon_Skyward_Spine.png/revision/latest/scale-to-width-down/256?cb=20201116035301", \
-        'his':"A polearm that symbolizes Dvalin's fire resolve. The upright shaft of this weapon points towards the heavens, clad in the might of sky and wind.", \
+        'his':"หอกที่เป็นสัญลักษณ์ของ ความตั้งใจของ Dvalin ด้ามหอกที่ตรงดิ่งชี้ไปยังฟากฟ้า มีพลังของฟ้าและพลังแห่งลม ซ่อนอยู่ภายใน", \
         'type':"Polearm", 'stat':["674", "36.8%", "Energy Recharge"], \
         'ascen':"**[✦-----]**:10,000 Mora, Fetters of the Dandelion Gladiator x5, Chaos Device x5, Divining Scroll x3\n \
         **[✦✦----]**:20,000 Mora, Chains of the Dandelion Gladiator x5, Chaos Device x18, Divining Scroll x12\n \
@@ -163,7 +163,7 @@ def weapon_info_list(name):
         return lst15
     elif name.lower() == "primordial jade winged-spear":
         lst16 = {'thum':"https://static.wikia.nocookie.net/gensin-impact/images/8/80/Weapon_Primordial_Jade_Winged-Spear.png/revision/latest/scale-to-width-down/256?cb=20201116152024", \
-        'his':"A jade polearm made by the archons, capable of slaying ancient beasts.", \
+        'his':"หอกที่แปลงมาจากหยกจ้าวปีศาจ สามารถใช้กำจัดสัตว์ร้ายโบราณได้", \
         'type':"Polearm", 'stat':["674", "22.1%", "CRIT Rate"], \
         'ascen':"**[✦-----]**:10,000 Mora, Luminous Sands from Guyun x5, Hunter's Sacrificial Knife x5, Recruit's Insignia x3\n \
         **[✦✦----]**:20,000 Mora, Lustrous Stone from Guyun x5, Hunter's Sacrificial Knife x18, Recruit's Insignia x12\n \
@@ -174,7 +174,7 @@ def weapon_info_list(name):
         return lst16
     elif name.lower() == "staff of homa":
         lst17 = {'thum':"https://static.wikia.nocookie.net/gensin-impact/images/1/17/Weapon_Staff_of_Homa.png/revision/latest/scale-to-width-down/256?cb=20210225200935", \
-        'his':'A "firewood staff" that was once used in ancient and long-lost rituals.', \
+        'his':'"หอกแห่งไฟ" ที่ใช้ในพิธีกรรมโบราณซึ่งได้สูญหายไปเป็นเวลานาน', \
         'type':"Polearm", 'stat':["608", "66.2%", "CRIT DMG"], \
         'ascen':"**[✦-----]**:10,000 Mora, Grain of Aerosiderite x5, Dead Ley Line Branch x5, Slime Condensate x3\n \
         **[✦✦----]**:20,000 Mora, Piece of Aerosiderite x5, Dead Ley Line Branch x18, Slime Condensate x12\n \
@@ -185,7 +185,7 @@ def weapon_info_list(name):
         return lst17
     elif name.lower() == "vortex vanquisher":
         lst18 = {'thum':"https://static.wikia.nocookie.net/gensin-impact/images/d/d6/Weapon_Vortex_Vanquisher.png/revision/latest/scale-to-width-down/256?cb=20201129060822", \
-        'his':"This sharp polearm can seemingly pierce through anything. When swung, one can almost see the rift it tears in the air.", \
+        'his':"หอกยาวอันแหลมคมที่สามารถทะลวงทุกอย่างได้ เมื่อหอกกวัดแกว่งมันราวกับสามารถเห็นรอยแยกในอากาศได้", \
         'type':"Polearm", 'stat':["608", "49.6%", "ATK"], \
         'ascen':"**[✦-----]**:10,000 Mora, Grain of Aerosiderite x5, Fragile Bone Shard x5, Treasure Hoarder Insignia x3\n \
         **[✦✦----]**:20,000 Mora, Piece of Aerosiderite x5, Fragile Bone Shard x18, Treasure Hoarder Insignia x12\n \
