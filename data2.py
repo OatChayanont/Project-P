@@ -489,11 +489,11 @@ def weapon_info_list(name):
         **[✦✦✦✦✦✦]**:65,000 Mora, Dream of the Dandelion Gladiator x6, Chaos Core x27, Forbidden Curse Scroll x18", 'name':"Freedom-Sworn",
         'skill':["Revolutionary Chorale", '✰ ส่วนหนึ่งของ Millennial Movement ที่ล่องลอยอยู่ในอากาศ ช่วยเพิ่มความเสียหายที่สร้างขึ้น **10%** \
                     เมื่อตัวละครที่สวมใส่ทำให้เกิดปฏิกิริยาธาตุ จะได้รับ Sigil of Rebellion 1 อัน โดยจะเกิดขึ้นได้มากสุดหนึ่งครั้งในทุก 0.5 วินาที่ \
-                    และจะยังได้รับแม้ว่าตัวละครจะอยู่ในทีมแต่ไม่ได้อยู่ในการต่อสู้แล้วก็ตาม \
+                    และจะยังได้รับแม้ว่าตัวละครจะอยู่ในทีมแต่ไม่ได้อยู่ในการต่อสู้แล้วก็ตาม\n \
                     เมื่อครอบครอง Sigil of Rebellion ครบ 2 อัน จะใช้ Sigil of Rebellion ทั้งหมดเพื่อมอบเอฟเฟกต์ Millennial Movement:Farewell Song \
                     ให้แก่ตัวละครทั้งหมดในทีมที่อยู่ในบริเวณใกล้เคียงเป็นเวลา 12 วินาที: \
                     ความเสียหายโจมตีปกติ ชาร์จโจมตี โจมตีพุ่งลงจากอากาศเพิ่มขึ้น **16%**, พลังโจมตีเพิ่มขึ้น **20%** และจะไม่สามารถรับ Sigil of Rebellion ได้อีกภายในเวลา 20 วินาที \
-                    หลังจากเอฟเฟกต์บัฟนี้แสดงผล โดยที่ในบรรดาเอฟเฟกต์บัฟต่าง ๆ ที่เกิดขึ้นโดย Millennial Movement นั้นเอฟเฟกต์บัฟที่เป็นประเภทเดียวกันจะไม่สามารถซ้อนทับกันได้']}
+                    \nหลังจากเอฟเฟกต์บัฟนี้แสดงผล โดยที่ในบรรดาเอฟเฟกต์บัฟต่าง ๆ ที่เกิดขึ้นโดย Millennial Movement นั้นเอฟเฟกต์บัฟที่เป็นประเภทเดียวกันจะไม่สามารถซ้อนทับกันได้']}
         return lst23
     elif name.lower() == "primordial jade cutter":
         lst24 = {'thum':"https://static.wikia.nocookie.net/gensin-impact/images/2/2a/Weapon_Primordial_Jade_Cutter.png/revision/latest/scale-to-width-down/256?cb=20210319202419", \
