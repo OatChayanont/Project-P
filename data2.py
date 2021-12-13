@@ -97,7 +97,7 @@ def weapon_info_list(name):
         return lst9
     elif name.lower() == "wolf's gravestone":
         lst10 = {'thum':"https://static.wikia.nocookie.net/gensin-impact/images/4/4f/Weapon_Wolf%27s_Gravestone.png/revision/latest/scale-to-width-down/256?cb=20201116035623", \
-        'his':"A longsword used by the Wolf Knight. Originally just a heavy sheet of iron given to the knight by a blacksmith from the city, it became endowed with legendary power owing to his friendship with the wolves.", \
+        'his':"ดาบยาวที่ใช้โดยอัศวินหมาป่า แต่เดิมแล้วมันเป็นเพียงแผ่นเหล็กที่ทำขึ้นโดยช่างเหล็กในเมือง แต่กระนั้นมันก็ให้พลังแห่งตำนานให้กับมิตรภาพที่ต่อเหล่าหมาป่า", \
         'type':"Claymore", 'stat':["608", "49.6%", "ATK"], \
         'ascen':"**[✦-----]**:10,000 Mora, Fetters of the Dandelion Gladiator x5, Chaos Device x5, Divining Scroll x3\n \
         **[✦✦----]**:20,000 Mora, Chains of the Dandelion Gladiator x5, Chaos Device x18, Divining Scroll x12\n \
@@ -108,7 +108,7 @@ def weapon_info_list(name):
         return lst10
     elif name.lower() == "skyward pride":
         lst11 = {'thum':"https://static.wikia.nocookie.net/gensin-impact/images/0/0b/Weapon_Skyward_Pride.png/revision/latest/scale-to-width-down/256?cb=20201116035255", \
-        'his':"A claymore that symbolizes the pride of Dvalin soaring through the skies. When swung, it emits a deep hum as the full force of Dvalin's command of the sky and the wind is unleashed.", \
+        'his':"ดาบใหญ่ที่เป็นสัญลักษณ์แห่งความทรนงของ Dvalin ผ่านฟากฟ้า เมื่อเหวี่ยงมันจะมีคลื่นเสียงต่ำที่เกิดจากพลังของฟ้าและพลังแห่งลมที่ซ่อนอยู่ภายใน", \
         'type':"Claymore", 'stat':["674", "36.8%", "Energy Recharge"], \
         'ascen':"**[✦-----]**:10,000 Mora, Boreal Wolf's Milk Tooth x5, Dead Ley Line Branch x5, Slime Condensate x3\n \
         **[✦✦----]**:20,000 Mora, Boreal Wolf's Cracked Tooth x5, Dead Ley Line Branch x18, Slime Condensate x12\n \
@@ -119,7 +119,7 @@ def weapon_info_list(name):
         return lst11
     elif name.lower() == "the unforged":
         lst12 = {'thum':"https://static.wikia.nocookie.net/gensin-impact/images/f/f7/Weapon_The_Unforged.png/revision/latest/scale-to-width-down/256?cb=20201129060814", \
-        'his':"Capable of driving away evil spirits and wicked people alike, this edgeless claymore seems to possess divine might.", \
+        'his':"ดาบใหญ่ที่สามารถกำจัดอสูร ได้ราวกับมีพลังเทพเจ้าอันน่าเกรงขาม", \
         'type':"Claymore", 'stat':["608", "49.6%", "ATK"], \
         'ascen':"**[✦-----]**:10,000 Mora, Mist Veiled Lead Elixir x5, Mist Grass Pollen x5, Treasure Hoarder Insignia x3\n \
         **[✦✦----]**:20,000 Mora, Mist Veiled Mercury Elixir x5, Mist Grass Pollen x18, Treasure Hoarder Insignia x12\n \
@@ -130,7 +130,7 @@ def weapon_info_list(name):
         return lst12
     elif name.lower() == "song of broken pines":
         lst13 = {'thum':"https://static.wikia.nocookie.net/gensin-impact/images/d/dd/Weapon_Song_of_Broken_Pines.png/revision/latest/scale-to-width-down/256?cb=20210518151739", \
-        'his':"A greatsword as light as the sigh of grass in the breeze, yet as merciless to the corrupt as a typhoon.", \
+        'his':"ดาบใหญ่เรียวบางที่ดูเหมือนกับว่าจะสามารถพลิกได้ด้วยลมปากเป้า อาวุธที่ตัดและทำลายทุกสิ่งได้ดั่งพายุเฮอริเคนที่โค่นต้นไม่ใหญ่ลงได้ราวกับเศษไม้ที่ผุพัง", \
         'type':"Claymore", 'stat':["741", "20.7%", "Physical DMG Bonus"], \
         'ascen':"**[✦-----]**:10,000 Mora, Tile of Decarabian's Tower x5, Heavy Horn x5, Damaged Mask x3\n \
         **[✦✦----]**:20,000 Mora, Debris of Decarabian's City x5, Heavy Horn x18, Damaged Mask x12\n \
