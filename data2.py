@@ -34,7 +34,6 @@ def weapon_info_list(name):
                 "**[3★]** Messenger",
                 "**[3★]** Sharpshooter's Oath",
                 "**[3★]** Slingshot",
-                "**[3★]** Ebony Bow",
                 "**[2★]** Seasoned Hunter's Bow",
                 "**[1★]** Hunter's Bow"]
         for i in range(1, len(bows)):
@@ -61,7 +60,6 @@ def weapon_info_list(name):
                         "**[4★]** Prototype Archaic",
                         "**[4★]** Luxurious Sea-Lord",
                         "**[4★]** Lithic Blade",
-                        "**[3★]** Quartz",
                         "**[3★]** Skyrider Greatsword",
                         "**[3★]** Debate Club",
                         "**[3★]** Bloodtainted Greatsword",
@@ -156,7 +154,6 @@ def weapon_info_list(name):
                         "**[3★]** Emerald Orb",
                         "**[3★]** Thrilling Tales of Dragon Slayers",
                         "**[3★]** Twin Nephrite",
-                        "**[3★]** Amber Catalyst",
                         "**[2★]** Pocket Grimoire",
                         "**[1★]** Apprentice's Notes"]
         for i in range(1, len(catalysts)):
