@@ -1,169 +1,332 @@
 def weapon_info_list(name):
     if name.lower() == "list":
-        weaponlist = ["**1.** <:swords:909805198048886825> Swords",
-                        "**2.** <:claymores:909806179205664810> Claymores",
-                        "**3.** <:polearms:909806179348267069> Polearms",
-                        "**4.** <:catalysts:909806179616702485> Catalysts",
-                        "**5.** <:bows:909806179427942400> Bows"]
+        weaponlist = ["<:swords:909805198048886825> Swords",
+                        "<:claymores:909806179205664810> Claymores",
+                        "<:polearms:909806179348267069> Polearms",
+                        "<:catalysts:909806179616702485> Catalysts",
+                        "<:bows:909806179427942400> Bows"]
+        for i in range(len(weaponlist)):
+            weaponlist[i] = "**%d.** " % (i+1) + weaponlist[i]
         return weaponlist
     if name.lower() == "bows":
-        bows = ["**<:bows:909806179427942400> Bow**",
-                  "**1.** **[5★]** Polar Star",
-                  "**2.** **[5★]** Thundering Pulse",
-                  "**2.** **[5★]** Elegy for the End",
-                  "**2.** **[5★]** Skyward Harp",
-                  "**2.** **[5★]** Amos' Bow",
-                  "**2.** **[4★]** Alley Hunter",
-                  "**2.** **[4★]** The Viridescent Hunt",
-                  "**2.** **[4★]** The Stringless",
-                  "**2.** **[4★]** Sacrificial Bow",
-                  "**2.** **[4★]** Rust",
-                  "**2.** **[4★]** Royal Bow",
-                  "**2.** **[4★]** Predator",
-                  "**2.** **[4★]** Prototype Crescent",
-                  "**2.** **[4★]** Mouun's Moon",
-                  "**2.** **[4★]** Mitternachts Waltz",
-                  "**2.** **[4★]** Hamayumi",
-                  "**2.** **[4★]** Favonius Warbow",
-                  "**2.** **[4★]** Compound Bow",
-                  "**2.** **[4★]** Blackcliff Warbow",
-                  "**2.** **[4★]** Windblume Ode",
-                  "**2.** **[3★]** Raven Bow",
-                  "**2.** **[3★]** Messenger",
-                  "**2.** **[3★]** Sharpshooter's Oath",
-                  "**2.** **[3★]** Slingshot",
-                  "**2.** **[3★]** Ebony Bow",
-                  "**2.** **[2★]** Seasoned Hunter's Bow",
-                  "**2.** **[1★]** 	Hunter's Bow"]
+        bows = ["----------**<:bows:909806179427942400> Bow**----------",
+                "**[5★]** Polar Star",
+                "**[5★]** Thundering Pulse",
+                "**[5★]** Elegy for the End",
+                "**[5★]** Skyward Harp",
+                "**[5★]** Amos' Bow",
+                "**[4★]** Alley Hunter",
+                "**[4★]** The Viridescent Hunt",
+                "**[4★]** The Stringless",
+                "**[4★]** Sacrificial Bow",
+                "**[4★]** Rust",
+                "**[4★]** Royal Bow",
+                "**[4★]** Predator",
+                "**[4★]** Prototype Crescent",
+                "**[4★]** Mouun's Moon",
+                "**[4★]** Mitternachts Waltz",
+                "**[4★]** Hamayumi",
+                "**[4★]** Favonius Warbow",
+                "**[4★]** Compound Bow",
+                "**[4★]** Blackcliff Warbow",
+                "**[4★]** Windblume Ode",
+                "**[3★]** Raven Bow",
+                "**[3★]** Messenger",
+                "**[3★]** Sharpshooter's Oath",
+                "**[3★]** Slingshot",
+                "**[3★]** Ebony Bow",
+                "**[2★]** Seasoned Hunter's Bow",
+                "**[1★]** Hunter's Bow"]
+        for i in range(1, len(bows)):
+            bows[i] = "**%d.** " % i + bows[i]
         return bows
+    elif name.lower() == "claymores":
+        claymores = ["----------**<:claymores:909806179205664810> Claymores**----------",
+                        "**[5★]** Wolf's Gravestone",
+                        "**[5★]** Skyward Pride",
+                        "**[5★]** The Unforged",
+                        "**[5★]** Song of Broken Pines",
+                        "**[5★]** Redhorn Stonethresher",
+                        "**[4★]** Akuoumaru",
+                        "**[4★]** Royal Greatsword",
+                        "**[4★]** Whiteblind",
+                        "**[4★]** The Bell",
+                        "**[4★]** Snow-Tombed Starsilver",
+                        "**[4★]** Favonius Greatsword",
+                        "**[4★]** Katsuragikiri Nagamasa",
+                        "**[4★]** Sacrificial Greatsword",
+                        "**[4★]** Serpent Spine",
+                        "**[4★]** Blackcliff Slasher",
+                        "**[4★]** Rainslasher",
+                        "**[4★]** Prototype Archaic",
+                        "**[4★]** Luxurious Sea-Lord",
+                        "**[4★]** Lithic Blade",
+                        "**[3★]** Quartz",
+                        "**[3★]** Skyrider Greatsword",
+                        "**[3★]** Debate Club",
+                        "**[3★]** Bloodtainted Greatsword",
+                        "**[3★]** White Iron Greatsword",
+                        "**[3★]** Ferrous Shadow",
+                        "**[2★]** Old Merc's Pal",
+                        "**[1★]** Waster Greatsword"]
+        for i in range(1, len(claymores)):
+            claymores[i] = "**%d.** " % i + claymores[i]
+        return claymores
+    elif name.lower() == "swords":
+        swords = ["----------**<:swords:909805198048886825> Swords**----------",
+                    "**[5★]** Mistsplitter Reforged",
+                    "**[5★]** Aquila Favonia",
+                    "**[5★]** Summit Shaper",
+                    "**[5★]** Skyward Blade",
+                    "**[5★]** Freedom-Sworn",
+                    "**[5★]** Primordial Jade Cutter",
+                    "**[4★]** The Flute",
+                    "**[4★]** The Black Sword",
+                    "**[4★]** The Alley Flash",
+                    "**[4★]** Sword of Descension",
+                    "**[4★]** Sacrificial Sword",
+                    "**[4★]** Royal Longsword",
+                    "**[4★]** Prototype Rancour",
+                    "**[4★]** Amenoma Kageuchi",
+                    "**[4★]** Lion's Roar",
+                    "**[4★]** Iron Sting",
+                    "**[4★]** Festering Desire",
+                    "**[4★]** Favonius Sword",
+                    "**[4★]** Cinnabar Spindle",
+                    "**[4★]** Blackcliff Longsword	",
+                    "**[3★]** Harbinger of Dawn",
+                    "**[3★]** Fillet Blade",
+                    "**[3★]** Skyrider Sword",
+                    "**[3★]** Dark Iron Sword",
+                    "**[3★]** Cool Steel",
+                    "**[3★]** Traveler's Handy Sword",
+                    "**[2★]** Silver Sword",
+                    "**[1★]** Dull Blade"]
+        for i in range(1, len(swords)):
+            swords[i] = "**%d.** " % i + swords[i]
+        return swords
+    elif name.lower() == "polearms":
+        polearms = ["----------**<:polearms:909806179348267069> Claymores**----------",
+                    "**[5★]** Engulfing Lightning",
+                    "**[5★]** Skyward Spine",
+                    "**[5★]** Primordial Jade Winged-Spear",
+                    "**[5★]** Staff of Homa",
+                    "**[5★]** Vortex Vanquisher",
+                    "**[4★]** Prototype Starglitter",
+                    "**[4★]** Lithic Spear",
+                    "**[4★]** Kitain Cross Spear",
+                    "**[4★]** \"The Catch\"",
+                    "**[4★]** Favonius Lance",
+                    "**[4★]** Dragonspine Spear",
+                    "**[4★]** Dragon's Bane",
+                    "**[4★]** Deathmatch",
+                    "**[4★]** Crescent Pike",
+                    "**[4★]** Blackcliff Pole",
+                    "**[4★]** Wavebreaker's Fin",
+                    "**[4★]** Royal Spear",
+                    "**[3★]** White Tassel",
+                    "**[3★]** Black Tassel",
+                    "**[3★]** Halberd",
+                    "**[2★]** Iron Point",
+                    "**[1★]** Beginner's Protector"]
+        for i in range(1, len(polearms)):
+            polearms[i] = "**%d.** " % i + polearms[i]
+        return polearms
+    elif name.lower() == "catalysts":
+        catalysts = ["----------**<:catalysts:909806179616702485> Catalysts**----------",
+                        "**[5★]** Lost Prayer to the Sacred Winds",
+                        "**[5★]** Skyward Atlas",
+                        "**[5★]** Everlasting Moonglow",
+                        "**[5★]** Memory of Dust",
+                        "**[4★]** Wine and Song",
+                        "**[4★]** The Widsith",
+                        "**[4★]** Solar Pearl",
+                        "**[4★]** Sacrificial Fragments",
+                        "**[4★]** Royal Grimoire",
+                        "**[4★]** Prototype Amber",
+                        "**[4★]** Mappa Mare",
+                        "**[4★]** Hakushin Ring",
+                        "**[4★]** Frostbearer",
+                        "**[4★]** Favonius Codex",
+                        "**[4★]** Eye of Perception",
+                        "**[4★]** Dodoco Tales",
+                        "**[4★]** Blackcliff Agate",
+                        "**[3★]** Magic Guide",
+                        "**[3★]** Otherworldly Story",
+                        "**[3★]** Emerald Orb",
+                        "**[3★]** Thrilling Tales of Dragon Slayers",
+                        "**[3★]** Twin Nephrite",
+                        "**[3★]** Amber Catalyst",
+                        "**[2★]** Pocket Grimoire",
+                        "**[1★]** Apprentice's Notes"]
+        for i in range(1, len(catalysts)):
+            catalysts[i] = "**%d.** " % i + catalysts[i]
+        return catalysts
     elif name.lower() == "polar star":
-        lst = {'thum':"https://static.wikia.nocookie.net/gensin-impact/images/4/44/Weapon_Polar_Star.png/revision/latest/scale-to-width-down/256?cb=20211013042349", \
+        lst1 = {'thum':"https://static.wikia.nocookie.net/gensin-impact/images/4/44/Weapon_Polar_Star.png/revision/latest/scale-to-width-down/256?cb=20211013042349", \
         'his':"ธนูไร้มลทินที่แหลมคม ราวกับแท่งน้ำแข็งในฤดูหนาวที่แสนยาวนาน", 'type':"Bow", 'stat':["608", "33.1%", "CRIT Rate"], \
         'ascen':"**[✦-----]**:10,000 Mora, Mask of the Wicked Lieutenant x5, Concealed Claw x5, Spectral Husk x3\n \
         **[✦✦----]**:20,000 Mora, Mask of the Tiger's Bite x5, Concealed Claw x18, Spectral Husk x12\n \
         **[✦✦✦---]**:30,000 Mora, Mask of the Tiger's Bite x9, Concealed Unguis x9, Spectral Heart x9\n \
         **[✦✦✦✦--]**:45,000 Mora, Mask of the One-Horned x5, Concealed Unguis x18, Spectral Heart x14\n \
         **[✦✦✦✦✦-]**:55,000 Mora, Mask of the One-Horned x9, Concealed Talon x14, Spectral Nucleus x9\n \
-        **[✦✦✦✦✦✦]**:65,000 Mora, Mask of the Kijin x6, Concealed Talon x27, Spectral Nucleus x18", 'name':"Polar Star"}
-        return lst
+        **[✦✦✦✦✦✦]**:65,000 Mora, Mask of the Kijin x6, Concealed Talon x27, Spectral Nucleus x18", 'name':"Polar Star",
+        'skill':["Daylight's Augury", '✰ สกิลธาตุและท่าไม้ตายสร้างความเสียหายเพิ่มขึ้น **12%**;\n \
+                    หลังจากการโจมตีปกติ, ชาร์จโจมตี, สกิลธาตุ หรือท่าไม้ตายถูกศัตรู จะทำให้เกิดเอฟเฟกต์ Ashen Nightstar 1 ชั้น \
+                    เป็นเวลา 12 วินาที ซึ่งเมื่อมีเอฟเฟกต์ Ashen Nightstar 1/2/3/4 ชั้น พลังโจมตีจะเพิ่มขึ้น **10/20/30/48%** \
+                    โดยที่ Ashen Nightstar ที่เกิดจากการโจมตีปกติ, ชาร์จโจมตี, สกิลธาตุ หรือท่าไม้ตายนั้น จะมีช่วงเวลาคงอยู่ที่เป็นอิสระต่อกัน']}
+        return lst1
     elif name.lower() == "thundering pulse":
         lst2 = {'thum':"https://static.wikia.nocookie.net/gensin-impact/images/7/77/Weapon_Thundering_Pulse.png/revision/latest/scale-to-width-down/256?cb=20210811094805", \
-        'his':"A longbow that was a gift from the Shogun. Eternal lightning crackles all around it.", 'type':"Bow", 'stat':["608", "66.2%", "CRIT DMG"], \
+        'his':"ธนูยาวที่เคยถูกมอบให้เป็นของขวัญโดยโชกุน ส่องประกายแสงของสายฟ้าชั่วนิรันดร์", 'type':"Bow", 'stat':["608", "66.2%", "CRIT DMG"], \
         'ascen':"**[✦-----]**:10,000 Mora, Narukami's Wisdom x5, Dismal Prism x5, Firm Arrowhead x3\n \
         **[✦✦----]**:20,000 Mora, Narukami's Joy x5, Dismal Prism x18, Firm Arrowhead x12\n \
         **[✦✦✦---]**:30,000 Mora, Narukami's Joy x9, Crystal Prism x9, Sharp Arrowhead x9\n \
         **[✦✦✦✦--]**:45,000 Mora, Narukami's Affection x5, Crystal Prism x18, Sharp Arrowhead x14\n \
         **[✦✦✦✦✦-]**:55,000 Mora, Narukami's Affection x9, Polarizing Prism x14, Weathered Arrowhead x9\n \
-        **[✦✦✦✦✦✦]**:65,000 Mora, Narukami's Valor x6, Polarizing Prism x27, Weathered Arrowhead x18", 'name':"Thundering Pulse"}
+        **[✦✦✦✦✦✦]**:65,000 Mora, Narukami's Valor x6, Polarizing Prism x27, Weathered Arrowhead x18", 'name':"Thundering Pulse",
+        'skill':["Rule By Thunder", '✰ พลังโจมตีเพิ่มขึ้น **20%** และจะสามารถได้รับพลังของ "Thunder Emblem" \
+                    โดยเมื่อครอบครอง Thunder Emblem 1/2/3 ชั้น ความเสี่ยหายของการโจมตีปกติจะเพิ่มขึ้น **12/24/40%** \
+                    โดยที่ตัวละครจะได้รับ Thunder Emblem 1 ชั้น ในแต่ละสถานการณ์ต่อไปนี้: \
+                    เมื่อการโจมตีปกติทำให้เกิดความเสียหาย (คงอยู่ 5 วินาที); เมื่อใช้สกิลธาตุ (คงอยู่ 10 วินาที); \
+                    เมื่อพลังงานธาตุของตัวละครต่ำกว่า 100% (จะหายไปเมื่อพลังงานธาตุของตัวละครเต็ม) โดยช่วงเวลาคงอยู่ของ Thunder Emblem แต่ละชั้นจะถูกคิดแยกกัน']}
         return lst2
     elif name.lower() == "elegy for the end":
         lst3 = {'thum':"https://static.wikia.nocookie.net/gensin-impact/images/a/a5/Weapon_Elegy_for_the_End.png/revision/latest/scale-to-width-down/256?cb=20210317075424", \
-        'his':"A bow as lovely as any bard's lyre, its arrows pierce the heart like a lamenting sigh.", 'type':"Bow", 'stat':["608", "55.1%", "Energy Recharge"], \
+        'his':"ธนูที่ดูสวยงามราวกับเป็น เครื่องดนตรีของนักกวี ศรที่ถูกปล่อยออกไปนั้น เสียบทะลุหัวใจคนราวกับเสียงของการถอนลมหายใจ", 'type':"Bow", 'stat':["608", "55.1%", "Energy Recharge"], \
         'ascen':"**[✦-----]**:10,000 Mora, Boreal Wolf's Milk Tooth x5, Heavy Horn x5, Recruit's Insignia x3\n \
         **[✦✦----]**:20,000 Mora, Boreal Wolf's Cracked Tooth x5, Heavy Horn x18, Recruit's Insignia x12\n \
         **[✦✦✦---]**:30,000 Mora, Boreal Wolf's Cracked Tooth x9, Black Bronze Horn x9, Sergeant's Insignia x9\n \
         **[✦✦✦✦--]**:45,000 Mora, Boreal Wolf's Broken Fang x5, Black Bronze Horn x18, Sergeant's Insignia x14\n \
         **[✦✦✦✦✦-]**:55,000 Mora, Boreal Wolf's Broken Fang x9, Black Crystal Horn x14, Black Crystal Horn x9\n \
-        **[✦✦✦✦✦✦]**:65,000 Mora, Boreal Wolf's Nostalgia x6, Black Crystal Horn x27, Black Crystal Horn x18", 'name':"Elegy for the End"}
+        **[✦✦✦✦✦✦]**:65,000 Mora, Boreal Wolf's Nostalgia x6, Black Crystal Horn x27, Black Crystal Horn x18", 'name':"Elegy for the End",
+        'skill':["The Parting Refrain", '✰ ส่วนหนึ่งของ Millennial Movement ที่ล่องลอยอยู่ในอากาศ ช่วยเพิ่มความชำนาญธาตุขึ้น **60** หน่วย \
+                    เมื่อตัวละครที่สวมใส่ใช้สกิลธาตุหรือท่าไม้ตายโจมตีถูกศัตรู ตัวละครจะได้รับ Sigil of Remembrance หนึ่งอัน \
+                    โดยจะเกิดขึ้นได้มากสุดหนึ่งครั้งในทุก 0.2 วินาที และจะยังได้รับแม้ว่าตัวละครจะอยู่ในทีมแต่ไม่ได้อยู่ในการต่อสู้แล้วก็ตาม \
+                    เมื่อครอบครอง Sigils of Remembrance ครบ 4 อัน จะใช้ Sigils of Remembrance ทั้งหมดเพื่อมอบเอฟเฟกต์ \
+                    Millennial Movement: Farewell Song ให้แก่ตัวละครทั้งหมดในทีมที่อยู่ในบริเวณใกล้เคียงเป็นเวลา 12 วินาที่: \
+                    ความชำนาญธาตุเพิ่มขึ้น **100** หน่วย พลังโจมตีเพิ่มขึ้น **20%** และจะไม่สามารถรับ Sigils of Remembrance ได้อีกภายในเวลา 20 วินาที \
+                    หลังจากเอฟเฟกต์บัฟนี้แสดงผล โดยที่ในบรรดาเอฟเฟกต์บัฟต่าง ๆ ที่เกิดขึ้นโดย Millennial Movement นั้น เอฟเฟกต์ที่เป็นประเภทเดียวกันจะไม่สามารถซ้อนทับกันได้']}
         return lst3
     elif name.lower() == "skyward harp":
         lst4 = {'thum':"https://static.wikia.nocookie.net/gensin-impact/images/1/19/Weapon_Skyward_Harp.png/revision/latest/scale-to-width-down/256?cb=20201116035246", \
-        'his':"A greatbow that symbolizes Dvalin's affiliation with the Anemo Archon. The sound of the bow firing is music to the Anemo Archon's ears. It contains the power of the sky and wind within.", 
+        'his':"ธนูใหญ่ที่เป็นเหมือนตัวแทนของ Dvalin และเทพแห่งลมผู้เป็นเจ้าของเดิม เสียงที่เกิดขึ้นเมื่อยิงศรเป็นดั่งเสียงเพลงเมื่อเทพแห่งลมได้ฟัง มันมีพลังของท้องฟ้าและสายลมอยู่ด้วย.",
         'type':"Bow", 'stat':["674", "22.1%", "CRIT Rate"], \
         'ascen':"**[✦-----]**:10,000 Mora, Boreal Wolf's Milk Tooth x5, Dead Ley Line Branch x5, Firm Arrowhead x3\n \
         **[✦✦----]**:20,000 Mora, Boreal Wolf's Cracked Tooth x5, Dead Ley Line Branch x18, Firm Arrowhead x12\n \
         **[✦✦✦---]**:30,000 Mora, Boreal Wolf's Cracked Tooth x9, Dead Ley Line Leaves x9, Sharp Arrowhead x9\n \
         **[✦✦✦✦--]**:45,000 Mora, Boreal Wolf's Broken Fang x5, Dead Ley Line Leaves x18, Sharp Arrowhead x14\n \
         **[✦✦✦✦✦-]**:55,000 Mora, Boreal Wolf's Broken Fang x9, Ley Line Sprout x14, Weathered Arrowhead x9\n \
-        **[✦✦✦✦✦✦]**:65,000 Mora, Boreal Wolf's Nostalgia x6, Ley Line Sprout x27, Weathered Arrowhead x18", 'name':"Skyward Harp"}
+        **[✦✦✦✦✦✦]**:65,000 Mora, Boreal Wolf's Nostalgia x6, Ley Line Sprout x27, Weathered Arrowhead x18", 'name':"Skyward Harp",
+        'skill':["Echoing Ballad", '✰ เพิ่มความแรงคริขึ้น **20%**; เมื่อการโจมตีโดนเป้าหมายจะมีโอกาส **60%** \
+            ที่จะสร้างความเสียหายกายภาพเป็น 125% ของพลังโจมตีให้แก่ศัตรูที่อยู่ในอาณาเขตเล็ก ๆ ซึ่งเอฟเฟกต์นี้จะเกิดขึ้นหนึ่งครั้งในทุก 4 วินาที']}
         return lst4
     elif name.lower() == "amos' bow" or name.lower() == "amos bow" or name.lower() == "amos":
         lst5 = {'thum':"https://static.wikia.nocookie.net/gensin-impact/images/d/de/Weapon_Amos%27_Bow.png/revision/latest/scale-to-width-down/256?cb=20201120010513", \
-        'his':"An extremely ancient bow that has retained its power despite its original master being long gone. It draws power from everyone and everything in the world, and the further away you are from that which your heart desires, the more powerful it is.", \
+        'his':"คันธนูที่มีความเก่าแก่มากซึ่งแม้ว่าเจ้าของดั้งเดิมของมันจะไม่อยู่แล้วแต่ก็ยังคงแฝงไปด้วยพลังเช่นเดิม... พลังที่ไม่มีใครควบคุมนั่นกลับอยู่ท่ามกลางสรรพสิ่ง ซึ่งยิ่งมันอยู่ห่างจากสิ่งที่ไร้หัวใจเท่าไหร่ พลังนั่นก็จะยิ่งรุนแรงขึ้นเท่านั้น", \
         'type':"Bow", 'stat':["608", "49.6%", "ATK"], \
         'ascen':"**[✦-----]**:10,000 Mora, Fetters of the Dandelion Gladiator x5, Chaos Device x5, Slime Condensate x3\n \
         **[✦✦----]**:20,000 Mora, Chains of the Dandelion Gladiator x5, Chaos Device x18, Slime Condensate x12\n \
         **[✦✦✦---]**:30,000 Mora, Chains of the Dandelion Gladiator x9, Chaos Circuit x9, Slime Secretions x9\n \
         **[✦✦✦✦--]**:45,000 Mora, Shackles of the Dandelion Gladiator x5, Chaos Circuit x18, Slime Secretions x14\n \
         **[✦✦✦✦✦-]**:55,000 Mora, Shackles of the Dandelion Gladiator x9, Chaos Core x14, Slime Concentrate x9\n \
-        **[✦✦✦✦✦✦]**:65,000 Mora, Dream of the Dandelion Gladiator x6, Chaos Core x27, Slime Concentrate x18", 'name':"Amos' Bow"}
+        **[✦✦✦✦✦✦]**:65,000 Mora, Dream of the Dandelion Gladiator x6, Chaos Core x27, Slime Concentrate x18", 'name':"Amos' Bow",
+        'skill':["Strong-Willed", '✰ เพิ่มความเสียหายของการโจมตีปกติและชาร์จโจมตีขึ้น **12%**, ในทุก 0.1 วินาที \
+            หลังจากปล่อยลูกธนูของการโจมตีปกติและชาร์จโจมตี จะสร้างความเสียหายเพิ่มขึ้น **8%** และเพิ่มมากสุดถึง 5 ครั้ง']}
         return lst5
     elif name.lower() == "lost prayer to the sacred winds":
         lst6 = {'thum':"https://static.wikia.nocookie.net/gensin-impact/images/9/98/Weapon_Lost_Prayer_to_the_Sacred_Winds.png/revision/latest/scale-to-width-down/256?cb=20201116034132", \
-        'his':"An educational tome written by anonymous early inhabitants who worshiped the wind. It has been blessed by the wind for its faithfulness and influence over the millennia.", \
+        'his':"ตำราเพื่อการศึกษาที่เขียนขึ้นโดยบุคคลนิรนามผู้เลื่อมใสในเทพแห่งลม พลังแห่งความศรัทธาที่ไหลเวียนมานับพันปีได้รับการโปรดปรานจากสายลมที่เต็มไปด้วยพรและพลัง", \
         'type':"Catalyst", 'stat':["608", "33.1%", "CRIT Rate"], \
         'ascen':"**[✦-----]**:10,000 Mora, Fetters of the Dandelion Gladiator x5, Chaos Device x5, Slime Condensate x3\n \
         **[✦✦----]**:20,000 Mora, Chains of the Dandelion Gladiator x5, Chaos Device x18, Slime Condensate x12\n \
         **[✦✦✦---]**:30,000 Mora, Chains of the Dandelion Gladiator x9, Chaos Circuit x9, Slime Secretions x9\n \
         **[✦✦✦✦--]**:45,000 Mora, Shackles of the Dandelion Gladiator x5, Chaos Circuit x18, Slime Secretions x14\n \
         **[✦✦✦✦✦-]**:55,000 Mora, Shackles of the Dandelion Gladiator x9, Chaos Core x14, Slime Concentrate x9\n \
-        **[✦✦✦✦✦✦]**:65,000 Mora, Dream of the Dandelion Gladiator x6, Chaos Core x27, Slime Concentrate x18", 'name':"Lost Prayer to the Sacred Winds"}
+        **[✦✦✦✦✦✦]**:65,000 Mora, Dream of the Dandelion Gladiator x6, Chaos Core x27, Slime Concentrate x18", 'name':"Lost Prayer to the Sacred Winds",
+        'skill':["Boundless Blessing", '✰ เพิ่มความเร็วในการเคลื่อนที่ 10%; ในการต่อสู้จะได้รับโบนัสความเสียหายธาตุ **8%** \
+            ในทุก 4วินาที ซึ่งเอฟเฟกต์นี้จะมีมากสุด 4 ชั้น และจะเกิดขึ้นจนกว่าตัวละครจะหมดสติหรือออกจากการต่อสู้']}
         return lst6
     elif name.lower() == "skyward atlas":
         lst7 = {'thum':"https://static.wikia.nocookie.net/gensin-impact/images/3/33/Weapon_Skyward_Atlas.png/revision/latest/scale-to-width-down/256?cb=20201116035225", \
-        'his':"A cloud atlas symbolizing Dvalin and its former master, the Anemo Archon. It details the winds and clouds of the northern regions and contains the powers of the sky and wind.", \
+        'his':"บันทึกมวลเมฆที่เป็นเหมือนตัวแทนของ Dvalin และเทพแห่งลมผู้เป็นเจ้าของเดิม ภายในระบุรายละเอียดของสายลมและหมู่เมฆในแดนเหนือ และมีพลังของท้องฟ้าและสายลมอยู่ด้วย", \
         'type':"Catalyst", 'stat':["674", "33.1%", "ATK"], \
         'ascen':"**[✦-----]**:10,000 Mora, Boreal Wolf's Milk Tooth x5, Dead Ley Line Branch x5, Firm Arrowhead x3\n \
         **[✦✦----]**:20,000 Mora, Boreal Wolf's Cracked Tooth x5, Dead Ley Line Branch x18, Firm Arrowhead x12\n \
         **[✦✦✦---]**:30,000 Mora, Boreal Wolf's Cracked Tooth x9, Dead Ley Line Leaves x9, Sharp Arrowhead x9\n \
         **[✦✦✦✦--]**:45,000 Mora, Boreal Wolf's Broken Fang x5, Dead Ley Line Leaves x18, Sharp Arrowhead x14\n \
         **[✦✦✦✦✦-]**:55,000 Mora, Boreal Wolf's Broken Fang x9, Ley Line Sprout x14, Weathered Arrowhead x9\n \
-        **[✦✦✦✦✦✦]**:65,000 Mora, Boreal Wolf's Nostalgia x6, Ley Line Sprout x27, Weathered Arrowhead x18", 'name':"Skyward Atlas"}
+        **[✦✦✦✦✦✦]**:65,000 Mora, Boreal Wolf's Nostalgia x6, Ley Line Sprout x27, Weathered Arrowhead x18", 'name':"Skyward Atlas",
+        'skill':["Wandering Clouds", '✰ โบนัสความเสียหายธาตุเพิ่มขึ้น **12%**, เมื่อการโจมตีปกติถูกเป้าหมายจะมีโอกาส 50% \
+                    ที่จะได้รับการสนับสนุนจากเบื้องบน โดยภายในเวลา 15 วินาที จะทำการโจมตีศัตรูที่อยู่ใกล้เคียงเองและสร้างความเสียหายเท่ากับ \
+                    **160%** ของพลังโจมตี ซึ่งเอฟเฟกต์นี้จะเกิดขึ้นหนึ่งครั้งในทุก 30 วินาที']}
         return lst7
     elif name.lower() == "everlasting moonglow":
         lst8 = {'thum':"https://static.wikia.nocookie.net/gensin-impact/images/e/e1/Weapon_Everlasting_Moonglow.png/revision/latest/scale-to-width-down/256?cb=20210921104126", \
-        'his':"A string of lovely jasper from the deep sea. It shines with a pure radiance like that of the moon, and just as ever-distant.", \
+        'his':"วงแหวนหยกอันงดงามจากท้องทะเลลึก ยังคงส่องประกายระยิบระยับดุจดวงจันทร์ เฉกเช่นอดีตอันไกลโพ้น", \
         'type':"Catalyst", 'stat':["608", "49.6%", "HP"], \
         'ascen':"**[✦-----]**:10,000 Mora, Coral Branch of a Distant Sea x5, Dismal Prism x5, Spectral Husk x3\n \
         **[✦✦----]**:20,000 Mora, Jeweled Branch of a Distant Sea x5, Dismal Prism x18, Spectral Husk x12\n \
         **[✦✦✦---]**:30,000 Mora, Jeweled Branch of a Distant Sea x9, Crystal Prism x9, Spectral Heart x9\n \
         **[✦✦✦✦--]**:45,000 Mora, Jade Branch of a Distant Sea x5, Crystal Prism x18, Spectral Heart x14\n \
         **[✦✦✦✦✦-]**:55,000 Mora, Jade Branch of a Distant Sea x9, Polarizing Prism x14, Spectral Nucleus x9\n \
-        **[✦✦✦✦✦✦]**:65,000 Mora, Golden Branch of a Distant Sea x6, Polarizing Prism x27, Spectral Nucleus x18", 'name':"Everlasting Moonglow"}
+        **[✦✦✦✦✦✦]**:65,000 Mora, Golden Branch of a Distant Sea x6, Polarizing Prism x27, Spectral Nucleus x18", 'name':"Everlasting Moonglow",
+        'skill':["Byakuya Kougetsu", '✰ โบนัสการรักษาเพิ่มขึ้น **10%**; โจมตีปกติสร้างความเสียหายเพิ่มขึ้น \
+                    โดยปริมาณที่เพิ่มจะเท่ากับ **1%** ของพลังชีวิตสูงสุดของตัวละครที่ใช้อาวุธนี้ และภายใน 12 วินาที หลังจากใช้ท่าไม้ตาย \
+                    เมื่อโจมตีปกติถูกศัตรู จะฟื้นฟูพลังงานธาตุ 0.6 หน่วย โดยจะฟื้นฟูพลังงานธาตุด้วยวิธีนี้ได้มากสุดหนึ่งครั้ง ในทุก 0.1 วินาที']}
         return lst8
     elif name.lower() == "memory of dust":
         lst9 = {'thum':"https://static.wikia.nocookie.net/gensin-impact/images/c/ca/Weapon_Memory_of_Dust.png/revision/latest/scale-to-width-down/256?cb=20201119232148", \
-        'his':"A stone dumbbell containing distant memories. Its endless transformations reveal the power within.", \
+        'his':"ทุ่นหินที่เต็มไปด้วยความทรงจำอันแสนยาวนาน การเปลี่ยนแปลงที่ไม่มีที่สิ้นสุด ได้เผยให้เห็นถึงพลังของมัน", \
         'type':"Catalyst", 'stat':["608", "49.6%", "ATK"], \
         'ascen':"**[✦-----]**:10,000 Mora, Grain of Aerosiderite x5, Fragile Bone Shard x5, Damaged Mask x3\n \
         **[✦✦----]**:20,000 Mora, Piece of Aerosiderite x5, Fragile Bone Shard x18, Damaged Mask x12\n \
         **[✦✦✦---]**:30,000 Mora, Piece of Aerosiderite x9, Sturdy Bone Shard x9, Stained Mask x9\n \
         **[✦✦✦✦--]**:45,000 Mora, Bit of Aerosiderite x5, Sturdy Bone Shard x18, Stained Mask x14\n \
         **[✦✦✦✦✦-]**:55,000 Mora, Bit of Aerosiderite x9, Fossilized Bone Shard x14, Ominous Mask x9\n \
-        **[✦✦✦✦✦✦]**:65,000 Mora, Chunk of Aerosiderite x6, Fossilized Bone Shard x27, Ominous Mask x18", 'name':"Memory of Dust"}
+        **[✦✦✦✦✦✦]**:65,000 Mora, Chunk of Aerosiderite x6, Fossilized Bone Shard x27, Ominous Mask x18", 'name':"Memory of Dust",
+        'skill':["Golden Majesty", '✰ เพิ่มประสิทธิภาพโล่ป้องกัน **20%** ภายในเวลา 8 วินาที หลังจากโจมตีถูกเป้าหมาย จะเพิ่มพลังโจมตี **20%** \
+                    โดยเอฟเฟกต์นี้จะซ้อนทับกันมากสุด 5 ชั้น ซึ่งจะเกิดขึ้นหนึ่งครั้งในทุก 0.3 วินาที เมื่อได้รับการป้องกันจากโล่ พลังโจมตีของเฟเฟกต์นี้จะเพิ่มขึ้น 100%']}
         return lst9
     elif name.lower() == "wolf's gravestone":
         lst10 = {'thum':"https://static.wikia.nocookie.net/gensin-impact/images/4/4f/Weapon_Wolf%27s_Gravestone.png/revision/latest/scale-to-width-down/256?cb=20201116035623", \
-        'his':"A longsword used by the Wolf Knight. Originally just a heavy sheet of iron given to the knight by a blacksmith from the city, it became endowed with legendary power owing to his friendship with the wolves.", \
+        'his':"ดาบยาวที่ใช้โดยอัศวินหมาป่า แต่เดิมแล้วมันเป็นเพียงแผ่นเหล็กที่ทำขึ้นโดยช่างเหล็กในเมือง แต่กระนั้นมันก็ให้พลังแห่งตำนานให้กับมิตรภาพที่ต่อเหล่าหมาป่า", \
         'type':"Claymore", 'stat':["608", "49.6%", "ATK"], \
         'ascen':"**[✦-----]**:10,000 Mora, Fetters of the Dandelion Gladiator x5, Chaos Device x5, Divining Scroll x3\n \
         **[✦✦----]**:20,000 Mora, Chains of the Dandelion Gladiator x5, Chaos Device x18, Divining Scroll x12\n \
         **[✦✦✦---]**:30,000 Mora, Chains of the Dandelion Gladiator x9, Chaos Circuit x9, Sealed Scroll x9\n \
         **[✦✦✦✦--]**:45,000 Mora, Shackles of the Dandelion Gladiator x5, Chaos Circuit x18, Sealed Scroll x14\n \
         **[✦✦✦✦✦-]**:55,000 Mora, Shackles of the Dandelion Gladiator x9, Chaos Core x14, Forbidden Curse Scroll x9\n \
-        **[✦✦✦✦✦✦]**:65,000 Mora, Dream of the Dandelion Gladiator x6, Chaos Core x27, Forbidden Curse Scroll x18", 'name':"Wolf's Gravestone"}
+        **[✦✦✦✦✦✦]**:65,000 Mora, Dream of the Dandelion Gladiator x6, Chaos Core x27, Forbidden Curse Scroll x18", 'name':"Wolf's Gravestone",
+        'skill':["Wolfish Tracker", '✰ เพิ่มพลังโจมตี 20%, เมื่อโจมตีถูกศัตรูที่มีพลังชีวิตต่ำกว่า **30%** \
+                    พลังโจมตีของสมาชิกทั้งหมดในทีมจะเพิ่มขึ้น **40%** เป็นเวลา 12 วินาที ซึ่งเอฟเฟกต์นี้จะใช้ได้หนึ่งครั้งในทุก 30 วินาที']}
         return lst10
     elif name.lower() == "skyward pride":
         lst11 = {'thum':"https://static.wikia.nocookie.net/gensin-impact/images/0/0b/Weapon_Skyward_Pride.png/revision/latest/scale-to-width-down/256?cb=20201116035255", \
-        'his':"A claymore that symbolizes the pride of Dvalin soaring through the skies. When swung, it emits a deep hum as the full force of Dvalin's command of the sky and the wind is unleashed.", \
+        'his':"ดาบใหญ่ที่เป็นสัญลักษณ์แห่งความทรนงของ Dvalin ผ่านฟากฟ้า เมื่อเหวี่ยงมันจะมีคลื่นเสียงต่ำที่เกิดจากพลังของฟ้าและพลังแห่งลมที่ซ่อนอยู่ภายใน", \
         'type':"Claymore", 'stat':["674", "36.8%", "Energy Recharge"], \
         'ascen':"**[✦-----]**:10,000 Mora, Boreal Wolf's Milk Tooth x5, Dead Ley Line Branch x5, Slime Condensate x3\n \
         **[✦✦----]**:20,000 Mora, Boreal Wolf's Cracked Tooth x5, Dead Ley Line Branch x18, Slime Condensate x12\n \
         **[✦✦✦---]**:30,000 Mora, Boreal Wolf's Cracked Tooth x9, Dead Ley Line Leaves x9, Slime Secretions x9\n \
         **[✦✦✦✦--]**:45,000 Mora, Boreal Wolf's Broken Fang x5, Dead Ley Line Leaves x18, Slime Secretions x14\n \
         **[✦✦✦✦✦-]**:55,000 Mora, Boreal Wolf's Broken Fang x9, Ley Line Sprout x14, Slime Concentrate x9\n \
-        **[✦✦✦✦✦✦]**:65,000 Mora, Boreal Wolf's Nostalgia x6, Ley Line Sprout x27, Slime Concentrate x18", 'name':"Skyward Pride"}
+        **[✦✦✦✦✦✦]**:65,000 Mora, Boreal Wolf's Nostalgia x6, Ley Line Sprout x27, Slime Concentrate x18", 'name':"Skyward Pride",
+        'skill':["Sky-ripping Dragon Spine", '✰ เพิ่มความเสียหายที่สร้างขึ้น **8%**; หลังจากปล่อยท่าไม้ตาย: \
+                    เมื่อการโจมตีปกติและชาร์จโจมตีโดนเป้าหมายจะสร้างใบมีดสูญญากาศขึ้นมาและสร้างความเสียหาย **80%** \
+                    ของพลังโจมตีให้แก่ศัตรูที่อยู่ในเส้นทางเป็นเวลา 20 วินาที หรือจนกว่าจะปล่อยใบมีดสุญญากาศถึง 8 ครั้ง']}
         return lst11
     elif name.lower() == "the unforged":
         lst12 = {'thum':"https://static.wikia.nocookie.net/gensin-impact/images/f/f7/Weapon_The_Unforged.png/revision/latest/scale-to-width-down/256?cb=20201129060814", \
-        'his':"Capable of driving away evil spirits and wicked people alike, this edgeless claymore seems to possess divine might.", \
+        'his':"ดาบใหญ่ที่สามารถกำจัดอสูร ได้ราวกับมีพลังเทพเจ้าอันน่าเกรงขาม", \
         'type':"Claymore", 'stat':["608", "49.6%", "ATK"], \
         'ascen':"**[✦-----]**:10,000 Mora, Mist Veiled Lead Elixir x5, Mist Grass Pollen x5, Treasure Hoarder Insignia x3\n \
         **[✦✦----]**:20,000 Mora, Mist Veiled Mercury Elixir x5, Mist Grass Pollen x18, Treasure Hoarder Insignia x12\n \
         **[✦✦✦---]**:30,000 Mora, Mist Veiled Mercury Elixir x9, Mist Grass x9, Silver Raven Insignia x9\n \
         **[✦✦✦✦--]**:45,000 Mora, Mist Veiled Gold Elixir x5, Mist Grass x18, Silver Raven Insignia x14\n \
         **[✦✦✦✦✦-]**:55,000 Mora, Mist Veiled Gold Elixir x9, Mist Grass Wick x14, Golden Raven Insignia x9\n \
-        **[✦✦✦✦✦✦]**:65,000 Mora, Mist Veiled Primo Elixir x6, Mist Grass Wick x27, Golden Raven Insignia x18", 'name':"The Unforged"}
+        **[✦✦✦✦✦✦]**:65,000 Mora, Mist Veiled Primo Elixir x6, Mist Grass Wick x27, Golden Raven Insignia x18", 'name':"The Unforged",
+        'skill':["Golden Majesty", '✰ เพิ่มประสิทธิภาพโล่ป้องกัน **20%** ภายในเวลา 8 วินาที หลังจากโจมตีถูกเป้าหมาย จะเพิ่มพลังโจมตี **4%** \
+                    โดยเอฟเฟกต์นี้จะซ้อนทับกันมากสุด 5 ชั้น ซึ่งจะเกิดขึ้นหนึ่งครั้งในทุก 0.3 วินาที เมื่อได้รับการป้องกันจากโล่ พลังโจมตีของเอฟเฟกต์นี้จะเพิ่มขึ้น 100%']}
         return lst12
     elif name.lower() == "song of broken pines":
         lst13 = {'thum':"https://static.wikia.nocookie.net/gensin-impact/images/d/dd/Weapon_Song_of_Broken_Pines.png/revision/latest/scale-to-width-down/256?cb=20210518151739", \
@@ -174,117 +337,163 @@ def weapon_info_list(name):
         **[✦✦✦---]**:30,000 Mora, Debris of Decarabian's City x9, Black Bronze Horn x9, Stained Mask x9\n \
         **[✦✦✦✦--]**:45,000 Mora, Fragment of Decarabian's Epic x5, Black Bronze Horn x18, Stained Mask x14\n \
         **[✦✦✦✦✦-]**:55,000 Mora, Fragment of Decarabian's Epic x9, Black Crystal Hornx14, Ominous Mask x9\n \
-        **[✦✦✦✦✦✦]**:65,000 Mora, Scattered Piece of Decarabian's Dream x6, Black Crystal Horn x27, Ominous Mask x18", 'name':"Song of Broken Pines"}
+        **[✦✦✦✦✦✦]**:65,000 Mora, Scattered Piece of Decarabian's Dream x6, Black Crystal Horn x27, Ominous Mask x18", 'name':"Song of Broken Pines",
+        'skill':["Rebel's Banner Hymn", '✰ ส่วนหนึ่งของ Millennial Movement ที่ล่องลอยอยู่ในอากาศ ช่วยเพิ่มพลังโจมตีขึ้น **16%** \
+                    เมื่อตัวละครที่สวมใส่โจมตีปกติหรือชาร์จโจมตีศัตรู ตัวละครจะได้รับ Sigil of Whispers หนึ่งอัน โดยจะเกิดขึ้นได้มากสุดหนึ่งครั้งในทุก 0.3 วินาที \
+                    เมื่อครอบครอง Sigil of Whispers ครบ 4 อัน จะใช้ Sigil of Whispers ทั้งหมดเพื่อมอบเอฟเฟกต์ "Millennial Movement: Banner-Hymn" \
+                    ให้แก่ตัวละครทั้งหมดในทีมที่อยู่ในบริเวณใกล้เคียงเป็นเวลา 12 วินาที: ความเร็วในการโจมตีปกติเพิ่มขึ้น **12%** พลังโจมตีเพิ่มขึ้น **20%** \
+                    และจะไม่สามารถรับ Sigil of Whispers ได้อีกภายในเวลา 20 วินาที หลังจากเอฟเฟกต์บัฟนี้แสดงผล \
+                    โดยที่ในบรรดาเอฟเฟกต์บัฟต่าง ๆ ที่เกิดขึ้นโดย Millennial Movement นั้น เอฟเฟกต์บัฟที่เป็นประเภทเดียวกันจะไม่สามารถซ้อนทับกันได้']}
         return lst13
+    elif name.lower() == "redhorn stonethresher":
+        lstnew = {'thum':"https://static.wikia.nocookie.net/gensin-impact/images/d/d4/Weapon_Redhorn_Stonethresher.png/revision/latest/scale-to-width-down/60?cb=20211113040821", \
+        'his':'According to its previous owner, this weapon is the "Mighty Redhorn Stoic Stonethreshing Gilded Goldcrushing Lion Lord" that can send any monster packing with its tail between its legs.', \
+        'type':"Claymore", 'stat':["542", "88.2%", "CRIT DMG"], \
+        'ascen':"**[✦-----]**:10,000 Mora, Narukami's Wisdom x5, Concealed Claw x5, Old Handguard x3\n \
+        **[✦✦----]**:20,000 Mora, Narukami's Joy x5, Concealed Claw x18, Old Handguard x12\n \
+        **[✦✦✦---]**:30,000 Mora, Narukami's Joy x9, Concealed Unguis x9, Kageuchi Handguard x9\n \
+        **[✦✦✦✦--]**:45,000 Mora, Narukami's Affection x5, Concealed Unguis x18, Kageuchi Handguard x14\n \
+        **[✦✦✦✦✦-]**:55,000 Mora, Narukami's Affection x9, Concealed Talon x14, Famed Handguard x9\n \
+        **[✦✦✦✦✦✦]**:65,000 Mora, Narukami's Valor x6, Concealed Talon x27, Famed Handguard x18", 'name':"Redhorn Stonethresher",
+        'skill':["Gokadaiou Otogibanashi", '✰ เพิ่มพลังป้องกัน **28%**; เพิ่มความเสียหายของการโจมตีปกติและชาร์จโจมตีขึ้น **40%** ของพลังป้องกัน']}
     elif name.lower() == "engulfing lightning":
         lst14 = {'thum':"https://static.wikia.nocookie.net/gensin-impact/images/2/21/Weapon_Engulfing_Lightning.png/revision/latest/scale-to-width-down/256?cb=20210901044846", \
-        'his':'A naginata used to "cut grass." Any army that stands before this weapon will probably be likewise cut down...', \
+        'his':'ง้าวนางินาตะที่ใช้ในการ "ตัดหญ้า" กองทัพที่เผชิญหน้ากับสิ่งนี้ ก็คงจะล้มลงราวกับต้นหญ้าเหล่านั้นล่ะนะ...', \
         'type':"Polearm", 'stat':["608", "55.1%", "Energy Recharge"], \
         'ascen':"**[✦-----]**:10,000 Mora, Mask of the Wicked Lieutenant x5, Chaos Gear x5, Old Handguard x3\n \
         **[✦✦----]**:20,000 Mora, Mask of the Tiger's Bite x5, Chaos Gear x18, Old Handguard x12\n \
         **[✦✦✦---]**:30,000 Mora, Mask of the Tiger's Bite x9, Chaos Axis x9, Kageuchi Handguard x9\n \
         **[✦✦✦✦--]**:45,000 Mora, Mask of the One-Horned x5, Chaos Axis x18, Kageuchi Handguard x14\n \
         **[✦✦✦✦✦-]**:55,000 Mora, Mask of the One-Horned x9, Chaos Oculus x14, Famed Handguard x9\n \
-        **[✦✦✦✦✦✦]**:65,000 Mora, Mask of the Kijin x6, Chaos Oculus x27, Famed Handguard x18", 'name':"Engulfing Lightning"}
+        **[✦✦✦✦✦✦]**:65,000 Mora, Mask of the Kijin x6, Chaos Oculus x27, Famed Handguard x18", 'name':"Engulfing Lightning",
+        'skill':["Timeless Dream: Eternal Stove", '✰ พลังโจมตีเพิ่มขึ้น โดยที่ระดับการเพิ่มจะเท่ากับ **28%** ของส่วนที่เกินมาจาก 100% ของประสิทธิภาพการฟื้นฟูพลังงาน \
+                    โดยจะสามารถเพิ่มด้วยวิธีนี้ได้มากสุดถึง **80%** และภายในเวลา 12 วินาที หลังจากปล่อยท่าไม้ตาย ประสิทธิภาพการฟื้นฟูพลังงานจะเพิ่มขึ้น **30%**']}
         return lst14
     elif name.lower() == "skyward spine":
         lst15 = {'thum':"https://static.wikia.nocookie.net/gensin-impact/images/6/69/Weapon_Skyward_Spine.png/revision/latest/scale-to-width-down/256?cb=20201116035301", \
-        'his':"A polearm that symbolizes Dvalin's fire resolve. The upright shaft of this weapon points towards the heavens, clad in the might of sky and wind.", \
+        'his':"หอกที่เป็นสัญลักษณ์ของ ความตั้งใจของ Dvalin ด้ามหอกที่ตรงดิ่งชี้ไปยังฟากฟ้า มีพลังของฟ้าและพลังแห่งลม ซ่อนอยู่ภายใน", \
         'type':"Polearm", 'stat':["674", "36.8%", "Energy Recharge"], \
         'ascen':"**[✦-----]**:10,000 Mora, Fetters of the Dandelion Gladiator x5, Chaos Device x5, Divining Scroll x3\n \
         **[✦✦----]**:20,000 Mora, Chains of the Dandelion Gladiator x5, Chaos Device x18, Divining Scroll x12\n \
         **[✦✦✦---]**:30,000 Mora, Chains of the Dandelion Gladiator x9, Chaos Circuit x9, Sealed Scroll x9\n \
         **[✦✦✦✦--]**:45,000 Mora, Shackles of the Dandelion Gladiator x5, Chaos Circuit x18, Sealed Scroll x14\n \
         **[✦✦✦✦✦-]**:55,000 Mora, Shackles of the Dandelion Gladiator x9, Chaos Core x14, Forbidden Curse Scroll x9\n \
-        **[✦✦✦✦✦✦]**:65,000 Mora, Dream of the Dandelion Gladiator x6, Chaos Core x27, Forbidden Curse Scroll x18", 'name':"Skyward Spine"}
+        **[✦✦✦✦✦✦]**:65,000 Mora, Dream of the Dandelion Gladiator x6, Chaos Core x27, Forbidden Curse Scroll x18", 'name':"Skyward Spine",
+        'skill':["Blackwing", '✰ อัตราคริเพิ่มขึ้น **8%** และเพิ่มความเร็วการโจมตีปกติ 12% เมื่อทำกรโจมตีปกติ และชาร์จโจมตีถูกศัตรู \
+                    มีโอกาสสร้างใบมีดสุญญากาศ 50% และสร้างความเสียหาย เพิ่มเติมในพื้นที่วงแคบ **40%** ของพลังโจมตี ซึ่งเอฟเฟกต์นี้จะเกิดขึ้น หนึ่งครั้งในทุก 2 วินาที']}
         return lst15
     elif name.lower() == "primordial jade winged-spear":
         lst16 = {'thum':"https://static.wikia.nocookie.net/gensin-impact/images/8/80/Weapon_Primordial_Jade_Winged-Spear.png/revision/latest/scale-to-width-down/256?cb=20201116152024", \
-        'his':"A jade polearm made by the archons, capable of slaying ancient beasts.", \
+        'his':"หอกที่แปลงมาจากหยกจ้าวปีศาจ สามารถใช้กำจัดสัตว์ร้ายโบราณได้", \
         'type':"Polearm", 'stat':["674", "22.1%", "CRIT Rate"], \
         'ascen':"**[✦-----]**:10,000 Mora, Luminous Sands from Guyun x5, Hunter's Sacrificial Knife x5, Recruit's Insignia x3\n \
         **[✦✦----]**:20,000 Mora, Lustrous Stone from Guyun x5, Hunter's Sacrificial Knife x18, Recruit's Insignia x12\n \
         **[✦✦✦---]**:30,000 Mora, Lustrous Stone from Guyun x9, Agent's Sacrificial Knife x9, Sergeant's Insignia x9\n \
         **[✦✦✦✦--]**:45,000 Mora, Relic from Guyun x5, Agent's Sacrificial Knife x18, Sergeant's Insignia x14\n \
         **[✦✦✦✦✦-]**:55,000 Mora, Relic from Guyun x9, Inspector's Sacrificial Knife x14, Lieutenant's Insignia x9\n \
-        **[✦✦✦✦✦✦]**:65,000 Mora, Divine Body from Guyun x6, Inspector's Sacrificial Knife x27, Lieutenant's Insignia x18", 'name':"Primordial Jade Winged-Spear"}
+        **[✦✦✦✦✦✦]**:65,000 Mora, Divine Body from Guyun x6, Inspector's Sacrificial Knife x27, Lieutenant's Insignia x18", 'name':"Primordial Jade Winged-Spear",
+        'skill':["Eagle Spear of Justice", '✰ เพิ่มพลังโจมตีขึ้น **3.2%** เมื่อโจมตีถูกศัตรู เป็นเวลา 6 วินาที และมากสุดถึง 7 ชั้น \
+                    ซึ่งเอฟเฟกต์นี้จะเกิดขึ้นได้หนึ่งครั้งในทุก 0.3 วินาที โดยความเสียหายจะเพิ่มขึ้น **12%** เมื่ออยู่ในสภาวะเต็มชั้น']}
         return lst16
     elif name.lower() == "staff of homa":
         lst17 = {'thum':"https://static.wikia.nocookie.net/gensin-impact/images/1/17/Weapon_Staff_of_Homa.png/revision/latest/scale-to-width-down/256?cb=20210225200935", \
-        'his':'A "firewood staff" that was once used in ancient and long-lost rituals.', \
+        'his':'"หอกแห่งไฟ" ที่ใช้ในพิธีกรรมโบราณซึ่งได้สูญหายไปเป็นเวลานาน', \
         'type':"Polearm", 'stat':["608", "66.2%", "CRIT DMG"], \
         'ascen':"**[✦-----]**:10,000 Mora, Grain of Aerosiderite x5, Dead Ley Line Branch x5, Slime Condensate x3\n \
         **[✦✦----]**:20,000 Mora, Piece of Aerosiderite x5, Dead Ley Line Branch x18, Slime Condensate x12\n \
         **[✦✦✦---]**:30,000 Mora, Piece of Aerosiderite x9, Dead Ley Line Leaves x9, Slime Secretions x9\n \
         **[✦✦✦✦--]**:45,000 Mora, Bit of Aerosiderite x5, Dead Ley Line Leaves x18, Slime Secretions x14\n \
         **[✦✦✦✦✦-]**:55,000 Mora, Bit of Aerosiderite x9, Ley Line Sprout x14, Slime Concentrate x9\n \
-        **[✦✦✦✦✦✦]**:65,000 Mora, Chunk of Aerosiderite x6, Ley Line Sprout x27, Slime Concentrate x18", 'name':"Staff of Homa"}
+        **[✦✦✦✦✦✦]**:65,000 Mora, Chunk of Aerosiderite x6, Ley Line Sprout x27, Slime Concentrate x18", 'name':"Staff of Homa",
+        'skill':["Reckless Cinnabar", '✰ เพิ่มพลังชีวิต **20%** นอกจากนี้ จะได้รับโบนัสพลังโจมตีเป็น **0.8%** \
+            ของพลังชีวิตสูงสุดของตัวละครที่ใช้อาวุธนี้ และในตอนที่ตัวละครที่ใช้อาวุธนี้มีพลังชีวิตต่ำกว่า 50% จะได้รับพลังโจมตีเพิ่มขึ้นอีก 1% ของพลังชีวิตสูงสุด']}
         return lst17
     elif name.lower() == "vortex vanquisher":
         lst18 = {'thum':"https://static.wikia.nocookie.net/gensin-impact/images/d/d6/Weapon_Vortex_Vanquisher.png/revision/latest/scale-to-width-down/256?cb=20201129060822", \
-        'his':"This sharp polearm can seemingly pierce through anything. When swung, one can almost see the rift it tears in the air.", \
+        'his':"หอกยาวอันแหลมคมที่สามารถทะลวงทุกอย่างได้ เมื่อหอกกวัดแกว่งมันราวกับสามารถเห็นรอยแยกในอากาศได้", \
         'type':"Polearm", 'stat':["608", "49.6%", "ATK"], \
         'ascen':"**[✦-----]**:10,000 Mora, Grain of Aerosiderite x5, Fragile Bone Shard x5, Treasure Hoarder Insignia x3\n \
         **[✦✦----]**:20,000 Mora, Piece of Aerosiderite x5, Fragile Bone Shard x18, Treasure Hoarder Insignia x12\n \
         **[✦✦✦---]**:30,000 Mora, Piece of Aerosiderite x9, Sturdy Bone Shard x9, Silver Raven Insignia x9\n \
         **[✦✦✦✦--]**:45,000 Mora, Bit of Aerosiderite x5, Sturdy Bone Shard x18, Silver Raven Insignia x14\n \
         **[✦✦✦✦✦-]**:55,000 Mora, Bit of Aerosiderite x9, Fossilized Bone Shard x14, Golden Raven Insignia x9\n \
-        **[✦✦✦✦✦✦]**:65,000 Mora, Chunk of Aerosiderite x6, Fossilized Bone Shard x27, Golden Raven Insignia x18", 'name':"Vortex Vanquisher"}
+        **[✦✦✦✦✦✦]**:65,000 Mora, Chunk of Aerosiderite x6, Fossilized Bone Shard x27, Golden Raven Insignia x18", 'name':"Vortex Vanquisher",
+        'skill':["Golden Majesty", '✰ เพิ่มประสิทธิภาพโล่ป้องกัน **20%** ภายในเวลา 8 วินาที หลังจากโจมตีถูกเป้าหมาย จะเพิ่มพลังโจมตี **4%** \
+                    โดยเอฟเฟกต์นี้จะซ้อนทับกันมากสุด 5 ชั้น ซึ่งจะเกิดขึ้นหนึ่งครั้งในทุก 0.3 วินาที เมื่อได้รับการป้องกันจากโล่ พลังโจมตีของเอฟเฟกต์นี้จะเพิ่มขึ้น 100%']}
         return lst18
     elif name.lower() == "mistsplitter reforged":
         lst19 = {'thum':"https://static.wikia.nocookie.net/gensin-impact/images/0/09/Weapon_Mistsplitter_Reforged.png/revision/latest/scale-to-width-down/350?cb=20210721035408", \
-        'his':'A sword that blazes with a fierce violet light. The name "Reforged" comes from it having been broken once before.', \
+        'his':'ดาบที่เปล่งประกายแสงสีม่วงออกมาอย่างรุนแรง ชื่อ "Reforged" ของมันนั้น ได้มาจากการที่ครั้งหนึ่งมันเคยหักไป', \
         'type':"Sword", 'stat':["674", "44.1%", "CRIT DMG"], \
         'ascen':"**[✦-----]**:10,000 Mora, Coral Branch of a Distant Sea x5, Chaos Gear x5, Old Handguard x3\n \
         **[✦✦----]**:20,000 Mora, Jeweled Branch of a Distant Sea x5, Chaos Gear x18, Old Handguard x12\n \
         **[✦✦✦---]**:30,000 Mora, Jeweled Branch of a Distant Sea x9, Chaos Axis x9, Kageuchi Handguard x9\n \
         **[✦✦✦✦--]**:45,000 Mora, Jade Branch of a Distant Sea x5, Chaos Axis x18, Kageuchi Handguard x14\n \
         **[✦✦✦✦✦-]**:55,000 Mora, Jade Branch of a Distant Sea x9, Chaos Oculus x14, Famed Handguard x9\n \
-        **[✦✦✦✦✦✦]**:65,000 Mora, Golden Branch of a Distant Sea x6, Chaos Oculus x27, Famed Handguard x18", 'name':"Mistsplitter Reforged	"}
+        **[✦✦✦✦✦✦]**:65,000 Mora, Golden Branch of a Distant Sea x6, Chaos Oculus x27, Famed Handguard x18", 'name':"Mistsplitter Reforged",
+        'skill':["Mistsplitter's Edge", '✰ ได้รับโบนัสความเสียหายของธาตุทั้งหมด **12%** และได้รับพลังของ \
+                    "Mistsplitter\'s Emblem" โดยเมื่อครอบครอง Mistsplitter\'s Emblem 1/2/3 ชั้น จะได้รับโบนัสความเสี่ยหายของธาตุตัวเอง **8/16/28%** \
+                        โดยที่ตัวละครจะได้รับ Mistsplitter\'s Emblem 1 ชั้น ในแต่ละสถานการณ์ต่อไปนี้: \
+                        เมื่อการโจมตีปกติทำให้เกิดความเสียหายธาตุ (คงอยู่ 5 วินาที); เมื่อใช้ท่าไม้ตาย (คงอยู่ 10 วินาที); \
+                        เมื่อพลังงานธาตุของตัวละครต่ำกว่า 100% (จะหายไปเมื่อพลังงานธาตุของตัวละครเต็ม) โดยช่วงเวลาคงอยู่ของ Mistsplitter\'s Emblem แต่ละชั้นจะถูกคิดแยกกัน']}
         return lst19
     elif name.lower() == "aquila favonia":
         lst20 = {'thum':"https://static.wikia.nocookie.net/gensin-impact/images/6/6a/Weapon_Aquila_Favonia.png/revision/latest/scale-to-width-down/256?cb=20201120002750", \
-        'his':"The soul of the Knights of Favonius. Millennia later, it still calls on the winds of swift justice to vanquish all evil—just like the last heroine who wielded it.", \
+        'his':"จิตวิญญาณของเหล่าอัศวินแห่ง Favonius แม้พันปีผ่านไป มันก็ยังคงเป็นดั่งสายลมแห่ง ความยุติธรรมที่ขับไล่สิ่งชั่วร้าย เช่นเดียวกับวีรชนหญิง คนสุดท้ายที่กวัดแกว่งมัน", \
         'type':"Sword", 'stat':["674", "41.3%", "Physical DMG"], \
         'ascen':"**[✦-----]**:10,000 Mora, Tile of Decarabian's Tower x5, Heavy Horn x5, Firm Arrowhead x3\n \
         **[✦✦----]**:20,000 Mora, Debris of Decarabian's City x5, Heavy Horn x18, Firm Arrowhead x12\n \
         **[✦✦✦---]**:30,000 Mora, Debris of Decarabian's City x9, Black Bronze Horn x9, Sharp Arrowhead x9\n \
         **[✦✦✦✦--]**:45,000 Mora, Fragment of Decarabian's Epic x5, Black Bronze Horn x18, Sharp Arrowhead x14\n \
         **[✦✦✦✦✦-]**:55,000 Mora, Fragment of Decarabian's Epic x9, Black Crystal Horn x14, Weathered Arrowhead x9\n \
-        **[✦✦✦✦✦✦]**:65,000 Mora, Scattered Piece of Decarabian's Dream x6, Black Crystal Horn x27, Weathered Arrowhead x18", 'name':"Aquila Favonia"}
+        **[✦✦✦✦✦✦]**:65,000 Mora, Scattered Piece of Decarabian's Dream x6, Black Crystal Horn x27, Weathered Arrowhead x18", 'name':"Aquila Favonia",
+        'skill':["Falcon's Defiance", '✰ เพิ่มพลังโจมตี **20%**; ปลดปล่อยเมื่อ ได้รับความเสียหาย: จิตวิญญาณของวิหคตะวันตกที่ \
+                    ชูธงแห่งการต่อต้านจะตื่นขึ้น และฟื้นฟูพลังชีวิตเท่ากับ **100%** ของพลังโจมตี และสร้างความเสียหายเป็น **200%** ของพลังโจมตี\
+                    แก่ศัตรูโดยรอบ โดยเอฟเฟกต์นี้จะเกิดขึ้น หนึ่งครั้งในทุก 15 วินาที']}
         return lst20
     elif name.lower() == "summit shaper":
         lst21 = {'thum':"https://static.wikia.nocookie.net/gensin-impact/images/c/ca/Weapon_Summit_Shaper.png/revision/latest/scale-to-width-down/256?cb=20201223042936", \
-        'his':"A symbol of a legendary pact, this sharp blade once cut off the peak of a mountain.", \
+        'his':"ดาบอันแหลมคมในตำนานนี้ เป็นสัญลักษณ์ของสัญญาพิเศษบางอย่าง ดูเหมือนว่าดาบเล่มนี้ได้เคยใช้ตัดยอดเขาด้วย", \
         'type':"Sword", 'stat':["608", "49.6%", "CRIT Rate"], \
         'ascen':"**[✦-----]**:10,000 Mora, Luminous Sands from Guyun x5, Hunter's Sacrificial Knife x5, Damaged Mask x3\n \
         **[✦✦----]**:20,000 Mora, Lustrous Stone from Guyun x5, Hunter's Sacrificial Knife x18, Damaged Mask x12\n \
         **[✦✦✦---]**:30,000 Mora, Lustrous Stone from Guyun x9, Agent's Sacrificial Knife x9, Stained Mask x9\n \
         **[✦✦✦✦--]**:45,000 Mora, Relic from Guyun x5, Agent's Sacrificial Knife x18, Stained Mask x14\n \
         **[✦✦✦✦✦-]**:55,000 Mora, Relic from Guyun x9, Inspector's Sacrificial Knife x14, Ominous Mask x9\n \
-        **[✦✦✦✦✦✦]**:65,000 Mora, Divine Body from Guyun x6, Inspector's Sacrificial Knife x27, Ominous Mask x18", 'name':"Summit Shaper"}
+        **[✦✦✦✦✦✦]**:65,000 Mora, Divine Body from Guyun x6, Inspector's Sacrificial Knife x27, Ominous Mask x18", 'name':"Summit Shaper",
+        'skill':["Golden Majesty", '✰ เพิ่มประสิทธิภาพโล่ป้องกัน **20%** ภายในเวลา 8 วินาที หลังจากโจมตีถูกเป้าหมาย จะเพิ่มพลังโจมตี **4%** \
+                    โดยเอฟเฟกต์นี้จะซ้อนทับกันมากสุด 5 ชั้น ซึ่งจะเกิดขึ้นหนึ่งครั้งในทุก 0.3 วินาที เมื่อได้รับการป้องกันจากโล่ พลังโจมตีของเฟเฟกต์นี้จะเพิ่มขึ้น 100%']}
         return lst21
     elif name.lower() == "skyward blade":
         lst22 = {'thum':"https://static.wikia.nocookie.net/gensin-impact/images/0/03/Weapon_Skyward_Blade.png/revision/latest/scale-to-width-down/256?cb=20201116035239", \
-        'his':"The sword of a knight that symbolizes the restored honor of Dvalin. The blessings of the Anemo Archon rest on the fuller of the blade, imbuing the sword with the powers of the sky and the wind.", \
+        'his':"ดาบของอัศวินที่เป็นสัญลักษณ์ของการกอบกู้เกียรติยศของ Dvalin ด้วยพรของเทพแห่งลมที่หลับใหลอยู่ในดาบนี้จึงทำให้มันมีพลังของท้องฟ้าและสายลม", \
         'type':"Sword", 'stat':["608", "55.1%", "Energy Recharge"], \
         'ascen':"**[✦-----]**:10,000 Mora, Boreal Wolf's Milk Tooth x5, Dead Ley Line Branch x5, Slime Condensate x3\n \
         **[✦✦----]**:20,000 Mora, Boreal Wolf's Cracked Tooth x5, Dead Ley Line Branch x18, Slime Condensate x12\n \
         **[✦✦✦---]**:30,000 Mora, Boreal Wolf's Cracked Tooth x9, Dead Ley Line Leaves x9, Slime Secretions x9\n \
         **[✦✦✦✦--]**:45,000 Mora, Boreal Wolf's Broken Fang x5, Dead Ley Line Leaves x18, Slime Secretions x14\n \
         **[✦✦✦✦✦-]**:55,000 Mora, Boreal Wolf's Broken Fang x9, Ley Line Sprout x14, Slime Concentrate x9\n \
-        **[✦✦✦✦✦✦]**:65,000 Mora, Boreal Wolf's Nostalgia x6, Ley Line Sprout x27, Slime Concentrate x18", 'name':"Skyward Blade"}
+        **[✦✦✦✦✦✦]**:65,000 Mora, Boreal Wolf's Nostalgia x6, Ley Line Sprout x27, Slime Concentrate x18", 'name':"Skyward Blade",
+        'skill':["Sky-Piercing Fang", '✰ อัตราคริเพิ่มขึ้น **4%**; เมื่อปลดปล่อยท่าไม้ตายจะได้รับ Skypiercing Might: ความเร็วการเคลื่อนที่เพิ่มขึ้น 10%, \
+                    ความเร็วการโจมตีเพิ่มขึ้น 10%, โจมปกติและชาร์จโจมตีสร้างความเสียหายเพิ่มเติมอีก **20%** ของพลังโจมตี เป็นเวลา 12 วินาที']}
         return lst22
     elif name.lower() == "freedom-sworn":
         lst23 = {'thum':"https://static.wikia.nocookie.net/gensin-impact/images/3/39/Weapon_Freedom-Sworn.png/revision/latest/scale-to-width-down/256?cb=20210629202549", \
-        'his':"A straight sword, azure as antediluvian song, and as keen as the oaths of freedom taken in the Land of Wind.", \
+        'his':"ดาบตรงสีน้ำเงินเข้มแห่งบทเพลงโบราณ เป็นดาบที่เหมือนดั่งคำมั่นสัญญาแห่งอิสรภาพในดินแดนแห่งสายลม", \
         'type':"Sword", 'stat':["608", "198", "Elemental Mastery"], \
         'ascen':"**[✦-----]**:10,000 Mora, Fetters of the Dandelion Gladiator x5, Chaos Device x5, Divining Scroll x3\n \
         **[✦✦----]**:20,000 Mora, Chains of the Dandelion Gladiator x5, Chaos Device x18, Divining Scroll x12\n \
         **[✦✦✦---]**:30,000 Mora, Chains of the Dandelion Gladiator x9, Chaos Circuit x9, Sealed Scroll x9\n \
         **[✦✦✦✦--]**:45,000 Mora, Shackles of the Dandelion Gladiator x5, Chaos Circuit x18, Sealed Scroll x14\n \
         **[✦✦✦✦✦-]**:55,000 Mora, Shackles of the Dandelion Gladiator x9, Chaos Core x14, Forbidden Curse Scroll x9\n \
-        **[✦✦✦✦✦✦]**:65,000 Mora, Dream of the Dandelion Gladiator x6, Chaos Core x27, Forbidden Curse Scroll x18", 'name':"Freedom-Sworn"}
+        **[✦✦✦✦✦✦]**:65,000 Mora, Dream of the Dandelion Gladiator x6, Chaos Core x27, Forbidden Curse Scroll x18", 'name':"Freedom-Sworn",
+        'skill':["Revolutionary Chorale", '✰ ส่วนหนึ่งของ Millennial Movement ที่ล่องลอยอยู่ในอากาศ ช่วยเพิ่มความเสียหายที่สร้างขึ้น **10%** \
+                    เมื่อตัวละครที่สวมใส่ทำให้เกิดปฏิกิริยาธาตุ จะได้รับ Sigil of Rebellion 1 อัน โดยจะเกิดขึ้นได้มากสุดหนึ่งครั้งในทุก 0.5 วินาที่ \
+                    และจะยังได้รับแม้ว่าตัวละครจะอยู่ในทีมแต่ไม่ได้อยู่ในการต่อสู้แล้วก็ตาม \
+                    เมื่อครอบครอง Sigil of Rebellion ครบ 2 อัน จะใช้ Sigil of Rebellion ทั้งหมดเพื่อมอบเอฟเฟกต์ Millennial Movement:Farewell Song \
+                    ให้แก่ตัวละครทั้งหมดในทีมที่อยู่ในบริเวณใกล้เคียงเป็นเวลา 12 วินาที: \
+                    ความเสียหายโจมตีปกติ ชาร์จโจมตี โจมตีพุ่งลงจากอากาศเพิ่มขึ้น **16%**, พลังโจมตีเพิ่มขึ้น **20%** และจะไม่สามารถรับ Sigil of Rebellion ได้อีกภายในเวลา 20 วินาที \
+                    หลังจากเอฟเฟกต์บัฟนี้แสดงผล โดยที่ในบรรดาเอฟเฟกต์บัฟต่าง ๆ ที่เกิดขึ้นโดย Millennial Movement นั้นเอฟเฟกต์บัฟที่เป็นประเภทเดียวกันจะไม่สามารถซ้อนทับกันได้']}
         return lst23
     elif name.lower() == "primordial jade cutter":
         lst24 = {'thum':"https://static.wikia.nocookie.net/gensin-impact/images/2/2a/Weapon_Primordial_Jade_Cutter.png/revision/latest/scale-to-width-down/256?cb=20210319202419", \
@@ -1395,6 +1604,4 @@ def weapon_info_list(name):
         **[✦✦----]**:5,000 Mora, Debris of Decarabian's City x1, Heavy Horn x4, Firm Arrowhead x2\n \
         **[✦✦✦---]**:5,000 Mora, Debris of Decarabian's City x2, Black Bronze Horn x2, Sharp Arrowhead x2\n \
         **[✦✦✦✦--]**:10,000 Mora, Fragment of Decarabian's Epic x1, Black Bronze Horn x4, Sharp Arrowhead x3", 'name':"Dull Blade"}
-        return lst126
-    
-                  
+        return lst126            
