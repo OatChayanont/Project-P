@@ -196,7 +196,7 @@ def weapon_info_list(name):
         return lst18
     elif name.lower() == "mistsplitter reforged":
         lst19 = {'thum':"https://static.wikia.nocookie.net/gensin-impact/images/0/09/Weapon_Mistsplitter_Reforged.png/revision/latest/scale-to-width-down/350?cb=20210721035408", \
-        'his':'A sword that blazes with a fierce violet light. The name "Reforged" comes from it having been broken once before.', \
+        'his':'ดาบที่เปล่งประกายแสงสีม่วงออกมาอย่างรุนแรง ชื่อ "Reforged" ของมันนั้น ได้มาจากการที่ครั้งหนึ่งมันเคยหักไป', \
         'type':"Sword", 'stat':["674", "44.1%", "CRIT DMG"], \
         'ascen':"**[✦-----]**:10,000 Mora, Coral Branch of a Distant Sea x5, Chaos Gear x5, Old Handguard x3\n \
         **[✦✦----]**:20,000 Mora, Jeweled Branch of a Distant Sea x5, Chaos Gear x18, Old Handguard x12\n \
@@ -207,7 +207,7 @@ def weapon_info_list(name):
         return lst19
     elif name.lower() == "aquila favonia":
         lst20 = {'thum':"https://static.wikia.nocookie.net/gensin-impact/images/6/6a/Weapon_Aquila_Favonia.png/revision/latest/scale-to-width-down/256?cb=20201120002750", \
-        'his':"The soul of the Knights of Favonius. Millennia later, it still calls on the winds of swift justice to vanquish all evil—just like the last heroine who wielded it.", \
+        'his':"จิตวิญญาณของเหล่าอัศวินแห่ง Favonius แม้พันปีผ่านไป มันก็ยังคงเป็นดั่งสายลมแห่ง ความยุติธรรมที่ขับไล่สิ่งชั่วร้าย เช่นเดียวกับวีรชนหญิง คนสุดท้ายที่กวัดแกว่งมัน", \
         'type':"Sword", 'stat':["674", "41.3%", "Physical DMG"], \
         'ascen':"**[✦-----]**:10,000 Mora, Tile of Decarabian's Tower x5, Heavy Horn x5, Firm Arrowhead x3\n \
         **[✦✦----]**:20,000 Mora, Debris of Decarabian's City x5, Heavy Horn x18, Firm Arrowhead x12\n \
@@ -218,7 +218,7 @@ def weapon_info_list(name):
         return lst20
     elif name.lower() == "summit shaper":
         lst21 = {'thum':"https://static.wikia.nocookie.net/gensin-impact/images/c/ca/Weapon_Summit_Shaper.png/revision/latest/scale-to-width-down/256?cb=20201223042936", \
-        'his':"A symbol of a legendary pact, this sharp blade once cut off the peak of a mountain.", \
+        'his':"ดาบอันแหลมคมในตำนานนี้ เป็นสัญลักษณ์ของสัญญาพิเศษบางอย่าง ดูเหมือนว่าดาบเล่มนี้ได้เคยใช้ตัดยอดเขาด้วย", \
         'type':"Sword", 'stat':["608", "49.6%", "CRIT Rate"], \
         'ascen':"**[✦-----]**:10,000 Mora, Luminous Sands from Guyun x5, Hunter's Sacrificial Knife x5, Damaged Mask x3\n \
         **[✦✦----]**:20,000 Mora, Lustrous Stone from Guyun x5, Hunter's Sacrificial Knife x18, Damaged Mask x12\n \
@@ -229,7 +229,7 @@ def weapon_info_list(name):
         return lst21
     elif name.lower() == "skyward blade":
         lst22 = {'thum':"https://static.wikia.nocookie.net/gensin-impact/images/0/03/Weapon_Skyward_Blade.png/revision/latest/scale-to-width-down/256?cb=20201116035239", \
-        'his':"The sword of a knight that symbolizes the restored honor of Dvalin. The blessings of the Anemo Archon rest on the fuller of the blade, imbuing the sword with the powers of the sky and the wind.", \
+        'his':"ดาบของอัศวินที่เป็นสัญลักษณ์ของการกอบกู้เกียรติยศของ Dvalin ด้วยพรของเทพแห่งลมที่หลับใหลอยู่ในดาบนี้จึงทำให้มันมีพลังของท้องฟ้าและสายลม", \
         'type':"Sword", 'stat':["608", "55.1%", "Energy Recharge"], \
         'ascen':"**[✦-----]**:10,000 Mora, Boreal Wolf's Milk Tooth x5, Dead Ley Line Branch x5, Slime Condensate x3\n \
         **[✦✦----]**:20,000 Mora, Boreal Wolf's Cracked Tooth x5, Dead Ley Line Branch x18, Slime Condensate x12\n \
@@ -240,7 +240,7 @@ def weapon_info_list(name):
         return lst22
     elif name.lower() == "freedom-sworn":
         lst23 = {'thum':"https://static.wikia.nocookie.net/gensin-impact/images/3/39/Weapon_Freedom-Sworn.png/revision/latest/scale-to-width-down/256?cb=20210629202549", \
-        'his':"A straight sword, azure as antediluvian song, and as keen as the oaths of freedom taken in the Land of Wind.", \
+        'his':"ดาบตรงสีน้ำเงินเข้มแห่งบทเพลงโบราณ เป็นดาบที่เหมือนดั่งคำมั่นสัญญาแห่งอิสรภาพในดินแดนแห่งสายลม", \
         'type':"Sword", 'stat':["608", "198", "Elemental Mastery"], \
         'ascen':"**[✦-----]**:10,000 Mora, Fetters of the Dandelion Gladiator x5, Chaos Device x5, Divining Scroll x3\n \
         **[✦✦----]**:20,000 Mora, Chains of the Dandelion Gladiator x5, Chaos Device x18, Divining Scroll x12\n \
@@ -251,7 +251,7 @@ def weapon_info_list(name):
         return lst23
     elif name.lower() == "primordial jade cutter":
         lst24 = {'thum':"https://static.wikia.nocookie.net/gensin-impact/images/2/2a/Weapon_Primordial_Jade_Cutter.png/revision/latest/scale-to-width-down/256?cb=20210319202419", \
-        'his':"A ceremonial sword masterfully carved from pure jade. There almost seems to be an audible sigh in the wind as it is swung.", \
+        'his':"ดาบสำหรับพิธีการที่แกะสลักมาจากหยกบริสุทธิ์อย่างประณีต เมื่อแกว่งดาบไปมาในสายลม จะมีเสียงที่คล้ายกับเสียงลมหายใจ", \
         'type':"Sword", 'stat':["542", "44.1%", "CRIT Rate"], \
         'ascen':"**[✦-----]**:10,000 Mora, Mist Veiled Lead Elixir x5, Mist Grass Pollen x5, Treasure Hoarder Insignia x3\n \
         **[✦✦----]**:20,000 Mora, Mist Veiled Mercury Elixir x5, Mist Grass Pollen x18, Treasure Hoarder Insignia x12\n \
