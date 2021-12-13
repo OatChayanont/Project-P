@@ -53,7 +53,7 @@ def weapon_info_list(name):
         return lst5
     elif name.lower() == "lost prayer to the sacred winds":
         lst6 = {'thum':"https://static.wikia.nocookie.net/gensin-impact/images/9/98/Weapon_Lost_Prayer_to_the_Sacred_Winds.png/revision/latest/scale-to-width-down/256?cb=20201116034132", \
-        'his':"An educational tome written by anonymous early inhabitants who worshiped the wind. It has been blessed by the wind for its faithfulness and influence over the millennia.", \
+        'his':"ตำราเพื่อการศึกษาที่เขียนขึ้นโดยบุคคลนิรนามผู้เลื่อมใสในเทพแห่งลม พลังแห่งความศรัทธาที่ไหลเวียนมานับพันปีได้รับการโปรดปรานจากสายลมที่เต็มไปด้วยพรและพลัง", \
         'type':"Catalyst", 'stat':["608", "33.1%", "CRIT Rate"], \
         'ascen':"**[✦-----]**:10,000 Mora, Fetters of the Dandelion Gladiator x5, Chaos Device x5, Slime Condensate x3\n \
         **[✦✦----]**:20,000 Mora, Chains of the Dandelion Gladiator x5, Chaos Device x18, Slime Condensate x12\n \
@@ -64,7 +64,7 @@ def weapon_info_list(name):
         return lst6
     elif name.lower() == "skyward atlas":
         lst7 = {'thum':"https://static.wikia.nocookie.net/gensin-impact/images/3/33/Weapon_Skyward_Atlas.png/revision/latest/scale-to-width-down/256?cb=20201116035225", \
-        'his':"A cloud atlas symbolizing Dvalin and its former master, the Anemo Archon. It details the winds and clouds of the northern regions and contains the powers of the sky and wind.", \
+        'his':"บันทึกมวลเมฆที่เป็นเหมือนตัวแทนของ Dvalin และเทพแห่งลมผู้เป็นเจ้าของเดิม ภายในระบุรายละเอียดของสายลมและหมู่เมฆในแดนเหนือ และมีพลังของท้องฟ้าและสายลมอยู่ด้วย", \
         'type':"Catalyst", 'stat':["674", "33.1%", "ATK"], \
         'ascen':"**[✦-----]**:10,000 Mora, Boreal Wolf's Milk Tooth x5, Dead Ley Line Branch x5, Firm Arrowhead x3\n \
         **[✦✦----]**:20,000 Mora, Boreal Wolf's Cracked Tooth x5, Dead Ley Line Branch x18, Firm Arrowhead x12\n \
@@ -75,7 +75,7 @@ def weapon_info_list(name):
         return lst7
     elif name.lower() == "everlasting moonglow":
         lst8 = {'thum':"https://static.wikia.nocookie.net/gensin-impact/images/e/e1/Weapon_Everlasting_Moonglow.png/revision/latest/scale-to-width-down/256?cb=20210921104126", \
-        'his':"A string of lovely jasper from the deep sea. It shines with a pure radiance like that of the moon, and just as ever-distant.", \
+        'his':"วงแหวนหยกอันงดงามจากท้องทะเลลึก ยังคงส่องประกายระยิบระยับดุจดวงจันทร์ เฉกเช่นอดีตอันไกลโพ้น", \
         'type':"Catalyst", 'stat':["608", "49.6%", "HP"], \
         'ascen':"**[✦-----]**:10,000 Mora, Coral Branch of a Distant Sea x5, Dismal Prism x5, Spectral Husk x3\n \
         **[✦✦----]**:20,000 Mora, Jeweled Branch of a Distant Sea x5, Dismal Prism x18, Spectral Husk x12\n \
@@ -86,7 +86,7 @@ def weapon_info_list(name):
         return lst8
     elif name.lower() == "memory of dust":
         lst9 = {'thum':"https://static.wikia.nocookie.net/gensin-impact/images/c/ca/Weapon_Memory_of_Dust.png/revision/latest/scale-to-width-down/256?cb=20201119232148", \
-        'his':"A stone dumbbell containing distant memories. Its endless transformations reveal the power within.", \
+        'his':"ทุ่นหินที่เต็มไปด้วยความทรงจำอันแสนยาวนาน การเปลี่ยนแปลงที่ไม่มีที่สิ้นสุด ได้เผยให้เห็นถึงพลังของมัน", \
         'type':"Catalyst", 'stat':["608", "49.6%", "ATK"], \
         'ascen':"**[✦-----]**:10,000 Mora, Grain of Aerosiderite x5, Fragile Bone Shard x5, Damaged Mask x3\n \
         **[✦✦----]**:20,000 Mora, Piece of Aerosiderite x5, Fragile Bone Shard x18, Damaged Mask x12\n \
