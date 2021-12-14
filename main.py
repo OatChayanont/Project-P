@@ -11,6 +11,8 @@ from data import character_info_list
 from data2 import weapon_info_list
 from gacha import wish10pull,  wish1pull, garantee5
 from dungeon import dungeon_list
+from asyncio import sleep
+from discord.ui import Button, View
 
 bot = commands.Bot(command_prefix="!")
 bot.remove_command("help")
@@ -56,6 +58,41 @@ async def dungeon(ctx, day):
         text.add_field(name="{0} -- `{1}`" .format(dun_info[position]["name"], dun_info[position]["dunbook"]), value="{0}" .format("\n".join(dun_info[position]["charlist"])), inline=False)
     await ctx.channel.send(embed=text)
 
+class RemindButton(View):
+    def __init__(self, ctx, time):
+        super().__init__(timeout=60)
+        self.ctx = ctx
+        self.beforefull = (time-8)*60
+        self.full = time*60
+
+    @discord.ui.button(label="ตั้งเวลา!", style=discord.ButtonStyle.green, emoji=None)
+    async def button_callback(self, button, interaction):
+        for x in self.children:
+            x.disabled = True
+        await interaction.response.edit_message(view=self)
+        await interaction.followup.send("{0} เราได้ตั้งเวลาแจ้งเตือนเมื่อ Resin เต็มสำหรับคุณแล้ว" .format(self.ctx.author.mention))
+        await sleep(self.beforefull)
+        for _ in range(5):
+            await self.ctx.author.send("{0} Resin ใกล้จะเต็มแล้ว อย่าลืมไปใช้ด้วยนะ!" .format(self.ctx.author.mention))
+        await sleep(480)
+        for _ in range(5):
+            await self.ctx.author.send("{0} Resin เต็มแล้ว!!!!!" .format(self.ctx.author.mention))
+
+    @discord.ui.button(label="ไม่!", style=discord.ButtonStyle.danger, emoji=None)
+    async def no_button_callback(self, button, interaction):
+        self.clear_items()
+        await interaction.response.edit_message(view=self)
+
+    async def interaction_check(self, interaction):
+        if interaction.user != self.ctx.author:
+            await interaction.response.send_message("คุณกดปุ่มนี้ไม่ได้", ephemeral=True)
+            return False
+        else:
+            return True
+
+    async def on_error(self, error, item, interaction):
+        await interaction.response.send_message(str(error))
+
 @bot.command()
 async def resin(ctx, resin_number): #หาเวลาที่ Resin จะเต็ม
     await ctx.channel.purge(limit=1)
@@ -72,11 +109,14 @@ async def resin(ctx, resin_number): #หาเวลาที่ Resin จะเ
     hour_left = min_left_all//60 #นาที
     datetofull = datetime.now() + timedelta(hours=hour_left+7, minutes=min_left) # +7 ไปเพราะ Timezone ใน Web ที่เปิดมันไม่ใช่ของไทย ทำให้เวลา Output มันผิด
     timetofull = str(datetofull)
-    text = discord.Embed(title="Resin Calculator", description="**{0}** have `{1}` Resin\n" .format(ctx.author.display_name, resin_number), color=0x2ADADA)
-    text.add_field(name="Time remaining untill your Resin is full", value="{0} hours {1} minutes" .format(hour_left, min_left), inline=False)
-    text.add_field(name="Resin will be full around", value="%.10s | %s" %(datetofull, timetofull[10:19]), inline=False)
+    text = discord.Embed(title="Resin Calculator", description="**{0}** มี `{1}` Resin\n" .format(ctx.author.display_name, resin_number), color=0x2ADADA)
+    text.add_field(name="เหลือเวลาก่อนที่ Resin จะเต็ม", value="{0} ชั่วโมง {1} นาที" .format(hour_left, min_left), inline=False)
+    text.add_field(name="Resin จะเต็มที่เวลาประมาณ", value="%.10s | %s" %(datetofull, timetofull[10:19]), inline=False)
     text.set_thumbnail(url="https://i.ytimg.com/vi/jkd2YHd8NpQ/maxresdefault.jpg")
-    await ctx.channel.send(embed=text)
+    text.set_footer(text="!!!!!ตั้งเวลาแจ้งเตือน Resin เต็ม กรุณากดปุ่มด้านล่าง!!!!!")
+    #ปุ่มกด
+    view = RemindButton(ctx, min_left_all)
+    await ctx.channel.send(embed=text, view=view)
 
 @bot.command()
 async def gacha(ctx, userinput):
@@ -109,7 +149,6 @@ async def gacha(ctx, userinput):
         else:
             wish_embed.set_image(url="https://cdn.fbsbx.com/v/t59.2708-21/249061080_3251962895037057_6263778793211452194_n.gif?_nc_cat=107&fallback=1&ccb=1-5&_nc_sid=041f46&_nc_eui2=AeH7Hug5jW-SkoN1Zx3Xx7Yo0QhXCU1U0m_RCFcJTVTSb14fAagtRnGK3myERsKlqAEvgrX2vRJjfzbEDpk6JAAX&_nc_ohc=zSzQXXqjmzIAX-EPoKZ&_nc_ht=cdn.fbsbx.com&oh=d68f65b4397e31e10f49c8d0a55df91c&oe=618A6BB8")
         await ctx.channel.send(embed=wish_embed)
-        
 
 @bot.command()
 async def test(ctx, *, par):
