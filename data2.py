@@ -567,8 +567,9 @@ def weapon_info_list(name):
         **[✦✦✦---]**:20,000 Mora, Debris of Decarabian's City x6, Black Bronze Horn x6, Sharp Arrowhead x6\n \
         **[✦✦✦✦--]**:30,000 Mora, Fragment of Decarabian's Epic x3, Black Bronze Horn x12, Sharp Arrowhead x9\n \
         **[✦✦✦✦✦-]**:35,000 Mora, Fragment of Decarabian's Epic x6, Black Crystal Horn x9, Weathered Arrowhead x6\n \
-        **[✦✦✦✦✦✦]**:45,000 Mora, Scattered Piece of Decarabian's Dream x4, Black Crystal Horn x18, Weathered Arrowhead x12", 'name':"The Stringless"
-        ,'star':'[★★★★]'}
+        **[✦✦✦✦✦✦]**:45,000 Mora, Scattered Piece of Decarabian's Dream x4, Black Crystal Horn x18, Weathered Arrowhead x12", 'name':"The Stringless",
+        'skill':["Arrowless Song", '✰ สกิลธาตุและท่าไม้ตายสร้างความเสียหายเพิ่มขึ้น 24~48%']
+                    ,'star':'[★★★★]'}
         return lst27
     elif name.lower() == "sacrificial bow":
         lst28 = {'thum':"https://static.wikia.nocookie.net/gensin-impact/images/e/ec/Weapon_Sacrificial_Bow.png/revision/latest/scale-to-width-down/256?cb=20201120002607", \
@@ -579,8 +580,9 @@ def weapon_info_list(name):
         **[✦✦✦---]**:20,000 Mora, Boreal Wolf's Cracked Tooth x6, Dead Ley Line Leaves x6, Slime Secretions x6\n \
         **[✦✦✦✦--]**:30,000 Mora, Boreal Wolf's Broken Fang x3, Dead Ley Line Leaves x12, Slime Secretions x9\n \
         **[✦✦✦✦✦-]**:35,000 Mora, Boreal Wolf's Broken Fang x6, Ley Line Sprout x9, Slime Concentrate x6\n \
-        **[✦✦✦✦✦✦]**:45,000 Mora, Boreal Wolf's Nostalgia x4, Ley Line Sprout x18, Slime Concentrate x12", 'name':"Sacrificial Bow"
-        ,'star':'[★★★★]'}
+        **[✦✦✦✦✦✦]**:45,000 Mora, Boreal Wolf's Nostalgia x4, Ley Line Sprout x18, Slime Concentrate x12", 'name':"Sacrificial Bow",
+        'skill':["Composed", '✰ หลังจากสร้างความเสียหายด้วยสกิลธาตุแล้ว จะมีโอกาส 40~80% ที่จะรีเซ็ตเวลาคูลดาวน์ของสกิลนี้ โดยเอฟเฟกต์นี้จะเกิดขึ้นหนึ่งครั้งในทุก 30~16 วินาที']
+                    ,'star':'[★★★★]'}
         return lst28
     elif name.lower() == "rust":
         lst29 = {'thum':"https://static.wikia.nocookie.net/gensin-impact/images/1/1c/Weapon_Rust.png/revision/latest/scale-to-width-down/256?cb=20201120002437", \
@@ -591,8 +593,9 @@ def weapon_info_list(name):
         **[✦✦✦---]**:20,000 Mora, Lustrous Stone from Guyun x6, Agent's Sacrificial Knife x6, Stained Mask x6\n \
         **[✦✦✦✦--]**:30,000 Mora, Relic from Guyun x3, Agent's Sacrificial Knife x12, Stained Mask x9\n \
         **[✦✦✦✦✦-]**:35,000 Mora, Relic from Guyun x6, Inspector's Sacrificial Knife x9, Ominous Mask x6\n \
-        **[✦✦✦✦✦✦]**:45,000 Mora, Divine Body from Guyun x4, Inspector's Sacrificial Knife x18, Ominous Mask x12", 'name':"Rust"
-        ,'star':'[★★★★]'}
+        **[✦✦✦✦✦✦]**:45,000 Mora, Divine Body from Guyun x4, Inspector's Sacrificial Knife x18, Ominous Mask x12", 'name':"Rust",
+        'skill':["Rapid Firing", '✰ เพิ่มความเสียหายของการโจมตีปกติขึ้น 40~80% และลดความเสียหายของการชาร์จโจมตีลง 10%']
+                    ,'star':'[★★★★]'}
         return lst29
     elif name.lower() == "royal row":
         lst30 = {'thum':"https://static.wikia.nocookie.net/gensin-impact/images/9/99/Weapon_Royal_Bow.png/revision/latest/scale-to-width-down/256?cb=20201120002134", \
@@ -603,8 +606,9 @@ def weapon_info_list(name):
         **[✦✦✦---]**:20,000 Mora, Chains of the Dandelion Gladiator x6, Chaos Circuit x6, Slime Secretions x6\n \
         **[✦✦✦✦--]**:30,000 Mora, Shackles of the Dandelion Gladiator x3, Chaos Circuit x12, Slime Secretions x9\n \
         **[✦✦✦✦✦-]**:35,000 Mora, Shackles of the Dandelion Gladiator x6, Chaos Core x9, Slime Concentrate x6\n \
-        **[✦✦✦✦✦✦]**:45,000 Mora, Dream of the Dandelion Gladiator x4, Chaos Core x18, Slime Concentrate x12", 'name':"Royal Bow"
-        ,'star':'[★★★★]'}
+        **[✦✦✦✦✦✦]**:45,000 Mora, Dream of the Dandelion Gladiator x4, Chaos Core x18, Slime Concentrate x12", 'name':"Royal Bow",
+        'skill':["Focus", '✰ เมื่อการโจมตีก่อให้เกิดความเสียหาย อัตราคริจะเพิ่มขึ้น 8% ซ้อนทับได้มากสุด 5 ครั้ง และเมื่อโจมตีติดคริติคอลจะล้างเอฟเฟกต์ที่โฟกัสออกทั้งหมด']
+                    ,'star':'[★★★★]'}
         return lst30
     elif name.lower() == "predator":
         lst31 = {'thum':"https://static.wikia.nocookie.net/gensin-impact/images/f/fe/Weapon_The_Predator.png/revision/latest/scale-to-width-down/256?cb=20210901042402", \
@@ -615,8 +619,10 @@ def weapon_info_list(name):
         **[✦✦✦---]**:20,000 Mora, Narukami's Joy x6, Crystal Prism x6, Sharp Arrowhead x6\n \
         **[✦✦✦✦--]**:30,000 Mora, Narukami's Affection x3, Crystal Prism x12, Sharp Arrowhead x9\n \
         **[✦✦✦✦✦-]**:35,000 Mora, Narukami's Affection x6, Polarizing Prism x9, Weathered Arrowhead x6\n \
-        **[✦✦✦✦✦✦]**:45,000 Mora, Narukami's Valor x4, Polarizing Prism x18, Weathered Arrowhead x12", 'name':"Predator"
-        ,'star':'[★★★★]'}
+        **[✦✦✦✦✦✦]**:45,000 Mora, Narukami's Valor x4, Polarizing Prism x18, Weathered Arrowhead x12", 'name':"Predator",
+        'skill':["Strong Strike", '✰ หลังจากที่สร้างความเสียหายน้ำแข็งแก่ศัตรู ความเสียหายการโจมตีปกติและชาร์จโจมตีจะเพิ่มขึ้น 10% \
+                    โดยที่เอฟเฟกต์นี้จะคงอยู่เป็นเวลา 6 วินาที และซ้อนทับกันได้มากสุด 2 ครั้ง; นอกจากนี้เมื่อ Aloy เป็นผู้ใช้ Predator พลังโจมตีจะเพิ่มขึ้น 66 หน่วย']
+                    ,'star':'[★★★★]'}
         return lst31
     elif name.lower() == "prototype crescent":
         lst32 = {'thum':"https://static.wikia.nocookie.net/gensin-impact/images/4/43/Weapon_Prototype_Crescent.png/revision/latest/scale-to-width-down/256?cb=20201116034737", \
@@ -627,7 +633,8 @@ def weapon_info_list(name):
         **[✦✦✦---]**:20,000 Mora, Mist Veiled Mercury Elixir x6, Mist Grass x6, Silver Raven Insignia x6\n \
         **[✦✦✦✦--]**:30,000 Mora, Mist Veiled Gold Elixir x3, Mist Grass x12, Silver Raven Insignia x9\n \
         **[✦✦✦✦✦-]**:35,000 Mora, Mist Veiled Gold Elixir x6, Mist Grass Wick x9, Golden Raven Insignia x6\n \
-        **[✦✦✦✦✦✦]**:45,000 Mora, Mist Veiled Primo Elixir x4, Mist Grass Wick x18, Golden Raven Insignia x12", 'name':"Prototype Crescent"
+        **[✦✦✦✦✦✦]**:45,000 Mora, Mist Veiled Primo Elixir x4, Mist Grass Wick x18, Golden Raven Insignia x12", 'name':"Prototype Crescent",
+        'skill':["", '✰ ']
         ,'star':'[★★★★]'}
         return lst32
     elif name.lower() == "mouun's moon":
@@ -639,7 +646,8 @@ def weapon_info_list(name):
         **[✦✦✦---]**:20,000 Mora, Narukami's Joy x6, Crystal Prism x6, Spectral Heart x6\n \
         **[✦✦✦✦--]**:30,000 Mora, Narukami's Affection x3, Crystal Prism x12, Spectral Heart x9\n \
         **[✦✦✦✦✦-]**:35,000 Mora, Narukami's Affection x6, Polarizing Prism x9, Spectral Nucleus x6\n \
-        **[✦✦✦✦✦✦]**:45,000 Mora, Narukami's Valor x4, Polarizing Prism x18, Spectral Nucleus x12", 'name':"Mouun's Moon"
+        **[✦✦✦✦✦✦]**:45,000 Mora, Narukami's Valor x4, Polarizing Prism x18, Spectral Nucleus x12", 'name':"Mouun's Moon",
+        'skill':["", '✰ ']
         ,'star':'[★★★★]'}
         return lst33
     elif name.lower() == "mitternachts waltz":
@@ -651,7 +659,8 @@ def weapon_info_list(name):
         **[✦✦✦---]**:20,000 Mora, Debris of Decarabian's City x6, Black Bronze Horn x6, Silver Raven Insignia x6\n \
         **[✦✦✦✦--]**:30,000 Mora, Fragment of Decarabian's Epic x3, Black Bronze Horn x12, Silver Raven Insignia x9\n \
         **[✦✦✦✦✦-]**:35,000 Mora, Fragment of Decarabian's Epic x6, Black Crystal Horn x9, Golden Raven Insignia x6\n \
-        **[✦✦✦✦✦✦]**:45,000 Mora, Scattered Piece of Decarabian's Dream x4, Black Crystal Horn x18, Golden Raven Insignia x12", 'name':"Mitternachts Waltz"
+        **[✦✦✦✦✦✦]**:45,000 Mora, Scattered Piece of Decarabian's Dream x4, Black Crystal Horn x18, Golden Raven Insignia x12", 'name':"Mitternachts Waltz",
+        'skill':["", '✰ ']
         ,'star':'[★★★★]'}
         return lst34
     elif name.lower() == "hamayumi":
