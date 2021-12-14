@@ -1626,7 +1626,7 @@ def weapon_info_list(name):
         **[✦✦✦✦--]**:20,000 Mora, Shackles of the Dandelion Gladiator x2, Chaos Circuit x8, Slime Secretions x6\n \
         **[✦✦✦✦✦-]**:25,000 Mora, Shackles of the Dandelion Gladiator x4, Chaos Core x6, Slime Concentrate x4\n \
         **[✦✦✦✦✦✦]**:30,000 Mora, Dream of the Dandelion Gladiator x3, Chaos Core x12, Slime Concentrate x8", 'name':"White Iron Greatsword",
-        'skill':["", '✰ ']
+        'skill':["Cull the Weak", '✰ เมื่อกำจัดศัตรูได้จะฟื้นฟูพลังชีวิตขึ้น 8~16%']
                     ,'star':'[★★★]'}
         return lst106
     elif name.lower() == "ferrous shadow":
@@ -1639,7 +1639,7 @@ def weapon_info_list(name):
         **[✦✦✦✦--]**:20,000 Mora, Fragment of Decarabian's Epic x2, Black Bronze Horn x8, Shimmering Nectar x6\n \
         **[✦✦✦✦✦-]**:25,000 Mora, Fragment of Decarabian's Epic x4, Black Crystal Horn x6, Energy Nectar x4\n \
         **[✦✦✦✦✦✦]**:30,000 Mora, Scattered Piece of Decarabian's Dream x3, Black Crystal Horn x12, Energy Nectar x8", 'name':"Ferrous Shadow",
-        'skill':["", '✰ ']
+        'skill':["Unbending", '✰ เมื่อพลังชีวิตต่ำกว่า 70~90% การชาร์จโจมตีจะ ถูกขัดจังหวะได้ยากขึ้น และเพิ่มความเสียหายขึ้น 30~50%']
                     ,'star':'[★★★]'}
         return lst107
     elif name.lower() == "white tassel":
