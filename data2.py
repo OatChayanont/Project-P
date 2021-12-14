@@ -998,8 +998,10 @@ def weapon_info_list(name):
         **[✦✦✦✦--]**:30,000 Mora, Narukami's Affection x3, Chaos Axis x12, Kageuchi Handguard x9\n \
         **[✦✦✦✦✦-]**:35,000 Mora, Narukami's Affection x6, Chaos Oculus x9, Famed Handguard x6\n \
         **[✦✦✦✦✦✦]**:45,000 Mora, Narukami's Valor x4, Chaos Oculus x18, Famed Handguard x12", 'name':"Katsuragikiri Nagamasa",
-        'skill':["", '✰ ']
-        ,'star':'[★★★★]'}
+        'skill':["Samurai Conduct", '✰ สกิลธาตุสร้างความเสียหายเพิ่มขึ้น 6~12% และหลังจากที่สกิลธาตุถูกเป้าหมาย ตัวละครจะเสียพลังงานธาตุ 3 หน่วย และหลังจากนั้น \
+                    จะทำการฟื้นฟูพลังธาตุ 3~5 หน่วย ในทุก 2 วินาที เป็นเวลา 6 วินาที โดยที่เอฟเฟกต์นี้จะเกิดขึ้นได้มากสุดหนึ่งครั้ง ในทุก 10 วินาที และสามารถเกิดขึ้นได้ \
+                    แม้ตัวละครจะอยู่ในทีมแต่ไม่ได้เข้าร่วมการต่อสู้ก็ตาม']
+                    ,'star':'[★★★★]'}
         return lst59
     elif name.lower() == "sacrificial greatsword":
         lst60 = {'thum':"https://static.wikia.nocookie.net/gensin-impact/images/1/17/Weapon_Sacrificial_Greatsword.png/revision/latest/scale-to-width-down/256?cb=20201120004023", \
@@ -1011,7 +1013,7 @@ def weapon_info_list(name):
         **[✦✦✦✦--]**:30,000 Mora, Boreal Wolf's Broken Fang x3, Dead Ley Line Leaves x12, Sharp Arrowhead x9\n \
         **[✦✦✦✦✦-]**:35,000 Mora, Boreal Wolf's Broken Fang x6, Ley Line Sprout x9, Weathered Arrowhead x6\n \
         **[✦✦✦✦✦✦]**:45,000 Mora, Boreal Wolf's Nostalgia x4, Ley Line Sprout x18, Weathered Arrowhead x12", 'name':"Sacrificial Greatsword",
-        'skill':["", '✰ ']
+        'skill':["Composed", '✰ หลังจากสร้างความเสียหายด้วยสกิลธาตุแล้ว จะมีโอกาส 40~80% ที่จะรีเซ็ตเวลาคูลดาวน์ของสกิลนี้ โดยเอฟเฟกต์นี้จะเกิดขึ้นหนึ่งครั้งในทุก 30~16 วินาที']
         ,'star':'[★★★★]'}
         return lst60
     elif name.lower() == "serpent spine":
