@@ -1586,7 +1586,7 @@ def weapon_info_list(name):
         **[✦✦✦✦--]**:20,000 Mora, Bit of Aerosiderite x2, Sturdy Bone Shard x8, Silver Raven Insignia x6\n \
         **[✦✦✦✦✦-]**:25,000 Mora, Bit of Aerosiderite x4, Fossilized Bone Shard x6, Golden Raven Insignia x4\n \
         **[✦✦✦✦✦✦]**:30,000 Mora, Chunk of Aerosiderite x3, Fossilized Bone Shard x12, Golden Raven Insignia x8", 'name':"Skyrider Greatsword",
-        'skill':["", '✰ ']
+        'skill':["Courage", '✰ เมื่อโจมตีปกติหรือชาร์จโจมตีถูกเป้าหมาย พลังโจมตีจะเพิ่มขึ้น 6~10% เป็นเวลา 6 วินาทีและซ้อนทับมากสุด 4 ชั้น ซึ่งเอฟเฟกต์นี้จะเกิดขึ้นเพียงหนึ่งครั้งในทุก 0.5 วินาที']
                     ,'star':'[★★★]'}
         return lst103
     elif name.lower() == "debate club":
@@ -1599,7 +1599,8 @@ def weapon_info_list(name):
         **[✦✦✦✦--]**:20,000 Mora, Mist Veiled Gold Elixir x2, Mist Grass x8, Stained Mask x6\n \
         **[✦✦✦✦✦-]**:25,000 Mora, Mist Veiled Gold Elixir x4, Mist Grass Wick x6, Ominous Mask x4\n \
         **[✦✦✦✦✦✦]**:30,000 Mora, Mist Veiled Primo Elixir x3, Mist Grass Wick x12, Ominous Mask x8", 'name':"Debate Club",
-        'skill':["", '✰ ']
+        'skill':["Blunt Conclusion", '✰ หลังจากใช้สกิลธาตุแล้วเมื่อการโจมตีปกติและชาร์จโจมตีถูกเป้าหมายจะสร้างความเสียหายเพิ่มเติมอีก 60~120% ของพลังโจมตีภายในอาณาเขตเล็กๆ \
+                    ซึ่งเอฟเฟกต์นี้จะมีระยะเวลา ต่อเนื่อง 15 วินาที และสามารถเกิดขึ้นได้เพียงหนึ่งครั้งในทุก 3 วินาที']
                     ,'star':'[★★★]'}
         return lst104
     elif name.lower() == "bloodtainted greatsword":
@@ -1612,7 +1613,7 @@ def weapon_info_list(name):
         **[✦✦✦✦--]**:20,000 Mora, Boreal Wolf's Broken Fang x2, Dead Ley Line Leaves x8, Sharp Arrowhead x6\n \
         **[✦✦✦✦✦-]**:25,000 Mora, Boreal Wolf's Broken Fang x4, Ley Line Sprout x6, Weathered Arrowhead x4\n \
         **[✦✦✦✦✦✦]**:30,000 Mora, Boreal Wolf's Nostalgia x3, Ley Line Sprout x12, Weathered Arrowhead x8", 'name':"Bloodtainted Greatsword",
-        'skill':["", '✰ ']
+        'skill':["Bane of Fire and Thunder", '✰ เพิ่มความเสียหายแก่ศัตรูที่ได้รับผลกระทบของธาตุไฟ หรือไฟฟ้าขึ้น 12~24%']
                     ,'star':'[★★★]'}
         return lst105
     elif name.lower() == "white iron greatsword":
