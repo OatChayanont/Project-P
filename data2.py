@@ -1322,8 +1322,8 @@ def weapon_info_list(name):
         **[✦✦✦✦--]**:30,000 Mora, Shackles of the Dandelion Gladiator x3, Chaos Circuit x12, Sealed Scroll x9\n \
         **[✦✦✦✦✦-]**:35,000 Mora, Shackles of the Dandelion Gladiator x6, Chaos Core x9, Forbidden Curse Scroll x6\n \
         **[✦✦✦✦✦✦]**:45,000 Mora, Dream of the Dandelion Gladiator x4, Chaos Core x18, Forbidden Curse Scroll x12", 'name':"Sacrificial Sword",
-        'skill':["", '✰ ']
-        ,'star':'[★★★★]'}
+        'skill':["Composed", '✰ หลังจากสร้างความเสียหายด้วยสกิลธาตุแล้ว จะมีโอกาส 40~80% ที่จะรีเซ็ตเวลาคูลดาวน์ของสกิลนี้ โดยเอฟเฟกต์นี้จะเกิดขึ้นหนึ่งครั้งในทุก 30~16 วินาที']
+                    ,'star':'[★★★★]'}
         return lst83
     elif name.lower() == "royal longsword":
         lst84 = {'thum':"https://static.wikia.nocookie.net/gensin-impact/images/c/cd/Weapon_Royal_Longsword.png/revision/latest/scale-to-width-down/256?cb=20201116034952", \
@@ -1335,8 +1335,8 @@ def weapon_info_list(name):
         **[✦✦✦✦--]**:30,000 Mora, Fragment of Decarabian's Epic x3, Black Bronze Horn x12, Sharp Arrowhead x9\n \
         **[✦✦✦✦✦-]**:35,000 Mora, Fragment of Decarabian's Epic x6, Black Crystal Horn x9, Weathered Arrowhead x6\n \
         **[✦✦✦✦✦✦]**:45,000 Mora, Scattered Piece of Decarabian's Dream x4, Black Crystal Horn x18, Weathered Arrowhead x12", 'name':"Royal Longsword",
-        'skill':["", '✰ ']
-        ,'star':'[★★★★]'}
+        'skill':["Focus", '✰ เมื่อการโจมตีก่อให้เกิดความเสียหาย อัตราคริจะเพิ่มขึ้น 8~16% ซ้อนทับได้มากสุด 5 ครั้ง และเมื่อโจมตีติดคริติคอลจะล้างเอฟเฟกต์ที่โฟกัสออกทั้งหมด']
+                    ,'star':'[★★★★]'}
         return lst84
     elif name.lower() == "prototype rancour":
         lst85 = {'thum':"https://static.wikia.nocookie.net/gensin-impact/images/e/ef/Weapon_Prototype_Rancour.png/revision/latest/scale-to-width-down/256?cb=20201116034823", \
@@ -1348,8 +1348,8 @@ def weapon_info_list(name):
         **[✦✦✦✦--]**:30,000 Mora, Mist Veiled Gold Elixir x3, Mist Grass x12, Sergeant's Insignia x9\n \
         **[✦✦✦✦✦-]**:35,000 Mora, Mist Veiled Gold Elixir x6, Mist Grass Wick x9, Lieutenant's Insignia x6\n \
         **[✦✦✦✦✦✦]**:45,000 Mora, Mist Veiled Primo Elixir x4, Mist Grass Wick x18, Lieutenant's Insignia x12", 'name':"Prototype Rancour",
-        'skill':["", '✰ ']
-        ,'star':'[★★★★]'}
+        'skill':["Smashed Stone", '✰ เมื่อโจมตีปกติหรือชาร์จโจมตี พลังโจมตีและพลังป้องกันจะเพิ่มขึ้น 4~8% เป็นเวลา 6 วินาทีโดยจะซ้อนทับได้มากสุด 4 ชั้น ซึ่งเอฟเฟกต์นี้จะเกิดขึ้นหนึ่งครั้งในทุก 0.3 วินาที']
+                    ,'star':'[★★★★]'}
         return lst85
     elif name.lower() == "amenoma kageuchi":
         lst86 = {'thum':"https://static.wikia.nocookie.net/gensin-impact/images/e/ea/Weapon_Amenoma_Kageuchi.png/revision/latest/scale-to-width-down/256?cb=20210723074436", \
@@ -1361,8 +1361,10 @@ def weapon_info_list(name):
         **[✦✦✦✦--]**:30,000 Mora, Jade Branch of a Distant Sea x3, Chaos Axis x12, Kageuchi Handguard x9\n \
         **[✦✦✦✦✦-]**:35,000 Mora, Jade Branch of a Distant Sea x6, Chaos Oculus x9, Famed Handguard x6\n \
         **[✦✦✦✦✦✦]**:45,000 Mora, Golden Branch of a Distant Sea x4, Chaos Oculus x18, Famed Handguard x12", 'name':"Amenoma Kageuchi",
-        'skill':["", '✰ ']
-        ,'star':'[★★★★]'}
+        'skill':["Iwakura Succession", '✰ หลังจากปล่อยสกิลธาตุ จะได้รับ Succession Seed 1 อัน ซึ่งเอฟเฟกต์นี้จะเกิดขึ้นได้มากสุดหนึ่งครั้ง ในทุก 5 วินาทีโดยที่ Succession Seed จะคงอยู่ 30 วินาที \
+                    และในเวลาเดี่ยวกันจะมีได้มากสุด 3 อันเมื่อใช้ท่าไม้ตาย จะทำการดูดซับ Succession Seed ที่มีอยู่ทั้งหมด และ 2 วินาที \
+                    หลังจากนั้น Succession Seed แต่ละอันที่ดูดซับไป จะฟื้นฟูพลังงานธาตุให้แก่ตัวละครนี้ 6~12 หน่วย']
+                    ,'star':'[★★★★]'}
         return lst86
     elif name.lower() == "lion's roar":
         lst87 = {'thum':"https://static.wikia.nocookie.net/gensin-impact/images/e/e6/Weapon_Lion%27s_Roar.png/revision/latest/scale-to-width-down/256?cb=20201119232745", \
@@ -1374,8 +1376,8 @@ def weapon_info_list(name):
         **[✦✦✦✦--]**:30,000 Mora, Relic from Guyun x3, Agent's Sacrificial Knife x12, Silver Raven Insignia x9\n \
         **[✦✦✦✦✦-]**:35,000 Mora, Relic from Guyun x6, Inspector's Sacrificial Knife x9, Golden Raven Insignia x6\n \
         **[✦✦✦✦✦✦]**:45,000 Mora, Divine Body from Guyun x4, Inspector's Sacrificial Knife x18, Golden Raven Insignia x12", 'name':"Lion's Roar",
-        'skill':["", '✰ ']
-        ,'star':'[★★★★]'}
+        'skill':["Bane of Fire and Thunder", '✰ เพิ่มความเสียหายแก่ศัตรูที่ได้รับผลกระทบของธาตุไฟ หรือไฟฟ้าขึ้น 20~36%']
+                    ,'star':'[★★★★]'}
         return lst87
     elif name.lower() == "iron sting":
         lst88 = {'thum':"https://static.wikia.nocookie.net/gensin-impact/images/3/35/Weapon_Iron_Sting.png/revision/latest/scale-to-width-down/256?cb=20201116034058", \
@@ -1388,7 +1390,7 @@ def weapon_info_list(name):
         **[✦✦✦✦✦-]**:35,000 Mora, Bit of Aerosiderite x6, Fossilized Bone Shard x9, Energy Nectar x6\n \
         **[✦✦✦✦✦✦]**:45,000 Mora, Chunk of Aerosiderite x4, Fossilized Bone Shard x18, Energy Nectar x12", 'name':"Iron Sting",
         'skill':["", '✰ ']
-        ,'star':'[★★★★]'}
+                    ,'star':'[★★★★]'}
         return lst88
     elif name.lower() == "festering desire":
         lst89 = {'thum':"https://static.wikia.nocookie.net/gensin-impact/images/7/70/Weapon_Festering_Desire.png/revision/latest/scale-to-width-down/256?cb=20201223042935", \
@@ -1401,7 +1403,7 @@ def weapon_info_list(name):
         **[✦✦✦✦✦-]**:35,000 Mora, Shackles of the Dandelion Gladiator x6, Black Crystal Horn x9, Lieutenant's Insignia x6\n \
         **[✦✦✦✦✦✦]**:45,000 Mora, Dream of the Dandelion Gladiator x4, Black Crystal Horn x18, Lieutenant's Insignia x12", 'name':"Festering Desire",
         'skill':["", '✰ ']
-        ,'star':'[★★★★]'}
+                    ,'star':'[★★★★]'}
         return lst89
     elif name.lower() == "favonius sword":
         lst90 = {'thum':"https://static.wikia.nocookie.net/gensin-impact/images/9/90/Weapon_Favonius_Sword.png/revision/latest/scale-to-width-down/256?cb=20201116033811", \
@@ -1414,7 +1416,7 @@ def weapon_info_list(name):
         **[✦✦✦✦✦-]**:35,000 Mora, Fragment of Decarabian's Epic x6, Black Crystal Horn x9, Weathered Arrowhead x6\n \
         **[✦✦✦✦✦✦]**:45,000 Mora, Scattered Piece of Decarabian's Dream x4, Black Crystal Horn x18, Weathered Arrowhead x12", 'name':"Favonius Sword",
         'skill':["", '✰ ']
-        ,'star':'[★★★★]'}
+                    ,'star':'[★★★★]'}
         return lst90
     elif name.lower() == "cinnabar spindle":
         lst91 = {'thum':"https://static.wikia.nocookie.net/gensin-impact/images/d/dc/Weapon_Cinnabar_Spindle.png/revision/latest/scale-to-width-down/256?cb=20211125225624", \
