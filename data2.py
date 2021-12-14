@@ -1188,8 +1188,8 @@ def weapon_info_list(name):
         **[✦✦✦✦--]**:30,000 Mora, Mist Veiled Gold Elixir x3, Mist Grass x12, Sealed Scroll x9\n \
         **[✦✦✦✦✦-]**:35,000 Mora, Mist Veiled Gold Elixir x6, Mist Grass Wick x9, Forbidden Curse Scroll x6\n \
         **[✦✦✦✦✦✦]**:45,000 Mora, Mist Veiled Primo Elixir x4, Mist Grass Wick x18, Forbidden Curse Scroll x12", 'name':"Dragon's Bane",
-        'skill':["", '✰ ']
-        ,'star':'[★★★★]'}
+        'skill':["Bane of Flame and Water", '✰ เพิ่มความเสียหายแก่ศัตรูที่ได้รับผลกระทบของธาตุน้ำและไฟขึ้น 20~36%']
+                    ,'star':'[★★★★]'}
         return lst73
     elif name.lower() == "deathmatch":
         lst74 = {'thum':"https://static.wikia.nocookie.net/gensin-impact/images/6/69/Weapon_Deathmatch.png/revision/latest/scale-to-width-down/256?cb=20201116154647", \
@@ -1201,8 +1201,8 @@ def weapon_info_list(name):
         **[✦✦✦✦--]**:30,000 Mora, Boreal Wolf's Broken Fang x3, Dead Ley Line Leaves x12, Shimmering Nectar x9\n \
         **[✦✦✦✦✦-]**:35,000 Mora, Boreal Wolf's Broken Fang x6, Ley Line Sprout x9, Energy Nectar x6\n \
         **[✦✦✦✦✦✦]**:45,000 Mora, Boreal Wolf's Nostalgia x4, Ley Line Sprout x18, Energy Nectar x12", 'name':"Deathmatch",
-        'skill':["", '✰ ']
-        ,'star':'[★★★★]'}
+        'skill':["Gladiator", '✰ เมื่อมีศัตรูอย่างน้อย 2 ตัว อยู่ใกล้ตัว จะได้รับพลังโจมตีเพิ่ม 16~32% และพลังป้องกันเพิ่ม 16~32% เมื่อมีศัตรูน้อยกว่า 2 ตัว อยู่ใกล้ตัว จะได้รับพลังโจมตีเพิ่ม 24~48%']
+                    ,'star':'[★★★★]'}
         return lst74
     elif name.lower() == "crescent pike":
         lst75 = {'thum':"https://static.wikia.nocookie.net/gensin-impact/images/4/4c/Weapon_Crescent_Pike.png/revision/latest/scale-to-width-down/256?cb=20201116033544", \
@@ -1214,8 +1214,8 @@ def weapon_info_list(name):
         **[✦✦✦✦--]**:30,000 Mora, Relic from Guyun x3, Agent's Sacrificial Knife x12, Silver Raven Insignia x9\n \
         **[✦✦✦✦✦-]**:35,000 Mora, Relic from Guyun x6, Inspector's Sacrificial Knife x9, Golden Raven Insignia x6\n \
         **[✦✦✦✦✦✦]**:45,000 Mora, Divine Body from Guyun x4, Inspector's Sacrificial Knife x18, Golden Raven Insignia x12", 'name':"Crescent Pike",
-        'skill':["", '✰ ']
-        ,'star':'[★★★★]'}
+        'skill':["Infusion Needle", '✰ ภายในเวลา 5 วินาที หลังจากเก็บอณูธาตุหรือลูกแก้วธาตุ การโจมตีปกติและชาร์จโจมดีจะสร้างความเสียหายเพิ่มเติม 20~40% ของพลังโจมตี']
+                    ,'star':'[★★★★]'}
         return lst75
     elif name.lower() == "blackcliff pole":
         lst76 = {'thum':"https://static.wikia.nocookie.net/gensin-impact/images/d/d5/Weapon_Blackcliff_Pole.png/revision/latest/scale-to-width-down/256?cb=20201116153435", \
@@ -1227,7 +1227,7 @@ def weapon_info_list(name):
         **[✦✦✦✦--]**:30,000 Mora, Mist Veiled Gold Elixir x3, Mist Grass x12, Sergeant's Insignia x9\n \
         **[✦✦✦✦✦-]**:35,000 Mora, Mist Veiled Gold Elixir x6, Mist Grass Wick x9, Lieutenant's Insignia x6\n \
         **[✦✦✦✦✦✦]**:45,000 Mora, Mist Veiled Primo Elixir x4, Mist Grass Wick x18, Lieutenant's Insignia x12", 'name':"Blackcliff Pole",
-        'skill':["", '✰ ']
+        'skill':["Press the Advantage", '✰ หลังจากกำจัดศัตรูได้ พลังโจมตีจะเพิ่มขึ้น 12~24% เป็นเวลา 30 วินาที โดยเอฟเฟกต์นี้จะซ้อนทับกันได้มากสุด 3 ชั้น ซึ่งแต่ละชั้นจะมีระยะเวลาของตัวเอง']
         ,'star':'[★★★★]'}
         return lst76
     elif name.lower() == "wavebreaker's fin":
@@ -1240,8 +1240,9 @@ def weapon_info_list(name):
         **[✦✦✦✦--]**:30,000 Mora, Mask of the One-Horned x3, Chaos Axis x12, Kageuchi Handguard x9\n \
         **[✦✦✦✦✦-]**:35,000 Mora, Mask of the One-Horned x6, Chaos Oculus x9, Famed Handguard x6\n \
         **[✦✦✦✦✦✦]**:45,000 Mora, Mask of the Kijin x4, Chaos Oculus x18, Famed Handguard x12", 'name':"Wavebreaker's Fin",
-        'skill':["", '✰ ']
-        ,'star':'[★★★★]'}
+        'skill':["Watatsumi Wavewalker", '✰ ทุก 1 หน่วย ของผลรวมพลังงานธาตุสูงสุดของตัวละครทั้งหมดในทีม จะทำให้ท่าไม้ตายของตัวละครที่ใช้อาวุธนี้ \
+                    สร้างความเสียหายเพิ่มขึ้น 0.12~0.24% โดยความเสียหายท่าไม้ตายที่เพิ่มขึ้นด้วยวิธีนี้ จะเพิ่มได้มากสุด 40~80%']
+                    ,'star':'[★★★★]'}
         return lst77
     elif name.lower() == "royal spear":
         lst78 = {'thum':"https://static.wikia.nocookie.net/gensin-impact/images/f/fd/Weapon_Royal_Spear.png/revision/latest/scale-to-width-down/256?cb=20201202041704", \
