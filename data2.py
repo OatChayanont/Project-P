@@ -1228,7 +1228,7 @@ def weapon_info_list(name):
         **[✦✦✦✦✦-]**:35,000 Mora, Mist Veiled Gold Elixir x6, Mist Grass Wick x9, Lieutenant's Insignia x6\n \
         **[✦✦✦✦✦✦]**:45,000 Mora, Mist Veiled Primo Elixir x4, Mist Grass Wick x18, Lieutenant's Insignia x12", 'name':"Blackcliff Pole",
         'skill':["Press the Advantage", '✰ หลังจากกำจัดศัตรูได้ พลังโจมตีจะเพิ่มขึ้น 12~24% เป็นเวลา 30 วินาที โดยเอฟเฟกต์นี้จะซ้อนทับกันได้มากสุด 3 ชั้น ซึ่งแต่ละชั้นจะมีระยะเวลาของตัวเอง']
-        ,'star':'[★★★★]'}
+                    ,'star':'[★★★★]'}
         return lst76
     elif name.lower() == "wavebreaker's fin":
         lst77 = {'thum':"https://static.wikia.nocookie.net/gensin-impact/images/6/66/Weapon_Wavebreaker%27s_Fin.png/revision/latest/scale-to-width-down/256?cb=20211112091108", \
@@ -1255,7 +1255,7 @@ def weapon_info_list(name):
         **[✦✦✦✦✦-]**:35,000 Mora, Mist Veiled Gold Elixir x6, Mist Grass Wick x9, Lieutenant's Insignia x6\n \
         **[✦✦✦✦✦✦]**:45,000 Mora, Mist Veiled Primo Elixir x4, Mist Grass Wick x18, Lieutenant's Insignia x12", 'name':"Royal Spear",
         'skill':["Focus", '✰ เมื่อการโจมตีก่อให้เกิดความเสียหาย อัตราคริจะเพิ่มขึ้น 8~16% ซ้อนทับได้มากสุด 5 ครั้ง และเมื่อโจมตีติดคริติคอลจะล้างเอฟเฟกต์ที่โฟกัสออกทั้งหมด']
-        ,'star':'[★★★★]'}
+                    ,'star':'[★★★★]'}
         return lst78
     elif name.lower() == "the flute":
         lst79 = {'thum':"https://static.wikia.nocookie.net/gensin-impact/images/6/63/Weapon_The_Flute.png/revision/latest/scale-to-width-down/256?cb=20201119203316", \
@@ -1267,8 +1267,9 @@ def weapon_info_list(name):
         **[✦✦✦✦--]**:30,000 Mora, Boreal Wolf's Broken Fang x3, Dead Ley Line Leaves x12, Slime Secretions x9\n \
         **[✦✦✦✦✦-]**:35,000 Mora, Boreal Wolf's Broken Fang x6, Ley Line Sprout x9, Slime Concentrate x6\n \
         **[✦✦✦✦✦✦]**:45,000 Mora, Boreal Wolf's Nostalgia x4, Ley Line Sprout x18, Slime Concentrate x12", 'name':"The Flute",
-        'skill':["", '✰ ']
-        ,'star':'[★★★★]'}
+        'skill':["Chord", '✰ เมื่อโจมตีปกติหรือชาร์จโจมตีจะได้รับโน้ตดนตรี 1 ตัว เมื่อเก็บโน้ตดนตรีครบ 5 ตัว จะทำให้เกิดพลังแห่งดนตรี ซึ่งจะสร้างความเสียหาย 100~200% ของพลังโจมตีแก่ศัตรูโดยรอบ \
+                    โน้ตดนตรีจะมีเวลาคงอยู่ 30 วินาที ซึ่งจะได้รับ 1 ตัวในทุก 0.5 วินาที']
+                    ,'star':'[★★★★]'}
         return lst79
     elif name.lower() == "the black sword":
         lst80 = {'thum':"https://static.wikia.nocookie.net/gensin-impact/images/c/cf/Weapon_The_Black_Sword.png/revision/latest/scale-to-width-down/256?cb=20201116035352", \
@@ -1280,8 +1281,9 @@ def weapon_info_list(name):
         **[✦✦✦✦--]**:30,000 Mora, Boreal Wolf's Broken Fang x3, Dead Ley Line Leaves x12, Slime Secretions x9\n \
         **[✦✦✦✦✦-]**:35,000 Mora, Boreal Wolf's Broken Fang x6, Ley Line Sprout x9, Slime Concentrate x6\n \
         **[✦✦✦✦✦✦]**:45,000 Mora, Boreal Wolf's Nostalgia x4, Ley Line Sprout x18, Slime Concentrate x12", 'name':"The Black Sword",
-        'skill':["", '✰ ']
-        ,'star':'[★★★★]'}
+        'skill':["Justice", '✰ การโจมตีปกติและชาร์จโจมตีจะสร้างความเสียหายเพิ่มขึ้น 20~40%; นอกจากนี้เมื่อการโจมตีปกติและชาร์จโจมตีเกิดคริติคอล จะคืนพลังชีวิตให้ในปริมาณเท่ากับ 60~100% ของพลังโจมตี \
+                    โดยเอฟเฟกต์นี้จะเกิดขึ้นได้หนึ่งครั้งในทุก 5 วินาที']
+                    ,'star':'[★★★★]'}
         return lst80
     elif name.lower() == "the alley flash":
         lst81 = {'thum':"https://static.wikia.nocookie.net/gensin-impact/images/8/83/Weapon_The_Alley_Flash.png/revision/latest/scale-to-width-down/256?cb=20210317151138", \
@@ -1293,8 +1295,8 @@ def weapon_info_list(name):
         **[✦✦✦✦--]**:30,000 Mora, Fragment of Decarabian's Epic x3, Black Bronze Horn x12, Sealed Scroll x9\n \
         **[✦✦✦✦✦-]**:35,000 Mora, Fragment of Decarabian's Epic x6, Black Crystal Horn x9, Forbidden Curse Scroll x6\n \
         **[✦✦✦✦✦✦]**:45,000 Mora, Scattered Piece of Decarabian's Dream x4, Black Crystal Horn x18, Forbidden Curse Scroll x12", 'name':"The Alley Flash",
-        'skill':["", '✰ ']
-        ,'star':'[★★★★]'}
+        'skill':["Itinerant Hero", '✰ ตัวละครที่สวมใส่จะสร้างความเสียหายเพิ่มขึ้น 12~24% หากตัวละครได้รับความเสียหายเอฟเฟกต์ดังกล่าวจะหายไปเป็นเวลา 5 วินาที']
+                    ,'star':'[★★★★]'}
         return lst81
     elif name.lower() == "sword of descension":
         lst82 = {'thum':"https://static.wikia.nocookie.net/gensin-impact/images/1/17/Weapon_Sword_of_Descension.png/revision/latest/scale-to-width-down/256?cb=20201116035338", \
@@ -1306,8 +1308,9 @@ def weapon_info_list(name):
         **[✦✦✦✦--]**:30,000 Mora, Boreal Wolf's Broken Fang x3, Dead Ley Line Leaves x12, Silver Raven Insignia x9\n \
         **[✦✦✦✦✦-]**:35,000 Mora, Boreal Wolf's Broken Fang x6, Ley Line Sprout x9, Golden Raven Insignia x6\n \
         **[✦✦✦✦✦✦]**:45,000 Mora, Boreal Wolf's Nostalgia x4, Ley Line Sprout x18, Golden Raven Insignia x12", 'name':"Sword of Descension",
-        'skill':["", '✰ ']
-        ,'star':'[★★★★]'}
+        'skill':["Descension", '✰ เมื่อโจมตีปกติ และชาร์จโจมตีถูกศัตรู จะมีโอกาส 50~?% ในการ สร้างความเสียหายเป็นพื้นที่วงแคบ 200~?% ของพลังโจมตี ซึ่งเอฟเฟกต์นี้จะเกิดขึ้นหนึ่งครั้งในทุก 10 วินาที \
+                    และเมื่อนักเดินทางถือ Sword of Descension พลังโจมตีจะเพิ่มขึ้น 66~? หน่วย']
+                    ,'star':'[★★★★]'}
         return lst82
     elif name.lower() == "sacrificial sword":
         lst83 = {'thum':"https://static.wikia.nocookie.net/gensin-impact/images/a/a0/Weapon_Sacrificial_Sword.png/revision/latest/scale-to-width-down/256?cb=20201120010840", \
