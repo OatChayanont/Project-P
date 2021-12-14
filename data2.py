@@ -1587,7 +1587,7 @@ def weapon_info_list(name):
         **[✦✦✦✦✦-]**:25,000 Mora, Bit of Aerosiderite x4, Fossilized Bone Shard x6, Golden Raven Insignia x4\n \
         **[✦✦✦✦✦✦]**:30,000 Mora, Chunk of Aerosiderite x3, Fossilized Bone Shard x12, Golden Raven Insignia x8", 'name':"Skyrider Greatsword",
         'skill':["", '✰ ']
-        ,'star':'[★★★]'}
+                    ,'star':'[★★★]'}
         return lst103
     elif name.lower() == "debate club":
         lst104 = {'thum':"https://static.wikia.nocookie.net/gensin-impact/images/7/74/Weapon_Debate_Club.png/revision/latest/scale-to-width-down/256?cb=20201116033616", \
@@ -1600,7 +1600,7 @@ def weapon_info_list(name):
         **[✦✦✦✦✦-]**:25,000 Mora, Mist Veiled Gold Elixir x4, Mist Grass Wick x6, Ominous Mask x4\n \
         **[✦✦✦✦✦✦]**:30,000 Mora, Mist Veiled Primo Elixir x3, Mist Grass Wick x12, Ominous Mask x8", 'name':"Debate Club",
         'skill':["", '✰ ']
-        ,'star':'[★★★]'}
+                    ,'star':'[★★★]'}
         return lst104
     elif name.lower() == "bloodtainted greatsword":
         lst105 = {'thum':"https://static.wikia.nocookie.net/gensin-impact/images/4/4a/Weapon_Bloodtainted_Greatsword.png/revision/latest/scale-to-width-down/256?cb=20201119233531", \
@@ -1613,7 +1613,7 @@ def weapon_info_list(name):
         **[✦✦✦✦✦-]**:25,000 Mora, Boreal Wolf's Broken Fang x4, Ley Line Sprout x6, Weathered Arrowhead x4\n \
         **[✦✦✦✦✦✦]**:30,000 Mora, Boreal Wolf's Nostalgia x3, Ley Line Sprout x12, Weathered Arrowhead x8", 'name':"Bloodtainted Greatsword",
         'skill':["", '✰ ']
-        ,'star':'[★★★]'}
+                    ,'star':'[★★★]'}
         return lst105
     elif name.lower() == "white iron greatsword":
         lst106 = {'thum':"https://static.wikia.nocookie.net/gensin-impact/images/5/56/Weapon_White_Iron_Greatsword.png/revision/latest/scale-to-width-down/256?cb=20201119201015", \
@@ -1626,7 +1626,7 @@ def weapon_info_list(name):
         **[✦✦✦✦✦-]**:25,000 Mora, Shackles of the Dandelion Gladiator x4, Chaos Core x6, Slime Concentrate x4\n \
         **[✦✦✦✦✦✦]**:30,000 Mora, Dream of the Dandelion Gladiator x3, Chaos Core x12, Slime Concentrate x8", 'name':"White Iron Greatsword",
         'skill':["", '✰ ']
-        ,'star':'[★★★]'}
+                    ,'star':'[★★★]'}
         return lst106
     elif name.lower() == "ferrous shadow":
         lst107 = {'thum':"https://static.wikia.nocookie.net/gensin-impact/images/e/e9/Weapon_Ferrous_Shadow.png/revision/latest/scale-to-width-down/256?cb=20201120003242", \
@@ -1639,7 +1639,7 @@ def weapon_info_list(name):
         **[✦✦✦✦✦-]**:25,000 Mora, Fragment of Decarabian's Epic x4, Black Crystal Horn x6, Energy Nectar x4\n \
         **[✦✦✦✦✦✦]**:30,000 Mora, Scattered Piece of Decarabian's Dream x3, Black Crystal Horn x12, Energy Nectar x8", 'name':"Ferrous Shadow",
         'skill':["", '✰ ']
-        ,'star':'[★★★]'}
+                    ,'star':'[★★★]'}
         return lst107
     elif name.lower() == "white tassel":
         lst108 = {'thum':"https://static.wikia.nocookie.net/gensin-impact/images/1/1f/Weapon_White_Tassel.png/revision/latest/scale-to-width-down/256?cb=20201116035549", \
@@ -1652,7 +1652,7 @@ def weapon_info_list(name):
         **[✦✦✦✦✦-]**:25,000 Mora, Relic from Guyun x4, Inspector's Sacrificial Knife x6, Lieutenant's Insignia x4\n \
         **[✦✦✦✦✦✦]**:30,000 Mora, Divine Body from Guyun x3, Inspector's Sacrificial Knife x12, Lieutenant's Insignia x8", 'name':"White Tassel",
         'skill':["", '✰ ']
-        ,'star':'[★★★]'}
+                    ,'star':'[★★★]'}
         return lst108
     elif name.lower() == "black tassel":
         lst109 = {'thum':"https://static.wikia.nocookie.net/gensin-impact/images/4/43/Weapon_Black_Tassel.png/revision/latest/scale-to-width-down/256?cb=20201116033134", \
@@ -1665,7 +1665,7 @@ def weapon_info_list(name):
         **[✦✦✦✦✦-]**:25,000 Mora, Bit of Aerosiderite x4, Fossilized Bone Shard x6, Weathered Arrowhead x4\n \
         **[✦✦✦✦✦✦]**:30,000 Mora, Chunk of Aerosiderite x3, Fossilized Bone Shard x12, Weathered Arrowhead x8", 'name':"Black Tassel",
         'skill':["", '✰ ']
-        ,'star':'[★★★]'}
+                    ,'star':'[★★★]'}
         return lst109
     elif name.lower() == "halberd":
         lst110 = {'thum':"https://static.wikia.nocookie.net/gensin-impact/images/4/41/Weapon_Halberd.png/revision/latest/scale-to-width-down/256?cb=20201116033956", \
@@ -1678,7 +1678,7 @@ def weapon_info_list(name):
         **[✦✦✦✦✦-]**:25,000 Mora, Mist Veiled Gold Elixir x4, Mist Grass Wick x6, Energy Nectar x4\n \
         **[✦✦✦✦✦✦]**:30,000 Mora, Mist Veiled Primo Elixir x3, Mist Grass Wick x12, Energy Nectar x8", 'name':"Halberd",
         'skill':["", '✰ ']
-        ,'star':'[★★★]'}
+                    ,'star':'[★★★]'}
         return lst110
     elif name.lower() == "harbinger of dawn":
         lst111 = {'thum':"https://static.wikia.nocookie.net/gensin-impact/images/2/23/Weapon_Harbinger_of_Dawn.png/revision/latest/scale-to-width-down/256?cb=20201119233056", \
@@ -1691,7 +1691,7 @@ def weapon_info_list(name):
         **[✦✦✦✦✦-]**:25,000 Mora, Boreal Wolf's Broken Fang x4, Ley Line Sprout x6, Slime Concentrate x4\n \
         **[✦✦✦✦✦✦]**:30,000 Mora, Boreal Wolf's Nostalgia x3, Ley Line Sprout x12, Slime Concentrate x8", 'name':"Harbinger of Dawn",
         'skill':["", '✰ ']
-        ,'star':'[★★★]'}
+                    ,'star':'[★★★]'}
         return lst111
     elif name.lower() == "fillet blade":
         lst112 = {'thum':"https://static.wikia.nocookie.net/gensin-impact/images/f/f7/Weapon_Fillet_Blade.png/revision/latest/scale-to-width-down/256?cb=20201116033941", \
@@ -1704,7 +1704,7 @@ def weapon_info_list(name):
         **[✦✦✦✦✦-]**:25,000 Mora, Mist Veiled Gold Elixir x4, Mist Grass Wick x6, Golden Raven Insignia x4\n \
         **[✦✦✦✦✦✦]**:30,000 Mora, Mist Veiled Primo Elixir x3, Mist Grass Wick x12, Golden Raven Insignia x8", 'name':"Fillet Blade",
         'skill':["", '✰ ']
-        ,'star':'[★★★]'}
+                    ,'star':'[★★★]'}
         return lst112
     elif name.lower() == "skyrider sword":
         lst113 = {'thum':"https://static.wikia.nocookie.net/gensin-impact/images/3/34/Weapon_Skyrider_Sword.png/revision/latest/scale-to-width-down/256?cb=20201116035206", \
@@ -1717,7 +1717,7 @@ def weapon_info_list(name):
         **[✦✦✦✦✦-]**:25,000 Mora, Bit of Aerosiderite x4, Fossilized Bone Shard x6, Lieutenant's Insignia x4\n \
         **[✦✦✦✦✦✦]**:30,000 Mora, Chunk of Aerosiderite x3, Fossilized Bone Shard x12, Lieutenant's Insignia x8", 'name':"Skyrider Sword",
         'skill':["", '✰ ']
-        ,'star':'[★★★]'}
+                    ,'star':'[★★★]'}
         return lst113
     elif name.lower() == "dark iron sword":
         lst114 = {'thum':"https://static.wikia.nocookie.net/gensin-impact/images/3/3a/Weapon_Dark_Iron_Sword.png/revision/latest/scale-to-width-down/256?cb=20201119235556", \
@@ -1730,7 +1730,7 @@ def weapon_info_list(name):
         **[✦✦✦✦✦-]**:25,000 Mora, Relic from Guyun x4, Inspector's Sacrificial Knife x6, Ominous Mask x4\n \
         **[✦✦✦✦✦✦]**:30,000 Mora, Divine Body from Guyun x3, Inspector's Sacrificial Knife x12, Ominous Mask x8", 'name':"Dark Iron Sword",
         'skill':["", '✰ ']
-        ,'star':'[★★★]'}
+                    ,'star':'[★★★]'}
         return lst114
     elif name.lower() == "cool steel":
         lst115 = {'thum':"https://static.wikia.nocookie.net/gensin-impact/images/9/9c/Weapon_Cool_Steel.png/revision/latest/scale-to-width-down/256?cb=20201119233444", \
@@ -1743,7 +1743,7 @@ def weapon_info_list(name):
         **[✦✦✦✦✦-]**:25,000 Mora, Fragment of Decarabian's Epic x4, Black Crystal Horn x6, Weathered Arrowhead x4\n \
         **[✦✦✦✦✦✦]**:30,000 Mora, Scattered Piece of Decarabian's Dream x3, Black Crystal Horn x12, Weathered Arrowhead x8", 'name':"Cool Steel",
         'skill':["", '✰ ']
-        ,'star':'[★★★]'}
+                    ,'star':'[★★★]'}
         return lst115
     elif name.lower() == "traveler's handy sword":
         lst116 = {'thum':"https://static.wikia.nocookie.net/gensin-impact/images/c/c9/Weapon_Traveler%27s_Handy_Sword.png/revision/latest/scale-to-width-down/256?cb=20201116035456", \
@@ -1756,7 +1756,7 @@ def weapon_info_list(name):
         **[✦✦✦✦✦-]**:25,000 Mora, Shackles of the Dandelion Gladiator x4, Chaos Core x6, Forbidden Curse Scroll x4\n \
         **[✦✦✦✦✦✦]**:30,000 Mora, Dream of the Dandelion Gladiator x3, Chaos Core x12, Forbidden Curse Scroll x8", 'name':"Traveler's Handy Sword",
         'skill':["", '✰ ']
-        ,'star':'[★★★]'}
+                    ,'star':'[★★★]'}
         return lst116
     elif name.lower() == "seasoned hunter's bow":
         lst117 = {'thum':"https://static.wikia.nocookie.net/gensin-impact/images/8/82/Weapon_Seasoned_Hunter%27s_Bow.png/revision/latest/scale-to-width-down/256?cb=20201116035113", \
