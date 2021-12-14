@@ -716,7 +716,7 @@ def weapon_info_list(name):
         **[✦✦✦✦--]**:30,000 Mora, Relic from Guyun x3, Agent's Sacrificial Knife x12, Shimmering Nectar x9\n \
         **[✦✦✦✦✦-]**:35,000 Mora, Relic from Guyun x6, Inspector's Sacrificial Knife x9, Energy Nectar x6\n \
         **[✦✦✦✦✦✦]**:45,000 Mora, Divine Body from Guyun x4, Inspector's Sacrificial Knife x18, Energy Nectar x12", 'name':"Blackcliff Warbow",
-        'skill':["", '✰ ']
+        'skill':["Press the Advantage", '✰ หลังจากกำจัดศัตรูได้ พลังโจมตีจะเพิ่มขึ้น 12~24% เป็นเวลา 30 วินาที โดยเอฟเฟกต์นี้จะซ้อนทับกันได้มากสุด 3 ชั้น ซึ่งแต่ละชั้นจะมีระยะเวลาของตัวเอง']
         ,'star':'[★★★★]'}
         return lst38
     elif name.lower() == "windblume ode":
@@ -729,7 +729,7 @@ def weapon_info_list(name):
         **[✦✦✦✦--]**:30,000 Mora, Shackles of the Dandelion Gladiator x3, Dead Ley Line Leaves x12, Shimmering Nectar x9\n \
         **[✦✦✦✦✦-]**:35,000 Mora, Shackles of the Dandelion Gladiator x6, Ley Line Sprout x9, Energy Nectar x6\n \
         **[✦✦✦✦✦✦]**:45,000 Mora, Dream of the Dandelion Gladiator x4, Ley Line Sprout x18, Energy Nectar x12", 'name':"Windblume Ode",
-        'skill':["", '✰ ']
+        'skill':["Windblume Wish", '✰ เมื่อใช้สกิลธาตุ จะได้รับพรจากความปรารถนาแห่งอดีตกาลของดอก Windblume โดยพลังโจมตีจะเพิ่มขึ้น 16~32% เป็นเวลา 6 วินาที']
         ,'star':'[★★★★]'}
         return lst39
     elif name.lower() == "wine and song":
