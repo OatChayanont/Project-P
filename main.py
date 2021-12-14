@@ -39,7 +39,6 @@ async def menu(ctx):
 async def clear(ctx, amount):
     await ctx.channel.purge(limit=int(amount)+1)
 
-
 @bot.command()
 async def dungeon(ctx, day):
     await ctx.channel.purge(limit=1)

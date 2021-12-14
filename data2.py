@@ -1838,7 +1838,7 @@ def weapon_info_list(name):
         return lst124
     elif name.lower() == "silver sword":
         lst125 = {'thum':"https://static.wikia.nocookie.net/gensin-impact/images/3/32/Weapon_Silver_Sword.png/revision/latest/scale-to-width-down/256?cb=20201116035150", \
-        'his':"ดาบที่ใช้ไล่ปีศาจร้าย ทุกคนต่างรู้ดีว่ามันท่มาจากอัลลอย ไม่ใช่เงินแท้ ๆ สักหน่อย", \
+        'his':"ดาบที่ใช้ไล่ปีศาจร้าย ทุกคนต่างรู้ดีว่ามันทำมาจากอัลลอย ไม่ใช่เงินแท้ ๆ สักหน่อย", \
         'type':"Sword", 'stat':["243", "-", "None"], \
         'ascen':"**[✦-----]**:5,000 Mora, Tile of Decarabian's Tower x1, Heavy Horn x1, Firm Arrowhead x1\n \
         **[✦✦----]**:5,000 Mora, Debris of Decarabian's City x1, Heavy Horn x5, Firm Arrowhead x4\n \
