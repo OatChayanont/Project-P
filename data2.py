@@ -1495,7 +1495,7 @@ def weapon_info_list(name):
         **[✦✦✦✦--]**:20,000 Mora, Boreal Wolf's Broken Fang x2, Dead Ley Line Leaves x8, Slime Secretions x6\n \
         **[✦✦✦✦✦-]**:25,000 Mora, Boreal Wolf's Broken Fang x4, Ley Line Sprout x6, Slime Concentrate x4\n \
         **[✦✦✦✦✦✦]**:30,000 Mora, Boreal Wolf's Nostalgia x3, Ley Line Sprout x12, Slime Concentrate x8", 'name':"Sharpshooter's Oath",
-        'skill':["", '✰ ']
+        'skill':["Precise", '✰ เพิ่มความเสียหายที่สร้างต่อจุดอ่อน 24~48%']
         ,'star':'[★★★]'}
         return lst96
     elif name.lower() == "slingshot":
@@ -1508,7 +1508,7 @@ def weapon_info_list(name):
         **[✦✦✦✦--]**:20,000 Mora, Relic from Guyun x2, Agent's Sacrificial Knife x8, Stained Mask x6\n \
         **[✦✦✦✦✦-]**:25,000 Mora, Relic from Guyun x4, Inspector's Sacrificial Knife x6, Ominous Mask x4\n \
         **[✦✦✦✦✦✦]**:30,000 Mora, Divine Body from Guyun x3, Inspector's Sacrificial Knife x12, Ominous Mask x8", 'name':"Slingshot",
-        'skill':["", '✰ ']
+        'skill':["Slingshot", '✰ หากลูกธนูของการโจมตีปกติและชาร์จโจมตีถูกศัตรูภายใน 0.3 วินาที หลังจากที่ปล่อยออกไป จะสร้างโบนัสความเสียหาย 36~60%, มิฉะนั้นความเสียหายที่สร้างจะลดลง 10%']
         ,'star':'[★★★]'}
         return lst97
     elif name.lower() == "magic guide":
@@ -1676,7 +1676,7 @@ def weapon_info_list(name):
         **[✦✦✦---]**:15,000 Mora, Mist Veiled Mercury Elixir x4, Mist Grass x4, Shimmering Nectar x4\n \
         **[✦✦✦✦--]**:20,000 Mora, Mist Veiled Gold Elixir x2, Mist Grass x8, Shimmering Nectar x6\n \
         **[✦✦✦✦✦-]**:25,000 Mora, Mist Veiled Gold Elixir x4, Mist Grass Wick x6, Energy Nectar x4\n \
-        **[✦✦✦✦✦✦]**:30,000 Mora, Mist Veiled Primo Elixir x3, Mist Grass Wick x12, Energy Nectar x8", 'name':"Halberd",,
+        **[✦✦✦✦✦✦]**:30,000 Mora, Mist Veiled Primo Elixir x3, Mist Grass Wick x12, Energy Nectar x8", 'name':"Halberd",
         'skill':["", '✰ ']
         ,'star':'[★★★]'}
         return lst110
