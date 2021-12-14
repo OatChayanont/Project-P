@@ -1691,7 +1691,7 @@ def weapon_info_list(name):
         **[✦✦✦✦--]**:20,000 Mora, Boreal Wolf's Broken Fang x2, Dead Ley Line Leaves x8, Slime Secretions x6\n \
         **[✦✦✦✦✦-]**:25,000 Mora, Boreal Wolf's Broken Fang x4, Ley Line Sprout x6, Slime Concentrate x4\n \
         **[✦✦✦✦✦✦]**:30,000 Mora, Boreal Wolf's Nostalgia x3, Ley Line Sprout x12, Slime Concentrate x8", 'name':"Harbinger of Dawn",
-        'skill':["", '✰ ']
+        'skill':["Vigorous", '✰ เมื่อพลังชีวิตสูงกว่า 90% อัตราคริจะเพิ่มขึ้น 14~28%']
                     ,'star':'[★★★]'}
         return lst111
     elif name.lower() == "fillet blade":
@@ -1704,7 +1704,7 @@ def weapon_info_list(name):
         **[✦✦✦✦--]**:20,000 Mora, Mist Veiled Gold Elixir x2, Mist Grass x8, Silver Raven Insignia x6\n \
         **[✦✦✦✦✦-]**:25,000 Mora, Mist Veiled Gold Elixir x4, Mist Grass Wick x6, Golden Raven Insignia x4\n \
         **[✦✦✦✦✦✦]**:30,000 Mora, Mist Veiled Primo Elixir x3, Mist Grass Wick x12, Golden Raven Insignia x8", 'name':"Fillet Blade",
-        'skill':["", '✰ ']
+        'skill':["Gash", '✰ ในตอนที่โจมตีจะมีโอกาส 50% ที่จะสร้างความเสียหาย 240~400% ของการโจมตีพื้นฐานให้แก่ศัตรูหนึ่งตัว ซึ่งเอฟเฟกต์นี้จะเกิดขึ้นหนึ่งครั้งในทุก 15~11 วินาที']
                     ,'star':'[★★★]'}
         return lst112
     elif name.lower() == "skyrider sword":
@@ -1717,7 +1717,7 @@ def weapon_info_list(name):
         **[✦✦✦✦--]**:20,000 Mora, Bit of Aerosiderite x2, Sturdy Bone Shard x8, Sergeant's Insignia x6\n \
         **[✦✦✦✦✦-]**:25,000 Mora, Bit of Aerosiderite x4, Fossilized Bone Shard x6, Lieutenant's Insignia x4\n \
         **[✦✦✦✦✦✦]**:30,000 Mora, Chunk of Aerosiderite x3, Fossilized Bone Shard x12, Lieutenant's Insignia x8", 'name':"Skyrider Sword",
-        'skill':["", '✰ ']
+        'skill':["Determination", '✰ การใช้ท่าไม้ตายจะเพิ่มพลังโจมตีและความเร็วในการเคลื่อนที่ 12~24% เป็นเวลา 15 วินาที']
                     ,'star':'[★★★]'}
         return lst113
     elif name.lower() == "dark iron sword":
