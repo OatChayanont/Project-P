@@ -917,8 +917,9 @@ def weapon_info_list(name):
         **[✦✦✦✦--]**:30,000 Mora, Jade Branch of a Distant Sea x3, Concealed Unguis x12, Kageuchi Handguard x9\n \
         **[✦✦✦✦✦-]**:35,000 Mora, Jade Branch of a Distant Sea x6, Concealed Talon x9, Famed Handguard x6\n \
         **[✦✦✦✦✦✦]**:45,000 Mora, Golden Branch of a Distant Sea x4, Concealed Talon x18, Famed Handguard x12", 'name':"Akuoumaru",
-        'skill':["", '✰ ']
-        ,'star':'[★★★★]'}
+        'skill':["Watatsumi Wavewalker", '✰ ทุก 1 หน่วย ของผลรวมพลังงานธาตุสูงสุดของตัวละครทั้งหมดในทีม จะทำให้ท่าไม้ตายของตัวละครที่ใช้อาวุธนี้ สร้างความเสียหายเพิ่มขึ้น 0.12~0.24% \
+                    โดยความเสียหายท่าไม้ตายที่เพิ่มขึ้นด้วยวิธีนี้ จะเพิ่มได้มากสุด 40~80% โดยความเสียหายท่าไม้ตายที่เพิ่มขึ้นด้วยวิธีนี้ จะเพิ่มได้มากสุด']
+                    ,'star':'[★★★★]'}
         return lst53
     elif name.lower() == "royal greatsword":
         lst54 = {'thum':"https://static.wikia.nocookie.net/gensin-impact/images/b/bf/Weapon_Royal_Greatsword.png/revision/latest/scale-to-width-down/256?cb=20201116034928", \
@@ -930,7 +931,7 @@ def weapon_info_list(name):
         **[✦✦✦✦--]**:30,000 Mora, Shackles of the Dandelion Gladiator x3, Chaos Circuit x12, Slime Secretions x9\n \
         **[✦✦✦✦✦-]**:35,000 Mora, Shackles of the Dandelion Gladiator x6, Chaos Core x9, Slime Concentrate x6\n \
         **[✦✦✦✦✦✦]**:45,000 Mora, Dream of the Dandelion Gladiator x4, Chaos Core x18, Slime Concentrate x12", 'name':"Royal Greatsword",
-        'skill':["", '✰ ']
+        'skill':["Focus", '✰ เมื่อการโจมตีก่อให้เกิดความเสียหาย อัตราคริจะเพิ่มขึ้น 8~16% ซ้อนทับได้มากสุด 5 ครั้ง และเมื่อโจมตีติดคริติคอลจะล้างเอฟเฟกต์ที่โฟกัสออกทั้งหมด']
         ,'star':'[★★★★]'}
         return lst54
     elif name.lower() == "whiteblind":
@@ -943,7 +944,7 @@ def weapon_info_list(name):
         **[✦✦✦✦--]**:30,000 Mora, Relic from Guyun x3, Agent's Sacrificial Knife x12, Silver Raven Insignia x9\n \
         **[✦✦✦✦✦-]**:35,000 Mora, Relic from Guyun x6, Inspector's Sacrificial Knife x9, Golden Raven Insignia x6\n \
         **[✦✦✦✦✦✦]**:45,000 Mora, Divine Body from Guyun x4, Inspector's Sacrificial Knife x18, Golden Raven Insignia x12", 'name':"Whiteblind",
-        'skill':["", '✰ ']
+        'skill':["Infusion Blade", '✰ หลังโจมตีปกติหรือชาร์จโจมตีถูกเป้าหมาย พลังโจมตีและพลังป้องกันจะเพิ่มขึ้น 6~12% ซึ่งเอฟเฟกต์นี้จะเกิดขึ้นเป็นระยะเวลา 6 วินาที และซ้อนทับมากสุด 4 ชั้น โดยจะเกิดขึ้นหนึ่งครั้งในทุก 0.5 วินาที']
         ,'star':'[★★★★]'}
         return lst55
     elif name.lower() == "the bell":
@@ -956,8 +957,9 @@ def weapon_info_list(name):
         **[✦✦✦✦--]**:30,000 Mora, Fragment of Decarabian's Epic x3, Black Bronze Horn x12, Shimmering Nectar x9\n \
         **[✦✦✦✦✦-]**:35,000 Mora, Fragment of Decarabian's Epic x6, Black Crystal Horn x9, Energy Nectar x6\n \
         **[✦✦✦✦✦✦]**:45,000 Mora, Scattered Piece of Decarabian's Dream x4, Black Crystal Horn x18, Energy Nectar x12", 'name':"The Bell",
-        'skill':["", '✰ ']
-        ,'star':'[★★★★]'}
+        'skill':["Rebellious Guardian", '✰ เมื่อได้รับความเสียหายจะสร้างโล่ที่สามารถดูดซับความเสียหายได้ถึง 20~32% ของพลังชีวิตสูงสุดเป็นเวลา 10 วินาที หรือจนกว่าโล่จะเสื่อมสภาพ \
+                    โดยจะเกิดขึ้นได้หนึ่งครั้งในทุก 45 วินาที ในขณะที่ตัวละครได้รับการป้องกันจากโล่จะสร้างความเสียหายเพิ่มขึ้น 12~24%']
+                    ,'star':'[★★★★]'}
         return lst56
     elif name.lower() == "snow-tombed starsilver":
         lst57 = {'thum':"https://static.wikia.nocookie.net/gensin-impact/images/4/49/Weapon_Snow-Tombed_Starsilver.png/revision/latest/scale-to-width-down/256?cb=20201223042944", \
@@ -969,7 +971,8 @@ def weapon_info_list(name):
         **[✦✦✦✦--]**:30,000 Mora, Fragment of Decarabian's Epic x3, Black Bronze Horn x12, Slime Secretions x9\n \
         **[✦✦✦✦✦-]**:35,000 Mora, Fragment of Decarabian's Epic x6, Black Crystal Horn x9, Slime Concentrate x6\n \
         **[✦✦✦✦✦✦]**:45,000 Mora, Scattered Piece of Decarabian's Dream x4, Black Crystal Horn x18, Slime Concentrate x12", 'name':"Snow-Tombed Starsilver",
-        'skill':["", '✰ ']
+        'skill':["Frost Burial", '✰ เมื่อโจมตีปกติและชาร์จโจมตีถูกศัตรู จะมีโอกาส 60~100% ที่จะเกิด Everfrost Icicle ขึ้นบนตัวของศัตรูและร่วงลงมาใส่ เพื่อสร้างความเสียหายวงกว้างเป็น 80% ของพลังโจมตี \
+                    หากศัตรูตกอยู่ภายใต้ผลกระทบของธาตุน้ำแข็ง จะสร้างความเสียหาย 80~140% ของพลังโจมตี โดยที่เอฟเฟกต์ดังกล่าวนี้จะเกิดได้ครั้งเดียวในทุก 200~360 วินาที']
         ,'star':'[★★★★]'}
         return lst57
     elif name.lower() == "favonius greatsword":
@@ -982,7 +985,7 @@ def weapon_info_list(name):
         **[✦✦✦✦--]**:30,000 Mora, Shackles of the Dandelion Gladiator x3, Chaos Circuit x12, Sergeant's Insignia x9\n \
         **[✦✦✦✦✦-]**:35,000 Mora, Shackles of the Dandelion Gladiator x6, Chaos Core x9, Lieutenant's Insignia x6\n \
         **[✦✦✦✦✦✦]**:45,000 Mora, Dream of the Dandelion Gladiator x4, Chaos Core x18, Lieutenant's Insignia x12", 'name':"Favonius Greatsword",
-        'skill':["", '✰ ']
+        'skill':["Wingfall", '✰ เมื่อโจมตีคริติคอล จะมีโอกาส 60~100% ที่จะ สร้างอณุธาตุ ซึ่งใช้ฟื้นฟู พลังงานธาตุได้ 6 หน่วย โดยเฟเฟกต์นี้จะใช้ได้หนึ่งครั้งในทุก 12~6 วินาที']
         ,'star':'[★★★★]'}
         return lst58
     elif name.lower() == "katsuragikiri nagamasa":
