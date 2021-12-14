@@ -1730,7 +1730,7 @@ def weapon_info_list(name):
         **[✦✦✦✦--]**:20,000 Mora, Relic from Guyun x2, Agent's Sacrificial Knife x8, Stained Mask x6\n \
         **[✦✦✦✦✦-]**:25,000 Mora, Relic from Guyun x4, Inspector's Sacrificial Knife x6, Ominous Mask x4\n \
         **[✦✦✦✦✦✦]**:30,000 Mora, Divine Body from Guyun x3, Inspector's Sacrificial Knife x12, Ominous Mask x8", 'name':"Dark Iron Sword",
-        'skill':["", '✰ ']
+        'skill':["Overloaded", '✰ การทำให้เกิดโอเวอร์โหลด, นำไฟฟ้า, ชาร์จไฟฟ้า หรือกระจายไฟฟ้า จะเพิ่มพลังโจมตีขึ้น 20~40% เป็นเวลา 12 วินาที']
                     ,'star':'[★★★]'}
         return lst114
     elif name.lower() == "cool steel":
@@ -1743,7 +1743,7 @@ def weapon_info_list(name):
         **[✦✦✦✦--]**:20,000 Mora, Fragment of Decarabian's Epic x2, Black Bronze Horn x8, Sharp Arrowhead x6\n \
         **[✦✦✦✦✦-]**:25,000 Mora, Fragment of Decarabian's Epic x4, Black Crystal Horn x6, Weathered Arrowhead x4\n \
         **[✦✦✦✦✦✦]**:30,000 Mora, Scattered Piece of Decarabian's Dream x3, Black Crystal Horn x12, Weathered Arrowhead x8", 'name':"Cool Steel",
-        'skill':["", '✰ ']
+        'skill':["Bane of Water and Ice", '✰ เพิ่มความเสียหายแก่ศัตรูที่ได้รับผลกระทบของธาตุน้ำและน้ำแข็งเพิ่มขึ้น 12~24%']
                     ,'star':'[★★★]'}
         return lst115
     elif name.lower() == "traveler's handy sword":
@@ -1756,7 +1756,7 @@ def weapon_info_list(name):
         **[✦✦✦✦--]**:20,000 Mora, Shackles of the Dandelion Gladiator x2, Chaos Circuit x8, Sealed Scroll x6\n \
         **[✦✦✦✦✦-]**:25,000 Mora, Shackles of the Dandelion Gladiator x4, Chaos Core x6, Forbidden Curse Scroll x4\n \
         **[✦✦✦✦✦✦]**:30,000 Mora, Dream of the Dandelion Gladiator x3, Chaos Core x12, Forbidden Curse Scroll x8", 'name':"Traveler's Handy Sword",
-        'skill':["", '✰ ']
+        'skill':["Journey", '✰ เมื่อเก็บลูกแก้ว/อณูธาตุ จะฟื้นฟู HP 1~2%']
                     ,'star':'[★★★]'}
         return lst116
     elif name.lower() == "seasoned hunter's bow":
