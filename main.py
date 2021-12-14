@@ -149,7 +149,7 @@ async def char(ctx, *, name):
 @bot.command()
 async def weapon(ctx, *, name):
     weapon_type = ["bows", "claymores", "polearms", "catalysts", "swords"]
-    if name == "list" or name in weapon_type:
+    if name == "list" or name.lower() in weapon_type:
         weaponlist = weapon_info_list(name)
         send = discord.Embed(title="Weapon List", description="{0}" .format("\n".join(weaponlist)), colour=0xed4b6f)
         send.set_thumbnail(url="https://ih1.redbubble.net/image.1942540739.9959/st,small,507x507-pad,600x600,f8f8f8.jpg")

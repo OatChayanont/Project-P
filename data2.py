@@ -9,7 +9,7 @@ def weapon_info_list(name):
             weaponlist[i] = "**%d.** " % (i+1) + weaponlist[i]
         return weaponlist
     if name.lower() == "bows":
-        bows = ["----------**<:bows:909806179427942400> Bow**----------",
+        bows = ["----------**<:bows:909806179427942400> Bows**----------",
                 "**[5★]** Polar Star",
                 "**[5★]** Thundering Pulse",
                 "**[5★]** Elegy for the End",
@@ -104,7 +104,7 @@ def weapon_info_list(name):
             swords[i] = "**%d.** " % i + swords[i]
         return swords
     elif name.lower() == "polearms":
-        polearms = ["----------**<:polearms:909806179348267069> Claymores**----------",
+        polearms = ["----------**<:polearms:909806179348267069> Polearms**----------",
                     "**[5★]** Engulfing Lightning",
                     "**[5★]** Skyward Spine",
                     "**[5★]** Primordial Jade Winged-Spear",
