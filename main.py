@@ -29,7 +29,7 @@ async def menu(ctx):
     text.add_field(name="`!char <list หรือ [character|number]>`", value="List Character ทั้งหมด\nตัวอย่างเช่น\n- !char list - !char hu tao - !char 13", inline=False)
     text.add_field(name="`!weapon <list หรือ [weapon|type]>`", value="List Weapon ทั้งหมด\nตัวอย่างเช่น\n- !weapon list - !weapon bows - !weapon polar star", inline=False)
     text.add_field(name="`!gacha <wish10 หรือ wish1>`", value="สุ่มกาชาจำลอง", inline=False)
-    text.add_field(name="`!resin <your resin>`", value="คำนวณระยะเวลาที่ Resin ของคุณจะเต็มและเต็มตอนกี่โมง", inline=False)
+    text.add_field(name="`!resin <your resin>`", value="คำนวณระยะเวลาที่ Resin ของคุณจะเต็มและเต็มตอนกี่โมง และสามารถตั้งเวลาแจ้งเตือนได้ด้วย!!", inline=False)
     text.add_field(name="`!dungeon <today หรือ monday, ... , sunday>`", value="Meterials อัพตัวละครที่ดรอปในดันแต่ละวัน", inline=False)
     text.add_field(name="`!clear <amount>`", value="ลบข้อความ [จำนวน]", inline=False)
     text.set_image(url="https://img-comment-fun.9cache.com/media/aVOWQnP/a0Na7Bq2_700w_0.jpg")
