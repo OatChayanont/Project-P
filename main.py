@@ -151,21 +151,6 @@ async def gacha(ctx, userinput):
         await ctx.channel.send(embed=wish_embed)
 
 @bot.command()
-async def test(ctx, *, par):
-    await ctx.channel.send("You are fucking noob {0}" .format(par))
-
-@bot.event
-async def on_message(message):
-    if message.content == "Hi":
-        await message.channel.purge(limit=1)
-    elif message.content == "เสือก":
-        await message.channel.send("แล้วมึงควยไรไอ้หน้าหี")
-    elif message.content == "sad":
-        await message.channel.send(str(message.author.display_name) + " มึง sad เหี้ยไร เศร้ามากก็ไปตายไอ้ควาย")
-    await bot.process_commands(message)
-
-
-@bot.command()
 async def char(ctx, *, name):
     if name != "list":
         character_info = character_info_list(name)

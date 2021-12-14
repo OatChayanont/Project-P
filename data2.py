@@ -161,18 +161,18 @@ def weapon_info_list(name):
         return catalysts
     elif name.lower() == "polar star":
         lst1 = {'thum':"https://static.wikia.nocookie.net/gensin-impact/images/4/44/Weapon_Polar_Star.png/revision/latest/scale-to-width-down/256?cb=20211013042349", \
-        'his':"ธนูไร้มลทินที่แหลมคม ราวกับแท่งน้ำแข็งในฤดูหนาวที่แสนยาวนาน", 'type':"Bow", 'stat':["608", "33.1%", "CRIT Rate"], \
+        'his':"ธนูไร้มลทินที่แหลมคม ราวกับแท่งน้ำแข็งในฤดูหนาวที่แสนยาวนาน", 'type':"Bow", 'stat':["608", "33.1%", "CRIT Rate"],
         'ascen':"**[✦-----]**:10,000 Mora, Mask of the Wicked Lieutenant x5, Concealed Claw x5, Spectral Husk x3\n \
         **[✦✦----]**:20,000 Mora, Mask of the Tiger's Bite x5, Concealed Claw x18, Spectral Husk x12\n \
         **[✦✦✦---]**:30,000 Mora, Mask of the Tiger's Bite x9, Concealed Unguis x9, Spectral Heart x9\n \
         **[✦✦✦✦--]**:45,000 Mora, Mask of the One-Horned x5, Concealed Unguis x18, Spectral Heart x14\n \
         **[✦✦✦✦✦-]**:55,000 Mora, Mask of the One-Horned x9, Concealed Talon x14, Spectral Nucleus x9\n \
         **[✦✦✦✦✦✦]**:65,000 Mora, Mask of the Kijin x6, Concealed Talon x27, Spectral Nucleus x18", 'name':"Polar Star",
-        'skill':["Daylight's Augury", '✰ สกิลธาตุและท่าไม้ตายสร้างความเสียหายเพิ่มขึ้น **12%**;\n \
+        'skill':["Daylight's Augury", '✰ สกิลธาตุและท่าไม้ตายสร้างความเสียหายเพิ่มขึ้น **12~24%**;\n \
                     หลังจากการโจมตีปกติ, ชาร์จโจมตี, สกิลธาตุ หรือท่าไม้ตายถูกศัตรู จะทำให้เกิดเอฟเฟกต์ Ashen Nightstar 1 ชั้น \
-                    เป็นเวลา 12 วินาที ซึ่งเมื่อมีเอฟเฟกต์ Ashen Nightstar 1/2/3/4 ชั้น พลังโจมตีจะเพิ่มขึ้น **10/20/30/48%** \
-                    โดยที่ Ashen Nightstar ที่เกิดจากการโจมตีปกติ, ชาร์จโจมตี, สกิลธาตุ หรือท่าไม้ตายนั้น จะมีช่วงเวลาคงอยู่ที่เป็นอิสระต่อกัน']
-                    ,'star':'[★★★★★]'}
+                    เป็นเวลา 12 วินาที ซึ่งเมื่อมีเอฟเฟกต์ Ashen Nightstar 1/2/3/4 ชั้น พลังโจมตีจะเพิ่มขึ้น **10/20/30/48~20/40/60/96%** \
+                    โดยที่ Ashen Nightstar ที่เกิดจากการโจมตีปกติ, ชาร์จโจมตี, สกิลธาตุ หรือท่าไม้ตายนั้น จะมีช่วงเวลาคงอยู่ที่เป็นอิสระต่อกัน'],
+        'star':'[★★★★★]'}
         return lst1
     elif name.lower() == "thundering pulse":
         lst2 = {'thum':"https://static.wikia.nocookie.net/gensin-impact/images/7/77/Weapon_Thundering_Pulse.png/revision/latest/scale-to-width-down/256?cb=20210811094805", \
@@ -183,12 +183,12 @@ def weapon_info_list(name):
         **[✦✦✦✦--]**:45,000 Mora, Narukami's Affection x5, Crystal Prism x18, Sharp Arrowhead x14\n \
         **[✦✦✦✦✦-]**:55,000 Mora, Narukami's Affection x9, Polarizing Prism x14, Weathered Arrowhead x9\n \
         **[✦✦✦✦✦✦]**:65,000 Mora, Narukami's Valor x6, Polarizing Prism x27, Weathered Arrowhead x18", 'name':"Thundering Pulse",
-        'skill':["Rule By Thunder", '✰ พลังโจมตีเพิ่มขึ้น **20%** และจะสามารถได้รับพลังของ "Thunder Emblem" \
-                    โดยเมื่อครอบครอง Thunder Emblem 1/2/3 ชั้น ความเสี่ยหายของการโจมตีปกติจะเพิ่มขึ้น **12/24/40%** \
+        'skill':["Rule By Thunder", '✰ พลังโจมตีเพิ่มขึ้น **20~40%** และจะสามารถได้รับพลังของ "Thunder Emblem" \
+                    โดยเมื่อครอบครอง Thunder Emblem 1/2/3 ชั้น ความเสี่ยหายของการโจมตีปกติจะเพิ่มขึ้น **12/24/40~24/48/80%** \
                     โดยที่ตัวละครจะได้รับ Thunder Emblem 1 ชั้น ในแต่ละสถานการณ์ต่อไปนี้: \
                     เมื่อการโจมตีปกติทำให้เกิดความเสียหาย (คงอยู่ 5 วินาที); เมื่อใช้สกิลธาตุ (คงอยู่ 10 วินาที); \
-                    เมื่อพลังงานธาตุของตัวละครต่ำกว่า 100% (จะหายไปเมื่อพลังงานธาตุของตัวละครเต็ม) โดยช่วงเวลาคงอยู่ของ Thunder Emblem แต่ละชั้นจะถูกคิดแยกกัน']
-                    ,'star':'[★★★★★]'}
+                    เมื่อพลังงานธาตุของตัวละครต่ำกว่า 100% (จะหายไปเมื่อพลังงานธาตุของตัวละครเต็ม) โดยช่วงเวลาคงอยู่ของ Thunder Emblem แต่ละชั้นจะถูกคิดแยกกัน'],
+        'star':'[★★★★★]'}
         return lst2
     elif name.lower() == "elegy for the end":
         lst3 = {'thum':"https://static.wikia.nocookie.net/gensin-impact/images/a/a5/Weapon_Elegy_for_the_End.png/revision/latest/scale-to-width-down/256?cb=20210317075424", \
@@ -199,12 +199,12 @@ def weapon_info_list(name):
         **[✦✦✦✦--]**:45,000 Mora, Boreal Wolf's Broken Fang x5, Black Bronze Horn x18, Sergeant's Insignia x14\n \
         **[✦✦✦✦✦-]**:55,000 Mora, Boreal Wolf's Broken Fang x9, Black Crystal Horn x14, Black Crystal Horn x9\n \
         **[✦✦✦✦✦✦]**:65,000 Mora, Boreal Wolf's Nostalgia x6, Black Crystal Horn x27, Black Crystal Horn x18", 'name':"Elegy for the End",
-        'skill':["The Parting Refrain", '✰ ส่วนหนึ่งของ Millennial Movement ที่ล่องลอยอยู่ในอากาศ ช่วยเพิ่มความชำนาญธาตุขึ้น **60** หน่วย \
+        'skill':["The Parting Refrain", '✰ ส่วนหนึ่งของ Millennial Movement ที่ล่องลอยอยู่ในอากาศ ช่วยเพิ่มความชำนาญธาตุขึ้น **60~120** หน่วย \
                     เมื่อตัวละครที่สวมใส่ใช้สกิลธาตุหรือท่าไม้ตายโจมตีถูกศัตรู ตัวละครจะได้รับ Sigil of Remembrance หนึ่งอัน \
                     โดยจะเกิดขึ้นได้มากสุดหนึ่งครั้งในทุก 0.2 วินาที และจะยังได้รับแม้ว่าตัวละครจะอยู่ในทีมแต่ไม่ได้อยู่ในการต่อสู้แล้วก็ตาม \
                     เมื่อครอบครอง Sigils of Remembrance ครบ 4 อัน จะใช้ Sigils of Remembrance ทั้งหมดเพื่อมอบเอฟเฟกต์ \
                     Millennial Movement: Farewell Song ให้แก่ตัวละครทั้งหมดในทีมที่อยู่ในบริเวณใกล้เคียงเป็นเวลา 12 วินาที่: \
-                    ความชำนาญธาตุเพิ่มขึ้น **100** หน่วย พลังโจมตีเพิ่มขึ้น **20%** และจะไม่สามารถรับ Sigils of Remembrance ได้อีกภายในเวลา 20 วินาที \
+                    ความชำนาญธาตุเพิ่มขึ้น **100~200** หน่วย พลังโจมตีเพิ่มขึ้น **20~40%** และจะไม่สามารถรับ Sigils of Remembrance ได้อีกภายในเวลา 20 วินาที \
                     หลังจากเอฟเฟกต์บัฟนี้แสดงผล โดยที่ในบรรดาเอฟเฟกต์บัฟต่าง ๆ ที่เกิดขึ้นโดย Millennial Movement นั้น เอฟเฟกต์ที่เป็นประเภทเดียวกันจะไม่สามารถซ้อนทับกันได้']
                     ,'star':'[★★★★★]'}
         return lst3
@@ -218,8 +218,8 @@ def weapon_info_list(name):
         **[✦✦✦✦--]**:45,000 Mora, Boreal Wolf's Broken Fang x5, Dead Ley Line Leaves x18, Sharp Arrowhead x14\n \
         **[✦✦✦✦✦-]**:55,000 Mora, Boreal Wolf's Broken Fang x9, Ley Line Sprout x14, Weathered Arrowhead x9\n \
         **[✦✦✦✦✦✦]**:65,000 Mora, Boreal Wolf's Nostalgia x6, Ley Line Sprout x27, Weathered Arrowhead x18", 'name':"Skyward Harp",
-        'skill':["Echoing Ballad", '✰ เพิ่มความแรงคริขึ้น **20%**; เมื่อการโจมตีโดนเป้าหมายจะมีโอกาส **60%** \
-            ที่จะสร้างความเสียหายกายภาพเป็น 125% ของพลังโจมตีให้แก่ศัตรูที่อยู่ในอาณาเขตเล็ก ๆ ซึ่งเอฟเฟกต์นี้จะเกิดขึ้นหนึ่งครั้งในทุก 4 วินาที']
+        'skill':["Echoing Ballad", '✰ เพิ่มความแรงคริขึ้น **20~40%**; เมื่อการโจมตีโดนเป้าหมายจะมีโอกาส **60~100%** \
+            ที่จะสร้างความเสียหายกายภาพเป็น 125% ของพลังโจมตีให้แก่ศัตรูที่อยู่ในอาณาเขตเล็ก ๆ ซึ่งเอฟเฟกต์นี้จะเกิดขึ้นหนึ่งครั้งในทุก **4~2** วินาที']
             ,'star':'[★★★★★]'}
         return lst4
     elif name.lower() == "amos' bow":
@@ -232,8 +232,8 @@ def weapon_info_list(name):
         **[✦✦✦✦--]**:45,000 Mora, Shackles of the Dandelion Gladiator x5, Chaos Circuit x18, Slime Secretions x14\n \
         **[✦✦✦✦✦-]**:55,000 Mora, Shackles of the Dandelion Gladiator x9, Chaos Core x14, Slime Concentrate x9\n \
         **[✦✦✦✦✦✦]**:65,000 Mora, Dream of the Dandelion Gladiator x6, Chaos Core x27, Slime Concentrate x18", 'name':"Amos' Bow",
-        'skill':["Strong-Willed", '✰ เพิ่มความเสียหายของการโจมตีปกติและชาร์จโจมตีขึ้น **12%**, ในทุก 0.1 วินาที \
-            หลังจากปล่อยลูกธนูของการโจมตีปกติและชาร์จโจมตี จะสร้างความเสียหายเพิ่มขึ้น **8%** และเพิ่มมากสุดถึง 5 ครั้ง']
+        'skill':["Strong-Willed", '✰ เพิ่มความเสียหายของการโจมตีปกติและชาร์จโจมตีขึ้น **12~24%**, ในทุก 0.1 วินาที \
+            หลังจากปล่อยลูกธนูของการโจมตีปกติและชาร์จโจมตี จะสร้างความเสียหายเพิ่มขึ้น **8~16%** และเพิ่มมากสุดถึง 5 ครั้ง']
             ,'star':'[★★★★★]'}
         return lst5
     elif name.lower() == "lost prayer to the sacred winds":
@@ -246,8 +246,8 @@ def weapon_info_list(name):
         **[✦✦✦✦--]**:45,000 Mora, Shackles of the Dandelion Gladiator x5, Chaos Circuit x18, Slime Secretions x14\n \
         **[✦✦✦✦✦-]**:55,000 Mora, Shackles of the Dandelion Gladiator x9, Chaos Core x14, Slime Concentrate x9\n \
         **[✦✦✦✦✦✦]**:65,000 Mora, Dream of the Dandelion Gladiator x6, Chaos Core x27, Slime Concentrate x18", 'name':"Lost Prayer to the Sacred Winds",
-        'skill':["Boundless Blessing", '✰ เพิ่มความเร็วในการเคลื่อนที่ 10%; ในการต่อสู้จะได้รับโบนัสความเสียหายธาตุ **8%** \
-            ในทุก 4วินาที ซึ่งเอฟเฟกต์นี้จะมีมากสุด 4 ชั้น และจะเกิดขึ้นจนกว่าตัวละครจะหมดสติหรือออกจากการต่อสู้']
+        'skill':["Boundless Blessing", '✰ เพิ่มความเร็วในการเคลื่อนที่ 10%; ในการต่อสู้จะได้รับโบนัสความเสียหายธาตุ **8~16%** \
+            ในทุก 4 วินาที ซึ่งเอฟเฟกต์นี้จะมีมากสุด 4 ชั้น และจะเกิดขึ้นจนกว่าตัวละครจะหมดสติหรือออกจากการต่อสู้']
             ,'star':'[★★★★★]'}
         return lst6
     elif name.lower() == "skyward atlas":
@@ -260,9 +260,9 @@ def weapon_info_list(name):
         **[✦✦✦✦--]**:45,000 Mora, Boreal Wolf's Broken Fang x5, Dead Ley Line Leaves x18, Sharp Arrowhead x14\n \
         **[✦✦✦✦✦-]**:55,000 Mora, Boreal Wolf's Broken Fang x9, Ley Line Sprout x14, Weathered Arrowhead x9\n \
         **[✦✦✦✦✦✦]**:65,000 Mora, Boreal Wolf's Nostalgia x6, Ley Line Sprout x27, Weathered Arrowhead x18", 'name':"Skyward Atlas",
-        'skill':["Wandering Clouds", '✰ โบนัสความเสียหายธาตุเพิ่มขึ้น **12%**, เมื่อการโจมตีปกติถูกเป้าหมายจะมีโอกาส 50% \
+        'skill':["Wandering Clouds", '✰ โบนัสความเสียหายธาตุเพิ่มขึ้น **12~24%**, เมื่อการโจมตีปกติถูกเป้าหมายจะมีโอกาส 50% \
                     ที่จะได้รับการสนับสนุนจากเบื้องบน โดยภายในเวลา 15 วินาที จะทำการโจมตีศัตรูที่อยู่ใกล้เคียงเองและสร้างความเสียหายเท่ากับ \
-                    **160%** ของพลังโจมตี ซึ่งเอฟเฟกต์นี้จะเกิดขึ้นหนึ่งครั้งในทุก 30 วินาที']
+                    **160~320%** ของพลังโจมตี ซึ่งเอฟเฟกต์นี้จะเกิดขึ้นหนึ่งครั้งในทุก 30 วินาที']
                     ,'star':'[★★★★★]'}
         return lst7
     elif name.lower() == "everlasting moonglow":
@@ -275,8 +275,8 @@ def weapon_info_list(name):
         **[✦✦✦✦--]**:45,000 Mora, Jade Branch of a Distant Sea x5, Crystal Prism x18, Spectral Heart x14\n \
         **[✦✦✦✦✦-]**:55,000 Mora, Jade Branch of a Distant Sea x9, Polarizing Prism x14, Spectral Nucleus x9\n \
         **[✦✦✦✦✦✦]**:65,000 Mora, Golden Branch of a Distant Sea x6, Polarizing Prism x27, Spectral Nucleus x18", 'name':"Everlasting Moonglow",
-        'skill':["Byakuya Kougetsu", '✰ โบนัสการรักษาเพิ่มขึ้น **10%**; โจมตีปกติสร้างความเสียหายเพิ่มขึ้น \
-                    โดยปริมาณที่เพิ่มจะเท่ากับ **1%** ของพลังชีวิตสูงสุดของตัวละครที่ใช้อาวุธนี้ และภายใน 12 วินาที หลังจากใช้ท่าไม้ตาย \
+        'skill':["Byakuya Kougetsu", '✰ โบนัสการรักษาเพิ่มขึ้น **10~20%**; โจมตีปกติสร้างความเสียหายเพิ่มขึ้น \
+                    โดยปริมาณที่เพิ่มจะเท่ากับ **1~3%** ของพลังชีวิตสูงสุดของตัวละครที่ใช้อาวุธนี้ และภายใน 12 วินาที หลังจากใช้ท่าไม้ตาย \
                     เมื่อโจมตีปกติถูกศัตรู จะฟื้นฟูพลังงานธาตุ 0.6 หน่วย โดยจะฟื้นฟูพลังงานธาตุด้วยวิธีนี้ได้มากสุดหนึ่งครั้ง ในทุก 0.1 วินาที']
                     ,'star':'[★★★★★]'}
         return lst8
@@ -290,7 +290,7 @@ def weapon_info_list(name):
         **[✦✦✦✦--]**:45,000 Mora, Bit of Aerosiderite x5, Sturdy Bone Shard x18, Stained Mask x14\n \
         **[✦✦✦✦✦-]**:55,000 Mora, Bit of Aerosiderite x9, Fossilized Bone Shard x14, Ominous Mask x9\n \
         **[✦✦✦✦✦✦]**:65,000 Mora, Chunk of Aerosiderite x6, Fossilized Bone Shard x27, Ominous Mask x18", 'name':"Memory of Dust",
-        'skill':["Golden Majesty", '✰ เพิ่มประสิทธิภาพโล่ป้องกัน **20%** ภายในเวลา 8 วินาที หลังจากโจมตีถูกเป้าหมาย จะเพิ่มพลังโจมตี **20%** \
+        'skill':["Golden Majesty", '✰ เพิ่มประสิทธิภาพโล่ป้องกัน **20~40%** ภายในเวลา 8 วินาที หลังจากโจมตีถูกเป้าหมาย จะเพิ่มพลังโจมตี **4~8%** \
                     โดยเอฟเฟกต์นี้จะซ้อนทับกันมากสุด 5 ชั้น ซึ่งจะเกิดขึ้นหนึ่งครั้งในทุก 0.3 วินาที เมื่อได้รับการป้องกันจากโล่ พลังโจมตีของเฟเฟกต์นี้จะเพิ่มขึ้น 100%']
                     ,'star':'[★★★★★]'}
         return lst9
@@ -304,8 +304,8 @@ def weapon_info_list(name):
         **[✦✦✦✦--]**:45,000 Mora, Shackles of the Dandelion Gladiator x5, Chaos Circuit x18, Sealed Scroll x14\n \
         **[✦✦✦✦✦-]**:55,000 Mora, Shackles of the Dandelion Gladiator x9, Chaos Core x14, Forbidden Curse Scroll x9\n \
         **[✦✦✦✦✦✦]**:65,000 Mora, Dream of the Dandelion Gladiator x6, Chaos Core x27, Forbidden Curse Scroll x18", 'name':"Wolf's Gravestone",
-        'skill':["Wolfish Tracker", '✰ เพิ่มพลังโจมตี 20%, เมื่อโจมตีถูกศัตรูที่มีพลังชีวิตต่ำกว่า **30%** \
-                    พลังโจมตีของสมาชิกทั้งหมดในทีมจะเพิ่มขึ้น **40%** เป็นเวลา 12 วินาที ซึ่งเอฟเฟกต์นี้จะใช้ได้หนึ่งครั้งในทุก 30 วินาที']
+        'skill':["Wolfish Tracker", '✰ เพิ่มพลังโจมตี **20~40%**, เมื่อโจมตีถูกศัตรูที่มีพลังชีวิตต่ำกว่า 30% \
+                    พลังโจมตีของสมาชิกทั้งหมดในทีมจะเพิ่มขึ้น **40~80%** เป็นเวลา 12 วินาที ซึ่งเอฟเฟกต์นี้จะใช้ได้หนึ่งครั้งในทุก 30 วินาที']
                     ,'star':'[★★★★★]'}
         return lst10
     elif name.lower() == "skyward pride":
@@ -318,8 +318,8 @@ def weapon_info_list(name):
         **[✦✦✦✦--]**:45,000 Mora, Boreal Wolf's Broken Fang x5, Dead Ley Line Leaves x18, Slime Secretions x14\n \
         **[✦✦✦✦✦-]**:55,000 Mora, Boreal Wolf's Broken Fang x9, Ley Line Sprout x14, Slime Concentrate x9\n \
         **[✦✦✦✦✦✦]**:65,000 Mora, Boreal Wolf's Nostalgia x6, Ley Line Sprout x27, Slime Concentrate x18", 'name':"Skyward Pride",
-        'skill':["Sky-ripping Dragon Spine", '✰ เพิ่มความเสียหายที่สร้างขึ้น **8%**; หลังจากปล่อยท่าไม้ตาย: \
-                    เมื่อการโจมตีปกติและชาร์จโจมตีโดนเป้าหมายจะสร้างใบมีดสูญญากาศขึ้นมาและสร้างความเสียหาย **80%** \
+        'skill':["Sky-ripping Dragon Spine", '✰ เพิ่มความเสียหายที่สร้างขึ้น **8~16%**; หลังจากปล่อยท่าไม้ตาย: \
+                    เมื่อการโจมตีปกติและชาร์จโจมตีโดนเป้าหมายจะสร้างใบมีดสูญญากาศขึ้นมาและสร้างความเสียหาย **80~160%** \
                     ของพลังโจมตีให้แก่ศัตรูที่อยู่ในเส้นทางเป็นเวลา 20 วินาที หรือจนกว่าจะปล่อยใบมีดสุญญากาศถึง 8 ครั้ง']
                     ,'star':'[★★★★★]'}
         return lst11
@@ -333,7 +333,7 @@ def weapon_info_list(name):
         **[✦✦✦✦--]**:45,000 Mora, Mist Veiled Gold Elixir x5, Mist Grass x18, Silver Raven Insignia x14\n \
         **[✦✦✦✦✦-]**:55,000 Mora, Mist Veiled Gold Elixir x9, Mist Grass Wick x14, Golden Raven Insignia x9\n \
         **[✦✦✦✦✦✦]**:65,000 Mora, Mist Veiled Primo Elixir x6, Mist Grass Wick x27, Golden Raven Insignia x18", 'name':"The Unforged",
-        'skill':["Golden Majesty", '✰ เพิ่มประสิทธิภาพโล่ป้องกัน **20%** ภายในเวลา 8 วินาที หลังจากโจมตีถูกเป้าหมาย จะเพิ่มพลังโจมตี **4%** \
+        'skill':["Golden Majesty", '✰ เพิ่มประสิทธิภาพโล่ป้องกัน **20~40%** ภายในเวลา 8 วินาที หลังจากโจมตีถูกเป้าหมาย จะเพิ่มพลังโจมตี **4~8%** \
                     โดยเอฟเฟกต์นี้จะซ้อนทับกันมากสุด 5 ชั้น ซึ่งจะเกิดขึ้นหนึ่งครั้งในทุก 0.3 วินาที เมื่อได้รับการป้องกันจากโล่ พลังโจมตีของเอฟเฟกต์นี้จะเพิ่มขึ้น 100%']
                     ,'star':'[★★★★★]'}
         return lst12
@@ -347,10 +347,10 @@ def weapon_info_list(name):
         **[✦✦✦✦--]**:45,000 Mora, Fragment of Decarabian's Epic x5, Black Bronze Horn x18, Stained Mask x14\n \
         **[✦✦✦✦✦-]**:55,000 Mora, Fragment of Decarabian's Epic x9, Black Crystal Hornx14, Ominous Mask x9\n \
         **[✦✦✦✦✦✦]**:65,000 Mora, Scattered Piece of Decarabian's Dream x6, Black Crystal Horn x27, Ominous Mask x18", 'name':"Song of Broken Pines",
-        'skill':["Rebel's Banner Hymn", '✰ ส่วนหนึ่งของ Millennial Movement ที่ล่องลอยอยู่ในอากาศ ช่วยเพิ่มพลังโจมตีขึ้น **16%** \
+        'skill':["Rebel's Banner Hymn", '✰ ส่วนหนึ่งของ Millennial Movement ที่ล่องลอยอยู่ในอากาศ ช่วยเพิ่มพลังโจมตีขึ้น **16~32%** \
                     เมื่อตัวละครที่สวมใส่โจมตีปกติหรือชาร์จโจมตีศัตรู ตัวละครจะได้รับ Sigil of Whispers หนึ่งอัน โดยจะเกิดขึ้นได้มากสุดหนึ่งครั้งในทุก 0.3 วินาที \
                     เมื่อครอบครอง Sigil of Whispers ครบ 4 อัน จะใช้ Sigil of Whispers ทั้งหมดเพื่อมอบเอฟเฟกต์ "Millennial Movement: Banner-Hymn" \
-                    ให้แก่ตัวละครทั้งหมดในทีมที่อยู่ในบริเวณใกล้เคียงเป็นเวลา 12 วินาที: ความเร็วในการโจมตีปกติเพิ่มขึ้น **12%** พลังโจมตีเพิ่มขึ้น **20%** \
+                    ให้แก่ตัวละครทั้งหมดในทีมที่อยู่ในบริเวณใกล้เคียงเป็นเวลา 12 วินาที: ความเร็วในการโจมตีปกติเพิ่มขึ้น **12~24%** พลังโจมตีเพิ่มขึ้น **20~40%** \
                     และจะไม่สามารถรับ Sigil of Whispers ได้อีกภายในเวลา 20 วินาที หลังจากเอฟเฟกต์บัฟนี้แสดงผล \
                     โดยที่ในบรรดาเอฟเฟกต์บัฟต่าง ๆ ที่เกิดขึ้นโดย Millennial Movement นั้น เอฟเฟกต์บัฟที่เป็นประเภทเดียวกันจะไม่สามารถซ้อนทับกันได้']
                     ,'star':'[★★★★★]'}
@@ -365,7 +365,7 @@ def weapon_info_list(name):
         **[✦✦✦✦--]**:45,000 Mora, Narukami's Affection x5, Concealed Unguis x18, Kageuchi Handguard x14\n \
         **[✦✦✦✦✦-]**:55,000 Mora, Narukami's Affection x9, Concealed Talon x14, Famed Handguard x9\n \
         **[✦✦✦✦✦✦]**:65,000 Mora, Narukami's Valor x6, Concealed Talon x27, Famed Handguard x18", 'name':"Redhorn Stonethresher",
-        'skill':["Gokadaiou Otogibanashi", '✰ เพิ่มพลังป้องกัน **28%**; เพิ่มความเสียหายของการโจมตีปกติและชาร์จโจมตีขึ้น **40%** ของพลังป้องกัน']
+        'skill':["Gokadaiou Otogibanashi", '✰ เพิ่มพลังป้องกัน **28~56%**; เพิ่มความเสียหายของการโจมตีปกติและชาร์จโจมตีขึ้น **40~80%** ของพลังป้องกัน']
         ,'star':'[★★★★★]'}
         return lstnew
     elif name.lower() == "engulfing lightning":
@@ -378,8 +378,8 @@ def weapon_info_list(name):
         **[✦✦✦✦--]**:45,000 Mora, Mask of the One-Horned x5, Chaos Axis x18, Kageuchi Handguard x14\n \
         **[✦✦✦✦✦-]**:55,000 Mora, Mask of the One-Horned x9, Chaos Oculus x14, Famed Handguard x9\n \
         **[✦✦✦✦✦✦]**:65,000 Mora, Mask of the Kijin x6, Chaos Oculus x27, Famed Handguard x18", 'name':"Engulfing Lightning",
-        'skill':["Timeless Dream: Eternal Stove", '✰ พลังโจมตีเพิ่มขึ้น โดยที่ระดับการเพิ่มจะเท่ากับ **28%** ของส่วนที่เกินมาจาก 100% ของประสิทธิภาพการฟื้นฟูพลังงาน \
-                    โดยจะสามารถเพิ่มด้วยวิธีนี้ได้มากสุดถึง **80%** และภายในเวลา 12 วินาที หลังจากปล่อยท่าไม้ตาย ประสิทธิภาพการฟื้นฟูพลังงานจะเพิ่มขึ้น **30%**']
+        'skill':["Timeless Dream: Eternal Stove", '✰ พลังโจมตีเพิ่มขึ้น โดยที่ระดับการเพิ่มจะเท่ากับ **28~56%** ของส่วนที่เกินมาจาก 100% ของประสิทธิภาพการฟื้นฟูพลังงาน \
+                    โดยจะสามารถเพิ่มด้วยวิธีนี้ได้มากสุดถึง **80~120%** และภายในเวลา 12 วินาที หลังจากปล่อยท่าไม้ตาย ประสิทธิภาพการฟื้นฟูพลังงานจะเพิ่มขึ้น **30~50%**']
                     ,'star':'[★★★★★]'}
         return lst14
     elif name.lower() == "skyward spine":
@@ -392,8 +392,8 @@ def weapon_info_list(name):
         **[✦✦✦✦--]**:45,000 Mora, Shackles of the Dandelion Gladiator x5, Chaos Circuit x18, Sealed Scroll x14\n \
         **[✦✦✦✦✦-]**:55,000 Mora, Shackles of the Dandelion Gladiator x9, Chaos Core x14, Forbidden Curse Scroll x9\n \
         **[✦✦✦✦✦✦]**:65,000 Mora, Dream of the Dandelion Gladiator x6, Chaos Core x27, Forbidden Curse Scroll x18", 'name':"Skyward Spine",
-        'skill':["Blackwing", '✰ อัตราคริเพิ่มขึ้น **8%** และเพิ่มความเร็วการโจมตีปกติ 12% เมื่อทำกรโจมตีปกติ และชาร์จโจมตีถูกศัตรู \
-                    มีโอกาสสร้างใบมีดสุญญากาศ 50% และสร้างความเสียหาย เพิ่มเติมในพื้นที่วงแคบ **40%** ของพลังโจมตี ซึ่งเอฟเฟกต์นี้จะเกิดขึ้น หนึ่งครั้งในทุก 2 วินาที']
+        'skill':["Blackwing", '✰ อัตราคริเพิ่มขึ้น **8~16%** และเพิ่มความเร็วการโจมตีปกติ 12% เมื่อทำกรโจมตีปกติ และชาร์จโจมตีถูกศัตรู \
+                    มีโอกาสสร้างใบมีดสุญญากาศ 50% และสร้างความเสียหาย เพิ่มเติมในพื้นที่วงแคบ **40~100%** ของพลังโจมตี ซึ่งเอฟเฟกต์นี้จะเกิดขึ้น หนึ่งครั้งในทุก 2 วินาที']
                     ,'star':'[★★★★★]'}
         return lst15
     elif name.lower() == "primordial jade winged-spear":
@@ -406,8 +406,8 @@ def weapon_info_list(name):
         **[✦✦✦✦--]**:45,000 Mora, Relic from Guyun x5, Agent's Sacrificial Knife x18, Sergeant's Insignia x14\n \
         **[✦✦✦✦✦-]**:55,000 Mora, Relic from Guyun x9, Inspector's Sacrificial Knife x14, Lieutenant's Insignia x9\n \
         **[✦✦✦✦✦✦]**:65,000 Mora, Divine Body from Guyun x6, Inspector's Sacrificial Knife x27, Lieutenant's Insignia x18", 'name':"Primordial Jade Winged-Spear",
-        'skill':["Eagle Spear of Justice", '✰ เพิ่มพลังโจมตีขึ้น **3.2%** เมื่อโจมตีถูกศัตรู เป็นเวลา 6 วินาที และมากสุดถึง 7 ชั้น \
-                    ซึ่งเอฟเฟกต์นี้จะเกิดขึ้นได้หนึ่งครั้งในทุก 0.3 วินาที โดยความเสียหายจะเพิ่มขึ้น **12%** เมื่ออยู่ในสภาวะเต็มชั้น']
+        'skill':["Eagle Spear of Justice", '✰ เพิ่มพลังโจมตีขึ้น **3.2~6.0%** เมื่อโจมตีถูกศัตรู เป็นเวลา 6 วินาที และมากสุดถึง 7 ชั้น \
+                    ซึ่งเอฟเฟกต์นี้จะเกิดขึ้นได้หนึ่งครั้งในทุก 0.3 วินาที โดยความเสียหายจะเพิ่มขึ้น **12~24%** เมื่ออยู่ในสภาวะเต็มชั้น']
                     ,'star':'[★★★★★]'}
         return lst16
     elif name.lower() == "staff of homa":
@@ -420,8 +420,8 @@ def weapon_info_list(name):
         **[✦✦✦✦--]**:45,000 Mora, Bit of Aerosiderite x5, Dead Ley Line Leaves x18, Slime Secretions x14\n \
         **[✦✦✦✦✦-]**:55,000 Mora, Bit of Aerosiderite x9, Ley Line Sprout x14, Slime Concentrate x9\n \
         **[✦✦✦✦✦✦]**:65,000 Mora, Chunk of Aerosiderite x6, Ley Line Sprout x27, Slime Concentrate x18", 'name':"Staff of Homa",
-        'skill':["Reckless Cinnabar", '✰ เพิ่มพลังชีวิต **20%** นอกจากนี้ จะได้รับโบนัสพลังโจมตีเป็น **0.8%** \
-            ของพลังชีวิตสูงสุดของตัวละครที่ใช้อาวุธนี้ และในตอนที่ตัวละครที่ใช้อาวุธนี้มีพลังชีวิตต่ำกว่า 50% จะได้รับพลังโจมตีเพิ่มขึ้นอีก 1% ของพลังชีวิตสูงสุด']
+        'skill':["Reckless Cinnabar", '✰ เพิ่มพลังชีวิต **20~40%** นอกจากนี้ จะได้รับโบนัสพลังโจมตีเป็น **0.8~1.6%** \
+            ของพลังชีวิตสูงสุดของตัวละครที่ใช้อาวุธนี้ และในตอนที่ตัวละครที่ใช้อาวุธนี้มีพลังชีวิตต่ำกว่า 50% จะได้รับพลังโจมตีเพิ่มขึ้นอีก **1~1.8%** ของพลังชีวิตสูงสุด']
             ,'star':'[★★★★★]'}
         return lst17
     elif name.lower() == "vortex vanquisher":
@@ -434,7 +434,7 @@ def weapon_info_list(name):
         **[✦✦✦✦--]**:45,000 Mora, Bit of Aerosiderite x5, Sturdy Bone Shard x18, Silver Raven Insignia x14\n \
         **[✦✦✦✦✦-]**:55,000 Mora, Bit of Aerosiderite x9, Fossilized Bone Shard x14, Golden Raven Insignia x9\n \
         **[✦✦✦✦✦✦]**:65,000 Mora, Chunk of Aerosiderite x6, Fossilized Bone Shard x27, Golden Raven Insignia x18", 'name':"Vortex Vanquisher",
-        'skill':["Golden Majesty", '✰ เพิ่มประสิทธิภาพโล่ป้องกัน **20%** ภายในเวลา 8 วินาที หลังจากโจมตีถูกเป้าหมาย จะเพิ่มพลังโจมตี **4%** \
+        'skill':["Golden Majesty", '✰ เพิ่มประสิทธิภาพโล่ป้องกัน **20~40%** ภายในเวลา 8 วินาที หลังจากโจมตีถูกเป้าหมาย จะเพิ่มพลังโจมตี **4~8%** \
                     โดยเอฟเฟกต์นี้จะซ้อนทับกันมากสุด 5 ชั้น ซึ่งจะเกิดขึ้นหนึ่งครั้งในทุก 0.3 วินาที เมื่อได้รับการป้องกันจากโล่ พลังโจมตีของเอฟเฟกต์นี้จะเพิ่มขึ้น 100%']
                     ,'star':'[★★★★★]'}
         return lst18
@@ -448,8 +448,8 @@ def weapon_info_list(name):
         **[✦✦✦✦--]**:45,000 Mora, Jade Branch of a Distant Sea x5, Chaos Axis x18, Kageuchi Handguard x14\n \
         **[✦✦✦✦✦-]**:55,000 Mora, Jade Branch of a Distant Sea x9, Chaos Oculus x14, Famed Handguard x9\n \
         **[✦✦✦✦✦✦]**:65,000 Mora, Golden Branch of a Distant Sea x6, Chaos Oculus x27, Famed Handguard x18", 'name':"Mistsplitter Reforged",
-        'skill':["Mistsplitter's Edge", '✰ ได้รับโบนัสความเสียหายของธาตุทั้งหมด **12%** และได้รับพลังของ \
-                    "Mistsplitter\'s Emblem" โดยเมื่อครอบครอง Mistsplitter\'s Emblem 1/2/3 ชั้น จะได้รับโบนัสความเสี่ยหายของธาตุตัวเอง **8/16/28%** \
+        'skill':["Mistsplitter's Edge", '✰ ได้รับโบนัสความเสียหายของธาตุทั้งหมด **12~24%** และได้รับพลังของ \
+                    "Mistsplitter\'s Emblem" โดยเมื่อครอบครอง Mistsplitter\'s Emblem 1/2/3 ชั้น จะได้รับโบนัสความเสี่ยหายของธาตุตัวเอง **8/16/28~16/32/56%** \
                         โดยที่ตัวละครจะได้รับ Mistsplitter\'s Emblem 1 ชั้น ในแต่ละสถานการณ์ต่อไปนี้: \
                         เมื่อการโจมตีปกติทำให้เกิดความเสียหายธาตุ (คงอยู่ 5 วินาที); เมื่อใช้ท่าไม้ตาย (คงอยู่ 10 วินาที); \
                         เมื่อพลังงานธาตุของตัวละครต่ำกว่า 100% (จะหายไปเมื่อพลังงานธาตุของตัวละครเต็ม) โดยช่วงเวลาคงอยู่ของ Mistsplitter\'s Emblem แต่ละชั้นจะถูกคิดแยกกัน']
@@ -465,8 +465,8 @@ def weapon_info_list(name):
         **[✦✦✦✦--]**:45,000 Mora, Fragment of Decarabian's Epic x5, Black Bronze Horn x18, Sharp Arrowhead x14\n \
         **[✦✦✦✦✦-]**:55,000 Mora, Fragment of Decarabian's Epic x9, Black Crystal Horn x14, Weathered Arrowhead x9\n \
         **[✦✦✦✦✦✦]**:65,000 Mora, Scattered Piece of Decarabian's Dream x6, Black Crystal Horn x27, Weathered Arrowhead x18", 'name':"Aquila Favonia",
-        'skill':["Falcon's Defiance", '✰ เพิ่มพลังโจมตี **20%**; ปลดปล่อยเมื่อ ได้รับความเสียหาย: จิตวิญญาณของวิหคตะวันตกที่ \
-                    ชูธงแห่งการต่อต้านจะตื่นขึ้น และฟื้นฟูพลังชีวิตเท่ากับ **100%** ของพลังโจมตี และสร้างความเสียหายเป็น **200%** ของพลังโจมตี\
+        'skill':["Falcon's Defiance", '✰ เพิ่มพลังโจมตี **20~40%**; ปลดปล่อยเมื่อ ได้รับความเสียหาย: จิตวิญญาณของวิหคตะวันตกที่ \
+                    ชูธงแห่งการต่อต้านจะตื่นขึ้น และฟื้นฟูพลังชีวิตเท่ากับ **100~160%** ของพลังโจมตี และสร้างความเสียหายเป็น **200~320%** ของพลังโจมตี\
                     แก่ศัตรูโดยรอบ โดยเอฟเฟกต์นี้จะเกิดขึ้น หนึ่งครั้งในทุก 15 วินาที']
                     ,'star':'[★★★★★]'}
         return lst20
@@ -480,7 +480,7 @@ def weapon_info_list(name):
         **[✦✦✦✦--]**:45,000 Mora, Relic from Guyun x5, Agent's Sacrificial Knife x18, Stained Mask x14\n \
         **[✦✦✦✦✦-]**:55,000 Mora, Relic from Guyun x9, Inspector's Sacrificial Knife x14, Ominous Mask x9\n \
         **[✦✦✦✦✦✦]**:65,000 Mora, Divine Body from Guyun x6, Inspector's Sacrificial Knife x27, Ominous Mask x18", 'name':"Summit Shaper",
-        'skill':["Golden Majesty", '✰ เพิ่มประสิทธิภาพโล่ป้องกัน **20%** ภายในเวลา 8 วินาที หลังจากโจมตีถูกเป้าหมาย จะเพิ่มพลังโจมตี **4%** \
+        'skill':["Golden Majesty", '✰ เพิ่มประสิทธิภาพโล่ป้องกัน **20~40%** ภายในเวลา 8 วินาที หลังจากโจมตีถูกเป้าหมาย จะเพิ่มพลังโจมตี **4~8%** \
                     โดยเอฟเฟกต์นี้จะซ้อนทับกันมากสุด 5 ชั้น ซึ่งจะเกิดขึ้นหนึ่งครั้งในทุก 0.3 วินาที เมื่อได้รับการป้องกันจากโล่ พลังโจมตีของเฟเฟกต์นี้จะเพิ่มขึ้น 100%']
                     ,'star':'[★★★★★]'}
         return lst21
@@ -494,8 +494,8 @@ def weapon_info_list(name):
         **[✦✦✦✦--]**:45,000 Mora, Boreal Wolf's Broken Fang x5, Dead Ley Line Leaves x18, Slime Secretions x14\n \
         **[✦✦✦✦✦-]**:55,000 Mora, Boreal Wolf's Broken Fang x9, Ley Line Sprout x14, Slime Concentrate x9\n \
         **[✦✦✦✦✦✦]**:65,000 Mora, Boreal Wolf's Nostalgia x6, Ley Line Sprout x27, Slime Concentrate x18", 'name':"Skyward Blade",
-        'skill':["Sky-Piercing Fang", '✰ อัตราคริเพิ่มขึ้น **4%**; เมื่อปลดปล่อยท่าไม้ตายจะได้รับ Skypiercing Might: ความเร็วการเคลื่อนที่เพิ่มขึ้น 10%, \
-                    ความเร็วการโจมตีเพิ่มขึ้น 10%, โจมปกติและชาร์จโจมตีสร้างความเสียหายเพิ่มเติมอีก **20%** ของพลังโจมตี เป็นเวลา 12 วินาที']
+        'skill':["Sky-Piercing Fang", '✰ อัตราคริเพิ่มขึ้น **4~8%**; เมื่อปลดปล่อยท่าไม้ตายจะได้รับ Skypiercing Might: ความเร็วการเคลื่อนที่เพิ่มขึ้น 10%, \
+                    ความเร็วการโจมตีเพิ่มขึ้น 10%, โจมปกติและชาร์จโจมตีสร้างความเสียหายเพิ่มเติมอีก **20~40%** ของพลังโจมตี เป็นเวลา 12 วินาที']
                     ,'star':'[★★★★★]'}
         return lst22
     elif name.lower() == "freedom-sworn":
@@ -508,12 +508,12 @@ def weapon_info_list(name):
         **[✦✦✦✦--]**:45,000 Mora, Shackles of the Dandelion Gladiator x5, Chaos Circuit x18, Sealed Scroll x14\n \
         **[✦✦✦✦✦-]**:55,000 Mora, Shackles of the Dandelion Gladiator x9, Chaos Core x14, Forbidden Curse Scroll x9\n \
         **[✦✦✦✦✦✦]**:65,000 Mora, Dream of the Dandelion Gladiator x6, Chaos Core x27, Forbidden Curse Scroll x18", 'name':"Freedom-Sworn",
-        'skill':["Revolutionary Chorale", '✰ ส่วนหนึ่งของ Millennial Movement ที่ล่องลอยอยู่ในอากาศ ช่วยเพิ่มความเสียหายที่สร้างขึ้น **10%** \
+        'skill':["Revolutionary Chorale", '✰ ส่วนหนึ่งของ Millennial Movement ที่ล่องลอยอยู่ในอากาศ ช่วยเพิ่มความเสียหายที่สร้างขึ้น **10~20%** \
                     เมื่อตัวละครที่สวมใส่ทำให้เกิดปฏิกิริยาธาตุ จะได้รับ Sigil of Rebellion 1 อัน โดยจะเกิดขึ้นได้มากสุดหนึ่งครั้งในทุก 0.5 วินาที่ \
                     และจะยังได้รับแม้ว่าตัวละครจะอยู่ในทีมแต่ไม่ได้อยู่ในการต่อสู้แล้วก็ตาม\n \
                     เมื่อครอบครอง Sigil of Rebellion ครบ 2 อัน จะใช้ Sigil of Rebellion ทั้งหมดเพื่อมอบเอฟเฟกต์ Millennial Movement:Farewell Song \
                     ให้แก่ตัวละครทั้งหมดในทีมที่อยู่ในบริเวณใกล้เคียงเป็นเวลา 12 วินาที: \
-                    ความเสียหายโจมตีปกติ ชาร์จโจมตี โจมตีพุ่งลงจากอากาศเพิ่มขึ้น **16%**, พลังโจมตีเพิ่มขึ้น **20%** และจะไม่สามารถรับ Sigil of Rebellion ได้อีกภายในเวลา 20 วินาที \
+                    ความเสียหายโจมตีปกติ ชาร์จโจมตี โจมตีพุ่งลงจากอากาศเพิ่มขึ้น **16~32%**, พลังโจมตีเพิ่มขึ้น **20~40%** และจะไม่สามารถรับ Sigil of Rebellion ได้อีกภายในเวลา 20 วินาที \
                     หลังจากเอฟเฟกต์บัฟนี้แสดงผล โดยที่ในบรรดาเอฟเฟกต์บัฟต่าง ๆ ที่เกิดขึ้นโดย Millennial Movement นั้นเอฟเฟกต์บัฟที่เป็นประเภทเดียวกันจะไม่สามารถซ้อนทับกันได้']
                     ,'star':'[★★★★★]'}
         return lst23
@@ -527,7 +527,7 @@ def weapon_info_list(name):
         **[✦✦✦✦--]**:45,000 Mora, Mist Veiled Gold Elixir x5, Mist Grass x18, Silver Raven Insignia x14\n \
         **[✦✦✦✦✦-]**:55,000 Mora, Mist Veiled Gold Elixir x9, Mist Grass Wick x14, Golden Raven Insignia x9\n \
         **[✦✦✦✦✦✦]**:65,000 Mora, Mist Veiled Primo Elixir x6, Mist Grass Wick x27, Golden Raven Insignia x18", 'name':"Primordial Jade Cutter",
-        'skill':["Protector's Virtue", '✰ เพิ่มพลังชีวิต 20% นอกจากนี้ จะได้รับโบนัสพลังโจมตีเป็น 1.2% ของพลังชีวิตสูงสุดของตัวละครที่ใช้อาวุธนี้']
+        'skill':["Protector's Virtue", '✰ เพิ่มพลังชีวิต **20~40%** นอกจากนี้ จะได้รับโบนัสพลังโจมตีเป็น **1.2~2.4%** ของพลังชีวิตสูงสุดของตัวละครที่ใช้อาวุธนี้']
                     ,'star':'[★★★★★]'}
         return lst24
     elif name.lower() == "alley hunter":
@@ -540,8 +540,8 @@ def weapon_info_list(name):
         **[✦✦✦✦--]**:30,000 Mora, Shackles of the Dandelion Gladiator x3, Chaos Circuit x12, Slime Secretions x9\n \
         **[✦✦✦✦✦-]**:35,000 Mora, Shackles of the Dandelion Gladiator x6, Chaos Core x9, Slime Concentrate x6\n \
         **[✦✦✦✦✦✦]**:45,000 Mora, Dream of the Dandelion Gladiator x4, Chaos Core x18, Slime Concentrate x12", 'name':"Alley Hunter",
-        'skill':["Oppidan Ambush", '✰ เมื่อตัวละครที่ใช้อาวุธนี้อยู่ในทีมแต่ไม่ได้เข้าร่วมการต่อสู้ ความเสียหายที่ตัวละครสร้างจะเพิ่มขึ้น 2~4% ในทุก 1 วินาที \
-                    โดยจะได้รับการเพิ่มความเสียหายด้วยวิธีนี้ได้มากสุดถึง 20~40%, เมื่อตัวละครเข้าสู่การต่อสู้เกิน 4 วินาที เอฟเฟกต์เพิ่มความเสียหายข้างต้นจะลดลง 4~8% ในทุก 1 วินาที ไปจนกว่าจะถึง 0%']
+        'skill':["Oppidan Ambush", '✰ เมื่อตัวละครที่ใช้อาวุธนี้อยู่ในทีมแต่ไม่ได้เข้าร่วมการต่อสู้ ความเสียหายที่ตัวละครสร้างจะเพิ่มขึ้น **2~4%** ในทุก 1 วินาที \
+                    โดยจะได้รับการเพิ่มความเสียหายด้วยวิธีนี้ได้มากสุดถึง **20~40%**, เมื่อตัวละครเข้าสู่การต่อสู้เกิน 4 วินาที เอฟเฟกต์เพิ่มความเสียหายข้างต้นจะลดลง **4~8%** ในทุก 1 วินาที ไปจนกว่าจะถึง 0%']
                     ,'star':'[★★★★]'}
         return lst25
     elif name.lower() == "the viridescent hunt":
@@ -554,8 +554,8 @@ def weapon_info_list(name):
         **[✦✦✦✦--]**:30,000 Mora, Fragment of Decarabian's Epic x3, Black Bronze Horn x12, Sharp Arrowhead x9\n \
         **[✦✦✦✦✦-]**:35,000 Mora, Fragment of Decarabian's Epic x6, Black Crystal Horn x9, Weathered Arrowhead x6\n \
         **[✦✦✦✦✦✦]**:45,000 Mora, Scattered Piece of Decarabian's Dream x4, Black Crystal Horn x18, Weathered Arrowhead x12", 'name':"The Viridescent Hunt",
-        'skill':["Verdant Wind", '✰ เมื่อโจมตีปกติและชาร์จโจมตีถูกเป้าหมาย จะมีโอกาส 50% ที่จะเกิดตาพายุขึ้นหนึ่งจุด โดยจะตึงดูดศัตรูโดยรอบอย่างต่อเนื่องและสร้างความเสียหาย 40~80% ของพลังโจมตีแก่ศัตรูเหล่านั้นในทุก 0.5 วินาที \
-                    ซึ่งเอฟเฟกต์นี้จะเกิดขึ้นเป็นเวลา 4 วินาที และจะเกิดขึ้นหนึ่งครั้งในทุก 14~10 วินาที']
+        'skill':["Verdant Wind", '✰ เมื่อโจมตีปกติและชาร์จโจมตีถูกเป้าหมาย จะมีโอกาส 50% ที่จะเกิดตาพายุขึ้นหนึ่งจุด โดยจะตึงดูดศัตรูโดยรอบอย่างต่อเนื่องและสร้างความเสียหาย **40~80%** ของพลังโจมตีแก่ศัตรูเหล่านั้นในทุก 0.5 วินาที \
+                    ซึ่งเอฟเฟกต์นี้จะเกิดขึ้นเป็นเวลา 4 วินาที และจะเกิดขึ้นหนึ่งครั้งในทุก **14~10** วินาที']
                     ,'star':'[★★★★]'}
         return lst26
     elif name.lower() == "the stringless":
@@ -568,7 +568,7 @@ def weapon_info_list(name):
         **[✦✦✦✦--]**:30,000 Mora, Fragment of Decarabian's Epic x3, Black Bronze Horn x12, Sharp Arrowhead x9\n \
         **[✦✦✦✦✦-]**:35,000 Mora, Fragment of Decarabian's Epic x6, Black Crystal Horn x9, Weathered Arrowhead x6\n \
         **[✦✦✦✦✦✦]**:45,000 Mora, Scattered Piece of Decarabian's Dream x4, Black Crystal Horn x18, Weathered Arrowhead x12", 'name':"The Stringless",
-        'skill':["Arrowless Song", '✰ สกิลธาตุและท่าไม้ตายสร้างความเสียหายเพิ่มขึ้น 24~48%']
+        'skill':["Arrowless Song", '✰ สกิลธาตุและท่าไม้ตายสร้างความเสียหายเพิ่มขึ้น **24~48%**']
                     ,'star':'[★★★★]'}
         return lst27
     elif name.lower() == "sacrificial bow":
@@ -581,7 +581,7 @@ def weapon_info_list(name):
         **[✦✦✦✦--]**:30,000 Mora, Boreal Wolf's Broken Fang x3, Dead Ley Line Leaves x12, Slime Secretions x9\n \
         **[✦✦✦✦✦-]**:35,000 Mora, Boreal Wolf's Broken Fang x6, Ley Line Sprout x9, Slime Concentrate x6\n \
         **[✦✦✦✦✦✦]**:45,000 Mora, Boreal Wolf's Nostalgia x4, Ley Line Sprout x18, Slime Concentrate x12", 'name':"Sacrificial Bow",
-        'skill':["Composed", '✰ หลังจากสร้างความเสียหายด้วยสกิลธาตุแล้ว จะมีโอกาส 40~80% ที่จะรีเซ็ตเวลาคูลดาวน์ของสกิลนี้ โดยเอฟเฟกต์นี้จะเกิดขึ้นหนึ่งครั้งในทุก 30~16 วินาที']
+        'skill':["Composed", '✰ หลังจากสร้างความเสียหายด้วยสกิลธาตุแล้ว จะมีโอกาส **40~80%** ที่จะรีเซ็ตเวลาคูลดาวน์ของสกิลนี้ โดยเอฟเฟกต์นี้จะเกิดขึ้นหนึ่งครั้งในทุก **30~16** วินาที']
                     ,'star':'[★★★★]'}
         return lst28
     elif name.lower() == "rust":
@@ -594,10 +594,10 @@ def weapon_info_list(name):
         **[✦✦✦✦--]**:30,000 Mora, Relic from Guyun x3, Agent's Sacrificial Knife x12, Stained Mask x9\n \
         **[✦✦✦✦✦-]**:35,000 Mora, Relic from Guyun x6, Inspector's Sacrificial Knife x9, Ominous Mask x6\n \
         **[✦✦✦✦✦✦]**:45,000 Mora, Divine Body from Guyun x4, Inspector's Sacrificial Knife x18, Ominous Mask x12", 'name':"Rust",
-        'skill':["Rapid Firing", '✰ เพิ่มความเสียหายของการโจมตีปกติขึ้น 40~80% และลดความเสียหายของการชาร์จโจมตีลง 10%']
+        'skill':["Rapid Firing", '✰ เพิ่มความเสียหายของการโจมตีปกติขึ้น **40~80%** และลดความเสียหายของการชาร์จโจมตีลง 10%']
                     ,'star':'[★★★★]'}
         return lst29
-    elif name.lower() == "royal row":
+    elif name.lower() == "royal bow":
         lst30 = {'thum':"https://static.wikia.nocookie.net/gensin-impact/images/9/99/Weapon_Royal_Bow.png/revision/latest/scale-to-width-down/256?cb=20201120002134", \
         'his':"คันธนูยาวสภาพเก่าแก่ของชนชั้นสูงผู้ที่ครั้งหนึ่งเคยปกครอง Mondstadt มาก่อน แม้ว่าเวลาผ่านไปหลายยุคหลายสมัยแต่สายเอ็นของธนูก็ยังคงแข็งตึงและสามารถยิงลูกธนูออกไปได้อย่างรุนแรง", \
         'type':"Bow", 'stat':["510", "41.3%", "ATK"], \
@@ -607,7 +607,7 @@ def weapon_info_list(name):
         **[✦✦✦✦--]**:30,000 Mora, Shackles of the Dandelion Gladiator x3, Chaos Circuit x12, Slime Secretions x9\n \
         **[✦✦✦✦✦-]**:35,000 Mora, Shackles of the Dandelion Gladiator x6, Chaos Core x9, Slime Concentrate x6\n \
         **[✦✦✦✦✦✦]**:45,000 Mora, Dream of the Dandelion Gladiator x4, Chaos Core x18, Slime Concentrate x12", 'name':"Royal Bow",
-        'skill':["Focus", '✰ เมื่อการโจมตีก่อให้เกิดความเสียหาย อัตราคริจะเพิ่มขึ้น 8% ซ้อนทับได้มากสุด 5 ครั้ง และเมื่อโจมตีติดคริติคอลจะล้างเอฟเฟกต์ที่โฟกัสออกทั้งหมด']
+        'skill':["Focus", '✰ เมื่อการโจมตีก่อให้เกิดความเสียหาย อัตราคริจะเพิ่มขึ้น **8~16%** ซ้อนทับได้มากสุด 5 ครั้ง และเมื่อโจมตีติดคริติคอลจะล้างเอฟเฟกต์ที่โฟกัสออกทั้งหมด']
                     ,'star':'[★★★★]'}
         return lst30
     elif name.lower() == "predator":
@@ -634,7 +634,7 @@ def weapon_info_list(name):
         **[✦✦✦✦--]**:30,000 Mora, Mist Veiled Gold Elixir x3, Mist Grass x12, Silver Raven Insignia x9\n \
         **[✦✦✦✦✦-]**:35,000 Mora, Mist Veiled Gold Elixir x6, Mist Grass Wick x9, Golden Raven Insignia x6\n \
         **[✦✦✦✦✦✦]**:45,000 Mora, Mist Veiled Primo Elixir x4, Mist Grass Wick x18, Golden Raven Insignia x12", 'name':"Prototype Crescent",
-        'skill':["Unreturning", '✰ หากชาร์จโจมตีโดนจุดอ่อนของเป้าหมาย จะได้รับความเร็วในการเคลื่อนที่เพิ่ม 10% และพลังโจมตีเพิ่ม 36~72% เป็นเวลา 10 วินาที']
+        'skill':["Unreturning", '✰ หากชาร์จโจมตีโดนจุดอ่อนของเป้าหมาย จะได้รับความเร็วในการเคลื่อนที่เพิ่ม 10% และพลังโจมตีเพิ่ม **36~72%** เป็นเวลา 10 วินาที']
                     ,'star':'[★★★★]'}
         return lst32
     elif name.lower() == "mouun's moon":
@@ -648,7 +648,7 @@ def weapon_info_list(name):
         **[✦✦✦✦✦-]**:35,000 Mora, Narukami's Affection x6, Polarizing Prism x9, Spectral Nucleus x6\n \
         **[✦✦✦✦✦✦]**:45,000 Mora, Narukami's Valor x4, Polarizing Prism x18, Spectral Nucleus x12", 'name':"Mouun's Moon",
         'skill':["Watatsumi Wavewalker", '✰ ทุก 1 หน่วย ของผลรวมพลังงานธาตุสูงสุดของตัวละครทั้งหมดในทีม จะทำให้ท่าไม้ตายของตัวละครที่ใช้อาวุธนี้ \
-                    สร้างความเสียหายเพิ่มขึ้น 0.12~0.24% โดยความเสียหายท่าไม้ตายที่เพิ่มขึ้นด้วยวิธีนี้ จะเพิ่มได้มากสุด 40~80%']
+                    สร้างความเสียหายเพิ่มขึ้น **0.12~0.24%** โดยความเสียหายท่าไม้ตายที่เพิ่มขึ้นด้วยวิธีนี้ จะเพิ่มได้มากสุด **40~80%**']
                     ,'star':'[★★★★]'}
         return lst33
     elif name.lower() == "mitternachts waltz":
@@ -661,8 +661,8 @@ def weapon_info_list(name):
         **[✦✦✦✦--]**:30,000 Mora, Fragment of Decarabian's Epic x3, Black Bronze Horn x12, Silver Raven Insignia x9\n \
         **[✦✦✦✦✦-]**:35,000 Mora, Fragment of Decarabian's Epic x6, Black Crystal Horn x9, Golden Raven Insignia x6\n \
         **[✦✦✦✦✦✦]**:45,000 Mora, Scattered Piece of Decarabian's Dream x4, Black Crystal Horn x18, Golden Raven Insignia x12", 'name':"Mitternachts Waltz",
-        'skill':["Evernight Duet", '✰ เมื่อโจมตีปกติถูกศัตรู จะทำให้ความเสียหายของสกิลธาตุเพิ่มขึ้น 20~40% เป็นเวลา 5 วินาที, \
-                    เมื่อสกิลธาตุโจมตีถูกศัตรู จะทำให้ความเสียหายของการโจมตีปกติเพิ่มขึ้น 20~40% เป็นเวลา 5 วินาที']
+        'skill':["Evernight Duet", '✰ เมื่อโจมตีปกติถูกศัตรู จะทำให้ความเสียหายของสกิลธาตุเพิ่มขึ้น **20~40%** เป็นเวลา 5 วินาที, \
+                    เมื่อสกิลธาตุโจมตีถูกศัตรู จะทำให้ความเสียหายของการโจมตีปกติเพิ่มขึ้น **20~40%** เป็นเวลา 5 วินาที']
                     ,'star':'[★★★★]'}
         return lst34
     elif name.lower() == "hamayumi":
@@ -675,7 +675,7 @@ def weapon_info_list(name):
         **[✦✦✦✦--]**:30,000 Mora, Narukami's Affection x3, Crystal Prism x12, Sharp Arrowhead x9\n \
         **[✦✦✦✦✦-]**:35,000 Mora, Narukami's Affection x6, Polarizing Prism x9, Weathered Arrowhead x6\n \
         **[✦✦✦✦✦✦]**:45,000 Mora, Narukami's Valor x4, Polarizing Prism x18, Weathered Arrowhead x12", 'name':"Hamayumi",
-        'skill':["Full Draw", '✰ การโจมตีปกติสร้างความเสียหายเพิ่มขึ้น 16~32% ชาร์จโจมตีสร้างความเสียหายเพิ่มขึ้น 12~24% \
+        'skill':["Full Draw", '✰ การโจมตีปกติสร้างความเสียหายเพิ่มขึ้น **16~32%** ชาร์จโจมตีสร้างความเสียหายเพิ่มขึ้น **12~24%** \
                     และเมื่อตัวละครที่ใช้อาวุธนี้มีพลังงานธาตุ 100% เอฟเฟกต์นี้จะเพิ่มขึ้น 100%']
                     ,'star':'[★★★★]'}
         return lst35
@@ -689,7 +689,7 @@ def weapon_info_list(name):
         **[✦✦✦✦--]**:30,000 Mora, Shackles of the Dandelion Gladiator x3, Chaos Circuit x12, Shimmering Nectar x9\n \
         **[✦✦✦✦✦-]**:35,000 Mora, Shackles of the Dandelion Gladiator x6, Chaos Core x9, Energy Nectar x6\n \
         **[✦✦✦✦✦✦]**:45,000 Mora, Dream of the Dandelion Gladiator x4, Chaos Core x18, Energy Nectar x12", 'name':"Favonius Warbow",
-        'skill':["Windfall", '✰ เมื่อโจมตีคริติคอล จะมีโอกาส 60~100% ที่จะ สร้างอณูธาตุ ซึ่งใช้พื้นฟูพลังงานธาตุได้ 6 หน่วย โดยเอฟเฟกต์นี้จะใช้ได้ หนึ่งครั้งในทุก 12~6 วินาที']
+        'skill':["Windfall", '✰ เมื่อโจมตีคริติคอล จะมีโอกาส **60~100%** ที่จะ สร้างอณูธาตุ ซึ่งใช้พื้นฟูพลังงานธาตุได้ 6 หน่วย โดยเอฟเฟกต์นี้จะใช้ได้ หนึ่งครั้งในทุก **12~6** วินาที']
                     ,'star':'[★★★★]'}
         return lst36
     elif name.lower() == "compound bow":
@@ -702,7 +702,7 @@ def weapon_info_list(name):
         **[✦✦✦✦--]**:30,000 Mora, Bit of Aerosiderite x3, Sturdy Bone Shard x12, Sergeant's Insignia x9\n \
         **[✦✦✦✦✦-]**:35,000 Mora, Bit of Aerosiderite x6, Fossilized Bone Shard x9, Lieutenant's Insignia x6\n \
         **[✦✦✦✦✦✦]**:45,000 Mora, Chunk of Aerosiderite x4, Fossilized Bone Shard x18, Lieutenant's Insignia x12", 'name':"Compound Bow",
-        'skill':["Infusion Arrow", '✰ เมื่อการโจมตีปกติและชาร์จโจมตีโดนเป้าหมาย พลังโจมตีจะเพิ่มขึ้น 4~8% และความเร็วในการโจมตีปกติจะเพิ่มขึ้น 1.2~2.4% ซึ่งเอฟเฟกต์นี้จะมีระยะเวลาต่อเนื่อง 6 วินาที \
+        'skill':["Infusion Arrow", '✰ เมื่อการโจมตีปกติและชาร์จโจมตีโดนเป้าหมาย พลังโจมตีจะเพิ่มขึ้น **4~8%** และความเร็วในการโจมตีปกติจะเพิ่มขึ้น **1.2~2.4%** ซึ่งเอฟเฟกต์นี้จะมีระยะเวลาต่อเนื่อง 6 วินาที \
                     และซ้อนทับได้สูงสุด 4 ชั้น โดยจะเกิดขึ้นเพียงหนึ่งครั้งในทุก 0.3 วินาที']
                     ,'star':'[★★★★]'}
         return lst37
@@ -716,7 +716,7 @@ def weapon_info_list(name):
         **[✦✦✦✦--]**:30,000 Mora, Relic from Guyun x3, Agent's Sacrificial Knife x12, Shimmering Nectar x9\n \
         **[✦✦✦✦✦-]**:35,000 Mora, Relic from Guyun x6, Inspector's Sacrificial Knife x9, Energy Nectar x6\n \
         **[✦✦✦✦✦✦]**:45,000 Mora, Divine Body from Guyun x4, Inspector's Sacrificial Knife x18, Energy Nectar x12", 'name':"Blackcliff Warbow",
-        'skill':["Press the Advantage", '✰ หลังจากกำจัดศัตรูได้ พลังโจมตีจะเพิ่มขึ้น 12~24% เป็นเวลา 30 วินาที โดยเอฟเฟกต์นี้จะซ้อนทับกันได้มากสุด 3 ชั้น ซึ่งแต่ละชั้นจะมีระยะเวลาของตัวเอง']
+        'skill':["Press the Advantage", '✰ หลังจากกำจัดศัตรูได้ พลังโจมตีจะเพิ่มขึ้น **12~24%** เป็นเวลา 30 วินาที โดยเอฟเฟกต์นี้จะซ้อนทับกันได้มากสุด 3 ชั้น ซึ่งแต่ละชั้นจะมีระยะเวลาของตัวเอง']
                     ,'star':'[★★★★]'}
         return lst38
     elif name.lower() == "windblume ode":
@@ -729,7 +729,7 @@ def weapon_info_list(name):
         **[✦✦✦✦--]**:30,000 Mora, Shackles of the Dandelion Gladiator x3, Dead Ley Line Leaves x12, Shimmering Nectar x9\n \
         **[✦✦✦✦✦-]**:35,000 Mora, Shackles of the Dandelion Gladiator x6, Ley Line Sprout x9, Energy Nectar x6\n \
         **[✦✦✦✦✦✦]**:45,000 Mora, Dream of the Dandelion Gladiator x4, Ley Line Sprout x18, Energy Nectar x12", 'name':"Windblume Ode",
-        'skill':["Windblume Wish", '✰ เมื่อใช้สกิลธาตุ จะได้รับพรจากความปรารถนาแห่งอดีตกาลของดอก Windblume โดยพลังโจมตีจะเพิ่มขึ้น 16~32% เป็นเวลา 6 วินาที']
+        'skill':["Windblume Wish", '✰ เมื่อใช้สกิลธาตุ จะได้รับพรจากความปรารถนาแห่งอดีตกาลของดอก Windblume โดยพลังโจมตีจะเพิ่มขึ้น **16~32%** เป็นเวลา 6 วินาที']
                     ,'star':'[★★★★]'}
         return lst39
     elif name.lower() == "wine and song":
@@ -742,8 +742,8 @@ def weapon_info_list(name):
         **[✦✦✦✦--]**:30,000 Mora, Boreal Wolf's Broken Fang x3, Dead Ley Line Leaves x12, Sealed Scroll x9\n \
         **[✦✦✦✦✦-]**:35,000 Mora, Boreal Wolf's Broken Fang x6, Ley Line Sprout x9, Forbidden Curse Scroll x6\n \
         **[✦✦✦✦✦✦]**:45,000 Mora, Boreal Wolf's Nostalgia x4, Ley Line Sprout x18, Forbidden Curse Scroll x12", 'name':"Wine and Song",
-        'skill':["Ever-Changing", '✰ เมื่อโจมตีปกติถูกศัตรู การใช้พลังกายของการวิ่งหรือ Alternate Sprint จะลดลง 14~22% เป็นเวลา 5 วินาที \
-                    นอกจากนี้หลังจากที่วิ่งหรือใช้ Alternate Sprint แล้ว พลังโจมตีจะเพิ่มขึ้น 20~40% เป็นเวลา 5 วินาที']
+        'skill':["Ever-Changing", '✰ เมื่อโจมตีปกติถูกศัตรู การใช้พลังกายของการวิ่งหรือ Alternate Sprint จะลดลง **14~22%** เป็นเวลา 5 วินาที \
+                    นอกจากนี้หลังจากที่วิ่งหรือใช้ Alternate Sprint แล้ว พลังโจมตีจะเพิ่มขึ้น **20~40%** เป็นเวลา 5 วินาที']
                     ,'star':'[★★★★]'}
         return lst40
     elif name.lower() == "the widsith":
@@ -756,8 +756,8 @@ def weapon_info_list(name):
         **[✦✦✦✦--]**:30,000 Mora, Boreal Wolf's Broken Fang x3, Dead Ley Line Leaves x12, Stained Mask x9\n \
         **[✦✦✦✦✦-]**:35,000 Mora, Boreal Wolf's Broken Fang x6, Ley Line Sprout x9, Ominous Mask x6\n \
         **[✦✦✦✦✦✦]**:45,000 Mora, Boreal Wolf's Nostalgia x4, Ley Line Sprout x18, Ominous Mask x12", 'name':"The Widsith",
-        'skill':["Debut", '✰ เมื่อตัวละครเข้าสู่การต่อสู้ จะได้รับบทเพลงแบบสุ่มเป็นเวลา 10 วินาที โดยจะเกิดขึ้นได้หนึ่งครั้งในทุก 30 วินาที การอ่านบรรเลง: เพิ่มพลังโจมตี 60~120%, \
-                    เพลงประกอบ: เพิ่มความเสียหายธาตุทั้งหมดขึ้น 48~96%; การแสดงสลับฉาก: ความชำนาญธาตุเพิ่มขึ้น 240~480']
+        'skill':["Debut", '✰ เมื่อตัวละครเข้าสู่การต่อสู้ จะได้รับบทเพลงแบบสุ่มเป็นเวลา 10 วินาที โดยจะเกิดขึ้นได้หนึ่งครั้งในทุก 30 วินาที การอ่านบรรเลง: เพิ่มพลังโจมตี **60~120%**, \
+                    เพลงประกอบ: เพิ่มความเสียหายธาตุทั้งหมดขึ้น **48~96%**; การแสดงสลับฉาก: ความชำนาญธาตุเพิ่มขึ้น 240~480']
                     ,'star':'[★★★★]'}
         return lst41
     elif name.lower() == "solar pearl":
@@ -770,8 +770,8 @@ def weapon_info_list(name):
         **[✦✦✦✦--]**:30,000 Mora, Relic from Guyun x3, Agent's Sacrificial Knife x12, Shimmering Nectar x9\n \
         **[✦✦✦✦✦-]**:35,000 Mora, Relic from Guyun x6, Inspector's Sacrificial Knife x9, Energy Nectar x6\n \
         **[✦✦✦✦✦✦]**:45,000 Mora, Divine Body from Guyun x4, Inspector's Sacrificial Knife x18, Energy Nectar x12", 'name':"Solar Pearl",
-        'skill':["Solar Shine", '✰ ภายในเวลา 6 วินาที หลังจากที่การโจมตีปกติถูกเป้าหมาย ความเสียหายของสกิลธาตุและท่าไม้ตายจะเพิ่มขึ้น 20~40%; \
-                    ภายในเวลา 6 วินาทีหลังจากสกิลธาตุและท่าไม้ตายถูกเป้าหมาย ความเสียหายของการโจมตีปกติจะเพิ่มขึ้น 20~40%']
+        'skill':["Solar Shine", '✰ ภายในเวลา 6 วินาที หลังจากที่การโจมตีปกติถูกเป้าหมาย ความเสียหายของสกิลธาตุและท่าไม้ตายจะเพิ่มขึ้น **20~40%**; \
+                    ภายในเวลา 6 วินาทีหลังจากสกิลธาตุและท่าไม้ตายถูกเป้าหมาย ความเสียหายของการโจมตีปกติจะเพิ่มขึ้น **20~40%**']
                     ,'star':'[★★★★]'}
         return lst42
     elif name.lower() == "sacrificial fragments":
@@ -784,7 +784,7 @@ def weapon_info_list(name):
         **[✦✦✦✦--]**:30,000 Mora, Shackles of the Dandelion Gladiator x3, Chaos Circuit x12, Silver Raven Insignia x9\n \
         **[✦✦✦✦✦-]**:35,000 Mora, Shackles of the Dandelion Gladiator x6, Chaos Core x9, Golden Raven Insignia x6\n \
         **[✦✦✦✦✦✦]**:45,000 Mora, Dream of the Dandelion Gladiator x4, Chaos Core x18, Golden Raven Insignia x12", 'name':"Sacrificial Fragments",
-        'skill':["Composed", '✰ หลังจากสร้างความเสียหายด้วยสกิลธาตุแล้ว จะมีโอกาส 40~80% ที่จะรีเซ็ตเวลาคูลดาวน์ของสกิลนี้ โดยเอฟเฟกต์นี้จะเกิดขึ้นหนึ่งครั้งในทุก 30~16 วินาที']
+        'skill':["Composed", '✰ หลังจากสร้างความเสียหายด้วยสกิลธาตุแล้ว จะมีโอกาส **40~80%** ที่จะรีเซ็ตเวลาคูลดาวน์ของสกิลนี้ โดยเอฟเฟกต์นี้จะเกิดขึ้นหนึ่งครั้งในทุก **30~16** วินาที']
                     ,'star':'[★★★★]'}
         return lst43
     elif name.lower() == "royal grimoire":
@@ -797,7 +797,7 @@ def weapon_info_list(name):
         **[✦✦✦✦--]**:30,000 Mora, Fragment of Decarabian's Epic x3, Black Bronze Horn x12, Sergeant's Insignia x9\n \
         **[✦✦✦✦✦-]**:35,000 Mora, Fragment of Decarabian's Epic x6, Black Crystal Horn x9, Lieutenant's Insignia x6\n \
         **[✦✦✦✦✦✦]**:45,000 Mora, Scattered Piece of Decarabian's Dream x4, Black Crystal Horn x18, Lieutenant's Insignia x12", 'name':"Royal Grimoire",
-        'skill':["Focus", '✰ เมื่อการโจมตีก่อให้เกิดความเสียหาย อัตราคริจะเพิ่มขึ้น 8~16% ซ้อนทับได้มากสุด 5 ครั้ง และเมื่อโจมตีติดคริติคอลจะล้างเอฟเฟกต์ที่โฟกัสออกทั้งหมด']
+        'skill':["Focus", '✰ เมื่อการโจมตีก่อให้เกิดความเสียหาย อัตราคริจะเพิ่มขึ้น **8~16%** ซ้อนทับได้มากสุด 5 ครั้ง และเมื่อโจมตีติดคริติคอลจะล้างเอฟเฟกต์ที่โฟกัสออกทั้งหมด']
                     ,'star':'[★★★★]'}
         return lst44
     elif name.lower() == "prototype amber":
@@ -810,7 +810,7 @@ def weapon_info_list(name):
         **[✦✦✦✦--]**:30,000 Mora, Mist Veiled Gold Elixir x3, Mist Grass x12, Sharp Arrowhead x9\n \
         **[✦✦✦✦✦-]**:35,000 Mora, Mist Veiled Gold Elixir x6, Mist Grass Wick x9, Weathered Arrowhead x6\n \
         **[✦✦✦✦✦✦]**:45,000 Mora, Mist Veiled Primo Elixir x4, Mist Grass Wick x18, Weathered Arrowhead x12", 'name':"Prototype Amber",
-        'skill':["Gilding", '✰ ภายใน 6 วินาที หลังใช้ท่าไม้ตาย จะทำการฟื้นฟูพลังงานธาตุ 4~6 หน่วย ในทุก 2 วินาที และตัวละครทั้งหมดในทีมจะฟื้นฟูพลังชีวิต 4% ในทุก 2 วินาที']
+        'skill':["Gilding", '✰ ภายใน 6 วินาที หลังใช้ท่าไม้ตาย จะทำการฟื้นฟูพลังงานธาตุ **4~6** หน่วย ในทุก 2 วินาที และตัวละครทั้งหมดในทีมจะฟื้นฟูพลังชีวิต 4% ในทุก 2 วินาที']
                     ,'star':'[★★★★]'}
         return lst45
     elif name.lower() == "mappa mare":
@@ -823,7 +823,7 @@ def weapon_info_list(name):
         **[✦✦✦✦--]**:30,000 Mora, Bit of Aerosiderite x3, Sturdy Bone Shard x12, Slime Secretions x9\n \
         **[✦✦✦✦✦-]**:35,000 Mora, Bit of Aerosiderite x6, Fossilized Bone Shard x9, Slime Concentrate x6\n \
         **[✦✦✦✦✦✦]**:45,000 Mora, Chunk of Aerosiderite x4, Fossilized Bone Shard x18, Slime Concentrate x12", 'name':"Mappa Mare",
-        'skill':["Infusion Scroll", '✰ ภายใน 10 วินาที หลังจากทำให้เกิดปฏิกิริยาธาตุ จะได้รับโบนัสความเสียหายธาตุ 8~16% ซึ่งเอฟเฟกต์นี้จะซ้อนทับได้สูงสุด 2 ชั้น']
+        'skill':["Infusion Scroll", '✰ ภายใน 10 วินาที หลังจากทำให้เกิดปฏิกิริยาธาตุ จะได้รับโบนัสความเสียหายธาตุ **8~16%** ซึ่งเอฟเฟกต์นี้จะซ้อนทับได้สูงสุด 2 ชั้น']
                     ,'star':'[★★★★]'}
         return lst46
     elif name.lower() == "hakushin ring":
@@ -837,7 +837,7 @@ def weapon_info_list(name):
         **[✦✦✦✦✦-]**:35,000 Mora, Jade Branch of a Distant Sea x6, Polarizing Prism x9, Forbidden Curse Scroll x6\n \
         **[✦✦✦✦✦✦]**:45,000 Mora, Golden Branch of a Distant Sea x4, Polarizing Prism x18, Forbidden Curse Scroll x12", 'name':"Hakushin Ring",
         'skill':["Sakura Saiguu", '✰ หลังจากตัวละครที่ใช้อาวุธนี้ ทำให้เกิดปฏิ กิริยาที่เกี่ยวกับธาตุไฟฟ้าแล้ว ตัวละครในทีมที่อยู่ใกล้เคียงและเป็นธาตุชนิดเดียวกับที่ทำให้เกิดปฏิริยาในครั้งนี้ \
-                    จะได้รับโบนัสความเสียหายธาตุของธาตุที่เกี่ยวข้อง 10~20% เป็นเวลา 6 วินาที โดยโบนัสความเสียหายธาตุที่เกิดด้วยวิธีนี้ไม่สามารถซ้อนทับได้']
+                    จะได้รับโบนัสความเสียหายธาตุของธาตุที่เกี่ยวข้อง **10~20%** เป็นเวลา 6 วินาที โดยโบนัสความเสียหายธาตุที่เกิดด้วยวิธีนี้ไม่สามารถซ้อนทับได้']
                     ,'star':'[★★★★]'}
         return lst47
     elif name.lower() == "frostbearer":
@@ -849,8 +849,8 @@ def weapon_info_list(name):
         **[✦✦✦✦--]**:30,000 Mora, Shackles of the Dandelion Gladiator x3, Chaos Circuit x12, Shimmering Nectar x9\n \
         **[✦✦✦✦✦-]**:35,000 Mora, Shackles of the Dandelion Gladiator x6, Chaos Core x9, Energy Nectar x6\n \
         **[✦✦✦✦✦✦]**:45,000 Mora, Dream of the Dandelion Gladiator x4, Chaos Core x18, Energy Nectar x12", 'name':"Frostbearer",
-        'skill':["Frost Burial", '✰ เมื่อโจมตีปกติและชาร์จโจมตีถูกศัตรู จะมีโอกาส 60~100% ที่จะเกิด Everfrost Icicle ขึ้นบนตัวของศัตรูและร่วงลงมาใส่ \
-                    เพื่อสร้างความเสียหายวงกว้างเป็น 80~140% ของพลังโจมตี หากศัตรูตกอยู่ภายใต้ผลกระทบของธาตุน้ำแข็ง จะสร้างความเสี่ยหาย 200~360% ของพลังโจมตี \
+        'skill':["Frost Burial", '✰ เมื่อโจมตีปกติและชาร์จโจมตีถูกศัตรู จะมีโอกาส **60~100%** ที่จะเกิด Everfrost Icicle ขึ้นบนตัวของศัตรูและร่วงลงมาใส่ \
+                    เพื่อสร้างความเสียหายวงกว้างเป็น **80~140%** ของพลังโจมตี หากศัตรูตกอยู่ภายใต้ผลกระทบของธาตุน้ำแข็ง จะสร้างความเสี่ยหาย **200~360%** ของพลังโจมตี \
                     โดยที่เฟเฟกต์ดังกล่าวนี้จะเกิดได้ครั้งเดียวในทุก 10 วินาที']
                     ,'star':'[★★★★]'}
         return lst48
@@ -864,7 +864,7 @@ def weapon_info_list(name):
         **[✦✦✦✦--]**:30,000 Mora, Fragment of Decarabian's Epic x3, Black Bronze Horn x12, Sealed Scroll x9\n \
         **[✦✦✦✦✦-]**:35,000 Mora, Fragment of Decarabian's Epic x6, Black Crystal Horn x9, Forbidden Curse Scroll x6\n \
         **[✦✦✦✦✦✦]**:45,000 Mora, Scattered Piece of Decarabian's Dream x4, Black Crystal Horn x18, Forbidden Curse Scroll x12", 'name':"Favonius Codex",
-        'skill':["Windfall", '✰ เมื่อโจมตีคริติคอล จะมีโอกาส 60~100% ที่จะ สร้างอณุธาตุ ซึ่งใช้ฟื้นฟูพลังงานธาตุได้ 6 หน่วย โดยเอฟเฟกต์นี้จะใช่ได้ หนึ่งครั้งในทุก 12~6 วินาที']
+        'skill':["Windfall", '✰ เมื่อโจมตีคริติคอล จะมีโอกาส **60~100%** ที่จะ สร้างอณุธาตุ ซึ่งใช้ฟื้นฟูพลังงานธาตุได้ 6 หน่วย โดยเอฟเฟกต์นี้จะใช่ได้ หนึ่งครั้งในทุก **12~6** วินาที']
                     ,'star':'[★★★★]'}
         return lst49
     elif name.lower() == "eye of perception":
@@ -877,7 +877,7 @@ def weapon_info_list(name):
         **[✦✦✦✦--]**:30,000 Mora, Mist Veiled Gold Elixir x3, Mist Grass x12, Stained Mask x9\n \
         **[✦✦✦✦✦-]**:35,000 Mora, Mist Veiled Gold Elixir x6, Mist Grass Wick x9, Ominous Mask x6\n \
         **[✦✦✦✦✦✦]**:45,000 Mora, Mist Veiled Primo Elixir x4, Mist Grass Wick x18, Ominous Mask x12", 'name':"Eye of Perception",
-        'skill':["Echo", '✰ เมื่อโจมตีปกติและชาร์จโจมตีถูกเป้าหมาย จะมีโอกาส 50% ที่จะปล่อย Bolt of Perception ออกมาสร้างความเสี่ยหาย 240~360% ของพลังโจมตี \
+        'skill':["Echo", '✰ เมื่อโจมตีปกติและชาร์จโจมตีถูกเป้าหมาย จะมีโอกาส 50% ที่จะปล่อย Bolt of Perception ออกมาสร้างความเสี่ยหาย **240~360%** ของพลังโจมตี \
                     โดยจะปล่อยออกมาใส่กลุ่มของศัตรูสูงสุด 4 ครั้ง ซึ่งเอฟเฟกต์นี้จะเกิดขึ้นได้หนึ่งครั้งในทุก 12~8 วินาที']
                     ,'star':'[★★★★]'}
         return lst50
@@ -891,7 +891,7 @@ def weapon_info_list(name):
         **[✦✦✦✦--]**:30,000 Mora, Boreal Wolf's Broken Fang x3, Dead Ley Line Leaves x12, Stained Mask x9\n \
         **[✦✦✦✦✦-]**:35,000 Mora, Boreal Wolf's Broken Fang x6, Ley Line Sprout x9, Ominous Mask x6\n \
         **[✦✦✦✦✦✦]**:45,000 Mora, Boreal Wolf's Nostalgia x4, Ley Line Sprout x18, Ominous Mask x12", 'name':"Dodoco Tales",
-        'skill':["Dodoventure!", '✰ เมื่อโจมตีปกติถูกศัตรู จะทำให้ความเสียหายของการชาร์จโจมตีเพิ่มขึ้น 16~32% เป็นเวลา 6 วินาที; เมื่อชาร์จโจมตีถูกศัตรู จะทำให้พลังโจมตีจะเพิ่มขึ้น 8~16% เป็นเวลา 6 วินาที']
+        'skill':["Dodoventure!", '✰ เมื่อโจมตีปกติถูกศัตรู จะทำให้ความเสียหายของการชาร์จโจมตีเพิ่มขึ้น **16~32%** เป็นเวลา 6 วินาที; เมื่อชาร์จโจมตีถูกศัตรู จะทำให้พลังโจมตีจะเพิ่มขึ้น **8~16%** เป็นเวลา 6 วินาที']
                     ,'star':'[★★★★]'}
         return lst51
     elif name.lower() == "blackcliff agate":
@@ -904,7 +904,7 @@ def weapon_info_list(name):
         **[✦✦✦✦--]**:30,000 Mora, Relic from Guyun x3, Agent's Sacrificial Knife x12, Sealed Scroll x9\n \
         **[✦✦✦✦✦-]**:35,000 Mora, Relic from Guyun x6, Inspector's Sacrificial Knife x9, Forbidden Curse Scroll x6\n \
         **[✦✦✦✦✦✦]**:45,000 Mora, Divine Body from Guyun x4, Inspector's Sacrificial Knife x18, Forbidden Curse Scroll x12", 'name':"Blackcliff Agate",
-        'skill':["Press the Advantage", '✰ หลังจากกำจัดศัตรูได้ พลังโจมตีจะเพิ่มขึ้น 12~24% เป็นเวลา 30 วินาที โดยเอฟเฟกต์นี้จะซ้อนทับกันได้มากสุด 3 ชั้น ซึ่งแต่ละชั้นจะมีระยะเวลาของตัวเอง']
+        'skill':["Press the Advantage", '✰ หลังจากกำจัดศัตรูได้ พลังโจมตีจะเพิ่มขึ้น **12~24%** เป็นเวลา 30 วินาที โดยเอฟเฟกต์นี้จะซ้อนทับกันได้มากสุด 3 ชั้น ซึ่งแต่ละชั้นจะมีระยะเวลาของตัวเอง']
                     ,'star':'[★★★★]'}
         return lst52
     elif name.lower() == "akuoumaru":
@@ -917,8 +917,8 @@ def weapon_info_list(name):
         **[✦✦✦✦--]**:30,000 Mora, Jade Branch of a Distant Sea x3, Concealed Unguis x12, Kageuchi Handguard x9\n \
         **[✦✦✦✦✦-]**:35,000 Mora, Jade Branch of a Distant Sea x6, Concealed Talon x9, Famed Handguard x6\n \
         **[✦✦✦✦✦✦]**:45,000 Mora, Golden Branch of a Distant Sea x4, Concealed Talon x18, Famed Handguard x12", 'name':"Akuoumaru",
-        'skill':["Watatsumi Wavewalker", '✰ ทุก 1 หน่วย ของผลรวมพลังงานธาตุสูงสุดของตัวละครทั้งหมดในทีม จะทำให้ท่าไม้ตายของตัวละครที่ใช้อาวุธนี้ สร้างความเสียหายเพิ่มขึ้น 0.12~0.24% \
-                    โดยความเสียหายท่าไม้ตายที่เพิ่มขึ้นด้วยวิธีนี้ จะเพิ่มได้มากสุด 40~80% โดยความเสียหายท่าไม้ตายที่เพิ่มขึ้นด้วยวิธีนี้ จะเพิ่มได้มากสุด']
+        'skill':["Watatsumi Wavewalker", '✰ ทุก 1 หน่วย ของผลรวมพลังงานธาตุสูงสุดของตัวละครทั้งหมดในทีม จะทำให้ท่าไม้ตายของตัวละครที่ใช้อาวุธนี้ สร้างความเสียหายเพิ่มขึ้น **0.12~0.24%** \
+                    โดยความเสียหายท่าไม้ตายที่เพิ่มขึ้นด้วยวิธีนี้ จะเพิ่มได้มากสุด **40~80%** โดยความเสียหายท่าไม้ตายที่เพิ่มขึ้นด้วยวิธีนี้ จะเพิ่มได้มากสุด']
                     ,'star':'[★★★★]'}
         return lst53
     elif name.lower() == "royal greatsword":
@@ -931,7 +931,7 @@ def weapon_info_list(name):
         **[✦✦✦✦--]**:30,000 Mora, Shackles of the Dandelion Gladiator x3, Chaos Circuit x12, Slime Secretions x9\n \
         **[✦✦✦✦✦-]**:35,000 Mora, Shackles of the Dandelion Gladiator x6, Chaos Core x9, Slime Concentrate x6\n \
         **[✦✦✦✦✦✦]**:45,000 Mora, Dream of the Dandelion Gladiator x4, Chaos Core x18, Slime Concentrate x12", 'name':"Royal Greatsword",
-        'skill':["Focus", '✰ เมื่อการโจมตีก่อให้เกิดความเสียหาย อัตราคริจะเพิ่มขึ้น 8~16% ซ้อนทับได้มากสุด 5 ครั้ง และเมื่อโจมตีติดคริติคอลจะล้างเอฟเฟกต์ที่โฟกัสออกทั้งหมด']
+        'skill':["Focus", '✰ เมื่อการโจมตีก่อให้เกิดความเสียหาย อัตราคริจะเพิ่มขึ้น **8~16%** ซ้อนทับได้มากสุด 5 ครั้ง และเมื่อโจมตีติดคริติคอลจะล้างเอฟเฟกต์ที่โฟกัสออกทั้งหมด']
                     ,'star':'[★★★★]'}
         return lst54
     elif name.lower() == "whiteblind":
@@ -944,7 +944,7 @@ def weapon_info_list(name):
         **[✦✦✦✦--]**:30,000 Mora, Relic from Guyun x3, Agent's Sacrificial Knife x12, Silver Raven Insignia x9\n \
         **[✦✦✦✦✦-]**:35,000 Mora, Relic from Guyun x6, Inspector's Sacrificial Knife x9, Golden Raven Insignia x6\n \
         **[✦✦✦✦✦✦]**:45,000 Mora, Divine Body from Guyun x4, Inspector's Sacrificial Knife x18, Golden Raven Insignia x12", 'name':"Whiteblind",
-        'skill':["Infusion Blade", '✰ หลังโจมตีปกติหรือชาร์จโจมตีถูกเป้าหมาย พลังโจมตีและพลังป้องกันจะเพิ่มขึ้น 6~12% ซึ่งเอฟเฟกต์นี้จะเกิดขึ้นเป็นระยะเวลา 6 วินาที และซ้อนทับมากสุด 4 ชั้น โดยจะเกิดขึ้นหนึ่งครั้งในทุก 0.5 วินาที']
+        'skill':["Infusion Blade", '✰ หลังโจมตีปกติหรือชาร์จโจมตีถูกเป้าหมาย พลังโจมตีและพลังป้องกันจะเพิ่มขึ้น **6~12%** ซึ่งเอฟเฟกต์นี้จะเกิดขึ้นเป็นระยะเวลา 6 วินาที และซ้อนทับมากสุด 4 ชั้น โดยจะเกิดขึ้นหนึ่งครั้งในทุก 0.5 วินาที']
                     ,'star':'[★★★★]'}
         return lst55
     elif name.lower() == "the bell":
@@ -957,8 +957,8 @@ def weapon_info_list(name):
         **[✦✦✦✦--]**:30,000 Mora, Fragment of Decarabian's Epic x3, Black Bronze Horn x12, Shimmering Nectar x9\n \
         **[✦✦✦✦✦-]**:35,000 Mora, Fragment of Decarabian's Epic x6, Black Crystal Horn x9, Energy Nectar x6\n \
         **[✦✦✦✦✦✦]**:45,000 Mora, Scattered Piece of Decarabian's Dream x4, Black Crystal Horn x18, Energy Nectar x12", 'name':"The Bell",
-        'skill':["Rebellious Guardian", '✰ เมื่อได้รับความเสียหายจะสร้างโล่ที่สามารถดูดซับความเสียหายได้ถึง 20~32% ของพลังชีวิตสูงสุดเป็นเวลา 10 วินาที หรือจนกว่าโล่จะเสื่อมสภาพ \
-                    โดยจะเกิดขึ้นได้หนึ่งครั้งในทุก 45 วินาที ในขณะที่ตัวละครได้รับการป้องกันจากโล่จะสร้างความเสียหายเพิ่มขึ้น 12~24%']
+        'skill':["Rebellious Guardian", '✰ เมื่อได้รับความเสียหายจะสร้างโล่ที่สามารถดูดซับความเสียหายได้ถึง **20~32%** ของพลังชีวิตสูงสุดเป็นเวลา 10 วินาที หรือจนกว่าโล่จะเสื่อมสภาพ \
+                    โดยจะเกิดขึ้นได้หนึ่งครั้งในทุก 45 วินาที ในขณะที่ตัวละครได้รับการป้องกันจากโล่จะสร้างความเสียหายเพิ่มขึ้น **12~24%**']
                     ,'star':'[★★★★]'}
         return lst56
     elif name.lower() == "snow-tombed starsilver":
@@ -971,8 +971,8 @@ def weapon_info_list(name):
         **[✦✦✦✦--]**:30,000 Mora, Fragment of Decarabian's Epic x3, Black Bronze Horn x12, Slime Secretions x9\n \
         **[✦✦✦✦✦-]**:35,000 Mora, Fragment of Decarabian's Epic x6, Black Crystal Horn x9, Slime Concentrate x6\n \
         **[✦✦✦✦✦✦]**:45,000 Mora, Scattered Piece of Decarabian's Dream x4, Black Crystal Horn x18, Slime Concentrate x12", 'name':"Snow-Tombed Starsilver",
-        'skill':["Frost Burial", '✰ เมื่อโจมตีปกติและชาร์จโจมตีถูกศัตรู จะมีโอกาส 60~100% ที่จะเกิด Everfrost Icicle ขึ้นบนตัวของศัตรูและร่วงลงมาใส่ เพื่อสร้างความเสียหายวงกว้างเป็น 80% ของพลังโจมตี \
-                    หากศัตรูตกอยู่ภายใต้ผลกระทบของธาตุน้ำแข็ง จะสร้างความเสียหาย 80~140% ของพลังโจมตี โดยที่เอฟเฟกต์ดังกล่าวนี้จะเกิดได้ครั้งเดียวในทุก 200~360 วินาที']
+        'skill':["Frost Burial", '✰ เมื่อโจมตีปกติและชาร์จโจมตีถูกศัตรู จะมีโอกาส **60~100%** ที่จะเกิด Everfrost Icicle ขึ้นบนตัวของศัตรูและร่วงลงมาใส่ เพื่อสร้างความเสียหายวงกว้างเป็น 80% ของพลังโจมตี \
+                    หากศัตรูตกอยู่ภายใต้ผลกระทบของธาตุน้ำแข็ง จะสร้างความเสียหาย **80~140%** ของพลังโจมตี โดยที่เอฟเฟกต์ดังกล่าวนี้จะเกิดได้ครั้งเดียวในทุก **200~360** วินาที']
                     ,'star':'[★★★★]'}
         return lst57
     elif name.lower() == "favonius greatsword":
@@ -985,7 +985,7 @@ def weapon_info_list(name):
         **[✦✦✦✦--]**:30,000 Mora, Shackles of the Dandelion Gladiator x3, Chaos Circuit x12, Sergeant's Insignia x9\n \
         **[✦✦✦✦✦-]**:35,000 Mora, Shackles of the Dandelion Gladiator x6, Chaos Core x9, Lieutenant's Insignia x6\n \
         **[✦✦✦✦✦✦]**:45,000 Mora, Dream of the Dandelion Gladiator x4, Chaos Core x18, Lieutenant's Insignia x12", 'name':"Favonius Greatsword",
-        'skill':["Windfall", '✰ เมื่อโจมตีคริติคอล จะมีโอกาส 60~100% ที่จะ สร้างอณุธาตุ ซึ่งใช้ฟื้นฟู พลังงานธาตุได้ 6 หน่วย โดยเฟเฟกต์นี้จะใช้ได้หนึ่งครั้งในทุก 12~6 วินาที']
+        'skill':["Windfall", '✰ เมื่อโจมตีคริติคอล จะมีโอกาส **60~100%** ที่จะ สร้างอณุธาตุ ซึ่งใช้ฟื้นฟู พลังงานธาตุได้ 6 หน่วย โดยเฟเฟกต์นี้จะใช้ได้หนึ่งครั้งในทุก **12~6** วินาที']
                     ,'star':'[★★★★]'}
         return lst58
     elif name.lower() == "katsuragikiri nagamasa":
@@ -998,8 +998,8 @@ def weapon_info_list(name):
         **[✦✦✦✦--]**:30,000 Mora, Narukami's Affection x3, Chaos Axis x12, Kageuchi Handguard x9\n \
         **[✦✦✦✦✦-]**:35,000 Mora, Narukami's Affection x6, Chaos Oculus x9, Famed Handguard x6\n \
         **[✦✦✦✦✦✦]**:45,000 Mora, Narukami's Valor x4, Chaos Oculus x18, Famed Handguard x12", 'name':"Katsuragikiri Nagamasa",
-        'skill':["Samurai Conduct", '✰ สกิลธาตุสร้างความเสียหายเพิ่มขึ้น 6~12% และหลังจากที่สกิลธาตุถูกเป้าหมาย ตัวละครจะเสียพลังงานธาตุ 3 หน่วย และหลังจากนั้น \
-                    จะทำการฟื้นฟูพลังธาตุ 3~5 หน่วย ในทุก 2 วินาที เป็นเวลา 6 วินาที โดยที่เอฟเฟกต์นี้จะเกิดขึ้นได้มากสุดหนึ่งครั้ง ในทุก 10 วินาที และสามารถเกิดขึ้นได้ \
+        'skill':["Samurai Conduct", '✰ สกิลธาตุสร้างความเสียหายเพิ่มขึ้น **6~12%** และหลังจากที่สกิลธาตุถูกเป้าหมาย ตัวละครจะเสียพลังงานธาตุ 3 หน่วย และหลังจากนั้น \
+                    จะทำการฟื้นฟูพลังธาตุ **3~5** หน่วย ในทุก 2 วินาที เป็นเวลา 6 วินาที โดยที่เอฟเฟกต์นี้จะเกิดขึ้นได้มากสุดหนึ่งครั้ง ในทุก 10 วินาที และสามารถเกิดขึ้นได้ \
                     แม้ตัวละครจะอยู่ในทีมแต่ไม่ได้เข้าร่วมการต่อสู้ก็ตาม']
                     ,'star':'[★★★★]'}
         return lst59
@@ -1013,7 +1013,7 @@ def weapon_info_list(name):
         **[✦✦✦✦--]**:30,000 Mora, Boreal Wolf's Broken Fang x3, Dead Ley Line Leaves x12, Sharp Arrowhead x9\n \
         **[✦✦✦✦✦-]**:35,000 Mora, Boreal Wolf's Broken Fang x6, Ley Line Sprout x9, Weathered Arrowhead x6\n \
         **[✦✦✦✦✦✦]**:45,000 Mora, Boreal Wolf's Nostalgia x4, Ley Line Sprout x18, Weathered Arrowhead x12", 'name':"Sacrificial Greatsword",
-        'skill':["Composed", '✰ หลังจากสร้างความเสียหายด้วยสกิลธาตุแล้ว จะมีโอกาส 40~80% ที่จะรีเซ็ตเวลาคูลดาวน์ของสกิลนี้ โดยเอฟเฟกต์นี้จะเกิดขึ้นหนึ่งครั้งในทุก 30~16 วินาที']
+        'skill':["Composed", '✰ หลังจากสร้างความเสียหายด้วยสกิลธาตุแล้ว จะมีโอกาส **40~80%** ที่จะรีเซ็ตเวลาคูลดาวน์ของสกิลนี้ โดยเอฟเฟกต์นี้จะเกิดขึ้นหนึ่งครั้งในทุก **30~16** วินาที']
                     ,'star':'[★★★★]'}
         return lst60
     elif name.lower() == "serpent spine":
@@ -1026,7 +1026,7 @@ def weapon_info_list(name):
         **[✦✦✦✦--]**:30,000 Mora, Bit of Aerosiderite x3, Sturdy Bone Shard x12, Shimmering Nectar x9\n \
         **[✦✦✦✦✦-]**:35,000 Mora, Bit of Aerosiderite x6, Fossilized Bone Shard x9, Energy Nectar x6\n \
         **[✦✦✦✦✦✦]**:45,000 Mora, Chunk of Aerosiderite x4, Fossilized Bone Shard x18, Energy Nectar x12", 'name':"Serpent Spine",
-        'skill':["Wavesplitter", '✰ เมื่อตัวละครเข้าสู่การต่อสู้ ในทุก 4 วินาที จะเพิ่มความเสียหายที่สร้าง 6~10% และเพิ่มความเสียหายที่ได้รับ 3~2% เอฟเฟกต์นี้จะซ้อนทับกันมากสุด 5 ชั้น \
+        'skill':["Wavesplitter", '✰ เมื่อตัวละครเข้าสู่การต่อสู้ ในทุก 4 วินาที จะเพิ่มความเสียหายที่สร้าง **6~10%** และเพิ่มความเสียหายที่ได้รับ **3~2%** เอฟเฟกต์นี้จะซ้อนทับกันมากสุด 5 ชั้น \
                     โดยจะไม่รีเซ็ตหลังจากที่ตัวละครออกจากสนามและเอฟเฟกต์จะลดลง 1 ชั้นหลังจากที่ได้รับความเสียหาย']
                     ,'star':'[★★★★]'}
         return lst61
@@ -1040,7 +1040,7 @@ def weapon_info_list(name):
         **[✦✦✦✦--]**:30,000 Mora, Mist Veiled Gold Elixir x3, Mist Grass x12, Sergeant's Insignia x9\n \
         **[✦✦✦✦✦-]**:35,000 Mora, Mist Veiled Gold Elixir x6, Mist Grass Wick x9, Lieutenant's Insignia x6\n \
         **[✦✦✦✦✦✦]**:45,000 Mora, Mist Veiled Primo Elixir x4, Mist Grass Wick x18, Lieutenant's Insignia x12", 'name':"Blackcliff Slasher",
-        'skill':["Press the advantage", '✰ หลังจากกำจัดศัตรูได้ พลังโจมตีจะเพิ่มขึ้น 12~24% เป็นเวลา 30 วินาที โดยเอฟเฟกต์นี้จะซ้อนทับกันได้มากสุด 3 ชั้น ซึ่งแต่ละชั้นจะมีระยะเวลาของตัวเอง']
+        'skill':["Press the advantage", '✰ หลังจากกำจัดศัตรูได้ พลังโจมตีจะเพิ่มขึ้น **12~24%** เป็นเวลา 30 วินาที โดยเอฟเฟกต์นี้จะซ้อนทับกันได้มากสุด 3 ชั้น ซึ่งแต่ละชั้นจะมีระยะเวลาของตัวเอง']
                     ,'star':'[★★★★]'}
         return lst62
     elif name.lower() == "rainslasher":
@@ -1053,7 +1053,7 @@ def weapon_info_list(name):
         **[✦✦✦✦--]**:30,000 Mora, Mist Veiled Gold Elixir x3, Mist Grass x12, Sealed Scroll x9\n \
         **[✦✦✦✦✦-]**:35,000 Mora, Mist Veiled Gold Elixir x6, Mist Grass Wick x9, Forbidden Curse Scroll x6\n \
         **[✦✦✦✦✦✦]**:45,000 Mora, Mist Veiled Primo Elixir x4, Mist Grass Wick x18, Forbidden Curse Scroll x12", 'name':"Rainslasher",
-        'skill':["Bane of Storm and Tide", '✰ เพิ่มความเสียหายแก่ศัตรูที่ได้รับผลกระทบของธาตุน้ำและไฟฟ้าขึ้น 20~36%']
+        'skill':["Bane of Storm and Tide", '✰ เพิ่มความเสียหายแก่ศัตรูที่ได้รับผลกระทบของธาตุน้ำและไฟฟ้าขึ้น **20~36%**']
                     ,'star':'[★★★★]'}
         return lst63
     elif name.lower() == "prototype archaic":
@@ -1066,7 +1066,7 @@ def weapon_info_list(name):
         **[✦✦✦✦--]**:30,000 Mora, Bit of Aerosiderite x3, Sturdy Bone Shard x12, Stained Mask x9\n \
         **[✦✦✦✦✦-]**:35,000 Mora, Bit of Aerosiderite x6, Fossilized Bone Shard x9, Ominous Mask x6\n \
         **[✦✦✦✦✦✦]**:45,000 Mora, Chunk of Aerosiderite x4, Fossilized Bone Shard x18, Ominous Mask x12", 'name':"Prototype Archaic",
-        'skill':["Crush", '✰ เมื่อโจมตีปกติหรือชาร์โจมตีถูกเป้าหมายจะมีโอกาส 50% ที่จะสร้างความเสียหายเพิ่มเติม 240~480% ของพลังโจมตีแก่ศัตรูที่อยู่ในพื้นที่วงแคบ โดยเอฟเฟกต์นี้จะเกิดขึ้นหนึ่งครั้งในทุก 15 วินาที']
+        'skill':["Crush", '✰ เมื่อโจมตีปกติหรือชาร์โจมตีถูกเป้าหมายจะมีโอกาส 50% ที่จะสร้างความเสียหายเพิ่มเติม **240~480%** ของพลังโจมตีแก่ศัตรูที่อยู่ในพื้นที่วงแคบ โดยเอฟเฟกต์นี้จะเกิดขึ้นหนึ่งครั้งในทุก 15 วินาที']
                     ,'star':'[★★★★]'}
         return lst64
     elif name.lower() == "luxurious sea-lord":
@@ -1079,8 +1079,8 @@ def weapon_info_list(name):
         **[✦✦✦✦--]**:30,000 Mora, Bit of Aerosiderite x3, Sturdy Bone Shard x12, Slime Secretions x9\n \
         **[✦✦✦✦✦-]**:35,000 Mora, Bit of Aerosiderite x6, Fossilized Bone Shard x9, Slime Concentrate x6\n \
         **[✦✦✦✦✦✦]**:45,000 Mora, Chunk of Aerosiderite x4, Fossilized Bone Shard x18, Slime Concentrate x12", 'name':"Luxurious Sea-Lord",
-        'skill':["Oceanic Victory", '✰ ท่าไม้ตายสร้างความเสียหายเพิ่มขึ้น 12~24% และในตอนที่ท้าไม้ตายโจมตีถูกศัตรู จะมีโอกาส 100% \
-                    ที่จะเรียกฝูงทูน่าออกมาเพื่อสร้างความเสียหายวงกว้าง 100~200% ของพลังโจมตี โดยเอฟเฟกต์นี้จะสามารถเกิดขึ้นได้มากสุดหนึ่งครั้งทุก 15 วินาที']
+        'skill':["Oceanic Victory", '✰ ท่าไม้ตายสร้างความเสียหายเพิ่มขึ้น **12~24%** และในตอนที่ท้าไม้ตายโจมตีถูกศัตรู จะมีโอกาส 100% \
+                    ที่จะเรียกฝูงทูน่าออกมาเพื่อสร้างความเสียหายวงกว้าง **100~200%** ของพลังโจมตี โดยเอฟเฟกต์นี้จะสามารถเกิดขึ้นได้มากสุดหนึ่งครั้งทุก 15 วินาที']
                     ,'star':'[★★★★]'}
         return lst65
     elif name.lower() == "lithic blade":
@@ -1093,7 +1093,7 @@ def weapon_info_list(name):
         **[✦✦✦✦--]**:30,000 Mora, Relic from Guyun x3, Agent's Sacrificial Knife x12, Sharp Arrowhead x9\n \
         **[✦✦✦✦✦-]**:35,000 Mora, Relic from Guyun x6, Inspector's Sacrificial Knife x9, Weathered Arrowhead x6\n \
         **[✦✦✦✦✦✦]**:45,000 Mora, Divine Body from Guyun x4, Inspector's Sacrificial Knife x18, Weathered Arrowhead x12", 'name':"Lithic Blade",
-        'skill':["Lithic Axiom - Unity", '✰ สำหรับทีมที่มีตัวละครที่มาจาก Liyue อยู่ในทีม ตัวละครที่ใช้อาวุธนี้จะได้รับพลังโจมตีเพิ่ม 7~11% และอัตราคริเพิ่ม 3~7% โดยเอฟเฟกต์นี้จะซ้อนทับได้มากสุด 4 ชั้น']
+        'skill':["Lithic Axiom - Unity", '✰ สำหรับทีมที่มีตัวละครที่มาจาก Liyue อยู่ในทีม ตัวละครที่ใช้อาวุธนี้จะได้รับพลังโจมตีเพิ่ม **7~11%** และอัตราคริเพิ่ม **3~7%** โดยเอฟเฟกต์นี้จะซ้อนทับได้มากสุด 4 ชั้น']
                     ,'star':'[★★★★]'}
         return lst66
     elif name.lower() == "prototype starglitter":
@@ -1106,7 +1106,7 @@ def weapon_info_list(name):
         **[✦✦✦✦--]**:30,000 Mora, Bit of Aerosiderite x3, Sturdy Bone Shard x12, Stained Mask x9\n \
         **[✦✦✦✦✦-]**:35,000 Mora, Bit of Aerosiderite x6, Fossilized Bone Shard x9, Ominous Mask x6\n \
         **[✦✦✦✦✦✦]**:45,000 Mora, Chunk of Aerosiderite x4, Fossilized Bone Shard x18, Ominous Mask x12", 'name':"Prototype Starglitter",
-        'skill':["Magic Affinity", '✰ หลังจากโจมตีโดยใช้สกิลธาตุ การโจมตีปกติและชาร์จโจมตีจะสร้างความเสียหายเพิ่มขึ้น 8~16% ซึ่งเอฟเฟกต์นี้จะมีระยะเวลาต่อเนื่อง 12 วินาที และเกิดมากสุด 2 ชั้น']
+        'skill':["Magic Affinity", '✰ หลังจากโจมตีโดยใช้สกิลธาตุ การโจมตีปกติและชาร์จโจมตีจะสร้างความเสียหายเพิ่มขึ้น **8~16%** ซึ่งเอฟเฟกต์นี้จะมีระยะเวลาต่อเนื่อง 12 วินาที และเกิดมากสุด 2 ชั้น']
                     ,'star':'[★★★★]'}
         return lst67
     elif name.lower() == "lithic spear":
@@ -1119,7 +1119,7 @@ def weapon_info_list(name):
         **[✦✦✦✦--]**:30,000 Mora, Bit of Aerosiderite x3, Sturdy Bone Shard x12, Sharp Arrowhead x9\n \
         **[✦✦✦✦✦-]**:35,000 Mora, Bit of Aerosiderite x6, Fossilized Bone Shard x9, Weathered Arrowhead x6\n \
         **[✦✦✦✦✦✦]**:45,000 Mora, Chunk of Aerosiderite x4, Fossilized Bone Shard x18, Weathered Arrowhead", 'name':"Lithic Spear",
-        'skill':["Lithic Axiom - Unity", '✰ สำหรับทีมที่มีตัวละครที่มาจาก Liyue อยู่ในทีม ตัวละครที่ใช้อาวุธนี้จะได้รับพลังโจมตีเพิ่ม 7~11% และอัตราคริเพิ่ม 3~7% โดยเอฟเฟกต์นี้จะซ้อนทับได้มากสุด 4 ชั้น']
+        'skill':["Lithic Axiom - Unity", '✰ สำหรับทีมที่มีตัวละครที่มาจาก Liyue อยู่ในทีม ตัวละครที่ใช้อาวุธนี้จะได้รับพลังโจมตีเพิ่ม **7~11%** และอัตราคริเพิ่ม **3~7%** โดยเอฟเฟกต์นี้จะซ้อนทับได้มากสุด 4 ชั้น']
                     ,'star':'[★★★★]'}
         return lst68
     elif name.lower() == "kitain cross spear":
@@ -1132,8 +1132,8 @@ def weapon_info_list(name):
         **[✦✦✦✦--]**:30,000 Mora, Mask of the One-Horned x3, Chaos Axis x12, Silver Raven Insignia x9\n \
         **[✦✦✦✦✦-]**:35,000 Mora, Mask of the One-Horned x6, Chaos Oculus x9, Golden Raven Insignia x6\n \
         **[✦✦✦✦✦✦]**:45,000 Mora, Mask of the Kijin x4, Chaos Oculus x18, Golden Raven Insignia x12", 'name':"Kitain Cross Spear",
-        'skill':["Samurai Conduct", '✰ สกิลธาตุสร้างความเสียหายเพิ่มขึ้น 6~12% และหลังจากที่สกิลธาตุถูกเป้าหมาย ตัวละครจะเสียพลังงานธาตุ 3 หน่วย \
-                    และหลังจากนั้น จะทำการฟื้นฟูพลังธาตุ 3~5 หน่วย ในทุก 2 วินาที เป็นเวลา 6 วินาที โดยที่เอฟเฟกต์นี้จะเกิดขึ้นได้มากสุดหนึ่งครั้ง ในทุก 10 วินาที \
+        'skill':["Samurai Conduct", '✰ สกิลธาตุสร้างความเสียหายเพิ่มขึ้น **6~12%** และหลังจากที่สกิลธาตุถูกเป้าหมาย ตัวละครจะเสียพลังงานธาตุ 3 หน่วย \
+                    และหลังจากนั้น จะทำการฟื้นฟูพลังธาตุ **3~5** หน่วย ในทุก 2 วินาที เป็นเวลา 6 วินาที โดยที่เอฟเฟกต์นี้จะเกิดขึ้นได้มากสุดหนึ่งครั้ง ในทุก 10 วินาที \
                     และสามารถเกิดขึ้นได้ แม้ตัวละครจะอยู่ในทีมแต่ไม่ได้เข้าร่วมการต่อสู้ก็ตาม']
                     ,'star':'[★★★★]'}
         return lst69
@@ -1146,7 +1146,7 @@ def weapon_info_list(name):
         **[✦✦✦✦--]**:30,000 Mora, Mask of the One-Horned x3, Chaos Axis x12, Spectral Heart x9\n \
         **[✦✦✦✦✦-]**:35,000 Mora, Mask of the One-Horned x6, Chaos Oculus x9, Spectral Nucleus x6\n \
         **[✦✦✦✦✦✦]**:45,000 Mora, Mask of the Kijin x4, Chaos Oculus x18, Spectral Nucleus x12", 'name':"The Catch",
-        'skill':["Shanty", '✰ ท่าไม้ตายสร้างความเสียหายเพิ่มขึ้น 16~32% และอัตราคริเพิ่มของท่าไม้ตายเพิ่มขึ้น 6~12%']
+        'skill':["Shanty", '✰ ท่าไม้ตายสร้างความเสียหายเพิ่มขึ้น **16~32%** และอัตราคริเพิ่มของท่าไม้ตายเพิ่มขึ้น **6~12%**']
                     ,'star':'[★★★★]'}
         return lst70
     elif name.lower() == "favonius lance":
@@ -1159,8 +1159,8 @@ def weapon_info_list(name):
         **[✦✦✦✦--]**:30,000 Mora, Shackles of the Dandelion Gladiator x3, Chaos Circuit x12, Slime Secretions x9\n \
         **[✦✦✦✦✦-]**:35,000 Mora, Shackles of the Dandelion Gladiator x6, Chaos Core x9, Slime Concentrate x6\n \
         **[✦✦✦✦✦✦]**:45,000 Mora, Dream of the Dandelion Gladiator x4, Chaos Core x18, Slime Concentrate x12", 'name':"Favonius Lance",
-        'skill':["Windfall", '✰ เมื่อโจมตีคริติคอล จะมีโอกาส 60~100% ที่จะ สร้างอณุธาตุ ซึ่งใช้ฟื้นฟูพลังงานธาตุได้ 6 หน่วย โดยเอฟเฟกต์นี้จะใช้ได้หนึ่งครั้งในทุก 12~6 วินาทีเมื่อโจมตีคริติคอล \
-                    จะมีโอกาส 60~100% ที่จะ สร้างอณุธาตุ ซึ่งใช้ฟื้นฟูพลังงานธาตุได้ 6 หน่วย โดยเอฟเฟกต์นี้จะใช้ได้หนึ่งครั้งในทุก 12~6 วินาที']
+        'skill':["Windfall", '✰ เมื่อโจมตีคริติคอล จะมีโอกาส **60~100%** ที่จะ สร้างอณุธาตุ ซึ่งใช้ฟื้นฟูพลังงานธาตุได้ 6 หน่วย โดยเอฟเฟกต์นี้จะใช้ได้หนึ่งครั้งในทุก **12~6** วินาทีเมื่อโจมตีคริติคอล \
+                    จะมีโอกาส **60~100%** ที่จะ สร้างอณุธาตุ ซึ่งใช้ฟื้นฟูพลังงานธาตุได้ 6 หน่วย โดยเอฟเฟกต์นี้จะใช้ได้หนึ่งครั้งในทุก **12~6** วินาที']
                     ,'star':'[★★★★]'}
         return lst71
     elif name.lower() == "dragonspine spear":
@@ -1173,8 +1173,8 @@ def weapon_info_list(name):
         **[✦✦✦✦--]**:30,000 Mora, Boreal Wolf's Broken Fang x3, Mist Grass x12, Sergeant's Insignia x9\n \
         **[✦✦✦✦✦-]**:35,000 Mora, Boreal Wolf's Broken Fang x6, Mist Grass Wick x9, Lieutenant's Insignia x6\n \
         **[✦✦✦✦✦✦]**:45,000 Mora, Boreal Wolf's Nostalgia x4, Mist Grass Wick x18, Lieutenant's Insignia x12", 'name':"Dragonspine Spear",
-        'skill':["Frost Burial", '✰ เมื่อโจมตีปกติและชาร์จโจมตีถูกศัตรู จะมีโอกาส 60~100% ที่จะเกิด Everfrost Icicle ขึ้นบนตัวของศัตรูและร่วงลงมาใส่ \
-                    เพื่อสร้างความสียหายวงกว้างเป็น 80% ของพลังโจมตี หากศัตรูตกอยู่ภายใต้ผลกระทบของธาตุน้ำแข็ง จะสร้างความเสียหาย 80~140% ของพลังโจมตี \
+        'skill':["Frost Burial", '✰ เมื่อโจมตีปกติและชาร์จโจมตีถูกศัตรู จะมีโอกาส **60~100%** ที่จะเกิด Everfrost Icicle ขึ้นบนตัวของศัตรูและร่วงลงมาใส่ \
+                    เพื่อสร้างความสียหายวงกว้างเป็น 80% ของพลังโจมตี หากศัตรูตกอยู่ภายใต้ผลกระทบของธาตุน้ำแข็ง จะสร้างความเสียหาย **80~140%** ของพลังโจมตี \
                     โดยที่เอฟเฟกต์ดังกล่าวนี้จะเกิดได้ครั้งเดียวในทุก 10 วินาที']
                     ,'star':'[★★★★]'}
         return lst72
@@ -1188,7 +1188,7 @@ def weapon_info_list(name):
         **[✦✦✦✦--]**:30,000 Mora, Mist Veiled Gold Elixir x3, Mist Grass x12, Sealed Scroll x9\n \
         **[✦✦✦✦✦-]**:35,000 Mora, Mist Veiled Gold Elixir x6, Mist Grass Wick x9, Forbidden Curse Scroll x6\n \
         **[✦✦✦✦✦✦]**:45,000 Mora, Mist Veiled Primo Elixir x4, Mist Grass Wick x18, Forbidden Curse Scroll x12", 'name':"Dragon's Bane",
-        'skill':["Bane of Flame and Water", '✰ เพิ่มความเสียหายแก่ศัตรูที่ได้รับผลกระทบของธาตุน้ำและไฟขึ้น 20~36%']
+        'skill':["Bane of Flame and Water", '✰ เพิ่มความเสียหายแก่ศัตรูที่ได้รับผลกระทบของธาตุน้ำและไฟขึ้น **20~36%**']
                     ,'star':'[★★★★]'}
         return lst73
     elif name.lower() == "deathmatch":
@@ -1201,7 +1201,7 @@ def weapon_info_list(name):
         **[✦✦✦✦--]**:30,000 Mora, Boreal Wolf's Broken Fang x3, Dead Ley Line Leaves x12, Shimmering Nectar x9\n \
         **[✦✦✦✦✦-]**:35,000 Mora, Boreal Wolf's Broken Fang x6, Ley Line Sprout x9, Energy Nectar x6\n \
         **[✦✦✦✦✦✦]**:45,000 Mora, Boreal Wolf's Nostalgia x4, Ley Line Sprout x18, Energy Nectar x12", 'name':"Deathmatch",
-        'skill':["Gladiator", '✰ เมื่อมีศัตรูอย่างน้อย 2 ตัว อยู่ใกล้ตัว จะได้รับพลังโจมตีเพิ่ม 16~32% และพลังป้องกันเพิ่ม 16~32% เมื่อมีศัตรูน้อยกว่า 2 ตัว อยู่ใกล้ตัว จะได้รับพลังโจมตีเพิ่ม 24~48%']
+        'skill':["Gladiator", '✰ เมื่อมีศัตรูอย่างน้อย 2 ตัว อยู่ใกล้ตัว จะได้รับพลังโจมตีเพิ่ม **16~32%** และพลังป้องกันเพิ่ม **16~32%** เมื่อมีศัตรูน้อยกว่า 2 ตัว อยู่ใกล้ตัว จะได้รับพลังโจมตีเพิ่ม **24~48%**']
                     ,'star':'[★★★★]'}
         return lst74
     elif name.lower() == "crescent pike":
@@ -1214,7 +1214,7 @@ def weapon_info_list(name):
         **[✦✦✦✦--]**:30,000 Mora, Relic from Guyun x3, Agent's Sacrificial Knife x12, Silver Raven Insignia x9\n \
         **[✦✦✦✦✦-]**:35,000 Mora, Relic from Guyun x6, Inspector's Sacrificial Knife x9, Golden Raven Insignia x6\n \
         **[✦✦✦✦✦✦]**:45,000 Mora, Divine Body from Guyun x4, Inspector's Sacrificial Knife x18, Golden Raven Insignia x12", 'name':"Crescent Pike",
-        'skill':["Infusion Needle", '✰ ภายในเวลา 5 วินาที หลังจากเก็บอณูธาตุหรือลูกแก้วธาตุ การโจมตีปกติและชาร์จโจมดีจะสร้างความเสียหายเพิ่มเติม 20~40% ของพลังโจมตี']
+        'skill':["Infusion Needle", '✰ ภายในเวลา 5 วินาที หลังจากเก็บอณูธาตุหรือลูกแก้วธาตุ การโจมตีปกติและชาร์จโจมดีจะสร้างความเสียหายเพิ่มเติม **20~40%** ของพลังโจมตี']
                     ,'star':'[★★★★]'}
         return lst75
     elif name.lower() == "blackcliff pole":
@@ -1227,7 +1227,7 @@ def weapon_info_list(name):
         **[✦✦✦✦--]**:30,000 Mora, Mist Veiled Gold Elixir x3, Mist Grass x12, Sergeant's Insignia x9\n \
         **[✦✦✦✦✦-]**:35,000 Mora, Mist Veiled Gold Elixir x6, Mist Grass Wick x9, Lieutenant's Insignia x6\n \
         **[✦✦✦✦✦✦]**:45,000 Mora, Mist Veiled Primo Elixir x4, Mist Grass Wick x18, Lieutenant's Insignia x12", 'name':"Blackcliff Pole",
-        'skill':["Press the Advantage", '✰ หลังจากกำจัดศัตรูได้ พลังโจมตีจะเพิ่มขึ้น 12~24% เป็นเวลา 30 วินาที โดยเอฟเฟกต์นี้จะซ้อนทับกันได้มากสุด 3 ชั้น ซึ่งแต่ละชั้นจะมีระยะเวลาของตัวเอง']
+        'skill':["Press the Advantage", '✰ หลังจากกำจัดศัตรูได้ พลังโจมตีจะเพิ่มขึ้น **12~24%** เป็นเวลา 30 วินาที โดยเอฟเฟกต์นี้จะซ้อนทับกันได้มากสุด 3 ชั้น ซึ่งแต่ละชั้นจะมีระยะเวลาของตัวเอง']
                     ,'star':'[★★★★]'}
         return lst76
     elif name.lower() == "wavebreaker's fin":
@@ -1241,7 +1241,7 @@ def weapon_info_list(name):
         **[✦✦✦✦✦-]**:35,000 Mora, Mask of the One-Horned x6, Chaos Oculus x9, Famed Handguard x6\n \
         **[✦✦✦✦✦✦]**:45,000 Mora, Mask of the Kijin x4, Chaos Oculus x18, Famed Handguard x12", 'name':"Wavebreaker's Fin",
         'skill':["Watatsumi Wavewalker", '✰ ทุก 1 หน่วย ของผลรวมพลังงานธาตุสูงสุดของตัวละครทั้งหมดในทีม จะทำให้ท่าไม้ตายของตัวละครที่ใช้อาวุธนี้ \
-                    สร้างความเสียหายเพิ่มขึ้น 0.12~0.24% โดยความเสียหายท่าไม้ตายที่เพิ่มขึ้นด้วยวิธีนี้ จะเพิ่มได้มากสุด 40~80%']
+                    สร้างความเสียหายเพิ่มขึ้น **0.12~0.24%** โดยความเสียหายท่าไม้ตายที่เพิ่มขึ้นด้วยวิธีนี้ จะเพิ่มได้มากสุด **40~80%**']
                     ,'star':'[★★★★]'}
         return lst77
     elif name.lower() == "royal spear":
@@ -1254,7 +1254,7 @@ def weapon_info_list(name):
         **[✦✦✦✦--]**:30,000 Mora, Mist Veiled Gold Elixir x3, Mist Grass x12, Sergeant's Insignia x9\n \
         **[✦✦✦✦✦-]**:35,000 Mora, Mist Veiled Gold Elixir x6, Mist Grass Wick x9, Lieutenant's Insignia x6\n \
         **[✦✦✦✦✦✦]**:45,000 Mora, Mist Veiled Primo Elixir x4, Mist Grass Wick x18, Lieutenant's Insignia x12", 'name':"Royal Spear",
-        'skill':["Focus", '✰ เมื่อการโจมตีก่อให้เกิดความเสียหาย อัตราคริจะเพิ่มขึ้น 8~16% ซ้อนทับได้มากสุด 5 ครั้ง และเมื่อโจมตีติดคริติคอลจะล้างเอฟเฟกต์ที่โฟกัสออกทั้งหมด']
+        'skill':["Focus", '✰ เมื่อการโจมตีก่อให้เกิดความเสียหาย อัตราคริจะเพิ่มขึ้น **8~16%** ซ้อนทับได้มากสุด 5 ครั้ง และเมื่อโจมตีติดคริติคอลจะล้างเอฟเฟกต์ที่โฟกัสออกทั้งหมด']
                     ,'star':'[★★★★]'}
         return lst78
     elif name.lower() == "the flute":
@@ -1267,7 +1267,7 @@ def weapon_info_list(name):
         **[✦✦✦✦--]**:30,000 Mora, Boreal Wolf's Broken Fang x3, Dead Ley Line Leaves x12, Slime Secretions x9\n \
         **[✦✦✦✦✦-]**:35,000 Mora, Boreal Wolf's Broken Fang x6, Ley Line Sprout x9, Slime Concentrate x6\n \
         **[✦✦✦✦✦✦]**:45,000 Mora, Boreal Wolf's Nostalgia x4, Ley Line Sprout x18, Slime Concentrate x12", 'name':"The Flute",
-        'skill':["Chord", '✰ เมื่อโจมตีปกติหรือชาร์จโจมตีจะได้รับโน้ตดนตรี 1 ตัว เมื่อเก็บโน้ตดนตรีครบ 5 ตัว จะทำให้เกิดพลังแห่งดนตรี ซึ่งจะสร้างความเสียหาย 100~200% ของพลังโจมตีแก่ศัตรูโดยรอบ \
+        'skill':["Chord", '✰ เมื่อโจมตีปกติหรือชาร์จโจมตีจะได้รับโน้ตดนตรี 1 ตัว เมื่อเก็บโน้ตดนตรีครบ 5 ตัว จะทำให้เกิดพลังแห่งดนตรี ซึ่งจะสร้างความเสียหาย **100~200%** ของพลังโจมตีแก่ศัตรูโดยรอบ \
                     โน้ตดนตรีจะมีเวลาคงอยู่ 30 วินาที ซึ่งจะได้รับ 1 ตัวในทุก 0.5 วินาที']
                     ,'star':'[★★★★]'}
         return lst79
@@ -1281,7 +1281,7 @@ def weapon_info_list(name):
         **[✦✦✦✦--]**:30,000 Mora, Boreal Wolf's Broken Fang x3, Dead Ley Line Leaves x12, Slime Secretions x9\n \
         **[✦✦✦✦✦-]**:35,000 Mora, Boreal Wolf's Broken Fang x6, Ley Line Sprout x9, Slime Concentrate x6\n \
         **[✦✦✦✦✦✦]**:45,000 Mora, Boreal Wolf's Nostalgia x4, Ley Line Sprout x18, Slime Concentrate x12", 'name':"The Black Sword",
-        'skill':["Justice", '✰ การโจมตีปกติและชาร์จโจมตีจะสร้างความเสียหายเพิ่มขึ้น 20~40%; นอกจากนี้เมื่อการโจมตีปกติและชาร์จโจมตีเกิดคริติคอล จะคืนพลังชีวิตให้ในปริมาณเท่ากับ 60~100% ของพลังโจมตี \
+        'skill':["Justice", '✰ การโจมตีปกติและชาร์จโจมตีจะสร้างความเสียหายเพิ่มขึ้น **20~40%**; นอกจากนี้เมื่อการโจมตีปกติและชาร์จโจมตีเกิดคริติคอล จะคืนพลังชีวิตให้ในปริมาณเท่ากับ **60~100%** ของพลังโจมตี \
                     โดยเอฟเฟกต์นี้จะเกิดขึ้นได้หนึ่งครั้งในทุก 5 วินาที']
                     ,'star':'[★★★★]'}
         return lst80
@@ -1295,7 +1295,7 @@ def weapon_info_list(name):
         **[✦✦✦✦--]**:30,000 Mora, Fragment of Decarabian's Epic x3, Black Bronze Horn x12, Sealed Scroll x9\n \
         **[✦✦✦✦✦-]**:35,000 Mora, Fragment of Decarabian's Epic x6, Black Crystal Horn x9, Forbidden Curse Scroll x6\n \
         **[✦✦✦✦✦✦]**:45,000 Mora, Scattered Piece of Decarabian's Dream x4, Black Crystal Horn x18, Forbidden Curse Scroll x12", 'name':"The Alley Flash",
-        'skill':["Itinerant Hero", '✰ ตัวละครที่สวมใส่จะสร้างความเสียหายเพิ่มขึ้น 12~24% หากตัวละครได้รับความเสียหายเอฟเฟกต์ดังกล่าวจะหายไปเป็นเวลา 5 วินาที']
+        'skill':["Itinerant Hero", '✰ ตัวละครที่สวมใส่จะสร้างความเสียหายเพิ่มขึ้น **12~24%** หากตัวละครได้รับความเสียหายเอฟเฟกต์ดังกล่าวจะหายไปเป็นเวลา 5 วินาที']
                     ,'star':'[★★★★]'}
         return lst81
     elif name.lower() == "sword of descension":
@@ -1308,8 +1308,8 @@ def weapon_info_list(name):
         **[✦✦✦✦--]**:30,000 Mora, Boreal Wolf's Broken Fang x3, Dead Ley Line Leaves x12, Silver Raven Insignia x9\n \
         **[✦✦✦✦✦-]**:35,000 Mora, Boreal Wolf's Broken Fang x6, Ley Line Sprout x9, Golden Raven Insignia x6\n \
         **[✦✦✦✦✦✦]**:45,000 Mora, Boreal Wolf's Nostalgia x4, Ley Line Sprout x18, Golden Raven Insignia x12", 'name':"Sword of Descension",
-        'skill':["Descension", '✰ เมื่อโจมตีปกติ และชาร์จโจมตีถูกศัตรู จะมีโอกาส 50~?% ในการ สร้างความเสียหายเป็นพื้นที่วงแคบ 200~?% ของพลังโจมตี ซึ่งเอฟเฟกต์นี้จะเกิดขึ้นหนึ่งครั้งในทุก 10 วินาที \
-                    และเมื่อนักเดินทางถือ Sword of Descension พลังโจมตีจะเพิ่มขึ้น 66~? หน่วย']
+        'skill':["Descension", '✰ เมื่อโจมตีปกติ และชาร์จโจมตีถูกศัตรู จะมีโอกาส **50%** ในการ สร้างความเสียหายเป็นพื้นที่วงแคบ **200%** ของพลังโจมตี ซึ่งเอฟเฟกต์นี้จะเกิดขึ้นหนึ่งครั้งในทุก 10 วินาที \
+                    และเมื่อนักเดินทางถือ Sword of Descension พลังโจมตีจะเพิ่มขึ้น **66** หน่วย']
                     ,'star':'[★★★★]'}
         return lst82
     elif name.lower() == "sacrificial sword":
@@ -1322,7 +1322,7 @@ def weapon_info_list(name):
         **[✦✦✦✦--]**:30,000 Mora, Shackles of the Dandelion Gladiator x3, Chaos Circuit x12, Sealed Scroll x9\n \
         **[✦✦✦✦✦-]**:35,000 Mora, Shackles of the Dandelion Gladiator x6, Chaos Core x9, Forbidden Curse Scroll x6\n \
         **[✦✦✦✦✦✦]**:45,000 Mora, Dream of the Dandelion Gladiator x4, Chaos Core x18, Forbidden Curse Scroll x12", 'name':"Sacrificial Sword",
-        'skill':["Composed", '✰ หลังจากสร้างความเสียหายด้วยสกิลธาตุแล้ว จะมีโอกาส 40~80% ที่จะรีเซ็ตเวลาคูลดาวน์ของสกิลนี้ โดยเอฟเฟกต์นี้จะเกิดขึ้นหนึ่งครั้งในทุก 30~16 วินาที']
+        'skill':["Composed", '✰ หลังจากสร้างความเสียหายด้วยสกิลธาตุแล้ว จะมีโอกาส **40~80%** ที่จะรีเซ็ตเวลาคูลดาวน์ของสกิลนี้ โดยเอฟเฟกต์นี้จะเกิดขึ้นหนึ่งครั้งในทุก **30~16** วินาที']
                     ,'star':'[★★★★]'}
         return lst83
     elif name.lower() == "royal longsword":
@@ -1335,7 +1335,7 @@ def weapon_info_list(name):
         **[✦✦✦✦--]**:30,000 Mora, Fragment of Decarabian's Epic x3, Black Bronze Horn x12, Sharp Arrowhead x9\n \
         **[✦✦✦✦✦-]**:35,000 Mora, Fragment of Decarabian's Epic x6, Black Crystal Horn x9, Weathered Arrowhead x6\n \
         **[✦✦✦✦✦✦]**:45,000 Mora, Scattered Piece of Decarabian's Dream x4, Black Crystal Horn x18, Weathered Arrowhead x12", 'name':"Royal Longsword",
-        'skill':["Focus", '✰ เมื่อการโจมตีก่อให้เกิดความเสียหาย อัตราคริจะเพิ่มขึ้น 8~16% ซ้อนทับได้มากสุด 5 ครั้ง และเมื่อโจมตีติดคริติคอลจะล้างเอฟเฟกต์ที่โฟกัสออกทั้งหมด']
+        'skill':["Focus", '✰ เมื่อการโจมตีก่อให้เกิดความเสียหาย อัตราคริจะเพิ่มขึ้น **8~16%** ซ้อนทับได้มากสุด 5 ครั้ง และเมื่อโจมตีติดคริติคอลจะล้างเอฟเฟกต์ที่โฟกัสออกทั้งหมด']
                     ,'star':'[★★★★]'}
         return lst84
     elif name.lower() == "prototype rancour":
@@ -1348,7 +1348,7 @@ def weapon_info_list(name):
         **[✦✦✦✦--]**:30,000 Mora, Mist Veiled Gold Elixir x3, Mist Grass x12, Sergeant's Insignia x9\n \
         **[✦✦✦✦✦-]**:35,000 Mora, Mist Veiled Gold Elixir x6, Mist Grass Wick x9, Lieutenant's Insignia x6\n \
         **[✦✦✦✦✦✦]**:45,000 Mora, Mist Veiled Primo Elixir x4, Mist Grass Wick x18, Lieutenant's Insignia x12", 'name':"Prototype Rancour",
-        'skill':["Smashed Stone", '✰ เมื่อโจมตีปกติหรือชาร์จโจมตี พลังโจมตีและพลังป้องกันจะเพิ่มขึ้น 4~8% เป็นเวลา 6 วินาทีโดยจะซ้อนทับได้มากสุด 4 ชั้น ซึ่งเอฟเฟกต์นี้จะเกิดขึ้นหนึ่งครั้งในทุก 0.3 วินาที']
+        'skill':["Smashed Stone", '✰ เมื่อโจมตีปกติหรือชาร์จโจมตี พลังโจมตีและพลังป้องกันจะเพิ่มขึ้น **4~8%** เป็นเวลา 6 วินาทีโดยจะซ้อนทับได้มากสุด 4 ชั้น ซึ่งเอฟเฟกต์นี้จะเกิดขึ้นหนึ่งครั้งในทุก 0.3 วินาที']
                     ,'star':'[★★★★]'}
         return lst85
     elif name.lower() == "amenoma kageuchi":
@@ -1363,7 +1363,7 @@ def weapon_info_list(name):
         **[✦✦✦✦✦✦]**:45,000 Mora, Golden Branch of a Distant Sea x4, Chaos Oculus x18, Famed Handguard x12", 'name':"Amenoma Kageuchi",
         'skill':["Iwakura Succession", '✰ หลังจากปล่อยสกิลธาตุ จะได้รับ Succession Seed 1 อัน ซึ่งเอฟเฟกต์นี้จะเกิดขึ้นได้มากสุดหนึ่งครั้ง ในทุก 5 วินาทีโดยที่ Succession Seed จะคงอยู่ 30 วินาที \
                     และในเวลาเดี่ยวกันจะมีได้มากสุด 3 อันเมื่อใช้ท่าไม้ตาย จะทำการดูดซับ Succession Seed ที่มีอยู่ทั้งหมด และ 2 วินาที \
-                    หลังจากนั้น Succession Seed แต่ละอันที่ดูดซับไป จะฟื้นฟูพลังงานธาตุให้แก่ตัวละครนี้ 6~12 หน่วย']
+                    หลังจากนั้น Succession Seed แต่ละอันที่ดูดซับไป จะฟื้นฟูพลังงานธาตุให้แก่ตัวละครนี้ **6~12** หน่วย']
                     ,'star':'[★★★★]'}
         return lst86
     elif name.lower() == "lion's roar":
@@ -1376,7 +1376,7 @@ def weapon_info_list(name):
         **[✦✦✦✦--]**:30,000 Mora, Relic from Guyun x3, Agent's Sacrificial Knife x12, Silver Raven Insignia x9\n \
         **[✦✦✦✦✦-]**:35,000 Mora, Relic from Guyun x6, Inspector's Sacrificial Knife x9, Golden Raven Insignia x6\n \
         **[✦✦✦✦✦✦]**:45,000 Mora, Divine Body from Guyun x4, Inspector's Sacrificial Knife x18, Golden Raven Insignia x12", 'name':"Lion's Roar",
-        'skill':["Bane of Fire and Thunder", '✰ เพิ่มความเสียหายแก่ศัตรูที่ได้รับผลกระทบของธาตุไฟ หรือไฟฟ้าขึ้น 20~36%']
+        'skill':["Bane of Fire and Thunder", '✰ เพิ่มความเสียหายแก่ศัตรูที่ได้รับผลกระทบของธาตุไฟ หรือไฟฟ้าขึ้น **20~36%**']
                     ,'star':'[★★★★]'}
         return lst87
     elif name.lower() == "iron sting":
@@ -1389,7 +1389,7 @@ def weapon_info_list(name):
         **[✦✦✦✦--]**:30,000 Mora, Bit of Aerosiderite x3, Sturdy Bone Shard x12, Shimmering Nectar x9\n \
         **[✦✦✦✦✦-]**:35,000 Mora, Bit of Aerosiderite x6, Fossilized Bone Shard x9, Energy Nectar x6\n \
         **[✦✦✦✦✦✦]**:45,000 Mora, Chunk of Aerosiderite x4, Fossilized Bone Shard x18, Energy Nectar x12", 'name':"Iron Sting",
-        'skill':["Infusion Stinger", '✰ ภายใน 6 วินาทีหลังจากสร้างความเสียหายธาตุ ความเสียหายที่ตัวละครสร้างจะเพิ่มขึ้น 6~12% ซึ่งเอฟเฟกต์นี้จะเกิดขึ้นมากสุด 2 ชั้นและสามารถปล่อยได้หนึ่งครั้งในทุก 1 วินาที']
+        'skill':["Infusion Stinger", '✰ ภายใน 6 วินาทีหลังจากสร้างความเสียหายธาตุ ความเสียหายที่ตัวละครสร้างจะเพิ่มขึ้น **6~12%** ซึ่งเอฟเฟกต์นี้จะเกิดขึ้นมากสุด 2 ชั้นและสามารถปล่อยได้หนึ่งครั้งในทุก 1 วินาที']
                     ,'star':'[★★★★]'}
         return lst88
     elif name.lower() == "festering desire":
@@ -1402,7 +1402,7 @@ def weapon_info_list(name):
         **[✦✦✦✦--]**:30,000 Mora, Shackles of the Dandelion Gladiator x3, Black Bronze Horn x12, Sergeant's Insignia x9\n \
         **[✦✦✦✦✦-]**:35,000 Mora, Shackles of the Dandelion Gladiator x6, Black Crystal Horn x9, Lieutenant's Insignia x6\n \
         **[✦✦✦✦✦✦]**:45,000 Mora, Dream of the Dandelion Gladiator x4, Black Crystal Horn x18, Lieutenant's Insignia x12", 'name':"Festering Desire",
-        'skill':["Undying Admiration", '✰ สกิลธาตุสร้างความเสียหายเพิ่มขึ้น 16~32% และอัตราคริของสกิลธาตุเพิ่มขึ้น 6~12%']
+        'skill':["Undying Admiration", '✰ สกิลธาตุสร้างความเสียหายเพิ่มขึ้น **16~32%** และอัตราคริของสกิลธาตุเพิ่มขึ้น **6~12%**']
                     ,'star':'[★★★★]'}
         return lst89
     elif name.lower() == "favonius sword":
@@ -1415,7 +1415,7 @@ def weapon_info_list(name):
         **[✦✦✦✦--]**:30,000 Mora, Fragment of Decarabian's Epic x3, Black Bronze Horn x12, Sharp Arrowhead x9\n \
         **[✦✦✦✦✦-]**:35,000 Mora, Fragment of Decarabian's Epic x6, Black Crystal Horn x9, Weathered Arrowhead x6\n \
         **[✦✦✦✦✦✦]**:45,000 Mora, Scattered Piece of Decarabian's Dream x4, Black Crystal Horn x18, Weathered Arrowhead x12", 'name':"Favonius Sword",
-        'skill':["Windfall", '✰ เมื่อโจมตีคริติคอล จะมีโอกาส 60~100% ที่จะสร้างอณูธาตุ ซึ่งใช้ฟื้นฟูพลังงานธาตุได้ 6 หน่วย โดยเอฟเฟกต์นี้จะใช้ได้หนึ่งครั้งในทุก 12~6 วินาที']
+        'skill':["Windfall", '✰ เมื่อโจมตีคริติคอล จะมีโอกาส **60~100%** ที่จะสร้างอณูธาตุ ซึ่งใช้ฟื้นฟูพลังงานธาตุได้ 6 หน่วย โดยเอฟเฟกต์นี้จะใช้ได้หนึ่งครั้งในทุก **12~6** วินาที']
                     ,'star':'[★★★★]'}
         return lst90
     elif name.lower() == "cinnabar spindle":
@@ -1428,7 +1428,7 @@ def weapon_info_list(name):
         **[✦✦✦✦--]**:30,000 Mora, Fragment of Decarabian's Epic x3, Chaos Circuit Horn x12, Stained Mask x9\n \
         **[✦✦✦✦✦-]**:35,000 Mora, Fragment of Decarabian's Epic x6, Chaos Core x9, Ominous Mask x6\n \
         **[✦✦✦✦✦✦]**:45,000 Mora, Scattered Piece of Decarabian's Dream x4, Chaos Core x18, Ominous Mask x12", 'name':"Cinnabar Spindle",
-        'skill':["Spotless Heart", '✰ เพิ่มความเสียหายของสกิลธาตุโดยปริมาณที่เพิ่มจะเป็น 40~80% ของพลังป้องกัน ซึ่งเอฟเฟกต์นี้จะเกิดขึ้นได้มากสุดหนึ่งครั้งในทุก 1.5 วินาที \
+        'skill':["Spotless Heart", '✰ เพิ่มความเสียหายของสกิลธาตุโดยปริมาณที่เพิ่มจะเป็น **40~80%** ของพลังป้องกัน ซึ่งเอฟเฟกต์นี้จะเกิดขึ้นได้มากสุดหนึ่งครั้งในทุก 1.5 วินาที \
                     และจะหายไปหลังจากสกิลธาตุสร้างความเสียหายแล้ว 0.1 วินาที']
                     ,'star':'[★★★★]'}
         return lst91
@@ -1442,7 +1442,7 @@ def weapon_info_list(name):
         **[✦✦✦✦--]**:30,000 Mora, Relic from Guyun x3, Agent's Sacrificial Knife x12, Sharp Arrowhead x9\n \
         **[✦✦✦✦✦-]**:35,000 Mora, Relic from Guyun x6, Inspector's Sacrificial Knife x9, Weathered Arrowhead x6\n \
         **[✦✦✦✦✦✦]**:45,000 Mora, Divine Body from Guyun x4, Inspector's Sacrificial Knife x18, Weathered Arrowhead x12", 'name':"Blackcliff Longsword",
-        'skill':["Press the advantage", '✰ หลังจากกำจัดศัตรูได้ พลังโจมตีจะเพิ่มขึ้น 12~24% เป็นเวลา 30 วินาที โดยเอฟเฟกต์นี้จะซ้อนทับกันได้มากสุด 3 ชั้น ซึ่งแต่ละชั้นจะมีระยะเวลาของตัวเอง']
+        'skill':["Press the advantage", '✰ หลังจากกำจัดศัตรูได้ พลังโจมตีจะเพิ่มขึ้น **12~24%** เป็นเวลา 30 วินาที โดยเอฟเฟกต์นี้จะซ้อนทับกันได้มากสุด 3 ชั้น ซึ่งแต่ละชั้นจะมีระยะเวลาของตัวเอง']
                     ,'star':'[★★★★]'}
         return lst92
     elif name.lower() == "raven bow":
@@ -1455,7 +1455,7 @@ def weapon_info_list(name):
         **[✦✦✦✦--]**:20,000 Mora, Fragment of Decarabian's Epic x2, Black Bronze Horn x8, Sharp Arrowhead x6\n \
         **[✦✦✦✦✦-]**:25,000 Mora, Fragment of Decarabian's Epic x4, Black Crystal Horn x6, Weathered Arrowhead x4\n \
         **[✦✦✦✦✦✦]**:30,000 Mora, Scattered Piece of Decarabian's Dream x3, Black Crystal Horn x12, Weathered Arrowhead x8", 'name':"Raven Bow",
-        'skill':["Bane of Flame and Water", '✰ เพิ่มความเสียหายแก่ศัตรูที่ได้รับผลกระทบของธาตุน้ำและไฟขึ้น 12~24%']
+        'skill':["Bane of Flame and Water", '✰ เพิ่มความเสียหายแก่ศัตรูที่ได้รับผลกระทบของธาตุน้ำและไฟขึ้น **12~24%**']
                     ,'star':'[★★★]'}
         return lst93
     elif name.lower() == "recurve bow":
@@ -1468,7 +1468,7 @@ def weapon_info_list(name):
         **[✦✦✦✦--]**:20,000 Mora, Shackles of the Dandelion Gladiator x2, Black Bronze Horn x8, Sergeant's Insignia x6\n \
         **[✦✦✦✦✦-]**:25,000 Mora, Shackles of the Dandelion Gladiator x4, Black Crystal Horn x6, Lieutenant's Insignia x4\n \
         **[✦✦✦✦✦✦]**:30,000 Mora, Dream of the Dandelion Gladiator x3, Black Crystal Horn x12, Lieutenant's Insignia x8", 'name':"Recurve Bow",
-        'skill':["Cull the Weak", '✰ เมื่อกำจัดศัตรูได้จะฟื้นฟูพลังชีวิตขึ้น 8~16%']
+        'skill':["Cull the Weak", '✰ เมื่อกำจัดศัตรูได้จะฟื้นฟูพลังชีวิตขึ้น **8~16%**']
                     ,'star':'[★★★]'}
         return lst94
     elif name.lower() == "messenger":
@@ -1481,7 +1481,7 @@ def weapon_info_list(name):
         **[✦✦✦✦--]**:20,000 Mora, Mist Veiled Gold Elixir x2, Mist Grass x8, Silver Raven Insignia x6\n \
         **[✦✦✦✦✦-]**:25,000 Mora, Mist Veiled Gold Elixir x4, Mist Grass Wick x6, Golden Raven Insignia x4\n \
         **[✦✦✦✦✦✦]**:30,000 Mora, Mist Veiled Primo Elixir x3, Mist Grass Wick x12, Golden Raven Insignia x8", 'name':"Messenger",
-        'skill':["Archer's Message", '✰ หากชาร์จโจมตีโดนจุดอ่อนของเป้าหมาย จะสร้างความเสียหายเพิ่มเติมอีก 100~200% ของพลังโจมตี ซึ่งความเสียหายนี้นับเป็นความเสียหายคริติคอล \
+        'skill':["Archer's Message", '✰ หากชาร์จโจมตีโดนจุดอ่อนของเป้าหมาย จะสร้างความเสียหายเพิ่มเติมอีก **100~200%** ของพลังโจมตี ซึ่งความเสียหายนี้นับเป็นความเสียหายคริติคอล \
                     โดยเอฟเฟกต์นี้จะเกิดขึ้นได้หนึ่งครั้งในทุก 10 วินาที']
                     ,'star':'[★★★]'}
         return lst95
@@ -1495,7 +1495,7 @@ def weapon_info_list(name):
         **[✦✦✦✦--]**:20,000 Mora, Boreal Wolf's Broken Fang x2, Dead Ley Line Leaves x8, Slime Secretions x6\n \
         **[✦✦✦✦✦-]**:25,000 Mora, Boreal Wolf's Broken Fang x4, Ley Line Sprout x6, Slime Concentrate x4\n \
         **[✦✦✦✦✦✦]**:30,000 Mora, Boreal Wolf's Nostalgia x3, Ley Line Sprout x12, Slime Concentrate x8", 'name':"Sharpshooter's Oath",
-        'skill':["Precise", '✰ เพิ่มความเสียหายที่สร้างต่อจุดอ่อน 24~48%']
+        'skill':["Precise", '✰ เพิ่มความเสียหายที่สร้างต่อจุดอ่อน **24~48%**']
                     ,'star':'[★★★]'}
         return lst96
     elif name.lower() == "slingshot":
@@ -1508,7 +1508,7 @@ def weapon_info_list(name):
         **[✦✦✦✦--]**:20,000 Mora, Relic from Guyun x2, Agent's Sacrificial Knife x8, Stained Mask x6\n \
         **[✦✦✦✦✦-]**:25,000 Mora, Relic from Guyun x4, Inspector's Sacrificial Knife x6, Ominous Mask x4\n \
         **[✦✦✦✦✦✦]**:30,000 Mora, Divine Body from Guyun x3, Inspector's Sacrificial Knife x12, Ominous Mask x8", 'name':"Slingshot",
-        'skill':["Slingshot", '✰ หากลูกธนูของการโจมตีปกติและชาร์จโจมตีถูกศัตรูภายใน 0.3 วินาที หลังจากที่ปล่อยออกไป จะสร้างโบนัสความเสียหาย 36~60%, มิฉะนั้นความเสียหายที่สร้างจะลดลง 10%']
+        'skill':["Slingshot", '✰ หากลูกธนูของการโจมตีปกติและชาร์จโจมตีถูกศัตรูภายใน 0.3 วินาที หลังจากที่ปล่อยออกไป จะสร้างโบนัสความเสียหาย **36~60%**, มิฉะนั้นความเสียหายที่สร้างจะลดลง 10%']
                     ,'star':'[★★★]'}
         return lst97
     elif name.lower() == "magic guide":
@@ -1521,7 +1521,7 @@ def weapon_info_list(name):
         **[✦✦✦✦--]**:20,000 Mora, Fragment of Decarabian's Epic x2, Black Bronze Horn x8, Slime Secretions x6\n \
         **[✦✦✦✦✦-]**:25,000 Mora, Fragment of Decarabian's Epic x4, Black Crystal Horn x6, Slime Concentrate x4\n \
         **[✦✦✦✦✦✦]**:30,000 Mora, Scattered Piece of Decarabian's Dream x3, Black Crystal Horn x12, Slime Concentrate x8", 'name':"Magic Guide",
-        'skill':["Bane of Storm and Tide", '✰ เพิ่มความเสียหายแก่ศัตรูที่ได้รับผลกระทบของธาตุน้ำหรือไฟฟ้าขึ้น 12~24%']
+        'skill':["Bane of Storm and Tide", '✰ เพิ่มความเสียหายแก่ศัตรูที่ได้รับผลกระทบของธาตุน้ำหรือไฟฟ้าขึ้น **12~24%**']
                     ,'star':'[★★★]'}
         return lst98
     elif name.lower() == "otherworldly story":
@@ -1534,7 +1534,7 @@ def weapon_info_list(name):
         **[✦✦✦✦--]**:20,000 Mora, Shackles of the Dandelion Gladiator x2, Chaos Circuit x8, Stained Mask x6\n \
         **[✦✦✦✦✦-]**:25,000 Mora, Shackles of the Dandelion Gladiator x4, Chaos Core x6, Ominous Mask x4\n \
         **[✦✦✦✦✦✦]**:30,000 Mora, Dream of the Dandelion Gladiator x3, Chaos Core x12, Ominous Mask x8", 'name':"Otherworldly Story",
-        'skill':["Energy Shower", '✰ เมื่อเก็บอณูธาตุ/ลูกแก้วจะฟื้นฟูพลังชีวิตขึ้น 1~2%']
+        'skill':["Energy Shower", '✰ เมื่อเก็บอณูธาตุ/ลูกแก้วจะฟื้นฟูพลังชีวิตขึ้น **1~2%**']
                     ,'star':'[★★★]'}
         return lst99
     elif name.lower() == "emerald orb":
@@ -1547,7 +1547,7 @@ def weapon_info_list(name):
         **[✦✦✦✦--]**:20,000 Mora, Relic from Guyun x2, Agent's Sacrificial Knife x8, Silver Raven Insignia x6\n \
         **[✦✦✦✦✦-]**:25,000 Mora, Relic from Guyun x4, Inspector's Sacrificial Knife x6, Golden Raven Insignia x4\n \
         **[✦✦✦✦✦✦]**:30,000 Mora, Divine Body from Guyun x3, Inspector's Sacrificial Knife x12, Golden Raven Insignia x8", 'name':"Emerald Orb",
-        'skill':["Rapids", '✰ การทำให้เกิดปฏิกิริยาการระเหย, ชาร์จไฟฟ้, แช่แข็ง หรือกระจายธาตุน้ำ จะเพิ่มพลังโจมตีขึ้น 20~40% เป็นเวลา 12 วินาที']
+        'skill':["Rapids", '✰ การทำให้เกิดปฏิกิริยาการระเหย, ชาร์จไฟฟ้, แช่แข็ง หรือกระจายธาตุน้ำ จะเพิ่มพลังโจมตีขึ้น **20~40%** เป็นเวลา 12 วินาที']
                     ,'star':'[★★★]'}
         return lst100
     elif name.lower() == "thrilling tales of dragon slayers":
@@ -1560,7 +1560,7 @@ def weapon_info_list(name):
         **[✦✦✦✦--]**:20,000 Mora, Boreal Wolf's Broken Fang x2, Dead Ley Line Leaves x8, Sealed Scroll x6\n \
         **[✦✦✦✦✦-]**:25,000 Mora, Boreal Wolf's Broken Fang x4, Ley Line Sprout x6, Forbidden Curse Scroll x4\n \
         **[✦✦✦✦✦✦]**:30,000 Mora, Boreal Wolf's Nostalgia x3, Ley Line Sprout x12, Forbidden Curse Scroll x8", 'name':"Thrilling Tales of Dragon Slayers",
-        'skill':["Heritage", '✰ เมื่อสับเปลี่ยนตัวละคร พลังโจมตีของตัวละครที่เข้าสู่การต่อสู้จะเพิ่มขึ้น 24~48% เป็นเวลา 10 วินาที โดยเอฟเฟกต์นี้จะเกิดขึ้น หนึ่งครั้งในทุก 20 วินาที']
+        'skill':["Heritage", '✰ เมื่อสับเปลี่ยนตัวละคร พลังโจมตีของตัวละครที่เข้าสู่การต่อสู้จะเพิ่มขึ้น **24~48%** เป็นเวลา 10 วินาที โดยเอฟเฟกต์นี้จะเกิดขึ้น หนึ่งครั้งในทุก 20 วินาที']
                     ,'star':'[★★★]'}
         return lst101
     elif name.lower() == "twin nephrite":
@@ -1573,7 +1573,7 @@ def weapon_info_list(name):
         **[✦✦✦✦--]**:20,000 Mora, Mist Veiled Gold Elixir x2, Mist Grass x8, Sergeant's Insignia x6\n \
         **[✦✦✦✦✦-]**:25,000 Mora, Mist Veiled Gold Elixir x4, Mist Grass Wick x6, Lieutenant's Insignia x4\n \
         **[✦✦✦✦✦✦]**:30,000 Mora, Mist Veiled Primo Elixir x3, Mist Grass Wick x12, Lieutenant's Insignia x8", 'name':"Twin Nephrite",
-        'skill':["Guerilla Tactic", '✰ ภายในเวลา 15 วินาที หลังจากกำจัดศัตรูได้ ความเร็วเคลื่อนที่และพลังโจมตีจะเพิ่มขึ้น 12~20%']
+        'skill':["Guerilla Tactic", '✰ ภายในเวลา 15 วินาที หลังจากกำจัดศัตรูได้ ความเร็วเคลื่อนที่และพลังโจมตีจะเพิ่มขึ้น **12~20%**']
                     ,'star':'[★★★]'}
         return lst102
     elif name.lower() == "skyrider greatsword":
@@ -1586,7 +1586,7 @@ def weapon_info_list(name):
         **[✦✦✦✦--]**:20,000 Mora, Bit of Aerosiderite x2, Sturdy Bone Shard x8, Silver Raven Insignia x6\n \
         **[✦✦✦✦✦-]**:25,000 Mora, Bit of Aerosiderite x4, Fossilized Bone Shard x6, Golden Raven Insignia x4\n \
         **[✦✦✦✦✦✦]**:30,000 Mora, Chunk of Aerosiderite x3, Fossilized Bone Shard x12, Golden Raven Insignia x8", 'name':"Skyrider Greatsword",
-        'skill':["Courage", '✰ เมื่อโจมตีปกติหรือชาร์จโจมตีถูกเป้าหมาย พลังโจมตีจะเพิ่มขึ้น 6~10% เป็นเวลา 6 วินาทีและซ้อนทับมากสุด 4 ชั้น ซึ่งเอฟเฟกต์นี้จะเกิดขึ้นเพียงหนึ่งครั้งในทุก 0.5 วินาที']
+        'skill':["Courage", '✰ เมื่อโจมตีปกติหรือชาร์จโจมตีถูกเป้าหมาย พลังโจมตีจะเพิ่มขึ้น **6~10%** เป็นเวลา 6 วินาทีและซ้อนทับมากสุด 4 ชั้น ซึ่งเอฟเฟกต์นี้จะเกิดขึ้นเพียงหนึ่งครั้งในทุก 0.5 วินาที']
                     ,'star':'[★★★]'}
         return lst103
     elif name.lower() == "debate club":
@@ -1599,7 +1599,7 @@ def weapon_info_list(name):
         **[✦✦✦✦--]**:20,000 Mora, Mist Veiled Gold Elixir x2, Mist Grass x8, Stained Mask x6\n \
         **[✦✦✦✦✦-]**:25,000 Mora, Mist Veiled Gold Elixir x4, Mist Grass Wick x6, Ominous Mask x4\n \
         **[✦✦✦✦✦✦]**:30,000 Mora, Mist Veiled Primo Elixir x3, Mist Grass Wick x12, Ominous Mask x8", 'name':"Debate Club",
-        'skill':["Blunt Conclusion", '✰ หลังจากใช้สกิลธาตุแล้วเมื่อการโจมตีปกติและชาร์จโจมตีถูกเป้าหมายจะสร้างความเสียหายเพิ่มเติมอีก 60~120% ของพลังโจมตีภายในอาณาเขตเล็กๆ \
+        'skill':["Blunt Conclusion", '✰ หลังจากใช้สกิลธาตุแล้วเมื่อการโจมตีปกติและชาร์จโจมตีถูกเป้าหมายจะสร้างความเสียหายเพิ่มเติมอีก **60~120%** ของพลังโจมตีภายในอาณาเขตเล็กๆ \
                     ซึ่งเอฟเฟกต์นี้จะมีระยะเวลา ต่อเนื่อง 15 วินาที และสามารถเกิดขึ้นได้เพียงหนึ่งครั้งในทุก 3 วินาที']
                     ,'star':'[★★★]'}
         return lst104
@@ -1613,7 +1613,7 @@ def weapon_info_list(name):
         **[✦✦✦✦--]**:20,000 Mora, Boreal Wolf's Broken Fang x2, Dead Ley Line Leaves x8, Sharp Arrowhead x6\n \
         **[✦✦✦✦✦-]**:25,000 Mora, Boreal Wolf's Broken Fang x4, Ley Line Sprout x6, Weathered Arrowhead x4\n \
         **[✦✦✦✦✦✦]**:30,000 Mora, Boreal Wolf's Nostalgia x3, Ley Line Sprout x12, Weathered Arrowhead x8", 'name':"Bloodtainted Greatsword",
-        'skill':["Bane of Fire and Thunder", '✰ เพิ่มความเสียหายแก่ศัตรูที่ได้รับผลกระทบของธาตุไฟ หรือไฟฟ้าขึ้น 12~24%']
+        'skill':["Bane of Fire and Thunder", '✰ เพิ่มความเสียหายแก่ศัตรูที่ได้รับผลกระทบของธาตุไฟ หรือไฟฟ้าขึ้น **12~24%**']
                     ,'star':'[★★★]'}
         return lst105
     elif name.lower() == "white iron greatsword":
@@ -1626,7 +1626,7 @@ def weapon_info_list(name):
         **[✦✦✦✦--]**:20,000 Mora, Shackles of the Dandelion Gladiator x2, Chaos Circuit x8, Slime Secretions x6\n \
         **[✦✦✦✦✦-]**:25,000 Mora, Shackles of the Dandelion Gladiator x4, Chaos Core x6, Slime Concentrate x4\n \
         **[✦✦✦✦✦✦]**:30,000 Mora, Dream of the Dandelion Gladiator x3, Chaos Core x12, Slime Concentrate x8", 'name':"White Iron Greatsword",
-        'skill':["Cull the Weak", '✰ เมื่อกำจัดศัตรูได้จะฟื้นฟูพลังชีวิตขึ้น 8~16%']
+        'skill':["Cull the Weak", '✰ เมื่อกำจัดศัตรูได้จะฟื้นฟูพลังชีวิตขึ้น **8~16%**']
                     ,'star':'[★★★]'}
         return lst106
     elif name.lower() == "ferrous shadow":
@@ -1639,7 +1639,7 @@ def weapon_info_list(name):
         **[✦✦✦✦--]**:20,000 Mora, Fragment of Decarabian's Epic x2, Black Bronze Horn x8, Shimmering Nectar x6\n \
         **[✦✦✦✦✦-]**:25,000 Mora, Fragment of Decarabian's Epic x4, Black Crystal Horn x6, Energy Nectar x4\n \
         **[✦✦✦✦✦✦]**:30,000 Mora, Scattered Piece of Decarabian's Dream x3, Black Crystal Horn x12, Energy Nectar x8", 'name':"Ferrous Shadow",
-        'skill':["Unbending", '✰ เมื่อพลังชีวิตต่ำกว่า 70~90% การชาร์จโจมตีจะ ถูกขัดจังหวะได้ยากขึ้น และเพิ่มความเสียหายขึ้น 30~50%']
+        'skill':["Unbending", '✰ เมื่อพลังชีวิตต่ำกว่า **70~90%** การชาร์จโจมตีจะ ถูกขัดจังหวะได้ยากขึ้น และเพิ่มความเสียหายขึ้น **30~50%**']
                     ,'star':'[★★★]'}
         return lst107
     elif name.lower() == "white tassel":
@@ -1652,7 +1652,7 @@ def weapon_info_list(name):
         **[✦✦✦✦--]**:20,000 Mora, Relic from Guyun x2, Agent's Sacrificial Knife x8, Sergeant's Insignia x6\n \
         **[✦✦✦✦✦-]**:25,000 Mora, Relic from Guyun x4, Inspector's Sacrificial Knife x6, Lieutenant's Insignia x4\n \
         **[✦✦✦✦✦✦]**:30,000 Mora, Divine Body from Guyun x3, Inspector's Sacrificial Knife x12, Lieutenant's Insignia x8", 'name':"White Tassel",
-        'skill':["Sharp", '✰ เพิ่มความเสียหายของการโจมตีปกติขึ้น 24~48%']
+        'skill':["Sharp", '✰ เพิ่มความเสียหายของการโจมตีปกติขึ้น **24~48%**']
                     ,'star':'[★★★]'}
         return lst108
     elif name.lower() == "black tassel":
@@ -1665,7 +1665,7 @@ def weapon_info_list(name):
         **[✦✦✦✦--]**:20,000 Mora, Bit of Aerosiderite x2, Sturdy Bone Shard x8, Sharp Arrowhead x6\n \
         **[✦✦✦✦✦-]**:25,000 Mora, Bit of Aerosiderite x4, Fossilized Bone Shard x6, Weathered Arrowhead x4\n \
         **[✦✦✦✦✦✦]**:30,000 Mora, Chunk of Aerosiderite x3, Fossilized Bone Shard x12, Weathered Arrowhead x8", 'name':"Black Tassel",
-        'skill':["Bane of the Soft", '✰ สร้างโบนัสความเสียหาย แก่ศัตรูจำพวก Slime 40~80%']
+        'skill':["Bane of the Soft", '✰ สร้างโบนัสความเสียหาย แก่ศัตรูจำพวก Slime **40~80%**']
                     ,'star':'[★★★]'}
         return lst109
     elif name.lower() == "halberd":
@@ -1678,7 +1678,7 @@ def weapon_info_list(name):
         **[✦✦✦✦--]**:20,000 Mora, Mist Veiled Gold Elixir x2, Mist Grass x8, Shimmering Nectar x6\n \
         **[✦✦✦✦✦-]**:25,000 Mora, Mist Veiled Gold Elixir x4, Mist Grass Wick x6, Energy Nectar x4\n \
         **[✦✦✦✦✦✦]**:30,000 Mora, Mist Veiled Primo Elixir x3, Mist Grass Wick x12, Energy Nectar x8", 'name':"Halberd",
-        'skill':["Heavy", '✰ เมื่อโจมตีปกติถูศัตรูจะสร้างความเสียหายเพิ่มเติมเป็น 160~320% ของพลังการโจมตี ซึ่งเอฟเฟกต์นี้จะเกิดได้หนึ่งครั้งในทุก 10 วินาที']
+        'skill':["Heavy", '✰ เมื่อโจมตีปกติถูศัตรูจะสร้างความเสียหายเพิ่มเติมเป็น **160~320%** ของพลังการโจมตี ซึ่งเอฟเฟกต์นี้จะเกิดได้หนึ่งครั้งในทุก 10 วินาที']
                     ,'star':'[★★★]'}
         return lst110
     elif name.lower() == "harbinger of dawn":
@@ -1691,7 +1691,7 @@ def weapon_info_list(name):
         **[✦✦✦✦--]**:20,000 Mora, Boreal Wolf's Broken Fang x2, Dead Ley Line Leaves x8, Slime Secretions x6\n \
         **[✦✦✦✦✦-]**:25,000 Mora, Boreal Wolf's Broken Fang x4, Ley Line Sprout x6, Slime Concentrate x4\n \
         **[✦✦✦✦✦✦]**:30,000 Mora, Boreal Wolf's Nostalgia x3, Ley Line Sprout x12, Slime Concentrate x8", 'name':"Harbinger of Dawn",
-        'skill':["Vigorous", '✰ เมื่อพลังชีวิตสูงกว่า 90% อัตราคริจะเพิ่มขึ้น 14~28%']
+        'skill':["Vigorous", '✰ เมื่อพลังชีวิตสูงกว่า 90% อัตราคริจะเพิ่มขึ้น **14~28%**']
                     ,'star':'[★★★]'}
         return lst111
     elif name.lower() == "fillet blade":
@@ -1704,7 +1704,7 @@ def weapon_info_list(name):
         **[✦✦✦✦--]**:20,000 Mora, Mist Veiled Gold Elixir x2, Mist Grass x8, Silver Raven Insignia x6\n \
         **[✦✦✦✦✦-]**:25,000 Mora, Mist Veiled Gold Elixir x4, Mist Grass Wick x6, Golden Raven Insignia x4\n \
         **[✦✦✦✦✦✦]**:30,000 Mora, Mist Veiled Primo Elixir x3, Mist Grass Wick x12, Golden Raven Insignia x8", 'name':"Fillet Blade",
-        'skill':["Gash", '✰ ในตอนที่โจมตีจะมีโอกาส 50% ที่จะสร้างความเสียหาย 240~400% ของการโจมตีพื้นฐานให้แก่ศัตรูหนึ่งตัว ซึ่งเอฟเฟกต์นี้จะเกิดขึ้นหนึ่งครั้งในทุก 15~11 วินาที']
+        'skill':["Gash", '✰ ในตอนที่โจมตีจะมีโอกาส 50% ที่จะสร้างความเสียหาย **240~400%** ของการโจมตีพื้นฐานให้แก่ศัตรูหนึ่งตัว ซึ่งเอฟเฟกต์นี้จะเกิดขึ้นหนึ่งครั้งในทุก **15~11** วินาที']
                     ,'star':'[★★★]'}
         return lst112
     elif name.lower() == "skyrider sword":
@@ -1717,7 +1717,7 @@ def weapon_info_list(name):
         **[✦✦✦✦--]**:20,000 Mora, Bit of Aerosiderite x2, Sturdy Bone Shard x8, Sergeant's Insignia x6\n \
         **[✦✦✦✦✦-]**:25,000 Mora, Bit of Aerosiderite x4, Fossilized Bone Shard x6, Lieutenant's Insignia x4\n \
         **[✦✦✦✦✦✦]**:30,000 Mora, Chunk of Aerosiderite x3, Fossilized Bone Shard x12, Lieutenant's Insignia x8", 'name':"Skyrider Sword",
-        'skill':["Determination", '✰ การใช้ท่าไม้ตายจะเพิ่มพลังโจมตีและความเร็วในการเคลื่อนที่ 12~24% เป็นเวลา 15 วินาที']
+        'skill':["Determination", '✰ การใช้ท่าไม้ตายจะเพิ่มพลังโจมตีและความเร็วในการเคลื่อนที่ **12~24%** เป็นเวลา 15 วินาที']
                     ,'star':'[★★★]'}
         return lst113
     elif name.lower() == "dark iron sword":
@@ -1730,7 +1730,7 @@ def weapon_info_list(name):
         **[✦✦✦✦--]**:20,000 Mora, Relic from Guyun x2, Agent's Sacrificial Knife x8, Stained Mask x6\n \
         **[✦✦✦✦✦-]**:25,000 Mora, Relic from Guyun x4, Inspector's Sacrificial Knife x6, Ominous Mask x4\n \
         **[✦✦✦✦✦✦]**:30,000 Mora, Divine Body from Guyun x3, Inspector's Sacrificial Knife x12, Ominous Mask x8", 'name':"Dark Iron Sword",
-        'skill':["Overloaded", '✰ การทำให้เกิดโอเวอร์โหลด, นำไฟฟ้า, ชาร์จไฟฟ้า หรือกระจายไฟฟ้า จะเพิ่มพลังโจมตีขึ้น 20~40% เป็นเวลา 12 วินาที']
+        'skill':["Overloaded", '✰ การทำให้เกิดโอเวอร์โหลด, นำไฟฟ้า, ชาร์จไฟฟ้า หรือกระจายไฟฟ้า จะเพิ่มพลังโจมตีขึ้น **20~40%** เป็นเวลา 12 วินาที']
                     ,'star':'[★★★]'}
         return lst114
     elif name.lower() == "cool steel":
@@ -1743,8 +1743,7 @@ def weapon_info_list(name):
         **[✦✦✦✦--]**:20,000 Mora, Fragment of Decarabian's Epic x2, Black Bronze Horn x8, Sharp Arrowhead x6\n \
         **[✦✦✦✦✦-]**:25,000 Mora, Fragment of Decarabian's Epic x4, Black Crystal Horn x6, Weathered Arrowhead x4\n \
         **[✦✦✦✦✦✦]**:30,000 Mora, Scattered Piece of Decarabian's Dream x3, Black Crystal Horn x12, Weathered Arrowhead x8", 'name':"Cool Steel",
-        'skill':["Bane of Water and Ice", '✰ เพิ่มความเสียหายแก่ศัตรูที่ได้รับผลกระทบของธาตุน้ำและน้ำแข็งเพิ่มขึ้น 12~24%']
-                    ,'star':'[★★★]'}
+        'skill':["Bane of Water and Ice", '✰ เพิ่มความเสียหายแก่ศัตรูที่ได้รับผลกระทบของธาตุน้ำและน้ำแข็งเพิ่มขึ้น **12~24%**'],'star':'[★★★]'}
         return lst115
     elif name.lower() == "traveler's handy sword":
         lst116 = {'thum':"https://static.wikia.nocookie.net/gensin-impact/images/c/c9/Weapon_Traveler%27s_Handy_Sword.png/revision/latest/scale-to-width-down/256?cb=20201116035456", \
@@ -1756,8 +1755,7 @@ def weapon_info_list(name):
         **[✦✦✦✦--]**:20,000 Mora, Shackles of the Dandelion Gladiator x2, Chaos Circuit x8, Sealed Scroll x6\n \
         **[✦✦✦✦✦-]**:25,000 Mora, Shackles of the Dandelion Gladiator x4, Chaos Core x6, Forbidden Curse Scroll x4\n \
         **[✦✦✦✦✦✦]**:30,000 Mora, Dream of the Dandelion Gladiator x3, Chaos Core x12, Forbidden Curse Scroll x8", 'name':"Traveler's Handy Sword",
-        'skill':["Journey", '✰ เมื่อเก็บลูกแก้ว/อณูธาตุ จะฟื้นฟู HP 1~2%']
-                    ,'star':'[★★★]'}
+        'skill':["Journey", '✰ เมื่อเก็บลูกแก้ว/อณูธาตุ จะฟื้นฟู HP **1~2%**'],'star':'[★★★]'}
         return lst116
     elif name.lower() == "seasoned hunter's bow":
         lst117 = {'thum':"https://static.wikia.nocookie.net/gensin-impact/images/8/82/Weapon_Seasoned_Hunter%27s_Bow.png/revision/latest/scale-to-width-down/256?cb=20201116035113", \
@@ -1766,7 +1764,8 @@ def weapon_info_list(name):
         'ascen':"**[✦-----]**:5,000 Mora, Boreal Wolf's Milk Tooth x1, Dead Ley Line Branch x1, Treasure Hoarder Insignia x1\n \
         **[✦✦----]**:5,000 Mora, Boreal Wolf's Cracked Tooth x1, Dead Ley Line Branch x5, Treasure Hoarder Insignia x4\n \
         **[✦✦✦---]**:10,000 Mora, Boreal Wolf's Cracked Tooth x3, Dead Ley Line Leaves x3, Silver Raven Insignia x3\n \
-        **[✦✦✦✦--]**:15,000 Mora, Boreal Wolf's Broken Fang x1, Dead Ley Line Leaves x5, Silver Raven Insignia x4", 'name':"Seasoned Hunter's Bow",'star':'[★★]'}
+        **[✦✦✦✦--]**:15,000 Mora, Boreal Wolf's Broken Fang x1, Dead Ley Line Leaves x5, Silver Raven Insignia x4", 'name':"Seasoned Hunter's Bow",'star':'[★★]',
+        'skill':["ไม่มี", "✰ ไม่มี"]}
         return lst117
     elif name.lower() == "hunter's bow":
         lst118 = {'thum':"https://static.wikia.nocookie.net/gensin-impact/images/4/44/Weapon_Hunter%27s_Bow.png/revision/latest/scale-to-width-down/256?cb=20201116034023", \
@@ -1784,7 +1783,8 @@ def weapon_info_list(name):
         'ascen':"**[✦-----]**:5,000 Mora, Tile of Decarabian's Tower x1, Heavy Horn x1, Damaged Mask x1\n \
         **[✦✦----]**:5,000 Mora, Debris of Decarabian's City x1, Heavy Horn x5, Damaged Mask x4\n \
         **[✦✦✦---]**:10,000 Mora, Debris of Decarabian's City x3, Black Bronze Horn x3, Stained Mask x3\n \
-        **[✦✦✦✦--]**:15,000 Mora, Fragment of Decarabian's Epic x1, Black Bronze Horn  x5, Stained Mask x4", 'name':"Pocket Grimoire",'star':'[★★]'}
+        **[✦✦✦✦--]**:15,000 Mora, Fragment of Decarabian's Epic x1, Black Bronze Horn  x5, Stained Mask x4", 'name':"Pocket Grimoire",'star':'[★★]',
+        'skill':["ไม่มี", "✰ ไม่มี"]}
         return lst119
     elif name.lower() == "apprentice's notes":
         lst120 = {'thum':"https://static.wikia.nocookie.net/gensin-impact/images/c/cf/Weapon_Apprentice%27s_Notes.png/revision/latest/scale-to-width-down/256?cb=20201119233859", \
@@ -1793,7 +1793,8 @@ def weapon_info_list(name):
         'ascen':"**[✦-----]**:0 Mora, Tile of Decarabian's Tower x1, Heavy Horn x1, Damaged Mask x1\n \
         **[✦✦----]**:5,000 Mora, Debris of Decarabian's City x1, Heavy Horn x4, Damaged Mask x2\n \
         **[✦✦✦---]**:5,000 Mora, Debris of Decarabian's City x2, Black Bronze Horn x2, Stained Mask x2\n \
-        **[✦✦✦✦--]**:10,000 Mora, Fragment of Decarabian's Epic x1, Black Bronze Horn  x4, Stained Mask x3", 'name':"Apprentice's Notes",'star':'[★]'}
+        **[✦✦✦✦--]**:10,000 Mora, Fragment of Decarabian's Epic x1, Black Bronze Horn  x4, Stained Mask x3", 'name':"Apprentice's Notes",'star':'[★]',
+        'skill':["ไม่มี", "✰ ไม่มี"]}
         return lst120
     elif name.lower() == "old merc's pal":
         lst121 = {'thum':"https://static.wikia.nocookie.net/gensin-impact/images/0/0b/Weapon_Old_Merc%27s_Pal.png/revision/latest/scale-to-width-down/256?cb=20201116034249", \
@@ -1802,7 +1803,8 @@ def weapon_info_list(name):
         'ascen':"**[✦-----]**:5,000 Mora, Boreal Wolf's Milk Tooth x1, Dead Ley Line Branch x1, Treasure Hoarder Insignia x1\n \
         **[✦✦----]**:5,000 Mora, Boreal Wolf's Cracked Tooth x1, Dead Ley Line Branch x5, Treasure Hoarder Insignia x4\n \
         **[✦✦✦---]**:10,000 Mora, Boreal Wolf's Cracked Tooth x3, Dead Ley Line Leaves x3, Silver Raven Insignia x3\n \
-        **[✦✦✦✦--]**:15,000 Mora, Boreal Wolf's Broken Fang x1, Dead Ley Line Leaves x5, Silver Raven Insignia x4", 'name':"Old Merc's Pal",'star':'[★★]'}
+        **[✦✦✦✦--]**:15,000 Mora, Boreal Wolf's Broken Fang x1, Dead Ley Line Leaves x5, Silver Raven Insignia x4", 'name':"Old Merc's Pal",'star':'[★★]',
+        'skill':["ไม่มี", "✰ ไม่มี"]}
         return lst121
     elif name.lower() == "waster greatsword":
         lst122 = {'thum':"https://static.wikia.nocookie.net/gensin-impact/images/4/4c/Weapon_Waster_Greatsword.png/revision/latest/scale-to-width-down/256?cb=20201120001015", \
@@ -1811,7 +1813,8 @@ def weapon_info_list(name):
         'ascen':"**[✦-----]**:0 Mora, Boreal Wolf's Milk Tooth x1, Dead Ley Line Branch x1, Treasure Hoarder Insignia x1\n \
         **[✦✦----]**:5,000 Mora, Boreal Wolf's Cracked Tooth x1, Dead Ley Line Branch x4, Treasure Hoarder Insignia x2\n \
         **[✦✦✦---]**:5,000 Mora, Boreal Wolf's Cracked Tooth x2, Dead Ley Line Leaves x2, Silver Raven Insignia x2\n \
-        **[✦✦✦✦--]**:10,000 Mora, Boreal Wolf's Broken Fang x1, Dead Ley Line Leaves x4, Silver Raven Insignia x3", 'name':"Waster Greatsword",'star':'[★]'}
+        **[✦✦✦✦--]**:10,000 Mora, Boreal Wolf's Broken Fang x1, Dead Ley Line Leaves x4, Silver Raven Insignia x3", 'name':"Waster Greatsword",'star':'[★]',
+        'skill':["ไม่มี", "✰ ไม่มี"]}
         return lst122
     elif name.lower() == "iron point":
         lst123 = {'thum':"https://static.wikia.nocookie.net/gensin-impact/images/2/25/Weapon_Iron_Point.png/revision/latest/scale-to-width-down/256?cb=20201116034039", \
@@ -1820,7 +1823,8 @@ def weapon_info_list(name):
         'ascen':"**[✦-----]**:5,000 Mora, Fetters of the Dandelion Gladiator x1, Chaos Device x1, Divining Scroll x1\n \
         **[✦✦----]**:5,000 Mora, Chains of the Dandelion Gladiator x1, Chaos Device x5, Divining Scroll x4\n \
         **[✦✦✦---]**:10,000 Mora, Chains of the Dandelion Gladiator x3, Chaos Circuit x3, Sealed Scroll x3\n \
-        **[✦✦✦✦--]**:15,000 Mora, Shackles of the Dandelion Gladiator x1, Chaos Circuit x5, Sealed Scroll x4", 'name':"Iron Point",'star':'[★★]'}
+        **[✦✦✦✦--]**:15,000 Mora, Shackles of the Dandelion Gladiator x1, Chaos Circuit x5, Sealed Scroll x4", 'name':"Iron Point",'star':'[★★]',
+        'skill':["ไม่มี", "✰ ไม่มี"]}
         return lst123
     elif name.lower() == "beginner's protector":
         lst124 = {'thum':"https://static.wikia.nocookie.net/genshin-impact/images/f/fc/Weapon_Beginner%27s_Protector.png/revision/latest/scale-to-width-down/256?cb=20210713085834&path-prefix=th", \
@@ -1829,7 +1833,8 @@ def weapon_info_list(name):
         'ascen':"**[✦-----]**:0 Mora, Fetters of the Dandelion Gladiator x1, Chaos Device x1, Divining Scroll x1\n \
         **[✦✦----]**:5,000 Mora, Chains of the Dandelion Gladiator x1, Chaos Device x4, Divining Scroll x2\n \
         **[✦✦✦---]**:5,000 Mora, Chains of the Dandelion Gladiator x2, Chaos Circuit x2, Sealed Scroll x2\n \
-        **[✦✦✦✦--]**:10,000 Mora, Shackles of the Dandelion Gladiator x1, Chaos Circuit x4, Sealed Scroll x3", 'name':"Beginner's Protector",'star':'[★]'}
+        **[✦✦✦✦--]**:10,000 Mora, Shackles of the Dandelion Gladiator x1, Chaos Circuit x4, Sealed Scroll x3", 'name':"Beginner's Protector",'star':'[★]',
+        'skill':["ไม่มี", "✰ ไม่มี"]}
         return lst124
     elif name.lower() == "silver sword":
         lst125 = {'thum':"https://static.wikia.nocookie.net/gensin-impact/images/3/32/Weapon_Silver_Sword.png/revision/latest/scale-to-width-down/256?cb=20201116035150", \
@@ -1838,7 +1843,8 @@ def weapon_info_list(name):
         'ascen':"**[✦-----]**:5,000 Mora, Tile of Decarabian's Tower x1, Heavy Horn x1, Firm Arrowhead x1\n \
         **[✦✦----]**:5,000 Mora, Debris of Decarabian's City x1, Heavy Horn x5, Firm Arrowhead x4\n \
         **[✦✦✦---]**:10,000 Mora, Debris of Decarabian's City x3, Black Bronze Horn x3, Sharp Arrowhead x3\n \
-        **[✦✦✦✦--]**:25,000 Mora, Fragment of Decarabian's Epic x1, Black Bronze Horn x5, Sharp Arrowhead x4", 'name':"Silver Sword",'star':'[★★]'}
+        **[✦✦✦✦--]**:25,000 Mora, Fragment of Decarabian's Epic x1, Black Bronze Horn x5, Sharp Arrowhead x4", 'name':"Silver Sword",'star':'[★★]',
+        'skill':["ไม่มี", "✰ ไม่มี"]}
         return lst125
     elif name.lower() == "dull blade":
         lst126 = {'thum':"https://static.wikia.nocookie.net/gensin-impact/images/2/2f/Weapon_Dull_Blade.png/revision/latest/scale-to-width-down/256?cb=20201119235841", \
@@ -1847,5 +1853,6 @@ def weapon_info_list(name):
         'ascen':"**[✦-----]**:0 Mora, Tile of Decarabian's Tower x1, Heavy Horn x1, Firm Arrowhead x1\n \
         **[✦✦----]**:5,000 Mora, Debris of Decarabian's City x1, Heavy Horn x4, Firm Arrowhead x2\n \
         **[✦✦✦---]**:5,000 Mora, Debris of Decarabian's City x2, Black Bronze Horn x2, Sharp Arrowhead x2\n \
-        **[✦✦✦✦--]**:10,000 Mora, Fragment of Decarabian's Epic x1, Black Bronze Horn x4, Sharp Arrowhead x3", 'name':"Dull Blade",'star':'[★]'}
-        return lst126     
+        **[✦✦✦✦--]**:10,000 Mora, Fragment of Decarabian's Epic x1, Black Bronze Horn x4, Sharp Arrowhead x3", 'name':"Dull Blade",'star':'[★]',
+        'skill':["ไม่มี", "✰ ไม่มี"]}
+        return lst126
