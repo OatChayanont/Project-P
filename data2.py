@@ -1389,7 +1389,7 @@ def weapon_info_list(name):
         **[✦✦✦✦--]**:30,000 Mora, Bit of Aerosiderite x3, Sturdy Bone Shard x12, Shimmering Nectar x9\n \
         **[✦✦✦✦✦-]**:35,000 Mora, Bit of Aerosiderite x6, Fossilized Bone Shard x9, Energy Nectar x6\n \
         **[✦✦✦✦✦✦]**:45,000 Mora, Chunk of Aerosiderite x4, Fossilized Bone Shard x18, Energy Nectar x12", 'name':"Iron Sting",
-        'skill':["", '✰ ']
+        'skill':["Infusion Stinger", '✰ ภายใน 6 วินาทีหลังจากสร้างความเสียหายธาตุ ความเสียหายที่ตัวละครสร้างจะเพิ่มขึ้น 6~12% ซึ่งเอฟเฟกต์นี้จะเกิดขึ้นมากสุด 2 ชั้นและสามารถปล่อยได้หนึ่งครั้งในทุก 1 วินาที']
                     ,'star':'[★★★★]'}
         return lst88
     elif name.lower() == "festering desire":
@@ -1402,7 +1402,7 @@ def weapon_info_list(name):
         **[✦✦✦✦--]**:30,000 Mora, Shackles of the Dandelion Gladiator x3, Black Bronze Horn x12, Sergeant's Insignia x9\n \
         **[✦✦✦✦✦-]**:35,000 Mora, Shackles of the Dandelion Gladiator x6, Black Crystal Horn x9, Lieutenant's Insignia x6\n \
         **[✦✦✦✦✦✦]**:45,000 Mora, Dream of the Dandelion Gladiator x4, Black Crystal Horn x18, Lieutenant's Insignia x12", 'name':"Festering Desire",
-        'skill':["", '✰ ']
+        'skill':["Undying Admiration", '✰ สกิลธาตุสร้างความเสียหายเพิ่มขึ้น 16~32% และอัตราคริของสกิลธาตุเพิ่มขึ้น 6~12%']
                     ,'star':'[★★★★]'}
         return lst89
     elif name.lower() == "favonius sword":
@@ -1415,7 +1415,7 @@ def weapon_info_list(name):
         **[✦✦✦✦--]**:30,000 Mora, Fragment of Decarabian's Epic x3, Black Bronze Horn x12, Sharp Arrowhead x9\n \
         **[✦✦✦✦✦-]**:35,000 Mora, Fragment of Decarabian's Epic x6, Black Crystal Horn x9, Weathered Arrowhead x6\n \
         **[✦✦✦✦✦✦]**:45,000 Mora, Scattered Piece of Decarabian's Dream x4, Black Crystal Horn x18, Weathered Arrowhead x12", 'name':"Favonius Sword",
-        'skill':["", '✰ ']
+        'skill':["Windfall", '✰ เมื่อโจมตีคริติคอล จะมีโอกาส 60~100% ที่จะสร้างอณูธาตุ ซึ่งใช้ฟื้นฟูพลังงานธาตุได้ 6 หน่วย โดยเอฟเฟกต์นี้จะใช้ได้หนึ่งครั้งในทุก 12~6 วินาที']
                     ,'star':'[★★★★]'}
         return lst90
     elif name.lower() == "cinnabar spindle":
