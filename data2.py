@@ -675,8 +675,9 @@ def weapon_info_list(name):
         **[✦✦✦✦--]**:30,000 Mora, Narukami's Affection x3, Crystal Prism x12, Sharp Arrowhead x9\n \
         **[✦✦✦✦✦-]**:35,000 Mora, Narukami's Affection x6, Polarizing Prism x9, Weathered Arrowhead x6\n \
         **[✦✦✦✦✦✦]**:45,000 Mora, Narukami's Valor x4, Polarizing Prism x18, Weathered Arrowhead x12", 'name':"Hamayumi",
-        'skill':["", '✰ ']
-        ,'star':'[★★★★]'}
+        'skill':["Full Draw", '✰ การโจมตีปกติสร้างความเสียหายเพิ่มขึ้น 16~32% ชาร์จโจมตีสร้างความเสียหายเพิ่มขึ้น 12~24% \
+                    และเมื่อตัวละครที่ใช้อาวุธนี้มีพลังงานธาตุ 100% เอฟเฟกต์นี้จะเพิ่มขึ้น 100%']
+                    ,'star':'[★★★★]'}
         return lst35
     elif name.lower() == "favonius warbow":
         lst36 = {'thum':"https://static.wikia.nocookie.net/gensin-impact/images/8/85/Weapon_Favonius_Warbow.png/revision/latest/scale-to-width-down/256?cb=20201120003145", \
@@ -688,7 +689,7 @@ def weapon_info_list(name):
         **[✦✦✦✦--]**:30,000 Mora, Shackles of the Dandelion Gladiator x3, Chaos Circuit x12, Shimmering Nectar x9\n \
         **[✦✦✦✦✦-]**:35,000 Mora, Shackles of the Dandelion Gladiator x6, Chaos Core x9, Energy Nectar x6\n \
         **[✦✦✦✦✦✦]**:45,000 Mora, Dream of the Dandelion Gladiator x4, Chaos Core x18, Energy Nectar x12", 'name':"Favonius Warbow",
-        'skill':["", '✰ ']
+        'skill':["Windfall", '✰ เมื่อโจมตีคริติคอล จะมีโอกาส 60~100% ที่จะ สร้างอณูธาตุ ซึ่งใช้พื้นฟูพลังงานธาตุได้ 6 หน่วย โดยเอฟเฟกต์นี้จะใช้ได้ หนึ่งครั้งในทุก 12~6 วินาที']
         ,'star':'[★★★★]'}
         return lst36
     elif name.lower() == "compound bow":
@@ -701,8 +702,9 @@ def weapon_info_list(name):
         **[✦✦✦✦--]**:30,000 Mora, Bit of Aerosiderite x3, Sturdy Bone Shard x12, Sergeant's Insignia x9\n \
         **[✦✦✦✦✦-]**:35,000 Mora, Bit of Aerosiderite x6, Fossilized Bone Shard x9, Lieutenant's Insignia x6\n \
         **[✦✦✦✦✦✦]**:45,000 Mora, Chunk of Aerosiderite x4, Fossilized Bone Shard x18, Lieutenant's Insignia x12", 'name':"Compound Bow",
-        'skill':["", '✰ ']
-        ,'star':'[★★★★]'}
+        'skill':["Infusion Arrow", '✰ เมื่อการโจมตีปกติและชาร์จโจมตีโดนเป้าหมาย พลังโจมตีจะเพิ่มขึ้น 4~8% และความเร็วในการโจมตีปกติจะเพิ่มขึ้น 1.2~2.4% ซึ่งเอฟเฟกต์นี้จะมีระยะเวลาต่อเนื่อง 6 วินาที \
+                    และซ้อนทับได้สูงสุด 4 ชั้น โดยจะเกิดขึ้นเพียงหนึ่งครั้งในทุก 0.3 วินาที']
+                    ,'star':'[★★★★]'}
         return lst37
     elif name.lower() == "blackcliff warbow":
         lst38 = {'thum':"https://static.wikia.nocookie.net/gensin-impact/images/b/b8/Weapon_Blackcliff_Warbow.png/revision/latest/scale-to-width-down/256?cb=20201103093753", \
