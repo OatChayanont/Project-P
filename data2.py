@@ -1496,7 +1496,7 @@ def weapon_info_list(name):
         **[✦✦✦✦✦-]**:25,000 Mora, Boreal Wolf's Broken Fang x4, Ley Line Sprout x6, Slime Concentrate x4\n \
         **[✦✦✦✦✦✦]**:30,000 Mora, Boreal Wolf's Nostalgia x3, Ley Line Sprout x12, Slime Concentrate x8", 'name':"Sharpshooter's Oath",
         'skill':["Precise", '✰ เพิ่มความเสียหายที่สร้างต่อจุดอ่อน 24~48%']
-        ,'star':'[★★★]'}
+                    ,'star':'[★★★]'}
         return lst96
     elif name.lower() == "slingshot":
         lst97 = {'thum':"https://static.wikia.nocookie.net/gensin-impact/images/c/ca/Weapon_Slingshot.png/revision/latest/scale-to-width-down/256?cb=20201116035308", \
@@ -1509,7 +1509,7 @@ def weapon_info_list(name):
         **[✦✦✦✦✦-]**:25,000 Mora, Relic from Guyun x4, Inspector's Sacrificial Knife x6, Ominous Mask x4\n \
         **[✦✦✦✦✦✦]**:30,000 Mora, Divine Body from Guyun x3, Inspector's Sacrificial Knife x12, Ominous Mask x8", 'name':"Slingshot",
         'skill':["Slingshot", '✰ หากลูกธนูของการโจมตีปกติและชาร์จโจมตีถูกศัตรูภายใน 0.3 วินาที หลังจากที่ปล่อยออกไป จะสร้างโบนัสความเสียหาย 36~60%, มิฉะนั้นความเสียหายที่สร้างจะลดลง 10%']
-        ,'star':'[★★★]'}
+                    ,'star':'[★★★]'}
         return lst97
     elif name.lower() == "magic guide":
         lst98 = {'thum':"https://static.wikia.nocookie.net/gensin-impact/images/3/39/Weapon_Magic_Guide.png/revision/latest/scale-to-width-down/256?cb=20201119232047", \
@@ -1521,8 +1521,8 @@ def weapon_info_list(name):
         **[✦✦✦✦--]**:20,000 Mora, Fragment of Decarabian's Epic x2, Black Bronze Horn x8, Slime Secretions x6\n \
         **[✦✦✦✦✦-]**:25,000 Mora, Fragment of Decarabian's Epic x4, Black Crystal Horn x6, Slime Concentrate x4\n \
         **[✦✦✦✦✦✦]**:30,000 Mora, Scattered Piece of Decarabian's Dream x3, Black Crystal Horn x12, Slime Concentrate x8", 'name':"Magic Guide",
-        'skill':["", '✰ ']
-        ,'star':'[★★★]'}
+        'skill':["Bane of Storm and Tide", '✰ เพิ่มความเสียหายแก่ศัตรูที่ได้รับผลกระทบของธาตุน้ำหรือไฟฟ้าขึ้น 12~24%']
+                    ,'star':'[★★★]'}
         return lst98
     elif name.lower() == "otherworldly story":
         lst99 = {'thum':"https://static.wikia.nocookie.net/gensin-impact/images/1/11/Weapon_Otherworldly_Story.png/revision/latest/scale-to-width-down/256?cb=20201116034636", \
@@ -1534,8 +1534,8 @@ def weapon_info_list(name):
         **[✦✦✦✦--]**:20,000 Mora, Shackles of the Dandelion Gladiator x2, Chaos Circuit x8, Stained Mask x6\n \
         **[✦✦✦✦✦-]**:25,000 Mora, Shackles of the Dandelion Gladiator x4, Chaos Core x6, Ominous Mask x4\n \
         **[✦✦✦✦✦✦]**:30,000 Mora, Dream of the Dandelion Gladiator x3, Chaos Core x12, Ominous Mask x8", 'name':"Otherworldly Story",
-        'skill':["", '✰ ']
-        ,'star':'[★★★]'}
+        'skill':["Energy Shower", '✰ เมื่อเก็บอณูธาตุ/ลูกแก้วจะฟื้นฟูพลังชีวิตขึ้น 1~2%']
+                    ,'star':'[★★★]'}
         return lst99
     elif name.lower() == "emerald orb":
         lst100 = {'thum':"https://static.wikia.nocookie.net/gensin-impact/images/7/7c/Weapon_Emerald_Orb.png/revision/latest/scale-to-width-down/256?cb=20201120003056", \
@@ -1547,8 +1547,8 @@ def weapon_info_list(name):
         **[✦✦✦✦--]**:20,000 Mora, Relic from Guyun x2, Agent's Sacrificial Knife x8, Silver Raven Insignia x6\n \
         **[✦✦✦✦✦-]**:25,000 Mora, Relic from Guyun x4, Inspector's Sacrificial Knife x6, Golden Raven Insignia x4\n \
         **[✦✦✦✦✦✦]**:30,000 Mora, Divine Body from Guyun x3, Inspector's Sacrificial Knife x12, Golden Raven Insignia x8", 'name':"Emerald Orb",
-        'skill':["", '✰ ']
-        ,'star':'[★★★]'}
+        'skill':["Rapids", '✰ การทำให้เกิดปฏิกิริยาการระเหย, ชาร์จไฟฟ้, แช่แข็ง หรือกระจายธาตุน้ำ จะเพิ่มพลังโจมตีขึ้น 20~40% เป็นเวลา 12 วินาที']
+                    ,'star':'[★★★]'}
         return lst100
     elif name.lower() == "thrilling tales of dragon slayers":
         lst101 = {'thum':"https://static.wikia.nocookie.net/gensin-impact/images/1/19/Weapon_Thrilling_Tales_of_Dragon_Slayers.png/revision/latest/scale-to-width-down/256?cb=20201119201736", \
@@ -1560,8 +1560,8 @@ def weapon_info_list(name):
         **[✦✦✦✦--]**:20,000 Mora, Boreal Wolf's Broken Fang x2, Dead Ley Line Leaves x8, Sealed Scroll x6\n \
         **[✦✦✦✦✦-]**:25,000 Mora, Boreal Wolf's Broken Fang x4, Ley Line Sprout x6, Forbidden Curse Scroll x4\n \
         **[✦✦✦✦✦✦]**:30,000 Mora, Boreal Wolf's Nostalgia x3, Ley Line Sprout x12, Forbidden Curse Scroll x8", 'name':"Thrilling Tales of Dragon Slayers",
-        'skill':["", '✰ ']
-        ,'star':'[★★★]'}
+        'skill':["Heritage", '✰ เมื่อสับเปลี่ยนตัวละคร พลังโจมตีของตัวละครที่เข้าสู่การต่อสู้จะเพิ่มขึ้น 24~48% เป็นเวลา 10 วินาที โดยเอฟเฟกต์นี้จะเกิดขึ้น หนึ่งครั้งในทุก 20 วินาที']
+                    ,'star':'[★★★]'}
         return lst101
     elif name.lower() == "twin nephrite":
         lst102 = {'thum':"https://static.wikia.nocookie.net/gensin-impact/images/e/e3/Weapon_Twin_Nephrite.png/revision/latest/scale-to-width-down/256?cb=20201119201412", \
@@ -1573,8 +1573,8 @@ def weapon_info_list(name):
         **[✦✦✦✦--]**:20,000 Mora, Mist Veiled Gold Elixir x2, Mist Grass x8, Sergeant's Insignia x6\n \
         **[✦✦✦✦✦-]**:25,000 Mora, Mist Veiled Gold Elixir x4, Mist Grass Wick x6, Lieutenant's Insignia x4\n \
         **[✦✦✦✦✦✦]**:30,000 Mora, Mist Veiled Primo Elixir x3, Mist Grass Wick x12, Lieutenant's Insignia x8", 'name':"Twin Nephrite",
-        'skill':["", '✰ ']
-        ,'star':'[★★★]'}
+        'skill':["Guerilla Tactic", '✰ ภายในเวลา 15 วินาที หลังจากกำจัดศัตรูได้ ความเร็วเคลื่อนที่และพลังโจมตีจะเพิ่มขึ้น 12~20%']
+                    ,'star':'[★★★]'}
         return lst102
     elif name.lower() == "skyrider greatsword":
         lst103 = {'thum':"https://static.wikia.nocookie.net/gensin-impact/images/6/6e/Weapon_Skyrider_Greatsword.png/revision/latest/scale-to-width-down/256?cb=20201116035158", \
