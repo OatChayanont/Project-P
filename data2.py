@@ -849,8 +849,10 @@ def weapon_info_list(name):
         **[✦✦✦✦--]**:30,000 Mora, Shackles of the Dandelion Gladiator x3, Chaos Circuit x12, Shimmering Nectar x9\n \
         **[✦✦✦✦✦-]**:35,000 Mora, Shackles of the Dandelion Gladiator x6, Chaos Core x9, Energy Nectar x6\n \
         **[✦✦✦✦✦✦]**:45,000 Mora, Dream of the Dandelion Gladiator x4, Chaos Core x18, Energy Nectar x12", 'name':"Frostbearer",
-        'skill':["", '✰ ']
-        ,'star':'[★★★★]'}
+        'skill':["Frost Burial", '✰ เมื่อโจมตีปกติและชาร์จโจมตีถูกศัตรู จะมีโอกาส 60~100% ที่จะเกิด Everfrost Icicle ขึ้นบนตัวของศัตรูและร่วงลงมาใส่ \
+                    เพื่อสร้างความเสียหายวงกว้างเป็น 80~140% ของพลังโจมตี หากศัตรูตกอยู่ภายใต้ผลกระทบของธาตุน้ำแข็ง จะสร้างความเสี่ยหาย 200~360% ของพลังโจมตี \
+                    โดยที่เฟเฟกต์ดังกล่าวนี้จะเกิดได้ครั้งเดียวในทุก 10 วินาที']
+                    ,'star':'[★★★★]'}
         return lst48
     elif name.lower() == "favonius codex":
         lst49 = {'thum':"https://static.wikia.nocookie.net/gensin-impact/images/3/36/Weapon_Favonius_Codex.png/revision/latest/scale-to-width-down/256?cb=20201116033719", \
@@ -862,7 +864,7 @@ def weapon_info_list(name):
         **[✦✦✦✦--]**:30,000 Mora, Fragment of Decarabian's Epic x3, Black Bronze Horn x12, Sealed Scroll x9\n \
         **[✦✦✦✦✦-]**:35,000 Mora, Fragment of Decarabian's Epic x6, Black Crystal Horn x9, Forbidden Curse Scroll x6\n \
         **[✦✦✦✦✦✦]**:45,000 Mora, Scattered Piece of Decarabian's Dream x4, Black Crystal Horn x18, Forbidden Curse Scroll x12", 'name':"Favonius Codex",
-        'skill':["", '✰ ']
+        'skill':["Windfall", '✰ เมื่อโจมตีคริติคอล จะมีโอกาส 60~100% ที่จะ สร้างอณุธาตุ ซึ่งใช้ฟื้นฟูพลังงานธาตุได้ 6 หน่วย โดยเอฟเฟกต์นี้จะใช่ได้ หนึ่งครั้งในทุก 12~6 วินาที']
         ,'star':'[★★★★]'}
         return lst49
     elif name.lower() == "eye of perception":
@@ -875,8 +877,9 @@ def weapon_info_list(name):
         **[✦✦✦✦--]**:30,000 Mora, Mist Veiled Gold Elixir x3, Mist Grass x12, Stained Mask x9\n \
         **[✦✦✦✦✦-]**:35,000 Mora, Mist Veiled Gold Elixir x6, Mist Grass Wick x9, Ominous Mask x6\n \
         **[✦✦✦✦✦✦]**:45,000 Mora, Mist Veiled Primo Elixir x4, Mist Grass Wick x18, Ominous Mask x12", 'name':"Eye of Perception",
-        'skill':["", '✰ ']
-        ,'star':'[★★★★]'}
+        'skill':["Echo", '✰ เมื่อโจมตีปกติและชาร์จโจมตีถูกเป้าหมาย จะมีโอกาส 50% ที่จะปล่อย Bolt of Perception ออกมาสร้างความเสี่ยหาย 240~360% ของพลังโจมตี \
+                    โดยจะปล่อยออกมาใส่กลุ่มของศัตรูสูงสุด 4 ครั้ง ซึ่งเอฟเฟกต์นี้จะเกิดขึ้นได้หนึ่งครั้งในทุก 12~8 วินาที']
+                    ,'star':'[★★★★]'}
         return lst50
     elif name.lower() == "dodoco tales":
         lst51 = {'thum':"https://static.wikia.nocookie.net/gensin-impact/images/5/51/Weapon_Dodoco_Tales.png/revision/latest/scale-to-width-down/256?cb=20210613085809", \
@@ -888,7 +891,7 @@ def weapon_info_list(name):
         **[✦✦✦✦--]**:30,000 Mora, Boreal Wolf's Broken Fang x3, Dead Ley Line Leaves x12, Stained Mask x9\n \
         **[✦✦✦✦✦-]**:35,000 Mora, Boreal Wolf's Broken Fang x6, Ley Line Sprout x9, Ominous Mask x6\n \
         **[✦✦✦✦✦✦]**:45,000 Mora, Boreal Wolf's Nostalgia x4, Ley Line Sprout x18, Ominous Mask x12", 'name':"Dodoco Tales",
-        'skill':["", '✰ ']
+        'skill':["Dodoventure!", '✰ เมื่อโจมตีปกติถูกศัตรู จะทำให้ความเสียหายของการชาร์จโจมตีเพิ่มขึ้น 16~32% เป็นเวลา 6 วินาที; เมื่อชาร์จโจมตีถูกศัตรู จะทำให้พลังโจมตีจะเพิ่มขึ้น 8~16% เป็นเวลา 6 วินาที']
         ,'star':'[★★★★]'}
         return lst51
     elif name.lower() == "blackcliff agate":
