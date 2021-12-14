@@ -1254,7 +1254,7 @@ def weapon_info_list(name):
         **[✦✦✦✦--]**:30,000 Mora, Mist Veiled Gold Elixir x3, Mist Grass x12, Sergeant's Insignia x9\n \
         **[✦✦✦✦✦-]**:35,000 Mora, Mist Veiled Gold Elixir x6, Mist Grass Wick x9, Lieutenant's Insignia x6\n \
         **[✦✦✦✦✦✦]**:45,000 Mora, Mist Veiled Primo Elixir x4, Mist Grass Wick x18, Lieutenant's Insignia x12", 'name':"Royal Spear",
-        'skill':["", '✰ ']
+        'skill':["Focus", '✰ เมื่อการโจมตีก่อให้เกิดความเสียหาย อัตราคริจะเพิ่มขึ้น 8~16% ซ้อนทับได้มากสุด 5 ครั้ง และเมื่อโจมตีติดคริติคอลจะล้างเอฟเฟกต์ที่โฟกัสออกทั้งหมด']
         ,'star':'[★★★★]'}
         return lst78
     elif name.lower() == "the flute":
