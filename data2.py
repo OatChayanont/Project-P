@@ -1652,7 +1652,7 @@ def weapon_info_list(name):
         **[✦✦✦✦--]**:20,000 Mora, Relic from Guyun x2, Agent's Sacrificial Knife x8, Sergeant's Insignia x6\n \
         **[✦✦✦✦✦-]**:25,000 Mora, Relic from Guyun x4, Inspector's Sacrificial Knife x6, Lieutenant's Insignia x4\n \
         **[✦✦✦✦✦✦]**:30,000 Mora, Divine Body from Guyun x3, Inspector's Sacrificial Knife x12, Lieutenant's Insignia x8", 'name':"White Tassel",
-        'skill':["", '✰ ']
+        'skill':["Sharp", '✰ เพิ่มความเสียหายของการโจมตีปกติขึ้น 24~48%']
                     ,'star':'[★★★]'}
         return lst108
     elif name.lower() == "black tassel":
@@ -1665,7 +1665,7 @@ def weapon_info_list(name):
         **[✦✦✦✦--]**:20,000 Mora, Bit of Aerosiderite x2, Sturdy Bone Shard x8, Sharp Arrowhead x6\n \
         **[✦✦✦✦✦-]**:25,000 Mora, Bit of Aerosiderite x4, Fossilized Bone Shard x6, Weathered Arrowhead x4\n \
         **[✦✦✦✦✦✦]**:30,000 Mora, Chunk of Aerosiderite x3, Fossilized Bone Shard x12, Weathered Arrowhead x8", 'name':"Black Tassel",
-        'skill':["", '✰ ']
+        'skill':["Bane of the Soft", '✰ สร้างโบนัสความเสียหาย แก่ศัตรูจำพวก Slime 40~80%']
                     ,'star':'[★★★]'}
         return lst109
     elif name.lower() == "halberd":
@@ -1678,7 +1678,7 @@ def weapon_info_list(name):
         **[✦✦✦✦--]**:20,000 Mora, Mist Veiled Gold Elixir x2, Mist Grass x8, Shimmering Nectar x6\n \
         **[✦✦✦✦✦-]**:25,000 Mora, Mist Veiled Gold Elixir x4, Mist Grass Wick x6, Energy Nectar x4\n \
         **[✦✦✦✦✦✦]**:30,000 Mora, Mist Veiled Primo Elixir x3, Mist Grass Wick x12, Energy Nectar x8", 'name':"Halberd",
-        'skill':["", '✰ ']
+        'skill':["Heavy", '✰ เมื่อโจมตีปกติถูศัตรูจะสร้างความเสียหายเพิ่มเติมเป็น 160~320% ของพลังการโจมตี ซึ่งเอฟเฟกต์นี้จะเกิดได้หนึ่งครั้งในทุก 10 วินาที']
                     ,'star':'[★★★]'}
         return lst110
     elif name.lower() == "harbinger of dawn":
