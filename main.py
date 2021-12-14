@@ -152,6 +152,18 @@ async def gacha(ctx, userinput):
 @bot.command()
 async def char(ctx, *, name):
     if name != "list":
+        if name.isnumeric():
+            charlist = ["Albedo", "Aloy", "Amber", "Arataki Itto", "Barbara",
+                        "Beidou", "Bennett", "Chongyun", "Diluc", "Diona",
+                        "Eula", "Fischl", "Ganyu", "Gorou", "Hu Tao", "Jean",
+                        "Kaedehara Kazuha", "Kaeya", "Kamisato Ayaka",
+                        "Keqing", "Klee", "Kujou Sara", "Lisa", "Mona",
+                        "Ningguang", "Noelle", "Qiqi", "Raiden Shogun",
+                        "Razor", "Rosaria", "Sangonomiya Kokomi", "Sayu",
+                        "Sucrose", "Tartaglia", "Thoma", "Traveler",
+                        "Venti", "Xiangling", "Xiao", "Xingqiu", "Xinyan",
+                        "Yanfei", "Yoimiya", "Zhongli"]
+            name = charlist[(int(name))-1]
         character_info = character_info_list(name)
         send = discord.Embed(title="Overview", description="", colour=0xb24cd8)
         send.set_thumbnail(url=character_info['thum'])
