@@ -1146,8 +1146,8 @@ def weapon_info_list(name):
         **[✦✦✦✦--]**:30,000 Mora, Mask of the One-Horned x3, Chaos Axis x12, Spectral Heart x9\n \
         **[✦✦✦✦✦-]**:35,000 Mora, Mask of the One-Horned x6, Chaos Oculus x9, Spectral Nucleus x6\n \
         **[✦✦✦✦✦✦]**:45,000 Mora, Mask of the Kijin x4, Chaos Oculus x18, Spectral Nucleus x12", 'name':"The Catch",
-        'skill':["", '✰ ']
-        ,'star':'[★★★★]'}
+        'skill':["Shanty", '✰ ท่าไม้ตายสร้างความเสียหายเพิ่มขึ้น 16~32% และอัตราคริเพิ่มของท่าไม้ตายเพิ่มขึ้น 6~12%']
+                    ,'star':'[★★★★]'}
         return lst70
     elif name.lower() == "favonius lance":
         lst71 = {'thum':"https://static.wikia.nocookie.net/gensin-impact/images/5/57/Weapon_Favonius_Lance.png/revision/latest/scale-to-width-down/256?cb=20201116154512", \
@@ -1159,8 +1159,9 @@ def weapon_info_list(name):
         **[✦✦✦✦--]**:30,000 Mora, Shackles of the Dandelion Gladiator x3, Chaos Circuit x12, Slime Secretions x9\n \
         **[✦✦✦✦✦-]**:35,000 Mora, Shackles of the Dandelion Gladiator x6, Chaos Core x9, Slime Concentrate x6\n \
         **[✦✦✦✦✦✦]**:45,000 Mora, Dream of the Dandelion Gladiator x4, Chaos Core x18, Slime Concentrate x12", 'name':"Favonius Lance",
-        'skill':["", '✰ ']
-        ,'star':'[★★★★]'}
+        'skill':["Windfall", '✰ เมื่อโจมตีคริติคอล จะมีโอกาส 60~100% ที่จะ สร้างอณุธาตุ ซึ่งใช้ฟื้นฟูพลังงานธาตุได้ 6 หน่วย โดยเอฟเฟกต์นี้จะใช้ได้หนึ่งครั้งในทุก 12~6 วินาทีเมื่อโจมตีคริติคอล \
+                    จะมีโอกาส 60~100% ที่จะ สร้างอณุธาตุ ซึ่งใช้ฟื้นฟูพลังงานธาตุได้ 6 หน่วย โดยเอฟเฟกต์นี้จะใช้ได้หนึ่งครั้งในทุก 12~6 วินาที']
+                    ,'star':'[★★★★]'}
         return lst71
     elif name.lower() == "dragonspine spear":
         lst72 = {'thum':"https://static.wikia.nocookie.net/gensin-impact/images/1/1a/Weapon_Dragonspine_Spear.png/revision/latest/scale-to-width-down/256?cb=20201223042936", \
@@ -1172,8 +1173,10 @@ def weapon_info_list(name):
         **[✦✦✦✦--]**:30,000 Mora, Boreal Wolf's Broken Fang x3, Mist Grass x12, Sergeant's Insignia x9\n \
         **[✦✦✦✦✦-]**:35,000 Mora, Boreal Wolf's Broken Fang x6, Mist Grass Wick x9, Lieutenant's Insignia x6\n \
         **[✦✦✦✦✦✦]**:45,000 Mora, Boreal Wolf's Nostalgia x4, Mist Grass Wick x18, Lieutenant's Insignia x12", 'name':"Dragonspine Spear",
-        'skill':["", '✰ ']
-        ,'star':'[★★★★]'}
+        'skill':["Frost Burial", '✰ เมื่อโจมตีปกติและชาร์จโจมตีถูกศัตรู จะมีโอกาส 60~100% ที่จะเกิด Everfrost Icicle ขึ้นบนตัวของศัตรูและร่วงลงมาใส่ \
+                    เพื่อสร้างความสียหายวงกว้างเป็น 80% ของพลังโจมตี หากศัตรูตกอยู่ภายใต้ผลกระทบของธาตุน้ำแข็ง จะสร้างความเสียหาย 80~140% ของพลังโจมตี \
+                    โดยที่เอฟเฟกต์ดังกล่าวนี้จะเกิดได้ครั้งเดียวในทุก 10 วินาที']
+                    ,'star':'[★★★★]'}
         return lst72
     elif name.lower() == "dragon's bane":
         lst73 = {'thum':"https://static.wikia.nocookie.net/gensin-impact/images/2/24/Weapon_Dragon%27s_Bane.png/revision/latest/scale-to-width-down/256?cb=20201116033629", \
