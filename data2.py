@@ -1094,7 +1094,7 @@ def weapon_info_list(name):
         **[✦✦✦✦✦-]**:35,000 Mora, Relic from Guyun x6, Inspector's Sacrificial Knife x9, Weathered Arrowhead x6\n \
         **[✦✦✦✦✦✦]**:45,000 Mora, Divine Body from Guyun x4, Inspector's Sacrificial Knife x18, Weathered Arrowhead x12", 'name':"Lithic Blade",
         'skill':["Lithic Axiom - Unity", '✰ สำหรับทีมที่มีตัวละครที่มาจาก Liyue อยู่ในทีม ตัวละครที่ใช้อาวุธนี้จะได้รับพลังโจมตีเพิ่ม 7~11% และอัตราคริเพิ่ม 3~7% โดยเอฟเฟกต์นี้จะซ้อนทับได้มากสุด 4 ชั้น']
-        ,'star':'[★★★★]'}
+                    ,'star':'[★★★★]'}
         return lst66
     elif name.lower() == "prototype starglitter":
         lst67 = {'thum':"https://static.wikia.nocookie.net/gensin-impact/images/7/7e/Weapon_Prototype_Starglitter.png/revision/latest/scale-to-width-down/256?cb=20201116034758", \
@@ -1106,8 +1106,8 @@ def weapon_info_list(name):
         **[✦✦✦✦--]**:30,000 Mora, Bit of Aerosiderite x3, Sturdy Bone Shard x12, Stained Mask x9\n \
         **[✦✦✦✦✦-]**:35,000 Mora, Bit of Aerosiderite x6, Fossilized Bone Shard x9, Ominous Mask x6\n \
         **[✦✦✦✦✦✦]**:45,000 Mora, Chunk of Aerosiderite x4, Fossilized Bone Shard x18, Ominous Mask x12", 'name':"Prototype Starglitter",
-        'skill':["", '✰ ']
-        ,'star':'[★★★★]'}
+        'skill':["Magic Affinity", '✰ หลังจากโจมตีโดยใช้สกิลธาตุ การโจมตีปกติและชาร์จโจมตีจะสร้างความเสียหายเพิ่มขึ้น 8~16% ซึ่งเอฟเฟกต์นี้จะมีระยะเวลาต่อเนื่อง 12 วินาที และเกิดมากสุด 2 ชั้น']
+                    ,'star':'[★★★★]'}
         return lst67
     elif name.lower() == "lithic spear":
         lst68 = {'thum':"https://static.wikia.nocookie.net/gensin-impact/images/2/2a/Weapon_Lithic_Spear.png/revision/latest/scale-to-width-down/256?cb=20210225200953", \
@@ -1119,8 +1119,8 @@ def weapon_info_list(name):
         **[✦✦✦✦--]**:30,000 Mora, Bit of Aerosiderite x3, Sturdy Bone Shard x12, Sharp Arrowhead x9\n \
         **[✦✦✦✦✦-]**:35,000 Mora, Bit of Aerosiderite x6, Fossilized Bone Shard x9, Weathered Arrowhead x6\n \
         **[✦✦✦✦✦✦]**:45,000 Mora, Chunk of Aerosiderite x4, Fossilized Bone Shard x18, Weathered Arrowhead", 'name':"Lithic Spear",
-        'skill':["", '✰ ']
-        ,'star':'[★★★★]'}
+        'skill':["Lithic Axiom - Unity", '✰ สำหรับทีมที่มีตัวละครที่มาจาก Liyue อยู่ในทีม ตัวละครที่ใช้อาวุธนี้จะได้รับพลังโจมตีเพิ่ม 7~11% และอัตราคริเพิ่ม 3~7% โดยเอฟเฟกต์นี้จะซ้อนทับได้มากสุด 4 ชั้น']
+                    ,'star':'[★★★★]'}
         return lst68
     elif name.lower() == "kitain cross spear":
         lst69 = {'thum':"https://static.wikia.nocookie.net/gensin-impact/images/1/13/Weapon_Kitain_Cross_Spear.png/revision/latest/scale-to-width-down/256?cb=20210723074313", \
@@ -1132,8 +1132,10 @@ def weapon_info_list(name):
         **[✦✦✦✦--]**:30,000 Mora, Mask of the One-Horned x3, Chaos Axis x12, Silver Raven Insignia x9\n \
         **[✦✦✦✦✦-]**:35,000 Mora, Mask of the One-Horned x6, Chaos Oculus x9, Golden Raven Insignia x6\n \
         **[✦✦✦✦✦✦]**:45,000 Mora, Mask of the Kijin x4, Chaos Oculus x18, Golden Raven Insignia x12", 'name':"Kitain Cross Spear",
-        'skill':["", '✰ ']
-        ,'star':'[★★★★]'}
+        'skill':["Samurai Conduct", '✰ สกิลธาตุสร้างความเสียหายเพิ่มขึ้น 6~12% และหลังจากที่สกิลธาตุถูกเป้าหมาย ตัวละครจะเสียพลังงานธาตุ 3 หน่วย \
+                    และหลังจากนั้น จะทำการฟื้นฟูพลังธาตุ 3~5 หน่วย ในทุก 2 วินาที เป็นเวลา 6 วินาที โดยที่เอฟเฟกต์นี้จะเกิดขึ้นได้มากสุดหนึ่งครั้ง ในทุก 10 วินาที \
+                    และสามารถเกิดขึ้นได้ แม้ตัวละครจะอยู่ในทีมแต่ไม่ได้เข้าร่วมการต่อสู้ก็ตาม']
+                    ,'star':'[★★★★]'}
         return lst69
     elif name.lower() == "the catch":
         lst70 = {'thum':"https://static.wikia.nocookie.net/gensin-impact/images/f/f5/Weapon_The_Catch.png/revision/latest/scale-to-width-down/256?cb=20210901044833", \
