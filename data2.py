@@ -1428,8 +1428,9 @@ def weapon_info_list(name):
         **[✦✦✦✦--]**:30,000 Mora, Fragment of Decarabian's Epic x3, Chaos Circuit Horn x12, Stained Mask x9\n \
         **[✦✦✦✦✦-]**:35,000 Mora, Fragment of Decarabian's Epic x6, Chaos Core x9, Ominous Mask x6\n \
         **[✦✦✦✦✦✦]**:45,000 Mora, Scattered Piece of Decarabian's Dream x4, Chaos Core x18, Ominous Mask x12", 'name':"Cinnabar Spindle",
-        'skill':["", '✰ ']
-        ,'star':'[★★★★]'}
+        'skill':["Spotless Heart", '✰ เพิ่มความเสียหายของสกิลธาตุโดยปริมาณที่เพิ่มจะเป็น 40~80% ของพลังป้องกัน ซึ่งเอฟเฟกต์นี้จะเกิดขึ้นได้มากสุดหนึ่งครั้งในทุก 1.5 วินาที \
+                    และจะหายไปหลังจากสกิลธาตุสร้างความเสียหายแล้ว 0.1 วินาที']
+                    ,'star':'[★★★★]'}
         return lst91
     elif name.lower() == "blackcliff longsword":
         lst92 = {'thum':"https://static.wikia.nocookie.net/gensin-impact/images/6/6f/Weapon_Blackcliff_Longsword.png/revision/latest/scale-to-width-down/256?cb=20201116033216", \
@@ -1441,8 +1442,8 @@ def weapon_info_list(name):
         **[✦✦✦✦--]**:30,000 Mora, Relic from Guyun x3, Agent's Sacrificial Knife x12, Sharp Arrowhead x9\n \
         **[✦✦✦✦✦-]**:35,000 Mora, Relic from Guyun x6, Inspector's Sacrificial Knife x9, Weathered Arrowhead x6\n \
         **[✦✦✦✦✦✦]**:45,000 Mora, Divine Body from Guyun x4, Inspector's Sacrificial Knife x18, Weathered Arrowhead x12", 'name':"Blackcliff Longsword",
-        'skill':["", '✰ ']
-        ,'star':'[★★★★]'}
+        'skill':["Press the advantage", '✰ หลังจากกำจัดศัตรูได้ พลังโจมตีจะเพิ่มขึ้น 12~24% เป็นเวลา 30 วินาที โดยเอฟเฟกต์นี้จะซ้อนทับกันได้มากสุด 3 ชั้น ซึ่งแต่ละชั้นจะมีระยะเวลาของตัวเอง']
+                    ,'star':'[★★★★]'}
         return lst92
     elif name.lower() == "raven bow":
         lst93 = {'thum':"https://static.wikia.nocookie.net/gensin-impact/images/d/d0/Weapon_Raven_Bow.png/revision/latest/scale-to-width-down/256?cb=20201116034840", \
