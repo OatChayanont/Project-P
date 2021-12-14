@@ -526,8 +526,9 @@ def weapon_info_list(name):
         **[✦✦✦---]**:30,000 Mora, Mist Veiled Mercury Elixir x9, Mist Grass x9, Silver Raven Insignia x9\n \
         **[✦✦✦✦--]**:45,000 Mora, Mist Veiled Gold Elixir x5, Mist Grass x18, Silver Raven Insignia x14\n \
         **[✦✦✦✦✦-]**:55,000 Mora, Mist Veiled Gold Elixir x9, Mist Grass Wick x14, Golden Raven Insignia x9\n \
-        **[✦✦✦✦✦✦]**:65,000 Mora, Mist Veiled Primo Elixir x6, Mist Grass Wick x27, Golden Raven Insignia x18", 'name':"Primordial Jade Cutter"
-        ,'star':'[★★★★★]'}
+        **[✦✦✦✦✦✦]**:65,000 Mora, Mist Veiled Primo Elixir x6, Mist Grass Wick x27, Golden Raven Insignia x18", 'name':"Primordial Jade Cutter",
+        'skill':["Protector's Virtue", '✰ เพิ่มพลังชีวิต 20% นอกจากนี้ จะได้รับโบนัสพลังโจมตีเป็น 1.2% ของพลังชีวิตสูงสุดของตัวละครที่ใช้อาวุธนี้']
+                    ,'star':'[★★★★★]'}
         return lst24
     elif name.lower() == "alley hunter":
         lst25 = {'thum':"https://static.wikia.nocookie.net/gensin-impact/images/0/0a/Weapon_Alley_Hunter.png/revision/latest/scale-to-width-down/256?cb=20210413212830", \
@@ -538,8 +539,10 @@ def weapon_info_list(name):
         **[✦✦✦---]**:20,000 Mora, Chains of the Dandelion Gladiator x6, Chaos Circuit x6, Slime Secretions x6\n \
         **[✦✦✦✦--]**:30,000 Mora, Shackles of the Dandelion Gladiator x3, Chaos Circuit x12, Slime Secretions x9\n \
         **[✦✦✦✦✦-]**:35,000 Mora, Shackles of the Dandelion Gladiator x6, Chaos Core x9, Slime Concentrate x6\n \
-        **[✦✦✦✦✦✦]**:45,000 Mora, Dream of the Dandelion Gladiator x4, Chaos Core x18, Slime Concentrate x12", 'name':"Alley Hunter"
-        ,'star':'[★★★★]'}
+        **[✦✦✦✦✦✦]**:45,000 Mora, Dream of the Dandelion Gladiator x4, Chaos Core x18, Slime Concentrate x12", 'name':"Alley Hunter",
+        'skill':["Oppidan Ambush", '✰ เมื่อตัวละครที่ใช้อาวุธนี้อยู่ในทีมแต่ไม่ได้เข้าร่วมการต่อสู้ ความเสียหายที่ตัวละครสร้างจะเพิ่มขึ้น 2~4% ในทุก 1 วินาที \
+                    โดยจะได้รับการเพิ่มความเสียหายด้วยวิธีนี้ได้มากสุดถึง 20~40%, เมื่อตัวละครเข้าสู่การต่อสู้เกิน 4 วินาที เอฟเฟกต์เพิ่มความเสียหายข้างต้นจะลดลง 4~8% ในทุก 1 วินาที ไปจนกว่าจะถึง 0%']
+                    ,'star':'[★★★★]'}
         return lst25
     elif name.lower() == "the viridescent hunt":
         lst26 = {'thum':"https://static.wikia.nocookie.net/gensin-impact/images/f/ff/Weapon_The_Viridescent_Hunt.png/revision/latest/scale-to-width-down/256?cb=20201120010331", \
@@ -550,8 +553,10 @@ def weapon_info_list(name):
         **[✦✦✦---]**:20,000 Mora, Debris of Decarabian's City x6, Black Bronze Horn x6, Sharp Arrowhead x6\n \
         **[✦✦✦✦--]**:30,000 Mora, Fragment of Decarabian's Epic x3, Black Bronze Horn x12, Sharp Arrowhead x9\n \
         **[✦✦✦✦✦-]**:35,000 Mora, Fragment of Decarabian's Epic x6, Black Crystal Horn x9, Weathered Arrowhead x6\n \
-        **[✦✦✦✦✦✦]**:45,000 Mora, Scattered Piece of Decarabian's Dream x4, Black Crystal Horn x18, Weathered Arrowhead x12", 'name':"The Viridescent Hunt"
-        ,'star':'[★★★★]'}
+        **[✦✦✦✦✦✦]**:45,000 Mora, Scattered Piece of Decarabian's Dream x4, Black Crystal Horn x18, Weathered Arrowhead x12", 'name':"The Viridescent Hunt",
+        'skill':["Verdant Wind", '✰ เมื่อโจมตีปกติและชาร์จโจมตีถูกเป้าหมาย จะมีโอกาส 50% ที่จะเกิดตาพายุขึ้นหนึ่งจุด โดยจะตึงดูดศัตรูโดยรอบอย่างต่อเนื่องและสร้างความเสียหาย 40~80% ของพลังโจมตีแก่ศัตรูเหล่านั้นในทุก 0.5 วินาที \
+                    ซึ่งเอฟเฟกต์นี้จะเกิดขึ้นเป็นเวลา 4 วินาที และจะเกิดขึ้นหนึ่งครั้งในทุก 14~10 วินาที']
+                    ,'star':'[★★★★]'}
         return lst26
     elif name.lower() == "the stringless":
         lst27 = {'thum':"https://static.wikia.nocookie.net/gensin-impact/images/7/71/Weapon_The_Stringless.png/revision/latest/scale-to-width-down/256?cb=20201116035406", \
