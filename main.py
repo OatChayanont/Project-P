@@ -1,6 +1,3 @@
-# 897133833424605224 client
-# ODk3MTMzODMzNDI0NjA1MjI0.YWRO_Q.8lH1q0zOWnm-nF4V4tnbQbydhN8 token
-# 156766824512
 
 import discord
 from discord import colour
@@ -208,4 +205,4 @@ async def weapon(ctx, *, name):
         await ctx.channel.purge(limit=1)
         await ctx.channel.send(embed=send)
 
-bot.run("ODk3MTMzODMzNDI0NjA1MjI0.YWRO_Q.8lH1q0zOWnm-nF4V4tnbQbydhN8")
+bot.run("TOKEN")
