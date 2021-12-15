@@ -9,7 +9,7 @@ from datetime import datetime, timedelta
 #ดึงข้อมูลมาจากไฟล์ data
 from data import character_info_list
 from data2 import weapon_info_list
-from gacha import wish10pull,  wish1pull, garantee5
+from gacha import wish10pull,  wish1pull, garan5
 from dungeon import dungeon_list
 from asyncio import sleep
 from discord.ui import Button, View
@@ -123,6 +123,7 @@ async def gacha(ctx, userinput):
     if userinput == 'wish10': #!gacha wish10
         await ctx.channel.purge(limit=1)
         wish = wish10pull()
+        garantee5 = garan5()
         wish_embed = discord.Embed(title="Gacha Result", color=0x1155FF)
         wish_embed.add_field(name="----------------------------------------------------", value="{0}" .format("\n".join(wish)))
         wish_embed.add_field(name="----------------------------------------------------", value="You're {0} rolls away from guaranteed five stars." .format(90-garantee5), inline=False)
@@ -137,6 +138,7 @@ async def gacha(ctx, userinput):
     elif userinput == 'wish1': #!gacha wish1
         await ctx.channel.purge(limit=1)
         wish = wish1pull()
+        garantee5 = garan5()
         wish_embed = discord.Embed(title="Gacha Result", color=0x1155FF)
         wish_embed.add_field(name="----------------------------------------------------", value="{0}" .format(*wish))
         wish_embed.add_field(name="----------------------------------------------------", value="You're {0} rolls away from guaranteed five stars." .format(90-garantee5), inline=False)
@@ -146,7 +148,7 @@ async def gacha(ctx, userinput):
         elif wish_check.count("4★") == 1:
             wish_embed.set_image(url="https://c.tenor.com/7pBGCuD2JHcAAAAd/genshin.gif")
         else:
-            wish_embed.set_image(url="https://cdn.fbsbx.com/v/t59.2708-21/249061080_3251962895037057_6263778793211452194_n.gif?_nc_cat=107&fallback=1&ccb=1-5&_nc_sid=041f46&_nc_eui2=AeH7Hug5jW-SkoN1Zx3Xx7Yo0QhXCU1U0m_RCFcJTVTSb14fAagtRnGK3myERsKlqAEvgrX2vRJjfzbEDpk6JAAX&_nc_ohc=zSzQXXqjmzIAX-EPoKZ&_nc_ht=cdn.fbsbx.com&oh=d68f65b4397e31e10f49c8d0a55df91c&oe=618A6BB8")
+            wish_embed.set_image(url="https://cdn.discordapp.com/attachments/753197865689677875/920594817615020043/249061080_3251962895037057_6263778793211452194_n.gif")
         await ctx.channel.send(embed=wish_embed)
 
 @bot.command()

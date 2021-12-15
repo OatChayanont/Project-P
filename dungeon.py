@@ -36,7 +36,7 @@ def dungeon_list(day):
                 3: {"name": "Violet Court",
                     "dunbook": "Elegance",
                     "charlist": ["<:ayaka:910108780660924466> Ayaka", "<:sara:910108882351833138> Kujou Sara",
-                                "<:lumine:910114534289731634> Traveler[Electro]"]
+                                "<:itto:920380021829435482> Arataki Itto", "<:lumine:910114534289731634> Traveler[Electro]"]
                     }
             },
             2: {"day": "Wednesday",
@@ -55,7 +55,7 @@ def dungeon_list(day):
                 3: {"name": "Violet Court",
                     "dunbook": "Light",
                     "charlist": ["<:raiden:910108882175660063> Raiden Shogun", "<:sayu:910108881882083339> Sayu",
-                                "<:lumine:910114534289731634> Traveler[Electro]"]
+                                "<:gorou:920380111474262066> Gorou", "<:lumine:910114534289731634> Traveler[Electro]"]
                     }
             },
             3: {"day": "Thursday",
@@ -95,7 +95,7 @@ def dungeon_list(day):
                 3: {"name": "Violet Court",
                     "dunbook": "Elegance",
                     "charlist": ["<:ayaka:910108780660924466> Ayaka", "<:sara:910108882351833138> Kujou Sara",
-                                "<:lumine:910114534289731634> Traveler[Electro]"]
+                                "<:itto:920380021829435482> Arataki Itto", "<:lumine:910114534289731634> Traveler[Electro]"]
                     }
             },
             5: {"day": "Saturday",
@@ -114,7 +114,7 @@ def dungeon_list(day):
                 3: {"name": "Violet Court",
                     "dunbook": "Light",
                     "charlist": ["<:raiden:910108882175660063> Raiden Shogun", "<:sayu:910108881882083339> Sayu",
-                                "<:lumine:910114534289731634> Traveler[Electro]"]
+                                "<:gorou:920380111474262066> Gorou", "<:lumine:910114534289731634> Traveler[Electro]"]
                     }
             },
             6: {"day": "Sunday",
